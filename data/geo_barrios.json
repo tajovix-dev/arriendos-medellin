@@ -459,6 +459,7 @@
  "Medellín|belen fatima": null,
  "Medellín|belen la palma": null,
  "Medellín|belen las mercedes": null,
+ "Medellín|belen las playas": null,
  "Medellín|belen las violetas": null,
  "Medellín|belen los alpes": null,
  "Medellín|belen los molinos": null,
@@ -493,6 +494,11 @@
  "Medellín|boston": {
   "lat": 6.2480409,
   "lon": -75.5576218,
+  "tipo": "zona"
+ },
+ "Medellín|boyaca": {
+  "lat": 6.3047787,
+  "lon": -75.5653717,
   "tipo": "zona"
  },
  "Medellín|bucaros": null,
@@ -533,6 +539,11 @@
  "Medellín|castropol": {
   "lat": 6.2189457,
   "lon": -75.5677819,
+  "tipo": "zona"
+ },
+ "Medellín|cataluna": {
+  "lat": 6.2315602,
+  "lon": -75.5515838,
   "tipo": "zona"
  },
  "Medellín|ciudad del rio": null,
@@ -605,6 +616,11 @@
   "lon": -75.5957112,
   "tipo": "zona"
  },
+ "Medellín|enciso": {
+  "lat": 6.2490513,
+  "lon": -75.5509615,
+  "tipo": "zona"
+ },
  "Medellín|envigado la cuenca": null,
  "Medellín|estadio": {
   "lat": 6.2608828,
@@ -674,6 +690,11 @@
   "lon": -75.601404,
   "tipo": "zona"
  },
+ "Medellín|la francia": {
+  "lat": 6.3005824,
+  "lon": -75.5538798,
+  "tipo": "zona"
+ },
  "Medellín|la frontera": {
   "lat": 6.3054025,
   "lon": -75.555532,
@@ -720,6 +741,11 @@
  "Medellín|lalinde": {
   "lat": 6.2130838,
   "lon": -75.5649409,
+  "tipo": "zona"
+ },
+ "Medellín|las granjas": {
+  "lat": 6.2793392,
+  "lon": -75.5494595,
   "tipo": "zona"
  },
  "Medellín|las lomitas": null,
@@ -785,6 +811,11 @@
   "tipo": "zona"
  },
  "Medellín|malta": null,
+ "Medellín|manrique": {
+  "lat": 6.2750611,
+  "lon": -75.545892,
+  "tipo": "zona"
+ },
  "Medellín|manrique central": null,
  "Medellín|naranjal noroccidente": null,
  "Medellín|nazareth": null,
@@ -793,9 +824,19 @@
   "lon": -75.6076527,
   "tipo": "zona"
  },
+ "Medellín|palenque": {
+  "lat": 6.2790833,
+  "lon": -75.5953789,
+  "tipo": "zona"
+ },
  "Medellín|patio bonito": {
   "lat": 6.2040853,
   "lon": -75.5745864,
+  "tipo": "zona"
+ },
+ "Medellín|pedregal": {
+  "lat": 6.301009,
+  "lon": -75.5737067,
   "tipo": "zona"
  },
  "Medellín|perpetuo socorro": {

@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-15T03:52:58-05:00",
- "total": 1169,
+ "generado": "2026-11-15T04:08:25-05:00",
+ "total": 1306,
  "presupuesto_defecto": 2000000,
  "precio_max": 2000000,
  "publicacion_max_dias": 60,
@@ -315,6 +315,52 @@
     }
    },
    "detalle": {}
+  },
+  {
+   "ts": "2026-11-15T04:08:25-05:00",
+   "seg": 315,
+   "fuentes": {
+    "fincaraiz": {
+     "leidos": 766,
+     "nuevos": 124,
+     "bajaron": 0,
+     "retirados": 0,
+     "error": null
+    },
+    "rentola": {
+     "leidos": 2100,
+     "nuevos": 10,
+     "bajaron": 0,
+     "retirados": 0,
+     "error": null
+    },
+    "albertoalvarez": {
+     "leidos": 494,
+     "nuevos": 3,
+     "bajaron": 0,
+     "retirados": 0,
+     "error": null
+    },
+    "metrocuadrado": {
+     "leidos": 279,
+     "nuevos": 0,
+     "bajaron": 0,
+     "retirados": 0,
+     "error": null
+    }
+   },
+   "detalle": {
+    "Rentola": {
+     "detalles": 10,
+     "retirados": 0,
+     "pendientes": 0
+    },
+    "Alberto Álvarez": {
+     "detalles": 3,
+     "retirados": 0,
+     "pendientes": 0
+    }
+   }
   }
  ]
 }
