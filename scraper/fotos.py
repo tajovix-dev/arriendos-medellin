@@ -90,6 +90,21 @@ def verificar(items, galeria, log=print):
             if ok is not None:
                 cache[u] = [ok, ahora.isoformat(timespec="seconds")]
 
+    # 1b) Si alguna foto probada de un anuncio falló, se prueban TODAS las de ese anuncio
+    #     (a veces solo la portada sirve y el resto está en otra dirección)
+    sospechosos = []
+    for lista in fotos.values():
+        probadas = [u for u in lista[:2] + lista[-1:] if u in cache]
+        if any(not cache[u][0] for u in probadas):
+            sospechosos += [u for u in lista if not vigente(u) and u not in sospechosos]
+    sospechosos = sospechosos[:1500]
+    if sospechosos and time.time() < fin:
+        with ThreadPoolExecutor(HILOS) as ex:
+            for u, ok in zip(sospechosos, ex.map(_probar, sospechosos)):
+                if ok is not None:
+                    cache[u] = [ok, ahora.isoformat(timespec="seconds")]
+    pendientes += sospechosos
+
     # 2) Servidores caídos: casi todas sus pruebas fallan
     por_host = {}
     for u, (ok, _) in cache.items():

@@ -1209,3 +1209,5 @@ details.datos-g summary { cursor: pointer; font-size: .8rem; color: var(--acento
 /* Apartamento pedido que no está en los filtros: marcador destacado */
 .pin.pin-sel span { background: #f59e0b; color: #1d1300; border-color: #b45309; box-shadow: 0 0 0 4px rgba(245,158,11,.35); font-weight: 800; }
 .aviso-fuera { background: #fff4d6; color: #8a5a00; font-size: .78rem; font-weight: 600; padding: 6px 10px; border-radius: 12px 12px 0 0; }
+.det-fecha { margin: 6px 0 0; font-size: .88rem; font-weight: 650; color: var(--texto); }
+.det-fecha.vieja { color: var(--aviso); }

@@ -86,7 +86,12 @@ def detalle(url):
         if m_e:
             v = m_e.group(1)
             estrato = romanos.get(v) or (int(v) if v.isdigit() else None)
-    fotos = [f"{base}property-{codigo}-{n}.jpg" for n in nums]
+    # Se usa la dirección completa tal como la publica la página: según la inmobiliaria las
+    # fotos están en servidores distintos (…albertoalvarez.fullpublic… o …mobilia.acrecer…)
+    completas = {}
+    for u, n in re.findall(r'(https://s3\.amazonaws\.com/[^"\'\s\\]*?property-' + re.escape(codigo) + r'-(\d+)\.jpg)', html):
+        completas.setdefault(int(n), u)
+    fotos = [completas.get(n) or f"{base}property-{codigo}-{n}.jpg" for n in nums]
     if not fotos:
         # Inmuebles de inmobiliarias aliadas (códigos 473-…, 786-…, AC-…): fotos en "PhotoName"
         i = t.find('"PropertyId":"' + codigo + '"')

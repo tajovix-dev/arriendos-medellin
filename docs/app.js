@@ -1418,7 +1418,8 @@ function detalleHTML(it) {
       <span class="lg-fecha">${x.publicado ? `Publicado ${haceLargo(diasPublicado(x))}` : "Sin fecha de publicación"}</span></span></button>`).join("")}</div>` : "";
   return `<div class="detalle-ficha" data-id="${esc(it.id)}">
     <div class="det-cab">
-      <div>${bloquePrecio(it, bajada(it))}<p class="tenue det-adm">${adm}</p></div>
+      <div>${bloquePrecio(it, bajada(it))}<p class="tenue det-adm">${adm}</p>
+        <p class="det-fecha ${antiguedad(it) ? "vieja" : ""}">📅 ${it.publicado ? `Publicado ${haceLargo(diasPublicado(it))} · ${fechaCorta(it.publicado)}` : `${esc(it.fuente)} no informa la fecha de publicación`}</p></div>
       <div class="det-acc">
         <button class="acc-det ${fav ? "on" : ""}" data-acc="fav" aria-label="${fav ? "Quitar de favoritos" : "Guardar en favoritos"}">${fav ? "★ Guardado" : "☆ Guardar"}</button>
         <button class="acc-det" data-acc="desc" aria-label="${desc ? "Restaurar" : "No me interesa"}">${desc ? "↺ Restaurar" : "✕ No me interesa"}</button>
@@ -2240,7 +2241,7 @@ escena.addEventListener("wheel", (e) => {
   e.preventDefault();
   zoomEn(Z.s * (e.deltaY < 0 ? 1.2 : 1 / 1.2), e.clientX, e.clientY);
 }, { passive: false });
-escena.addEventListener("dblclick", (e) => { if (zoomImg()) zoomEn(Z.s > 1 ? 1 : 2.5, e.clientX, e.clientY); });
+escena.addEventListener("dblclick", (e) => { if (e.target.closest("button")) return; if (zoomImg()) zoomEn(Z.s > 1 ? 1 : 2.5, e.clientX, e.clientY); });
 let arrastre = null;
 escena.addEventListener("mousedown", (e) => { if (Z.s > 1) { arrastre = { x: e.clientX - Z.x, y: e.clientY - Z.y }; e.preventDefault(); } });
 window.addEventListener("mousemove", (e) => { if (arrastre) { Z.x = e.clientX - arrastre.x; Z.y = e.clientY - arrastre.y; zoomAplicar(); } });
@@ -2249,6 +2250,7 @@ window.addEventListener("mouseup", () => (arrastre = null));
 let toque = null, ultimoToque = 0;
 const dist = (t) => Math.hypot(t[0].clientX - t[1].clientX, t[0].clientY - t[1].clientY);
 escena.addEventListener("touchstart", (e) => {
+  if (e.target.closest("button")) { toque = null; return; }   // las flechas no cuentan como gesto de zoom
   if (e.touches.length === 2) {
     toque = { pinza: dist(e.touches), s: Z.s, cx: (e.touches[0].clientX + e.touches[1].clientX) / 2, cy: (e.touches[0].clientY + e.touches[1].clientY) / 2 };
   } else if (e.touches.length === 1) {

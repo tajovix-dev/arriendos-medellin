@@ -48,7 +48,7 @@ SHARDS = 64
 
 TZ = timezone(timedelta(hours=-5))  # Colombia
 CAMPOS_GALERIA = ("fotos", "video", "tour")
-DET_VERSION = 2  # súbelo cuando el detalle extraiga campos nuevos, para volver a visitar los anuncios
+DET_VERSION = {"Rentola": 2, "Alberto Álvarez": 3}  # súbelo (por portal) cuando el detalle extraiga campos nuevos
 
 
 def ahora():
@@ -174,7 +174,7 @@ def enriquecer(anuncios, galeria, ts, log):
     for fuente, modulo in CON_DETALLE.items():
         # det < DET_VERSION: nunca visitado o visitado antes de que se extrajeran los campos actuales
         pendientes = [a for a in anuncios.values()
-                      if a.get("fuente") == fuente and (a.get("det") or 0) < DET_VERSION and a.get("disp") is not False
+                      if a.get("fuente") == fuente and (a.get("det") or 0) < DET_VERSION[fuente] and a.get("disp") is not False
                       and a.get("precio", 0) <= config.PRECIO_MAX_GUARDAR]
         pendientes.sort(key=lambda a: a.get("visto1", ""), reverse=True)  # primero los más nuevos
         hechos = retirados = 0
@@ -187,7 +187,7 @@ def enriquecer(anuncios, galeria, ts, log):
             except Exception as e:  # un detalle fallido no detiene la corrida
                 log(f"   detalle {a['id']}: {type(e).__name__}")
                 continue
-            a["det"] = DET_VERSION
+            a["det"] = DET_VERSION[fuente]
             hechos += 1
             if d.get("disponible") is False:
                 a["disp"] = False
