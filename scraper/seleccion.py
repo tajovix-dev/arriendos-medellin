@@ -61,6 +61,16 @@ def generar(visibles, destino, log=print):
     if len(cand) < 3:
         log("Selección IA: muy pocos candidatos, se omite")
         return
+    # Si los candidatos son los mismos de la última vez (mismos anuncios y precios), no se gasta IA
+    import hashlib
+    huella = hashlib.md5("|".join(f'{v["id"]}:{v["precio"]}' for v, _, _ in cand).encode()).hexdigest()[:12]
+    try:
+        previo = json.loads(Path(destino).read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        previo = {}
+    if previo.get("huella") == huella and previo.get("imperdibles"):
+        log("Selección IA: mismos candidatos que la última vez, se reutiliza (0 consultas)")
+        return
     filas = []
     for v, b, d in cand:
         filas.append(
@@ -89,7 +99,7 @@ def generar(visibles, destino, log=print):
            if isinstance(x, dict) and x.get("id") in validos][:6]
     zonas = [{"barrio": str(z.get("barrio", ""))[:60], "municipio": str(z.get("municipio", ""))[:30], "razon": str(z.get("razon", ""))[:160]}
              for z in r.get("zonas", []) if isinstance(z, dict)][:3]
-    salida = {"fecha": datetime.now(timezone(timedelta(hours=-5))).isoformat(timespec="minutes"),
+    salida = {"fecha": datetime.now(timezone(timedelta(hours=-5))).isoformat(timespec="minutes"), "huella": huella,
               "imperdibles": imp, "zonas": zonas, "consejo": str(r.get("consejo", ""))[:200]}
     Path(destino).write_text(json.dumps(salida, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     log(f"Selección IA: {len(imp)} imperdibles, {len(zonas)} zonas · cuota: {ia.resumen_cuota()}")

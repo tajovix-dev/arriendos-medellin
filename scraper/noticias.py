@@ -107,7 +107,7 @@ def _clasificar(lote):
         'Responde JSON: {"items":[{"i":0,"relevante":true,"categoria":"hurto","gravedad":2,"resumen":"máx 120 caracteres"}]}\n\n'
         + "\n".join(lineas)
     )
-    r = ia.preguntar_json(prompt)
+    r = ia.preguntar_json(prompt, tarea="ligero")
     if not r or not isinstance(r.get("items"), list):
         return False
     for x in r["items"]:
