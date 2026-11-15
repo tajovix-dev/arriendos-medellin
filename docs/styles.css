@@ -1233,3 +1233,14 @@ details.datos-g summary { cursor: pointer; font-size: .8rem; color: var(--acento
 .imp-razon { white-space: normal; font-size: .74rem; line-height: 1.3; }
 .imp-zonas, .imp-consejo { font-size: .82rem; margin-top: 8px; }
 .imp-zonas span { text-decoration: underline dotted; cursor: help; }
+/* Imperdibles: texto legible */
+.imp-tit { font-size: .95rem; }
+.imp-razon { display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden;
+  white-space: normal; font-size: .82rem !important; line-height: 1.4; color: var(--texto) !important; margin-top: 4px; }
+.imp-zonas { margin-top: 12px; }
+.imp-sub { font-size: .85rem; font-weight: 700; margin-bottom: 6px; }
+.imp-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.imp-chip { background: var(--sup2); border: 1px solid var(--borde); border-radius: 999px; padding: 5px 10px; font-size: .84rem; font-weight: 600; text-decoration: none; cursor: default; }
+.imp-chip small { font-weight: 400; color: var(--tenue); margin-left: 2px; }
+.imp-consejo { margin-top: 10px; padding: 8px 10px; border-radius: 10px; background: color-mix(in srgb, #f59e0b 12%, var(--sup)); font-size: .86rem; line-height: 1.45; color: var(--texto); }
+.imp-zonas .imp-chip, .imp-zonas .imp-chip small { text-decoration: none; }

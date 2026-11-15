@@ -1101,7 +1101,8 @@ function bloqueImperdibles(lista) {
   if (!its.length) return "";
   return `<div class="razon imp-tit">⭐ Imperdibles de hoy según la IA <span class="tenue">(${esc(hace(IA_SEL.fecha))})</span></div>
     <div class="carrusel">${its.map(({ s, x }) => miniTarjeta(x, `<span class="razon imp-razon">${esc(s.razon)}</span>`)).join("")}</div>
-    ${(IA_SEL.zonas || []).length ? `<div class="imp-zonas"><b>Mejores zonas para buscar ahora:</b> ${IA_SEL.zonas.map((z) => `<span title="${esc(z.razon)}">${esc(z.barrio)} (${esc(z.municipio)})</span>`).join(" · ")}</div>` : ""}
+    ${(IA_SEL.zonas || []).length ? `<div class="imp-zonas"><div class="imp-sub">📍 Mejores zonas para buscar ahora</div>
+      <div class="imp-chips">${IA_SEL.zonas.map((z) => `<span class="imp-chip" title="${esc(z.razon)}">${esc(z.barrio)} <small>${esc(z.municipio)}</small></span>`).join("")}</div></div>` : ""}
     ${IA_SEL.consejo ? `<div class="imp-consejo">💡 ${esc(IA_SEL.consejo)}</div>` : ""}`;
 }
 function renderRecomendados(lista) {
