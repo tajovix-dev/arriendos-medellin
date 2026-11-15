@@ -1,20 +1,13 @@
 {
- "agotadas": [
-  "9iaw",
-  "6TF0",
-  "R7Cc",
-  "NAkE",
-  "yfLA",
+ "agotadas": [],
+ "fecha": "2026-11-15",
+ "groq": 0,
+ "invalidas": [
   "o0w4"
  ],
- "fecha": "2026-11-15",
- "gemini": {
-  "6TF0": 16,
-  "9iaw": 13,
-  "NAkE": 18,
-  "R7Cc": 16,
-  "o0w4": 4,
-  "yfLA": 19
- },
- "groq": 36
+ "uso": {
+  "gemini-2.5-flash|6TF0": 1,
+  "gemini-2.5-flash|9iaw": 1,
+  "gemini-2.5-flash|o0w4": 1
+ }
 }
