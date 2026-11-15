@@ -438,5 +438,51 @@
     "pendientes": 0
    }
   }
+ },
+ {
+  "ts": "2026-11-15T08:12:53-05:00",
+  "seg": 310,
+  "fuentes": {
+   "fincaraiz": {
+    "leidos": 766,
+    "nuevos": 0,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "rentola": {
+    "leidos": 2100,
+    "nuevos": 1,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "albertoalvarez": {
+    "leidos": 572,
+    "nuevos": 0,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "metrocuadrado": {
+    "leidos": 279,
+    "nuevos": 0,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   }
+  },
+  "detalle": {
+   "Rentola": {
+    "detalles": 1,
+    "retirados": 0,
+    "pendientes": 0
+   },
+   "Alberto Álvarez": {
+    "detalles": 0,
+    "retirados": 0,
+    "pendientes": 0
+   }
+  }
  }
 ]
