@@ -1,0 +1,758 @@
+{
+  "municipio": "La Estrella",
+  "contexto_municipio": "La Estrella es un municipio pequeño del sur del Valle de Aburrá con pocos homicidios en números absolutos: según El Colombiano hubo 7 en 2025 frente a 10 en 2024 (6 en 2023), y en enero de 2026 dos hombres fueron asesinados por sicarios en moto en la variante a Caldas. La extorsión ('vacunas') sí está documentada: en mayo de 2026 la Policía capturó a 'El Zarco', cabecilla de 'Altos de la Virgen', grupo señalado de extorsión, microtráfico y desplazamiento en La Estrella y Sabaneta durante más de 20 años (con presencia en La Tablaza, La Virgen y La Raya); la Fiscalía judicializó a 15 presuntos miembros de la banda 'La Inmaculada o El Hoyo', y en el sector El Hoyo se demolieron 8 inmuebles usados para microtráfico. La calidad de vida se suele valorar bien (en una encuesta citada por El Colombiano, sin fecha clara, el 94% de los residentes dijo sentirse orgulloso del municipio). Tiene la estación terminal del Metro Línea A (La Estrella/Ancón), pero gran parte del territorio es de ladera, con lomas, dependencia de buses y riesgo de deslizamientos en lluvias (eventos en 2025 cerca de La Inmaculada/río Aburrá, variante a Caldas y vereda La Raya). No existen estadísticas oficiales públicas de delitos por barrio; los conteos de noticias por barrio son aproximados y vienen de búsquedas en prensa. En lo práctico: EPM programa cortes de agua periódicos (por ejemplo San Agustín y Zona Industrial en octubre de 2026, Pueblo Viejo en agosto de 2026); la quebrada La Bermejala se desbordó el 12 de febrero de 2026 (17-20 viviendas afectadas); y en enero de 2026 la Alcaldía cerró cuatro discotecas o amanecederos por ruido.",
+  "barrios": [
+    {
+      "nombre": "La Aldea",
+      "seguridad": "media-alta",
+      "confianza": "baja",
+      "positivos": [
+        "Cerca del Mall 77 Sur y de la calle 77 Sur según anuncios",
+        "Mucha oferta de apartamentos en unidades cerradas",
+        "Entorno más verde y menos denso"
+      ],
+      "negativos": [
+        "Sector con pendiente; Fincaraiz lo menciona entre las zonas altas donde caminar cuesta más",
+        "Depende de bus o carro para llegar al metro",
+        "El cruce de la calle 77 Sur con carrera 52D estuvo casi dos años sin semáforos (arreglado en junio de 2025)"
+      ],
+      "resumen": "Zona residencial de unidades cerradas bien conectada con el Mall 77 Sur. No encontré noticias de delitos en el barrio; la calificación de seguridad es indirecta (ausencia de noticias negativas).",
+      "fuentes": [
+        "https://www.fincaraiz.com.co/blog/como-es-vivir-en-la-estrella/",
+        "https://telemedellin.tv/?p=127015"
+      ],
+      "terreno": "ondulado",
+      "terreno_nota": "Sector de ladera con pendientes moderadas; según el conjunto, la subida puede ser exigente.",
+      "cerca": [
+        "Mall 77 Sur (según anuncios, cerca)",
+        "Calle 77 Sur y rutas de bus",
+        "Comercio de barrio"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No encontré noticias de delitos en La Aldea en 2024-2026. La única noticia local es sobre los semáforos de la 77 Sur."
+      },
+      "recomendacion": "recomendado",
+      "razon_recomendacion": "No aparecen noticias de violencia ni extorsión y tiene buen acceso a comercio, aunque conviene verificar la pendiente y el bus hasta el metro.",
+      "problemas": [
+        {
+          "tipo": "altura",
+          "nivel": "medio",
+          "detalle": "Sector de ladera que Fincaraiz menciona entre las zonas altas donde caminar cuesta más."
+        },
+        {
+          "tipo": "trafico",
+          "nivel": "medio",
+          "detalle": "El cruce de la calle 77 Sur con carrera 52D estuvo casi dos años sin semáforos y era peligroso para peatones; se reparó en junio de 2025."
+        }
+      ],
+      "accesos": "Se llega por la calle 77 Sur y sus conexiones hacia la Autopista Sur y el Mall 77 Sur; sin carro depende de buses, porque al metro no se llega cómodamente a pie.",
+      "opiniones": [
+        {
+          "texto": "Residentes denunciaron que los semáforos de la 77 Sur con 52D llevaban casi dos años apagados y cruzar era un riesgo diario.",
+          "fuente": "https://telemedellin.tv/?p=127015"
+        }
+      ]
+    },
+    {
+      "nombre": "La Ferrería",
+      "seguridad": "media-alta",
+      "confianza": "baja",
+      "positivos": [
+        "Ambiente residencial y tranquilo con clima fresco (según anuncios)",
+        "Institución Educativa La Ferrería, Éxito y parque principal en la zona",
+        "Mucha oferta en arriendo (promedio aprox. $2,2 millones, estrato 4)"
+      ],
+      "negativos": [
+        "Sector de ladera: pendientes y accesos a revisar",
+        "No se llega al metro a pie; depende de rutas de bus"
+      ],
+      "resumen": "Uno de los sectores con más arriendos, en unidades cerradas de ladera. No encontré noticias de delitos en el barrio; la seguridad se infiere de forma indirecta.",
+      "fuentes": [
+        "https://www.fincaraiz.com.co/arriendo/apartamentos/la-estrella/la-ferreria",
+        "https://www.fincaraiz.com.co/blog/como-es-vivir-en-la-estrella/",
+        "https://www.elcolombiano.com/antioquia/obras-demoras-la-estrella-sabaneta-antioquia-EO29506130"
+      ],
+      "terreno": "lomas fuertes",
+      "terreno_nota": "Fincaraiz lo menciona entre las zonas altas y de ladera donde caminar exige más esfuerzo.",
+      "cerca": [
+        "Institución Educativa La Ferrería",
+        "Supermercado Éxito (según anuncios)",
+        "Parque principal de La Estrella (en carro o bus, verificar a pie)"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No encontré noticias de delitos ubicadas en La Ferrería en 2024-2026."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "No hay noticias negativas, pero las lomas fuertes y la dependencia del bus pesan; es buena opción si el conjunto tiene buen acceso o si se tiene vehículo.",
+      "problemas": [
+        {
+          "tipo": "altura",
+          "nivel": "alto",
+          "detalle": "Ladera de pendiente fuerte; Fincaraiz advierte que hay que revisar pendientes y accesos."
+        },
+        {
+          "tipo": "obras",
+          "nivel": "medio",
+          "detalle": "La ampliación de la carrera 62A entre las calles 74 Sur y 76 Sur, anunciada en 2021, seguía sin entregarse por completo según El Colombiano (fecha de la nota sin confirmar)."
+        }
+      ],
+      "accesos": "Se accede por vías de ladera como la carrera 62A, cuya ampliación sigue pendiente; sin carro depende de rutas de bus con subida.",
+      "opiniones": [
+        {
+          "texto": "Vecinos de la carrera 62A se quejan de que la vía no tiene andenes y piden a la Alcaldía una solución definitiva.",
+          "fuente": "https://www.elcolombiano.com/antioquia/ni-un-centimetro-de-acera-tienen-los-vecinos-de-una-via-en-la-estrella-JO11682649"
+        },
+        {
+          "texto": "Ciudadanos de La Estrella y Sabaneta esperan desde hace años la entrega de la ampliación vial del sector, que acumula retrasos.",
+          "fuente": "https://www.elcolombiano.com/antioquia/obras-demoras-la-estrella-sabaneta-antioquia-EO29506130"
+        }
+      ]
+    },
+    {
+      "nombre": "Suramérica (sector de La Estrella)",
+      "seguridad": "media-alta",
+      "confianza": "baja",
+      "positivos": [
+        "Junto al Mall Suramérica y el Bulevar Suramérica",
+        "Un anuncio ubica la estación La Estrella del metro a unos 10 minutos a pie",
+        "Zona plana y planificada, con vías amplias (según anuncios)",
+        "Comercio, gimnasios y colegios cerca"
+      ],
+      "negativos": [
+        "Arriendos relativamente altos (anuncios de unos $2,5 millones)",
+        "Más tráfico y ruido por ser zona comercial y de paso entre municipios"
+      ],
+      "resumen": "Sector plano y bien conectado en el límite con Itagüí y Sabaneta, de los más cómodos para vivir sin carro. No encontré noticias de delitos en el barrio.",
+      "fuentes": [
+        "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-suramerica-la-estrella-3451440",
+        "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-suramerica-la-estrella/191766888",
+        "https://www.metrocuadrado.com/inmueble/venta-casa-la-estrella-suramerica-3-habitaciones-2-banos-2-garajes/12133-M6802518"
+      ],
+      "terreno": "plano",
+      "terreno_nota": "Urbanización planificada en la parte baja del valle, con calles mayormente planas.",
+      "cerca": [
+        "Mall Suramérica (adyacente)",
+        "Estación La Estrella del metro (~10 min a pie según un anuncio)",
+        "Bulevar Suramérica",
+        "Smart Fit y supermercados D1"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No encontré noticias de delitos ubicadas en Suramérica (La Estrella) en 2024-2026."
+      },
+      "recomendacion": "recomendado",
+      "razon_recomendacion": "Es plano, está cerca del metro y del comercio y no tiene noticias negativas, aunque cuesta más.",
+      "problemas": [
+        {
+          "tipo": "trafico",
+          "nivel": "medio",
+          "detalle": "Zona comercial y de paso entre Itagüí, Sabaneta y La Estrella, con movimiento alrededor del Mall Suramérica (característica del lugar)."
+        }
+      ],
+      "accesos": "Plano y con varias vías: Bulevar Suramérica, conexión con la Autopista Sur y la Regional; la estación La Estrella está a unos 10 minutos a pie según un anuncio, así que es fácil vivir sin carro.",
+      "opiniones": []
+    },
+    {
+      "nombre": "Toledo",
+      "seguridad": "sin datos",
+      "confianza": "baja",
+      "positivos": [
+        "A pocos minutos del Mall Suramérica, Mall 77 Sur, D1 y Smart Fit (según anuncios)",
+        "Unidades cerradas con más espacio entre construcciones",
+        "Colegio Divino Salvador cerca"
+      ],
+      "negativos": [
+        "Sector de ladera con pendientes",
+        "Hay que revisar la frecuencia de las rutas de bus"
+      ],
+      "resumen": "Sector residencial de ladera con unidades cerradas y comercio a pocos minutos en carro o bus. No encontré noticias de seguridad.",
+      "fuentes": [
+        "https://www.fincaraiz.com.co/blog/como-es-vivir-en-la-estrella/",
+        "https://www.fincaraiz.com.co/arriendo/casas/toledo/la-estrella/3-habitaciones/",
+        "https://antioquia.gov.co/noticias-dagran/trece-eventos-en-antioquia-fueron-reportados-al-dagran-el-pasado-fin-de-semana-inundaciones-y-deslizamientos-continuan-siendo-las-emergencias-recurrentes"
+      ],
+      "terreno": "lomas fuertes",
+      "terreno_nota": "Fincaraiz lo incluye entre los sectores de ladera donde hay que revisar pendientes y accesos.",
+      "cerca": [
+        "Colegio Divino Salvador (según anuncios)",
+        "Mall Suramérica y Mall 77 Sur (a pocos minutos, probablemente en vehículo)",
+        "Supermercados D1"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No encontré noticias de delitos ubicadas en Toledo en 2024-2026."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "No hay noticias negativas, pero hay poca información y las lomas son fuertes.",
+      "problemas": [
+        {
+          "tipo": "altura",
+          "nivel": "alto",
+          "detalle": "Sector de ladera con pendientes, según Fincaraiz."
+        },
+        {
+          "tipo": "inundacion",
+          "nivel": "medio",
+          "detalle": "Un reporte del DAGRAN, sin fecha confirmada, menciona afectación por inundación en los barrios Toledo y Tarapacá y en el parque principal durante lluvias fuertes."
+        }
+      ],
+      "accesos": "Se accede por vías de ladera hacia el Mall Suramérica y la 77 Sur; sin carro depende de buses.",
+      "opiniones": []
+    },
+    {
+      "nombre": "La Tablaza",
+      "seguridad": "media-baja",
+      "confianza": "media",
+      "positivos": [
+        "Arriendos más económicos que en la zona urbana",
+        "Ambiente semirrural y salida rápida hacia Caldas",
+        "Un anuncio la sitúa a unos 10 minutos (en vehículo) de la estación La Estrella"
+      ],
+      "negativos": [
+        "Está entre las zonas priorizadas por la Policía contra la inseguridad (patrullajes de Carabineros)",
+        "Varios homicidios recientes: triple homicidio en agosto de 2024 ligado a una riña en bares de La Tablaza, una mujer asesinada en marzo de 2025 y un joven muerto tras una pelea en una discoteca en Altos de la Cruz",
+        "Presencia del grupo 'Altos de la Virgen' (extorsión y microtráfico), golpeado en mayo de 2026",
+        "Lejos del metro y del comercio grande"
+      ],
+      "resumen": "Corregimiento con arriendos más baratos pero con más noticias de violencia que el resto del municipio, sobre todo ligadas a riñas nocturnas y a una banda local. Si se considera, conviene elegir una unidad cerrada y visitarla de día y de noche.",
+      "fuentes": [
+        "https://www.elcolombiano.com/antioquia/triple-homicidio-masacre-casa-la-estrella-AB25240536",
+        "https://www.minuto30.com/amp/asesinan-a-claudia-en-la-estrella-la-mujer-de-49-anos-hallada-con-multiples-heridas/1654631/",
+        "https://www.bluradio.com/regiones/antioquia/cae-red-de-extorsionistas-en-el-valle-de-aburra-generaba-400-millones-mensuales-rg10",
+        "https://www.minuto30.com/amp/emergencia-quebrada-bermejala-la-estrella/1698290/",
+        "https://www.elcolombiano.com/antioquia/megaedificios-sin-agua-en-la-estrella-antioquia-una-vieja-pesadilla-se-repite-BJ23088238"
+      ],
+      "terreno": "ondulado",
+      "terreno_nota": "Zona de transición rural-urbana con calles en pendiente variable.",
+      "cerca": [
+        "Comercio local y bares del corregimiento",
+        "Vía hacia Caldas / variante",
+        "Lejos del metro y de los centros comerciales"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 1,
+        "sicariato_homicidios": 3,
+        "hurtos": 0,
+        "microtrafico": 1,
+        "periodo": "2024-2026",
+        "detalle": "Triple homicidio en agosto de 2024 tras una riña en bares de La Tablaza; mujer asesinada en marzo de 2025 que, según la hipótesis policial, había sido amenazada por la banda 'La Virgen'; joven muerto tras una pelea en una discoteca (Altos de la Cruz). En mayo de 2026 se capturó a la cúpula de 'Altos de la Virgen', con presencia en La Tablaza."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Reúne hechos graves recientes y una banda extorsiva, además de tráfico pesado en la variante, problemas de acueducto y una quebrada que se desbordó en 2026.",
+      "problemas": [
+        {
+          "tipo": "inundacion",
+          "nivel": "medio",
+          "detalle": "El 12 de febrero de 2026 la quebrada La Bermejala alcanzó alerta naranja en La Tablaza (SIATA); el desbordamiento afectó 17-20 viviendas y obligó a evacuar a 68 personas en el municipio."
+        },
+        {
+          "tipo": "trafico",
+          "nivel": "alto",
+          "detalle": "La variante a Caldas (unos 10.000 vehículos diarios) y la vía vieja a Caldas concentran accidentes, cierres y trancones; la zona de bodegas es el punto con más incidentes fatales."
+        },
+        {
+          "tipo": "deslizamiento",
+          "nivel": "medio",
+          "detalle": "En 2025 hubo alertas por riesgo de deslizamiento en la variante a Caldas (límites con Sabaneta) y un deslizamiento en la vereda La Raya (SIATA, mayo de 2025)."
+        },
+        {
+          "tipo": "ruido",
+          "nivel": "medio",
+          "detalle": "Hay bares y discotecas con riñas reportadas; en enero de 2026 la Alcaldía cerró cuatro amanecederos del municipio por ruido (sin precisar si estaban en La Tablaza)."
+        },
+        {
+          "tipo": "agua",
+          "nivel": "alto",
+          "detalle": "Hubo protestas por unos 40 días de racionamiento de agua, y en noviembre de 2023 varias megaunidades (una de 320 apartamentos) quedaron sin agua por conexiones incompletas a EPM."
+        }
+      ],
+      "accesos": "Se llega por la variante a Caldas o la vía vieja a Caldas, ambas con tráfico pesado y cierres por accidentes o deslizamientos; sin carro depende de buses y queda lejos del metro.",
+      "opiniones": [
+        {
+          "texto": "Líderes comunitarios protestaron por unos 40 días de racionamiento de agua, con cortes de hasta 48 horas para miles de habitantes.",
+          "fuente": "https://www.elcolombiano.com/antioquia/protesta-en-la-estrella-por-cortes-de-agua-en-zona-rural-HG22600896"
+        },
+        {
+          "texto": "Habitantes de una unidad de 320 apartamentos reportaron quedarse sin agua y abastecerse con mangueras y tanques improvisados (2023).",
+          "fuente": "https://www.elcolombiano.com/antioquia/megaedificios-sin-agua-en-la-estrella-antioquia-una-vieja-pesadilla-se-repite-BJ23088238"
+        }
+      ]
+    },
+    {
+      "nombre": "Poblado del Sur",
+      "seguridad": "media-alta",
+      "confianza": "baja",
+      "positivos": [
+        "Zona residencial tranquila y en desarrollo, con zonas verdes (según portales)",
+        "Acceso a la estación La Estrella del metro, la Avenida Regional y la Autopista Sur",
+        "Cerca del Hospital La Estrella, Colegio La Salle y CC Viva La Estrella",
+        "Amplia oferta (unos 96 apartamentos en arriendo en Fincaraiz)"
+      ],
+      "negativos": [
+        "Arriendo promedio alto para el municipio (aprox. $3,4 millones)",
+        "Límites poco claros: algunos anuncios lo mezclan con La Ferrería, Las Brisas o Bavaria"
+      ],
+      "resumen": "Sector residencial bien conectado con el metro y las vías principales, con mucha oferta pero precios más altos. No encontré noticias de delitos en el barrio.",
+      "fuentes": [
+        "https://www.fincaraiz.com.co/arriendo/apartamentos/la-estrella/poblado-del-sur",
+        "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-la-estrella-poblado-del-sur-2-habitaciones-2-banos-1-garajes/4229-M7128848"
+      ],
+      "terreno": "ondulado",
+      "terreno_nota": "Pendientes moderadas; algunos conjuntos quedan en la parte alta.",
+      "cerca": [
+        "Estación La Estrella del metro (acceso cercano según portales; verificar el tiempo a pie)",
+        "CC Viva La Estrella",
+        "Hospital La Estrella",
+        "Colegio La Salle",
+        "Avenida Regional / Autopista Sur"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No encontré noticias de delitos ubicadas en Poblado del Sur en 2024-2026."
+      },
+      "recomendacion": "recomendado",
+      "razon_recomendacion": "Tiene buen acceso a metro, salud y comercio y no aparecen noticias negativas; el principal inconveniente es el precio.",
+      "problemas": [],
+      "accesos": "Tiene acceso cercano a la Avenida Regional, la Autopista Sur y la estación La Estrella, con varias rutas de bus según los portales; se puede vivir razonablemente sin carro.",
+      "opiniones": []
+    },
+    {
+      "nombre": "Pueblo Viejo",
+      "seguridad": "media-baja",
+      "confianza": "media",
+      "positivos": [
+        "Entorno de montaña, más tranquilo y rural",
+        "Precios en general más bajos"
+      ],
+      "negativos": [
+        "Sector El Hoyo: 175 aplicaciones del Código de Policía entre 2022 y 2025 y demolición de 8 inmuebles usados para microtráfico (una fuente lo ubica en La Inmaculada N.º 2)",
+        "La Fiscalía judicializó a la banda 'La Inmaculada o El Hoyo' por extorsión; uno de los hechos fue un ataque en Pueblo Viejo en diciembre de 2023",
+        "Zona alta: recorridos a pie exigentes",
+        "Lejos del metro y del comercio"
+      ],
+      "resumen": "Vereda de ladera con un foco de microtráfico y extorsión documentado (El Hoyo), que las autoridades intervinieron. No todo Pueblo Viejo es igual, pero conviene evitar ese sector y visitar antes de alquilar.",
+      "fuentes": [
+        "https://www.minuto30.com/amp/se-acabaron-los-escondites-derriban-8-inmuebles-senalados-por-actividades-criminales-en-la-estrella/1720743/",
+        "https://www.fiscalia.gov.co/colombia/en/?p=43380",
+        "https://www.fincaraiz.com.co/blog/como-es-vivir-en-la-estrella/",
+        "https://www.elcolombiano.com/antioquia/contraloria-seguimiento-acueducto-pueblo-viejo-la-estrella-antioquia-IP33969450"
+      ],
+      "terreno": "lomas fuertes",
+      "terreno_nota": "Zona alta de montaña; Fincaraiz advierte que el esfuerzo de los recorridos aumenta.",
+      "cerca": [
+        "Lejos de comercio y transporte"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 1,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 1,
+        "periodo": "2024-2026",
+        "detalle": "Demolición de 8 inmuebles en El Hoyo señalados por microtráfico y judicialización de la banda 'La Inmaculada o El Hoyo' por extorsión (con hechos de 2023 en Pueblo Viejo). No encontré homicidios ubicados aquí en el periodo."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Tiene un foco criminal documentado, problemas de acueducto con obra retrasada, lomas fuertes y está lejos de los servicios.",
+      "problemas": [
+        {
+          "tipo": "agua",
+          "nivel": "alto",
+          "detalle": "En febrero de 2026 la Contraloría hizo seguimiento a la obra del acueducto de Pueblo Viejo, que había estado en 0% y llevaba 21% de avance físico; hubo además un corte programado de EPM el 27 de agosto de 2026."
+        },
+        {
+          "tipo": "altura",
+          "nivel": "alto",
+          "detalle": "Zona alta de montaña donde los recorridos a pie son exigentes (Fincaraiz)."
+        },
+        {
+          "tipo": "obras",
+          "nivel": "medio",
+          "detalle": "La obra del acueducto de Pueblo Viejo está retrasada (6% de avance financiero en febrero de 2026, según la Contraloría)."
+        }
+      ],
+      "accesos": "Se accede por vías de montaña desde la cabecera; sin carro depende de buses o colectivos y queda lejos del metro.",
+      "opiniones": [
+        {
+          "texto": "Residentes bloquearon la vía vieja a Caldas en protesta porque el alcantarillado llevaba años retrasado y del grifo salía agua turbia.",
+          "fuente": "https://www.elcolombiano.com/antioquia/en-la-estrella-protestan-porque-no-les-han-hecho-un-acueducto-GA20316154"
+        },
+        {
+          "texto": "La comunidad anunció un plantón por fallas en el agua potable y por el mal estado de las vías.",
+          "fuente": "https://www.pulzo.com/nacion/antioquia-comunidad-protestara-agua-potable-vias-PP2626622A"
+        }
+      ]
+    },
+    {
+      "nombre": "Las Brisas",
+      "seguridad": "sin datos",
+      "confianza": "baja",
+      "positivos": [
+        "Subsector urbano cercano a Poblado del Sur y a la cabecera",
+        "Oferta de apartamentos en portales inmobiliarios"
+      ],
+      "negativos": [
+        "Casi no hay información pública sobre el barrio",
+        "Hay que verificar las pendientes y el acceso al transporte"
+      ],
+      "resumen": "Aparece en los anuncios como subsector cercano a Poblado del Sur, pero no encontré noticias ni opiniones sobre su seguridad.",
+      "fuentes": [
+        "https://www.fincaraiz.com.co/inmobiliarias/grupo-empresarial-mi/174706628/venta/las-brisas/la-estrella"
+      ],
+      "terreno": "ondulado",
+      "terreno_nota": "Probablemente con pendiente moderada como los sectores vecinos; no verificado.",
+      "cerca": [
+        "Probablemente los mismos servicios de Poblado del Sur (Hospital, CC Viva La Estrella); no verificado"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No encontré noticias de delitos ubicadas en Las Brisas en 2024-2026."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "No hay noticias negativas, pero la información es tan escasa que conviene verificar en persona.",
+      "problemas": [],
+      "accesos": "Comparte probablemente los accesos de Poblado del Sur (Regional y Autopista Sur), pero no está verificado.",
+      "opiniones": []
+    },
+    {
+      "nombre": "Prados de Sabaneta (sector en límites con La Estrella)",
+      "seguridad": "sin datos",
+      "confianza": "baja",
+      "positivos": [
+        "Según un anuncio, a unos 5 minutos del metro La Estrella y del parque principal de Sabaneta",
+        "Cerca de los servicios y el comercio de Sabaneta"
+      ],
+      "negativos": [
+        "Los portales lo clasifican como barrio de Sabaneta, así que la dirección, el estrato y los servicios pueden depender de Sabaneta",
+        "Poca información específica"
+      ],
+      "resumen": "Sector de borde, administrativamente más ligado a Sabaneta y bien ubicado respecto al metro. No encontré noticias de seguridad propias.",
+      "fuentes": [
+        "https://www.metrocuadrado.com/inmueble/venta-apartamento-sabaneta-prados-de-sabaneta-2-habitaciones-2-banos-1-garajes/19215-M6389170"
+      ],
+      "terreno": "ondulado",
+      "terreno_nota": "Parte baja del costado de Sabaneta con pendiente moderada; no verificado en detalle.",
+      "cerca": [
+        "Estación La Estrella del metro (~5 min según un anuncio)",
+        "Parque principal de Sabaneta (~5 min según un anuncio)",
+        "Comercio de Sabaneta"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No encontré noticias de delitos ubicadas en Prados de Sabaneta en 2024-2026."
+      },
+      "recomendacion": "recomendado",
+      "razon_recomendacion": "Está muy cerca del metro y de los servicios de Sabaneta y no tiene noticias negativas, aunque la información es limitada.",
+      "problemas": [],
+      "accesos": "Según un anuncio, queda a unos 5 minutos de la estación La Estrella y del parque de Sabaneta; se llega por las vías de Sabaneta y es manejable sin carro.",
+      "opiniones": []
+    },
+    {
+      "nombre": "Horizontes",
+      "seguridad": "sin datos",
+      "confianza": "baja",
+      "positivos": [
+        "Cerca del parque principal y del hospital de La Estrella (según anuncios)",
+        "Vías pavimentadas y acceso fácil"
+      ],
+      "negativos": [
+        "Poca información pública sobre el barrio",
+        "Probablemente con pendiente, como gran parte de la cabecera"
+      ],
+      "resumen": "Barrio cercano al centro de La Estrella con servicios básicos a mano. No encontré noticias ni opiniones sobre su seguridad.",
+      "fuentes": [
+        "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-horizontes-la-estrella-3779856"
+      ],
+      "terreno": "ondulado",
+      "terreno_nota": "Cabecera municipal con calles inclinadas; no verificado en detalle.",
+      "cerca": [
+        "Parque principal de La Estrella (según anuncios)",
+        "Hospital La Estrella (según anuncios)",
+        "Comercio del centro"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No encontré noticias de delitos ubicadas en Horizontes en 2024-2026."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Tiene buenos servicios cerca, pero muy poca información para afirmar que es seguro.",
+      "problemas": [
+        {
+          "tipo": "altura",
+          "nivel": "bajo",
+          "detalle": "Está en la cabecera, con calles inclinadas típicas del centro (característica general, no verificada en detalle)."
+        }
+      ],
+      "accesos": "Cercano al parque principal y al hospital, con rutas de bus del centro; manejable sin carro, aunque el metro requiere bus.",
+      "opiniones": []
+    },
+    {
+      "nombre": "Loma de San José (sector La Estrella)",
+      "seguridad": "sin datos",
+      "confianza": "baja",
+      "positivos": [
+        "Vista panorámica del valle y senderos verdes",
+        "Cerca del CC Aves María, CEIPA y el Hospital Venancio Díaz",
+        "Algunos anuncios lo sitúan cerca del metro La Estrella"
+      ],
+      "negativos": [
+        "Loma pronunciada: la parte alta y la baja cambian mucho en acceso y transporte",
+        "Los portales lo clasifican mayoritariamente en Sabaneta",
+        "Precios altos (venta promedio cercana a $515 millones)"
+      ],
+      "resumen": "Sector residencial en loma, valorizado y con buena vista, entre Sabaneta y La Estrella. No encontré noticias de seguridad; la pendiente es el factor práctico principal.",
+      "fuentes": [
+        "https://www.fincaraiz.com.co/venta/apartamentos/sabaneta/loma-de-san-jose",
+        "https://www.metrocuadrado.com/inmueble/venta-apartamento-sabaneta-vegas-de-san-jose-3-habitaciones-2-banos-2-garajes/14473-M6019107"
+      ],
+      "terreno": "lomas fuertes",
+      "terreno_nota": "Como dice el nombre, es una loma; la parte alta es bastante empinada.",
+      "cerca": [
+        "Estación La Estrella del metro (solo desde la parte baja)",
+        "CC Aves María (según anuncios)",
+        "Hospital Venancio Díaz (según anuncios)",
+        "CEIPA"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No encontré noticias de delitos ubicadas en la Loma de San José en 2024-2026."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "No hay noticias negativas, pero las lomas fuertes hacen depender del vehículo o del bus en la parte alta.",
+      "problemas": [
+        {
+          "tipo": "altura",
+          "nivel": "alto",
+          "detalle": "Es una loma con diferencias marcadas de acceso entre la parte baja y la alta (anuncios)."
+        }
+      ],
+      "accesos": "Se sube por vías empinadas desde Sabaneta y la zona del metro; en la parte alta, sin carro, se depende del bus y de la frecuencia de las rutas.",
+      "opiniones": []
+    },
+    {
+      "nombre": "Monteazul",
+      "seguridad": "sin datos",
+      "confianza": "baja",
+      "positivos": [
+        "Sin información verificable"
+      ],
+      "negativos": [
+        "No encontré fuentes públicas sobre el sector; ubicación y características sin verificar"
+      ],
+      "resumen": "No encontré información sobre Monteazul en noticias ni en guías. Hay que visitarlo y preguntar a vecinos o a la portería antes de decidir.",
+      "fuentes": [],
+      "terreno": "ondulado",
+      "terreno_nota": "Sin datos; valor asignado por defecto, verificar en persona.",
+      "cerca": [
+        "Sin datos verificables"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No encontré ninguna noticia sobre Monteazul."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "No hay información para evaluarlo.",
+      "problemas": [],
+      "accesos": "Sin datos verificables sobre los accesos.",
+      "opiniones": []
+    },
+    {
+      "nombre": "Peñas Blancas",
+      "seguridad": "sin datos",
+      "confianza": "baja",
+      "positivos": [
+        "Centro poblado pequeño y rural (221 habitantes en el censo 2018), en principio tranquilo",
+        "Entorno natural"
+      ],
+      "negativos": [
+        "Zona rural: lejos del metro, del comercio y de los servicios",
+        "Poca oferta de transporte y casi nada de información pública"
+      ],
+      "resumen": "Pequeño centro poblado rural de La Estrella (asociado a La Tablaza en algunos anuncios). Puede servir a quien busque tranquilidad y tenga vehículo, pero no hay datos de seguridad.",
+      "fuentes": [
+        "https://www.citypopulation.de/en/colombia/antioquia/la_estrella/05380021__peñas_blancas"
+      ],
+      "terreno": "lomas fuertes",
+      "terreno_nota": "Zona rural de montaña.",
+      "cerca": [
+        "Lejos de comercio y transporte"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No encontré noticias sobre Peñas Blancas de La Estrella (las que aparecen son de Uramita, otro municipio). Queda cerca de La Tablaza, donde sí hay hechos reportados."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Está lejos de todo, la información es mínima y queda cerca de La Tablaza, que tiene antecedentes.",
+      "problemas": [
+        {
+          "tipo": "altura",
+          "nivel": "alto",
+          "detalle": "Centro poblado rural de montaña."
+        },
+        {
+          "tipo": "acceso",
+          "nivel": "alto",
+          "detalle": "Zona rural con poca oferta de transporte y lejos de los servicios (característica del lugar)."
+        }
+      ],
+      "accesos": "Se llega por vías rurales desde La Tablaza; en la práctica requiere vehículo propio.",
+      "opiniones": []
+    },
+    {
+      "nombre": "Ancón San Martín",
+      "seguridad": "sin datos",
+      "confianza": "baja",
+      "positivos": [
+        "La estación de metro La Estrella también se conoce como Ancón; probablemente queda cerca (verificar)",
+        "El Metrocable proyectado hacia San Antonio de Prado partiría de la estación La Estrella (previsto para 2030)"
+      ],
+      "negativos": [
+        "Cerca del río y de corredores viales e industriales: posible ruido y tráfico (verificar)",
+        "No encontré noticias ni opiniones específicas"
+      ],
+      "resumen": "Sector que por nombre se asocia a la zona de Ancón y del metro La Estrella, potencialmente bien conectado. No encontré información de seguridad.",
+      "fuentes": [
+        "https://en.wikipedia.com/wiki/La_Estrella_station",
+        "https://www.ciencuadras.com/inmueble/apartamento-en-venta-en-ancon-san-martin-la-estrella-3791558",
+        "https://www.minuto30.com/amp/emergencia-quebrada-bermejala-la-estrella/1698290/"
+      ],
+      "terreno": "plano",
+      "terreno_nota": "Por su probable ubicación en la parte baja junto al río debería ser plano; no verificado.",
+      "cerca": [
+        "Estación La Estrella / Ancón del metro (probablemente cerca; verificar)",
+        "Corredor de la Autopista Sur"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No encontré noticias de delitos ubicadas en Ancón San Martín en 2024-2026."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Puede estar muy bien ubicado respecto al metro, pero no hay información para confirmarlo ni para evaluar su seguridad.",
+      "problemas": [
+        {
+          "tipo": "inundacion",
+          "nivel": "medio",
+          "detalle": "Según Minuto30, la emergencia por el desbordamiento de La Bermejala del 12 de febrero de 2026 llegó hasta Ancón, cerca de la Fonda El Ciclista."
+        },
+        {
+          "tipo": "trafico",
+          "nivel": "medio",
+          "detalle": "El sector de Ancón quedó bloqueado por un accidente de volqueta en la variante, con congestión de rebote en la Autopista Sur (El Colombiano)."
+        },
+        {
+          "tipo": "ruido",
+          "nivel": "bajo",
+          "detalle": "Probable ruido vial por la cercanía a la Autopista Sur y la variante (no verificado)."
+        }
+      ],
+      "accesos": "Probablemente plano y junto a la estación La Estrella/Ancón y la Autopista Sur, por lo que sería fácil sin carro, aunque no está verificado.",
+      "opiniones": []
+    },
+    {
+      "nombre": "La Inmaculada",
+      "seguridad": "media-baja",
+      "confianza": "media",
+      "positivos": [
+        "Cerca de la estación La Estrella del metro (un anuncio dice ~5 min)",
+        "Acceso a rutas de bus y vías principales",
+        "Precios moderados"
+      ],
+      "negativos": [
+        "La Fiscalía judicializó a 15 presuntos miembros de la banda 'La Inmaculada o El Hoyo' por extorsión en La Estrella",
+        "Una fuente ubica el sector El Hoyo (8 inmuebles de microtráfico demolidos) en La Inmaculada N.º 2",
+        "Homicidio por sicariato dentro de una vivienda en La Inmaculada 1 (Q'HUBO; fecha no confirmada, posiblemente 2024)",
+        "En junio de 2025 un deslizamiento represó parcialmente el río Aburrá y obligó a evacuar a unas 40 personas"
+      ],
+      "resumen": "Está muy cerca del metro, pero concentra noticias de extorsión, microtráfico y un sicariato, además de riesgo por deslizamiento junto al río. Si se considera, conviene diferenciar entre La Inmaculada 1 y 2, evitar el sector El Hoyo y consultar si el inmueble está en zona de amenaza.",
+      "fuentes": [
+        "https://www.fiscalia.gov.co/colombia/en/?p=43380",
+        "https://www.pulzo.com/nacion/antioquia-hoy-sicarios-asesinaron-hombre-dentro-su-casa-ajustar-cuentas-PP3923325A",
+        "https://www.minuto30.com/amp/deslizamiento-en-la-estrella-genero-represamiento-del-rio-aburra-y-evacuacion-preventiva/1665906/"
+      ],
+      "terreno": "ondulado",
+      "terreno_nota": "Parte baja cerca del río con laderas cercanas inestables, como mostró el deslizamiento de 2025.",
+      "cerca": [
+        "Estación La Estrella del metro (~5 min según un anuncio)",
+        "Rutas de bus y Autopista Sur",
+        "Comercio de barrio"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 1,
+        "sicariato_homicidios": 1,
+        "hurtos": 0,
+        "microtrafico": 1,
+        "periodo": "2024-2026",
+        "detalle": "Judicialización de la banda 'La Inmaculada o El Hoyo' por extorsión; demolición en El Hoyo (ubicado por una fuente en La Inmaculada N.º 2) por microtráfico; sicariato dentro de una casa en La Inmaculada 1 (fecha no confirmada). Además, un deslizamiento con evacuaciones en junio de 2025."
+      },
+      "recomendacion": "no recomendado",
+      "razon_recomendacion": "Reúne noticias de extorsión, microtráfico y sicariato y un riesgo de deslizamiento documentado, pese a su buena cercanía al metro.",
+      "problemas": [
+        {
+          "tipo": "deslizamiento",
+          "nivel": "alto",
+          "detalle": "En junio de 2025 un deslizamiento (sector Los Chanos) represó parcialmente el río Aburrá; se evacuaron unas 40 personas y cinco edificaciones."
+        },
+        {
+          "tipo": "inundacion",
+          "nivel": "medio",
+          "detalle": "Al estar junto al río, el represamiento de 2025 generó alerta de inundación para los vecinos."
+        }
+      ],
+      "accesos": "Está en la parte baja junto al río y a unos 5 minutos de la estación La Estrella según un anuncio, con acceso a la Autopista Sur; fácil sin carro.",
+      "opiniones": [
+        {
+          "texto": "Vecinos pasaron la noche en vela tras el deslizamiento que represó el río en junio de 2025.",
+          "fuente": "https://telemedellin.tv/?p=127325"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2853 @@
+[
+ {
+  "municipio": "Sabaneta",
+  "barrio": "Cañaveralejo",
+  "conjuntos": [
+   {
+    "nombre": "Jardines de San Remo",
+    "calificacion": 4.5,
+    "resenas": 241,
+    "url": "https://www.google.com/maps/place/Jardines+de+San+Remo,+Sabaneta+Antioquia/@6.1425277,-75.6215639,17z/data=!4m8!3m7!1s0x8e468158bac0ae99:0x970342d46d2c1a9c!8m2!3d6.1425277!4d-75.6215639!9m1!1b1!16s%2Fg%2F11bwm7xsf3"
+   },
+   {
+    "nombre": "Mosaico",
+    "calificacion": 4.5,
+    "resenas": 96,
+    "url": "https://www.google.com/maps/place/Mosaico/@6.139039,-75.6205956,17z/data=!4m8!3m7!1s0x8e4683632b374969:0x4a5681f342605ac7!8m2!3d6.139039!4d-75.6205956!9m1!1b1!16s%2Fg%2F11fkm_1jdn"
+   },
+   {
+    "nombre": "Primeiro Apartamentos",
+    "calificacion": 4.1,
+    "resenas": 28,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Unidad grande con zonas comunes bien mantenidas: piscinas, gimnasio, sauna y cancha; varios la recomiendan como buena opción de arriendo en Sabaneta.",
+    "fuente": "https://www.google.com/maps/place/Jardines+de+San+Remo,+Sabaneta+Antioquia/@6.1425277,-75.6215639,17z/data=!4m8!3m7!1s0x8e468158bac0ae99:0x970342d46d2c1a9c!8m2!3d6.1425277!4d-75.6215639!9m1!1b1!16s%2Fg%2F11bwm7xsf3"
+   },
+   {
+    "texto": "Ambiente tranquilo, verde y seguro; la vía de subida es empinada, pero queda cerca de la estación La Estrella y del parque de Sabaneta.",
+    "fuente": "https://www.google.com/maps/place/Mosaico/@6.139039,-75.6205956,17z/data=!4m8!3m7!1s0x8e4683632b374969:0x4a5681f342605ac7!8m2!3d6.139039!4d-75.6205956!9m1!1b1!16s%2Fg%2F11fkm_1jdn"
+   },
+   {
+    "texto": "Algunos se quejan de ruido entre vecinos y de construcción cercana, y de que la administración y portería no responden a los reclamos.",
+    "fuente": "https://www.google.com/maps/place/Mosaico/@6.139039,-75.6205956,17z/data=!4m8!3m7!1s0x8e4683632b374969:0x4a5681f342605ac7!8m2!3d6.139039!4d-75.6205956!9m1!1b1!16s%2Fg%2F11fkm_1jdn"
+   }
+  ],
+  "temas": [
+   "zonas verdes (6)",
+   "ambiente (6)",
+   "tranquilidad (3)",
+   "aire limpio (3)",
+   "sauna (3)",
+   "piscina (2)"
+  ]
+ },
+ {
+  "municipio": "Itagüí",
+  "barrio": "Suramérica",
+  "conjuntos": [
+   {
+    "nombre": "Rivera de Suramérica Parque Residencial",
+    "calificacion": 4.5,
+    "resenas": 295,
+    "url": "https://www.google.com/maps/place/Rivera+de+Suram%C3%A9rica+Parque+Residencial/@6.1634323,-75.6310811,17z/data=!4m8!3m7!1s0x8e468179e58a985f:0x2e51ace423be1439!8m2!3d6.1634323!4d-75.6310811!9m1!1b1!16s%2Fg%2F11bwqpyzmy"
+   },
+   {
+    "nombre": "Conjunto Residencial San Agustín",
+    "calificacion": 4.7,
+    "resenas": 93,
+    "url": ""
+   },
+   {
+    "nombre": "Parque Residencial Bosque Grande",
+    "calificacion": 4.6,
+    "resenas": 58,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Zona tranquila con buen acceso a rutas de transporte; queda cerca de la estación del metro con varias rutas de bus.",
+    "fuente": "https://www.google.com/maps/place/Rivera+de+Suram%C3%A9rica+Parque+Residencial/@6.1634323,-75.6310811,17z/data=!4m8!3m7!1s0x8e468179e58a985f:0x2e51ace423be1439!8m2!3d6.1634323!4d-75.6310811!9m1!1b1!16s%2Fg%2F11bwqpyzmy"
+   },
+   {
+    "texto": "Destacan la vista a las montañas, el clima agradable y una unidad moderna, limpia y organizada, con piscina, gimnasio y senderos.",
+    "fuente": "https://www.google.com/maps/place/Rivera+de+Suram%C3%A9rica+Parque+Residencial/@6.1634323,-75.6310811,17z/data=!4m8!3m7!1s0x8e468179e58a985f:0x2e51ace423be1439!8m2!3d6.1634323!4d-75.6310811!9m1!1b1!16s%2Fg%2F11bwqpyzmy"
+   },
+   {
+    "texto": "Una opinión reciente señala viviendas amplias, pero zonas comunes modestas y una cancha pequeña.",
+    "fuente": "https://www.google.com/maps/place/Rivera+de+Suram%C3%A9rica+Parque+Residencial/@6.1634323,-75.6310811,17z/data=!4m8!3m7!1s0x8e468179e58a985f:0x2e51ace423be1439!8m2!3d6.1634323!4d-75.6310811!9m1!1b1!16s%2Fg%2F11bwqpyzmy"
+   }
+  ],
+  "temas": [
+   "piscina (7)",
+   "unidad residencial (5)",
+   "acogedor (4)",
+   "comodidad (3)",
+   "ubicación (3)",
+   "zonas comunes (2)"
+  ]
+ },
+ {
+  "municipio": "Sabaneta",
+  "barrio": "Las Lomitas",
+  "conjuntos": [
+   {
+    "nombre": "Urbanización Lisboa",
+    "calificacion": 4.4,
+    "resenas": 47,
+    "url": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Lisboa/@6.1449805,-75.6106678,17z/data=!4m8!3m7!1s0x8e46830061a313b7:0x16426ff01ec6470b!8m2!3d6.1449805!4d-75.6106678!9m1!1b1!16s%2Fg%2F11gmx9gn2_"
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Zona muy tranquila y segura, alejada del caos del centro, con aire fresco y vista campestre; a unos 5 minutos del centro de Sabaneta.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Lisboa/@6.1449805,-75.6106678,17z/data=!4m8!3m7!1s0x8e46830061a313b7:0x16426ff01ec6470b!8m2!3d6.1449805!4d-75.6106678!9m1!1b1!16s%2Fg%2F11gmx9gn2_"
+   },
+   {
+    "texto": "Hay ruta alimentadora del metro en la entrada que conecta con la estación Sabaneta.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Lisboa/@6.1449805,-75.6106678,17z/data=!4m8!3m7!1s0x8e46830061a313b7:0x16426ff01ec6470b!8m2!3d6.1449805!4d-75.6106678!9m1!1b1!16s%2Fg%2F11gmx9gn2_"
+   },
+   {
+    "texto": "Reseñas recientes critican duramente a la administración: recortes de costos, mantenimiento deficiente y poca respuesta a los problemas.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Lisboa/@6.1449805,-75.6106678,17z/data=!4m8!3m7!1s0x8e46830061a313b7:0x16426ff01ec6470b!8m2!3d6.1449805!4d-75.6106678!9m1!1b1!16s%2Fg%2F11gmx9gn2_"
+   }
+  ],
+  "temas": [
+   "lugar tranquilo (3)",
+   "cerca de Sabaneta (2)",
+   "unidad organizada (2)",
+   "pájaros (2)"
+  ]
+ },
+ {
+  "municipio": "Sabaneta",
+  "barrio": "San Isidro",
+  "conjuntos": [
+   {
+    "nombre": "San Isidro (conjunto, Cl. 70 Sur #30C-19)",
+    "calificacion": 4.6,
+    "resenas": 14,
+    "url": "https://www.google.com/maps/place/San+isidro/@6.1422927,-75.6075669,17z/data=!3m1!4b1!4m6!3m5!1s0x8e4683f6dca3cfb9:0x86a912a8dbfc58cd!8m2!3d6.1422927!4d-75.6075669!16s%2Fg%2F11v4p96lgn"
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Pocas reseñas y breves; describen el sector como agradable, con buen vecindario y buenos vecinos.",
+    "fuente": "https://www.google.com/maps/place/San+isidro/@6.1422927,-75.6075669,17z/data=!3m1!4b1!4m6!3m5!1s0x8e4683f6dca3cfb9:0x86a912a8dbfc58cd!8m2!3d6.1422927!4d-75.6075669!16s%2Fg%2F11v4p96lgn"
+   }
+  ],
+  "temas": []
+ },
+ {
+  "municipio": "Itagüí",
+  "barrio": "Santa María",
+  "conjuntos": [
+   {
+    "nombre": "Urbanización Santa María del Campo",
+    "calificacion": 4.6,
+    "resenas": 179,
+    "url": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Santa+Mar%C3%ADa+del+Campo/@6.192264,-75.5980632,17z/data=!3m1!4b1!4m6!3m5!1s0x8e468214af07e7ab:0x49571b0f8dda9b6f!8m2!3d6.192264!4d-75.5980632!16s%2Fg%2F11cm0vjpqz"
+   },
+   {
+    "nombre": "Torreón de Santa María",
+    "calificacion": 4.1,
+    "resenas": 17,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Unidad tranquila y familiar, con piscina grande y varias zonas verdes; apartamentos pequeños pero cómodos.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Santa+Mar%C3%ADa+del+Campo/@6.192264,-75.5980632,17z/data=!3m1!4b1!4m6!3m5!1s0x8e468214af07e7ab:0x49571b0f8dda9b6f!8m2!3d6.192264!4d-75.5980632!16s%2Fg%2F11cm0vjpqz"
+   },
+   {
+    "texto": "Se resalta la buena convivencia entre vecinos y un ambiente casi campestre.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Santa+Mar%C3%ADa+del+Campo/@6.192264,-75.5980632,17z/data=!3m1!4b1!4m6!3m5!1s0x8e468214af07e7ab:0x49571b0f8dda9b6f!8m2!3d6.192264!4d-75.5980632!16s%2Fg%2F11cm0vjpqz"
+   }
+  ],
+  "temas": [
+   "familiar (6)",
+   "unidad residencial (3)",
+   "zonas verdes (2)",
+   "zona tranquila (2)"
+  ]
+ },
+ {
+  "municipio": "Itagüí",
+  "barrio": "Ditaires",
+  "conjuntos": [
+   {
+    "nombre": "Urbanización Torres de Barcelona",
+    "calificacion": 4.6,
+    "resenas": 48,
+    "url": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Torres+de+Barcelona/@6.1684965,-75.6338421,17z/data=!4m8!3m7!1s0x8e4681758666a6a5:0x79a25b002705f0d1!8m2!3d6.1684965!4d-75.6338421!9m1!1b1!16s%2Fg%2F11h2lf9jrp"
+   },
+   {
+    "nombre": "Unidad Aires de Ditaires",
+    "calificacion": 4.9,
+    "resenas": 8,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Unidad tranquila, amplia y fresca, ideal para familias con niños; residentes de muchos años la recomiendan.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Torres+de+Barcelona/@6.1684965,-75.6338421,17z/data=!4m8!3m7!1s0x8e4681758666a6a5:0x79a25b002705f0d1!8m2!3d6.1684965!4d-75.6338421!9m1!1b1!16s%2Fg%2F11h2lf9jrp"
+   },
+   {
+    "texto": "Muchas zonas comunes (tres piscinas, canchas, gimnasio, zona de mascotas) y parqueadero de visitantes; administración comprometida y buen personal de seguridad.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Torres+de+Barcelona/@6.1684965,-75.6338421,17z/data=!4m8!3m7!1s0x8e4681758666a6a5:0x79a25b002705f0d1!8m2!3d6.1684965!4d-75.6338421!9m1!1b1!16s%2Fg%2F11h2lf9jrp"
+   },
+   {
+    "texto": "Queda cerca de un colegio, pero alrededor de la unidad hay poco comercio u oferta.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Torres+de+Barcelona/@6.1684965,-75.6338421,17z/data=!4m8!3m7!1s0x8e4681758666a6a5:0x79a25b002705f0d1!8m2!3d6.1684965!4d-75.6338421!9m1!1b1!16s%2Fg%2F11h2lf9jrp"
+   }
+  ],
+  "temas": [
+   "unidad (4)",
+   "piscinas (3)",
+   "zona verde (3)",
+   "zona de juegos (2)"
+  ]
+ },
+ {
+  "municipio": "Sabaneta",
+  "barrio": "Aves María",
+  "conjuntos": [
+   {
+    "nombre": "Urbanización Messantia",
+    "calificacion": 4.5,
+    "resenas": 86,
+    "url": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Messantia/@6.1472356,-75.6162802,17z/data=!4m8!3m7!1s0x8e4683de3d83944f:0x1ca095ba7d50fef2!8m2!3d6.1472356!4d-75.6162802!9m1!1b1!16s%2Fg%2F11c550qrw1"
+   },
+   {
+    "nombre": "Edificio Saltamontes Aves María",
+    "calificacion": 4.9,
+    "resenas": 24,
+    "url": ""
+   },
+   {
+    "nombre": "Urbanización Ruiseñor",
+    "calificacion": 4.4,
+    "resenas": 15,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Ubicación excelente junto al centro comercial Aves María, con fácil acceso a transporte, buena vista y parqueaderos.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Messantia/@6.1472356,-75.6162802,17z/data=!4m8!3m7!1s0x8e4683de3d83944f:0x1ca095ba7d50fef2!8m2!3d6.1472356!4d-75.6162802!9m1!1b1!16s%2Fg%2F11c550qrw1"
+   },
+   {
+    "texto": "La administración ha recibido críticas por mal trato y poca gestión de la convivencia, aunque reseñas recientes dicen que la nueva administración mejoró.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Messantia/@6.1472356,-75.6162802,17z/data=!4m8!3m7!1s0x8e4683de3d83944f:0x1ca095ba7d50fef2!8m2!3d6.1472356!4d-75.6162802!9m1!1b1!16s%2Fg%2F11c550qrw1"
+   },
+   {
+    "texto": "Ambiente tranquilo y familiar; hay quejas puntuales por la actitud de algunos porteros.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Messantia/@6.1472356,-75.6162802,17z/data=!4m8!3m7!1s0x8e4683de3d83944f:0x1ca095ba7d50fef2!8m2!3d6.1472356!4d-75.6162802!9m1!1b1!16s%2Fg%2F11c550qrw1"
+   }
+  ],
+  "temas": [
+   "ubicación (9)",
+   "unidad (5)",
+   "vista (4)",
+   "administración (3)",
+   "porteros (2)"
+  ]
+ },
+ {
+  "municipio": "Sabaneta",
+  "barrio": "La Doctora",
+  "conjuntos": [
+   {
+    "nombre": "Rincón de La Doctora",
+    "calificacion": 4.5,
+    "resenas": 185,
+    "url": "https://www.google.com/maps/place/Rincon+De+La+Doctora/@6.1383046,-75.6107017,17z/data=!4m8!3m7!1s0x8e4683e50b7a1ba5:0x826762c95528eaa!8m2!3d6.1383046!4d-75.6107017!9m1!1b1!16s%2Fg%2F11ckkz8wl_"
+   },
+   {
+    "nombre": "Entreamigos de La Doctora",
+    "calificacion": 4.3,
+    "resenas": 115,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Condominio campestre muy tranquilo y seguro, con zonas verdes amplias, piscina y sendero ecológico; buena vigilancia.",
+    "fuente": "https://www.google.com/maps/place/Rincon+De+La+Doctora/@6.1383046,-75.6107017,17z/data=!4m8!3m7!1s0x8e4683e50b7a1ba5:0x826762c95528eaa!8m2!3d6.1383046!4d-75.6107017!9m1!1b1!16s%2Fg%2F11ckkz8wl_"
+   },
+   {
+    "texto": "Queda algo retirado del centro; las vías de acceso son estrechas y con bastante tráfico de vehículos, y el agua la provee un acueducto comunitario.",
+    "fuente": "https://www.google.com/maps/place/Rincon+De+La+Doctora/@6.1383046,-75.6107017,17z/data=!4m8!3m7!1s0x8e4683e50b7a1ba5:0x826762c95528eaa!8m2!3d6.1383046!4d-75.6107017!9m1!1b1!16s%2Fg%2F11ckkz8wl_"
+   }
+  ],
+  "temas": [
+   "unidad residencial (4)",
+   "naturaleza (3)",
+   "tranquilo (3)",
+   "agradable (3)",
+   "seguro (2)",
+   "ubicación (2)"
+  ]
+ },
+ {
+  "municipio": "La Estrella",
+  "barrio": "Suramérica",
+  "conjuntos": [
+   {
+    "nombre": "Conjunto Residencial Los Andes",
+    "calificacion": 4.4,
+    "resenas": 134,
+    "url": "https://www.google.com/maps/place/Conjunto+residencial+Los+Andes/@6.1568611,-75.6240943,17z/data=!4m8!3m7!1s0x8e4681632c0bcd51:0xe3d10d33c2355c3f!8m2!3d6.1568611!4d-75.6240943!9m1!1b1!16s%2Fg%2F11c1p4t7ph"
+   },
+   {
+    "nombre": "Conjunto Residencial Bavaria",
+    "calificacion": 4.6,
+    "resenas": 67,
+    "url": ""
+   },
+   {
+    "nombre": "Conjunto Residencial La Sierra",
+    "calificacion": 4.7,
+    "resenas": 56,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Unidad con muchas zonas verdes y árboles poco comunes en la zona, buena vista y ambiente tranquilo y seguro.",
+    "fuente": "https://www.google.com/maps/place/Conjunto+residencial+Los+Andes/@6.1568611,-75.6240943,17z/data=!4m8!3m7!1s0x8e4681632c0bcd51:0xe3d10d33c2355c3f!8m2!3d6.1568611!4d-75.6240943!9m1!1b1!16s%2Fg%2F11c1p4t7ph"
+   },
+   {
+    "texto": "Cerca de la estación La Estrella del metro y de comercio; porteros amables y bien capacitados.",
+    "fuente": "https://www.google.com/maps/place/Conjunto+residencial+Los+Andes/@6.1568611,-75.6240943,17z/data=!4m8!3m7!1s0x8e4681632c0bcd51:0xe3d10d33c2355c3f!8m2!3d6.1568611!4d-75.6240943!9m1!1b1!16s%2Fg%2F11c1p4t7ph"
+   }
+  ],
+  "temas": [
+   "zonas verdes (8)",
+   "lugar para vivir (6)",
+   "unidad residencial (4)",
+   "tranquilo (2)",
+   "seguro (2)",
+   "ubicación (2)"
+  ]
+ },
+ {
+  "municipio": "La Estrella",
+  "barrio": "Toledo",
+  "conjuntos": [
+   {
+    "nombre": "Toledo Casas",
+    "calificacion": 4.6,
+    "resenas": 400,
+    "url": "https://www.google.com/maps/place/Toledo+Casas/@6.1617372,-75.6400789,17z/data=!4m8!3m7!1s0x8e46817394280afb:0x4579d8e6d9c8f3e8!8m2!3d6.1617372!4d-75.6400789!9m1!1b1!16s%2Fg%2F11cjj7xzt9"
+   },
+   {
+    "nombre": "Toledo Campestre",
+    "calificacion": 4.4,
+    "resenas": 164,
+    "url": ""
+   },
+   {
+    "nombre": "Urbanización Campiña Toledo",
+    "calificacion": 4.5,
+    "resenas": 153,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Unidad muy tranquila, familiar y segura, con abundantes zonas verdes; a pocas cuadras del parque principal de La Estrella.",
+    "fuente": "https://www.google.com/maps/place/Toledo+Casas/@6.1617372,-75.6400789,17z/data=!4m8!3m7!1s0x8e46817394280afb:0x4579d8e6d9c8f3e8!8m2!3d6.1617372!4d-75.6400789!9m1!1b1!16s%2Fg%2F11cjj7xzt9"
+   },
+   {
+    "texto": "Buen transporte público y acceso fácil a la autopista para moverse por el valle.",
+    "fuente": "https://www.google.com/maps/place/Toledo+Casas/@6.1617372,-75.6400789,17z/data=!4m8!3m7!1s0x8e46817394280afb:0x4579d8e6d9c8f3e8!8m2!3d6.1617372!4d-75.6400789!9m1!1b1!16s%2Fg%2F11cjj7xzt9"
+   },
+   {
+    "texto": "El parqueadero de visitantes es deficiente y las calles cercanas son estrechas, lo que dificulta parquear.",
+    "fuente": "https://www.google.com/maps/place/Toledo+Casas/@6.1617372,-75.6400789,17z/data=!4m8!3m7!1s0x8e46817394280afb:0x4579d8e6d9c8f3e8!8m2!3d6.1617372!4d-75.6400789!9m1!1b1!16s%2Fg%2F11cjj7xzt9"
+   }
+  ],
+  "temas": [
+   "ambiente tranquilo (10)",
+   "tranquilidad (8)",
+   "transporte (4)",
+   "vista (3)",
+   "seguridad (2)",
+   "campestre (2)"
+  ]
+ },
+ {
+  "municipio": "Sabaneta",
+  "barrio": "San José",
+  "conjuntos": [
+   {
+    "nombre": "Urbanización San José",
+    "calificacion": 4.4,
+    "resenas": 108,
+    "url": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+San+Jos%C3%A9/@6.1462307,-75.6202708,17z/data=!4m8!3m7!1s0x8e4683e00f1e5971:0x762eb64043c46aac!8m2!3d6.1462307!4d-75.6202708!9m1!1b1!16s%2Fg%2F11cllvg5_5"
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Unidad muy tranquila, limpia y familiar, con zonas verdes y senderos; bien ubicada cerca de los servicios del municipio.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+San+Jos%C3%A9/@6.1462307,-75.6202708,17z/data=!4m8!3m7!1s0x8e4683e00f1e5971:0x762eb64043c46aac!8m2!3d6.1462307!4d-75.6202708!9m1!1b1!16s%2Fg%2F11cllvg5_5"
+   },
+   {
+    "texto": "Apartamentos algo antiguos pero bien distribuidos; los parqueaderos son limitados para el tamaño de la unidad.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+San+Jos%C3%A9/@6.1462307,-75.6202708,17z/data=!4m8!3m7!1s0x8e4683e00f1e5971:0x762eb64043c46aac!8m2!3d6.1462307!4d-75.6202708!9m1!1b1!16s%2Fg%2F11cllvg5_5"
+   }
+  ],
+  "temas": [
+   "ubicación (3)",
+   "lugar para vivir (2)",
+   "tranquilo (2)"
+  ]
+ },
+ {
+  "municipio": "Sabaneta",
+  "barrio": "Pan de Azúcar",
+  "conjuntos": [
+   {
+    "nombre": "Unidad Residencial Amonte",
+    "calificacion": 4.5,
+    "resenas": 115,
+    "url": "https://www.google.com/maps/place/Unidad+Residencial+Amonte/@6.1462258,-75.6273145,17z/data=!4m8!3m7!1s0x8e4683deb89726a9:0xb2d2b8a93a29fe03!8m2!3d6.1462258!4d-75.6273145!9m1!1b1!16s%2Fg%2F11c6q8t2bg"
+   },
+   {
+    "nombre": "Nido Apartamentos",
+    "calificacion": 4.9,
+    "resenas": 23,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Unidad tipo club con bosque nativo, piscinas, gimnasio, canchas y minimercado; apartamentos amplios y buena seguridad.",
+    "fuente": "https://www.google.com/maps/place/Unidad+Residencial+Amonte/@6.1462258,-75.6273145,17z/data=!4m8!3m7!1s0x8e4683deb89726a9:0xb2d2b8a93a29fe03!8m2!3d6.1462258!4d-75.6273145!9m1!1b1!16s%2Fg%2F11c6q8t2bg"
+   },
+   {
+    "texto": "Cerca de la estación La Estrella y con salida rápida a la Avenida Regional, lo que evita parte del tráfico de Sabaneta.",
+    "fuente": "https://www.google.com/maps/place/Unidad+Residencial+Amonte/@6.1462258,-75.6273145,17z/data=!4m8!3m7!1s0x8e4683deb89726a9:0xb2d2b8a93a29fe03!8m2!3d6.1462258!4d-75.6273145!9m1!1b1!16s%2Fg%2F11c6q8t2bg"
+   },
+   {
+    "texto": "Un residente comenta que los apartamentos reciben sol directo solo parte del año.",
+    "fuente": "https://www.google.com/maps/place/Unidad+Residencial+Amonte/@6.1462258,-75.6273145,17z/data=!4m8!3m7!1s0x8e4683deb89726a9:0xb2d2b8a93a29fe03!8m2!3d6.1462258!4d-75.6273145!9m1!1b1!16s%2Fg%2F11c6q8t2bg"
+   }
+  ],
+  "temas": [
+   "bosque (6)",
+   "espacio encantador (4)",
+   "seguro (3)",
+   "tranquilidad (3)",
+   "ambiente acogedor (3)",
+   "amplio (2)"
+  ]
+ },
+ {
+  "municipio": "Envigado",
+  "barrio": "Camino Verde",
+  "conjuntos": [
+   {
+    "nombre": "Urbanización Camino Verde del Bosque",
+    "calificacion": 4.6,
+    "resenas": 167,
+    "url": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Camino+Verde+Del+Bosque/@6.1589293,-75.5791602,17z/data=!3m1!4b1!4m6!3m5!1s0x8e4683a920d05803:0x6d280f1fd1d219a!8m2!3d6.1589293!4d-75.5791602!16s%2Fg%2F11ckpynm_v"
+   },
+   {
+    "nombre": "Urbanización Sendero Verde",
+    "calificacion": 4.5,
+    "resenas": 160,
+    "url": ""
+   },
+   {
+    "nombre": "Camino Verde de Las Cometas",
+    "calificacion": 4.6,
+    "resenas": 98,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Ambiente campestre, clima fresco y buena vista; piscina destacada.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Camino+Verde+Del+Bosque/@6.1589293,-75.5791602,17z/data=!3m1!4b1!4m6!3m5!1s0x8e4683a920d05803:0x6d280f1fd1d219a!8m2!3d6.1589293!4d-75.5791602!16s%2Fg%2F11ckpynm_v"
+   },
+   {
+    "texto": "Lugar agradable pero alejado; hay pocas tiendas y comercio cerca.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Camino+Verde+Del+Bosque/@6.1589293,-75.5791602,17z/data=!3m1!4b1!4m6!3m5!1s0x8e4683a920d05803:0x6d280f1fd1d219a!8m2!3d6.1589293!4d-75.5791602!16s%2Fg%2F11ckpynm_v"
+   }
+  ],
+  "temas": [
+   "ambiente campestre (5)",
+   "unidad residencial (4)",
+   "unidad tranquila (2)",
+   "unidad agradable (2)"
+  ]
+ },
+ {
+  "municipio": "Envigado",
+  "barrio": "La Cuenca",
+  "conjuntos": [
+   {
+    "nombre": "Mississippi de la Cuenca",
+    "calificacion": 4.5,
+    "resenas": 336,
+    "url": "https://www.google.com/maps/place/Mississippi+de+la+Cuenca/@6.1540824,-75.5979696,17z/data=!4m8!3m7!1s0x8e4683b878c410c9:0x973342654fa40b94!8m2!3d6.1540824!4d-75.5979696!9m1!1b1!16s%2Fg%2F11clyqlf8r"
+   },
+   {
+    "nombre": "Urbanización Orinoco de la Cuenca",
+    "calificacion": 4.5,
+    "resenas": 204,
+    "url": ""
+   },
+   {
+    "nombre": "Urbanización Magdalena de la Cuenca",
+    "calificacion": 4.7,
+    "resenas": 194,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Muy buena vista de la ciudad y ambiente tranquilo y familiar, lejos del ruido; hay rutas de transporte.",
+    "fuente": "https://www.google.com/maps/place/Mississippi+de+la+Cuenca/@6.1540824,-75.5979696,17z/data=!4m8!3m7!1s0x8e4683b878c410c9:0x973342654fa40b94!8m2!3d6.1540824!4d-75.5979696!9m1!1b1!16s%2Fg%2F11clyqlf8r"
+   },
+   {
+    "texto": "La subida para llegar es muy empinada.",
+    "fuente": "https://www.google.com/maps/place/Mississippi+de+la+Cuenca/@6.1540824,-75.5979696,17z/data=!4m8!3m7!1s0x8e4683b878c410c9:0x973342654fa40b94!8m2!3d6.1540824!4d-75.5979696!9m1!1b1!16s%2Fg%2F11clyqlf8r"
+   },
+   {
+    "texto": "Unidad grande en mantenimiento reciente; piden más zonas comunes, la piscina estuvo fuera de uso y el parqueo de visitantes queda lejos de algunas torres.",
+    "fuente": "https://www.google.com/maps/place/Mississippi+de+la+Cuenca/@6.1540824,-75.5979696,17z/data=!4m8!3m7!1s0x8e4683b878c410c9:0x973342654fa40b94!8m2!3d6.1540824!4d-75.5979696!9m1!1b1!16s%2Fg%2F11clyqlf8r"
+   }
+  ],
+  "temas": [
+   "vista (21)",
+   "tranquilidad (8)",
+   "ambiente familiar (4)",
+   "rutas de transporte (4)",
+   "seguro (3)",
+   "lejos del ruido (2)"
+  ]
+ },
+ {
+  "municipio": "Sabaneta",
+  "barrio": "Prados de Sabaneta",
+  "conjuntos": [
+   {
+    "nombre": "Prados de Monteazul",
+    "calificacion": 4.7,
+    "resenas": 25,
+    "url": "https://www.google.com/maps/place/Prados+de+Monteazul/@6.1456484,-75.6244336,17z/data=!4m8!3m7!1s0x8e46811edd7b00f3:0xa5ba8888b4cfc0ce!8m2!3d6.1456484!4d-75.6244336!9m1!1b1!16s%2Fg%2F11v15n7lqf"
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Unidad bien ubicada y central, tranquila, con vigilancia atenta y buena vista desde los balcones; fácil acceso.",
+    "fuente": "https://www.google.com/maps/place/Prados+de+Monteazul/@6.1456484,-75.6244336,17z/data=!4m8!3m7!1s0x8e46811edd7b00f3:0xa5ba8888b4cfc0ce!8m2!3d6.1456484!4d-75.6244336!9m1!1b1!16s%2Fg%2F11v15n7lqf"
+   },
+   {
+    "texto": "Algunos mencionan vecinos ruidosos y que el proyecto aún tenía torres en construcción.",
+    "fuente": "https://www.google.com/maps/place/Prados+de+Monteazul/@6.1456484,-75.6244336,17z/data=!4m8!3m7!1s0x8e46811edd7b00f3:0xa5ba8888b4cfc0ce!8m2!3d6.1456484!4d-75.6244336!9m1!1b1!16s%2Fg%2F11v15n7lqf"
+   }
+  ],
+  "temas": [
+   "unidad residencial (2)",
+   "vista (2)"
+  ]
+ },
+ {
+  "municipio": "Itagüí",
+  "barrio": "Viviendas del Sur",
+  "conjuntos": [
+   {
+    "nombre": "Viviendas del Sur",
+    "calificacion": 4.3,
+    "resenas": 63,
+    "url": "https://www.google.com/maps/place/Viviendas+del+Sur/@6.1925149,-75.5942316,17z/data=!4m8!3m7!1s0x8e46826c812e9b6d:0xae113445feba7d3f!8m2!3d6.1925149!4d-75.5942316!9m1!1b1!16s%2Fg%2F11cmc4b22n"
+   },
+   {
+    "nombre": "Viviendas del Sur Manzana H",
+    "calificacion": 4.6,
+    "resenas": 19,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Unidad amplia, limpia y segura, con buen control de acceso y zonas verdes; cerca del Parque de las Chimeneas, la Central Mayorista y del transporte público.",
+    "fuente": "https://www.google.com/maps/place/Viviendas+del+Sur/@6.1925149,-75.5942316,17z/data=!4m8!3m7!1s0x8e46826c812e9b6d:0xae113445feba7d3f!8m2!3d6.1925149!4d-75.5942316!9m1!1b1!16s%2Fg%2F11cmc4b22n"
+   },
+   {
+    "texto": "El parqueadero no es exclusivo para residentes; se asigna por orden de llegada.",
+    "fuente": "https://www.google.com/maps/place/Viviendas+del+Sur/@6.1925149,-75.5942316,17z/data=!4m8!3m7!1s0x8e46826c812e9b6d:0xae113445feba7d3f!8m2!3d6.1925149!4d-75.5942316!9m1!1b1!16s%2Fg%2F11cmc4b22n"
+   }
+  ],
+  "temas": [
+   "casa (2)"
+  ]
+ },
+ {
+  "municipio": "Envigado",
+  "barrio": "Cumbres",
+  "conjuntos": [
+   {
+    "nombre": "Urbanización Camino de Cumbres",
+    "calificacion": 4.5,
+    "resenas": 52,
+    "url": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Camino+de+Cumbres/data=!4m2!3m1!1s0x8e4682ff441809a9:0xdec8d1fdccb1ae54"
+   },
+   {
+    "nombre": "Urbanización Cumbres del Bosque",
+    "calificacion": 4.4,
+    "resenas": 48,
+    "url": ""
+   },
+   {
+    "nombre": "Tierra Grata Cumbres",
+    "calificacion": 4.6,
+    "resenas": 36,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Zona muy tranquila y verde, algo apartada, con aire campestre; hay transporte público y varios colegios cerca.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Camino+de+Cumbres/data=!4m2!3m1!1s0x8e4682ff441809a9:0xdec8d1fdccb1ae54"
+   },
+   {
+    "texto": "Para llegar a los ascensores hay que subir una rampa al aire libre; la urbanización del entorno ha reducido la vista.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Camino+de+Cumbres/data=!4m2!3m1!1s0x8e4682ff441809a9:0xdec8d1fdccb1ae54"
+   },
+   {
+    "texto": "Un residente reporta la pérdida de un paquete en portería sin registro ni apoyo de cámaras.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Camino+de+Cumbres/data=!4m2!3m1!1s0x8e4682ff441809a9:0xdec8d1fdccb1ae54"
+   }
+  ],
+  "temas": [
+   "naturaleza (4)"
+  ]
+ },
+ {
+  "municipio": "Envigado",
+  "barrio": "El Trianón",
+  "conjuntos": [
+   {
+    "nombre": "Altos del Trianón",
+    "calificacion": 4.6,
+    "resenas": 80,
+    "url": "https://www.google.com/maps/place/Altos+del+Trian%C3%B3n/data=!4m2!3m1!1s0x8e46830152ccf371:0xc4e42bb7d9783467"
+   },
+   {
+    "nombre": "Balcones del Trianón",
+    "calificacion": 4.7,
+    "resenas": 9,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Sector muy tranquilo, arborizado y con fauna, calles y andenes bien cuidados; de los más silenciosos de Envigado.",
+    "fuente": "https://www.google.com/maps/place/Altos+del+Trian%C3%B3n/data=!4m2!3m1!1s0x8e46830152ccf371:0xc4e42bb7d9783467"
+   },
+   {
+    "texto": "Tiene cerca colegio, iglesia, supermercados, tiendas y cancha, y buenas vías de acceso.",
+    "fuente": "https://www.google.com/maps/place/Altos+del+Trian%C3%B3n/data=!4m2!3m1!1s0x8e46830152ccf371:0xc4e42bb7d9783467"
+   }
+  ],
+  "temas": [
+   "barrio tranquilo (5)",
+   "tranquilidad (5)",
+   "agradable (3)",
+   "lugar para vivir (3)",
+   "colegio (2)",
+   "fauna (2)"
+  ]
+ },
+ {
+  "municipio": "Sabaneta",
+  "barrio": "María Auxiliadora",
+  "conjuntos": [
+   {
+    "nombre": "Ciudadela El Paraíso Apartamentos",
+    "calificacion": 3.6,
+    "resenas": 58,
+    "url": "https://www.google.com/maps/place/Ciudadela+El+Paraiso+Apartamentos/data=!4m2!3m1!1s0x8e46833efd101b13:0x4798e2c85d1193fe"
+   },
+   {
+    "nombre": "Urbanización Canela Apartamentos",
+    "calificacion": 4.8,
+    "resenas": 39,
+    "url": ""
+   },
+   {
+    "nombre": "Buenavista Apartamentos",
+    "calificacion": 4.3,
+    "resenas": 27,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Unidad nueva con zonas verdes y buen precio para Sabaneta, pero aún con obras de construcción en curso.",
+    "fuente": "https://www.google.com/maps/place/Ciudadela+El+Paraiso+Apartamentos/data=!4m2!3m1!1s0x8e46833efd101b13:0x4798e2c85d1193fe"
+   },
+   {
+    "texto": "Queda en una loma bastante empinada y algunos reportan ruido hasta tarde y pólvora frecuente en el sector.",
+    "fuente": "https://www.google.com/maps/place/Ciudadela+El+Paraiso+Apartamentos/data=!4m2!3m1!1s0x8e46833efd101b13:0x4798e2c85d1193fe"
+   },
+   {
+    "texto": "Quejas recientes por parqueaderos comunales insuficientes (sobre todo motos) y trato poco amable de porteros y administración.",
+    "fuente": "https://www.google.com/maps/place/Ciudadela+El+Paraiso+Apartamentos/data=!4m2!3m1!1s0x8e46833efd101b13:0x4798e2c85d1193fe"
+   }
+  ],
+  "temas": [
+   "ubicación (6)",
+   "zonas verdes (3)",
+   "cerca al metro (2)",
+   "cerca a centros comerciales (2)",
+   "seguridad (2)",
+   "tranquilo (2)"
+  ]
+ },
+ {
+  "municipio": "Envigado",
+  "barrio": "Señorial",
+  "conjuntos": [
+   {
+    "nombre": "Señorial - Envigado",
+    "calificacion": 4.5,
+    "resenas": 74,
+    "url": "https://www.google.com/maps/place/SE%C3%91ORIAL+-+ENVIGADO/data=!4m2!3m1!1s0x8e4683b632182823:0xdaea911db58a1304"
+   },
+   {
+    "nombre": "Urbanización Señorial Bloque 2.1",
+    "calificacion": 4.6,
+    "resenas": 25,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Conjunto abierto de edificios de unos 5 pisos, muy verde y tranquilo, con aves y ardillas; sector seguro.",
+    "fuente": "https://www.google.com/maps/place/SE%C3%91ORIAL+-+ENVIGADO/data=!4m2!3m1!1s0x8e4683b632182823:0xdaea911db58a1304"
+   },
+   {
+    "texto": "Cerca de Megaplaza Mayorca, comercio y buen transporte público; unos 10 minutos a la estación Itagüí del metro.",
+    "fuente": "https://www.google.com/maps/place/SE%C3%91ORIAL+-+ENVIGADO/data=!4m2!3m1!1s0x8e4683b632182823:0xdaea911db58a1304"
+   },
+   {
+    "texto": "Algunos comentan que los precios han subido mucho y que llegan vecinos más ruidosos.",
+    "fuente": "https://www.google.com/maps/place/SE%C3%91ORIAL+-+ENVIGADO/data=!4m2!3m1!1s0x8e4683b632182823:0xdaea911db58a1304"
+   }
+  ],
+  "temas": [
+   "lugar para vivir (5)",
+   "zonas verdes (4)",
+   "tranquilidad (4)",
+   "zona residencial (4)",
+   "buen ambiente (3)",
+   "seguridad (2)"
+  ]
+ },
+ {
+  "municipio": "Sabaneta",
+  "barrio": "Mayorca",
+  "conjuntos": [
+   {
+    "nombre": "Puerta de Mayorca",
+    "calificacion": 4.6,
+    "resenas": 47,
+    "url": "https://www.google.com/maps/place/Puerta+de+Mayorca/data=!4m2!3m1!1s0x8e4683cff8aaa5ab:0xbb3e42b8895a9cc8"
+   },
+   {
+    "nombre": "Urbanización Altos de Mayorca",
+    "calificacion": 4.8,
+    "resenas": 15,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Dos torres altas con piscina, sauna, turco y portería 24 horas; buena ubicación cerca de vías principales, C.C. Mayorca y el metro.",
+    "fuente": "https://www.google.com/maps/place/Puerta+de+Mayorca/data=!4m2!3m1!1s0x8e4683cff8aaa5ab:0xbb3e42b8895a9cc8"
+   },
+   {
+    "texto": "Para arrendatarios: la administración limita el parqueo de visitantes a pocas noches al mes con cobros altos y es poco flexible con obras.",
+    "fuente": "https://www.google.com/maps/place/Puerta+de+Mayorca/data=!4m2!3m1!1s0x8e4683cff8aaa5ab:0xbb3e42b8895a9cc8"
+   }
+  ],
+  "temas": [
+   "ubicación (2)",
+   "administración (2)",
+   "unidad (2)"
+  ]
+ },
+ {
+  "municipio": "Itagüí",
+  "barrio": "Fátima",
+  "conjuntos": [
+   {
+    "nombre": "Urbanización Reserva del Bosque",
+    "calificacion": 4.6,
+    "resenas": 154,
+    "url": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Reserva+del+Bosque/data=!4m2!3m1!1s0x8e4683284b27cfe3:0x8ed8e40db1e8aea"
+   },
+   {
+    "nombre": "Herbario Apartments",
+    "calificacion": 4.5,
+    "resenas": 47,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Muy central: cerca del parque, comercio y metro, a pocos minutos a pie de tiendas; zonas comunes completas (piscina, sauna, gimnasio).",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Reserva+del+Bosque/data=!4m2!3m1!1s0x8e4683284b27cfe3:0x8ed8e40db1e8aea"
+   },
+   {
+    "texto": "Una torre en construcción genera ruido y polvo; también mencionan ruido del barrio vecino los fines de semana.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Reserva+del+Bosque/data=!4m2!3m1!1s0x8e4683284b27cfe3:0x8ed8e40db1e8aea"
+   },
+   {
+    "texto": "Un residente reporta plagas y acabados de baja calidad, y recepcionistas poco amables.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Reserva+del+Bosque/data=!4m2!3m1!1s0x8e4683284b27cfe3:0x8ed8e40db1e8aea"
+   }
+  ],
+  "temas": [
+   "zonas comunes (4)",
+   "unidad residencial (4)",
+   "amplio (3)",
+   "tranquilidad (3)",
+   "vecinos amables (2)",
+   "sauna (2)"
+  ]
+ },
+ {
+  "municipio": "Medellín",
+  "barrio": "Calasanz",
+  "conjuntos": [
+   {
+    "nombre": "Urbanización Calasanz Azul",
+    "calificacion": 4.5,
+    "resenas": 250,
+    "url": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Calasanz+Azul/data=!4m2!3m1!1s0x8e44296121f42c4f:0xff6690842622705c"
+   },
+   {
+    "nombre": "Calasanz Campestre",
+    "calificacion": 4.6,
+    "resenas": 180,
+    "url": ""
+   },
+   {
+    "nombre": "Urbanización Altos de Calasanz",
+    "calificacion": 4.4,
+    "resenas": 156,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Unidad amplia, tranquila y familiar, con gran vista a la ciudad, dos piscinas, zonas verdes y vigilancia 24 horas; arriendos razonables para lo que ofrece.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Calasanz+Azul/data=!4m2!3m1!1s0x8e44296121f42c4f:0xff6690842622705c"
+   },
+   {
+    "texto": "El transporte público es limitado; recomiendan tener carro o moto.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Calasanz+Azul/data=!4m2!3m1!1s0x8e44296121f42c4f:0xff6690842622705c"
+   },
+   {
+    "texto": "Trasteos incómodos en algunas torres por la distancia al punto de cargue, y quejas por vigilancia rígida o poco amable con visitantes.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Calasanz+Azul/data=!4m2!3m1!1s0x8e44296121f42c4f:0xff6690842622705c"
+   }
+  ],
+  "temas": [
+   "vista (9)",
+   "piscina (4)",
+   "zonas verdes (4)",
+   "tranquilidad (4)",
+   "ambiente familiar (3)",
+   "seguro (2)"
+  ]
+ },
+ {
+  "municipio": "Envigado",
+  "barrio": "Las Vegas",
+  "conjuntos": [
+   {
+    "nombre": "Urbanización Parque de las Vegas",
+    "calificacion": 4.6,
+    "resenas": 15,
+    "url": ""
+   },
+   {
+    "nombre": "Palmar de Las Vegas",
+    "calificacion": 4.8,
+    "resenas": 15,
+    "url": ""
+   },
+   {
+    "nombre": "Conjunto Residencial Las Vegas",
+    "calificacion": 4.4,
+    "resenas": 7,
+    "url": ""
+   }
+  ],
+  "opiniones": [],
+  "temas": []
+ },
+ {
+  "municipio": "Sabaneta",
+  "barrio": "San Remo",
+  "conjuntos": [
+   {
+    "nombre": "Jardines de San Remo",
+    "calificacion": 4.5,
+    "resenas": 241,
+    "url": "https://www.google.com/maps/place/Jardines+de+San+Remo,+Sabaneta+Antioquia/data=!4m2!3m1!1s0x8e468158bac0ae99:0x970342d46d2c1a9c"
+   },
+   {
+    "nombre": "Urbanización Viña San Remo",
+    "calificacion": 4.6,
+    "resenas": 15,
+    "url": ""
+   },
+   {
+    "nombre": "Flores de San Remo",
+    "calificacion": 5.0,
+    "resenas": 13,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Unidad grande con piscinas, sauna, gimnasio, cancha sintética, zona de mascotas y parqueadero de visitantes, en buen estado.",
+    "fuente": "https://www.google.com/maps/place/Jardines+de+San+Remo,+Sabaneta+Antioquia/data=!4m2!3m1!1s0x8e468158bac0ae99:0x970342d46d2c1a9c"
+   },
+   {
+    "texto": "Lugar tranquilo y seguro para caminar con mascotas o niños; una reseña antigua menciona consumo de drogas en el parque.",
+    "fuente": "https://www.google.com/maps/place/Jardines+de+San+Remo,+Sabaneta+Antioquia/data=!4m2!3m1!1s0x8e468158bac0ae99:0x970342d46d2c1a9c"
+   }
+  ],
+  "temas": [
+   "tranquilidad (3)",
+   "sauna (3)",
+   "zona BBQ (2)",
+   "parque infantil (2)",
+   "piscina (2)",
+   "gimnasio (2)"
+  ]
+ },
+ {
+  "municipio": "Sabaneta",
+  "barrio": "El Carmelo",
+  "conjuntos": [
+   {
+    "nombre": "Edificio Torres del Carmelo",
+    "calificacion": 4.5,
+    "resenas": 34,
+    "url": "https://www.google.com/maps/place/Edificio+Torres+del+Carmelo/data=!4m2!3m1!1s0x8e4683dc905b2fed:0xb2fa2fecd1abfff8"
+   },
+   {
+    "nombre": "Edificio Portal del Carmelo",
+    "calificacion": 4.6,
+    "resenas": 28,
+    "url": ""
+   },
+   {
+    "nombre": "Urbanización Montecarmelo",
+    "calificacion": 4.4,
+    "resenas": 14,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Apartamentos amplios con muy buena vista desde los pisos altos y piscina; ojo, se menciona que no tienen ascensor.",
+    "fuente": "https://www.google.com/maps/place/Edificio+Torres+del+Carmelo/data=!4m2!3m1!1s0x8e4683dc905b2fed:0xb2fa2fecd1abfff8"
+   }
+  ],
+  "temas": []
+ },
+ {
+  "municipio": "Sabaneta",
+  "barrio": "Entreamigos",
+  "conjuntos": [
+   {
+    "nombre": "Entreamigos de La Doctora",
+    "calificacion": 4.3,
+    "resenas": 115,
+    "url": "https://www.google.com/maps/place/Entreamigos+de+la+Doctora/data=!4m2!3m1!1s0x8e4683d8b3c2f909:0x9a1d92e664c7a46c"
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Sector central y limpio, con zonas verdes, vigilancia privada y buenos vecinos; cerca de la Avenida Las Vegas, la estación Sabaneta y el parque.",
+    "fuente": "https://www.google.com/maps/place/Entreamigos+de+la+Doctora/data=!4m2!3m1!1s0x8e4683d8b3c2f909:0x9a1d92e664c7a46c"
+   },
+   {
+    "texto": "Mencionan que los senderos quedan muy oscuros de noche.",
+    "fuente": "https://www.google.com/maps/place/Entreamigos+de+la+Doctora/data=!4m2!3m1!1s0x8e4683d8b3c2f909:0x9a1d92e664c7a46c"
+   }
+  ],
+  "temas": [
+   "espacio acogedor (3)",
+   "limpieza (2)"
+  ]
+ },
+ {
+  "municipio": "La Estrella",
+  "barrio": "Poblado del Sur",
+  "conjuntos": [
+   {
+    "nombre": "Poblado del Sur 2",
+    "calificacion": 4.7,
+    "resenas": 124,
+    "url": "https://www.google.com/maps/place/Poblado+del+Sur+2/data=!4m2!3m1!1s0x8e4681785521b329:0x531b7f09bb92b7b0"
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Unidad muy tranquila y campestre, con mucha vegetación, bosque propio y quebradas en sus linderos; jardines bien cuidados, piscina y gimnasio.",
+    "fuente": "https://www.google.com/maps/place/Poblado+del+Sur+2/data=!4m2!3m1!1s0x8e4681785521b329:0x531b7f09bb92b7b0"
+   },
+   {
+    "texto": "Queda entre Itagüí y La Estrella (sector Suramérica); se llega por la Autopista Sur tomando la vía Los Marinos.",
+    "fuente": "https://www.google.com/maps/place/Poblado+del+Sur+2/data=!4m2!3m1!1s0x8e4681785521b329:0x531b7f09bb92b7b0"
+   }
+  ],
+  "temas": [
+   "unidad (10)",
+   "ambiente campestre (4)",
+   "acogedor (3)",
+   "lugar para vivir (3)",
+   "zonas verdes (2)",
+   "tranquilo (2)"
+  ]
+ },
+ {
+  "municipio": "Medellín",
+  "barrio": "Loma de Los Bernal",
+  "conjuntos": [
+   {
+    "nombre": "Unidad Residencial Frontera de Los Bernal",
+    "calificacion": 4.4,
+    "resenas": 304,
+    "url": "https://www.google.com/maps/place/Unidad+Residencial+Frontera+De+Los+Bernal/data=!4m2!3m1!1s0x8e4429efebca082f:0x58ebbf9f76078057"
+   },
+   {
+    "nombre": "Urbanización Parque de los Bernal",
+    "calificacion": 4.6,
+    "resenas": 121,
+    "url": ""
+   },
+   {
+    "nombre": "Unidad Residencial Lomas del Viento",
+    "calificacion": 4.6,
+    "resenas": 49,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Edificio limpio, con personal de seguridad atento y vecinos amables; entorno natural, tranquilo y con buena vista.",
+    "fuente": "https://www.google.com/maps/place/Unidad+Residencial+Frontera+De+Los+Bernal/data=!4m2!3m1!1s0x8e4429efebca082f:0x58ebbf9f76078057"
+   }
+  ],
+  "temas": [
+   "piscina (4)",
+   "limpieza (3)",
+   "tranquilo (2)",
+   "gente amable (2)"
+  ]
+ },
+ {
+  "municipio": "Envigado",
+  "barrio": "Loma de Las Brujas",
+  "conjuntos": [
+   {
+    "nombre": "Urbanización Las Brujas",
+    "calificacion": 4.6,
+    "resenas": 165,
+    "url": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Las+Brujas/data=!4m2!3m1!1s0x8e4683ab5d63ff23:0x3e9a7bb4d9cf01d4"
+   },
+   {
+    "nombre": "Urbanización Rosedal",
+    "calificacion": 4.6,
+    "resenas": 56,
+    "url": ""
+   },
+   {
+    "nombre": "Urbanización Brujas Campestre PH",
+    "calificacion": 4.7,
+    "resenas": 53,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Casas construidas entre árboles antiguos, con mucha naturaleza; buena parte es peatonal, apta para niños y mascotas, con vecinos amables.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Las+Brujas/data=!4m2!3m1!1s0x8e4683ab5d63ff23:0x3e9a7bb4d9cf01d4"
+   },
+   {
+    "texto": "Personal de vigilancia y servicios atento; una reseña antigua critica la poca iluminación nocturna y el parqueadero descuidado.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Las+Brujas/data=!4m2!3m1!1s0x8e4683ab5d63ff23:0x3e9a7bb4d9cf01d4"
+   }
+  ],
+  "temas": [
+   "casas (13)",
+   "naturaleza (4)",
+   "unidad residencial (4)",
+   "vegetación (2)",
+   "arquitectura (2)",
+   "ubicación (2)"
+  ]
+ },
+ {
+  "municipio": "Envigado",
+  "barrio": "El Esmeraldal",
+  "conjuntos": [
+   {
+    "nombre": "Urbanización Bosques del Esmeraldal",
+    "calificacion": 4.6,
+    "resenas": 67,
+    "url": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Bosques+del+Esmeraldal/data=!4m2!3m1!1s0x8e46825642de3ed7:0xa58d4afd213a4b43"
+   },
+   {
+    "nombre": "Alto del Esmeraldal",
+    "calificacion": 4.5,
+    "resenas": 26,
+    "url": ""
+   },
+   {
+    "nombre": "Arboleda del Esmeraldal",
+    "calificacion": 4.6,
+    "resenas": 17,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Conjunto de casas de los más asequibles de Envigado, con dos parques infantiles y muy buena vista; las casas sin reformar pueden tener humedades.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Bosques+del+Esmeraldal/data=!4m2!3m1!1s0x8e46825642de3ed7:0xa58d4afd213a4b43"
+   }
+  ],
+  "temas": [
+   "casas grandes (2)",
+   "ambiente acogedor (2)",
+   "seguridad (2)",
+   "lugar agradable (2)"
+  ]
+ },
+ {
+  "municipio": "Envigado",
+  "barrio": "La Paz",
+  "conjuntos": [
+   {
+    "nombre": "Ciudadela Portón de La Paz",
+    "calificacion": 4.5,
+    "resenas": 129,
+    "url": "https://www.google.com/maps/place/Ciudadela+Porton+De+La+Paz/data=!4m2!3m1!1s0x8e4683b5068cee05:0x5a79aaa483908871"
+   },
+   {
+    "nombre": "Guaduales de La Paz",
+    "calificacion": 4.3,
+    "resenas": 69,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Muy bien ubicada, a pasos de la avenida principal y cerca de servicios básicos; zona tranquila con vista panorámica.",
+    "fuente": "https://www.google.com/maps/place/Ciudadela+Porton+De+La+Paz/data=!4m2!3m1!1s0x8e4683b5068cee05:0x5a79aaa483908871"
+   },
+   {
+    "texto": "Personal responsable y buen control de acceso vehicular; piscina, zona infantil y salón social, y precios económicos.",
+    "fuente": "https://www.google.com/maps/place/Ciudadela+Porton+De+La+Paz/data=!4m2!3m1!1s0x8e4683b5068cee05:0x5a79aaa483908871"
+   }
+  ],
+  "temas": [
+   "ubicación (3)",
+   "unidad (2)",
+   "agradable (2)"
+  ]
+ },
+ {
+  "municipio": "Envigado",
+  "barrio": "Loma del Esmeraldal",
+  "conjuntos": [
+   {
+    "nombre": "Urbanización Tierra Grata El Esmeraldal",
+    "calificacion": 4.7,
+    "resenas": 38,
+    "url": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Tierra+Grata+El+Esmeraldal/data=!4m2!3m1!1s0x8e4682f99d4abc49:0x7903353406586df0"
+   },
+   {
+    "nombre": "Alto del Esmeraldal",
+    "calificacion": 4.5,
+    "resenas": 26,
+    "url": ""
+   },
+   {
+    "nombre": "Unidad Residencial Faro del Esmeraldal",
+    "calificacion": 4.8,
+    "resenas": 11,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Unidad completa y muy tranquila, cerca del sector Tres Esquinas.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Tierra+Grata+El+Esmeraldal/data=!4m2!3m1!1s0x8e4682f99d4abc49:0x7903353406586df0"
+   }
+  ],
+  "temas": []
+ },
+ {
+  "municipio": "Medellín",
+  "barrio": "La Castellana",
+  "conjuntos": [
+   {
+    "nombre": "Urbanización Castillo de La Castellana",
+    "calificacion": 4.5,
+    "resenas": 318,
+    "url": "https://www.google.com/maps/place/Urbanizacion+Castillo+De+La+Castellana/data=!4m2!3m1!1s0x8e44298fdf930551:0x3ac79c30f4d6e72d"
+   },
+   {
+    "nombre": "Urbanización Patio de la Castellana",
+    "calificacion": 4.7,
+    "resenas": 29,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Unidad muy amplia para Laureles: zonas verdes, bosque interno, piscina climatizada, gimnasio y mucho parqueadero de visitantes; vista panorámica de la ciudad.",
+    "fuente": "https://www.google.com/maps/place/Urbanizacion+Castillo+De+La+Castellana/data=!4m2!3m1!1s0x8e44298fdf930551:0x3ac79c30f4d6e72d"
+   },
+   {
+    "texto": "El acceso peatonal por los sótanos es algo incómodo, y una reseña denuncia consumo de drogas dentro de la unidad sin control de la administración.",
+    "fuente": "https://www.google.com/maps/place/Urbanizacion+Castillo+De+La+Castellana/data=!4m2!3m1!1s0x8e44298fdf930551:0x3ac79c30f4d6e72d"
+   }
+  ],
+  "temas": [
+   "unidad residencial (6)",
+   "vista a la ciudad (4)",
+   "bosque (3)",
+   "zonas verdes (3)",
+   "gimnasio (2)",
+   "tranquilo (2)"
+  ]
+ },
+ {
+  "municipio": "Envigado",
+  "barrio": "El Chinguí",
+  "conjuntos": [
+   {
+    "nombre": "Urbanización Palo Verde",
+    "calificacion": 4.4,
+    "resenas": 350,
+    "url": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Palo+Verde/data=!4m2!3m1!1s0x8e4683a55f75d7c9:0x83820d59d6e1045"
+   },
+   {
+    "nombre": "Urbanización Cubik",
+    "calificacion": 4.7,
+    "resenas": 191,
+    "url": ""
+   },
+   {
+    "nombre": "Conjunto Residencial San Francisco",
+    "calificacion": 4.7,
+    "resenas": 41,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Unidad completa y tranquila en ambiente campestre junto a la quebrada Ayurá, con piscinas climatizadas y amplio parqueadero; fácil acceso.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Palo+Verde/data=!4m2!3m1!1s0x8e4683a55f75d7c9:0x83820d59d6e1045"
+   },
+   {
+    "texto": "Queja reciente por ruido: un lavadero de carros detrás y fiestas en el barrio vecino los fines de semana hasta la madrugada.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Palo+Verde/data=!4m2!3m1!1s0x8e4683a55f75d7c9:0x83820d59d6e1045"
+   }
+  ],
+  "temas": [
+   "lugar tranquilo (9)",
+   "tranquilidad (8)",
+   "ambiente campestre (7)",
+   "ubicación (7)",
+   "piscinas (6)",
+   "seguro (4)"
+  ]
+ },
+ {
+  "municipio": "Envigado",
+  "barrio": "Las Antillas",
+  "conjuntos": [
+   {
+    "nombre": "Urbanización Las Antillas Apartamentos",
+    "calificacion": 4.6,
+    "resenas": 109,
+    "url": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Las+Antillas+Apartamentos/data=!4m2!3m1!1s0x8e4683b077db7f63:0x352089a38eb49bab"
+   },
+   {
+    "nombre": "Urbanización Las Antillas 3 (casas)",
+    "calificacion": 4.5,
+    "resenas": 207,
+    "url": ""
+   },
+   {
+    "nombre": "Urbanización Las Antillas 1 (casas)",
+    "calificacion": 4.5,
+    "resenas": 170,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Unidad tranquila y segura, rodeada de vegetación, con vista panorámica y cerca del centro de Envigado.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Las+Antillas+Apartamentos/data=!4m2!3m1!1s0x8e4683b077db7f63:0x352089a38eb49bab"
+   },
+   {
+    "texto": "Llegan dos rutas integradas hacia las estaciones Itagüí y Envigado; parqueadero de visitantes cubierto.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Las+Antillas+Apartamentos/data=!4m2!3m1!1s0x8e4683b077db7f63:0x352089a38eb49bab"
+   }
+  ],
+  "temas": []
+ },
+ {
+  "municipio": "Sabaneta",
+  "barrio": "Loma de La Doctora",
+  "conjuntos": [
+   {
+    "nombre": "Edificio Loma Linda",
+    "calificacion": 4.8,
+    "resenas": 17,
+    "url": "https://www.google.com/maps/place/Edificio+Loma+Linda/data=!4m2!3m1!1s0x8e4683dc34558c69:0x2e93398c8968a359"
+   },
+   {
+    "nombre": "Ecoh Apartamentos Loma San José",
+    "calificacion": 4.4,
+    "resenas": 42,
+    "url": ""
+   },
+   {
+    "nombre": "Urbanización Lisboa",
+    "calificacion": 4.4,
+    "resenas": 47,
+    "url": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Lisboa/data=!4m2!3m1!1s0x8e46830061a313b7:0x16426ff01ec6470b"
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Zona muy residencial y segura, con zonas verdes, parqueadero y buena portería; muy cerca del parque de Sabaneta.",
+    "fuente": "https://www.google.com/maps/place/Edificio+Loma+Linda/data=!4m2!3m1!1s0x8e4683dc34558c69:0x2e93398c8968a359"
+   },
+   {
+    "texto": "Sector tranquilo con aire fresco; hay alimentador hacia la estación Sabaneta, aunque la administración de Lisboa recibe críticas recientes.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Lisboa/data=!4m2!3m1!1s0x8e46830061a313b7:0x16426ff01ec6470b"
+   }
+  ],
+  "temas": []
+ },
+ {
+  "municipio": "Medellín",
+  "barrio": "Las Palmas",
+  "conjuntos": [
+   {
+    "nombre": "San Diego de Las Palmas",
+    "calificacion": 4.4,
+    "resenas": 348,
+    "url": "https://www.google.com/maps/place/San+diego+De+Las+Palmas/data=!4m2!3m1!1s0x8e442837e3ed2e65:0xb6600fe3b79cdfe1"
+   },
+   {
+    "nombre": "Urbanización Las Palmas",
+    "calificacion": 4.5,
+    "resenas": 91,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Cerca de todo, con centro comercial y tiendas al lado; vista destacada de la ciudad.",
+    "fuente": "https://www.google.com/maps/place/San+diego+De+Las+Palmas/data=!4m2!3m1!1s0x8e442837e3ed2e65:0xb6600fe3b79cdfe1"
+   },
+   {
+    "texto": "Hay muchas lomas alrededor y parquear para visitas es difícil; recomiendan transporte público. Algunas edificaciones se ven antiguas.",
+    "fuente": "https://www.google.com/maps/place/San+diego+De+Las+Palmas/data=!4m2!3m1!1s0x8e442837e3ed2e65:0xb6600fe3b79cdfe1"
+   }
+  ],
+  "temas": [
+   "vista (18)",
+   "centro comercial (8)",
+   "zona fresca (5)",
+   "lugar tranquilo (3)",
+   "unidad residencial (3)"
+  ]
+ },
+ {
+  "municipio": "Sabaneta",
+  "barrio": "Vereda Las Lomitas",
+  "conjuntos": [],
+  "opiniones": [],
+  "temas": []
+ },
+ {
+  "municipio": "La Estrella",
+  "barrio": "Las Brisas",
+  "conjuntos": [
+   {
+    "nombre": "Barrio Las Brisas (conjunto, Cra. 56C #77 Sur-90)",
+    "calificacion": 4.8,
+    "resenas": 13,
+    "url": "https://www.google.com/maps/place/Barrio+Las+Brisas/data=!4m2!3m1!1s0x8e468124e615fa75:0x9180b75f1b9448a5"
+   },
+   {
+    "nombre": "Urbanización Brisas de San Antonio",
+    "calificacion": 4.1,
+    "resenas": 62,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Barrio de estrato medio-bajo, mayormente tranquilo aunque con algo de ruido; vecinos que se conocen pero socializan poco.",
+    "fuente": "https://www.google.com/maps/place/Barrio+Las+Brisas/data=!4m2!3m1!1s0x8e468124e615fa75:0x9180b75f1b9448a5"
+   }
+  ],
+  "temas": [
+   "tranquilo (2)"
+  ]
+ },
+ {
+  "municipio": "Sabaneta",
+  "barrio": "Vegas de San José",
+  "conjuntos": [
+   {
+    "nombre": "Conjunto Residencial Las Vegas Plaza",
+    "calificacion": 4.3,
+    "resenas": 34,
+    "url": ""
+   },
+   {
+    "nombre": "Urbanización Las Vegas Plaza (portería residentes)",
+    "calificacion": 4.0,
+    "resenas": 13,
+    "url": ""
+   }
+  ],
+  "opiniones": [],
+  "temas": []
+ },
+ {
+  "municipio": "Envigado",
+  "barrio": "Uribe Ángel",
+  "conjuntos": [],
+  "opiniones": [],
+  "temas": []
+ },
+ {
+  "municipio": "Itagüí",
+  "barrio": "Las Vegas",
+  "conjuntos": [],
+  "opiniones": [],
+  "temas": []
+ },
+ {
+  "municipio": "Sabaneta",
+  "barrio": "Sabaneta Real",
+  "conjuntos": [
+   {
+    "nombre": "Urbanización Prestige",
+    "calificacion": 4.6,
+    "resenas": 425,
+    "url": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Prestige/data=!4m2!3m1!1s0x8e46815f93d6fb6d:0x6e87e3f4b0dbca7b"
+   },
+   {
+    "nombre": "Bangkok Unidad Residencial",
+    "calificacion": 4.6,
+    "resenas": 124,
+    "url": ""
+   },
+   {
+    "nombre": "Urbanización La Sabana",
+    "calificacion": 4.2,
+    "resenas": 29,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Unidad grande y tranquila con apartamentos amplios (tres alcobas, balcón), buena vista y zonas verdes, canchas y zona de mascotas.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Prestige/data=!4m2!3m1!1s0x8e46815f93d6fb6d:0x6e87e3f4b0dbca7b"
+   },
+   {
+    "texto": "Vigilancia atenta y sector seguro; el acceso vehicular es por una vía estrecha y algo limitada.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Prestige/data=!4m2!3m1!1s0x8e46815f93d6fb6d:0x6e87e3f4b0dbca7b"
+   }
+  ],
+  "temas": [
+   "espacio (8)",
+   "vista (7)",
+   "tranquilidad (7)",
+   "amplitud (6)",
+   "apartamentos grandes (4)",
+   "zonas verdes (4)"
+  ]
+ },
+ {
+  "municipio": "Sabaneta",
+  "barrio": "Monteazul",
+  "conjuntos": [
+   {
+    "nombre": "Ciudadela Monteazul Apartamentos",
+    "calificacion": 4.6,
+    "resenas": 239,
+    "url": "https://www.google.com/maps/place/Ciudadela+Monteazul+Apartamentos/data=!4m2!3m1!1s0x8e46815e30bfa8a3:0x4827fa628d193514"
+   },
+   {
+    "nombre": "Prados de Monteazul",
+    "calificacion": 4.7,
+    "resenas": 25,
+    "url": "https://www.google.com/maps/place/Prados+de+Monteazul/data=!4m2!3m1!1s0x8e46811edd7b00f3:0xa5ba8888b4cfc0ce"
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Torres altas en el borde de la ciudad junto a la montaña, con buena vista, piscina climatizada, turco, zona de mascotas y vigilancia 24 horas.",
+    "fuente": "https://www.google.com/maps/place/Ciudadela+Monteazul+Apartamentos/data=!4m2!3m1!1s0x8e46815e30bfa8a3:0x4827fa628d193514"
+   },
+   {
+    "texto": "Es un proyecto de vivienda en arriendo administrado por una empresa; hay una queja por trato rígido de vigilancia durante un trasteo.",
+    "fuente": "https://www.google.com/maps/place/Ciudadela+Monteazul+Apartamentos/data=!4m2!3m1!1s0x8e46815e30bfa8a3:0x4827fa628d193514"
+   },
+   {
+    "texto": "Ambiente tranquilo, limpio y con fácil acceso; apartamentos bien distribuidos y ventilados.",
+    "fuente": "https://www.google.com/maps/place/Ciudadela+Monteazul+Apartamentos/data=!4m2!3m1!1s0x8e46815e30bfa8a3:0x4827fa628d193514"
+   }
+  ],
+  "temas": [
+   "turco (3)",
+   "zonas sociales (3)",
+   "ambiente acogedor (3)",
+   "seguridad 24 horas (2)",
+   "zona residencial tranquila (2)",
+   "fácil acceso (2)"
+  ]
+ },
+ {
+  "municipio": "Envigado",
+  "barrio": "Mesa",
+  "conjuntos": [
+   {
+    "nombre": "Urbanización Flor del Campo",
+    "calificacion": 4.7,
+    "resenas": 20,
+    "url": ""
+   }
+  ],
+  "opiniones": [],
+  "temas": []
+ },
+ {
+  "municipio": "Envigado",
+  "barrio": "Las Casitas",
+  "conjuntos": [],
+  "opiniones": [],
+  "temas": []
+ },
+ {
+  "municipio": "Envigado",
+  "barrio": "Mayorca",
+  "conjuntos": [
+   {
+    "nombre": "Plaza Mayorca (unidad de apartamentos)",
+    "calificacion": 4.4,
+    "resenas": 53,
+    "url": "https://www.google.com/maps/place/Plaza+Mayorca+Apartment+complex/data=!4m2!3m1!1s0x8e4683c976f96d47:0x2f0501fdafef669"
+   },
+   {
+    "nombre": "Torres de Mayorca",
+    "calificacion": 4.7,
+    "resenas": 67,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Zona residencial tranquila y segura junto a la Avenida El Poblado, cerca de Megaplaza Mayorca y la estación Itagüí; pasan buses a Envigado y El Poblado.",
+    "fuente": "https://www.google.com/maps/place/Plaza+Mayorca+Apartment+complex/data=!4m2!3m1!1s0x8e4683c976f96d47:0x2f0501fdafef669"
+   },
+   {
+    "texto": "Apartamentos pequeños, pero con buena convivencia entre vecinos y buen servicio de portería.",
+    "fuente": "https://www.google.com/maps/place/Plaza+Mayorca+Apartment+complex/data=!4m2!3m1!1s0x8e4683c976f96d47:0x2f0501fdafef669"
+   }
+  ],
+  "temas": [
+   "lugar agradable (2)"
+  ]
+ },
+ {
+  "municipio": "Medellín",
+  "barrio": "Loma del Indio",
+  "conjuntos": [
+   {
+    "nombre": "Mirador de San Diego",
+    "calificacion": 4.4,
+    "resenas": 212,
+    "url": "https://www.google.com/maps/place/Mirador+de+San+Diego/data=!4m2!3m1!1s0x8e442837c559b463:0x544727e4d031445c"
+   },
+   {
+    "nombre": "Conjunto Residencial Bosques de San Diego 1",
+    "calificacion": 4.5,
+    "resenas": 261,
+    "url": ""
+   },
+   {
+    "nombre": "Loma del Indio San Diego (conjunto)",
+    "calificacion": 4.6,
+    "resenas": 16,
+    "url": "https://www.google.com/maps/place/Loma+del+Indio+San+Diego/data=!4m2!3m1!1s0x8e442839b52f4a25:0x5fa2cf80f25b9d52"
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "La loma es muy empinada, con trancones en las tardes y peligrosa cuando llueve por motos a alta velocidad; queda bien conectada hacia Las Palmas y el aeropuerto.",
+    "fuente": "https://www.google.com/maps/place/Loma+del+Indio+San+Diego/data=!4m2!3m1!1s0x8e442839b52f4a25:0x5fa2cf80f25b9d52"
+   },
+   {
+    "texto": "Zona central y tranquila con buena vista al atardecer; entrar y salir de las unidades es riesgoso por el tráfico.",
+    "fuente": "https://www.google.com/maps/place/Mirador+de+San+Diego/data=!4m2!3m1!1s0x8e442837c559b463:0x544727e4d031445c"
+   }
+  ],
+  "temas": [
+   "vista (10)",
+   "ubicación (4)"
+  ]
+ },
+ {
+  "municipio": "Medellín",
+  "barrio": "San Diego",
+  "conjuntos": [
+   {
+    "nombre": "Mirador de San Diego",
+    "calificacion": 4.4,
+    "resenas": 212,
+    "url": "https://www.google.com/maps/place/Mirador+de+San+Diego/data=!4m2!3m1!1s0x8e442837c559b463:0x544727e4d031445c"
+   },
+   {
+    "nombre": "Urbanización Reserva de San Diego",
+    "calificacion": 4.6,
+    "resenas": 243,
+    "url": ""
+   },
+   {
+    "nombre": "San Diego de Las Palmas",
+    "calificacion": 4.4,
+    "resenas": 348,
+    "url": "https://www.google.com/maps/place/San+diego+De+Las+Palmas/data=!4m2!3m1!1s0x8e442837e3ed2e65:0xb6600fe3b79cdfe1"
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Edificios antiguos de cinco pisos sin ascensor ni piscina; zonas comunes descuidadas según algunos residentes.",
+    "fuente": "https://www.google.com/maps/place/Mirador+de+San+Diego/data=!4m2!3m1!1s0x8e442837c559b463:0x544727e4d031445c"
+   },
+   {
+    "texto": "Sector muy central, limpio y seguro, pero con mucho tráfico, ruido y hollín por la vía; críticas a la administración y rotación de vigilantes.",
+    "fuente": "https://www.google.com/maps/place/Mirador+de+San+Diego/data=!4m2!3m1!1s0x8e442837c559b463:0x544727e4d031445c"
+   }
+  ],
+  "temas": [
+   "vista (10)",
+   "ubicación (4)",
+   "lugar tranquilo (2)"
+  ]
+ },
+ {
+  "municipio": "Envigado",
+  "barrio": "Primavera",
+  "conjuntos": [
+   {
+    "nombre": "Conjunto Residencial Ciudadela Real",
+    "calificacion": 4.6,
+    "resenas": 165,
+    "url": "https://www.google.com/maps/place/Conjunto+Residencial+Ciudadela+Real/data=!4m2!3m1!1s0x8e4683ca11e6f369:0xe9ff6e0a5e9ad241"
+   },
+   {
+    "nombre": "Unidad Residencial Valle Jardín",
+    "calificacion": 4.6,
+    "resenas": 77,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Unidad de casas y apartamentos, tranquila y bien ubicada, con buena seguridad, parqueadero de visitantes y administración que mantiene todo limpio.",
+    "fuente": "https://www.google.com/maps/place/Conjunto+Residencial+Ciudadela+Real/data=!4m2!3m1!1s0x8e4683ca11e6f369:0xe9ff6e0a5e9ad241"
+   },
+   {
+    "texto": "Hay bodegas de empresas en el entorno, y una reseña menciona que la piscina estuvo mucho tiempo fuera de servicio.",
+    "fuente": "https://www.google.com/maps/place/Conjunto+Residencial+Ciudadela+Real/data=!4m2!3m1!1s0x8e4683ca11e6f369:0xe9ff6e0a5e9ad241"
+   }
+  ],
+  "temas": [
+   "bodegas (3)",
+   "ubicación (3)",
+   "unidad residencial (3)",
+   "lugar para vivir (3)",
+   "zonas comunes (2)",
+   "seguridad (2)"
+  ]
+ },
+ {
+  "municipio": "Envigado",
+  "barrio": "La Sebastiana",
+  "conjuntos": [
+   {
+    "nombre": "Barrio La Sebastiana (conjunto)",
+    "calificacion": 4.2,
+    "resenas": 5,
+    "url": ""
+   }
+  ],
+  "opiniones": [],
+  "temas": []
+ },
+ {
+  "municipio": "Itagüí",
+  "barrio": "Villa Paula",
+  "conjuntos": [
+   {
+    "nombre": "Villa Paula (Cra. 51 #56-63)",
+    "calificacion": 4.6,
+    "resenas": 19,
+    "url": ""
+   }
+  ],
+  "opiniones": [],
+  "temas": []
+ },
+ {
+  "municipio": "Medellín",
+  "barrio": "Castropol",
+  "conjuntos": [
+   {
+    "nombre": "Castropol Señorial",
+    "calificacion": 4.4,
+    "resenas": 50,
+    "url": "https://www.google.com/maps/place/Castropol+Se%C3%B1orial/data=!4m2!3m1!1s0x8e44282e9be77ca1:0x3e3058c76f1c3320"
+   },
+   {
+    "nombre": "Edificio Castropol",
+    "calificacion": 4.6,
+    "resenas": 32,
+    "url": ""
+   },
+   {
+    "nombre": "Urbanización Rincón de Castropol",
+    "calificacion": 4.7,
+    "resenas": 23,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Ubicación central y zona tranquila y segura, cerca de todo; buenos vecinos.",
+    "fuente": "https://www.google.com/maps/place/Castropol+Se%C3%B1orial/data=!4m2!3m1!1s0x8e44282e9be77ca1:0x3e3058c76f1c3320"
+   },
+   {
+    "texto": "Apartamentos amplios con buen parqueadero y vista; la vía de acceso es muy estrecha y las zonas verdes son limitadas.",
+    "fuente": "https://www.google.com/maps/place/Castropol+Se%C3%B1orial/data=!4m2!3m1!1s0x8e44282e9be77ca1:0x3e3058c76f1c3320"
+   }
+  ],
+  "temas": [
+   "edificio bonito (2)"
+  ]
+ },
+ {
+  "municipio": "Medellín",
+  "barrio": "Rodeo Alto",
+  "conjuntos": [
+   {
+    "nombre": "Unidad Residencial Rodeo Alto (Pinar del Rodeo)",
+    "calificacion": 4.2,
+    "resenas": 416,
+    "url": "https://www.google.com/maps/place/Unidad+Residencial+Rodeo+Alto/data=!4m2!3m1!1s0x8e46820954ebfc33:0xfe3dd2f001447484"
+   },
+   {
+    "nombre": "Hills Rodeo",
+    "calificacion": 4.5,
+    "resenas": 320,
+    "url": ""
+   },
+   {
+    "nombre": "Urbanización Sol del Rodeo",
+    "calificacion": 4.3,
+    "resenas": 232,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "El resumen de reseñas destaca seguridad, apartamentos bien distribuidos, ambiente tranquilo y muy buena vista; varias torres con piscina.",
+    "fuente": "https://www.google.com/maps/place/Unidad+Residencial+Rodeo+Alto/data=!4m2!3m1!1s0x8e46820954ebfc33:0xfe3dd2f001447484"
+   },
+   {
+    "texto": "Quejas por parqueaderos mal gestionados y, recientemente, por un ascensor fuera de servicio durante meses y la administración.",
+    "fuente": "https://www.google.com/maps/place/Unidad+Residencial+Rodeo+Alto/data=!4m2!3m1!1s0x8e46820954ebfc33:0xfe3dd2f001447484"
+   }
+  ],
+  "temas": [
+   "vista (21)",
+   "piscina (5)",
+   "apartamentos amplios (2)",
+   "torres (2)"
+  ]
+ },
+ {
+  "municipio": "Medellín",
+  "barrio": "San Germán",
+  "conjuntos": [
+   {
+    "nombre": "Casas del Valle",
+    "calificacion": 4.4,
+    "resenas": 158,
+    "url": "https://www.google.com/maps/place/Casas+del+Valle/data=!4m2!3m1!1s0x8e442917cd385225:0x88eae157210f3162"
+   },
+   {
+    "nombre": "Urbanización Turmalina",
+    "calificacion": 4.7,
+    "resenas": 92,
+    "url": ""
+   },
+   {
+    "nombre": "Unidad Residencial Camino del Cerro",
+    "calificacion": 4.4,
+    "resenas": 70,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Unidad de casas unifamiliares tranquila y segura, con piscina, zonas verdes, parque infantil y parqueadero de visitantes; ambiente campestre.",
+    "fuente": "https://www.google.com/maps/place/Casas+del+Valle/data=!4m2!3m1!1s0x8e442917cd385225:0x88eae157210f3162"
+   },
+   {
+    "texto": "Algunos vecinos ponen música a alto volumen; hay fotomultas en la zona.",
+    "fuente": "https://www.google.com/maps/place/Casas+del+Valle/data=!4m2!3m1!1s0x8e442917cd385225:0x88eae157210f3162"
+   }
+  ],
+  "temas": [
+   "unidad (4)",
+   "unidad residencial (3)",
+   "lugar para vivir (2)"
+  ]
+ },
+ {
+  "municipio": "Medellín",
+  "barrio": "Simón Bolívar",
+  "conjuntos": [
+   {
+    "nombre": "Urbanización Simón Bolívar (Cra. 83A #37B-26)",
+    "calificacion": 4.1,
+    "resenas": 15,
+    "url": ""
+   }
+  ],
+  "opiniones": [],
+  "temas": []
+ },
+ {
+  "municipio": "Envigado",
+  "barrio": "Las Lomitas",
+  "conjuntos": [],
+  "opiniones": [],
+  "temas": []
+ },
+ {
+  "municipio": "Envigado",
+  "barrio": "Jardines",
+  "conjuntos": [
+   {
+    "nombre": "Urbanización Jardines de La María",
+    "calificacion": 4.6,
+    "resenas": 152,
+    "url": ""
+   },
+   {
+    "nombre": "Urbanización Jardines de La María 2",
+    "calificacion": 4.6,
+    "resenas": 90,
+    "url": ""
+   },
+   {
+    "nombre": "Conjunto Residencial Luna Verde",
+    "calificacion": 4.6,
+    "resenas": 79,
+    "url": ""
+   }
+  ],
+  "opiniones": [],
+  "temas": []
+ },
+ {
+  "municipio": "Envigado",
+  "barrio": "Alcalá",
+  "conjuntos": [
+   {
+    "nombre": "Unidad Residencial Portón de Alcalá",
+    "calificacion": 4.7,
+    "resenas": 24,
+    "url": "https://www.google.com/maps/place/Unidad+Residencial+Port%C3%B3n+de+Alcal%C3%A1/data=!4m2!3m1!1s0x8e46824c8f5d4407:0xdf3f6db9c3960ae9"
+   },
+   {
+    "nombre": "Urbanización Alcalá de Henares",
+    "calificacion": 5.0,
+    "resenas": 11,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Unidad organizada, segura y central, cerca de la Avenida El Poblado, la Avenida Las Vegas y la autopista; vecinos respetuosos.",
+    "fuente": "https://www.google.com/maps/place/Unidad+Residencial+Port%C3%B3n+de+Alcal%C3%A1/data=!4m2!3m1!1s0x8e46824c8f5d4407:0xdf3f6db9c3960ae9"
+   },
+   {
+    "texto": "Rodeada de naturaleza, con plazoletas, gimnasio y piscina; una reseña menciona un perro que ladra todo el día.",
+    "fuente": "https://www.google.com/maps/place/Unidad+Residencial+Port%C3%B3n+de+Alcal%C3%A1/data=!4m2!3m1!1s0x8e46824c8f5d4407:0xdf3f6db9c3960ae9"
+   }
+  ],
+  "temas": [
+   "seguridad (2)",
+   "lugar para vivir (2)"
+  ]
+ },
+ {
+  "municipio": "Envigado",
+  "barrio": "La Abadía",
+  "conjuntos": [
+   {
+    "nombre": "Urbanización La Abadía",
+    "calificacion": 4.6,
+    "resenas": 109,
+    "url": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+La+Abad%C3%ADa/data=!4m2!3m1!1s0x8e468258d6aa58df:0xa06eac5e0787edb7"
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Muy tranquila, con aire limpio, mucha vegetación y fauna, a pocas cuadras de la Avenida El Poblado; edificios antiguos con buena distribución.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+La+Abad%C3%ADa/data=!4m2!3m1!1s0x8e468258d6aa58df:0xa06eac5e0787edb7"
+   },
+   {
+    "texto": "Un residente critica que la administración ha dejado deteriorar vías, parqueaderos y zonas comunes.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+La+Abad%C3%ADa/data=!4m2!3m1!1s0x8e468258d6aa58df:0xa06eac5e0787edb7"
+   }
+  ],
+  "temas": [
+   "naturaleza (8)",
+   "ubicación (5)",
+   "tranquilidad (3)",
+   "unidad residencial (3)",
+   "zonas verdes (2)",
+   "ambiente tranquilo (2)"
+  ]
+ },
+ {
+  "municipio": "Itagüí",
+  "barrio": "San Gabriel",
+  "conjuntos": [
+   {
+    "nombre": "Altos de San Gabriel Etapas 1 y 2",
+    "calificacion": 4.4,
+    "resenas": 74,
+    "url": "https://www.google.com/maps/place/Altos+De+San+Gabriel+Stage+1+AND+2/data=!4m2!3m1!1s0x8e46819fc1882377:0xab42af647022c6b1"
+   },
+   {
+    "nombre": "Urbanización Ciudadela San Gabriel",
+    "calificacion": 4.6,
+    "resenas": 23,
+    "url": ""
+   },
+   {
+    "nombre": "Altos de San Gabriel Etapa 3",
+    "calificacion": 4.6,
+    "resenas": 12,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Barrio de casas muy tranquilo, con fácil acceso al transporte público.",
+    "fuente": "https://www.google.com/maps/place/Altos+De+San+Gabriel+Stage+1+AND+2/data=!4m2!3m1!1s0x8e46819fc1882377:0xab42af647022c6b1"
+   }
+  ],
+  "temas": []
+ },
+ {
+  "municipio": "La Estrella",
+  "barrio": "Prados de Sabaneta",
+  "conjuntos": [],
+  "opiniones": [],
+  "temas": []
+ },
+ {
+  "municipio": "Medellín",
+  "barrio": "Belén Rincón",
+  "conjuntos": [
+   {
+    "nombre": "Belén Rincón (sector residencial, Cra. 83)",
+    "calificacion": 4.4,
+    "resenas": 168,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Pocas reseñas útiles; lo describen como un barrio donde se encuentra todo lo necesario cerca.",
+    "fuente": "https://www.google.com/maps/place/Bel%C3%A9n+rinc%C3%B3n/data=!4m2!3m1!1s0x8e44290f64ef2213:0x10148b2c4dcf21"
+   }
+  ],
+  "temas": []
+ },
+ {
+  "municipio": "Sabaneta",
+  "barrio": "La Florida",
+  "conjuntos": [
+   {
+    "nombre": "Unidad Residencial Kandala",
+    "calificacion": 4.8,
+    "resenas": 23,
+    "url": "https://www.google.com/maps/place/Unidad+Residencial+Kandala/data=!4m2!3m1!1s0x8e4683c506d95c4f:0xbc05c309e426f82a"
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Unidad organizada, limpia y tranquila, con piscina, turco, sauna y gimnasio; clima agradable y apartamentos con buena luz.",
+    "fuente": "https://www.google.com/maps/place/Unidad+Residencial+Kandala/data=!4m2!3m1!1s0x8e4683c506d95c4f:0xbc05c309e426f82a"
+   },
+   {
+    "texto": "Bien ubicada: supermercado muy cerca y varias rutas de transporte a una cuadra.",
+    "fuente": "https://www.google.com/maps/place/Unidad+Residencial+Kandala/data=!4m2!3m1!1s0x8e4683c506d95c4f:0xbc05c309e426f82a"
+   }
+  ],
+  "temas": [
+   "organización (2)"
+  ]
+ },
+ {
+  "municipio": "Sabaneta",
+  "barrio": "Restrepo Naranjo",
+  "conjuntos": [
+   {
+    "nombre": "Canarias Apartamentos",
+    "calificacion": 4.0,
+    "resenas": 46,
+    "url": "https://www.google.com/maps/place/Canarias+Apartamentos/data=!4m2!3m1!1s0x8e4683dae44a973d:0x8b52cfd49924c3c9"
+   },
+   {
+    "nombre": "La Barquereña, Conjunto residencial",
+    "calificacion": 4.5,
+    "resenas": 36,
+    "url": ""
+   },
+   {
+    "nombre": "Urbanización Torre Residencial Los Alcázares",
+    "calificacion": 4.9,
+    "resenas": 9,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Ubicación central cerca de comercio, supermercados y varias rutas de transporte; apartamentos acogedores y salón social amplio.",
+    "fuente": "https://www.google.com/maps/place/Canarias+Apartamentos/data=!4m2!3m1!1s0x8e4683dae44a973d:0x8b52cfd49924c3c9"
+   },
+   {
+    "texto": "Varios residentes se quejan de ruido constante de empresas vecinas, día y noche; parqueaderos oscuros.",
+    "fuente": "https://www.google.com/maps/place/Canarias+Apartamentos/data=!4m2!3m1!1s0x8e4683dae44a973d:0x8b52cfd49924c3c9"
+   },
+   {
+    "texto": "Advierten sobre anuncios falsos de arriendo en esta unidad; conviene verificar con la administración antes de pagar.",
+    "fuente": "https://www.google.com/maps/place/Canarias+Apartamentos/data=!4m2!3m1!1s0x8e4683dae44a973d:0x8b52cfd49924c3c9"
+   }
+  ],
+  "temas": [
+   "ruido (5)",
+   "tranquilidad (3)",
+   "ubicación central (2)",
+   "rutas de transporte (2)",
+   "estafa (2)"
+  ]
+ },
+ {
+  "municipio": "Itagüí",
+  "barrio": "Mayorca",
+  "conjuntos": [
+   {
+    "nombre": "Torres de Mayorca",
+    "calificacion": 4.7,
+    "resenas": 67,
+    "url": "https://www.google.com/maps/place/Torres+de+Mayorca/data=!4m2!3m1!1s0x8e4683cef8634021:0x65a4d9652fc05797"
+   },
+   {
+    "nombre": "Urbanización Altos de Mayorca",
+    "calificacion": 4.8,
+    "resenas": 15,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Ubicación privilegiada a pocos minutos del C.C. Mayorca y cerca del metro; zona tranquila de clima agradable.",
+    "fuente": "https://www.google.com/maps/place/Torres+de+Mayorca/data=!4m2!3m1!1s0x8e4683cef8634021:0x65a4d9652fc05797"
+   },
+   {
+    "texto": "Unidad completa: piscinas, gimnasio, cancha, zona de mascotas, BBQ, sauna y portería 24 horas; buena administración y seguridad.",
+    "fuente": "https://www.google.com/maps/place/Torres+de+Mayorca/data=!4m2!3m1!1s0x8e4683cef8634021:0x65a4d9652fc05797"
+   }
+  ],
+  "temas": [
+   "C.C. Mayorca (8)",
+   "ubicación (6)",
+   "gimnasio (3)",
+   "turco (2)",
+   "administración (2)",
+   "metro (2)"
+  ]
+ },
+ {
+  "municipio": "Itagüí",
+  "barrio": "Primavera",
+  "conjuntos": [],
+  "opiniones": [],
+  "temas": []
+ },
+ {
+  "municipio": "Itagüí",
+  "barrio": "Santa Catalina",
+  "conjuntos": [
+   {
+    "nombre": "Santa Catalina Parks",
+    "calificacion": 4.5,
+    "resenas": 293,
+    "url": "https://www.google.com/maps/place/Santa+Catalina+parks/data=!4m2!3m1!1s0x8e4681770d754d7b:0xfec7058fc7803f6f"
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Unidad con bosque interno y árboles frutales, muy tranquila y familiar; apartamentos amplios, sobre todo en los edificios antiguos.",
+    "fuente": "https://www.google.com/maps/place/Santa+Catalina+parks/data=!4m2!3m1!1s0x8e4681770d754d7b:0xfec7058fc7803f6f"
+   },
+   {
+    "texto": "La piscina es fría y una reseña antigua critica a la administración por no resolver problemas.",
+    "fuente": "https://www.google.com/maps/place/Santa+Catalina+parks/data=!4m2!3m1!1s0x8e4681770d754d7b:0xfec7058fc7803f6f"
+   }
+  ],
+  "temas": [
+   "urbanización (10)",
+   "zonas verdes (7)",
+   "árboles (6)",
+   "ambiente tranquilo (3)",
+   "ubicación (3)",
+   "vecinos (2)"
+  ]
+ },
+ {
+  "municipio": "Medellín",
+  "barrio": "Conquistadores",
+  "conjuntos": [
+   {
+    "nombre": "Urbanización Nuevo Conquistadores",
+    "calificacion": 4.5,
+    "resenas": 215,
+    "url": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Nuevo+Conquistadores/data=!4m2!3m1!1s0x8e4429ba008c7ba3:0x41cd707acae1dd2b"
+   },
+   {
+    "nombre": "Urbanización Conquistadores Sur",
+    "calificacion": 4.7,
+    "resenas": 13,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Unidad grande y organizada, con piscina, sauna, turco y gimnasio; zonas comunes de buena calidad.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Nuevo+Conquistadores/data=!4m2!3m1!1s0x8e4429ba008c7ba3:0x41cd707acae1dd2b"
+   },
+   {
+    "texto": "Muy central, cerca del metro y de vías que conectan con varios barrios; porteros amables.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Nuevo+Conquistadores/data=!4m2!3m1!1s0x8e4429ba008c7ba3:0x41cd707acae1dd2b"
+   }
+  ],
+  "temas": [
+   "unidad residencial (5)",
+   "ubicación (4)",
+   "tranquilidad (3)",
+   "lugar para vivir (3)",
+   "zona tranquila (2)"
+  ]
+ },
+ {
+  "municipio": "Medellín",
+  "barrio": "Ciudad del Río",
+  "conjuntos": [
+   {
+    "nombre": "Urbanización Plaza del Río",
+    "calificacion": 4.7,
+    "resenas": 290,
+    "url": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Plaza+del+R%C3%ADo/data=!4m2!3m1!1s0x8e4429375f92ff1b:0x89967a4a04e280ae"
+   },
+   {
+    "nombre": "Bosque del Río",
+    "calificacion": 4.8,
+    "resenas": 119,
+    "url": ""
+   },
+   {
+    "nombre": "Urbanización Parque Central del Río",
+    "calificacion": 4.5,
+    "resenas": 27,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Muy central, cerca del Museo de Arte Moderno, el metro y servicios; piscina climatizada, sauna, parque infantil y zonas para caminar.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Plaza+del+R%C3%ADo/data=!4m2!3m1!1s0x8e4429375f92ff1b:0x89967a4a04e280ae"
+   },
+   {
+    "texto": "Hay muchas obras de construcción cerca que generan ruido; quejas por excrementos de mascotas y porteros lentos o poco amables.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Plaza+del+R%C3%ADo/data=!4m2!3m1!1s0x8e4429375f92ff1b:0x89967a4a04e280ae"
+   }
+  ],
+  "temas": [
+   "zonas comunes (6)",
+   "ambiente tranquilo (5)",
+   "acogedor (3)",
+   "tranquilidad (3)",
+   "cerca de comercio (2)",
+   "sauna (2)"
+  ]
+ },
+ {
+  "municipio": "Sabaneta",
+  "barrio": "Vereda Cañaveralejo",
+  "conjuntos": [
+   {
+    "nombre": "Mosaico",
+    "calificacion": 4.5,
+    "resenas": 96,
+    "url": "https://www.google.com/maps/place/Mosaico/data=!4m2!3m1!1s0x8e4683632b374969:0x4a5681f342605ac7"
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Entorno natural, fresco y tranquilo; la vía de subida es empinada, pero queda cerca de la estación La Estrella.",
+    "fuente": "https://www.google.com/maps/place/Mosaico/data=!4m2!3m1!1s0x8e4683632b374969:0x4a5681f342605ac7"
+   },
+   {
+    "texto": "Algunos reportan ruido entre apartamentos y por construcción, y poca respuesta de administración y portería.",
+    "fuente": "https://www.google.com/maps/place/Mosaico/data=!4m2!3m1!1s0x8e4683632b374969:0x4a5681f342605ac7"
+   }
+  ],
+  "temas": [
+   "zonas verdes (6)",
+   "ambiente (6)",
+   "aire limpio (3)",
+   "unidad tranquila (3)"
+  ]
+ },
+ {
+  "municipio": "Sabaneta",
+  "barrio": "Villas del Carmen",
+  "conjuntos": [
+   {
+    "nombre": "Villas del Carmen (Cl. 53C Sur)",
+    "calificacion": 4.8,
+    "resenas": 10,
+    "url": ""
+   }
+  ],
+  "opiniones": [],
+  "temas": []
+ },
+ {
+  "municipio": "Sabaneta",
+  "barrio": "Tres Esquinas",
+  "conjuntos": [
+   {
+    "nombre": "Conjunto Residencial Sabaneta Campestre",
+    "calificacion": 4.6,
+    "resenas": 19,
+    "url": "https://www.google.com/maps/place/Conjunto+Residencial+Sabaneta+Campestre/data=!4m2!3m1!1s0x8e4683e0110878b7:0xff3c42479cd18ec4"
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Lugar sencillo, tranquilo y familiar con zonas verdes; apartamentos de calidad regular según una reseña.",
+    "fuente": "https://www.google.com/maps/place/Conjunto+Residencial+Sabaneta+Campestre/data=!4m2!3m1!1s0x8e4683e0110878b7:0xff3c42479cd18ec4"
+   }
+  ],
+  "temas": [
+   "lugar tranquilo (3)"
+  ]
+ },
+ {
+  "municipio": "Sabaneta",
+  "barrio": "Ancón Sur",
+  "conjuntos": [
+   {
+    "nombre": "Apartamentos Awá - Ancón Ciudad Natural",
+    "calificacion": 4.5,
+    "resenas": 8,
+    "url": ""
+   }
+  ],
+  "opiniones": [],
+  "temas": []
+ },
+ {
+  "municipio": "Envigado",
+  "barrio": "Las Cometas",
+  "conjuntos": [
+   {
+    "nombre": "Camino Verde de Las Cometas",
+    "calificacion": 4.6,
+    "resenas": 98,
+    "url": "https://www.google.com/maps/place/Camino+Verde+De+Las+cometas/data=!4m2!3m1!1s0x8e4683ac02796ed7:0x73dd723f1fb82d56"
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Unidad tranquila y familiar junto a una quebrada, con aire fresco, senderos y vista al valle; cerca del centro de Envigado.",
+    "fuente": "https://www.google.com/maps/place/Camino+Verde+De+Las+cometas/data=!4m2!3m1!1s0x8e4683ac02796ed7:0x73dd723f1fb82d56"
+   },
+   {
+    "texto": "Casi no hay parqueadero para visitantes.",
+    "fuente": "https://www.google.com/maps/place/Camino+Verde+De+Las+cometas/data=!4m2!3m1!1s0x8e4683ac02796ed7:0x73dd723f1fb82d56"
+   }
+  ],
+  "temas": [
+   "ambiente (3)",
+   "apartamentos (2)"
+  ]
+ },
+ {
+  "municipio": "Envigado",
+  "barrio": "Gualandayes",
+  "conjuntos": [
+   {
+    "nombre": "Urbanización Gualandayes",
+    "calificacion": 4.3,
+    "resenas": 828,
+    "url": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Gualandayes/data=!4m2!3m1!1s0x8e4683b1fa420a61:0x6f0256d185bed13d"
+   },
+   {
+    "nombre": "Urbanización Gualí",
+    "calificacion": 4.7,
+    "resenas": 30,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Sector muy tranquilo y arborizado junto al parque La Heliodora, con fauna (ardillas, aves, zarigüeyas) y quebrada.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Gualandayes/data=!4m2!3m1!1s0x8e4683b1fa420a61:0x6f0256d185bed13d"
+   },
+   {
+    "texto": "Muchas tiendas cerca y buses hacia distintos puntos; apartamentos amplios y ambiente familiar.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Gualandayes/data=!4m2!3m1!1s0x8e4683b1fa420a61:0x6f0256d185bed13d"
+   }
+  ],
+  "temas": [
+   "lugar tranquilo (14)",
+   "tranquilidad (14)",
+   "zonas verdes (9)",
+   "ambiente familiar (8)",
+   "apartamentos amplios (6)",
+   "vías de acceso (3)"
+  ]
+ },
+ {
+  "municipio": "Itagüí",
+  "barrio": "Zona Industrial No. 1",
+  "conjuntos": [],
+  "opiniones": [],
+  "temas": []
+ },
+ {
+  "municipio": "La Estrella",
+  "barrio": "Ancón San Martín",
+  "conjuntos": [],
+  "opiniones": [],
+  "temas": []
+ },
+ {
+  "municipio": "Medellín",
+  "barrio": "Loma de San Julián",
+  "conjuntos": [
+   {
+    "nombre": "Unidad San Julián del Cerro",
+    "calificacion": 4.7,
+    "resenas": 21,
+    "url": "https://www.google.com/maps/place/Unidad+San+Julian+Del+Cerro/data=!4m2!3m1!1s0x8e442836f123c54b:0xd988efa0981aaa00"
+   },
+   {
+    "nombre": "Urbanización San Julián",
+    "calificacion": 5.0,
+    "resenas": 5,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Unidad pequeña pero cómoda y tranquila, con vecinos respetuosos y personal de mantenimiento y vigilancia diligente.",
+    "fuente": "https://www.google.com/maps/place/Unidad+San+Julian+Del+Cerro/data=!4m2!3m1!1s0x8e442836f123c54b:0xd988efa0981aaa00"
+   }
+  ],
+  "temas": []
+ },
+ {
+  "municipio": "Envigado",
+  "barrio": "San Rafael",
+  "conjuntos": [
+   {
+    "nombre": "Urbanización Corazón Envigado",
+    "calificacion": 4.2,
+    "resenas": 250,
+    "url": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Coraz%C3%B3n+Envigado/data=!4m2!3m1!1s0x8e4683c64befb86b:0x22d24780eef4411c"
+   },
+   {
+    "nombre": "Conjunto Residencial Torres de Santa Isabel",
+    "calificacion": 4.4,
+    "resenas": 63,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "En la parte alta de Envigado: buena vista, clima agradable y vigilancia 24 horas con cámaras; cerca de la Universidad de Envigado.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Coraz%C3%B3n+Envigado/data=!4m2!3m1!1s0x8e4683c64befb86b:0x22d24780eef4411c"
+   },
+   {
+    "texto": "Parqueaderos escasos y estrechos, vías de acceso angostas y subida pesada; la estación Itagüí queda a unos 20 minutos a pie.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Coraz%C3%B3n+Envigado/data=!4m2!3m1!1s0x8e4683c64befb86b:0x22d24780eef4411c"
+   },
+   {
+    "texto": "Apartamentos no muy amplios; quejas por excrementos de mascotas en zonas verdes.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Coraz%C3%B3n+Envigado/data=!4m2!3m1!1s0x8e4683c64befb86b:0x22d24780eef4411c"
+   }
+  ],
+  "temas": [
+   "vista (11)",
+   "ubicación (7)",
+   "lugar tranquilo (4)",
+   "niños (3)",
+   "limpieza (2)",
+   "gente amable (2)"
+  ]
+ },
+ {
+  "municipio": "Envigado",
+  "barrio": "Obrero",
+  "conjuntos": [
+   {
+    "nombre": "Conjunto Residencial Otra Parte",
+    "calificacion": 4.4,
+    "resenas": 34,
+    "url": ""
+   },
+   {
+    "nombre": "Urbanización Otra Parte",
+    "calificacion": 4.2,
+    "resenas": 24,
+    "url": ""
+   }
+  ],
+  "opiniones": [],
+  "temas": []
+ },
+ {
+  "municipio": "Medellín",
+  "barrio": "Santa María de Los Ángeles",
+  "conjuntos": [
+   {
+    "nombre": "Urbanización Ángeles de Santa María",
+    "calificacion": 4.9,
+    "resenas": 14,
+    "url": ""
+   },
+   {
+    "nombre": "Urbanización Torre Los Ángeles",
+    "calificacion": 4.3,
+    "resenas": 12,
+    "url": ""
+   }
+  ],
+  "opiniones": [],
+  "temas": []
+ },
+ {
+  "municipio": "Envigado",
+  "barrio": "San Marcos",
+  "conjuntos": [
+   {
+    "nombre": "Ciudadela San Marcos",
+    "calificacion": 5.0,
+    "resenas": 7,
+    "url": ""
+   }
+  ],
+  "opiniones": [],
+  "temas": []
+ },
+ {
+  "municipio": "Envigado",
+  "barrio": "Loma del Barro",
+  "conjuntos": [
+   {
+    "nombre": "Señorial - Envigado",
+    "calificacion": 4.5,
+    "resenas": 74,
+    "url": "https://www.google.com/maps/place/SE%C3%91ORIAL+-+ENVIGADO/data=!4m2!3m1!1s0x8e4683b632182823:0xdaea911db58a1304"
+   },
+   {
+    "nombre": "Urbanización Altos de Los Almendros",
+    "calificacion": 4.6,
+    "resenas": 61,
+    "url": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Altos+de+Los+Almendros/data=!4m2!3m1!1s0x8e4683b765800625:0xc3110e11cdb4f4f6"
+   },
+   {
+    "nombre": "Puerto Luna",
+    "calificacion": 4.8,
+    "resenas": 48,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Unidad tranquila y segura rodeada de vegetación, con fácil acceso y buen servicio de portería; construcción tradicional y algo básica en zonas comunes.",
+    "fuente": "https://www.google.com/maps/place/Urbanizaci%C3%B3n+Altos+de+Los+Almendros/data=!4m2!3m1!1s0x8e4683b765800625:0xc3110e11cdb4f4f6"
+   },
+   {
+    "texto": "Sector verde y residencial cerca de Megaplaza Mayorca, con buen transporte y a unos 10 minutos de la estación Itagüí.",
+    "fuente": "https://www.google.com/maps/place/SE%C3%91ORIAL+-+ENVIGADO/data=!4m2!3m1!1s0x8e4683b632182823:0xdaea911db58a1304"
+   }
+  ],
+  "temas": [
+   "ubicación (3)",
+   "ambiente acogedor (2)",
+   "tranquilidad (2)"
+  ]
+ },
+ {
+  "municipio": "Itagüí",
+  "barrio": "Santa María de Los Ángeles",
+  "conjuntos": [],
+  "opiniones": [],
+  "temas": []
+ },
+ {
+  "municipio": "Itagüí",
+  "barrio": "Pilsen",
+  "conjuntos": [],
+  "opiniones": [],
+  "temas": []
+ },
+ {
+  "municipio": "Itagüí",
+  "barrio": "San José",
+  "conjuntos": [],
+  "opiniones": [],
+  "temas": []
+ },
+ {
+  "municipio": "La Estrella",
+  "barrio": "Horizontes",
+  "conjuntos": [],
+  "opiniones": [],
+  "temas": []
+ },
+ {
+  "municipio": "La Estrella",
+  "barrio": "Loma de San José",
+  "conjuntos": [
+   {
+    "nombre": "Ecoh Apartamentos Loma San José",
+    "calificacion": 4.4,
+    "resenas": 42,
+    "url": "https://www.google.com/maps/place/Ecoh+%7C+Apartamentos+%7C+Loma+San+Jos%C3%A9+%7C+Sabaneta/data=!4m2!3m1!1s0x8e46833b319e9563:0x540914bdefdfa94b"
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Proyecto nuevo con buenos acabados y zona tranquila; cerca de supermercados, restaurantes, colegios y transporte. Queda al inicio de la loma, no en lo alto.",
+    "fuente": "https://www.google.com/maps/place/Ecoh+%7C+Apartamentos+%7C+Loma+San+Jos%C3%A9+%7C+Sabaneta/data=!4m2!3m1!1s0x8e46833b319e9563:0x540914bdefdfa94b"
+   },
+   {
+    "texto": "Algunos compradores critican el servicio de la constructora y los trancones para salir a la vía principal.",
+    "fuente": "https://www.google.com/maps/place/Ecoh+%7C+Apartamentos+%7C+Loma+San+Jos%C3%A9+%7C+Sabaneta/data=!4m2!3m1!1s0x8e46833b319e9563:0x540914bdefdfa94b"
+   }
+  ],
+  "temas": [
+   "proyecto (8)",
+   "ubicación (5)",
+   "diseño (4)",
+   "supermercado (2)",
+   "transporte (2)"
+  ]
+ },
+ {
+  "municipio": "La Estrella",
+  "barrio": "Monteazul",
+  "conjuntos": [],
+  "opiniones": [],
+  "temas": []
+ },
+ {
+  "municipio": "Medellín",
+  "barrio": "Almería",
+  "conjuntos": [
+   {
+    "nombre": "Almería (urbanización, Cra. 87C #34C-12)",
+    "calificacion": 4.5,
+    "resenas": 180,
+    "url": "https://www.google.com/maps/place/Almer%C3%ADa/data=!4m2!3m1!1s0x8e442983930781bd:0x6501169846813272"
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Condominio tranquilo, familiar y seguro para caminar, con muchas zonas verdes y parques bien cuidados.",
+    "fuente": "https://www.google.com/maps/place/Almer%C3%ADa/data=!4m2!3m1!1s0x8e442983930781bd:0x6501169846813272"
+   },
+   {
+    "texto": "Buenas rutas de transporte, comercio y restaurantes cerca; unos 15 minutos al centro. Parqueadero de visitantes algo estrecho.",
+    "fuente": "https://www.google.com/maps/place/Almer%C3%ADa/data=!4m2!3m1!1s0x8e442983930781bd:0x6501169846813272"
+   }
+  ],
+  "temas": [
+   "tranquilidad (5)",
+   "parques (5)",
+   "familiar (4)",
+   "apartamentos (4)",
+   "condominio tranquilo (3)",
+   "seguro (2)"
+  ]
+ },
+ {
+  "municipio": "Medellín",
+  "barrio": "El Salvador",
+  "conjuntos": [],
+  "opiniones": [],
+  "temas": []
+ },
+ {
+  "municipio": "Medellín",
+  "barrio": "La Floresta",
+  "conjuntos": [],
+  "opiniones": [],
+  "temas": []
+ },
+ {
+  "municipio": "Envigado",
+  "barrio": "Pontevedra",
+  "conjuntos": [
+   {
+    "nombre": "Edificio Pontevedra",
+    "calificacion": 4.6,
+    "resenas": 13,
+    "url": ""
+   },
+   {
+    "nombre": "Urbanización Villagrande",
+    "calificacion": 4.6,
+    "resenas": 66,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Pocas reseñas; describen el edificio como una unidad muy tranquila y cómoda.",
+    "fuente": "https://www.google.com/maps/search/Edificio+Pontevedra+Cra.+42B+25a+Sur-41+Envigado"
+   }
+  ],
+  "temas": []
+ },
+ {
+  "municipio": "Envigado",
+  "barrio": "Milán - Vallejuelos",
+  "conjuntos": [
+   {
+    "nombre": "Milán Condominio 1",
+    "calificacion": 4.4,
+    "resenas": 172,
+    "url": "https://www.google.com/maps/place/Milan+Condo+1/data=!4m2!3m1!1s0x8e46824abd017f9d:0x33caa0689f99aa85"
+   },
+   {
+    "nombre": "Urbanización Milán Condominio 2",
+    "calificacion": 4.6,
+    "resenas": 83,
+    "url": ""
+   },
+   {
+    "nombre": "Milán Condominio 4",
+    "calificacion": 4.3,
+    "resenas": 16,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Unidad grande y familiar con vigilancia 24 horas, parqueadero y parque infantil; cerca de la estación Envigado y rutas de bus.",
+    "fuente": "https://www.google.com/maps/place/Milan+Condo+1/data=!4m2!3m1!1s0x8e46824abd017f9d:0x33caa0689f99aa85"
+   },
+   {
+    "texto": "Edificios antiguos sin ascensor ni piscina; el acceso al metro es oscuro y solitario de noche.",
+    "fuente": "https://www.google.com/maps/place/Milan+Condo+1/data=!4m2!3m1!1s0x8e46824abd017f9d:0x33caa0689f99aa85"
+   },
+   {
+    "texto": "Una queja menciona vecinos que fuman y ponen música tarde; otra dice que la nueva administración mejoró.",
+    "fuente": "https://www.google.com/maps/place/Milan+Condo+1/data=!4m2!3m1!1s0x8e46824abd017f9d:0x33caa0689f99aa85"
+   }
+  ],
+  "temas": [
+   "unidad grande (6)",
+   "familiar (4)",
+   "ubicación (4)",
+   "tranquilo (3)",
+   "rutas de bus (2)",
+   "seguridad 24 horas (2)"
+  ]
+ },
+ {
+  "municipio": "Itagüí",
+  "barrio": "Asturias",
+  "conjuntos": [
+   {
+    "nombre": "Asturias (Cl. 46 #47-04)",
+    "calificacion": 4.7,
+    "resenas": 9,
+    "url": ""
+   }
+  ],
+  "opiniones": [],
+  "temas": []
+ },
+ {
+  "municipio": "Itagüí",
+  "barrio": "Las Casitas",
+  "conjuntos": [],
+  "opiniones": [],
+  "temas": []
+ },
+ {
+  "municipio": "Medellín",
+  "barrio": "Santa Mónica",
+  "conjuntos": [
+   {
+    "nombre": "Santa Mónica 1",
+    "calificacion": 4.5,
+    "resenas": 133,
+    "url": ""
+   },
+   {
+    "nombre": "Poblado de Santa Mónica",
+    "calificacion": 4.7,
+    "resenas": 47,
+    "url": ""
+   },
+   {
+    "nombre": "Jardines de Santa Mónica",
+    "calificacion": 4.7,
+    "resenas": 22,
+    "url": ""
+   }
+  ],
+  "opiniones": [],
+  "temas": []
+ },
+ {
+  "municipio": "Medellín",
+  "barrio": "Belén Los Alpes",
+  "conjuntos": [
+   {
+    "nombre": "Mirador de los Alpes",
+    "calificacion": 4.4,
+    "resenas": 227,
+    "url": "https://www.google.com/maps/place/Mirador+de+los+Alpes/data=!4m2!3m1!1s0x8e442992b00ea391:0x97ebe37245afafac"
+   },
+   {
+    "nombre": "Urbanización Quintas de los Alpes",
+    "calificacion": 4.7,
+    "resenas": 9,
+    "url": ""
+   }
+  ],
+  "opiniones": [
+   {
+    "texto": "Apartamentos limpios con balcones de muy buena vista; unidad tranquila con piscina y vigilancia 24 horas.",
+    "fuente": "https://www.google.com/maps/place/Mirador+de+los+Alpes/data=!4m2!3m1!1s0x8e442992b00ea391:0x97ebe37245afafac"
+   }
+  ],
+  "temas": [
+   "piscina (5)",
+   "urbanización (4)",
+   "seguridad 24 horas (2)",
+   "unidad tranquila (2)"
+  ]
+ },
+ {
+  "municipio": "Medellín",
+  "barrio": "Los Colores",
+  "conjuntos": [
+   {
+    "nombre": "Unidad Residencial Los Colores (Etapa II)",
+    "calificacion": 4.8,
+    "resenas": 8,
+    "url": ""
+   },
+   {
+    "nombre": "Conjunto Residencial Los Colores",
+    "calificacion": 4.4,
+    "resenas": 5,
+    "url": ""
+   },
+   {
+    "nombre": "Urbanización Los Colores",
+    "calificacion": 4.5,
+    "resenas": 4,
+    "url": ""
+   }
+  ],
+  "opiniones": [],
+  "temas": []
+ },
+ {
+  "municipio": "Medellín",
+  "barrio": "Los Ángeles",
+  "conjuntos": [],
+  "opiniones": [],
+  "temas": []
+ },
+ {
+  "municipio": "Medellín",
+  "barrio": "Trinidad",
+  "conjuntos": [],
+  "opiniones": [],
+  "temas": []
+ },
+ {
+  "municipio": "La Estrella",
+  "barrio": "Peñas Blancas",
+  "conjuntos": [],
+  "opiniones": [],
+  "temas": []
+ }
+]

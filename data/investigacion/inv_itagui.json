@@ -1,0 +1,1072 @@
+{
+  "municipio": "Itagüí",
+  "contexto_municipio": "Según la Alcaldía, Itagüí cerró 2025 con la tasa de homicidios más baja de su historia: 11 casos, unos 3,6 por cada 100.000 habitantes, y siete de ellos se atribuyeron a riñas por intolerancia. La Alcaldía también reportó menos hurtos y extorsiones en el primer semestre de 2025, y el municipio tiene más de 1.200 cámaras, de las densidades más altas del país. En 2026 la situación empeoró: entre febrero y mayo hubo una guerra entre la banda El Ajizal y una facción disidente, concentrada en las veredas El Ajizal, Los Gómez y El Porvenir. Para finales de mayo el municipio sumaba unos 10 homicidios, y algunos casos llegaron a barrios como Santa María y El Rosario. Hay estructuras criminales históricas (Calatrava, El Guayabo, La Unión, El Ajizal) que viven del microtráfico y la extorsión, y la Policía hace operativos y capturas periódicas, aunque casi nunca se publican cifras por barrio. En la vida diaria, los problemas más comunes son el tráfico (obras de Fábricas Unidas sobre la Autopista Sur y Avenida Pilsen, previstas hasta 2028, y obras de Mayorca hasta finales de 2027), los cortes de agua programados por EPM (avisos frecuentes, normalmente nocturnos y de pocas horas), el riesgo de inundación junto a la quebrada Doña María y el riesgo de deslizamiento en las laderas del occidente.",
+  "barrios": [
+    {
+      "nombre": "Suramérica",
+      "seguridad": "media-alta",
+      "confianza": "baja",
+      "positivos": [
+        "Se describe como uno de los sectores mejor conectados del sur del Valle de Aburrá, con acceso a la Autopista Sur y al metro",
+        "Cerca de Mall Suramérica y de comercio",
+        "Muchas unidades cerradas nuevas con portería y zonas verdes"
+      ],
+      "negativos": [
+        "Tráfico en horas pico hacia la Autopista Sur",
+        "Lo poco que hay sobre el barrio viene de anuncios inmobiliarios, que son comerciales y no independientes"
+      ],
+      "resumen": "Corredor residencial nuevo y bien conectado, de unidades cerradas. No aparecieron noticias recientes de inseguridad específicas del barrio, pero tampoco hay datos oficiales por barrio.",
+      "fuentes": [
+        "https://www.ciencuadras.com/inmueble/apartamento-en-venta-en-cr-rivera-de-suramerica-itagui-3687287",
+        "https://www.fincaraiz.com.co/blog/como-es-vivir-en-itagui/",
+        "https://newsroom.rcnradio.com/colombia/itaguei-refuerza-su-seguridad-tras-reducir-su-tasa-de-homicidios-en-2025"
+      ],
+      "terreno": "plano",
+      "terreno_nota": "Sector bajo cerca de la Autopista Sur, mayormente plano o con pendientes suaves (estimación por ubicación, no verificada con una fuente).",
+      "cerca": [
+        "Mall Suramérica",
+        "Autopista Sur",
+        "Estación La Estrella o Itagüí del metro (en transporte; a pie depende de la cuadra)",
+        "Mall Complex Ditaires"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No se encontró ninguna noticia de seguridad específica del barrio en 2024-2026."
+      },
+      "problemas": [
+        {
+          "tipo": "trafico",
+          "nivel": "medio",
+          "detalle": "Salida a la Autopista Sur congestionada en horas pico, agravada por las obras de Fábricas Unidas (2026-2028) más al norte."
+        }
+      ],
+      "accesos": "Se llega por la Autopista Sur y vías locales hacia Ditaires. Es accesible sin carro en bus, con metro a una distancia corta en transporte.",
+      "recomendacion": "recomendado",
+      "razon_recomendacion": "Unidades cerradas modernas, buena conexión y sin noticias de seguridad ni problemas graves propios. La información es escasa y conviene visitar.",
+      "opiniones": []
+    },
+    {
+      "nombre": "Ditaires",
+      "seguridad": "media-alta",
+      "confianza": "media",
+      "positivos": [
+        "Parque Recreativo Ditaires, unidad deportiva, estadio y coliseo El Cubo",
+        "Mall Complex Ditaires y Mall Suramérica cerca",
+        "Fincaraiz lo ubica en el corredor residencial fuerte de la Comuna 3, junto con San Gabriel y San Antonio",
+        "Sector familiar con muchas unidades cerradas"
+      ],
+      "negativos": [
+        "Más congestión y ruido los días de eventos deportivos o culturales",
+        "Los arriendos suelen estar entre los más altos del municipio",
+        "Más lejos del metro que los barrios del centro"
+      ],
+      "resumen": "Uno de los barrios más valorados de Itagüí para vivir en familia, por sus parques y servicios. No aparecieron noticias recientes de hechos graves en el barrio.",
+      "fuentes": [
+        "https://www.fincaraiz.com.co/blog/como-vivir-en-itagui/",
+        "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-itagui-ditaires-3-habitaciones-2-banos-1-garajes/11166-M7113376",
+        "https://telemedellin.tv/?p=202668"
+      ],
+      "terreno": "ondulado",
+      "terreno_nota": "Está al pie de la ladera occidental, con calles en pendiente moderada según la cuadra (estimación por ubicación).",
+      "cerca": [
+        "Parque Recreativo Ditaires (a pie)",
+        "Unidad Deportiva y Estadio Ditaires",
+        "Mall Complex Ditaires",
+        "Mall Suramérica",
+        "Coliseo El Cubo"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No se encontraron noticias de extorsión, sicariato, hurto o microtráfico específicas de Ditaires en 2024-2026."
+      },
+      "problemas": [
+        {
+          "tipo": "agua",
+          "nivel": "bajo",
+          "detalle": "Corte de agua programado por EPM la noche del 30 al 31 de octubre de 2026 (8 p.m. a 4 a.m.) por el lavado del tanque Salvatorianos. Es un mantenimiento puntual."
+        },
+        {
+          "tipo": "ruido",
+          "nivel": "bajo",
+          "detalle": "Hay más movimiento y ruido los días de eventos en el estadio y el coliseo (característica del sector)."
+        }
+      ],
+      "accesos": "Se llega por vías arteriales internas de Itagüí desde el centro y la Autopista Sur, con buses frecuentes. Queda más lejos del metro que el centro.",
+      "recomendacion": "recomendado",
+      "razon_recomendacion": "Buena reputación, parques y comercio cerca, sin noticias de violencia ni problemas graves. Hay que confirmar la pendiente y el precio.",
+      "opiniones": []
+    },
+    {
+      "nombre": "Santa María (No. 1, 2, 3 y Santa María La Nueva)",
+      "seguridad": "media",
+      "confianza": "media",
+      "positivos": [
+        "Sector comercial con el Centro de la Moda y la Central Mayorista cerca, y transporte frecuente",
+        "Precios más contenidos que en Ditaires o Suramérica",
+        "Telemedellín lo menciona entre los barrios destacados por su desarrollo y servicios (esa lista se hizo con IA)"
+      ],
+      "negativos": [
+        "En 2026 hubo homicidios en el barrio: un venezolano asesinado el 13 de junio y otro hombre baleado dentro de una vivienda. El Colombiano relaciona los hechos en Santa María y El Rosario con la disputa de El Ajizal",
+        "En mayo de 2025 la quebrada Doña María se desbordó en Santa María 2 (carrera 48 entre la calle 72 y la carrera 49) y dañó vehículos",
+        "Mucha actividad comercial y de bodegas, con tráfico y ruido"
+      ],
+      "resumen": "Barrio popular, comercial y bien ubicado, pero con homicidios recientes ligados a la disputa de bandas de 2026 y riesgo de inundación junto a la quebrada. Conviene revisar la cuadra exacta y si el edificio está cerca de la quebrada.",
+      "fuentes": [
+        "https://www.elcolombiano.com/antioquia/violencia-homicidios-sicariato-bandas-itagui-el-ajizal-HA37048825",
+        "https://www.minuto30.com/homicidio-itagui-escalas-10-tiros/1711816/",
+        "https://www.elcolombiano.com/antioquia/lluvias-en-itagui-causaron-emergencias-muerto-y-riesgos-de-inundaciones-BH27318180"
+      ],
+      "terreno": "plano",
+      "terreno_nota": "Zona baja y plana junto a la quebrada Doña María. Esa misma condición la expone a inundaciones en aguaceros fuertes.",
+      "cerca": [
+        "Centro de la Moda",
+        "Central Mayorista de Antioquia",
+        "Comercio de barrio y bodegas",
+        "Parque del Artista",
+        "Buses frecuentes hacia el metro"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 3,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "En 2026 se registraron al menos dos homicidios con arma de fuego, uno el 13 de junio y otro con diez disparos dentro de una vivienda. El Colombiano los relaciona con la disputa de El Ajizal. No se encontraron noticias específicas de extorsión ni de microtráfico."
+      },
+      "problemas": [
+        {
+          "tipo": "inundacion",
+          "nivel": "alto",
+          "detalle": "El 4-5 de mayo de 2025 la quebrada Doña María se desbordó en Santa María 2 (carrera 48 con calle 72) y dañó vehículos y viviendas. Corantioquia recuerda que las emergencias de esta quebrada han dejado varios muertos en los últimos años."
+        },
+        {
+          "tipo": "agua",
+          "nivel": "medio",
+          "detalle": "Cortes de agua programados por EPM en Santa María 3 en mayo de 2025 y el 7 de noviembre de 2026 (nocturno)."
+        },
+        {
+          "tipo": "trafico",
+          "nivel": "medio",
+          "detalle": "Mucha actividad comercial, de bodegas y de carga alrededor de la Mayorista y el Centro de la Moda (característica del sector)."
+        },
+        {
+          "tipo": "ruido",
+          "nivel": "medio",
+          "detalle": "Ruido de comercio, bodegas y vías de carga. Hay una estación de monitoreo de ruido del SIATA en el barrio."
+        }
+      ],
+      "accesos": "Está junto a la Autopista Sur, la vía hacia Guayabal y Medellín y la Central Mayorista. Tiene muchas rutas de bus y es fácil moverse sin carro.",
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Bien ubicado y económico, pero en 2026 hubo homicidios ligados a bandas y hay riesgo documentado de inundación cerca de la quebrada. Conviene evitar los edificios a orillas de la Doña María.",
+      "opiniones": []
+    },
+    {
+      "nombre": "Simón Bolívar",
+      "seguridad": "media",
+      "confianza": "baja",
+      "positivos": [
+        "Cerca del centro, con comercio y transporte",
+        "Fincaraiz lo menciona con precios más contenidos y servicios cerca"
+      ],
+      "negativos": [
+        "16 de noviembre de 2025: sicarios en moto mataron a alias 'Piña' dentro de un restaurante del sector La Esmeralda",
+        "El Colombiano lo menciona junto a Obrero entre las zonas con plagas de ratas, asociadas al mal manejo de basuras (nota no reciente)",
+        "Movimiento comercial intenso y tráfico"
+      ],
+      "resumen": "Barrio céntrico y práctico de precio medio. Se conoce un sicariato en 2025, que parece un hecho aislado.",
+      "fuentes": [
+        "https://www.minuto30.com/amp/el-sicario-se-metio-hasta-el-restaurante-a-pina-le-pegaron-11-tiros-frente-a-la-novia-cuando-estaban-comiendo/1688568/",
+        "https://www.fincaraiz.com.co/blog/como-es-vivir-en-itagui/",
+        "https://www.elcolombiano.com/antioquia/ratas-se-pasean-por-el-parque-de-itagui-KM19518673"
+      ],
+      "terreno": "plano",
+      "terreno_nota": "Zona urbana baja próxima al centro, mayormente plana (estimación por ubicación).",
+      "cerca": [
+        "Parque principal de Itagüí",
+        "Comercio del centro",
+        "Parque Obrero",
+        "Buses hacia la estación Itagüí del metro"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 1,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "En noviembre de 2025 hubo un sicariato en el sector La Esmeralda: alias 'Piña' fue baleado en un restaurante. No se encontraron más noticias del barrio."
+      },
+      "problemas": [
+        {
+          "tipo": "basuras",
+          "nivel": "medio",
+          "detalle": "El Colombiano reportó plagas de ratas en Simón Bolívar y Obrero por el mal manejo de basuras (nota sin fecha reciente confirmada)."
+        },
+        {
+          "tipo": "trafico",
+          "nivel": "medio",
+          "detalle": "Movimiento comercial intenso cerca del centro (característica del sector)."
+        }
+      ],
+      "accesos": "Por las vías del centro de Itagüí, con buses frecuentes hacia el metro y Medellín. Es fácil sin carro.",
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Céntrico y práctico, pero tiene un sicariato reciente, problemas de basuras y poca información para descartar problemas recurrentes.",
+      "opiniones": [
+        {
+          "texto": "Residentes de Simón Bolívar y Obrero se quejan de ratas en las calles, peor de noche, por el mal manejo de basuras.",
+          "fuente": "https://www.elcolombiano.com/antioquia/ratas-se-pasean-por-el-parque-de-itagui-KM19518673"
+        }
+      ]
+    },
+    {
+      "nombre": "Viviendas del Sur",
+      "seguridad": "sin datos",
+      "confianza": "baja",
+      "positivos": [
+        "Comuna 4, cerca de Santa María de Los Ángeles, Bosques de Zúñiga y Guayabal según anuncios",
+        "Anuncios mencionan supermercados, colegios, transporte y el Parque de las Chimeneas cerca",
+        "Mayormente estrato 3, con apartamentos y algunas casas"
+      ],
+      "negativos": [
+        "No se encontró ninguna noticia ni reseña independiente del barrio. Lo que hay viene de anuncios inmobiliarios"
+      ],
+      "resumen": "Barrio residencial de la Comuna 4, al norte, cerca del límite con Guayabal. No hay información de seguridad pública, así que conviene visitarlo de día y de noche.",
+      "fuentes": [
+        "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-viviendas-del-sur-itagui/191508869",
+        "https://telemedellin.tv/?p=198989"
+      ],
+      "terreno": "plano",
+      "terreno_nota": "Por su ubicación en el norte del municipio, junto a Guayabal y Santa María, probablemente es plano (no verificado).",
+      "cerca": [
+        "Parque de las Chimeneas (según anuncios)",
+        "Supermercados y colegios (según anuncios)",
+        "Acceso a Guayabal (Medellín)",
+        "Centro de la Moda y Central Mayorista (aprox.)"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No se encontraron noticias de seguridad del barrio."
+      },
+      "problemas": [
+        {
+          "tipo": "agua",
+          "nivel": "bajo",
+          "detalle": "Corte de agua programado por EPM el 3 de octubre de 2026 que incluyó Viviendas del Sur y sectores de Guayabal (mantenimiento puntual)."
+        }
+      ],
+      "accesos": "Queda cerca del límite con Guayabal (Medellín) y de la Autopista Sur, con buses hacia Medellín y el centro de Itagüí.",
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "No hay señales negativas, pero tampoco información independiente que lo respalde. Hay que verificarlo en persona.",
+      "opiniones": []
+    },
+    {
+      "nombre": "Fátima",
+      "seguridad": "media-baja",
+      "confianza": "media",
+      "positivos": [
+        "Ubicación céntrica en la Comuna 1, cerca del comercio",
+        "Vivienda tradicional con precios moderados"
+      ],
+      "negativos": [
+        "26 de marzo de 2025: alias 'Riñón', cabecilla histórico de la banda Calatrava, fue asesinado a tiros en la vía pública del barrio (Villa Fátima), días después de salir de prisión",
+        "La Policía reportó capturas y allanamientos por venta de drogas en Calatrava, El Progreso, El Rosario y Fátima",
+        "Está junto a Calatrava, donde operan combos con presencia histórica"
+      ],
+      "resumen": "Barrio céntrico y tradicional, pero vecino de Calatrava, con un homicidio de alto perfil en 2025 y reportes de microtráfico.",
+      "fuentes": [
+        "https://www.eltiempo.com/colombia/medellin/antioquia-el-prontuario-de-alias-rinon-peligroso-cabecilla-asesinado-a-quien-le-atribuyen-mas-de-120-homicidios-3439108",
+        "https://www.policia.gov.co/index.php/noticia/14-capturas-17-diligencias-allanamiento-esclarecimiento-hechos-criminales-que-afectaban",
+        "https://telemedellin.tv/?p=124896"
+      ],
+      "terreno": "ondulado",
+      "terreno_nota": "Hay sectores planos y otros que suben hacia Calatrava (estimación por ubicación).",
+      "cerca": [
+        "Centro de Itagüí y parque principal (en transporte o caminando, según la cuadra)",
+        "Comercio de barrio",
+        "Buses hacia el metro"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 1,
+        "hurtos": 0,
+        "microtrafico": 1,
+        "periodo": "2024-2026",
+        "detalle": "En marzo de 2025 asesinaron a alias 'Riñón', cabecilla de Calatrava, en el barrio. También hay un operativo policial antidrogas que incluye Fátima, con fecha no confirmada."
+      },
+      "problemas": [
+        {
+          "tipo": "agua",
+          "nivel": "bajo",
+          "detalle": "Corte de agua por daño de tubería que afectó a unos 45.000 usuarios de la Comuna 1, entre ellos Fátima (fecha no confirmada, hecho puntual)."
+        }
+      ],
+      "accesos": "Por las vías del centro y la Comuna 1, con buses hacia el centro y el metro. Algunas calles suben hacia Calatrava.",
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Tiene un hecho grave reciente y vecindad con Calatrava, una zona de combos. Conviene revisar bien la cuadra.",
+      "opiniones": []
+    },
+    {
+      "nombre": "Las Vegas",
+      "seguridad": "media-alta",
+      "confianza": "baja",
+      "positivos": [
+        "Sobre la Avenida Las Vegas y la Regional, cerca del centro comercial Mayorca",
+        "Corredor con comercio, colegios y clínicas, según Fincaraiz",
+        "Predominan las unidades cerradas con vigilancia"
+      ],
+      "negativos": [
+        "Mucho tráfico por las obras del intercambio vial de Mayorca (2026-2027)",
+        "Ojo: la mayoría de anuncios ubican 'Las Vegas' en Envigado, así que conviene confirmar a qué municipio pertenece el inmueble"
+      ],
+      "resumen": "Zona límite con Envigado y Sabaneta, de unidades cerradas y bien conectada. La percepción general es buena, pero la movilidad está muy afectada por las obras de Mayorca.",
+      "fuentes": [
+        "https://www.fincaraiz.com.co/blog/vivir-en-envigado/",
+        "https://www.elcolombiano.com/antioquia/glorieta-mayorca-obras-nuevos-desvios-EI42795247"
+      ],
+      "terreno": "plano",
+      "terreno_nota": "Corredor del fondo del valle junto a la Avenida Las Vegas, plano.",
+      "cerca": [
+        "Centro comercial Mayorca",
+        "Avenida Las Vegas y Regional",
+        "Estación del metro de Sabaneta, Envigado o Ayurá (según la cuadra)",
+        "Colegios y clínicas del corredor"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No se encontraron noticias de seguridad específicas. Los problemas reportados son de movilidad por las obras de Mayorca."
+      },
+      "problemas": [
+        {
+          "tipo": "obras",
+          "nivel": "alto",
+          "detalle": "El intercambio vial de Mayorca está en obra desde 2026, con cierres parciales de la glorieta y desvíos. Se prevé que termine antes de diciembre de 2027."
+        },
+        {
+          "tipo": "trafico",
+          "nivel": "alto",
+          "detalle": "Unos 6.670 vehículos por hora en el pico en la glorieta de Mayorca, y los conductores reportan tiempos de viaje más largos (2026)."
+        },
+        {
+          "tipo": "ruido",
+          "nivel": "medio",
+          "detalle": "Ruido de avenida (Las Vegas, Regional) y de obra."
+        }
+      ],
+      "accesos": "Por la Avenida Las Vegas y la Regional, cerca de la estación Sabaneta y de las de Envigado o Ayurá del metro. Es fácil sin carro, aunque el tráfico vehicular está muy afectado por las obras.",
+      "recomendacion": "recomendado",
+      "razon_recomendacion": "Plano, con servicios y metro cerca y sin noticias de seguridad. El costo es el tráfico y el ruido de las obras de Mayorca hasta 2027.",
+      "opiniones": []
+    },
+    {
+      "nombre": "San Gabriel",
+      "seguridad": "media",
+      "confianza": "baja",
+      "positivos": [
+        "Fincaraiz lo incluye, junto con Ditaires, en el corredor residencial fuerte de la Comuna 3",
+        "Cerca de los parques y del comercio de Ditaires"
+      ],
+      "negativos": [
+        "Un comunicado policial sin fecha clara menciona capturas de un grupo delincuencial llamado 'San Gabriel' y hurtos en el sector",
+        "Hay poca información reciente y verificable"
+      ],
+      "resumen": "Barrio residencial vecino de Ditaires con buena reputación en guías inmobiliarias. Hay menciones policiales de un grupo delincuencial con su nombre, pero su fecha no está clara.",
+      "fuentes": [
+        "https://www.fincaraiz.com.co/blog/como-vivir-en-itagui/",
+        "https://telemedellin.tv/?p=202668"
+      ],
+      "terreno": "ondulado",
+      "terreno_nota": "Al pie de la ladera occidental, como Ditaires, con pendientes moderadas (estimación por ubicación).",
+      "cerca": [
+        "Parque Recreativo Ditaires",
+        "Mall Complex Ditaires",
+        "Mall Suramérica"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 1,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "Solo aparecen menciones policiales de hurtos en San Gabriel y de capturas de un grupo llamado 'San Gabriel', sin fecha confirmada dentro de 2024-2026."
+      },
+      "problemas": [
+        {
+          "tipo": "agua",
+          "nivel": "bajo",
+          "detalle": "Corte de agua programado por EPM la noche del 30 al 31 de octubre de 2026 por el lavado del tanque Salvatorianos (puntual)."
+        }
+      ],
+      "accesos": "Por las mismas vías internas que Ditaires, con buses hacia el centro y el metro. Algunas calles tienen pendiente.",
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Buen entorno según las guías, pero las menciones policiales de un grupo y de hurtos aconsejan verificar la zona antes.",
+      "opiniones": []
+    },
+    {
+      "nombre": "Mayorca (límite con Sabaneta/Envigado)",
+      "seguridad": "media-alta",
+      "confianza": "media",
+      "positivos": [
+        "Al lado del centro comercial Mayorca y del metro",
+        "Acceso a la Regional, la Avenida Las Vegas y la Avenida El Poblado",
+        "Sector de unidades cerradas modernas"
+      ],
+      "negativos": [
+        "La obra del intercambio vial de Mayorca empezó en 2026, con cierres parciales de la glorieta y desvíos. Se prevé que termine a finales de 2027",
+        "Tiempos de viaje más largos y ruido de obra"
+      ],
+      "resumen": "Muy bien ubicado y con percepción de seguridad razonable. El gran inconveniente actual es la movilidad por las obras, que seguirán hasta 2027.",
+      "fuentes": [
+        "https://www.elcolombiano.com/antioquia/esta-en-jaque-la-movilidad-del-sur-por-cierre-glorieta-mayorca-PC40427448",
+        "https://www.elcolombiano.com/antioquia/glorieta-mayorca-obras-nuevos-desvios-EI42795247"
+      ],
+      "terreno": "plano",
+      "terreno_nota": "Fondo del valle junto al río y la Regional, plano.",
+      "cerca": [
+        "Centro comercial Mayorca (a pocos minutos a pie)",
+        "Estación Sabaneta del metro (~10 min a pie, aprox.)",
+        "Avenida Regional y Las Vegas",
+        "Comercio de Sabaneta y Envigado"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No se encontraron noticias de seguridad del sector. La cobertura se centra en las obras viales."
+      },
+      "problemas": [
+        {
+          "tipo": "obras",
+          "nivel": "alto",
+          "detalle": "El intercambio vial de Mayorca está en obra desde 2026, con unos 22 meses de duración. Hubo cierre parcial del costado sur desde el 18 de agosto de 2026, el costado norte siguió cerrado y hay desvíos."
+        },
+        {
+          "tipo": "trafico",
+          "nivel": "alto",
+          "detalle": "El Colombiano describió que la movilidad del sur quedó 'en jaque' por el cierre de la glorieta (2026)."
+        },
+        {
+          "tipo": "ruido",
+          "nivel": "medio",
+          "detalle": "Ruido de obra y de avenidas principales."
+        }
+      ],
+      "accesos": "Por la Regional, la Avenida Las Vegas y la Avenida El Poblado, con la estación Sabaneta del metro cerca. Es muy fácil sin carro, aunque el tráfico vehicular es pesado mientras duren las obras.",
+      "recomendacion": "recomendado",
+      "razon_recomendacion": "Plano, junto a un centro comercial y al metro, sin noticias de violencia. Hay que asumir el tráfico y el ruido de las obras hasta 2027.",
+      "opiniones": []
+    },
+    {
+      "nombre": "Villa Paula",
+      "seguridad": "media",
+      "confianza": "baja",
+      "positivos": [
+        "Comuna 1, cerca del centro",
+        "Hay apartamentos de 2-3 habitaciones en unidades (anuncios en Metrocuadrado)"
+      ],
+      "negativos": [
+        "Corte de agua por daño de tubería que afectó a Villa Paula, Asturias y otros barrios (hecho puntual)",
+        "Cercanía a la zona industrial y al tráfico del centro"
+      ],
+      "resumen": "Barrio céntrico de la Comuna 1. No aparecieron noticias de inseguridad específicas, así que la calificación refleja el contexto general del centro.",
+      "fuentes": [
+        "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-itagui-villa-paula-3-habitaciones-2-banos-1-garajes/12782-M6697488",
+        "https://telemedellin.tv/?p=124896"
+      ],
+      "terreno": "plano",
+      "terreno_nota": "Zona baja de la Comuna 1, mayormente plana (estimación por ubicación).",
+      "cerca": [
+        "Centro de Itagüí y parque principal",
+        "Comercio del centro",
+        "Zona industrial y Ciudad Coltejer",
+        "Buses hacia el metro"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No se encontraron noticias de seguridad del barrio."
+      },
+      "problemas": [
+        {
+          "tipo": "agua",
+          "nivel": "bajo",
+          "detalle": "Daño de tubería que dejó sin agua a unos 45.000 usuarios de Itagüí, incluido Villa Paula (fecha no confirmada, hecho puntual)."
+        },
+        {
+          "tipo": "ruido",
+          "nivel": "bajo",
+          "detalle": "Cercanía a la zona industrial y a las vías del centro (característica del sector)."
+        }
+      ],
+      "accesos": "Por las vías del centro de Itagüí, cerca de la zona industrial, con buses frecuentes al metro. Es fácil sin carro.",
+      "recomendacion": "recomendado",
+      "razon_recomendacion": "Céntrico y plano, sin noticias negativas propias ni problemas graves. La información es limitada.",
+      "opiniones": []
+    },
+    {
+      "nombre": "Primavera",
+      "seguridad": "sin datos",
+      "confianza": "baja",
+      "positivos": [
+        "Se beneficia de la conectividad general del municipio"
+      ],
+      "negativos": [
+        "No se encontró información específica del barrio"
+      ],
+      "resumen": "No hay noticias ni reseñas públicas del barrio. Hay que verificarlo en persona.",
+      "fuentes": [
+        "https://newsroom.rcnradio.com/colombia/itaguei-refuerza-su-seguridad-tras-reducir-su-tasa-de-homicidios-en-2025"
+      ],
+      "terreno": "ondulado",
+      "terreno_nota": "Sin datos verificados sobre la topografía. Se pone ondulado como supuesto prudente.",
+      "cerca": [
+        "Sin datos verificados de lo que hay cerca. Hay que comprobarlo en un mapa"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No se encontraron noticias de seguridad del barrio."
+      },
+      "problemas": [],
+      "accesos": "Sin datos verificados sobre los accesos. Hay que comprobarlos en un mapa y en la visita.",
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Sin información pública para evaluarlo.",
+      "opiniones": []
+    },
+    {
+      "nombre": "Centro",
+      "seguridad": "media-baja",
+      "confianza": "media",
+      "positivos": [
+        "Máxima oferta de comercio, bancos y servicios",
+        "Transporte público abundante",
+        "Fincaraiz lo recomienda (junto con San José y Las Mercedes) a quien prioriza la ubicación"
+      ],
+      "negativos": [
+        "Agosto de 2025: un habitante de calle con denuncias previas mató a cuchillo a un joven en una calle cercana al parque",
+        "Septiembre de 2025: intento de robo de 200 millones en pleno centro, que terminó en balacera con la Policía",
+        "Habitantes de calle, problemas de basuras y ratas cerca del parque principal",
+        "Ruido y congestión"
+      ],
+      "resumen": "Es la zona más práctica pero también la más expuesta a hurtos y problemas de convivencia típicos de un centro urbano. Los casos de 2025 son hechos graves pero aislados.",
+      "fuentes": [
+        "https://www.publimetro.co/medellin/2025/08/12/detalles-del-caso-de-habitante-de-calle-que-ataco-brutalmente-a-un-joven-en-itagui-ya-tenia-denuncias/",
+        "https://www.elcolombiano.com/antioquia/susto-en-el-parque-de-itagui-ladrones-iban-por-200-millones-y-se-enfrentaron-a-tiros-con-la-policia-PN29069897",
+        "https://www.elcolombiano.com/antioquia/ratas-se-pasean-por-el-parque-de-itagui-KM19518673"
+      ],
+      "terreno": "plano",
+      "terreno_nota": "Casco urbano tradicional, plano.",
+      "cerca": [
+        "Parque principal de Itagüí",
+        "Hospital San Rafael de Itagüí",
+        "Alcaldía y comercio del centro",
+        "Buses y estación Itagüí del metro (en transporte corto)"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 1,
+        "hurtos": 1,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "En agosto de 2025 un habitante de calle mató a un joven cerca del parque. En septiembre de 2025 un intento de atraco de 200 millones terminó en balacera con la Policía."
+      },
+      "problemas": [
+        {
+          "tipo": "basuras",
+          "nivel": "medio",
+          "detalle": "El Colombiano reportó ratas en el parque principal por el mal manejo de basuras, peor de noche."
+        },
+        {
+          "tipo": "ruido",
+          "nivel": "medio",
+          "detalle": "Ruido y congestión propios del centro comercial del municipio."
+        },
+        {
+          "tipo": "agua",
+          "nivel": "bajo",
+          "detalle": "El centro figuró entre los barrios afectados por un daño de tubería que dejó sin agua a unos 45.000 usuarios (fecha no confirmada)."
+        },
+        {
+          "tipo": "otro",
+          "nivel": "medio",
+          "detalle": "Presencia de habitantes de calle. En agosto de 2025 uno de ellos, con denuncias previas, cometió un homicidio cerca del parque."
+        }
+      ],
+      "accesos": "Es el punto mejor servido en buses del municipio, a un transporte corto de la estación Itagüí del metro. Muy fácil sin carro, aunque difícil para parquear.",
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Tiene todos los servicios, pero hay hurtos, habitantes de calle, basuras y hechos graves aislados en 2025.",
+      "opiniones": [
+        {
+          "texto": "Vecinos indignados porque el habitante de calle que mató a un joven cerca del parque ya tenía denuncias previas y seguía en la zona.",
+          "fuente": "https://www.publimetro.co/medellin/2025/08/12/detalles-del-caso-de-habitante-de-calle-que-ataco-brutalmente-a-un-joven-en-itagui-ya-tenia-denuncias/"
+        },
+        {
+          "texto": "Usuarios del parque principal denuncian ratas paseándose de noche y lo atribuyen a basuras mal dispuestas.",
+          "fuente": "https://www.elcolombiano.com/antioquia/ratas-se-pasean-por-el-parque-de-itagui-KM19518673"
+        }
+      ]
+    },
+    {
+      "nombre": "Santa María de Los Ángeles",
+      "seguridad": "sin datos",
+      "confianza": "baja",
+      "positivos": [
+        "Cercanía a los servicios y al comercio del sector Santa María"
+      ],
+      "negativos": [
+        "No hay datos específicos. Por cercanía comparte el contexto de Santa María (homicidios ligados a bandas en 2026 y riesgo de inundación cerca de la quebrada Doña María)"
+      ],
+      "resumen": "No se encontró información propia del barrio. Conviene evaluarlo con el mismo criterio que Santa María y revisar la cuadra exacta.",
+      "fuentes": [
+        "https://www.elcolombiano.com/antioquia/violencia-homicidios-sicariato-bandas-itagui-el-ajizal-HA37048825"
+      ],
+      "terreno": "plano",
+      "terreno_nota": "Por su cercanía a Santa María y Viviendas del Sur probablemente es plano (estimación no verificada).",
+      "cerca": [
+        "Comercio del sector Santa María",
+        "Centro de la Moda",
+        "Central Mayorista"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No se encontraron noticias propias del barrio. En el vecino Santa María hubo homicidios en 2026."
+      },
+      "problemas": [],
+      "accesos": "Por las vías del sector Santa María y Guayabal, con buses hacia Medellín y el centro de Itagüí.",
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Sin datos propios y vecino de un sector con homicidios recientes.",
+      "opiniones": []
+    },
+    {
+      "nombre": "Zona Industrial No. 1",
+      "seguridad": "media",
+      "confianza": "baja",
+      "positivos": [
+        "Renovación urbana de Ciudad Coltejer, en el antiguo lote de la fábrica Coltejer: proyectos nuevos de vivienda y comercio como Velvet, Oliva e Índigo",
+        "Apartamentos modernos en unidades con amenidades",
+        "Cerca del metro y de la Autopista Sur"
+      ],
+      "negativos": [
+        "Entorno todavía industrial, con camiones, ruido y calles poco activas de noche",
+        "Zona en transición, con obras en curso",
+        "Lo que hay del sector viene sobre todo de anuncios inmobiliarios"
+      ],
+      "resumen": "Es una buena opción si se busca un apartamento nuevo en unidad cerrada dentro de Ciudad Coltejer. El entorno es industrial y está en transformación.",
+      "fuentes": [
+        "https://www.ciencuadras.com/proyecto-de-vivienda/constructora-capital-bogota-sas-velvet-itagui-2471",
+        "https://www.fincaraiz.com.co/venta/apartamentos/itagui/zona-industrial-no-1",
+        "https://telemedellin.tv/?p=124896"
+      ],
+      "terreno": "plano",
+      "terreno_nota": "Zona industrial del fondo del valle, completamente plana.",
+      "cerca": [
+        "Estación Itagüí del metro (barrio Santa Cruz, a pocos minutos según la cuadra)",
+        "Autopista Sur",
+        "Comercio de Ciudad Coltejer",
+        "Centro de Itagüí"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No se encontraron noticias de seguridad específicas del sector."
+      },
+      "problemas": [
+        {
+          "tipo": "ruido",
+          "nivel": "medio",
+          "detalle": "Entorno industrial con tránsito de camiones (característica evidente del sector)."
+        },
+        {
+          "tipo": "obras",
+          "nivel": "medio",
+          "detalle": "Ciudad Coltejer sigue en construcción, con proyectos entregándose desde 2026, y cerca están las obras de Fábricas Unidas en la Autopista Sur (2026-2028)."
+        },
+        {
+          "tipo": "agua",
+          "nivel": "bajo",
+          "detalle": "Zona Industrial 1 figuró entre los barrios afectados por un daño de tubería (fecha no confirmada, hecho puntual)."
+        }
+      ],
+      "accesos": "Junto a la Autopista Sur y a la estación Itagüí del metro. Es muy fácil sin carro, pero las calles industriales quedan poco activas de noche.",
+      "recomendacion": "recomendado",
+      "razon_recomendacion": "Vivienda nueva, plana y junto al metro, sin noticias de seguridad. Hay que tolerar el entorno industrial y las obras cercanas.",
+      "opiniones": []
+    },
+    {
+      "nombre": "El Carmelo",
+      "seguridad": "media",
+      "confianza": "baja",
+      "positivos": [
+        "Sector residencial tradicional cerca de los servicios del municipio"
+      ],
+      "negativos": [
+        "Enero de 2026: vecinos se quejaron de rumbas ruidosas de varios días de un residente, con respuesta limitada de la Alcaldía (caso puntual)",
+        "Figura entre los barrios afectados por el aguacero de mayo de 2025"
+      ],
+      "resumen": "No hay noticias de violencia relevantes. Los reportes encontrados tratan de convivencia (ruido) y lluvias, y son hechos puntuales.",
+      "fuentes": [
+        "https://www.elcolombiano.com/antioquia/guarda-de-itagui-ruido-fiestas-el-carmelo-BB32441707",
+        "https://www.minuto30.com/amp/itagui-en-calamidad-por-avenida-torrencial-muerto-y-multiples-emergencias/1659335/"
+      ],
+      "terreno": "ondulado",
+      "terreno_nota": "Sin verificar. Por haber sido afectado por lluvias, conviene revisar la pendiente y la cercanía a quebradas.",
+      "cerca": [
+        "Comercio de barrio",
+        "Buses hacia el centro y el metro"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "Solo hay noticias de convivencia (ruido, 2026) y de emergencia por lluvias (2025), no de delitos."
+      },
+      "problemas": [
+        {
+          "tipo": "ruido",
+          "nivel": "medio",
+          "detalle": "El Colombiano (12 de enero de 2026) informó que vecinos llevan más de dos años soportando rumbas de varios días de una residente, con respuesta limitada de la Alcaldía."
+        },
+        {
+          "tipo": "inundacion",
+          "nivel": "medio",
+          "detalle": "Figura entre los barrios afectados por el aguacero e inundaciones del 4-5 de mayo de 2025."
+        }
+      ],
+      "accesos": "Por vías internas de Itagüí con buses hacia el centro y el metro. No se encontraron datos sobre accesos difíciles.",
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Sin noticias de delitos, pero con afectación por lluvias, un caso documentado de ruido y poca información.",
+      "opiniones": [
+        {
+          "texto": "Vecinos dicen llevar más de dos años soportando rumbas de días de una residente y sienten que la Alcaldía respondió poco.",
+          "fuente": "https://www.elcolombiano.com/antioquia/guarda-de-itagui-ruido-fiestas-el-carmelo-BB32441707"
+        }
+      ]
+    },
+    {
+      "nombre": "Pilsen (Glorieta Pilsen)",
+      "seguridad": "media",
+      "confianza": "baja",
+      "positivos": [
+        "El intercambio vial Induamérica reemplazó la antigua glorieta y mejoró la movilidad",
+        "Buena conexión con la Autopista Sur, Guayabal y el centro"
+      ],
+      "negativos": [
+        "Obras del intercambio de Fábricas Unidas (Autopista Sur con Avenida Pilsen) desde enero de 2026, previstas hasta 2028",
+        "Cierres viales y trancones: el 6 de octubre de 2026 cerraron el puente de Pilsen en hora pico",
+        "Entorno industrial y comercial, con ruido"
+      ],
+      "resumen": "Muy conectado, pero ruidoso y con obras y trancones previstos hasta 2028. No aparecieron noticias de seguridad específicas del sector.",
+      "fuentes": [
+        "https://www.elcolombiano.com/inicio/cierres-viales-itagui-trancones-glorieta-pilsen-CL41971289",
+        "https://telemedellin.tv/?p=162974",
+        "https://www.medellin.gov.co/es/sala-de-prensa/noticias/area-metropolitana-del-valle-de-aburra-y-alcaldia-de-itagui-entregan-el-intercambio-vial-induamerica/"
+      ],
+      "terreno": "plano",
+      "terreno_nota": "Corredor vial e industrial plano.",
+      "cerca": [
+        "Autopista Sur",
+        "Estación Itagüí del metro (aprox., según la cuadra)",
+        "Comercio e industria del sector",
+        "Acceso rápido a Guayabal (Medellín)"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No se encontraron noticias de seguridad del sector. La cobertura es sobre movilidad."
+      },
+      "problemas": [
+        {
+          "tipo": "obras",
+          "nivel": "alto",
+          "detalle": "El intercambio vial de Fábricas Unidas (Autopista Sur con Avenida Pilsen) empezó el 28 de enero de 2026 y se estima listo hacia enero de 2028. También hay reportes de problemas con el contrato."
+        },
+        {
+          "tipo": "trafico",
+          "nivel": "alto",
+          "detalle": "El 6 de octubre de 2026 cerraron el puente de Pilsen en hora pico y desviaron el tráfico hacia San José, con trancones en el sur del municipio."
+        },
+        {
+          "tipo": "ruido",
+          "nivel": "alto",
+          "detalle": "Corredor de tráfico pesado e industrial, sumado a la obra (característica evidente)."
+        },
+        {
+          "tipo": "agua",
+          "nivel": "bajo",
+          "detalle": "Glorieta Pilsen figuró en el corte programado de EPM de la noche del 30 al 31 de octubre de 2026."
+        }
+      ],
+      "accesos": "Sobre la Avenida Pilsen y la Autopista Sur, con muchas rutas de bus y el metro relativamente cerca. Mientras duren las obras hay desvíos y cierres frecuentes.",
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Sin noticias de delitos, pero con obras grandes hasta 2028, trancones y mucho ruido que bajan la calidad de vida residencial.",
+      "opiniones": []
+    },
+    {
+      "nombre": "Asturias",
+      "seguridad": "media",
+      "confianza": "baja",
+      "positivos": [
+        "Comuna 1, cerca del centro y de la zona de renovación de Coltejer",
+        "Anuncios lo presentan como sector con valorización"
+      ],
+      "negativos": [
+        "Corte de agua puntual por daño de tubería",
+        "Cercanía a zonas industriales y al tráfico"
+      ],
+      "resumen": "Barrio céntrico con potencial de valorización. No hay noticias específicas de inseguridad, así que la calificación es contextual.",
+      "fuentes": [
+        "https://telemedellin.tv/?p=124896",
+        "https://www.ciencuadras.com/inmueble/casa-en-arriendo-en-asturias-itagui-3791723"
+      ],
+      "terreno": "plano",
+      "terreno_nota": "Zona baja de la Comuna 1, plana (estimación por ubicación).",
+      "cerca": [
+        "Centro de Itagüí",
+        "Ciudad Coltejer",
+        "Estación Itagüí del metro (en transporte corto o a pie según la cuadra)"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No se encontraron noticias de seguridad del barrio."
+      },
+      "problemas": [
+        {
+          "tipo": "agua",
+          "nivel": "bajo",
+          "detalle": "Daño de tubería que dejó sin agua a unos 45.000 usuarios, incluido Asturias (fecha no confirmada, hecho puntual)."
+        }
+      ],
+      "accesos": "Por las vías del centro y la Comuna 1, cerca de la zona industrial y la Autopista Sur. Es fácil sin carro.",
+      "recomendacion": "recomendado",
+      "razon_recomendacion": "Céntrico, plano y sin noticias negativas propias ni problemas graves. La información es limitada.",
+      "opiniones": []
+    },
+    {
+      "nombre": "San José",
+      "seguridad": "media",
+      "confianza": "baja",
+      "positivos": [
+        "Fincaraiz lo recomienda para quien prioriza la ubicación céntrica",
+        "Cerca de comercio, transporte y servicios"
+      ],
+      "negativos": [
+        "Un reporte policial menciona la captura en el barrio de alias 'Jaleíta', presunto integrante del grupo La Unión buscado por homicidio. No se pudo verificar la fecha",
+        "Recibe tráfico desviado por las obras de Pilsen y Fábricas Unidas"
+      ],
+      "resumen": "Barrio céntrico práctico. Hay una captura puntual de un miembro de una banda, pero no consta que haya violencia reciente en el propio barrio. El tráfico puede aumentar por los desvíos de las obras.",
+      "fuentes": [
+        "https://www.fincaraiz.com.co/blog/como-es-vivir-en-itagui/",
+        "https://www.elcolombiano.com/inicio/cierres-viales-itagui-trancones-glorieta-pilsen-CL41971289"
+      ],
+      "terreno": "plano",
+      "terreno_nota": "Comuna 1, zona baja y plana.",
+      "cerca": [
+        "Centro de Itagüí y parque principal",
+        "Hospital San Rafael (aprox.)",
+        "Comercio y bancos",
+        "Buses hacia el metro"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "Solo aparece la captura de un presunto integrante de La Unión en el barrio, sin fecha confirmada. No hay noticias de hechos violentos en el barrio."
+      },
+      "problemas": [
+        {
+          "tipo": "trafico",
+          "nivel": "medio",
+          "detalle": "El 6 de octubre de 2026 el tráfico se desvió hacia San José por el cierre del puente de Pilsen. Sus vías confluyen con la Avenida Pilsen, que está en obra."
+        },
+        {
+          "tipo": "agua",
+          "nivel": "bajo",
+          "detalle": "Figuró entre los barrios afectados por un daño de tubería que dejó sin agua a unos 45.000 usuarios (fecha no confirmada)."
+        }
+      ],
+      "accesos": "Por las vías del centro y la Avenida Pilsen, con buses frecuentes al metro. Es fácil sin carro, pero el tráfico aumenta con los desvíos de las obras.",
+      "recomendacion": "recomendado",
+      "razon_recomendacion": "Céntrico, plano y con servicios, sin noticias recurrentes de violencia. El punto en contra es el tráfico por los desvíos de las obras de Pilsen.",
+      "opiniones": []
+    },
+    {
+      "nombre": "Santa Catalina",
+      "seguridad": "sin datos",
+      "confianza": "baja",
+      "positivos": [
+        "Comuna 2, con oferta de apartamentos en arriendo en Ciencuadras",
+        "Conectividad general del municipio"
+      ],
+      "negativos": [
+        "No se encontraron noticias ni reseñas del barrio"
+      ],
+      "resumen": "Solo aparece en anuncios inmobiliarios. Conviene verificarlo en persona y preguntar a residentes.",
+      "fuentes": [
+        "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-santa-catalina-itagui-3799229",
+        "https://telemedellin.tv/?p=202668"
+      ],
+      "terreno": "ondulado",
+      "terreno_nota": "Sin datos verificados sobre la topografía. Se pone ondulado como supuesto prudente.",
+      "cerca": [
+        "Sin datos verificados de lo que hay cerca. Hay que comprobarlo en un mapa"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No se encontraron noticias de seguridad del barrio."
+      },
+      "problemas": [
+        {
+          "tipo": "agua",
+          "nivel": "bajo",
+          "detalle": "Corte de agua programado por EPM la noche del 30 al 31 de octubre de 2026 por el lavado del tanque Salvatorianos (puntual)."
+        }
+      ],
+      "accesos": "Sin datos verificados sobre los accesos. Hay que comprobarlos en un mapa y en la visita.",
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Sin información pública para evaluarlo.",
+      "opiniones": []
+    },
+    {
+      "nombre": "El Porvenir",
+      "seguridad": "baja",
+      "confianza": "media",
+      "positivos": [
+        "Ambiente semirrural y más verde, en la parte alta del municipio"
+      ],
+      "negativos": [
+        "En mayo de 2026 El Porvenir formó parte, con El Ajizal y Los Gómez, del corredor de la guerra entre la banda El Ajizal y su facción disidente, con unos 5 a 8 homicidios en diez días",
+        "Durante esa crisis el comercio tuvo que cerrar desde las 8 p.m.",
+        "Riesgo geotécnico: la Alcaldía declaró en ruina y ordenó demoler 15 viviendas de El Porvenir 2 por movimientos de ladera, y hubo una evacuación por una grieta",
+        "Lejos del metro y de los servicios"
+      ],
+      "resumen": "Es la zona con peor contexto de la lista: disputa armada de bandas en 2026 y riesgo documentado de deslizamiento. Conviene confirmar si el inmueble está en este sector.",
+      "fuentes": [
+        "https://www.minuto30.com/disputa-criminal-itagui-ocho-muertos/1708355/",
+        "https://www.minuto30.com/sicariato-de-pelicula-en-ajizal-lo-persiguieron-por-las-estrechas-calles-hasta-cazarlo-en-una-vivienda/1707453/",
+        "https://www.elcolombiano.com/antioquia/itagui-demolicion-viviendas-el-porvenir-riesgo-KK35849641"
+      ],
+      "terreno": "lomas fuertes",
+      "terreno_nota": "Ladera alta y empinada del occidente de Itagüí, con callejones estrechos y suelos inestables documentados.",
+      "cerca": [
+        "Lejos de comercio y transporte"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 1,
+        "sicariato_homicidios": 3,
+        "hurtos": 0,
+        "microtrafico": 2,
+        "periodo": "2024-2026",
+        "detalle": "En mayo de 2026 hubo varios homicidios y sicariatos en el corredor El Ajizal–Los Gómez–El Porvenir, por una disputa entre bandas por el microtráfico y la extorsión. Después hubo capturas e incautaciones de droga en la zona."
+      },
+      "problemas": [
+        {
+          "tipo": "deslizamiento",
+          "nivel": "alto",
+          "detalle": "La Alcaldía declaró en ruina y ordenó demoler 15 viviendas de El Porvenir 2 por movimientos de ladera sobre suelos intervenidos e inestables, y hubo una evacuación masiva por una grieta en un callejón."
+        },
+        {
+          "tipo": "altura",
+          "nivel": "alto",
+          "detalle": "Sector de ladera alta del occidente del municipio."
+        },
+        {
+          "tipo": "acceso",
+          "nivel": "alto",
+          "detalle": "Callejones y calles estrechas y empinadas (Minuto30 describe una persecución 'por las estrechas calles'), lejos del metro."
+        },
+        {
+          "tipo": "otro",
+          "nivel": "alto",
+          "detalle": "En mayo de 2026 el comercio tuvo que cerrar desde las 8 p.m. por la disputa armada de bandas."
+        }
+      ],
+      "accesos": "Se llega por vías de ladera estrechas y empinadas desde la parte urbana. Depende de buses o colectivos de barrio y es difícil sin carro.",
+      "recomendacion": "no recomendado",
+      "razon_recomendacion": "Hay sicariatos por una disputa de bandas en 2026, riesgo documentado de deslizamiento, accesos difíciles y lejanía de servicios.",
+      "opiniones": [
+        {
+          "texto": "Residentes del corredor rural cuentan vivir con miedo. Un vecino relata que los tiroteos interrumpieron hasta la misa, y los comerciantes temen abrir de noche.",
+          "fuente": "https://telemedellin.tv/?p=180550"
+        }
+      ]
+    },
+    {
+      "nombre": "Las Casitas",
+      "seguridad": "sin datos",
+      "confianza": "baja",
+      "positivos": [
+        "Hay oferta de apartamentos en arriendo en unidades nuevas (Conaltura)"
+      ],
+      "negativos": [
+        "Los anuncios encontrados ubican 'Las Casitas' en Envigado y no en Itagüí, así que conviene confirmar el municipio",
+        "No hay noticias específicas"
+      ],
+      "resumen": "Probablemente se trata de un sector de Envigado mal etiquetado en algunos portales. No hay datos de seguridad propios.",
+      "fuentes": [
+        "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-las-casitas-envigado-3720778"
+      ],
+      "terreno": "plano",
+      "terreno_nota": "Si corresponde al sector de Envigado cerca de Las Vegas, es plano (no verificado).",
+      "cerca": [
+        "Probablemente cerca del corredor Las Vegas y Mayorca (por verificar)"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No se encontraron noticias de seguridad."
+      },
+      "problemas": [],
+      "accesos": "Sin datos verificados. Si está en el corredor Las Vegas, la movilidad vehicular estará afectada por las obras de Mayorca.",
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "No está claro a qué municipio pertenece y no hay información de seguridad.",
+      "opiniones": []
+    }
+  ]
+}

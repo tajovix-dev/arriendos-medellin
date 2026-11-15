@@ -1,0 +1,1111 @@
+{
+ "Envigado|": {
+  "lat": 6.1701348,
+  "lon": -75.587415,
+  "tipo": "municipio"
+ },
+ "Envigado|alcala": null,
+ "Envigado|alto de las flores": null,
+ "Envigado|alto de misael": null,
+ "Envigado|alto las flores": null,
+ "Envigado|alto misael": null,
+ "Envigado|altos del escobero": null,
+ "Envigado|altos escobero": null,
+ "Envigado|andalucia": null,
+ "Envigado|bosques de zuniga": null,
+ "Envigado|camino verde": null,
+ "Envigado|chingui": null,
+ "Envigado|cumbre": null,
+ "Envigado|cumbres": null,
+ "Envigado|el chingui": null,
+ "Envigado|el dorado": {
+  "lat": 6.1646265,
+  "lon": -75.5913007,
+  "tipo": "lugar"
+ },
+ "Envigado|el esmeraldal": {
+  "lat": 6.1755752,
+  "lon": -75.5748727,
+  "tipo": "zona"
+ },
+ "Envigado|el oasis": null,
+ "Envigado|el poblado": null,
+ "Envigado|el portal": {
+  "lat": 6.1756965,
+  "lon": -75.5896167,
+  "tipo": "lugar"
+ },
+ "Envigado|el salado": {
+  "lat": 6.1563458,
+  "lon": -75.5059928,
+  "tipo": "zona"
+ },
+ "Envigado|el trianon": {
+  "lat": 6.1575415,
+  "lon": -75.5933987,
+  "tipo": "zona"
+ },
+ "Envigado|escobero": null,
+ "Envigado|esmeraldal": {
+  "lat": 6.1755752,
+  "lon": -75.5748727,
+  "tipo": "zona"
+ },
+ "Envigado|gualandayes": {
+  "lat": 6.1603483,
+  "lon": -75.5861037,
+  "tipo": "zona"
+ },
+ "Envigado|jardines": {
+  "lat": 6.1780903,
+  "lon": -75.5751336,
+  "tipo": "zona"
+ },
+ "Envigado|la abadia": null,
+ "Envigado|la cuenca": null,
+ "Envigado|la florida": null,
+ "Envigado|la frontera": null,
+ "Envigado|la inmaculada": null,
+ "Envigado|la magnolia": {
+  "lat": 6.1755633,
+  "lon": -75.5831007,
+  "tipo": "zona"
+ },
+ "Envigado|la mina": {
+  "lat": 6.1593488,
+  "lon": -75.58275,
+  "tipo": "zona"
+ },
+ "Envigado|la paz": {
+  "lat": 6.1659526,
+  "lon": -75.5855898,
+  "tipo": "zona"
+ },
+ "Envigado|la sebastiana": null,
+ "Envigado|las antillas": null,
+ "Envigado|las casitas": null,
+ "Envigado|las cometas": {
+  "lat": 6.1707899,
+  "lon": -75.5780563,
+  "tipo": "lugar"
+ },
+ "Envigado|las flores": {
+  "lat": 6.174454,
+  "lon": -75.5791846,
+  "tipo": "zona"
+ },
+ "Envigado|las lomitas": null,
+ "Envigado|las vegas": null,
+ "Envigado|loma barro": null,
+ "Envigado|loma chocho": null,
+ "Envigado|loma de la esmeralda": null,
+ "Envigado|loma de las brujas": null,
+ "Envigado|loma del barro": null,
+ "Envigado|loma del chocho": null,
+ "Envigado|loma del escobero": {
+  "lat": 6.1341127,
+  "lon": -75.5315522,
+  "tipo": "lugar"
+ },
+ "Envigado|loma del esmeraldal": null,
+ "Envigado|loma escobero": {
+  "lat": 6.1341127,
+  "lon": -75.5315522,
+  "tipo": "lugar"
+ },
+ "Envigado|loma esmeraldal": null,
+ "Envigado|loma la esmeralda": null,
+ "Envigado|loma las brujas": null,
+ "Envigado|loma las brujas envigado": null,
+ "Envigado|los arias": null,
+ "Envigado|los naranjos": {
+  "lat": 6.1680246,
+  "lon": -75.5817907,
+  "tipo": "zona"
+ },
+ "Envigado|maria auxiliadora": null,
+ "Envigado|mayorca": null,
+ "Envigado|mesa": null,
+ "Envigado|milan vallejuelos": null,
+ "Envigado|oasis": null,
+ "Envigado|obrero": {
+  "lat": 6.1727367,
+  "lon": -75.5816947,
+  "tipo": "zona"
+ },
+ "Envigado|otraparte": {
+  "lat": 6.1793373,
+  "lon": -75.5839262,
+  "tipo": "lugar"
+ },
+ "Envigado|pantanillo": {
+  "lat": 6.1886628,
+  "lon": -75.4911118,
+  "tipo": "lugar"
+ },
+ "Envigado|parque": {
+  "lat": 6.1669347,
+  "lon": -75.596607,
+  "tipo": "lugar"
+ },
+ "Envigado|parque de": {
+  "lat": 6.1669347,
+  "lon": -75.596607,
+  "tipo": "lugar"
+ },
+ "Envigado|parque envigado": null,
+ "Envigado|pontevedra": {
+  "lat": 6.1794495,
+  "lon": -75.5818148,
+  "tipo": "lugar"
+ },
+ "Envigado|primavera": null,
+ "Envigado|quebrada la clara": null,
+ "Envigado|san jose": {
+  "lat": 6.1616955,
+  "lon": -75.5826943,
+  "tipo": "lugar"
+ },
+ "Envigado|san marcos": {
+  "lat": 6.175762,
+  "lon": -75.5858987,
+  "tipo": "lugar"
+ },
+ "Envigado|san rafael": {
+  "lat": 6.1620379,
+  "lon": -75.5854717,
+  "tipo": "zona"
+ },
+ "Envigado|senorial": null,
+ "Envigado|uribe angel": {
+  "lat": 6.172118,
+  "lon": -75.5776611,
+  "tipo": "zona"
+ },
+ "Envigado|villagrande": null,
+ "Envigado|zona centro": null,
+ "Envigado|zuniga": null,
+ "Itagüí|": {
+  "lat": 6.1724352,
+  "lon": -75.6093254,
+  "tipo": "municipio"
+ },
+ "Itagüí|alicate": null,
+ "Itagüí|artex": null,
+ "Itagüí|asturias": null,
+ "Itagüí|aves maria": null,
+ "Itagüí|balcones de sevilla": null,
+ "Itagüí|balcones sevilla": null,
+ "Itagüí|bariloche": null,
+ "Itagüí|calatrava": null,
+ "Itagüí|calle larga": null,
+ "Itagüí|canaveralejo": null,
+ "Itagüí|centro de la moda": null,
+ "Itagüí|centro itagui": null,
+ "Itagüí|centro la moda": null,
+ "Itagüí|ciudad coltejer": {
+  "lat": 6.1747056,
+  "lon": -75.6018265,
+  "tipo": "zona"
+ },
+ "Itagüí|coltejer": {
+  "lat": 6.1747056,
+  "lon": -75.6018265,
+  "tipo": "zona"
+ },
+ "Itagüí|ditaires": null,
+ "Itagüí|el carmelo": null,
+ "Itagüí|el carmelo ii": null,
+ "Itagüí|el esmeraldal": null,
+ "Itagüí|el guayabo": null,
+ "Itagüí|el poblado": null,
+ "Itagüí|el portal": null,
+ "Itagüí|el porvenir": {
+  "lat": 6.1941755,
+  "lon": -75.6015349,
+  "tipo": "zona"
+ },
+ "Itagüí|el porvenir itagui": {
+  "lat": 6.1941755,
+  "lon": -75.6015349,
+  "tipo": "zona"
+ },
+ "Itagüí|el rosario": {
+  "lat": 6.1782537,
+  "lon": -75.6133201,
+  "tipo": "lugar"
+ },
+ "Itagüí|entre colina": null,
+ "Itagüí|fatima": null,
+ "Itagüí|guayabal": null,
+ "Itagüí|guayabalia": null,
+ "Itagüí|jardines": {
+  "lat": 6.1604453,
+  "lon": -75.6204528,
+  "tipo": "lugar"
+ },
+ "Itagüí|la aguacatala": null,
+ "Itagüí|la aldea": null,
+ "Itagüí|la doctora": null,
+ "Itagüí|la esmeralda": null,
+ "Itagüí|la ferreria": null,
+ "Itagüí|la frontera": null,
+ "Itagüí|la gloria": null,
+ "Itagüí|la independencia": null,
+ "Itagüí|la santa cruz filtro coltejer": null,
+ "Itagüí|la santa cruz filtro de coltejer": null,
+ "Itagüí|las casitas": null,
+ "Itagüí|las cometas": null,
+ "Itagüí|las margaritas": null,
+ "Itagüí|las mercedes": null,
+ "Itagüí|las vegas": null,
+ "Itagüí|loma de la doctora": null,
+ "Itagüí|loma del escobero": null,
+ "Itagüí|loma escobero": null,
+ "Itagüí|loma la doctora": null,
+ "Itagüí|los gomez": null,
+ "Itagüí|los naranjos": null,
+ "Itagüí|malta": null,
+ "Itagüí|mayorca": null,
+ "Itagüí|pilsen": null,
+ "Itagüí|primavera": null,
+ "Itagüí|rodeo alto": null,
+ "Itagüí|sabaneta real": null,
+ "Itagüí|samaria": null,
+ "Itagüí|samaria robles del sur": null,
+ "Itagüí|samaria robles sur": null,
+ "Itagüí|san antonio de prado": null,
+ "Itagüí|san antonio prado": null,
+ "Itagüí|san francisco": null,
+ "Itagüí|san gabriel": null,
+ "Itagüí|san isidro": null,
+ "Itagüí|san jose": null,
+ "Itagüí|san pio": null,
+ "Itagüí|san pio x": null,
+ "Itagüí|santa catalina": {
+  "lat": 6.1646212,
+  "lon": -75.633996,
+  "tipo": "zona"
+ },
+ "Itagüí|santa maria": {
+  "lat": 6.1785665,
+  "lon": -75.6081518,
+  "tipo": "zona"
+ },
+ "Itagüí|santa maria de los angeles": null,
+ "Itagüí|santa maria la nueva": {
+  "lat": 6.1729074,
+  "lon": -75.6181631,
+  "tipo": "zona"
+ },
+ "Itagüí|santa maria los angeles": null,
+ "Itagüí|santamaria": null,
+ "Itagüí|senorial": null,
+ "Itagüí|simon bolivar": null,
+ "Itagüí|simon bolivar itagui": null,
+ "Itagüí|suramerica": {
+  "lat": 6.1597463,
+  "lon": -75.6236146,
+  "tipo": "lugar"
+ },
+ "Itagüí|suramerica itagui": null,
+ "Itagüí|suramericana": null,
+ "Itagüí|toledo": null,
+ "Itagüí|villa aventura": null,
+ "Itagüí|villa paula": null,
+ "Itagüí|villa ventura": null,
+ "Itagüí|viviendas del sur": null,
+ "Itagüí|viviendas sur": null,
+ "Itagüí|zona rural": null,
+ "Itagüí|zuniga": null,
+ "La Estrella|": {
+  "lat": 6.1576781,
+  "lon": -75.6433878,
+  "tipo": "municipio"
+ },
+ "La Estrella|aldea": {
+  "lat": 6.1520796,
+  "lon": -75.6421622,
+  "tipo": "zona"
+ },
+ "La Estrella|ancon": null,
+ "La Estrella|ancon san martin": null,
+ "La Estrella|ancon sur": null,
+ "La Estrella|caldas": null,
+ "La Estrella|casa jardin": null,
+ "La Estrella|comfama": null,
+ "La Estrella|ditaires": null,
+ "La Estrella|el dorado": null,
+ "La Estrella|el guayabo": null,
+ "La Estrella|el palmar": null,
+ "La Estrella|el pedrero": null,
+ "La Estrella|ferreria": null,
+ "La Estrella|horizontes": null,
+ "La Estrella|la aldea": {
+  "lat": 6.1520796,
+  "lon": -75.6421622,
+  "tipo": "zona"
+ },
+ "La Estrella|la doctora": null,
+ "La Estrella|la ferreira": null,
+ "La Estrella|la ferreria": null,
+ "La Estrella|la inmaculada": {
+  "lat": 6.1344216,
+  "lon": -75.6354129,
+  "tipo": "lugar"
+ },
+ "La Estrella|la tablaza": {
+  "lat": 6.118194,
+  "lon": -75.6351392,
+  "tipo": "zona"
+ },
+ "La Estrella|las brisas": null,
+ "La Estrella|las lomitas": null,
+ "La Estrella|loma de san jose": null,
+ "La Estrella|loma san jose": null,
+ "La Estrella|los chanos": null,
+ "La Estrella|monteazul": null,
+ "La Estrella|otro": null,
+ "La Estrella|otros": null,
+ "La Estrella|pan azucar": null,
+ "La Estrella|pan de azucar": null,
+ "La Estrella|pe as blancas": null,
+ "La Estrella|penas blancas": null,
+ "La Estrella|poblado del sur": null,
+ "La Estrella|poblado sur": null,
+ "La Estrella|prados de sabaneta": null,
+ "La Estrella|prados sabaneta": null,
+ "La Estrella|pueblo viejo": {
+  "lat": 6.1372446,
+  "lon": -75.6398683,
+  "tipo": "zona"
+ },
+ "La Estrella|quebrada grande": {
+  "lat": 6.1495242,
+  "lon": -75.6558349,
+  "tipo": "lugar"
+ },
+ "La Estrella|san antonio de prado": null,
+ "La Estrella|san jose": {
+  "lat": 6.1655677,
+  "lon": -75.656763,
+  "tipo": "zona"
+ },
+ "La Estrella|santa catalina": null,
+ "La Estrella|sierra morena": null,
+ "La Estrella|sur": {
+  "lat": 6.1555131,
+  "lon": -75.6356987,
+  "tipo": "zona"
+ },
+ "La Estrella|suramerica": null,
+ "La Estrella|suramericana": null,
+ "La Estrella|tablaza": {
+  "lat": 6.118194,
+  "lon": -75.6351392,
+  "tipo": "zona"
+ },
+ "La Estrella|tierra amarilla": {
+  "lat": 6.1518609,
+  "lon": -75.6568422,
+  "tipo": "zona"
+ },
+ "La Estrella|toledo": {
+  "lat": 6.1622267,
+  "lon": -75.6403769,
+  "tipo": "zona"
+ },
+ "La Estrella|villa mira": null,
+ "La Estrella|yarumito": null,
+ "Medellín|": {
+  "lat": 6.2697324,
+  "lon": -75.6025597,
+  "tipo": "municipio"
+ },
+ "Medellín|aguacatala": {
+  "lat": 6.1939131,
+  "lon": -75.5818121,
+  "tipo": "lugar"
+ },
+ "Medellín|alameda": {
+  "lat": 6.2352271,
+  "lon": -75.5948124,
+  "tipo": "zona"
+ },
+ "Medellín|almeria": {
+  "lat": 6.2428544,
+  "lon": -75.6136017,
+  "tipo": "lugar"
+ },
+ "Medellín|altamira": {
+  "lat": 6.2798278,
+  "lon": -75.5813526,
+  "tipo": "zona"
+ },
+ "Medellín|altos del poblado cola del zorro": null,
+ "Medellín|altos poblado cola zorro": null,
+ "Medellín|aranjuez": {
+  "lat": 6.2777235,
+  "lon": -75.5625988,
+  "tipo": "zona"
+ },
+ "Medellín|aves maria": null,
+ "Medellín|belen": {
+  "lat": 6.2258758,
+  "lon": -75.6004937,
+  "tipo": "zona"
+ },
+ "Medellín|belen altavista": null,
+ "Medellín|belen fatima": null,
+ "Medellín|belen la palma": null,
+ "Medellín|belen las mercedes": null,
+ "Medellín|belen las violetas": null,
+ "Medellín|belen los alpes": null,
+ "Medellín|belen los molinos": null,
+ "Medellín|belen malibu": null,
+ "Medellín|belen miravalle": null,
+ "Medellín|belen rincon": null,
+ "Medellín|belen rosales": null,
+ "Medellín|belen san bernardo": null,
+ "Medellín|bello horizonte": {
+  "lat": 6.2826665,
+  "lon": -75.5899287,
+  "tipo": "zona"
+ },
+ "Medellín|bolivariana": {
+  "lat": 6.2470889,
+  "lon": -75.5904222,
+  "tipo": "zona"
+ },
+ "Medellín|bombona": null,
+ "Medellín|bosques de san pablo": {
+  "lat": 6.2786994,
+  "lon": -75.5844784,
+  "tipo": "zona"
+ },
+ "Medellín|bosques de zuniga": null,
+ "Medellín|bosques san pablo": {
+  "lat": 6.2786994,
+  "lon": -75.5844784,
+  "tipo": "zona"
+ },
+ "Medellín|bosques zuniga": null,
+ "Medellín|boston": {
+  "lat": 6.2480409,
+  "lon": -75.5576218,
+  "tipo": "zona"
+ },
+ "Medellín|bucaros": null,
+ "Medellín|buenos aires": {
+  "lat": 6.2302293,
+  "lon": -75.5569207,
+  "tipo": "zona"
+ },
+ "Medellín|cabanas": null,
+ "Medellín|cabanitas": null,
+ "Medellín|caicedo": {
+  "lat": 6.2432921,
+  "lon": -75.5554247,
+  "tipo": "zona"
+ },
+ "Medellín|calasania del sol": null,
+ "Medellín|calasania sol": null,
+ "Medellín|calasanz": {
+  "lat": 6.2621396,
+  "lon": -75.5992094,
+  "tipo": "zona"
+ },
+ "Medellín|calasanz parte alta": {
+  "lat": 6.2661786,
+  "lon": -75.6018202,
+  "tipo": "zona"
+ },
+ "Medellín|carlos e restrepo": {
+  "lat": 6.2577752,
+  "lon": -75.5809379,
+  "tipo": "zona"
+ },
+ "Medellín|castilla": {
+  "lat": 6.2936989,
+  "lon": -75.5682636,
+  "tipo": "zona"
+ },
+ "Medellín|castropol": {
+  "lat": 6.2189457,
+  "lon": -75.5677819,
+  "tipo": "zona"
+ },
+ "Medellín|ciudad del rio": null,
+ "Medellín|ciudad rio": null,
+ "Medellín|colasania": null,
+ "Medellín|conquistadores": {
+  "lat": 6.2420823,
+  "lon": -75.5817584,
+  "tipo": "zona"
+ },
+ "Medellín|conquistadores nororiente": null,
+ "Medellín|copacabana": {
+  "lat": 6.2600269,
+  "lon": -75.5973108,
+  "tipo": "lugar"
+ },
+ "Medellín|cristo rey": null,
+ "Medellín|cristobal": {
+  "lat": 6.2477899,
+  "lon": -75.6089545,
+  "tipo": "zona"
+ },
+ "Medellín|doce de octubre": {
+  "lat": 6.297565,
+  "lon": -75.5775562,
+  "tipo": "zona"
+ },
+ "Medellín|doce octubre": {
+  "lat": 6.297565,
+  "lon": -75.5775562,
+  "tipo": "zona"
+ },
+ "Medellín|el chagualo": {
+  "lat": 6.2622118,
+  "lon": -75.5704868,
+  "tipo": "zona"
+ },
+ "Medellín|el danubio": {
+  "lat": 6.2526156,
+  "lon": -75.6082163,
+  "tipo": "zona"
+ },
+ "Medellín|el dorado": {
+  "lat": 6.209037,
+  "lon": -75.5664611,
+  "tipo": "lugar"
+ },
+ "Medellín|el poblado": {
+  "lat": 6.2006197,
+  "lon": -75.5636832,
+  "tipo": "zona"
+ },
+ "Medellín|el porvenir": {
+  "lat": 6.2798187,
+  "lon": -75.6324314,
+  "tipo": "lugar"
+ },
+ "Medellín|el salvador": {
+  "lat": 6.2370571,
+  "lon": -75.5618955,
+  "tipo": "zona"
+ },
+ "Medellín|el tesoro": {
+  "lat": 6.2029128,
+  "lon": -75.5562535,
+  "tipo": "zona"
+ },
+ "Medellín|el velodromo": {
+  "lat": 6.2561163,
+  "lon": -75.5957112,
+  "tipo": "zona"
+ },
+ "Medellín|envigado la cuenca": null,
+ "Medellín|estadio": {
+  "lat": 6.2608828,
+  "lon": -75.5956563,
+  "tipo": "zona"
+ },
+ "Medellín|florencia": {
+  "lat": 6.310441,
+  "lon": -75.566564,
+  "tipo": "zona"
+ },
+ "Medellín|florida nueva": {
+  "lat": 6.2513549,
+  "lon": -75.5908084,
+  "tipo": "zona"
+ },
+ "Medellín|girardot": {
+  "lat": 6.2976818,
+  "lon": -75.5693722,
+  "tipo": "zona"
+ },
+ "Medellín|glorieta pilsen": null,
+ "Medellín|granada": {
+  "lat": 6.2301737,
+  "lon": -75.5934906,
+  "tipo": "zona"
+ },
+ "Medellín|guayabal": {
+  "lat": 6.2061369,
+  "lon": -75.5878955,
+  "tipo": "zona"
+ },
+ "Medellín|la aguacatala": {
+  "lat": 6.198763,
+  "lon": -75.5772014,
+  "tipo": "zona"
+ },
+ "Medellín|la almeria": null,
+ "Medellín|la america": {
+  "lat": 6.2507013,
+  "lon": -75.6079043,
+  "tipo": "zona"
+ },
+ "Medellín|la asomadera": {
+  "lat": 6.2364857,
+  "lon": -75.5639141,
+  "tipo": "lugar"
+ },
+ "Medellín|la candelaria": {
+  "lat": 6.2501048,
+  "lon": -75.5680187,
+  "tipo": "zona"
+ },
+ "Medellín|la castellana": {
+  "lat": 6.2402256,
+  "lon": -75.6054185,
+  "tipo": "zona"
+ },
+ "Medellín|la colina": {
+  "lat": 6.1988608,
+  "lon": -75.5924048,
+  "tipo": "zona"
+ },
+ "Medellín|la ferreria": null,
+ "Medellín|la floresta": {
+  "lat": 6.2564077,
+  "lon": -75.601404,
+  "tipo": "zona"
+ },
+ "Medellín|la frontera": {
+  "lat": 6.3054025,
+  "lon": -75.555532,
+  "tipo": "zona"
+ },
+ "Medellín|la ladera": {
+  "lat": 6.2515583,
+  "lon": -75.5534441,
+  "tipo": "zona"
+ },
+ "Medellín|la loma de los bernal": null,
+ "Medellín|la loma los bernal": null,
+ "Medellín|la milagrosa": {
+  "lat": 6.2356301,
+  "lon": -75.5543576,
+  "tipo": "zona"
+ },
+ "Medellín|la mina": null,
+ "Medellín|la mota": {
+  "lat": 6.2115184,
+  "lon": -75.5984771,
+  "tipo": "zona"
+ },
+ "Medellín|la palma": {
+  "lat": 6.2575405,
+  "lon": -75.6545313,
+  "tipo": "zona"
+ },
+ "Medellín|la pilarica": {
+  "lat": 6.2744228,
+  "lon": -75.5846688,
+  "tipo": "zona"
+ },
+ "Medellín|la pradera": {
+  "lat": 6.260664,
+  "lon": -75.6110203,
+  "tipo": "zona"
+ },
+ "Medellín|la salle": {
+  "lat": 6.2832721,
+  "lon": -75.546897,
+  "tipo": "zona"
+ },
+ "Medellín|lalinde": {
+  "lat": 6.2130838,
+  "lon": -75.5649409,
+  "tipo": "zona"
+ },
+ "Medellín|las lomitas": null,
+ "Medellín|las palmas": {
+  "lat": 6.1769886,
+  "lon": -75.5357229,
+  "tipo": "zona"
+ },
+ "Medellín|laureles": {
+  "lat": 6.2419995,
+  "lon": -75.5958328,
+  "tipo": "zona"
+ },
+ "Medellín|laureles la almeria noroccidente": null,
+ "Medellín|laureles nogal": null,
+ "Medellín|loma de los bernal": {
+  "lat": 6.2186012,
+  "lon": -75.60309,
+  "tipo": "zona"
+ },
+ "Medellín|loma de los parra": null,
+ "Medellín|loma de san julian": null,
+ "Medellín|loma del esmeraldal": null,
+ "Medellín|loma del indio": null,
+ "Medellín|loma esmeraldal": null,
+ "Medellín|loma indio": null,
+ "Medellín|loma los bernal": {
+  "lat": 6.2186012,
+  "lon": -75.60309,
+  "tipo": "zona"
+ },
+ "Medellín|loma los parra": null,
+ "Medellín|loma san julian": null,
+ "Medellín|lorena": {
+  "lat": 6.2480487,
+  "lon": -75.6000352,
+  "tipo": "zona"
+ },
+ "Medellín|loreto": {
+  "lat": 6.2313469,
+  "lon": -75.5582142,
+  "tipo": "zona"
+ },
+ "Medellín|loreto zona urbana": null,
+ "Medellín|los alpes": {
+  "lat": 6.2308989,
+  "lon": -75.6076312,
+  "tipo": "zona"
+ },
+ "Medellín|los angeles": {
+  "lat": 6.2528196,
+  "lon": -75.5582513,
+  "tipo": "zona"
+ },
+ "Medellín|los cerros el vergel": {
+  "lat": 6.2350758,
+  "lon": -75.545375,
+  "tipo": "zona"
+ },
+ "Medellín|los colores": {
+  "lat": 6.265774,
+  "lon": -75.593845,
+  "tipo": "zona"
+ },
+ "Medellín|malta": null,
+ "Medellín|manrique central": null,
+ "Medellín|naranjal noroccidente": null,
+ "Medellín|nazareth": null,
+ "Medellín|pajarito": {
+  "lat": 6.2949518,
+  "lon": -75.6076527,
+  "tipo": "zona"
+ },
+ "Medellín|patio bonito": {
+  "lat": 6.2040853,
+  "lon": -75.5745864,
+  "tipo": "zona"
+ },
+ "Medellín|perpetuo socorro": {
+  "lat": 6.2355326,
+  "lon": -75.5729023,
+  "tipo": "zona"
+ },
+ "Medellín|picacho": {
+  "lat": 6.301073,
+  "lon": -75.5931259,
+  "tipo": "zona"
+ },
+ "Medellín|poblado": {
+  "lat": 6.2006197,
+  "lon": -75.5636832,
+  "tipo": "zona"
+ },
+ "Medellín|poblado ciudad del rio suroriente": null,
+ "Medellín|poblado ciudad rio suroriente": null,
+ "Medellín|popular": {
+  "lat": 6.2933437,
+  "lon": -75.5448249,
+  "tipo": "zona"
+ },
+ "Medellín|pradito": null,
+ "Medellín|prado": {
+  "lat": 6.2599757,
+  "lon": -75.5623003,
+  "tipo": "zona"
+ },
+ "Medellín|prado centro": {
+  "lat": 6.2599757,
+  "lon": -75.5623003,
+  "tipo": "zona"
+ },
+ "Medellín|quintas del sol de la mota": null,
+ "Medellín|quintas sol la mota": null,
+ "Medellín|robledo": {
+  "lat": 6.2790741,
+  "lon": -75.5887669,
+  "tipo": "zona"
+ },
+ "Medellín|robledo la campina": null,
+ "Medellín|rodeo alto": {
+  "lat": 6.2057465,
+  "lon": -75.6080888,
+  "tipo": "lugar"
+ },
+ "Medellín|sabaneta centro": null,
+ "Medellín|san antonio de prado": {
+  "lat": 6.2211207,
+  "lon": -75.6772451,
+  "tipo": "zona"
+ },
+ "Medellín|san antonio prado": {
+  "lat": 6.2211207,
+  "lon": -75.6772451,
+  "tipo": "zona"
+ },
+ "Medellín|san bernardo": {
+  "lat": 6.2265555,
+  "lon": -75.5953033,
+  "tipo": "zona"
+ },
+ "Medellín|san cristobal": {
+  "lat": 6.2932501,
+  "lon": -75.634505,
+  "tipo": "zona"
+ },
+ "Medellín|san diego": {
+  "lat": 6.236876,
+  "lon": -75.5691991,
+  "tipo": "lugar"
+ },
+ "Medellín|san gabriel": {
+  "lat": 6.2669959,
+  "lon": -75.6274755,
+  "tipo": "zona"
+ },
+ "Medellín|san german": {
+  "lat": 6.2686872,
+  "lon": -75.588573,
+  "tipo": "zona"
+ },
+ "Medellín|san javier": {
+  "lat": 6.2562742,
+  "lon": -75.6215434,
+  "tipo": "zona"
+ },
+ "Medellín|san joaquin": {
+  "lat": 6.2463423,
+  "lon": -75.585959,
+  "tipo": "zona"
+ },
+ "Medellín|san joaquin laureles": {
+  "lat": 6.2463423,
+  "lon": -75.585959,
+  "tipo": "zona"
+ },
+ "Medellín|san miguel": {
+  "lat": 6.254853,
+  "lon": -75.5558968,
+  "tipo": "zona"
+ },
+ "Medellín|santa cruz": {
+  "lat": 6.2969558,
+  "lon": -75.5548517,
+  "tipo": "zona"
+ },
+ "Medellín|santa elena": {
+  "lat": 6.2105174,
+  "lon": -75.4980407,
+  "tipo": "zona"
+ },
+ "Medellín|santa fe": {
+  "lat": 6.2218866,
+  "lon": -75.5819464,
+  "tipo": "zona"
+ },
+ "Medellín|santa lucia": {
+  "lat": 6.2574358,
+  "lon": -75.6073847,
+  "tipo": "zona"
+ },
+ "Medellín|santa maria de los angeles": {
+  "lat": 6.1896647,
+  "lon": -75.5792427,
+  "tipo": "zona"
+ },
+ "Medellín|santa maria los angeles": {
+  "lat": 6.1896647,
+  "lon": -75.5792427,
+  "tipo": "zona"
+ },
+ "Medellín|santa monica": {
+  "lat": 6.2478633,
+  "lon": -75.6125765,
+  "tipo": "zona"
+ },
+ "Medellín|santa rosa de lima": {
+  "lat": 6.2651013,
+  "lon": -75.6063534,
+  "tipo": "zona"
+ },
+ "Medellín|santa rosa lima": {
+  "lat": 6.2651013,
+  "lon": -75.6063534,
+  "tipo": "zona"
+ },
+ "Medellín|sevilla": {
+  "lat": 6.266605,
+  "lon": -75.5645319,
+  "tipo": "zona"
+ },
+ "Medellín|simon bolivar": {
+  "lat": 6.245191,
+  "lon": -75.6052712,
+  "tipo": "zona"
+ },
+ "Medellín|sucre": {
+  "lat": 6.244664,
+  "lon": -75.5523868,
+  "tipo": "zona"
+ },
+ "Medellín|suramerica": null,
+ "Medellín|suramericana": {
+  "lat": 6.254853,
+  "lon": -75.5830193,
+  "tipo": "zona"
+ },
+ "Medellín|trinidad": {
+  "lat": 6.227102,
+  "lon": -75.5848003,
+  "tipo": "zona"
+ },
+ "Medellín|triste": null,
+ "Medellín|via las palmas": null,
+ "Medellín|villa hermosa": {
+  "lat": 6.2585331,
+  "lon": -75.5512674,
+  "tipo": "zona"
+ },
+ "Medellín|villa nueva": {
+  "lat": 6.2541581,
+  "lon": -75.5645384,
+  "tipo": "zona"
+ },
+ "Medellín|viviendas del sur": null,
+ "Medellín|viviendas sur": null,
+ "Medellín|zamora": null,
+ "Sabaneta|": {
+  "lat": 6.1515344,
+  "lon": -75.6153715,
+  "tipo": "municipio"
+ },
+ "Sabaneta|aliadas del sur": null,
+ "Sabaneta|aliadas sur": null,
+ "Sabaneta|alto de las flores": null,
+ "Sabaneta|alto las flores": null,
+ "Sabaneta|altos de las flores": null,
+ "Sabaneta|altos las flores": null,
+ "Sabaneta|ancon del sur": null,
+ "Sabaneta|ancon sur": null,
+ "Sabaneta|asdesillas": null,
+ "Sabaneta|aves maria": {
+  "lat": 6.1501269,
+  "lon": -75.6140886,
+  "tipo": "lugar"
+ },
+ "Sabaneta|betania": null,
+ "Sabaneta|calle larga": null,
+ "Sabaneta|canaveralejo": null,
+ "Sabaneta|ceramica": null,
+ "Sabaneta|ditaires": null,
+ "Sabaneta|el carmelo": null,
+ "Sabaneta|el carmelo ii": null,
+ "Sabaneta|entreamigos": null,
+ "Sabaneta|holanda": {
+  "lat": 6.147034,
+  "lon": -75.6259534,
+  "tipo": "zona"
+ },
+ "Sabaneta|la barquerena": {
+  "lat": 6.1512166,
+  "lon": -75.6124403,
+  "tipo": "zona"
+ },
+ "Sabaneta|la doctora": {
+  "lat": 6.1387613,
+  "lon": -75.6112413,
+  "tipo": "zona"
+ },
+ "Sabaneta|la florida": null,
+ "Sabaneta|lagos de la doctora": null,
+ "Sabaneta|lagos la doctora": null,
+ "Sabaneta|las casitas": null,
+ "Sabaneta|las lomitas": null,
+ "Sabaneta|las vegas": {
+  "lat": 6.1504195,
+  "lon": -75.623504,
+  "tipo": "lugar"
+ },
+ "Sabaneta|loma de la doctora": null,
+ "Sabaneta|loma de san jose": null,
+ "Sabaneta|loma la doctora": null,
+ "Sabaneta|loma san jose": null,
+ "Sabaneta|los alcazares": {
+  "lat": 6.1537621,
+  "lon": -75.6101383,
+  "tipo": "zona"
+ },
+ "Sabaneta|manuel restrepo": null,
+ "Sabaneta|maria auxiliadora": null,
+ "Sabaneta|mayorca": {
+  "lat": 6.1586961,
+  "lon": -75.6044153,
+  "tipo": "zona"
+ },
+ "Sabaneta|monteazul": {
+  "lat": 6.1452887,
+  "lon": -75.6248257,
+  "tipo": "zona"
+ },
+ "Sabaneta|pan azucar": null,
+ "Sabaneta|pan de azucar": {
+  "lat": 6.1396147,
+  "lon": -75.6301955,
+  "tipo": "zona"
+ },
+ "Sabaneta|parque": {
+  "lat": 6.1198569,
+  "lon": -75.5976892,
+  "tipo": "lugar"
+ },
+ "Sabaneta|poblado": null,
+ "Sabaneta|prados": null,
+ "Sabaneta|prados de": null,
+ "Sabaneta|prados de sabaneta": null,
+ "Sabaneta|prados sabaneta": null,
+ "Sabaneta|restrepo naranjo": null,
+ "Sabaneta|sabaneta real": null,
+ "Sabaneta|san isidro": {
+  "lat": 6.1420177,
+  "lon": -75.6089102,
+  "tipo": "zona"
+ },
+ "Sabaneta|san joaquin": null,
+ "Sabaneta|san jose": null,
+ "Sabaneta|san remo": {
+  "lat": 6.1424069,
+  "lon": -75.6218021,
+  "tipo": "zona"
+ },
+ "Sabaneta|santa ana": null,
+ "Sabaneta|trapiche": null,
+ "Sabaneta|tres esquinas": null,
+ "Sabaneta|vegas de la doctora": null,
+ "Sabaneta|vegas de san jose": null,
+ "Sabaneta|vegas la doctora": null,
+ "Sabaneta|vegas san jose": null,
+ "Sabaneta|villas carmen": {
+  "lat": 6.1557581,
+  "lon": -75.6059819,
+  "tipo": "zona"
+ },
+ "Sabaneta|villas del carmen": {
+  "lat": 6.1557581,
+  "lon": -75.6059819,
+  "tipo": "zona"
+ },
+ "Sabaneta|virgen carmen": null,
+ "Sabaneta|virgen del carmen": null
+}

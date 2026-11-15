@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.tmp
+.venv/
+venv/
+.vscode/
+.DS_Store
+# docs/data/ se genera en cada corrida y SÍ se guarda (Vercel publica desde el repositorio)

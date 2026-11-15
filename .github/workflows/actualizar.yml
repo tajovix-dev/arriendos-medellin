@@ -1,0 +1,63 @@
+name: Actualizar apartamentos
+
+# Cada 6 horas busca anuncios nuevos, regenera los datos de la página (docs/data) y los
+# guarda en el repositorio. Vercel está conectado al repositorio: cada vez que este robot
+# guarda cambios, Vercel vuelve a publicar la página sola.
+
+on:
+  schedule:
+    # Hora UTC. En Colombia: 1:23, 7:23, 13:23 y 19:23
+    - cron: "23 0,6,12,18 * * *"
+  workflow_dispatch: {}   # botón "Run workflow" para correrlo a mano
+  push:
+    branches: [main]
+    paths: ["docs/**", "scraper/**", "config.py", "!docs/data/**"]   # republica si cambias el diseño o el código
+
+permissions:
+  contents: write   # guardar data/ y docs/data/
+
+concurrency:
+  group: actualizar
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Correr scrapers
+        timeout-minutes: 35
+        # En un push (cambio de diseño o de código) solo regenera la página sin volver a raspar
+        run: |
+          if [ "${{ github.event_name }}" = "push" ]; then
+            python -m scraper.publicar
+          else
+            python -m scraper.run
+          fi
+
+      - name: Guardar datos y página
+        # always(): si la corrida falló o se cortó, igual se guarda lo avanzado (cursores, cachés).
+        # Solo se guarda docs/data si quedó una página completa (listings.json existe).
+        if: always()
+        run: |
+          git config user.name "actualizador-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if [ -f docs/data/listings.json ]; then git add -f docs/data; fi
+          if git diff --cached --quiet; then
+            echo "Sin cambios"
+          else
+            git commit -m "Datos $(date -u +'%Y-%m-%d %H:%M') UTC"
+            git pull --rebase -X theirs || { git rebase --abort; echo "Conflicto al guardar: se omite esta vez"; }
+            git push || echo "No se pudo guardar: se reintenta en la próxima corrida"
+          fi

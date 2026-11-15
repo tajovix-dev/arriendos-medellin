@@ -1,0 +1,304 @@
+[
+ {
+  "ts": "2026-11-14T20:06:51-05:00",
+  "seg": 541,
+  "fuentes": {
+   "fincaraiz": {
+    "leidos": 2835,
+    "nuevos": 2603,
+    "bajaron": 0,
+    "error": null
+   },
+   "rentola": {
+    "leidos": 2100,
+    "nuevos": 1670,
+    "bajaron": 0,
+    "error": null
+   },
+   "albertoalvarez": {
+    "leidos": 874,
+    "nuevos": 454,
+    "bajaron": 0,
+    "error": null
+   },
+   "metrocuadrado": {
+    "leidos": 281,
+    "nuevos": 168,
+    "bajaron": 0,
+    "error": null
+   }
+  }
+ },
+ {
+  "ts": "2026-11-14T20:35:31-05:00",
+  "seg": 37,
+  "fuentes": {
+   "fincaraiz": {
+    "leidos": 105,
+    "nuevos": 0,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "rentola": {
+    "leidos": 84,
+    "nuevos": 44,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "albertoalvarez": {
+    "leidos": 36,
+    "nuevos": 13,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "metrocuadrado": {
+    "leidos": 281,
+    "nuevos": 0,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   }
+  },
+  "detalle": {
+   "Rentola": {
+    "detalles": 5,
+    "retirados": 0,
+    "pendientes": 1709
+   },
+   "Alberto Álvarez": {
+    "detalles": 5,
+    "retirados": 0,
+    "pendientes": 462
+   }
+  }
+ },
+ {
+  "ts": "2026-11-14T21:53:19-05:00",
+  "seg": 7,
+  "fuentes": {
+   "metrocuadrado": {
+    "leidos": 281,
+    "nuevos": 0,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   }
+  },
+  "detalle": {}
+ },
+ {
+  "ts": "2026-11-14T23:01:30-05:00",
+  "seg": 950,
+  "fuentes": {
+   "fincaraiz": {
+    "leidos": 389,
+    "nuevos": 177,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "rentola": {
+    "leidos": 2016,
+    "nuevos": 376,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "albertoalvarez": {
+    "leidos": 596,
+    "nuevos": 5,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "metrocuadrado": {
+    "leidos": 281,
+    "nuevos": 1,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   }
+  },
+  "detalle": {
+   "Rentola": {
+    "detalles": 400,
+    "retirados": 0,
+    "pendientes": 298
+   },
+   "Alberto Álvarez": {
+    "detalles": 43,
+    "retirados": 0,
+    "pendientes": 0
+   }
+  }
+ },
+ {
+  "ts": "2026-11-14T23:18:00-05:00",
+  "seg": 772,
+  "fuentes": {
+   "fincaraiz": {
+    "leidos": 525,
+    "nuevos": 305,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "rentola": {
+    "leidos": 2100,
+    "nuevos": 20,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "albertoalvarez": {
+    "leidos": 563,
+    "nuevos": 3,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "metrocuadrado": {
+    "leidos": 281,
+    "nuevos": 0,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   }
+  },
+  "detalle": {
+   "Rentola": {
+    "detalles": 318,
+    "retirados": 0,
+    "pendientes": 0
+   },
+   "Alberto Álvarez": {
+    "detalles": 3,
+    "retirados": 0,
+    "pendientes": 0
+   }
+  }
+ },
+ {
+  "ts": "2026-11-14T23:31:56-05:00",
+  "seg": 358,
+  "fuentes": {
+   "fincaraiz": {
+    "leidos": 368,
+    "nuevos": 0,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "rentola": {
+    "leidos": 2100,
+    "nuevos": 31,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "albertoalvarez": {
+    "leidos": 650,
+    "nuevos": 13,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "metrocuadrado": {
+    "leidos": 281,
+    "nuevos": 0,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   }
+  },
+  "detalle": {
+   "Rentola": {
+    "detalles": 31,
+    "retirados": 0,
+    "pendientes": 0
+   },
+   "Alberto Álvarez": {
+    "detalles": 13,
+    "retirados": 0,
+    "pendientes": 0
+   }
+  }
+ },
+ {
+  "ts": "2026-11-14T23:39:43-05:00",
+  "seg": 58,
+  "fuentes": {
+   "fincaraiz": {
+    "leidos": 766,
+    "nuevos": 126,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   }
+  },
+  "detalle": {}
+ },
+ {
+  "ts": "2026-11-15T03:49:00-05:00",
+  "seg": 181,
+  "fuentes": {
+   "fincaraiz": {
+    "leidos": 609,
+    "nuevos": 0,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "rentola": {
+    "leidos": 0,
+    "nuevos": 0,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "albertoalvarez": {
+    "leidos": 689,
+    "nuevos": 5,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "metrocuadrado": {
+    "leidos": 279,
+    "nuevos": 0,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   }
+  },
+  "detalle": {
+   "Rentola": {
+    "detalles": 0,
+    "retirados": 0,
+    "pendientes": 0
+   },
+   "Alberto Álvarez": {
+    "detalles": 5,
+    "retirados": 0,
+    "pendientes": 0
+   }
+  }
+ },
+ {
+  "ts": "2026-11-15T03:52:58-05:00",
+  "seg": 5,
+  "fuentes": {
+   "rentola": {
+    "leidos": 84,
+    "nuevos": 0,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   }
+  },
+  "detalle": {}
+ }
+]

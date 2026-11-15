@@ -1,0 +1,1725 @@
+{
+  "municipio": "Envigado",
+  "contexto_municipio": "Envigado es un municipio independiente de Medellín. El DNP lo ubica entre los mejores 'vivideros' del país y con la mejor calidad de vida del Aburrá Sur. La Secretaría de Seguridad local reporta una baja del 45% en homicidios y caídas en hurto a comercio, motos, vehículos y residencias, y en 2024 el hurto a personas bajó un 21%. Aun así, los vecinos siguen preocupados por el hurto frecuente, y en 2025 se registraron unos seis homicidios hasta agosto (cifra baja para el Valle de Aburrá). Los homicidios más mediáticos de 2025-2026 fueron ataques dirigidos contra personas concretas: la periodista María Victoria Correa en Villagrande (por una herencia), un ganadero en Alcalá y empresarios en el corredor de Las Palmas (Viva Las Palmas). No son señales de violencia de barrio generalizada. No encontré noticias de extorsión ('vacunas') ligadas a barrios concretos de Envigado en 2024-2026; las noticias de vacunas en el Valle de Aburrá se concentran en Medellín. El microtráfico más documentado es el del grupo 'Trianón', con operativos en Las Flores, Alto de Misael y Las Orquídeas. No hay cifras oficiales públicas por barrio, así que los conteos de noticias son aproximados y solo reflejan lo que aparece en buscadores. La gran diferencia práctica está entre la zona plana cerca del Metro (estaciones Envigado, Ayurá e Itagüí) y las lomas del oriente (más tranquilas, pero dependientes del carro). Problemas prácticos generales: EPM hace cortes de agua programados y cortos por mantenimiento (por ejemplo, de noche en barrios del oriente en julio). El intercambio de Mayorca mantendrá obras y desvíos en la Av. Las Vegas hasta diciembre de 2027. Hay riesgo de deslizamientos en las laderas (en 2025 se priorizaron 5 puntos de mitigación, entre ellos la Loma de El Escobero y la quebrada Las Brujas) y crecientes de La Ayurá. El Decreto 635 de 2026 limita los horarios de rumba en sectores con quejas por ruido (vigente hasta enero de 2027).",
+  "barrios": [
+    {
+      "nombre": "Camino Verde",
+      "seguridad": "sin datos",
+      "confianza": "baja",
+      "positivos": [
+        "Unidades cerradas con portería 24h, según anuncios",
+        "Cerca de City Plaza, la Universidad de Envigado y supermercados (D1, Surtimax)",
+        "Zonas verdes, ambiente semicampestre"
+      ],
+      "negativos": [
+        "Estratos mixtos (2 a 4): la calidad cambia según la cuadra",
+        "Casi toda la información es promocional"
+      ],
+      "resumen": "Zona residencial en crecimiento con muchas unidades cerradas cerca de City Plaza. No encontré noticias de seguridad específicas.",
+      "fuentes": [
+        "https://www.fincaraiz.com.co/apartamento-en-venta-en-camino-verde-envigado/193968654",
+        "https://www.metrocuadrado.com/inmueble/venta-apartamento-envigado-camino-verde-3-habitaciones-2-banos-1-garajes/16509-M6975283"
+      ],
+      "terreno": "ondulado",
+      "terreno_nota": "Algunos anuncios dicen que es plano, pero está en la franja oriental hacia la loma; verificar cuadra por cuadra.",
+      "cerca": [
+        "C.C. City Plaza (aprox. 10-15 min a pie)",
+        "Universidad de Envigado",
+        "Supermercados D1 y Surtimax"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No encontré noticias de seguridad específicas del barrio."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "No hay noticias negativas, pero tampoco datos de seguridad y los estratos son mixtos; conviene visitarlo antes.",
+      "problemas": [
+        {
+          "tipo": "trafico",
+          "nivel": "medio",
+          "detalle": "Está en el entorno de la calle 37 Sur/City Plaza-Transversal Intermedia, donde se adelantó la ampliación vial de El Escobero y hay congestión habitual."
+        }
+      ],
+      "accesos": "Por la calle 37 Sur (El Escobero) y la Transversal Intermedia cerca de City Plaza; hay rutas municipales, pero el Metro queda lejos a pie.",
+      "opiniones": []
+    },
+    {
+      "nombre": "La Mina",
+      "seguridad": "media",
+      "confianza": "baja",
+      "positivos": [
+        "Barrio tradicional con oferta de apartamentos y casas",
+        "Comercio de barrio",
+        "Cerca del sector de City Plaza"
+      ],
+      "negativos": [
+        "Daños en tuberías con calles inundadas y cortes de agua",
+        "Colapsó el techo de una placa deportiva",
+        "En 2022 la 'zona 6' (El Chinguí, El Salado, La Mina, San Rafael, San José) concentró 4 de los 5 homicidios del municipio en ese corte",
+        "LA FM reportó el asesinato de un miembro de la Armada y una mujer por el barrio La Mina tras salir de fiesta (fecha no verificada)"
+      ],
+      "resumen": "Barrio tradicional con problemas de infraestructura. Hay al menos un homicidio reportado en sus calles con fecha no confirmada, y la zona 6 tuvo una alerta por homicidios en 2022.",
+      "fuentes": [
+        "https://telemedellin.tv/reportan-dano-tuberia-barrio-la-mina-envigado/",
+        "https://www.lafm.com.co/colombia/asesinan-miembro-de-armada-nacional-y-una-mujer-tras-salir-de-fiesta-en-envigado",
+        "https://www.elcolombiano.com/antioquia/alerta-por-aumento-de-homicidios-en-envigado-y-sabaneta-antioquia-II18018404"
+      ],
+      "terreno": "ondulado",
+      "terreno_nota": "Zona oriental de transición hacia la loma, con calles en pendiente moderada.",
+      "cerca": [
+        "C.C. City Plaza (aprox., verificar)",
+        "Comercio de barrio",
+        "Rutas integradas al Metro"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 1,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "Asesinato de un miembro de la Armada y una mujer interceptados en una camioneta por el barrio (LA FM; no pude confirmar el año). Por lo demás, solo noticias de infraestructura."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Hay un homicidio grave reportado (posiblemente aislado), problemas de tuberías y poca información; visítalo de día y de noche.",
+      "problemas": [
+        {
+          "tipo": "agua",
+          "nivel": "medio",
+          "detalle": "Rupturas de tubería con inundación de calles y vecinos sin agua (Telemedellín, fecha no confirmada) y corte programado de EPM el 7-8 de julio (probablemente 2025)."
+        },
+        {
+          "tipo": "otro",
+          "nivel": "bajo",
+          "detalle": "Colapsó el techo de la placa deportiva del barrio (Telemedellín)."
+        }
+      ],
+      "accesos": "Por vías internas de la zona oriental hacia la calle 40 Sur/Transversal Intermedia; con rutas municipales; sin carro depende de buses alimentadores.",
+      "opiniones": [
+        {
+          "texto": "Vecinos afectados por la ruptura de una tubería esperaban que EPM reparara pronto el daño, que los dejó sin agua.",
+          "fuente": "https://telemedellin.tv/reportan-dano-tuberia-barrio-la-mina-envigado/"
+        }
+      ]
+    },
+    {
+      "nombre": "Señorial",
+      "seguridad": "sin datos",
+      "confianza": "baja",
+      "positivos": [
+        "Barrio residencial tradicional urbano",
+        "Hay programas municipales de prevención, como candados con alarma para motos"
+      ],
+      "negativos": [
+        "Fue punto de la campaña antirrobo de motos (indicio de que el robo de motos preocupa allí, no es una cifra)"
+      ],
+      "resumen": "Apenas aparece en noticias. Fue punto de una campaña contra el robo de motos.",
+      "fuentes": [
+        "https://www.minuto30.com/?p=1633898"
+      ],
+      "terreno": "ondulado",
+      "terreno_nota": "Estimado; no encontré información de topografía, conviene verificar en sitio.",
+      "cerca": [
+        "Comercio de barrio",
+        "Rutas municipales (verificar distancia al Metro)"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 1,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "Solo apareció en la campaña municipal 'Ciérrale el candado al hurto' para motociclistas. No encontré hechos graves."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "No hay noticias graves, pero la información es insuficiente para recomendarlo con seguridad.",
+      "problemas": [],
+      "accesos": "Vías urbanas internas; no encontré información específica de accesos.",
+      "opiniones": []
+    },
+    {
+      "nombre": "La Cuenca",
+      "seguridad": "sin datos",
+      "confianza": "baja",
+      "positivos": [
+        "Zona urbana con acceso a rutas integradas (contexto general)"
+      ],
+      "negativos": [
+        "No encontré información específica"
+      ],
+      "resumen": "No encontré información específica del barrio.",
+      "fuentes": [
+        "https://www.fincaraiz.com.co/blog/como-es-vivir-en-envigado/"
+      ],
+      "terreno": "ondulado",
+      "terreno_nota": "Sin datos de topografía; estimado, verificar en sitio.",
+      "cerca": [
+        "Sin información verificada; revisar en el mapa"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No encontré noticias."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Hay muy poca información; conviene visitarlo y preguntar a los vecinos.",
+      "problemas": [],
+      "accesos": "No encontré información específica de accesos; verificar en el mapa.",
+      "opiniones": []
+    },
+    {
+      "nombre": "Cumbres",
+      "seguridad": "sin datos",
+      "confianza": "baja",
+      "positivos": [
+        "Torres de apartamentos y unidades consolidadas",
+        "Fácil acceso a la Av. El Poblado y Las Vegas"
+      ],
+      "negativos": [
+        "Congestión en los accesos en hora pico",
+        "Zona en pendiente, dependiente del carro"
+      ],
+      "resumen": "Unidades cerradas bien conectadas con El Poblado, pero con tráfico. No hay noticias de seguridad.",
+      "fuentes": [
+        "https://www.fincaraiz.com.co/blog/vivir-en-envigado/",
+        "https://www.fincaraiz.com.co/blog/como-vivir-en-envigado/"
+      ],
+      "terreno": "lomas fuertes",
+      "terreno_nota": "Sector en ladera del oriente, típico de unidades en altura con calles empinadas.",
+      "cerca": [
+        "Av. El Poblado (en carro)",
+        "Comercio de la zona Zúñiga/Esmeraldal (verificar distancia a pie)"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No encontré noticias de seguridad del barrio."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Parece tranquilo y no tiene noticias negativas, pero tiene pendientes y depende del carro; faltan datos de seguridad.",
+      "problemas": [
+        {
+          "tipo": "altura",
+          "nivel": "medio",
+          "detalle": "Sector en ladera con calles empinadas (característica del lugar)."
+        },
+        {
+          "tipo": "trafico",
+          "nivel": "medio",
+          "detalle": "Fincaraiz advierte congestión en los accesos en hora pico hacia la Av. El Poblado y Las Vegas."
+        }
+      ],
+      "accesos": "Por el intercambio El Esmeraldal y la Av. El Poblado/Transversal Intermedia; sin carro, depende de rutas con pendiente.",
+      "opiniones": []
+    },
+    {
+      "nombre": "El Portal",
+      "seguridad": "sin datos",
+      "confianza": "baja",
+      "positivos": [
+        "Barrio tradicional donde los vecinos se conocen",
+        "Comercio de barrio",
+        "Cerca del centro de Envigado"
+      ],
+      "negativos": [
+        "Una construcción dañó casas vecinas (densificación y obras)",
+        "Sin vigilancia privada en muchas calles"
+      ],
+      "resumen": "Barrio tradicional cuya noticia más visible es un conflicto por una construcción, no la inseguridad.",
+      "fuentes": [
+        "https://www.elcolombiano.com/inicio/edificio-en-el-barrio-el-portal-envigado-hundio-casas-BP26921514"
+      ],
+      "terreno": "ondulado",
+      "terreno_nota": "Barrio tradicional con calles de pendiente moderada al oriente del centro.",
+      "cerca": [
+        "Zona centro y parque principal (aprox. 10-15 min a pie, verificar)",
+        "Comercio de barrio"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No encontré noticias de delitos; la noticia destacada es urbanística."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "No hay noticias de delitos, pero falta información de seguridad y hay obras de densificación.",
+      "problemas": [
+        {
+          "tipo": "obras",
+          "nivel": "medio",
+          "detalle": "La construcción de un edificio provocó hundimientos y daños en casas vecinas (El Colombiano)."
+        }
+      ],
+      "accesos": "Vías urbanas cercanas al centro; accesible en bus y relativamente cerca del casco urbano.",
+      "opiniones": [
+        {
+          "texto": "Vecinos cuentan que la construcción de un edificio les hundió y agrietó las casas en un barrio donde antes todos se conocían.",
+          "fuente": "https://www.elcolombiano.com/inicio/edificio-en-el-barrio-el-portal-envigado-hundio-casas-BP26921514"
+        }
+      ]
+    },
+    {
+      "nombre": "El Esmeraldal",
+      "seguridad": "media-alta",
+      "confianza": "baja",
+      "positivos": [
+        "Perfil medio-alto/alto con unidades cerradas",
+        "Intercambio vial El Esmeraldal mejoró el acceso",
+        "Telemedellín lo cita entre los sectores tranquilos (lista hecha con IA)"
+      ],
+      "negativos": [
+        "Hay que revisar frecuencia de rutas y qué tan caminable es",
+        "Alto flujo vehicular (unos 41.000 vehículos/día)"
+      ],
+      "resumen": "Zona residencial tranquila con muchas unidades cerradas. La calificación se basa en percepción.",
+      "fuentes": [
+        "https://www.fincaraiz.com.co/blog/como-es-vivir-en-envigado/",
+        "https://www.elcolombiano.com/antioquia/entregaron-intercambio-vial-de-el-esmeraldal-en-envigado-KC20111865",
+        "https://telemedellin.tv/barrios-tranquilos-para-vivir-en-medellin/680446/"
+      ],
+      "terreno": "ondulado",
+      "terreno_nota": "Parte baja relativamente transitable y parte alta (Loma del Esmeraldal) más empinada.",
+      "cerca": [
+        "Intercambio vial El Esmeraldal y Av. El Poblado",
+        "Comercio y servicios de Zúñiga",
+        "Rutas alimentadoras del Metro"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No encontré noticias de delitos ubicadas en El Esmeraldal."
+      },
+      "recomendacion": "recomendado",
+      "razon_recomendacion": "Percepción de tranquilidad, sin noticias de delitos y con acceso vial razonable; revisa el transporte público de la unidad concreta.",
+      "problemas": [
+        {
+          "tipo": "trafico",
+          "nivel": "medio",
+          "detalle": "Por el sector pasan unos 41.000 vehículos al día; el intercambio vial El Esmeraldal alivió pero no eliminó la congestión."
+        }
+      ],
+      "accesos": "Por el intercambio El Esmeraldal hacia la Av. El Poblado y la Transversal Intermedia; hay rutas alimentadoras, pero sin carro es menos práctico.",
+      "opiniones": []
+    },
+    {
+      "nombre": "Loma del Escobero",
+      "seguridad": "media-alta",
+      "confianza": "baja",
+      "positivos": [
+        "Percibida como de las zonas más tranquilas por sus urbanizaciones con control de acceso",
+        "Entorno verde y vistas",
+        "Conexión con Las Palmas por la Transversal de la Montaña"
+      ],
+      "negativos": [
+        "Más tráfico desde que abrió la Transversal; peajes cercanos",
+        "Poco transporte público, pendientes fuertes",
+        "Homicidios dirigidos en el corredor de Las Palmas (octubre de 2025, comerciante en su camioneta; agosto de 2026, empresario en Viva Las Palmas) y un hombre baleado cerca del Hospital MUA/sector El Escobero en enero de 2026"
+      ],
+      "resumen": "Loma residencial de unidades cerradas percibida como segura, aunque en su entorno vial (Las Palmas) hubo ataques sicariales dirigidos contra personas concretas.",
+      "fuentes": [
+        "https://www.elcolombiano.com/antioquia/ampliacion-de-la-loma-de-el-escobero-en-envigado-hasta-la-transversal-intermedia-ND13769589",
+        "https://www.elcolombiano.com/antioquia/homicidio-comerciante-envigado-las-palmas-PI29744139",
+        "https://www.minuto30.com/amp/hombre-asesinado-cerca-al-hospital-envigado/1694007/"
+      ],
+      "terreno": "lomas fuertes",
+      "terreno_nota": "Ladera empinada; casi obligatorio tener carro.",
+      "cerca": [
+        "Lejos de comercio y transporte (salvo la parte baja, cerca de City Plaza y del Hospital Manuel Uribe Ángel)"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 3,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "Tres homicidios en el entorno: dos sicariatos dirigidos en el corredor de Las Palmas (2025 y 2026, no dentro de las unidades) y un hombre baleado cerca del hospital, en el sector El Escobero (enero de 2026)."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Unidades percibidas como seguras, pero con una sola vía principal que se cierra por lluvias, riesgo de derrumbes, peajes, lomas fuertes y homicidios dirigidos en vías cercanas.",
+      "problemas": [
+        {
+          "tipo": "acceso",
+          "nivel": "alto",
+          "detalle": "La loma se ha cerrado varias veces por lluvias, caída de árboles y derrames (2024-2025), con trancones de varios kilómetros."
+        },
+        {
+          "tipo": "deslizamiento",
+          "nivel": "medio",
+          "detalle": "En marzo de 2025 la Alcaldía priorizó la Loma de El Escobero entre 5 puntos de riesgo con obras de mitigación de derrumbes."
+        },
+        {
+          "tipo": "trafico",
+          "nivel": "alto",
+          "detalle": "Más flujo desde que abrió la Transversal de la Montaña; peaje Escobero/Las Palmas con protestas en 2025 por su costo."
+        },
+        {
+          "tipo": "altura",
+          "nivel": "alto",
+          "detalle": "Ladera empinada, prácticamente obligatorio tener carro."
+        }
+      ],
+      "accesos": "Casi todo el tráfico sube por la vía de la Loma de El Escobero (calle 37 Sur) y la Transversal de la Montaña hacia Las Palmas; cuando se cierra hay pocas alternativas y sin carro es difícil.",
+      "opiniones": [
+        {
+          "texto": "Habitantes de Envigado protestaron en 2025 contra el peaje de Las Palmas, que encarece y complica su movilidad diaria.",
+          "fuente": "https://www.elcolombiano.com/antioquia/elefante-blanco-protesta-para-retirar-peaje-las-palmas-envigado-GK39442105"
+        }
+      ]
+    },
+    {
+      "nombre": "Loma de Las Brujas",
+      "seguridad": "media-alta",
+      "confianza": "baja",
+      "positivos": [
+        "Sector exclusivo con mucha vegetación",
+        "Unidades con piscina, gimnasio y vigilancia 24h",
+        "Acceso a la Transversal Intermedia y a la Av. El Poblado"
+      ],
+      "negativos": [
+        "Arriendos altos (unos COP 3,5 a 5,5 millones)",
+        "Pendientes; algunas unidades quedan lejos del transporte"
+      ],
+      "resumen": "Loma de estrato alto, verde y con unidades cerradas. Percepción de seguridad buena, según fuentes inmobiliarias.",
+      "fuentes": [
+        "https://www.fincaraiz.com.co/blog/vivir-en-envigado/",
+        "https://red.redinmobiliariamls.com/listing/2zky2?u=847284"
+      ],
+      "terreno": "lomas fuertes",
+      "terreno_nota": "Ladera del sureste junto a El Escobero, con vías empinadas.",
+      "cerca": [
+        "Lejos de comercio y transporte (se necesita carro o ruta para llegar al centro o a City Plaza)"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No encontré noticias de delitos ubicadas en el barrio."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Buena percepción de seguridad y sin noticias negativas, pero tiene lomas fuertes y está lejos de los servicios a pie.",
+      "problemas": [
+        {
+          "tipo": "altura",
+          "nivel": "alto",
+          "detalle": "Ladera de estrato alto con vías empinadas."
+        },
+        {
+          "tipo": "deslizamiento",
+          "nivel": "medio",
+          "detalle": "La quebrada Las Brujas fue uno de los 5 puntos de riesgo priorizados para obras de mitigación en marzo de 2025."
+        }
+      ],
+      "accesos": "Por la vía de la loma hacia la Transversal Intermedia y la Av. El Poblado; transporte público limitado, se necesita carro.",
+      "opiniones": []
+    },
+    {
+      "nombre": "El Chinguí",
+      "seguridad": "media",
+      "confianza": "baja",
+      "positivos": [
+        "Mucha oferta de apartamentos en arriendo",
+        "Cerca de City Plaza y del Mall Guadalcanal",
+        "Equilibrio entre lo urbano y lo natural"
+      ],
+      "negativos": [
+        "Algunas zonas en ladera con transporte limitado",
+        "Hace parte de la 'zona 6', que tuvo una alerta por homicidios en 2022 (dato antiguo)"
+      ],
+      "resumen": "Barrio de la comuna 6 con mucha vivienda y comercio cerca. No hay noticias recientes graves.",
+      "fuentes": [
+        "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-el-chingui-envigado-3779816",
+        "https://www.elcolombiano.com/antioquia/alerta-por-aumento-de-homicidios-en-envigado-y-sabaneta-antioquia-II18018404"
+      ],
+      "terreno": "ondulado",
+      "terreno_nota": "Pendientes moderadas, más fuertes hacia la parte alta.",
+      "cerca": [
+        "C.C. City Plaza (aprox. 10-15 min a pie, verificar)",
+        "Mall Guadalcanal",
+        "Comercio de barrio"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No encontré noticias de 2024-2026. Solo existe el antecedente de la alerta de la zona 6 en 2022."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Buenos servicios y sin noticias recientes, pero hay un antecedente de homicidios en la zona (2022) y pocos datos actuales.",
+      "problemas": [
+        {
+          "tipo": "agua",
+          "nivel": "bajo",
+          "detalle": "Incluido en el corte programado de agua de EPM del 7-8 de julio (nocturno, por mantenimiento)."
+        }
+      ],
+      "accesos": "Por la Transversal Intermedia y vías hacia City Plaza/calle 37 Sur; hay rutas municipales, y las partes altas tienen más pendiente.",
+      "opiniones": []
+    },
+    {
+      "nombre": "El Trianón",
+      "seguridad": "media",
+      "confianza": "baja",
+      "positivos": [
+        "Barrio urbano con acceso a rutas hacia el Metro",
+        "Incluido en la red de monitoreo ambiental"
+      ],
+      "negativos": [
+        "Escogido para instalar sensores de ruido",
+        "Un grupo de microtráfico lleva el nombre 'Trianón' y ha tenido varios operativos policiales (10 capturas tras 10 meses de investigación); los allanamientos fueron en Las Flores, Alto de Misael y Las Orquídeas, no confirmados en este barrio"
+      ],
+      "resumen": "Poca información del barrio. El grupo de microtráfico 'Trianón' lleva su nombre, pero los operativos documentados fueron en barrios vecinos de la zona 3.",
+      "fuentes": [
+        "https://www.minuto30.com/cayeron-el-trianon-envigado/1712426/",
+        "https://www.elcolombiano.com/antioquia/capturan-10-miembros-banda-el-trianon-envigado-venta-de-drogas-HH38591116",
+        "https://www.elcolombiano.com/antioquia/instalaron-sensores-para-medir-ruido-en-envigado-antioquia-OE27679236"
+      ],
+      "terreno": "ondulado",
+      "terreno_nota": "Estimado; no encontré información de topografía, verificar.",
+      "cerca": [
+        "Rutas hacia el Metro (verificar distancia)",
+        "Comercio de barrio"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 1,
+        "periodo": "2024-2026",
+        "detalle": "Operativo contra el grupo 'El Trianón' (10 capturados) por venta de drogas; los allanamientos se hicieron en Las Flores, Alto de Misael y Las Orquídeas. No pude confirmar la fecha exacta ni que operara en el barrio El Trianón."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Hay posible relación con una estructura de microtráfico de la zona y poca información; visítalo y pregunta antes de decidir.",
+      "problemas": [
+        {
+          "tipo": "agua",
+          "nivel": "bajo",
+          "detalle": "Incluido en el corte programado de agua de EPM del 7-8 de julio."
+        },
+        {
+          "tipo": "ruido",
+          "nivel": "bajo",
+          "detalle": "Escogido para instalar sensores de ruido del Área Metropolitana (indicio, sin medición publicada)."
+        }
+      ],
+      "accesos": "Vías urbanas de la zona oriental cerca de las calles 40-41 Sur; rutas municipales.",
+      "opiniones": []
+    },
+    {
+      "nombre": "Las Antillas",
+      "seguridad": "sin datos",
+      "confianza": "baja",
+      "positivos": [
+        "Se describe como un sector para disfrutar de la naturaleza cerca de la ciudad"
+      ],
+      "negativos": [
+        "La única descripción viene de un sitio de baja calidad"
+      ],
+      "resumen": "Casi no hay información fiable sobre el barrio.",
+      "fuentes": [
+        "https://todosloshechos.es/cuantos-barrios-tiene-envigado"
+      ],
+      "terreno": "ondulado",
+      "terreno_nota": "Estimado por su descripción de entorno natural; verificar.",
+      "cerca": [
+        "Sin información verificada; revisar en el mapa"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No encontré noticias."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Hay muy poca información para evaluarlo.",
+      "problemas": [
+        {
+          "tipo": "agua",
+          "nivel": "bajo",
+          "detalle": "Incluido en el corte programado de agua de EPM del 7-8 de julio."
+        }
+      ],
+      "accesos": "Zona oriental cercana a las calles 40-41 Sur (según el aviso de EPM); verificar rutas.",
+      "opiniones": []
+    },
+    {
+      "nombre": "Las Vegas",
+      "seguridad": "sin datos",
+      "confianza": "baja",
+      "positivos": [
+        "Corredor de la Av. Las Vegas con comercio y Viva Envigado",
+        "Cerca de las estaciones Ayurá y Envigado"
+      ],
+      "negativos": [
+        "Congestión fuerte y obras del intercambio de Mayorca (desde el 17 de febrero de 2026)",
+        "Tráfico de carga sin restricción en Envigado: ruido",
+        "Accidentes de tránsito frecuentes"
+      ],
+      "resumen": "Muy bien conectado y con mucho comercio, pero con tráfico pesado, ruido y obras.",
+      "fuentes": [
+        "https://www.minuto30.com/obras-del-intercambio-vial-de-mayorca/1698687/",
+        "https://www.elcolombiano.com/antioquia/esta-en-jaque-la-movilidad-del-sur-por-cierre-glorieta-mayorca-PC40427448"
+      ],
+      "terreno": "plano",
+      "terreno_nota": "Fondo de valle junto a la Av. Las Vegas y el río.",
+      "cerca": [
+        "Viva Envigado (aprox. 5-15 min a pie según la cuadra)",
+        "Estación Ayurá del Metro (aprox. 10 min)",
+        "Estación Envigado del Metro",
+        "Comercio de la Av. Las Vegas"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "Solo encontré noticias de movilidad, obras y accidentes; ninguna de delitos ubicada en el barrio."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Excelente transporte, pero con ruido de avenida, obras de Mayorca hasta 2027 e inundaciones puntuales en aguaceros.",
+      "problemas": [
+        {
+          "tipo": "obras",
+          "nivel": "alto",
+          "detalle": "Intercambio vial de Mayorca en obra desde el 17 de febrero de 2026, con plazo hasta diciembre de 2027 y cierres por costados de la glorieta en 2026."
+        },
+        {
+          "tipo": "trafico",
+          "nivel": "alto",
+          "detalle": "Congestión severa en la Av. Las Vegas por las obras y por el cierre del puente Fundadores; tráfico de carga sin restricción en Envigado."
+        },
+        {
+          "tipo": "inundacion",
+          "nivel": "medio",
+          "detalle": "En el aguacero del 3 de abril de 2026 (Viernes Santo) se inundaron las avenidas Las Vegas y El Poblado."
+        },
+        {
+          "tipo": "ruido",
+          "nivel": "alto",
+          "detalle": "Avenida principal con buses, carga y motos."
+        }
+      ],
+      "accesos": "Directamente sobre la Av. Las Vegas, con las estaciones Ayurá y Envigado cerca; muy fácil sin carro, aunque en carro hay trancones.",
+      "opiniones": []
+    },
+    {
+      "nombre": "La Paz",
+      "seguridad": "sin datos",
+      "confianza": "baja",
+      "positivos": [
+        "Barrio urbano con rutas municipales"
+      ],
+      "negativos": [
+        "No encontré noticias ni opiniones"
+      ],
+      "resumen": "No encontré información específica.",
+      "fuentes": [
+        "https://www.fincaraiz.com.co/blog/como-es-vivir-en-envigado/"
+      ],
+      "terreno": "ondulado",
+      "terreno_nota": "Sin datos de topografía; estimado, verificar.",
+      "cerca": [
+        "Sin información verificada; revisar en el mapa"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No encontré noticias."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Hay muy poca información para evaluarlo.",
+      "problemas": [
+        {
+          "tipo": "agua",
+          "nivel": "bajo",
+          "detalle": "Incluido en el corte programado de agua de EPM del 7-8 de julio."
+        }
+      ],
+      "accesos": "Vías urbanas entre la Cra 25AA y la Cra 30 (según el aviso de EPM); rutas municipales.",
+      "opiniones": []
+    },
+    {
+      "nombre": "El Dorado",
+      "seguridad": "media-alta",
+      "confianza": "media",
+      "positivos": [
+        "Arborizado y tranquilo, recomendado por guías",
+        "Muy caminable",
+        "Comercio, parques, colegios y rutas integradas"
+      ],
+      "negativos": [
+        "Apartamentos usados y edificios pequeños",
+        "Cerca del centro, que es ruidoso"
+      ],
+      "resumen": "Barrio tradicional, arborizado y caminable, recomendado por varias guías.",
+      "fuentes": [
+        "https://www.theunconventionalroute.com/?p=6174",
+        "https://www.fincaraiz.com.co/blog/vivir-en-envigado/",
+        "https://jobicy.com/cost-of-living/colombia/envigado"
+      ],
+      "terreno": "plano",
+      "terreno_nota": "Mayormente plano o con pendiente suave; las guías lo destacan como caminable.",
+      "cerca": [
+        "Parque principal y zona centro (aprox. 10-15 min a pie)",
+        "Estación Envigado del Metro (aprox. 15 min, verificar)",
+        "Comercio de barrio y parques"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No encontré noticias de delitos ubicadas en el barrio."
+      },
+      "recomendacion": "recomendado",
+      "razon_recomendacion": "Percepción de tranquilidad, plano, caminable y sin noticias de delitos graves.",
+      "problemas": [
+        {
+          "tipo": "agua",
+          "nivel": "bajo",
+          "detalle": "Incluido en el corte programado de agua de EPM del 7-8 de julio."
+        }
+      ],
+      "accesos": "Vías urbanas planas con rutas integradas; se puede llegar a pie al centro y es fácil sin carro.",
+      "opiniones": [
+        {
+          "texto": "Un blog de viajero lo describe como barrio con verdadero ambiente de vecindario, calles estrechas con pequeños negocios y más tranquilo que el centro.",
+          "fuente": "https://www.theunconventionalroute.com/?p=6174"
+        }
+      ]
+    },
+    {
+      "nombre": "Mesa",
+      "seguridad": "sin datos",
+      "confianza": "baja",
+      "positivos": [
+        "Comuna 6, cerca de El Chinguí y La Inmaculada",
+        "Acceso a City Plaza y a la Transversal Intermedia"
+      ],
+      "negativos": [
+        "Sin noticias ni opiniones; zonas en ladera"
+      ],
+      "resumen": "Barrio de la comuna 6 sin información pública específica.",
+      "fuentes": [
+        "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-el-chingui-envigado-3779816"
+      ],
+      "terreno": "ondulado",
+      "terreno_nota": "Zona oriental con pendientes moderadas.",
+      "cerca": [
+        "C.C. City Plaza (verificar distancia)",
+        "Comercio de barrio"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No encontré noticias."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Hay muy poca información para evaluarlo.",
+      "problemas": [
+        {
+          "tipo": "luz",
+          "nivel": "bajo",
+          "detalle": "Un daño en la subestación Envigado dejó sin energía a San José, Los Naranjos, Mesa y La Inmaculada (El Colombiano, fecha no confirmada; evento puntual)."
+        }
+      ],
+      "accesos": "Por la Transversal Intermedia y vías de la comuna 6; rutas municipales.",
+      "opiniones": []
+    },
+    {
+      "nombre": "Primavera",
+      "seguridad": "sin datos",
+      "confianza": "baja",
+      "positivos": [
+        "Zona urbana del municipio"
+      ],
+      "negativos": [
+        "No encontré noticias ni opiniones verificables"
+      ],
+      "resumen": "No encontré información específica.",
+      "fuentes": [
+        "https://www.fincaraiz.com.co/blog/como-es-vivir-en-envigado/"
+      ],
+      "terreno": "ondulado",
+      "terreno_nota": "Sin datos de topografía; estimado, verificar.",
+      "cerca": [
+        "Sin información verificada; revisar en el mapa"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No encontré noticias."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Hay muy poca información para evaluarlo.",
+      "problemas": [],
+      "accesos": "No encontré información específica de accesos.",
+      "opiniones": []
+    },
+    {
+      "nombre": "Loma del Esmeraldal",
+      "seguridad": "media-alta",
+      "confianza": "baja",
+      "positivos": [
+        "Unidades cerradas con vista",
+        "Se beneficia del intercambio vial El Esmeraldal"
+      ],
+      "negativos": [
+        "Pendientes y dependencia del carro",
+        "Tráfico en los accesos en hora pico"
+      ],
+      "resumen": "Prolongación en loma de El Esmeraldal, con percepción tranquila (por extensión, no por datos propios).",
+      "fuentes": [
+        "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-loma-del-esmeraldal-envigado/193860636",
+        "https://www.elcolombiano.com/antioquia/entregaron-intercambio-vial-de-el-esmeraldal-en-envigado-KC20111865"
+      ],
+      "terreno": "lomas fuertes",
+      "terreno_nota": "Ladera empinada sobre El Esmeraldal.",
+      "cerca": [
+        "Lejos de comercio y transporte (hay que bajar a El Esmeraldal o Zúñiga)"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No encontré noticias de delitos."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Tranquila según la percepción, pero con lomas fuertes y lejos de los servicios a pie.",
+      "problemas": [
+        {
+          "tipo": "altura",
+          "nivel": "alto",
+          "detalle": "Ladera empinada sobre El Esmeraldal."
+        },
+        {
+          "tipo": "trafico",
+          "nivel": "medio",
+          "detalle": "Hay que bajar por el entorno del intercambio El Esmeraldal (alto flujo vehicular)."
+        }
+      ],
+      "accesos": "Una vía de loma que baja a El Esmeraldal/Zúñiga; sin carro depende de rutas alimentadoras.",
+      "opiniones": []
+    },
+    {
+      "nombre": "Las Lomitas",
+      "seguridad": "sin datos",
+      "confianza": "baja",
+      "positivos": [
+        "Zona residencial"
+      ],
+      "negativos": [
+        "No encontré información específica"
+      ],
+      "resumen": "No encontré información pública específica.",
+      "fuentes": [
+        "https://www.fincaraiz.com.co/blog/como-es-vivir-en-envigado/"
+      ],
+      "terreno": "ondulado",
+      "terreno_nota": "El nombre sugiere pendientes; no verificado.",
+      "cerca": [
+        "Sin información verificada; revisar en el mapa"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No encontré noticias."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Hay muy poca información para evaluarlo.",
+      "problemas": [],
+      "accesos": "No encontré información específica de accesos.",
+      "opiniones": []
+    },
+    {
+      "nombre": "Jardines",
+      "seguridad": "media-alta",
+      "confianza": "media",
+      "positivos": [
+        "Medellin Guru y Colombiamove lo listan entre los barrios más prácticos",
+        "Comercio, parques, colegios y rutas integradas",
+        "Cerca del casco tradicional y del Metro"
+      ],
+      "negativos": [
+        "Vivienda mayormente usada",
+        "Algo de ruido por la cercanía al centro"
+      ],
+      "resumen": "Barrio tradicional y práctico, recomendado por guías para recién llegados.",
+      "fuentes": [
+        "https://medellinguru.com/guide-to-envigado",
+        "https://www.fincaraiz.com.co/blog/vivir-en-envigado/"
+      ],
+      "terreno": "plano",
+      "terreno_nota": "Zona baja cercana al casco tradicional, con poca pendiente.",
+      "cerca": [
+        "Estación Envigado del Metro (aprox. 10-15 min a pie, verificar)",
+        "Zona centro y parque principal",
+        "Comercio de barrio y colegios"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No encontré noticias de delitos ubicadas en el barrio."
+      },
+      "recomendacion": "recomendado",
+      "razon_recomendacion": "Buena percepción, plano, con servicios y Metro cerca y sin noticias de delitos graves.",
+      "problemas": [
+        {
+          "tipo": "ruido",
+          "nivel": "bajo",
+          "detalle": "Cercanía al centro con buses y motos; posible cercanía a la zona de rumba de la Cra 43A regulada por el Decreto 635 de 2026 (verificar la cuadra)."
+        }
+      ],
+      "accesos": "Vías urbanas planas cerca de la Cra 43A y de la estación Envigado; fácil sin carro.",
+      "opiniones": []
+    },
+    {
+      "nombre": "Alcalá",
+      "seguridad": "media",
+      "confianza": "media",
+      "positivos": [
+        "Ambiente urbano con comercio, transporte y servicios todo el día",
+        "Cerca del centro y del Metro",
+        "Parque Débora Arango cerca"
+      ],
+      "negativos": [
+        "Ruido y movimiento comercial",
+        "Tráfico",
+        "Sicariato de un ganadero en abril de 2026 frente al Parque Débora Arango (ataque dirigido, ligado a disputas del mundo esmeraldero)"
+      ],
+      "resumen": "Sector urbano muy práctico. En abril de 2026 hubo un sicariato dirigido que no indica violencia de barrio generalizada.",
+      "fuentes": [
+        "https://www.fincaraiz.com.co/blog/como-vivir-en-envigado/",
+        "https://www.elcolombiano.com/antioquia/asesinato-henry-ocampo-suaza-envigado-abril-2026-HH35323073",
+        "https://www.minuto30.com/amp/ganadero-asesinado-frente-al-parque-debora-arango-tras-ser-perseguido-desde-medellin/1703242/"
+      ],
+      "terreno": "plano",
+      "terreno_nota": "Zona urbana contigua al centro, con poca pendiente.",
+      "cerca": [
+        "Zona centro y parque principal",
+        "Parque Débora Arango",
+        "Estación Envigado del Metro (aprox. 10-15 min, verificar)",
+        "Comercio y bancos"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 1,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "Asesinato del ganadero Henry Ocampo por sicarios en moto (abril de 2026). Las autoridades lo relacionan con una disputa específica; es un hecho aislado."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Excelente acceso a servicios, pero es un sector ruidoso y tuvo un sicariato reciente, aunque dirigido.",
+      "problemas": [
+        {
+          "tipo": "ruido",
+          "nivel": "medio",
+          "detalle": "Sector comercial con movimiento todo el día; posible cercanía a la zona de rumba de la Cra 43A (calles 27-40 Sur) regulada por el Decreto 635 de 2026 tras quejas de vecinos."
+        },
+        {
+          "tipo": "trafico",
+          "nivel": "medio",
+          "detalle": "Tráfico de las vías del centro."
+        }
+      ],
+      "accesos": "Junto al centro y a la Cra 43A (Av. El Poblado), con buses y el Metro relativamente cerca; muy fácil sin carro.",
+      "opiniones": []
+    },
+    {
+      "nombre": "Las Casitas",
+      "seguridad": "sin datos",
+      "confianza": "baja",
+      "positivos": [
+        "Comuna 8, cerca del C.C. Mayorca y de la Av. Las Vegas",
+        "Acceso al Metro"
+      ],
+      "negativos": [
+        "Obras y congestión del intercambio de Mayorca",
+        "Incluido en el proyecto de sensores de ruido"
+      ],
+      "resumen": "Bien ubicado cerca de Mayorca, pero con obras y tráfico. No hay datos de seguridad.",
+      "fuentes": [
+        "https://www.elcolombiano.com/antioquia/instalaron-sensores-para-medir-ruido-en-envigado-antioquia-OE27679236",
+        "https://www.minuto30.com/obras-del-intercambio-vial-de-mayorca/1698687/"
+      ],
+      "terreno": "plano",
+      "terreno_nota": "Zona baja junto al corredor de Las Vegas y Mayorca.",
+      "cerca": [
+        "C.C. Mayorca (aprox. 5-10 min a pie)",
+        "Estación Itagüí del Metro (aprox. 10-15 min, verificar)",
+        "Av. Las Vegas"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No encontré noticias de delitos."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Buen acceso al Metro y comercio, pero estará junto a las obras de Mayorca, con tráfico y ruido, hasta diciembre de 2027.",
+      "problemas": [
+        {
+          "tipo": "obras",
+          "nivel": "alto",
+          "detalle": "Al lado de las obras del intercambio de Mayorca (2026 a diciembre de 2027), con cierres y desvíos."
+        },
+        {
+          "tipo": "trafico",
+          "nivel": "alto",
+          "detalle": "Congestión en la glorieta de Mayorca y la Av. Las Vegas."
+        },
+        {
+          "tipo": "ruido",
+          "nivel": "medio",
+          "detalle": "Incluido en el proyecto de sensores de ruido; cerca de avenidas y obras."
+        }
+      ],
+      "accesos": "Por la Av. Las Vegas y la calle 50 Sur (glorieta Mayorca); hay Metro cerca, pero los accesos en carro están afectados por las obras.",
+      "opiniones": []
+    },
+    {
+      "nombre": "La Magnolia",
+      "seguridad": "media",
+      "confianza": "media",
+      "positivos": [
+        "Barrio tradicional que mezcla casas y edificios",
+        "Conexión por Las Vegas y la Av. El Poblado, con rutas a la estación Envigado",
+        "Zona gastronómica cercana (Calle de la Buena Mesa)"
+      ],
+      "negativos": [
+        "Comerciantes pidieron más presencia de la policía por hurtos",
+        "Fue punto de la campaña antirrobo de motos"
+      ],
+      "resumen": "Barrio tradicional, bien conectado y con buena oferta gastronómica. Hay quejas puntuales por hurtos.",
+      "fuentes": [
+        "https://telemedellin.tv/?p=197893",
+        "https://www.ciencuadras.com/blog/?p=134061",
+        "https://www.theunconventionalroute.com/?p=6174"
+      ],
+      "terreno": "plano",
+      "terreno_nota": "Zona norte entre las avenidas El Poblado y Las Vegas, con poca pendiente.",
+      "cerca": [
+        "Calle de la Buena Mesa (restaurantes)",
+        "Av. Las Vegas y Av. El Poblado",
+        "Viva Envigado y estación Ayurá (aprox. 10-15 min, verificar)"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 2,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "Quejas de comerciantes por hurtos con pedido de más presencia policial, y campaña antirrobo de motos. No encontré homicidios, extorsión ni microtráfico."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Buenos servicios y conexión, pero hay quejas de hurto; es razonable vivir allí tomando precauciones normales.",
+      "problemas": [
+        {
+          "tipo": "ruido",
+          "nivel": "medio",
+          "detalle": "Zona gastronómica y nocturna; la Cra 43A entre calles 27 y 40 Sur fue regulada por el Decreto 635 de 2026 tras quejas de vecinos por la rumba (verificar la cuadra)."
+        },
+        {
+          "tipo": "inundacion",
+          "nivel": "bajo",
+          "detalle": "La Av. El Poblado, que la bordea, se inundó en el aguacero del 3 de abril de 2026."
+        }
+      ],
+      "accesos": "Entre la Av. El Poblado (Cra 43A) y la Av. Las Vegas, con rutas a la estación Envigado; fácil sin carro.",
+      "opiniones": [
+        {
+          "texto": "Un bloguero que vivió allí cuenta que su calle era tranquila, limpia y muy caminable.",
+          "fuente": "https://explorergenes.com/?p=13495"
+        },
+        {
+          "texto": "Comerciantes del barrio se quejan de los hurtos y piden más presencia de las autoridades.",
+          "fuente": "https://telemedellin.tv/?p=197893"
+        }
+      ]
+    },
+    {
+      "nombre": "El Salado",
+      "seguridad": "media",
+      "confianza": "media",
+      "positivos": [
+        "Cerca del Parque Ecológico El Salado",
+        "Rutas integradas al Metro"
+      ],
+      "negativos": [
+        "Deslizamiento que afectó viviendas durante lluvias",
+        "Robo e intimidación a caminantes en la zona boscosa (fecha no confirmada)",
+        "Agosto de 2025: hallado asesinado 'Peio Neio' bajo un puente de la vereda El Salado sobre la quebrada La Ayurá (riña con alcohol, responsables capturados)"
+      ],
+      "resumen": "Barrio de ladera cerca de la naturaleza, con riesgo de deslizamientos y hechos aislados en la zona rural/boscosa.",
+      "fuentes": [
+        "https://www.elcolombiano.com/antioquia/deslizamiento-barrio-el-salado-de-envigado-tras-las-lluvias-HJ18334672",
+        "https://www.elcolombiano.com/antioquia/el-salado-visitantes-retenidos-robo-claves-bancarias-IB40507834",
+        "https://www.eltiempo.com/justicia/investigacion/lo-que-se-sabe-del-atroz-crimen-contra-peio-neio-el-hombre-hallado-muerto-en-una-quebrada-de-envigado-3478332"
+      ],
+      "terreno": "lomas fuertes",
+      "terreno_nota": "Ladera oriental con riesgo de deslizamientos en temporada de lluvias.",
+      "cerca": [
+        "Parque Ecológico El Salado",
+        "Rutas integradas al Metro (la estación queda lejos a pie)"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 1,
+        "hurtos": 1,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "Homicidio de 'Peio Neio' (agosto de 2025, en la vereda El Salado, por una riña; hay capturados) y una denuncia de robo a caminantes en la zona boscosa. Ambos hechos fueron en el área rural/natural."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Lomas fuertes, deslizamientos documentados, cercanía a La Ayurá y hechos aislados en la zona natural; solo si tienes carro y revisas bien la ubicación.",
+      "problemas": [
+        {
+          "tipo": "deslizamiento",
+          "nivel": "alto",
+          "detalle": "Un deslizamiento afectó al menos tres casas y una calle durante lluvias (El Colombiano, en la alcaldía de Braulio Espinosa, antes de 2024)."
+        },
+        {
+          "tipo": "inundacion",
+          "nivel": "medio",
+          "detalle": "Está en la cuenca alta de La Ayurá, quebrada con crecientes recurrentes (octubre de 2024) y con alertas por represamiento en la parte alta."
+        },
+        {
+          "tipo": "agua",
+          "nivel": "bajo",
+          "detalle": "Incluido en el corte programado de agua de EPM del 7-8 de julio."
+        },
+        {
+          "tipo": "altura",
+          "nivel": "alto",
+          "detalle": "Ladera oriental."
+        },
+        {
+          "tipo": "otro",
+          "nivel": "bajo",
+          "detalle": "Polémica por el cobro de acceso a la zona natural (predio La Olga)."
+        }
+      ],
+      "accesos": "Vías de ladera hacia la calle 40 Sur/Cra 24; hay rutas integradas, pero el Metro queda lejos y las calles son empinadas.",
+      "opiniones": [
+        {
+          "texto": "Un grupo de caminantes denunció que hombres los intimidaron y los llevaron a la zona boscosa para robarlos.",
+          "fuente": "https://www.elcolombiano.com/antioquia/el-salado-visitantes-retenidos-robo-claves-bancarias-IB40507834"
+        }
+      ]
+    },
+    {
+      "nombre": "La Abadía",
+      "seguridad": "sin datos",
+      "confianza": "baja",
+      "positivos": [
+        "Los anuncios lo describen como de las zonas más buscadas",
+        "Comuna 4, unidades residenciales"
+      ],
+      "negativos": [
+        "Solo hay descripciones promocionales"
+      ],
+      "resumen": "Sector residencial demandado según inmobiliarias. No hay noticias de seguridad.",
+      "fuentes": [
+        "https://red.redinmobiliariamls.com/listing/2zvps?u=16765"
+      ],
+      "terreno": "ondulado",
+      "terreno_nota": "Estimado; no encontré información de topografía, verificar.",
+      "cerca": [
+        "Sin información verificada; revisar en el mapa"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No encontré noticias."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "No hay noticias negativas, pero la información es insuficiente y solo promocional.",
+      "problemas": [],
+      "accesos": "No encontré información específica de accesos (comuna 4, sector Areka según un anuncio).",
+      "opiniones": []
+    },
+    {
+      "nombre": "Las Cometas",
+      "seguridad": "sin datos",
+      "confianza": "baja",
+      "positivos": [
+        "Cerca del Centro Polideportivo Las Cometas"
+      ],
+      "negativos": [
+        "No encontré información del barrio como tal"
+      ],
+      "resumen": "Sin información específica. Su referencia principal es el polideportivo.",
+      "fuentes": [
+        "https://cavac.at/cavacopedia/Envigado"
+      ],
+      "terreno": "ondulado",
+      "terreno_nota": "Sin datos de topografía; estimado, verificar.",
+      "cerca": [
+        "Centro Polideportivo Las Cometas"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No encontré noticias."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Hay muy poca información para evaluarlo.",
+      "problemas": [],
+      "accesos": "No encontré información específica de accesos.",
+      "opiniones": []
+    },
+    {
+      "nombre": "Mayorca",
+      "seguridad": "sin datos",
+      "confianza": "baja",
+      "positivos": [
+        "Junto al C.C. Mayorca",
+        "Cerca del Metro",
+        "Mucho comercio y servicios"
+      ],
+      "negativos": [
+        "Obras del intercambio de Mayorca (desde febrero de 2026) con cierres",
+        "Mucho tráfico y ruido"
+      ],
+      "resumen": "Muy práctico, pero en plena zona de obras y congestión.",
+      "fuentes": [
+        "https://www.fincaraiz.com.co/apartaestudio-en-arriendo-en-mayorca-envigado/194005393",
+        "https://www.elcolombiano.com/antioquia/glorieta-mayorca-obras-nuevos-desvios-EI42795247"
+      ],
+      "terreno": "plano",
+      "terreno_nota": "Fondo de valle en el límite con Sabaneta e Itagüí.",
+      "cerca": [
+        "C.C. Mayorca (aprox. 5 min a pie)",
+        "Estación Itagüí del Metro (aprox. 10 min, verificar)",
+        "Av. Las Vegas"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "Solo encontré noticias de obras y movilidad."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Muy práctico por el Metro y el comercio, pero tendrá obras, desvíos y ruido hasta diciembre de 2027.",
+      "problemas": [
+        {
+          "tipo": "obras",
+          "nivel": "alto",
+          "detalle": "Intercambio vial de Mayorca en obra desde febrero de 2026 hasta diciembre de 2027; en agosto de 2026 se anunció el cierre total del costado sur de la glorieta por tres meses."
+        },
+        {
+          "tipo": "trafico",
+          "nivel": "alto",
+          "detalle": "El Colombiano habla de 'jaque' a la movilidad del sur por el cierre de la glorieta."
+        },
+        {
+          "tipo": "ruido",
+          "nivel": "alto",
+          "detalle": "Obras, avenida y comercio intenso."
+        }
+      ],
+      "accesos": "Por la Av. Las Vegas y la calle 50 Sur; el Metro está cerca y sin carro es fácil, pero en vehículo hay desvíos hasta 2027.",
+      "opiniones": []
+    },
+    {
+      "nombre": "San Rafael",
+      "seguridad": "media",
+      "confianza": "baja",
+      "positivos": [
+        "Rutas integradas a la estación Envigado",
+        "Barrio urbano tradicional"
+      ],
+      "negativos": [
+        "Mayo de 2024: asesinato de una mujer hallada en un apartamento",
+        "Antecedentes: doble homicidio en 2018 y riña mortal en 2022 (zona 6)",
+        "Incluido en el proyecto de sensores de ruido"
+      ],
+      "resumen": "Barrio tradicional bien conectado, con algunos homicidios aislados en distintos años (2018, 2022, 2024).",
+      "fuentes": [
+        "https://www.elcolombiano.com/antioquia/asesinato-mujer-san-rafael-envigado-IE24577681",
+        "https://www.elcolombiano.com/antioquia/alerta-por-aumento-de-homicidios-en-envigado-y-sabaneta-antioquia-II18018404"
+      ],
+      "terreno": "ondulado",
+      "terreno_nota": "Zona oriental de transición, con pendientes moderadas.",
+      "cerca": [
+        "Rutas integradas al Metro",
+        "Comercio de barrio"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 1,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "Una mujer fue asesinada dentro de un apartamento en mayo de 2024. Hay antecedentes anteriores (2018, 2022), pero no un patrón reciente documentado."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Hechos graves aislados en varios años y poca información actual.",
+      "problemas": [
+        {
+          "tipo": "agua",
+          "nivel": "bajo",
+          "detalle": "Incluido en el corte programado de agua de EPM del 7-8 de julio."
+        },
+        {
+          "tipo": "ruido",
+          "nivel": "bajo",
+          "detalle": "Incluido en el proyecto de sensores de ruido."
+        }
+      ],
+      "accesos": "Vías urbanas de la zona oriental, con rutas integradas a la estación Envigado (según Fincaraiz).",
+      "opiniones": []
+    },
+    {
+      "nombre": "Obrero",
+      "seguridad": "sin datos",
+      "confianza": "baja",
+      "positivos": [
+        "Cerca del centro y del comercio tradicional"
+      ],
+      "negativos": [
+        "Un reporte puntual de hurto a persona (septiembre de 2024)"
+      ],
+      "resumen": "Casi no hay información; un hurto aislado no basta para calificarlo.",
+      "fuentes": [
+        "https://telemedellin.tv/?p=153565"
+      ],
+      "terreno": "plano",
+      "terreno_nota": "Zona baja cercana al centro (estimado, verificar).",
+      "cerca": [
+        "Zona centro y parque principal (verificar distancia)",
+        "Comercio tradicional"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 1,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "Un reporte de hurto a persona el 6 de septiembre de 2024."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Hay muy poca información para evaluarlo.",
+      "problemas": [],
+      "accesos": "Vías urbanas cercanas al centro (estimado); verificar.",
+      "opiniones": []
+    },
+    {
+      "nombre": "San Marcos",
+      "seguridad": "media-alta",
+      "confianza": "media",
+      "positivos": [
+        "Zona norte residencial cerca de la Calle de la Buena Mesa",
+        "Medellin Guru lo lista entre los mejores barrios",
+        "Cerca de El Poblado y Las Vegas"
+      ],
+      "negativos": [
+        "Tráfico en hora pico hacia Medellín"
+      ],
+      "resumen": "Barrio residencial del norte, bien valorado por guías expat.",
+      "fuentes": [
+        "https://www.theunconventionalroute.com/?p=6174",
+        "https://medellinguru.com/guide-to-envigado"
+      ],
+      "terreno": "plano",
+      "terreno_nota": "Zona norte de poca pendiente, entre las avenidas El Poblado y Las Vegas.",
+      "cerca": [
+        "Calle de la Buena Mesa (restaurantes)",
+        "Av. El Poblado y Av. Las Vegas",
+        "Estación Ayurá del Metro (aprox. 10-15 min, verificar)"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No encontré noticias de delitos ubicadas en el barrio."
+      },
+      "recomendacion": "recomendado",
+      "razon_recomendacion": "Buena percepción, plano, con servicios y sin noticias de delitos graves.",
+      "problemas": [
+        {
+          "tipo": "ruido",
+          "nivel": "bajo",
+          "detalle": "Cerca de la Calle de la Buena Mesa y de la Cra 43A, con actividad nocturna regulada por el Decreto 635 de 2026 (depende de la cuadra)."
+        }
+      ],
+      "accesos": "Entre la Av. El Poblado y la Av. Las Vegas, al norte; buen transporte y fácil sin carro.",
+      "opiniones": []
+    },
+    {
+      "nombre": "Loma del Barro",
+      "seguridad": "sin datos",
+      "confianza": "baja",
+      "positivos": [
+        "Oferta de apartamentos"
+      ],
+      "negativos": [
+        "Zona en loma",
+        "No hay noticias recientes"
+      ],
+      "resumen": "Sin información reciente de seguridad.",
+      "fuentes": [
+        "https://www.fincaraiz.com.co/apartamento-en-venta-en-loma-del-barro-envigado/193862456"
+      ],
+      "terreno": "lomas fuertes",
+      "terreno_nota": "Ladera, como indica su nombre (verificar).",
+      "cerca": [
+        "Lejos de comercio y transporte (estimado, verificar)"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No encontré noticias."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Es una loma con poca información disponible.",
+      "problemas": [
+        {
+          "tipo": "altura",
+          "nivel": "medio",
+          "detalle": "Zona en loma (verificar pendiente)."
+        }
+      ],
+      "accesos": "No encontré información específica; al ser loma, probablemente depende de rutas o carro (no verificado).",
+      "opiniones": []
+    },
+    {
+      "nombre": "Uribe Ángel",
+      "seguridad": "sin datos",
+      "confianza": "baja",
+      "positivos": [
+        "Renovación de andenes en 2022",
+        "Barrio urbano con comercio"
+      ],
+      "negativos": [
+        "Homicidio intrafamiliar (fecha no confirmada; no ligado a delincuencia en la calle)",
+        "Es de la 'zona 3', vecina de Las Flores y Alto de Misael, donde operaba el grupo de microtráfico 'Trianón'"
+      ],
+      "resumen": "Barrio con mejoras en espacio público. No hay noticias de delincuencia organizada en el propio barrio.",
+      "fuentes": [
+        "https://telemedellin.tv/barrio-uribe-angel-envigado-nuevos-andenes/557934/",
+        "https://www.minuto30.com/amp/tragedia-familiar-en-envigado-hombre-murio-tras-ser-presuntamente-atacado-por-su-hijo/1718722/"
+      ],
+      "terreno": "ondulado",
+      "terreno_nota": "Zona 3, con pendientes moderadas (estimado, verificar).",
+      "cerca": [
+        "Comercio de barrio",
+        "Rutas municipales"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "Solo apareció un homicidio intrafamiliar con fecha no verificada; no lo conté. No hay noticias de microtráfico ubicadas en el barrio."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Poca información y cercanía a la zona donde operaba un grupo de microtráfico.",
+      "problemas": [],
+      "accesos": "Vías urbanas de la zona 3 con andenes renovados en 2022; rutas municipales.",
+      "opiniones": []
+    },
+    {
+      "nombre": "Gualandayes",
+      "seguridad": "sin datos",
+      "confianza": "baja",
+      "positivos": [
+        "No encontré información verificable"
+      ],
+      "negativos": [
+        "No hay noticias ni opiniones"
+      ],
+      "resumen": "No encontré información pública sobre este barrio.",
+      "fuentes": [
+        "https://www.fincaraiz.com.co/blog/como-es-vivir-en-envigado/"
+      ],
+      "terreno": "ondulado",
+      "terreno_nota": "Sin datos de topografía; estimado, verificar.",
+      "cerca": [
+        "Sin información verificada; revisar en el mapa"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No encontré noticias."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "No hay información para evaluarlo.",
+      "problemas": [],
+      "accesos": "No encontré información.",
+      "opiniones": []
+    },
+    {
+      "nombre": "Pontevedra",
+      "seguridad": "sin datos",
+      "confianza": "baja",
+      "positivos": [
+        "Comuna 2, a 10-15 min a pie del parque principal y de Viva Envigado"
+      ],
+      "negativos": [
+        "Solo hay información de anuncios"
+      ],
+      "resumen": "Bien ubicado respecto al centro y a Viva Envigado. No hay datos de seguridad.",
+      "fuentes": [
+        "https://www.ciencuadras.com/inmueble/apartamento-en-venta-en-pontevedra-envigado-3709622"
+      ],
+      "terreno": "plano",
+      "terreno_nota": "Zona urbana entre el centro y Viva Envigado (estimado).",
+      "cerca": [
+        "Parque principal (aprox. 10-15 min a pie)",
+        "Viva Envigado (aprox. 10-15 min a pie)",
+        "Estación Envigado/Ayurá (verificar)"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No encontré noticias."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Ubicación muy buena, pero sin datos de seguridad; si la visita te convence, puede ser buena opción.",
+      "problemas": [],
+      "accesos": "Vías urbanas de la comuna 2, a 10-15 min a pie del parque principal y de Viva Envigado; fácil sin carro.",
+      "opiniones": []
+    },
+    {
+      "nombre": "Zúñiga",
+      "seguridad": "media-alta",
+      "confianza": "media",
+      "positivos": [
+        "Medellin Guru y Colombiamove lo recomiendan",
+        "Torres consolidadas con acceso a la Av. El Poblado y Las Vegas",
+        "Se beneficia del intercambio El Esmeraldal"
+      ],
+      "negativos": [
+        "Congestión en hora pico",
+        "Algunas zonas en pendiente"
+      ],
+      "resumen": "Sector residencial bien valorado y bien conectado con El Poblado.",
+      "fuentes": [
+        "https://medellinguru.com/guide-to-envigado",
+        "https://www.fincaraiz.com.co/blog/como-vivir-en-envigado/"
+      ],
+      "terreno": "ondulado",
+      "terreno_nota": "Mezcla de zonas planas cerca de la Av. El Poblado y calles en pendiente hacia el oriente.",
+      "cerca": [
+        "Av. El Poblado y su comercio",
+        "Intercambio El Esmeraldal",
+        "Rutas hacia el Metro"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No encontré noticias de delitos ubicadas en Zúñiga."
+      },
+      "recomendacion": "recomendado",
+      "razon_recomendacion": "Buena percepción, sin noticias de delitos y buen acceso vial y comercial.",
+      "problemas": [
+        {
+          "tipo": "trafico",
+          "nivel": "medio",
+          "detalle": "Fincaraiz advierte congestión en los accesos en hora pico; el sector El Esmeraldal-Zúñiga mueve unos 41.000 vehículos al día."
+        }
+      ],
+      "accesos": "Por la Av. El Poblado y el intercambio El Esmeraldal, con buses frecuentes; razonable sin carro en la parte baja.",
+      "opiniones": [
+        {
+          "texto": "Una guía para expatriados lo describe como zona más alta, con vista panorámica del valle y clima más fresco.",
+          "fuente": "https://colombiamove.com/blog/living-in-envigado-medellin-guide/"
+        }
+      ]
+    },
+    {
+      "nombre": "Milán - Vallejuelos",
+      "seguridad": "media",
+      "confianza": "baja",
+      "positivos": [
+        "Cerca del Parque Milán",
+        "Zona urbana con servicios"
+      ],
+      "negativos": [
+        "Robos a carros parqueados en el Parque Milán (agosto de 2024, video viral)"
+      ],
+      "resumen": "Hay un reporte puntual de robo a vehículos en 2024. No encontré más información.",
+      "fuentes": [
+        "https://www.infobae.com/colombia/2024/08/14/nueva-modalidad-de-robo-en-envigado-en-segundos-abren-carros-y-se-llevan-elementos/"
+      ],
+      "terreno": "ondulado",
+      "terreno_nota": "Sin datos de topografía; estimado, verificar.",
+      "cerca": [
+        "Parque Milán"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 1,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "Robo a carros en el Parque Milán (agosto de 2024)."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Poca información y un reporte de robo a vehículos; no dejes objetos en el carro.",
+      "problemas": [],
+      "accesos": "No encontré información específica de accesos.",
+      "opiniones": []
+    },
+    {
+      "nombre": "Zona Centro",
+      "seguridad": "media",
+      "confianza": "media",
+      "positivos": [
+        "Parque principal, comercio, bancos y servicios a pie",
+        "Transporte abundante y Metro cerca",
+        "Vida de barrio tradicional"
+      ],
+      "negativos": [
+        "Ruidoso por buses, taxis y motos",
+        "Tráfico",
+        "Más exposición al hurto callejero de zona comercial (percepción general)",
+        "Enero de 2026: un hombre fue apuñalado detrás del Hospital Manuel Uribe Ángel (riña; sector cercano, ubicación exacta no confirmada)"
+      ],
+      "resumen": "La zona más práctica y mejor servida, pero también la más ruidosa. No encontré noticias de extorsión ni de microtráfico.",
+      "fuentes": [
+        "https://www.theunconventionalroute.com/?p=6174",
+        "https://www.fincaraiz.com.co/blog/como-vivir-en-envigado/",
+        "https://www.elcolombiano.com/medellin/seis-homicidios-en-inicio-de-2026-en-valle-de-aburra-LC32219345"
+      ],
+      "terreno": "plano",
+      "terreno_nota": "Casco urbano tradicional en zona plana.",
+      "cerca": [
+        "Parque principal (Marceliano Vélez)",
+        "Estación Envigado del Metro (aprox. 10-15 min a pie)",
+        "Bancos, comercio y mercado",
+        "Hospital Manuel Uribe Ángel (verificar distancia)"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No encontré noticias de delitos ubicadas explícitamente en la Zona Centro. El homicidio de enero de 2026 junto al hospital no está claramente ubicado en el barrio y no lo conté."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Servicios excelentes, pero mucho ruido y movimiento; buena opción si priorizas tener todo a pie.",
+      "problemas": [
+        {
+          "tipo": "ruido",
+          "nivel": "alto",
+          "detalle": "Guías lo describen como especialmente ruidoso por la gran cantidad de buses, taxis y motos; parte de la Cra 43A tiene rumba regulada por el Decreto 635 de 2026."
+        },
+        {
+          "tipo": "trafico",
+          "nivel": "medio",
+          "detalle": "Congestión en las vías del casco urbano."
+        }
+      ],
+      "accesos": "El punto mejor conectado: Cra 43A, buses municipales y metropolitanos, y la estación Envigado del Metro a pie; no se necesita carro.",
+      "opiniones": [
+        {
+          "texto": "Un blog de viajero advierte que el centro es especialmente ruidoso por la cantidad de buses, taxis y motos, y recomienda barrios cercanos para dormir mejor.",
+          "fuente": "https://www.theunconventionalroute.com/?p=6174"
+        }
+      ]
+    },
+    {
+      "nombre": "La Sebastiana",
+      "seguridad": "sin datos",
+      "confianza": "baja",
+      "positivos": [
+        "Zona 3 con programas deportivos municipales"
+      ],
+      "negativos": [
+        "Vecina de Las Flores, Alto de Misael y Las Orquídeas, donde hubo operativos contra el grupo de microtráfico 'Trianón'",
+        "Antecedente de doble homicidio en 2016 (antiguo)"
+      ],
+      "resumen": "No hay información reciente del barrio. Está en la zona 3, donde se documentó microtráfico en barrios vecinos.",
+      "fuentes": [
+        "https://indeportesantioquia.gov.co/wp-content/uploads/2025/03/12-2025.pdf",
+        "https://www.policia.gov.co/noticia/diez-personas-fueron-capturadas-por-delito-fabricacion-trafico-o-porte-estupefacientes"
+      ],
+      "terreno": "ondulado",
+      "terreno_nota": "Zona 3, con pendientes moderadas a fuertes (estimado, verificar).",
+      "cerca": [
+        "Comercio de barrio",
+        "Rutas municipales"
+      ],
+      "noticias_seguridad": {
+        "extorsion": 0,
+        "sicariato_homicidios": 0,
+        "hurtos": 0,
+        "microtrafico": 0,
+        "periodo": "2024-2026",
+        "detalle": "No encontré noticias de 2024-2026 en el barrio. El microtráfico documentado fue en barrios vecinos de la zona 3."
+      },
+      "recomendacion": "con precaución",
+      "razon_recomendacion": "Poca información y cercanía a la zona con microtráfico documentado.",
+      "problemas": [],
+      "accesos": "Vías de la zona 3 con rutas municipales; no encontré más detalle.",
+      "opiniones": []
+    }
+  ]
+}

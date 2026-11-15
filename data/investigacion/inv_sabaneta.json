@@ -1,0 +1,1431 @@
+{
+ "municipio": "Sabaneta",
+ "contexto_municipio": "Sabaneta se percibe como uno de los municipios más seguros del Valle de Aburrá: según la Alcaldía, la tasa de homicidios bajó de 19 a ~3 por 100.000 habitantes entre 2018 y 2025, en abril de 2026 se cumplieron 3 años sin sicariato y los hurtos cayeron 35% en 2025 y 37% en enero de 2026 (cifras oficiales municipales, no verificadas independientemente). Aun así existen estructuras criminales con presencia en el sur del valle (El Trianón, 'Los de la Razón', Altos de la Virgen) con capturas en 2026 por extorsión a residentes y comerciantes y por microtráfico, aunque las noticias no suelen precisar el barrio. Los homicidios recientes son hechos aislados (El Trapiche ago-2025, Parque de las Mascotas jul-2026, vereda Pan de Azúcar). Los principales problemas cotidianos son tráfico, densificación por construcción, lomas fuertes en las veredas y riesgo de deslizamientos en lluvias (tragedia de mayo 2025 en San Isidro/La Doctora). No hay estadísticas oficiales públicas por barrio; los conteos de noticias son aproximados y basados en búsquedas web. En servicios públicos, EPM hace cortes de agua programados y nocturnos (6-10 h) en unos 31 barrios urbanos (mar-2025, ago-2026, sep-2026); no se encontraron reportes de cortes de luz frecuentes ni de desabastecimiento crónico.",
+ "barrios": [
+  {
+   "nombre": "Cañaveralejo",
+   "seguridad": "media-alta",
+   "confianza": "baja",
+   "terreno": "ondulado",
+   "terreno_nota": "La parte baja es caminable; hacia la vereda las pendientes aumentan y conviene carro o bus.",
+   "cerca": [
+    "Comercio y supermercados de barrio",
+    "Vías hacia Av. Las Vegas y calle 77 Sur",
+    "Hospital del Sur (~1 km según anuncios)"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 0,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "No se encontraron noticias de seguridad específicas del barrio; la información disponible es casi toda de anuncios inmobiliarios."
+   },
+   "recomendacion": "recomendado",
+   "razon_recomendacion": "Sector residencial estrato 4 sin noticias negativas y con acceso razonable a servicios, aunque conviene verificar en persona por la poca información.",
+   "positivos": [
+    "Zona residencial estrato 4 con mucha oferta de apartamentos nuevos",
+    "Cerca de comercio, supermercados y vías principales del sur",
+    "Hospital del Sur a ~1 km según anuncios"
+   ],
+   "negativos": [
+    "Información casi solo de anuncios inmobiliarios",
+    "Construcción y tráfico en horas pico",
+    "Partes en ladera"
+   ],
+   "resumen": "Sector residencial nuevo y valorizado sin noticias de inseguridad específicas; la calificación se infiere del contexto municipal.",
+   "fuentes": [
+    "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-canaveralejo-sabaneta/193945162",
+    "https://observatorio.sabaneta.gov.co/files/documentos/2023-05-11-01-14-05.pdf"
+   ],
+   "problemas": [
+    {
+     "tipo": "obras",
+     "nivel": "medio",
+     "detalle": "Alta densificacion con proyectos en construccion (polvo, volquetas), evidente por la oferta de vivienda nueva."
+    },
+    {
+     "tipo": "trafico",
+     "nivel": "medio",
+     "detalle": "Accesos congestionados en hora pico hacia la Av. Las Vegas y la calle 77 Sur."
+    }
+   ],
+   "accesos": "Por vias urbanas desde la Av. Las Vegas / calle 77 Sur; la parte baja tiene buses, hacia la vereda el transporte disminuye.",
+   "opiniones": []
+  },
+  {
+   "nombre": "Las Lomitas",
+   "seguridad": "media-alta",
+   "confianza": "baja",
+   "terreno": "lomas fuertes",
+   "terreno_nota": "Sector de ladera; caminar al centro o al metro es exigente y la parte alta prácticamente exige carro.",
+   "cerca": [
+    "Zonas verdes y reservas del sector",
+    "Escuela rural Las Lomitas",
+    "Comercio pequeño de barrio"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 1,
+    "sicariato_homicidios": 0,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "La Policía reportó la captura en flagrancia de dos hombres que exigían $15 millones a un ciudadano en la 'vereda Lomita' (fecha no confirmada); hecho puntual, sin indicios de cobros recurrentes."
+   },
+   "recomendacion": "con precaución",
+   "razon_recomendacion": "Tranquilo y verde, pero las lomas fuertes y la lejanía de servicios pesan, y hubo un caso puntual de extorsión en la vereda.",
+   "positivos": [
+    "Mucho verde, descrito como pulmón de Sabaneta",
+    "Ambiente tranquilo con unidades cerradas",
+    "Vistas al valle"
+   ],
+   "negativos": [
+    "Lomas pronunciadas y dependencia de vehículo",
+    "Desvíos de rutas de bus en el corredor Las Lomitas",
+    "Tráfico por constructoras"
+   ],
+   "resumen": "Zona de ladera tranquila y verde con buena reputación general, pero exigente en movilidad.",
+   "fuentes": [
+    "https://www.fincaraiz.com.co/blog/vivir-en-sabaneta/",
+    "https://www.policia.gov.co/noticia/acciones-contra-extorsion-en-municipio-sabaneta",
+    "https://sabaneta.gov.co/files/normas/2025-01-25-03-10-23.pdf"
+   ],
+   "problemas": [
+    {
+     "tipo": "altura",
+     "nivel": "medio",
+     "detalle": "Sector de ladera; subir a pie desde la zona plana es exigente."
+    },
+    {
+     "tipo": "acceso",
+     "nivel": "medio",
+     "detalle": "Vias de ladera con desvios de rutas de bus en el corredor Las Lomitas segun resoluciones municipales 2024-2025."
+    },
+    {
+     "tipo": "obras",
+     "nivel": "medio",
+     "detalle": "Muchas constructoras activas con trafico de volquetas en vias estrechas."
+    }
+   ],
+   "accesos": "Por la via a Las Lomitas desde la zona urbana; buses con frecuencia limitada y pendientes fuertes, incomodo sin carro.",
+   "opiniones": []
+  },
+  {
+   "nombre": "Aves María",
+   "seguridad": "media-alta",
+   "confianza": "media",
+   "terreno": "ondulado",
+   "terreno_nota": "La parte baja cerca del centro comercial es caminable; hacia Pan de Azúcar sube bastante.",
+   "cerca": [
+    "CC Aves María",
+    "Av. Las Vegas y rutas de bus",
+    "Supermercados y comercio de la zona",
+    "Parque principal (aprox. 15-20 min a pie desde la parte baja)"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 0,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "No se encontraron noticias de seguridad específicas del barrio en las búsquedas."
+   },
+   "recomendacion": "recomendado",
+   "razon_recomendacion": "Buena percepción de tranquilidad, sin noticias negativas y con centro comercial y servicios cerca.",
+   "positivos": [
+    "Sector residencial tranquilo con unidades cerradas y zonas verdes",
+    "Centro Comercial Aves María cerca",
+    "Edificios modernos"
+   ],
+   "negativos": [
+    "Pendientes en parte del sector",
+    "Congestión en accesos por densificación",
+    "Arriendos altos para Sabaneta"
+   ],
+   "resumen": "Uno de los sectores residenciales más buscados del suroriente, con buena percepción de tranquilidad.",
+   "fuentes": [
+    "https://www.ciencuadras.com/blog/?p=134093",
+    "https://www.fincaraiz.com.co/blog/vivir-en-sabaneta/"
+   ],
+   "problemas": [
+    {
+     "tipo": "trafico",
+     "nivel": "medio",
+     "detalle": "Congestion en accesos por la densificacion y la cercania a la Av. Las Vegas."
+    },
+    {
+     "tipo": "obras",
+     "nivel": "bajo",
+     "detalle": "Desarrollo inmobiliario reciente con edificios en construccion en la zona alta."
+    }
+   ],
+   "accesos": "Por la Av. Las Vegas y la calle 75 Sur; la parte baja tiene buses y comercio a pie, la parte alta hacia Pan de Azucar requiere carro o bus.",
+   "opiniones": []
+  },
+  {
+   "nombre": "La Doctora",
+   "seguridad": "media-alta",
+   "confianza": "media",
+   "terreno": "ondulado",
+   "terreno_nota": "La zona baja es manejable; la Loma de La Doctora y San Isidro tienen pendientes fuertes.",
+   "cerca": [
+    "CC Aves María (zona baja)",
+    "Av. Las Vegas y rutas de bus",
+    "Comercio de barrio",
+    "Conexión vial hacia Envigado"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 0,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "Sin noticias de delincuencia específicas; las noticias del sector son de emergencias (desbordamiento de la quebrada La Doctora en mayo 2025, taxi caído a la quebrada, árbol caído en nov-2026)."
+   },
+   "recomendacion": "recomendado",
+   "razon_recomendacion": "Buena reputación de seguridad y conectividad; solo conviene evitar inmuebles junto al cauce de la quebrada.",
+   "positivos": [
+    "Descrito por guías como de los más seguros y tranquilos",
+    "Buena conectividad hacia Envigado y el centro",
+    "Muchas unidades cerradas"
+   ],
+   "negativos": [
+    "Tráfico y ruido vial",
+    "Quebrada La Doctora con historial de crecientes (mayo 2025)",
+    "Pocas salidas: cierres generan trancones (nov-2026)"
+   ],
+   "resumen": "Sector bien valorado por seguridad y conexión, con tráfico; revisar cercanía a la quebrada.",
+   "fuentes": [
+    "https://www.fincaraiz.com.co/blog/vivir-en-sabaneta/",
+    "https://www.vanguardia.com/colombia/2025/05/09/alcaldia-de-sabaneta-pide-calma-no-hay-riesgo-de-taponamiento-en-la-quebrada-la-doctora/",
+    "https://www.minuto30.com/?p=1727154"
+   ],
+   "problemas": [
+    {
+     "tipo": "inundacion",
+     "nivel": "medio",
+     "detalle": "La quebrada La Doctora se desbordo en mayo de 2025; los inmuebles junto al cauce tienen mas riesgo."
+    },
+    {
+     "tipo": "acceso",
+     "nivel": "medio",
+     "detalle": "Pocas salidas: el 4-nov-2026 un arbol caido cerro el paso desde La Vega y genero trancones."
+    },
+    {
+     "tipo": "ruido",
+     "nivel": "medio",
+     "detalle": "Ruido vial en las vias principales, segun guia inmobiliaria."
+    }
+   ],
+   "accesos": "Por La Vega / Av. Las Vegas y la via a Envigado; la zona baja tiene buses, pero hay pocas salidas alternas cuando se cierra una via.",
+   "opiniones": []
+  },
+  {
+   "nombre": "San Isidro",
+   "seguridad": "media",
+   "confianza": "media",
+   "terreno": "lomas fuertes",
+   "terreno_nota": "Parte alta de la vereda La Doctora, de ladera pronunciada y con riesgo geotécnico.",
+   "cerca": [
+    "Lejos de comercio y transporte"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 0,
+    "hurtos": 0,
+    "microtrafico": 1,
+    "periodo": "2024-2026",
+    "detalle": "Allanamiento en un inmueble del barrio San Isidro con captura de dos presuntos integrantes de 'El Trianón' y ~2.400 dosis de droga y un arma (fecha exacta no confirmada). Además, el deslizamiento de mayo 2025 dejó 5 muertos."
+   },
+   "recomendacion": "con precaución",
+   "razon_recomendacion": "Riesgo de deslizamiento documentado, lejanía de servicios y un operativo antidrogas en el barrio.",
+   "positivos": [
+    "Entorno rural y verde",
+    "Vistas y clima fresco",
+    "Arriendos posiblemente más bajos"
+   ],
+   "negativos": [
+    "Tragedia por deslizamiento y creciente en mayo 2025 (5 muertos)",
+    "Riesgo geotécnico en lluvias",
+    "Lejos del metro y con poco transporte",
+    "Operativo contra microtráfico de El Trianón en el barrio"
+   ],
+   "resumen": "Sector de ladera con riesgo geotécnico documentado y un hecho de microtráfico; requiere revisar bien el inmueble y el terreno.",
+   "fuentes": [
+    "https://www.lafm.com.co/colombia/deslizamiento-deja-cinco-personas-muertas-y-dos-desaparecidos-en-sabaneta-antioquia",
+    "https://www.minuto30.com/amp/allanamiento-en-sabaneta-cayeron-dos-presuntos-integrantes-de-el-trianon-con-2-400-dosis-de-droga/1718312/"
+   ],
+   "problemas": [
+    {
+     "tipo": "deslizamiento",
+     "nivel": "alto",
+     "detalle": "Deslizamiento y creciente subita de la quebrada La Doctora en mayo de 2025 con 5 muertos."
+    },
+    {
+     "tipo": "altura",
+     "nivel": "alto",
+     "detalle": "Parte alta de la vereda La Doctora, ladera pronunciada."
+    },
+    {
+     "tipo": "acceso",
+     "nivel": "alto",
+     "detalle": "Vias veredales lejos del transporte masivo."
+    }
+   ],
+   "accesos": "Por vias veredales empinadas que suben desde La Doctora; casi sin transporte publico, exige carro.",
+   "opiniones": []
+  },
+  {
+   "nombre": "Loma San José",
+   "seguridad": "media-alta",
+   "confianza": "media",
+   "terreno": "lomas fuertes",
+   "terreno_nota": "La loma del 'sube o no sube' es muy empinada y de acceso único; prácticamente exige carro o bus.",
+   "cerca": [
+    "Zonas comunes de las unidades",
+    "Comercio pequeño en la base de la loma",
+    "Lejos a pie del metro y del parque principal"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 0,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "Sin noticias de delincuencia; las noticias son de movilidad (vía S retrasada) y de un movimiento en masa en ene-2026 junto a una obra VIS, sin daños estructurales según la Alcaldía."
+   },
+   "recomendacion": "con precaución",
+   "razon_recomendacion": "Seguro en percepción, pero las lomas fuertes, el acceso único y los trancones afectan mucho la vida diaria.",
+   "positivos": [
+    "Mucha oferta de apartamentos nuevos con zonas comunes",
+    "Vistas al valle",
+    "Ambiente residencial"
+   ],
+   "negativos": [
+    "Loma 'sube o no sube' con un solo acceso y obras atrasadas",
+    "Vía S retrasada y trancones fuertes",
+    "Movimiento en masa en ene-2026 cerca de una obra"
+   ],
+   "resumen": "Moderno y sin noticias de inseguridad, pero la movilidad es el gran problema; prueba el trayecto en hora pico.",
+   "fuentes": [
+    "https://www.vanguardia.com/colombia/2025/04/03/solucion-a-la-vista-en-famosa-loma-del-sube-o-no-sube-en-sabaneta/",
+    "https://www.elcolombiano.com/antioquia/demoras-via-s-sabaneta-plan-movilidad-constructores-AF29861032",
+    "https://www.elcolombiano.com/antioquia/por-estrecha-y-empinada-via-veredal-de-sabaneta-pensada-para-400-residentes-se-moveran-mas-de-9000-personas-GF24030699"
+   ],
+   "problemas": [
+    {
+     "tipo": "acceso",
+     "nivel": "alto",
+     "detalle": "Via veredal de San Jose con una sola entrada, estrecha y con 34% de pendiente; aguaceros o varadas la bloquean y los trancones llegan hasta la calle 77 Sur (El Colombiano, mar-2024); la via S alterna seguia retrasada en 2025-2026."
+    },
+    {
+     "tipo": "deslizamiento",
+     "nivel": "medio",
+     "detalle": "Movimiento en masa en ene-2026 en la ladera junto a la obra VIS Trrazo que afecto la via principal; la Alcaldia descarto danos estructurales."
+    },
+    {
+     "tipo": "obras",
+     "nivel": "alto",
+     "detalle": "Muchas obras simultaneas con ruido, polvo y gruas sobre la unica via de acceso; en jun-2026 una ambulancia tuvo dificultades para subir y la loma seguia sin repavimentar."
+    },
+    {
+     "tipo": "altura",
+     "nivel": "alto",
+     "detalle": "Loma del 'sube o no sube', muy empinada."
+    }
+   ],
+   "accesos": "Una sola via empinada (34%) y estrecha desde la calle 77 Sur; la via S alterna estaba retrasada. Sin carro depende de buses atrapados en trancones.",
+   "opiniones": [
+    {
+     "texto": "Lideres vecinales dicen que la via no tiene especificaciones tecnicas, necesita intervencion urgente y ya es un problema de salud publica por el estres.",
+     "fuente": "https://www.bluradio.com/regiones/antioquia/ya-es-un-tema-de-salud-publica-vecinos-de-famosa-loma-en-sabaneta-rg10"
+    },
+    {
+     "texto": "Video de conductores sufriendo para subir la llamada 'loma del terror'; vehiculos que patinan o no logran subir.",
+     "fuente": "https://www.publimetro.co/medellin/2025/02/13/la-loma-del-terror-en-video-captan-como-conductores-en-sabaneta-sufren-por-subirla/"
+    }
+   ]
+  },
+  {
+   "nombre": "San José",
+   "seguridad": "media-alta",
+   "confianza": "baja",
+   "terreno": "ondulado",
+   "terreno_nota": "La parte baja es más plana y cercana al comercio; se empina al subir hacia la loma.",
+   "cerca": [
+    "Comercio de barrio",
+    "Av. Las Vegas / La Vega",
+    "Hospital Venancio Díaz (Cra 46B #77 Sur, aprox., según la zona)"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 0,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "Sin noticias de delincuencia específicas; solo noticias de congestión vial."
+   },
+   "recomendacion": "con precaución",
+   "razon_recomendacion": "Sin noticias de delincuencia, pero los trancones del corredor de la Loma de San José afectan mucho la salida diaria.",
+   "positivos": [
+    "Residencial con buena oferta",
+    "Más cerca de la zona plana que la loma",
+    "Unidades cerradas nuevas"
+   ],
+   "negativos": [
+    "Congestión del corredor San José",
+    "Muchas obras",
+    "Pocas vías alternas"
+   ],
+   "resumen": "Sector residencial en crecimiento, sin noticias de inseguridad; el tráfico es su debilidad.",
+   "fuentes": [
+    "https://www.elcolombiano.com/antioquia/via-de-la-s-en-loma-san-jose-sabaneta-estaria-para-agosto-HK28115323",
+    "https://www.minuto30.com/?p=1727154"
+   ],
+   "problemas": [
+    {
+     "tipo": "trafico",
+     "nivel": "alto",
+     "detalle": "Comparte la congestion del corredor de la Loma de San Jose, que llega hasta la calle 77 Sur."
+    },
+    {
+     "tipo": "obras",
+     "nivel": "medio",
+     "detalle": "Obras de constructoras y vias pendientes en la zona."
+    }
+   ],
+   "accesos": "Desde la calle 77 Sur y La Vega; la parte baja es accesible en bus, pero la salida se congestiona con el trafico que baja de la loma.",
+   "opiniones": []
+  },
+  {
+   "nombre": "Pan de Azúcar",
+   "seguridad": "media",
+   "confianza": "media",
+   "terreno": "lomas fuertes",
+   "terreno_nota": "Vereda de ladera; la parte alta es rural y exige carro.",
+   "cerca": [
+    "CC Aves María (solo desde la parte baja)",
+    "Lejos de comercio y transporte en la parte alta"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 1,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "Un hombre fue asesinado a tiros tras una riña en la zona rural de la vereda (Minuto30); parece un hecho aislado. En mayo 2025 hubo deslizamientos y obstrucción de la vía al sector Morro."
+   },
+   "recomendacion": "con precaución",
+   "razon_recomendacion": "Lomas fuertes, riesgo por lluvias y un homicidio reciente en la parte rural; la zona baja junto a Aves María es mejor opción.",
+   "positivos": [
+    "Entorno verde y tranquilo",
+    "Vistas",
+    "Proyectos residenciales nuevos"
+   ],
+   "negativos": [
+    "Homicidio tras riña en la parte rural (aislado)",
+    "Deslizamientos en lluvias de mayo 2025",
+    "Pendientes y poco transporte"
+   ],
+   "resumen": "Zona semirrural de ladera con un homicidio reciente aparentemente aislado y riesgo por lluvias.",
+   "fuentes": [
+    "https://www.minuto30.com/amp/homicidio-en-zona-rural-de-sabaneta-hombre-fue-asesinado-a-tiros-en-la-vereda-pan-de-azucar/1721155/",
+    "https://antioquia.gov.co/noticias-dagran/71-emergencias-han-sido-reportadas-en-antioquia-en-lo-que-va-de-la-primera-temporada-de-lluvias-dagran"
+   ],
+   "problemas": [
+    {
+     "tipo": "deslizamiento",
+     "nivel": "medio",
+     "detalle": "En mayo de 2025 las lluvias causaron deslizamientos, caida de dos postes de energia y obstruccion de la via al sector Morro (Dagran)."
+    },
+    {
+     "tipo": "altura",
+     "nivel": "alto",
+     "detalle": "Vereda de ladera; la parte alta es rural."
+    },
+    {
+     "tipo": "luz",
+     "nivel": "bajo",
+     "detalle": "Caida de postes de energia por deslizamiento en mayo de 2025 (evento puntual)."
+    }
+   ],
+   "accesos": "Por la via que sube desde Aves Maria; la parte alta tiene vias veredales y poco transporte, exige carro.",
+   "opiniones": []
+  },
+  {
+   "nombre": "Prados de Sabaneta",
+   "seguridad": "media-alta",
+   "confianza": "baja",
+   "terreno": "plano",
+   "terreno_nota": "Zona plana, cómoda para caminar.",
+   "cerca": [
+    "Estación La Estrella del metro (aprox. 10-15 min a pie según anuncios)",
+    "Av. Las Vegas",
+    "Av. Regional",
+    "Comercio de la zona"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 0,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "No se encontraron noticias de seguridad específicas del barrio."
+   },
+   "recomendacion": "recomendado",
+   "razon_recomendacion": "Plano, cerca del metro y sin noticias negativas.",
+   "positivos": [
+    "Plano y cerca de avenidas principales",
+    "Cerca de la estación La Estrella",
+    "Comercio cercano"
+   ],
+   "negativos": [
+    "Ruido y tráfico de avenidas",
+    "Información casi solo de anuncios"
+   ],
+   "resumen": "Barrio plano y bien conectado, sin noticias de inseguridad.",
+   "fuentes": [
+    "https://observatorio.sabaneta.gov.co/files/documentos/2023-05-11-01-14-05.pdf",
+    "https://casas.trovit.com.co/arriendo-cerca-estacion-sabaneta/7",
+    "https://www.minuto30.com/recoja-agua-se-dano-una-valvula-mas-de-30-barrios-de-sabaneta-tendran-corte-de-agua-este-lunes/1719100/"
+   ],
+   "problemas": [
+    {
+     "tipo": "agua",
+     "nivel": "bajo",
+     "detalle": "Incluido en cortes programados nocturnos de EPM (6-10 h) en ~31 barrios urbanos: 6-mar-2025, 26-ago-2026 y 14-sep-2026 (valvula danada); mantenimientos ocasionales, no desabastecimiento cronico."
+    },
+    {
+     "tipo": "trafico",
+     "nivel": "medio",
+     "detalle": "Congestion en la Av. Las Vegas, donde se restringio la carga pesada de 6 a. m. a 6 p. m."
+    }
+   ],
+   "accesos": "Zona plana entre la Av. Las Vegas y la Av. Regional, cerca de la estacion La Estrella; facil sin carro.",
+   "opiniones": []
+  },
+  {
+   "nombre": "María Auxiliadora",
+   "seguridad": "media",
+   "confianza": "baja",
+   "terreno": "ondulado",
+   "terreno_nota": "Barrio urbano con algunas calles en pendiente moderada; la vereda homónima sube más.",
+   "cerca": [
+    "Santuario de María Auxiliadora",
+    "Parque principal (aprox. 10-15 min a pie)",
+    "Comercio y servicios del centro",
+    "Centro infantil municipal"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 1,
+    "hurtos": 1,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "Minuto30 reportó un hombre baleado en el barrio (fecha no confirmada, posiblemente anterior a 2024) y un atraco a una barbería en la vereda María Auxiliadora por hombres en moto; hechos puntuales."
+   },
+   "recomendacion": "con precaución",
+   "razon_recomendacion": "Céntrico y con servicios, pero con un par de hechos puntuales reportados y poca información para confirmar tendencia.",
+   "positivos": [
+    "Cerca del santuario y del centro",
+    "Buena oferta de comercio",
+    "Precios más moderados"
+   ],
+   "negativos": [
+    "Hechos puntuales: homicidio a bala (fecha incierta) y atraco a barbería",
+    "Afluencia de visitantes al santuario",
+    "Calles congestionadas"
+   ],
+   "resumen": "Barrio tradicional, céntrico y con servicios, con hechos puntuales que no indican un problema persistente.",
+   "fuentes": [
+    "https://observatorio.sabaneta.gov.co/files/documentos/2023-05-11-01-14-05.pdf",
+    "https://www.minuto30.com/?p=1720362",
+    "https://www.minuto30.com/recoja-agua-se-dano-una-valvula-mas-de-30-barrios-de-sabaneta-tendran-corte-de-agua-este-lunes/1719100/"
+   ],
+   "problemas": [
+    {
+     "tipo": "agua",
+     "nivel": "bajo",
+     "detalle": "Incluido en cortes programados nocturnos de EPM (6-10 h) en ~31 barrios urbanos: 6-mar-2025, 26-ago-2026 y 14-sep-2026 (valvula danada); mantenimientos ocasionales, no desabastecimiento cronico."
+    },
+    {
+     "tipo": "trafico",
+     "nivel": "medio",
+     "detalle": "Afluencia de visitantes al Santuario de Maria Auxiliadora, sobre todo martes y fines de semana."
+    }
+   ],
+   "accesos": "Por vias urbanas desde el centro; buses frecuentes y parque principal cerca, viable sin carro.",
+   "opiniones": []
+  },
+  {
+   "nombre": "Calle Larga",
+   "seguridad": "media",
+   "confianza": "media",
+   "terreno": "plano",
+   "terreno_nota": "Zona plana y caminable.",
+   "cerca": [
+    "Zona gastronómica de Calle Larga",
+    "Parque principal (aprox. 5-10 min a pie)",
+    "Estación Sabaneta del metro (aprox. 15 min a pie)",
+    "Bancos y comercio del centro"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 2,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "Aquí ocurrió el homicidio de mayo 2024 (antes de la racha de 449 días) y se reportó un feminicidio a manos de la pareja (fecha no clara); no son sicariato ni muestran patrón de crimen organizado."
+   },
+   "recomendacion": "con precaución",
+   "razon_recomendacion": "Muy práctico y céntrico, pero ruidoso por la rumba y con un par de hechos violentos puntuales.",
+   "positivos": [
+    "Zona gastronómica y comercial con vida",
+    "Cerca del parque y del metro",
+    "Todo a pie"
+   ],
+   "negativos": [
+    "Rumba y quejas de ruido de fondas",
+    "Homicidio de mayo 2024 y un feminicidio en el sector",
+    "Tráfico y poco parqueo los fines de semana"
+   ],
+   "resumen": "Muy animada y práctica, pero ruidosa y con algunos hechos puntuales; no es para quien busca silencio.",
+   "fuentes": [
+    "https://www.infobae.com/colombia/2025/08/26/mato-a-su-amigo-porque-no-le-gusto-un-comentario-que-hizo-y-rompio-la-racha-de-449-dias-sin-asesinatos-en-sabaneta/",
+    "https://www.elcolombiano.com/antioquia/quejas-por-ruido-de-locales-en-sabaneta-ML17949544",
+    "https://www.minuto30.com/recoja-agua-se-dano-una-valvula-mas-de-30-barrios-de-sabaneta-tendran-corte-de-agua-este-lunes/1719100/"
+   ],
+   "problemas": [
+    {
+     "tipo": "agua",
+     "nivel": "bajo",
+     "detalle": "Incluido en cortes programados nocturnos de EPM (6-10 h) en ~31 barrios urbanos: 6-mar-2025, 26-ago-2026 y 14-sep-2026 (valvula danada); mantenimientos ocasionales, no desabastecimiento cronico."
+    },
+    {
+     "tipo": "ruido",
+     "nivel": "alto",
+     "detalle": "Rumba y fondas: vecinos denunciaron ruido que afecta tres manzanas a la redonda y la Alcaldia reconocio aumento de quejas (El Colombiano)."
+    },
+    {
+     "tipo": "trafico",
+     "nivel": "medio",
+     "detalle": "Congestion y poco parqueo los fines de semana por la zona gastronomica."
+    }
+   ],
+   "accesos": "Zona plana y centrica, a pie del parque principal y con buses al metro Sabaneta; muy facil sin carro.",
+   "opiniones": [
+    {
+     "texto": "Una familia que vive a unos 350 m de una fonda conocida se queja de que el ruido de la rumba no los deja descansar.",
+     "fuente": "https://www.elcolombiano.com/antioquia/quejas-por-ruido-de-locales-en-sabaneta-ML17949544"
+    }
+   ]
+  },
+  {
+   "nombre": "San Remo",
+   "seguridad": "sin datos",
+   "confianza": "baja",
+   "terreno": "ondulado",
+   "terreno_nota": "Sector (Colinas de San Remo) con pendientes; terreno exacto no verificado.",
+   "cerca": [
+    "Comercio de barrio (no verificado)"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 0,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "No se encontraron noticias ni opiniones específicas del sector."
+   },
+   "recomendacion": "con precaución",
+   "razon_recomendacion": "Sin información suficiente; conviene visitarlo antes de decidir.",
+   "positivos": [
+    "Sector residencial con unidades cerradas",
+    "Más tranquilo que el centro"
+   ],
+   "negativos": [
+    "Posibles pendientes y dependencia de transporte",
+    "Sin información pública fuera de anuncios"
+   ],
+   "resumen": "No se encontraron noticias específicas; aplica el contexto general de Sabaneta.",
+   "fuentes": [
+    "https://www.fincaraiz.com.co/blog/vivir-en-sabaneta/"
+   ],
+   "problemas": [],
+   "accesos": "Sin informacion verificada sobre accesos; conviene revisarlo en el mapa y visitarlo.",
+   "opiniones": []
+  },
+  {
+   "nombre": "Vereda Las Lomitas",
+   "seguridad": "media",
+   "confianza": "baja",
+   "terreno": "lomas fuertes",
+   "terreno_nota": "Vereda de ladera con vías estrechas; exige carro.",
+   "cerca": [
+    "Lejos de comercio y transporte"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 1,
+    "sicariato_homicidios": 0,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "Captura en flagrancia de dos hombres que exigían $15 millones a un ciudadano en la vereda Lomita (Policía; fecha no confirmada). Las guías recomiendan evitar caminos de ladera solitarios de noche."
+   },
+   "recomendacion": "con precaución",
+   "razon_recomendacion": "Lomas fuertes, lejanía de servicios y un caso documentado de extorsión.",
+   "positivos": [
+    "Entorno verde y rural",
+    "Unidades campestres tranquilas",
+    "Vistas"
+   ],
+   "negativos": [
+    "Lomas fuertes y poco transporte",
+    "Vías estrechas congestionadas",
+    "Caso puntual de extorsión; evitar caminos solitarios de noche"
+   ],
+   "resumen": "Tranquila y verde pero aislada; requiere carro y cuidado en vías poco iluminadas.",
+   "fuentes": [
+    "https://colombiamove.com/blog/living-in-sabaneta-medellin-guide/",
+    "https://www.policia.gov.co/noticia/acciones-contra-extorsion-en-municipio-sabaneta"
+   ],
+   "problemas": [
+    {
+     "tipo": "altura",
+     "nivel": "alto",
+     "detalle": "Vereda de ladera con pendientes fuertes."
+    },
+    {
+     "tipo": "acceso",
+     "nivel": "medio",
+     "detalle": "Vias estrechas congestionadas por constructoras y desvios de rutas de bus (resoluciones 2024-2025)."
+    }
+   ],
+   "accesos": "Vias veredales estrechas y empinadas desde Las Lomitas; transporte publico escaso, exige carro.",
+   "opiniones": []
+  },
+  {
+   "nombre": "El Carmelo",
+   "seguridad": "sin datos",
+   "confianza": "baja",
+   "terreno": "plano",
+   "terreno_nota": "Barrio urbano en la zona baja (terreno no verificado en detalle).",
+   "cerca": [
+    "Comercio y servicios del centro",
+    "Parque principal (distancia no verificada)"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 0,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "No se encontraron noticias específicas del barrio."
+   },
+   "recomendacion": "con precaución",
+   "razon_recomendacion": "Barrio urbano consolidado pero sin información específica para confirmar.",
+   "positivos": [
+    "Barrio urbano consolidado (El Carmelo II en listado oficial)",
+    "Cerca de servicios del centro"
+   ],
+   "negativos": [
+    "Sin información específica de seguridad"
+   ],
+   "resumen": "No se encontró información específica; aplica el contexto general del municipio.",
+   "fuentes": [
+    "https://observatorio.sabaneta.gov.co/files/documentos/2023-05-11-01-14-05.pdf",
+    "https://www.minuto30.com/recoja-agua-se-dano-una-valvula-mas-de-30-barrios-de-sabaneta-tendran-corte-de-agua-este-lunes/1719100/"
+   ],
+   "problemas": [
+    {
+     "tipo": "agua",
+     "nivel": "bajo",
+     "detalle": "Incluido en cortes programados nocturnos de EPM (6-10 h) en ~31 barrios urbanos: 6-mar-2025, 26-ago-2026 y 14-sep-2026 (valvula danada); mantenimientos ocasionales, no desabastecimiento cronico."
+    }
+   ],
+   "accesos": "Barrio urbano (El Carmelo II) con buses en vias del casco urbano; accesos detallados no verificados.",
+   "opiniones": []
+  },
+  {
+   "nombre": "Vereda San José",
+   "seguridad": "media-alta",
+   "confianza": "baja",
+   "terreno": "lomas fuertes",
+   "terreno_nota": "Vereda de ladera con accesos limitados; exige carro o bus.",
+   "cerca": [
+    "Lejos de comercio y transporte"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 0,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "Sin noticias de delincuencia; las noticias son de movilidad (vía S retrasada, una sola salida en el cierre del 4-nov-2026)."
+   },
+   "recomendacion": "con precaución",
+   "razon_recomendacion": "Sin noticias de delincuencia, pero tiene una sola vía de acceso estrecha y muy empinada que se bloquea con lluvias o varadas.",
+   "positivos": [
+    "Proyectos residenciales nuevos",
+    "Entorno verde y vistas"
+   ],
+   "negativos": [
+    "Vía S retrasada",
+    "Una sola salida en cierres viales",
+    "Pendientes y obras constantes"
+   ],
+   "resumen": "Sin noticias de delincuencia; el peso está en los problemas de acceso vial.",
+   "fuentes": [
+    "https://www.elcolombiano.com/antioquia/demoras-via-s-sabaneta-plan-movilidad-constructores-AF29861032",
+    "https://www.minuto30.com/?p=1727154",
+    "https://www.elcolombiano.com/antioquia/por-estrecha-y-empinada-via-veredal-de-sabaneta-pensada-para-400-residentes-se-moveran-mas-de-9000-personas-GF24030699"
+   ],
+   "problemas": [
+    {
+     "tipo": "acceso",
+     "nivel": "alto",
+     "detalle": "Via veredal de San Jose con una sola entrada, estrecha y con 34% de pendiente; aguaceros o varadas la bloquean y los trancones llegan hasta la calle 77 Sur (El Colombiano, mar-2024); la via S alterna seguia retrasada en 2025-2026."
+    },
+    {
+     "tipo": "obras",
+     "nivel": "alto",
+     "detalle": "Botadero de escombros que podria tapar una quebrada y obras en zona protegida, segun denuncias de 2024."
+    },
+    {
+     "tipo": "altura",
+     "nivel": "alto",
+     "detalle": "Vereda de ladera."
+    }
+   ],
+   "accesos": "Misma via unica y empinada de la Loma de San Jose; el 4-nov-2026 los residentes quedaron con una sola salida. Muy dificil sin carro.",
+   "opiniones": [
+    {
+     "texto": "Un lider vecinal dice que la via, pensada para unos 400 residentes, ahora la usan miles y se bloquea con cualquier aguacero.",
+     "fuente": "https://www.elcolombiano.com/antioquia/por-estrecha-y-empinada-via-veredal-de-sabaneta-pensada-para-400-residentes-se-moveran-mas-de-9000-personas-GF24030699"
+    }
+   ]
+  },
+  {
+   "nombre": "Mayorca",
+   "seguridad": "media-alta",
+   "confianza": "media",
+   "terreno": "plano",
+   "terreno_nota": "Zona plana junto a la Av. Regional.",
+   "cerca": [
+    "CC Mayorca",
+    "Estación del metro cercana (Itagüí/Sabaneta, aprox. 5-15 min a pie según ubicación)",
+    "Av. Regional y Autopista Sur",
+    "Supermercados y comercio"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 0,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "No se encontraron noticias de seguridad específicas; las noticias del sector son por el cierre de la glorieta Mayorca y el tráfico."
+   },
+   "recomendacion": "recomendado",
+   "razon_recomendacion": "Plano, con metro y centro comercial cerca y sin noticias negativas; solo el tráfico es un problema.",
+   "positivos": [
+    "Cerca del CC Mayorca y del metro",
+    "Zona plana con mucho comercio",
+    "Acceso a Av. Regional y Autopista Sur"
+   ],
+   "negativos": [
+    "Tráfico pesado por la glorieta Mayorca",
+    "Ruido vial"
+   ],
+   "resumen": "Muy práctico por metro y comercio, con tráfico fuerte; sin noticias de inseguridad específicas.",
+   "fuentes": [
+    "https://www.elcolombiano.com/antioquia/esta-en-jaque-la-movilidad-del-sur-por-cierre-glorieta-mayorca-PC40427448",
+    "https://casas.trovit.com.co/arriendo-mayorca-sabaneta",
+    "https://www.elcolombiano.com/antioquia/glorieta-mayorca-obras-nuevos-desvios-EI42795247"
+   ],
+   "problemas": [
+    {
+     "tipo": "obras",
+     "nivel": "medio",
+     "detalle": "Obras del intercambio vial de Mayorca (inicio 17-feb-2026, entrega proyectada antes de dic-2027) con cierres por costados de la glorieta desde ago-2026."
+    },
+    {
+     "tipo": "trafico",
+     "nivel": "alto",
+     "detalle": "El Colombiano describio la movilidad del sur 'en jaque' por el cierre de la glorieta Mayorca (2026)."
+    },
+    {
+     "tipo": "ruido",
+     "nivel": "medio",
+     "detalle": "Ruido vial de la Av. Regional/Autopista y de las obras."
+    }
+   ],
+   "accesos": "Zona plana junto a la Av. Regional y el CC Mayorca, con metro cerca; muy facil sin carro, aunque el trafico vehicular esta complicado por las obras.",
+   "opiniones": []
+  },
+  {
+   "nombre": "Vegas de San José",
+   "seguridad": "media-alta",
+   "confianza": "baja",
+   "terreno": "plano",
+   "terreno_nota": "Relativamente plano cerca de la Av. Las Vegas.",
+   "cerca": [
+    "Av. Las Vegas y rutas de bus",
+    "Comercio de la zona",
+    "CC Aves María (distancia aprox. no verificada)"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 0,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "No se encontraron noticias de seguridad específicas; solo congestión en La Vega/San José."
+   },
+   "recomendacion": "recomendado",
+   "razon_recomendacion": "Bien ubicado, plano y sin noticias negativas.",
+   "positivos": [
+    "Zona plana cerca de la Av. Las Vegas",
+    "Acceso a comercio y transporte"
+   ],
+   "negativos": [
+    "Congestión en La Vega y salida a San José",
+    "Ruido de la Av. Las Vegas"
+   ],
+   "resumen": "Sector bien ubicado sin noticias de seguridad específicas; el tráfico es lo que más afecta.",
+   "fuentes": [
+    "https://www.minuto30.com/?p=1727154",
+    "https://www.ciencuadras.com/inmueble/casa-en-arriendo-en-vegas-de-san-jose-sabaneta-3823374",
+    "https://www.minuto30.com/recoja-agua-se-dano-una-valvula-mas-de-30-barrios-de-sabaneta-tendran-corte-de-agua-este-lunes/1719100/"
+   ],
+   "problemas": [
+    {
+     "tipo": "agua",
+     "nivel": "bajo",
+     "detalle": "Incluido en cortes programados nocturnos de EPM (6-10 h) en ~31 barrios urbanos: 6-mar-2025, 26-ago-2026 y 14-sep-2026 (valvula danada); mantenimientos ocasionales, no desabastecimiento cronico."
+    },
+    {
+     "tipo": "trafico",
+     "nivel": "medio",
+     "detalle": "Congestion en la Av. Las Vegas, donde se restringio la carga pesada de 6 a. m. a 6 p. m."
+    },
+    {
+     "tipo": "acceso",
+     "nivel": "medio",
+     "detalle": "Congestion en La Vega/San Jose cuando se cierra el paso hacia La Doctora (4-nov-2026)."
+    }
+   ],
+   "accesos": "Por la Av. Las Vegas, plano y con buses; accesible sin carro, pero la salida por La Vega se congestiona.",
+   "opiniones": []
+  },
+  {
+   "nombre": "Entreamigos",
+   "seguridad": "sin datos",
+   "confianza": "baja",
+   "terreno": "ondulado",
+   "terreno_nota": "Urbano, en la zona de María Auxiliadora con pendientes moderadas (no verificado en detalle).",
+   "cerca": [
+    "Santuario de María Auxiliadora",
+    "Comercio y servicios del centro"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 0,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "No se encontraron noticias específicas del barrio."
+   },
+   "recomendacion": "con precaución",
+   "razon_recomendacion": "Sin información específica suficiente; visitar antes de decidir.",
+   "positivos": [
+    "Barrio urbano con servicios",
+    "Cerca del centro"
+   ],
+   "negativos": [
+    "Sin información específica de seguridad"
+   ],
+   "resumen": "Barrio oficial sin noticias específicas; aplica el contexto general del municipio.",
+   "fuentes": [
+    "https://observatorio.sabaneta.gov.co/files/documentos/2023-05-11-01-14-05.pdf",
+    "https://www.fincaraiz.com.co/apartamento-en-venta-en-entreamigos-sabaneta/193990205",
+    "https://www.minuto30.com/recoja-agua-se-dano-una-valvula-mas-de-30-barrios-de-sabaneta-tendran-corte-de-agua-este-lunes/1719100/"
+   ],
+   "problemas": [
+    {
+     "tipo": "agua",
+     "nivel": "bajo",
+     "detalle": "Incluido en cortes programados nocturnos de EPM (6-10 h) en ~31 barrios urbanos: 6-mar-2025, 26-ago-2026 y 14-sep-2026 (valvula danada); mantenimientos ocasionales, no desabastecimiento cronico."
+    }
+   ],
+   "accesos": "Barrio urbano cercano a Maria Auxiliadora y el centro; buses en vias urbanas, viable sin carro.",
+   "opiniones": []
+  },
+  {
+   "nombre": "Sabaneta Real",
+   "seguridad": "sin datos",
+   "confianza": "baja",
+   "terreno": "ondulado",
+   "terreno_nota": "Terreno no verificado con fuentes.",
+   "cerca": [
+    "Comercio de barrio (no verificado)"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 0,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "No se encontraron noticias ni opiniones del sector."
+   },
+   "recomendacion": "con precaución",
+   "razon_recomendacion": "Sin información pública suficiente para evaluarlo.",
+   "positivos": [
+    "Sector residencial urbano con oferta de apartamentos"
+   ],
+   "negativos": [
+    "Sin información pública específica"
+   ],
+   "resumen": "Sin noticias ni opiniones del sector; aplica el contexto general de Sabaneta.",
+   "fuentes": [
+    "https://www.fincaraiz.com.co/blog/vivir-en-sabaneta/",
+    "https://www.minuto30.com/recoja-agua-se-dano-una-valvula-mas-de-30-barrios-de-sabaneta-tendran-corte-de-agua-este-lunes/1719100/"
+   ],
+   "problemas": [
+    {
+     "tipo": "agua",
+     "nivel": "bajo",
+     "detalle": "Incluido en cortes programados nocturnos de EPM (6-10 h) en ~31 barrios urbanos: 6-mar-2025, 26-ago-2026 y 14-sep-2026 (valvula danada); mantenimientos ocasionales, no desabastecimiento cronico."
+    }
+   ],
+   "accesos": "Barrio urbano del circuito de acueducto del casco urbano; accesos detallados no verificados.",
+   "opiniones": []
+  },
+  {
+   "nombre": "Parque (centro)",
+   "seguridad": "media",
+   "confianza": "media",
+   "terreno": "plano",
+   "terreno_nota": "Centro plano y caminable.",
+   "cerca": [
+    "Parque principal",
+    "Estación Sabaneta del metro (aprox. 10-15 min a pie)",
+    "Iglesia, bancos y comercio",
+    "Calle Larga gastronómica",
+    "Hospital Venancio Díaz (aprox., Cra 46B #77 Sur)"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 0,
+    "hurtos": 2,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "Hurtos con balacera en el parque (sep-2023, fleteros en moto; otro caso con un ladrón muerto, fecha incierta), es decir, posiblemente fuera del periodo; robo a una joyería en Sabaneta. Hechos puntuales típicos de un centro concurrido."
+   },
+   "recomendacion": "con precaución",
+   "razon_recomendacion": "Excelente acceso a todo sin carro, pero más ruido, rumba y hurtos ocasionales que en zonas residenciales.",
+   "positivos": [
+    "Todo a mano: comercio, bancos, restaurantes",
+    "Cerca del metro",
+    "Vida de día"
+   ],
+   "negativos": [
+    "Hurtos ocasionales con balacera (2023)",
+    "Rumba y ruido nocturno",
+    "Congestión"
+   ],
+   "resumen": "Muy cómodo para vivir sin carro, con más ruido y hurtos ocasionales propios de un centro.",
+   "fuentes": [
+    "https://telemedellin.tv/?p=100562",
+    "https://www.noticiascaracol.com/colombia/panico-en-el-parque-de-sabaneta-por-balacera-tras-un-hurto",
+    "https://www.elcolombiano.com/antioquia/quejas-por-ruido-de-locales-en-sabaneta-ML17949544"
+   ],
+   "problemas": [
+    {
+     "tipo": "ruido",
+     "nivel": "alto",
+     "detalle": "Rumba nocturna de fondas y establecimientos del parque y alrededores, con quejas de vecinos."
+    },
+    {
+     "tipo": "trafico",
+     "nivel": "medio",
+     "detalle": "Congestion del centro y poco parqueo."
+    }
+   ],
+   "accesos": "Centro plano, a pie de todo, con buses y alimentadores a la estacion Sabaneta del metro; ideal sin carro.",
+   "opiniones": [
+    {
+     "texto": "Lectores de un blog de expats (2019-2021) prefieren Sabaneta a El Poblado: mas barato, tranquilo y se puede caminar a todo (opinion sobre el municipio en general).",
+     "fuente": "https://medellinguru.com/el-poblado-vs-sabaneta/"
+    }
+   ]
+  },
+  {
+   "nombre": "La Florida",
+   "seguridad": "sin datos",
+   "confianza": "baja",
+   "terreno": "ondulado",
+   "terreno_nota": "Terreno no verificado con fuentes.",
+   "cerca": [
+    "Servicios del casco urbano (no verificado)"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 0,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "No se encontraron noticias específicas del barrio."
+   },
+   "recomendacion": "con precaución",
+   "razon_recomendacion": "Sin información específica suficiente.",
+   "positivos": [
+    "Barrio urbano oficial y consolidado",
+    "Cerca de servicios"
+   ],
+   "negativos": [
+    "Sin información específica"
+   ],
+   "resumen": "Sin noticias del barrio; aplica el contexto general del municipio.",
+   "fuentes": [
+    "https://observatorio.sabaneta.gov.co/files/documentos/2023-05-11-01-14-05.pdf",
+    "https://www.minuto30.com/recoja-agua-se-dano-una-valvula-mas-de-30-barrios-de-sabaneta-tendran-corte-de-agua-este-lunes/1719100/"
+   ],
+   "problemas": [
+    {
+     "tipo": "agua",
+     "nivel": "bajo",
+     "detalle": "Incluido en cortes programados nocturnos de EPM (6-10 h) en ~31 barrios urbanos: 6-mar-2025, 26-ago-2026 y 14-sep-2026 (valvula danada); mantenimientos ocasionales, no desabastecimiento cronico."
+    }
+   ],
+   "accesos": "Barrio urbano del casco central; accesos detallados no verificados.",
+   "opiniones": []
+  },
+  {
+   "nombre": "Vereda Cañaveralejo",
+   "seguridad": "media-alta",
+   "confianza": "baja",
+   "terreno": "lomas fuertes",
+   "terreno_nota": "Parte rural en ladera; exige carro o bus.",
+   "cerca": [
+    "Lejos de comercio y transporte"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 0,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "No se encontraron noticias de seguridad específicas."
+   },
+   "recomendacion": "con precaución",
+   "razon_recomendacion": "Sin noticias negativas, pero las lomas y la lejanía de servicios pesan.",
+   "positivos": [
+    "Entorno verde y tranquilo",
+    "Unidades nuevas estrato 4"
+   ],
+   "negativos": [
+    "Pendientes y menos transporte",
+    "Accesos congestionados por construcción"
+   ],
+   "resumen": "Similar a Cañaveralejo pero más alejada y empinada; sin noticias de seguridad.",
+   "fuentes": [
+    "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-sabaneta-na-2-habitaciones-2-banos-1-garajes/4673-M6834010"
+   ],
+   "problemas": [
+    {
+     "tipo": "altura",
+     "nivel": "medio",
+     "detalle": "Parte rural en ladera."
+    },
+    {
+     "tipo": "obras",
+     "nivel": "medio",
+     "detalle": "Accesos con trafico de construccion por proyectos nuevos."
+    }
+   ],
+   "accesos": "Vias veredales que suben desde Cañaveralejo; poco transporte, recomendable tener carro.",
+   "opiniones": []
+  },
+  {
+   "nombre": "Villas del Carmen",
+   "seguridad": "sin datos",
+   "confianza": "baja",
+   "terreno": "ondulado",
+   "terreno_nota": "Barrio urbano; terreno no verificado en detalle.",
+   "cerca": [
+    "Parroquia del Carmen",
+    "Centro infantil municipal",
+    "Comercio de barrio"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 0,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "No se encontraron noticias específicas del barrio."
+   },
+   "recomendacion": "con precaución",
+   "razon_recomendacion": "Barrio tradicional sin noticias negativas, pero con poca información para confirmar.",
+   "positivos": [
+    "Servicios comunitarios",
+    "Cerca de parroquia y comercio"
+   ],
+   "negativos": [
+    "Sin información específica de seguridad"
+   ],
+   "resumen": "Barrio tradicional sin noticias relevantes; aplica el contexto general.",
+   "fuentes": [
+    "https://observatorio.sabaneta.gov.co/files/documentos/2023-05-11-01-14-05.pdf",
+    "https://sabaneta.gov.co/files/allfiles/2024-07-30-02-51-54.pdf",
+    "https://www.minuto30.com/recoja-agua-se-dano-una-valvula-mas-de-30-barrios-de-sabaneta-tendran-corte-de-agua-este-lunes/1719100/"
+   ],
+   "problemas": [
+    {
+     "tipo": "agua",
+     "nivel": "bajo",
+     "detalle": "Incluido en cortes programados nocturnos de EPM (6-10 h) en ~31 barrios urbanos: 6-mar-2025, 26-ago-2026 y 14-sep-2026 (valvula danada); mantenimientos ocasionales, no desabastecimiento cronico."
+    }
+   ],
+   "accesos": "Barrio urbano con buses en vias del casco urbano; viable sin carro.",
+   "opiniones": []
+  },
+  {
+   "nombre": "Tres Esquinas",
+   "seguridad": "media-alta",
+   "confianza": "baja",
+   "terreno": "plano",
+   "terreno_nota": "Zona urbana mayormente plana (asociada a El Trapiche).",
+   "cerca": [
+    "Comercio de la zona",
+    "Vías principales del casco urbano",
+    "Parque principal (distancia no verificada)"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 1,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "En ago-2025 un hombre de 65 años fue asesinado en un parqueadero del barrio El Trapiche (vecino/asociado a Tres Esquinas) por un conocido tras una discusión; hecho aislado, no sicariato."
+   },
+   "recomendacion": "recomendado",
+   "razon_recomendacion": "Zona urbana valorizada con un único hecho aislado cercano, sin patrón de crimen organizado.",
+   "positivos": [
+    "Sector en valorización con mucha oferta",
+    "Zona urbana con comercio"
+   ],
+   "negativos": [
+    "Tráfico en cruces principales",
+    "Homicidio aislado en El Trapiche (ago-2025)"
+   ],
+   "resumen": "Muchos anuncios y valorización; un hecho aislado cercano no cambia la buena percepción general.",
+   "fuentes": [
+    "https://www.ciencuadras.com/inmueble/apartamento-en-venta-en-tres-esquinas-sabaneta-3399506",
+    "https://www.elcolombiano.com/antioquia/asesinaron-a-elias-causil-en-sabaneta-primer-homicidio-en-449-dias-FI28757156",
+    "https://www.minuto30.com/recoja-agua-se-dano-una-valvula-mas-de-30-barrios-de-sabaneta-tendran-corte-de-agua-este-lunes/1719100/"
+   ],
+   "problemas": [
+    {
+     "tipo": "agua",
+     "nivel": "bajo",
+     "detalle": "Incluido en cortes programados nocturnos de EPM (6-10 h) en ~31 barrios urbanos: 6-mar-2025, 26-ago-2026 y 14-sep-2026 (valvula danada); mantenimientos ocasionales, no desabastecimiento cronico."
+    },
+    {
+     "tipo": "trafico",
+     "nivel": "bajo",
+     "detalle": "Trafico en los cruces principales del sector."
+    }
+   ],
+   "accesos": "Zona urbana mayormente plana con vias del casco urbano y buses; viable sin carro.",
+   "opiniones": []
+  },
+  {
+   "nombre": "Restrepo Naranjo",
+   "seguridad": "sin datos",
+   "confianza": "baja",
+   "terreno": "plano",
+   "terreno_nota": "Barrio céntrico (terreno no verificado en detalle).",
+   "cerca": [
+    "Parroquia Nuestra Señora del Carmen",
+    "Comercio y servicios del centro"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 0,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "No se encontraron noticias específicas del barrio."
+   },
+   "recomendacion": "con precaución",
+   "razon_recomendacion": "Céntrico y sin noticias negativas, pero con poca información.",
+   "positivos": [
+    "Residencial y valorizado según anuncios",
+    "Cerca de la parroquia y del centro"
+   ],
+   "negativos": [
+    "Sin información específica de seguridad"
+   ],
+   "resumen": "Barrio céntrico sin noticias relevantes; aplica el contexto general de Sabaneta.",
+   "fuentes": [
+    "https://observatorio.sabaneta.gov.co/files/documentos/2023-05-11-01-14-05.pdf",
+    "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-manuel-restrepo-sabaneta-3784309",
+    "https://www.minuto30.com/recoja-agua-se-dano-una-valvula-mas-de-30-barrios-de-sabaneta-tendran-corte-de-agua-este-lunes/1719100/"
+   ],
+   "problemas": [
+    {
+     "tipo": "agua",
+     "nivel": "bajo",
+     "detalle": "Incluido en cortes programados nocturnos de EPM (6-10 h) en ~31 barrios urbanos: 6-mar-2025, 26-ago-2026 y 14-sep-2026 (valvula danada); mantenimientos ocasionales, no desabastecimiento cronico."
+    }
+   ],
+   "accesos": "Barrio centrico cerca de la parroquia del Carmen; buses y comercio a pie.",
+   "opiniones": []
+  },
+  {
+   "nombre": "Monteazul",
+   "seguridad": "media-alta",
+   "confianza": "baja",
+   "terreno": "ondulado",
+   "terreno_nota": "Ciudadela residencial; terreno exacto no verificado.",
+   "cerca": [
+    "Zonas comunes de la ciudadela",
+    "Lejos a pie del metro (no verificado)"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 0,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "No se encontraron noticias ni opiniones independientes."
+   },
+   "recomendacion": "con precaución",
+   "razon_recomendacion": "Unidad cerrada bien valorada, pero sin información independiente y con probable dependencia del carro.",
+   "positivos": [
+    "Ciudadela cerrada de buen nivel",
+    "Zonas comunes y tranquilidad"
+   ],
+   "negativos": [
+    "Probable dependencia del carro",
+    "Sin noticias ni opiniones independientes"
+   ],
+   "resumen": "Conjunto cerrado bien valorado en anuncios; la seguridad se infiere del formato y del contexto municipal.",
+   "fuentes": [
+    "https://www.fincaraiz.com.co/venta/apartamentos/monteazul/sabaneta/3-o-mas-banos/pagina2"
+   ],
+   "problemas": [],
+   "accesos": "Ciudadela residencial; accesos no verificados, probablemente dependiente del carro.",
+   "opiniones": []
+  },
+  {
+   "nombre": "Ancón Sur",
+   "seguridad": "media-alta",
+   "confianza": "baja",
+   "terreno": "plano",
+   "terreno_nota": "Zona plana cerca de la autopista.",
+   "cerca": [
+    "Estación La Estrella del metro (pocos minutos a pie según anuncios)",
+    "Autopista Sur y Av. Regional",
+    "Comercio de la zona"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 0,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "No se encontraron noticias de seguridad específicas."
+   },
+   "recomendacion": "recomendado",
+   "razon_recomendacion": "Plano, junto al metro y sin noticias negativas.",
+   "positivos": [
+    "A pocos minutos del metro La Estrella",
+    "Plano con acceso a autopista y Regional"
+   ],
+   "negativos": [
+    "Ruido y tráfico de vías arterias",
+    "Afectado por obras de la glorieta Mayorca"
+   ],
+   "resumen": "Muy bien conectado al metro, sin noticias de seguridad específicas.",
+   "fuentes": [
+    "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-sabaneta-ancon-3-habitaciones-2-banos/2895-M4698450",
+    "https://observatorio.sabaneta.gov.co/files/documentos/2023-05-11-01-14-05.pdf",
+    "https://www.elcolombiano.com/antioquia/glorieta-mayorca-obras-nuevos-desvios-EI42795247"
+   ],
+   "problemas": [
+    {
+     "tipo": "agua",
+     "nivel": "bajo",
+     "detalle": "Incluido en cortes programados nocturnos de EPM (6-10 h) en ~31 barrios urbanos: 6-mar-2025, 26-ago-2026 y 14-sep-2026 (valvula danada); mantenimientos ocasionales, no desabastecimiento cronico."
+    },
+    {
+     "tipo": "obras",
+     "nivel": "medio",
+     "detalle": "Obras del intercambio vial de Mayorca (inicio 17-feb-2026, entrega proyectada antes de dic-2027) con cierres por costados de la glorieta desde ago-2026."
+    },
+    {
+     "tipo": "ruido",
+     "nivel": "medio",
+     "detalle": "Ruido de la Autopista Sur y la Av. Regional."
+    }
+   ],
+   "accesos": "Plano, junto a la estacion La Estrella del metro y la Autopista Sur; muy facil sin carro.",
+   "opiniones": []
+  },
+  {
+   "nombre": "Loma de La Doctora",
+   "seguridad": "media",
+   "confianza": "baja",
+   "terreno": "lomas fuertes",
+   "terreno_nota": "Loma pronunciada con pocas salidas; exige carro.",
+   "cerca": [
+    "Lejos de comercio y transporte"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 0,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "Sin noticias de delincuencia; está en la zona de ladera cercana a la emergencia de mayo 2025 y a cierres viales por árboles caídos (nov-2026)."
+   },
+   "recomendacion": "con precaución",
+   "razon_recomendacion": "Lomas fuertes, lejanía de servicios y riesgo por lluvias en la zona.",
+   "positivos": [
+    "Entorno verde con vistas",
+    "Unidades tranquilas"
+   ],
+   "negativos": [
+    "Pendientes y pocas salidas",
+    "Zona de ladera cercana a la emergencia de 2025",
+    "Poco transporte público"
+   ],
+   "resumen": "Sin noticias de delincuencia; preocupan el riesgo por lluvias y el acceso vial.",
+   "fuentes": [
+    "https://www.minuto30.com/?p=1727154",
+    "https://www.elcolombiano.com/antioquia/sabaneta-inundaciones-lluvias-desborde-quebrada-la-doctora-sabaneta-ID27356680"
+   ],
+   "problemas": [
+    {
+     "tipo": "altura",
+     "nivel": "alto",
+     "detalle": "Loma pronunciada."
+    },
+    {
+     "tipo": "acceso",
+     "nivel": "alto",
+     "detalle": "Pocas salidas; el 4-nov-2026 un arbol caido cerro el paso desde La Vega."
+    },
+    {
+     "tipo": "deslizamiento",
+     "nivel": "medio",
+     "detalle": "Ladera cercana a la emergencia de mayo de 2025 en la vereda La Doctora."
+    }
+   ],
+   "accesos": "Por vias empinadas que suben desde La Doctora/La Vega, con pocas salidas; exige carro.",
+   "opiniones": []
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "fincaraiz": {
+  "medellin": {
+   "cursor": 1,
+   "paginas": 35,
+   "ciclos": 3
+  },
+  "sabaneta": {
+   "cursor": 1,
+   "paginas": 9,
+   "ciclos": 5
+  },
+  "envigado": {
+   "cursor": 1,
+   "paginas": 2,
+   "ciclos": 5
+  },
+  "itagui": {
+   "cursor": 1,
+   "paginas": 4,
+   "ciclos": 5
+  },
+  "la-estrella": {
+   "cursor": 1,
+   "paginas": 6,
+   "ciclos": 5
+  }
+ },
+ "rentola": {
+  "sabaneta": {
+   "cursor": 2,
+   "paginas": 298,
+   "ciclos": 2
+  },
+  "envigado": {
+   "cursor": 2,
+   "paginas": 403,
+   "ciclos": 2
+  },
+  "itagui": {
+   "cursor": 2,
+   "paginas": 118,
+   "ciclos": 2
+  },
+  "la-estrella": {
+   "cursor": 2,
+   "paginas": 61,
+   "ciclos": 2
+  }
+ },
+ "albertoalvarez": {
+  "medellin": {
+   "cursor": 102,
+   "paginas": 117
+  },
+  "sabaneta": {
+   "cursor": 21,
+   "paginas": 36,
+   "ciclos": 2
+  },
+  "envigado": {
+   "cursor": 41,
+   "paginas": 47,
+   "ciclos": 1
+  },
+  "itagui": {
+   "cursor": 1,
+   "ciclos": 6,
+   "paginas": 8
+  },
+  "la-estrella": {
+   "cursor": 1,
+   "ciclos": 6,
+   "paginas": 10
+  }
+ },
+ "metrocuadrado": {
+  "medellin": {
+   "visto": true
+  },
+  "sabaneta": {
+   "visto": true
+  },
+  "envigado": {
+   "visto": true
+  },
+  "itagui": {
+   "visto": true
+  },
+  "la-estrella": {
+   "visto": true
+  }
+ }
+}

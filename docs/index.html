@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Arriendos Medellín y Sur</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111418" media="(prefers-color-scheme: dark)">
+<link rel="preconnect" href="https://cdn2.infocasas.com.uy" crossorigin>
+<link rel="preconnect" href="https://img.resemmedia.com" crossorigin>
+<link rel="preconnect" href="https://multimedia.metrocuadrado.com" crossorigin>
+<link rel="preconnect" href="https://s3.amazonaws.com" crossorigin>
+<link rel="preconnect" href="https://tile.openstreetmap.org" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.min.css">
+<link rel="stylesheet" href="styles.css?v=63">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏢</text></svg>">
+</head>
+<body data-vista="split">
+
+<header class="cabecera">
+  <div class="marca">
+    <span class="logo" aria-hidden="true">🏢</span>
+    <div>
+      <h1>Arriendos Medellín y Sur</h1>
+      <p id="actualizado" class="tenue">Cargando datos…</p>
+    </div>
+  </div>
+  <div class="cabecera-der">
+    <div class="segmento" id="vistas" role="tablist" aria-label="Vista">
+      <button data-vista="lista" role="tab">Lista</button>
+      <button data-vista="split" role="tab" class="solo-ancho">Lista + mapa</button>
+      <button data-vista="mapa" role="tab">Mapa</button>
+      <button data-vista="analisis" role="tab">Análisis</button>
+    </div>
+    <button class="btn-icono solo-movil" id="abrirAnalisis" title="Análisis de mercado" aria-label="Análisis de mercado">📊</button>
+    <button class="btn-icono" id="abrirFuentes" title="Estado de las fuentes" aria-label="Estado de las fuentes">ⓘ</button>
+  </div>
+</header>
+
+<!-- Barra de filtros rápidos -->
+<div class="barra-filtros" id="barraFiltros">
+  <label class="buscador">
+    <span aria-hidden="true">⌕</span>
+    <input type="search" id="q" placeholder="Buscar barrio o inmobiliaria" autocomplete="off">
+  </label>
+  <div class="switch-sur" id="switchSur">
+    <label class="sw-label" title="Sabaneta, Envigado, Itagüí, La Estrella y el sur de Medellín">
+      <input type="checkbox" id="swSur" role="switch">
+      <span class="sw" aria-hidden="true"></span>
+      <span class="sw-txt"><span class="solo-ancho">Solo el sur</span><span class="solo-movil">Solo sur</span></span>
+      <span class="n" id="nSur"></span>
+    </label>
+    <button class="sw-info" id="infoSur" aria-label="Qué barrios entran en el sur" title="Qué barrios entran">ⓘ</button>
+  </div>
+  <div class="rapidos">
+    <div class="grupo" id="rapMunicipios" aria-label="Municipio"></div>
+    <button class="chip btn-barrios" id="rapBarrios" aria-label="Filtrar por barrio">Barrios ▾</button>
+    <div class="grupo precio">
+      <span class="etq-campo">Precio</span>
+      <input id="rapPmin" class="in-precio" aria-label="Precio mínimo" inputmode="decimal" enterkeyhint="done" list="sugPrecio" placeholder="Mínimo" autocomplete="off">
+      <span class="tenue sep-precio">–</span>
+      <input id="rapPmax" class="in-precio" aria-label="Precio máximo" inputmode="decimal" enterkeyhint="done" list="sugPrecio" placeholder="Máximo" autocomplete="off">
+      <datalist id="sugPrecio">
+        <option value="$800.000"></option><option value="$1.000.000"></option><option value="$1.200.000"></option>
+        <option value="$1.500.000"></option><option value="$1.700.000"></option><option value="$1.800.000"></option>
+        <option value="$2.000.000"></option>
+      </datalist>
+    </div>
+    <select class="sel-cuarto sel-muni" id="rapMuni" aria-label="Municipio"></select>
+    <select class="sel-cuarto" id="rapHab" aria-label="Habitaciones"></select>
+    <select class="sel-cuarto" id="rapBanos" aria-label="Baños"></select>
+  </div>
+  <button class="btn-filtros" id="abrirPanel">
+    <span class="solo-movil">Filtros</span><span class="solo-ancho">Más filtros</span>
+    <span class="contador" id="contFiltros" hidden></span>
+  </button>
+  <!-- Filtros activos -->
+  <div class="activos" id="activos" hidden></div>
+</div>
+
+<main class="contenido">
+  <section class="col-lista" id="colLista">
+    <div class="resumen">
+      <div class="resumen-izq">
+        <strong id="total">–</strong>
+        <div class="atajos" id="atajos"></div>
+      </div>
+      <label class="ordenar">
+        <span class="tenue">Ordenar</span>
+        <select id="orden"></select>
+      </label>
+    </div>
+    <div id="resumenDia"></div>
+    <div id="recomendados"></div>
+    <div class="aviso-zona" id="avisoZona" hidden>
+      Mostrando solo lo visible en el mapa. <button class="enlace" id="quitarZona">Ver todos</button>
+    </div>
+    <div class="tarjetas" id="tarjetas"></div>
+    <div id="centinela" class="centinela"></div>
+    <div class="vacio" id="vacio" hidden>
+      <p class="vacio-titulo">No hay apartamentos con estos filtros</p>
+      <p class="tenue" id="vacioSugerencia"></p>
+      <button class="btn" id="limpiarVacio">Quitar filtros</button>
+    </div>
+  </section>
+
+  <section class="col-analisis viz" id="colAnalisis" aria-label="Análisis de mercado"></section>
+
+  <section class="col-mapa" id="colMapa">
+    <div id="mapa" role="region" aria-label="Mapa de apartamentos"></div>
+    <div class="mapa-ctrl">
+      <label class="interruptor"><input type="checkbox" id="zona"> <span>Buscar en esta zona</span></label>
+    </div>
+    <div class="leyenda">
+      <span><i class="punto nuevo"></i>Nuevo</span>
+      <span><i class="punto bajo"></i>Bajó de precio</span>
+      <span><i class="punto"></i>Otros</span>
+      <span class="tenue" id="sinGeo"></span>
+    </div>
+  </section>
+</main>
+
+<button class="flotante" id="flotante"></button>
+<div class="tip" id="tip" hidden></div>
+
+<!-- Panel de filtros (hoja inferior en móvil, lateral en escritorio) -->
+<div class="velo" id="velo" hidden></div>
+<aside class="panel" id="panel" aria-label="Filtros" aria-hidden="true">
+  <div class="panel-cab">
+    <h2>Filtros</h2>
+    <button class="btn-icono" id="cerrarPanel" aria-label="Cerrar">✕</button>
+  </div>
+  <div class="panel-cuerpo" id="panelCuerpo"></div>
+  <div class="panel-pie">
+    <button class="btn-sec" id="limpiar">Limpiar</button>
+    <button class="btn" id="verResultados">Ver resultados</button>
+  </div>
+</aside>
+
+<!-- Visor de fotos y videos -->
+<div class="visor" id="visor" hidden role="dialog" aria-modal="true" aria-label="Detalles del apartamento">
+  <div class="visor-cab">
+    <button class="visor-volver" id="visorVolver" hidden>← Volver a la ficha</button>
+    <div class="visor-titulo">
+      <strong id="visorPrecio"></strong>
+      <span id="visorLugar" class="visor-lugar"></span>
+    </div>
+    <span class="visor-cont" id="visorCont"></span>
+    <button class="visor-x" id="visorCerrar" aria-label="Cerrar">✕</button>
+  </div>
+  <div class="visor-cuerpo" id="visorCuerpo">
+  <div class="visor-galeria">
+  <div class="visor-escena" id="visorEscena">
+    <button class="visor-nav ant" id="visorAnt" aria-label="Anterior"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+    <div class="visor-medio" id="visorMedio"></div>
+    <button class="visor-nav sig" id="visorSig" aria-label="Siguiente"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+  </div>
+  <div class="visor-pie">
+    <div class="visor-miniaturas" id="visorMinis"></div>
+    <div class="visor-enlaces" id="visorEnlaces"></div>
+  </div>
+  </div>
+  <aside class="visor-detalle" id="visorDetalle" aria-label="Detalles del apartamento"></aside>
+  </div>
+</div>
+
+<dialog id="dlgBarrio" aria-labelledby="dlgBarrioTitulo">
+  <div class="dlg-cab">
+    <h2 id="dlgBarrioTitulo">Barrio</h2>
+    <button class="btn-icono" id="cerrarBarrio" aria-label="Cerrar">✕</button>
+  </div>
+  <div id="fichaBarrio" class="ficha-barrio"></div>
+</dialog>
+
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+<dialog id="dlgSur">
+  <div class="dlg-cab">
+    <h2>¿Qué entra en "Solo el sur"?</h2>
+    <button class="btn-icono" id="cerrarSur" aria-label="Cerrar">✕</button>
+  </div>
+  <div id="listaSur" class="lista-sur"></div>
+</dialog>
+
+<dialog id="dlgFuentes">
+  <div class="dlg-cab">
+    <h2>Estado de las fuentes</h2>
+    <button class="btn-icono" id="cerrarFuentes" aria-label="Cerrar">✕</button>
+  </div>
+  <div id="tablaFuentes"></div>
+</dialog>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js"></script>
+<script src="app.js?v=64"></script>
+</body>
+</html>

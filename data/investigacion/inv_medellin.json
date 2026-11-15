@@ -1,0 +1,2052 @@
+{
+ "municipio": "Medellín",
+ "contexto_municipio": "Según datos oficiales (SISC/Alcaldía), Medellín cerró 2025 con un leve aumento de homicidios (325-346 según la fuente), pero en 2026 bajan con fuerza: 183 casos hasta septiembre frente a 249 en el mismo periodo de 2025 (-27%). En la Encuesta de Percepción de Medellín Cómo Vamos, la percepción de seguridad subió al 51% en la ciudad y ronda el 70% en el propio barrio. La violencia grave (homicidios, sicariato, extorsión de combos y bandas) se concentra en La Candelaria/Centro (comuna 10, la de más homicidios y más denuncias de extorsión), el nororiente (Manrique, Aranjuez), Robledo, San Javier, partes altas de Buenos Aires y algunos corregimientos. Medellín es la segunda ciudad del país en denuncias de extorsión (980 en 2025) y el subregistro es alto. El Poblado (comuna 14) y Laureles (comuna 11) tienen muy pocos homicidios, pero lideran el hurto con escopolamina contra extranjeros en 2026 (108 y 106 casos). La comuna 12 (La América) y los sectores planos de Belén se perciben tranquilos. Dentro de una misma comuna la situación cambia mucho de un sector a otro, y los conteos de noticias de este informe son aproximados y no sustituyen la estadística oficial.",
+ "barrios": [
+  {
+   "nombre": "El Poblado",
+   "comuna": "Comuna 14 - El Poblado",
+   "seguridad": "media-alta",
+   "confianza": "alta",
+   "positivos": [
+    "Muy pocos homicidios: según el SISC, 0 casos entre el 1 de enero y el 24 de febrero de 2026",
+    "Muchos servicios, centros comerciales, restaurantes y coworkings",
+    "Metro (Poblado, Aguacatala) y vías como la Av. El Poblado y Las Palmas",
+    "Mucha oferta en edificios con portería"
+   ],
+   "negativos": [
+    "Encabeza las denuncias por hurto con escopolamina en 2026 (108), sobre todo contra extranjeros",
+    "Ruido y rumba en Provenza y Parque Lleras, hostales de fiesta y renta corta",
+    "Arriendos altos y presión turística",
+    "Lomas pronunciadas hacia el oriente y trancones"
+   ],
+   "resumen": "Es una de las zonas con menos violencia grave, pero tiene hurtos frecuentes y escopolamina ligados al turismo y la noche. Conviene elegir una calle lejos de Provenza y del Lleras.",
+   "fuentes": [
+    "https://www.infobae.com/colombia/2026/08/08/estas-son-las-comunas-de-medellin-donde-mas-roban-usando-escopolamina-el-poblado-encabeza-la-lista/",
+    "https://www.elcolombiano.com/antioquia/hostales-rumberos-el-nuevo-dolor-de-cabeza-en-el-poblado-GP17907515",
+    "https://www.noticiasrcn.com/colombia/asesinan-a-sangre-fria-a-un-albanes-en-exclusiva-zona-de-el-poblado-en-medellin-943770",
+    "https://www.noticiascaracol.com/colombia/en-el-poblado-20-barrios-estan-sin-agua-por-dano-en-la-red-de-acueducto"
+   ],
+   "terreno": "lomas fuertes",
+   "terreno_nota": "La franja de la Av. El Poblado y Las Vegas es plana, pero la mayor parte del barrio sube en lomas empinadas hacia Las Palmas.",
+   "cerca": [
+    "Estación Poblado del metro (~10-15 min desde el plano)",
+    "Parque Lleras y Provenza",
+    "CC Oviedo y CC Santafé",
+    "Clínica Medellín El Poblado",
+    "Av. El Poblado (buses)"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 3,
+    "hurtos": 3,
+    "microtrafico": 1,
+    "periodo": "2024-2026",
+    "detalle": "Hubo homicidios sicariales puntuales y dirigidos (un empresario mexicano en Provenza en junio de 2024, un ciudadano albanés cerca del CC Santafé en octubre de 2025), vinculados a redes criminales y no a violencia de barrio. Lo recurrente son los hurtos y la escopolamina; en el Parque Lleras hubo más de 400 capturas en mil días por un plan de recuperación con foco en microtráfico."
+   },
+   "recomendacion": "recomendado",
+   "razon_recomendacion": "Tiene muy baja violencia de barrio y excelentes servicios. Hay que cuidarse de los hurtos y la escopolamina y evitar vivir encima de las zonas de rumba.",
+   "problemas": [
+    {
+     "tipo": "ruido",
+     "nivel": "alto",
+     "detalle": "Ruido nocturno en Provenza y el Parque Lleras; la Alcaldía instaló un piloto de sensores de ruido en julio de 2025."
+    },
+    {
+     "tipo": "trafico",
+     "nivel": "alto",
+     "detalle": "Trancones crónicos en la Av. El Poblado, Las Palmas y las lomas (Los Balsos, San Julián, Castropol)."
+    },
+    {
+     "tipo": "altura",
+     "nivel": "medio",
+     "detalle": "Gran parte del barrio está en lomas empinadas hacia el oriente."
+    },
+    {
+     "tipo": "agua",
+     "nivel": "bajo",
+     "detalle": "Cortes puntuales de EPM, por ejemplo uno programado en febrero de 2025 (La Florida, Las Lomas, Lalinde) y otro por daño en la red que dejó a 20 barrios sin agua."
+    },
+    {
+     "tipo": "luz",
+     "nivel": "bajo",
+     "detalle": "Apagones puntuales por aguaceros (caída de postes en Los Balsos y Los Naranjos)."
+    },
+    {
+     "tipo": "acceso",
+     "nivel": "medio",
+     "detalle": "Un socavón obligó a cerrar la Av. El Poblado y la Loma de Los Balsos estuvo cerrada varios meses por obras."
+    }
+   ],
+   "accesos": "Se llega por la Av. El Poblado, Las Vegas, Las Palmas y el Metro (Poblado y Aguacatala). En el plano se puede vivir sin carro, pero en las lomas altas se depende del carro o de apps.",
+   "opiniones": [
+    {
+     "texto": "Una reseña de nómadas dice que El Poblado concentra rumba y ruido de turistas de paso, y que las calles cercanas más calmadas son mejores para vivir.",
+     "fuente": "https://nomads.com/medellin-colombia"
+    },
+    {
+     "texto": "Un nómada que pasó 60 días en Medellín contó en Reddit que se sintió más seguro en El Poblado que en otras zonas.",
+     "fuente": "https://lr.us.psf.lt/r/digitalnomad/comments/1bfkc6x/the_truth_behind_medellin_colombia_my_experience"
+    },
+    {
+     "texto": "Los vecinos citados por El Colombiano se quejan sobre todo del ruido de hostales de fiesta, más que de los negocios en sí.",
+     "fuente": "https://www.elcolombiano.com/antioquia/hostales-rumberos-el-nuevo-dolor-de-cabeza-en-el-poblado-GP17907515"
+    }
+   ]
+  },
+  {
+   "nombre": "Laureles",
+   "comuna": "Comuna 11 - Laureles-Estadio",
+   "seguridad": "media-alta",
+   "confianza": "alta",
+   "positivos": [
+    "Plano, arborizado y fácil de caminar",
+    "Metro (Estadio, Floresta) y buena conexión",
+    "Muchos restaurantes y cafés, y vida de barrio",
+    "Las guías de expatriados lo consideran de los mejores para vivir largo plazo"
+   ],
+   "negativos": [
+    "Segunda comuna en escopolamina en 2026 (106) y tercera en hurtos en el primer trimestre de 2025",
+    "La carrera 70 y el Primer Parque son puntos críticos de ruido",
+    "Gentrificación y alza de arriendos"
+   ],
+   "resumen": "Es residencial, plano y bien conectado, con baja violencia grave pero hurtos no menores. Las cuadras lejos de La 70 son mucho más tranquilas.",
+   "fuentes": [
+    "https://medellinguru.com/pros-and-cons-of-laureles/",
+    "https://www.infobae.com/colombia/2024/10/18/el-70-de-las-llamadas-a-la-linea-123-en-valle-de-aburra-son-quejas-por-el-ruido-de-los-vecinos/",
+    "https://telemedellin.tv/megaoperativo-seguridad-laureles-capturas/"
+   ],
+   "terreno": "plano",
+   "terreno_nota": "Es casi totalmente plano, con circulares y avenidas amplias.",
+   "cerca": [
+    "Estación Estadio del metro (~10-15 min)",
+    "Primer Parque de Laureles",
+    "CC Unicentro",
+    "Universidad Pontificia Bolivariana",
+    "Estadio Atanasio Girardot y su unidad deportiva"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 1,
+    "sicariato_homicidios": 3,
+    "hurtos": 3,
+    "microtrafico": 2,
+    "periodo": "2024-2026",
+    "detalle": "Hay hechos puntuales: un comerciante con presuntos nexos con una banda ecuatoriana asesinado en el barrio Estadio (abril de 2026), un hombre muerto en un atraco por su celular y un intento de fleteo. Hubo operativos con capturas por microtráfico y extorsión en junio de 2025, pero no encontré noticias de vacunas recurrentes a residentes; el problema dominante es el hurto."
+   },
+   "recomendacion": "recomendado",
+   "razon_recomendacion": "Es plano, con servicios y metro cerca y sin violencia de barrio recurrente. Conviene alejarse de La 70 y cuidarse de los hurtos.",
+   "problemas": [
+    {
+     "tipo": "ruido",
+     "nivel": "medio",
+     "detalle": "Según la Alcaldía, la carrera 70 y el Primer Parque son puntos críticos de ruido (2024-2025)."
+    },
+    {
+     "tipo": "obras",
+     "nivel": "medio",
+     "detalle": "Las obras del Metro de la 80 (2025-2026) traen cierres viales prolongados sobre la Av. 80 y sus alrededores."
+    },
+    {
+     "tipo": "trafico",
+     "nivel": "medio",
+     "detalle": "Congestión en la Av. 80, la San Juan y la Colombia en hora pico."
+    }
+   ],
+   "accesos": "Tiene muchas vías planas (Nutibara, circulares, San Juan, Av. 80) y metro en Estadio y Floresta. Es muy fácil vivir sin carro.",
+   "opiniones": [
+    {
+     "texto": "Un residente citado en el diagnóstico del POT de la comuna 11 dice que entre motos, buses y bares es difícil descansar.",
+     "fuente": "https://www.medellin.gov.co/es/wp-content/uploads/2025/10/PRO-POT-Comuna-11-Laureles-Estadio_diseno.pdf"
+    },
+    {
+     "texto": "Según un blog de expatriados, los residentes de Laureles ven a El Poblado como caro, sobreconstruido y lleno de turistas.",
+     "fuente": "https://medellin.co/blog/expats/laureles-vs-el-poblado-which-truly-is-the-coolest-neighborhood-in-medellin/"
+    },
+    {
+     "texto": "Una guía de residentes advierte que los días de partido hay ruido y multitudes cerca del estadio.",
+     "fuente": "https://colombiamove.com/blog/en/vivir-en-laureles-medellin-guia-real/"
+    }
+   ]
+  },
+  {
+   "nombre": "Belén",
+   "comuna": "Comuna 16 - Belén",
+   "seguridad": "media",
+   "confianza": "media",
+   "positivos": [
+    "Buen equilibrio entre precio, servicios y transporte",
+    "Parque de Belén, comercio y vida de barrio",
+    "Metroplús por la calle 30, Av. 80 y Bolivariana"
+   ],
+   "negativos": [
+    "Muy heterogéneo: estratos 2 a 5 y seguridad desigual",
+    "Homicidios sicariales en 2025 (Los Rosales en abril, La Gloria en octubre)",
+    "Según el boletín oficial de la semana 39 de 2026, los delitos registrados subieron un 15%",
+    "Tráfico en hora pico"
+   ],
+   "resumen": "Es una opción de clase media con buenos servicios y precios moderados. Los sectores planos centrales y La Mota se perciben mejor que las laderas hacia Altavista.",
+   "fuentes": [
+    "https://www.metrocuadrado.com/noticias/noticias-y-tendencias/cuales-son-los-mejores-barrios-para-vivir-en-medellin-6458",
+    "https://www.medellin.gov.co/es/sala-de-prensa/noticias/alcalde-federico-gutierrez-anuncio-una-recompensa-de-hasta-100-millones-de-pesos-por-informacion-sobre-responsables-de-homicidio-en-belen/",
+    "https://www.elcolombiano.com/medellin/dos-miembros-los-chivos-asesinados-en-un-carro-en-belen-la-gloria-medellin-GL30081788"
+   ],
+   "terreno": "ondulado",
+   "terreno_nota": "El centro de Belén (parque, calle 30, La Mota) es plano o suave, y las laderas hacia Altavista y Los Alpes son empinadas.",
+   "cerca": [
+    "Parque de Belén",
+    "Metroplús por la calle 30",
+    "CC Los Molinos",
+    "Universidad de Medellín (según el sector)"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 3,
+    "hurtos": 1,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "En 2025 hubo un ataque sicarial en un negocio de Los Rosales y el asesinato en La Gloria de dos presuntos miembros de 'Los Chivos', banda de Altavista. No encontré noticias de extorsión a residentes en el Belén central, aunque Belén figura entre las comunas con más homicidios en algunos cortes."
+   },
+   "recomendacion": "con precaución",
+   "razon_recomendacion": "Es buena opción en los sectores planos y centrales, pero tuvo hechos sicariales en 2025 y la seguridad varía mucho según el sector.",
+   "problemas": [
+    {
+     "tipo": "trafico",
+     "nivel": "medio",
+     "detalle": "Congestión en la calle 30, la Av. 80 y la Bolivariana en hora pico."
+    },
+    {
+     "tipo": "obras",
+     "nivel": "medio",
+     "detalle": "Las obras del Metro de la 80 (2025-2026) traen cierres viales prolongados sobre la Av. 80 y sus alrededores. Afecta el borde occidental de Belén."
+    },
+    {
+     "tipo": "ruido",
+     "nivel": "bajo",
+     "detalle": "El aeropuerto Olaya Herrera tiene influencia directa sobre las comunas 15 y 16, según un estudio de la U. Nacional; el efecto depende del sector."
+    },
+    {
+     "tipo": "inundacion",
+     "nivel": "bajo",
+     "detalle": "La quebrada La Picacha tuvo su última creciente extraordinaria en 2011 y hay obras pendientes en el tramo de Las Mercedes."
+    }
+   ],
+   "accesos": "Se llega por la calle 30 (Metroplús), la Av. 80, la Bolivariana y la calle 33. El sector central es fácil sin carro; las laderas dependen de buses de barrio.",
+   "opiniones": [
+    {
+     "texto": "Una guía de expatriados destaca que en Belén casi no hay turistas extranjeros, a diferencia de El Poblado.",
+     "fuente": "https://www.expatexchange.com/article/5474/-"
+    },
+    {
+     "texto": "Un blog de vivienda lo describe como vida local a precios económicos, con muy pocos extranjeros.",
+     "fuente": "https://colombiamove.com/blog/en/guia-barrios-medellin-donde-vivir/"
+    }
+   ]
+  },
+  {
+   "nombre": "Robledo",
+   "comuna": "Comuna 7 - Robledo",
+   "seguridad": "media-baja",
+   "confianza": "media",
+   "positivos": [
+    "Arriendos económicos",
+    "Universidades (U. Nacional, ITM, Colegio Mayor) y hospitales",
+    "Futuro Metro de la 80"
+   ],
+   "negativos": [
+    "Bandas activas: hubo intervenciones de la Alcaldía con allanamientos y recompensas por cabecillas",
+    "Varias noticias de sicariato (Aures, Cucaracho, Palenque)",
+    "Lomas, y algunos sectores alejados de servicios"
+   ],
+   "resumen": "Es económica y está cerca de las universidades, pero tiene sectores con presencia de bandas y sicariato recurrente. Solo conviene en sectores bien elegidos y tras visitarlos.",
+   "fuentes": [
+    "https://www.medellin.gov.co/es/sala-de-prensa/noticias/con-aumento-de-recompensas-por-11-cabecillas-mas-de-35-allanamientos-y-34-capturas-avanza-intervencion-de-seguridad-en-robledo/",
+    "https://www.lafm.com.co/colombia/menor-muerto-tres-heridos-dejo-ataque-sicarios-medellin",
+    "https://www.minuto30.com/de-cuatro-tiros-en-la-cara-a-quemarropa-mataron-a-un-hombre-en-robledo-cucaracho/1713996/",
+    "https://www.minuto30.com/amp/noche-de-angustia-en-medellin-creciente-de-la-iguana-deja-casas-colapsadas-y-mas-de-200-personas-afectadas/1721909/"
+   ],
+   "terreno": "lomas fuertes",
+   "terreno_nota": "Gran parte de la comuna está en ladera, con calles empinadas, salvo cerca de la Av. 80 y de las universidades.",
+   "cerca": [
+    "Universidad Nacional (Núcleo El Volador) e ITM (según el sector)",
+    "Futuro Metro de la 80 (en obra)",
+    "Comercio de barrio"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 1,
+    "sicariato_homicidios": 4,
+    "hurtos": 1,
+    "microtrafico": 1,
+    "periodo": "2024-2026",
+    "detalle": "Encontré varias noticias de ataques sicariales (un menor muerto y tres heridos en Aures, asesinatos en Cucaracho y Palenque, con uno de agosto de 2026) e intervenciones oficiales contra bandas. Algunas notas no tienen fecha clara. En los primeros meses de 2026 el boletín oficial mostró menos homicidios en la comuna que en 2025."
+   },
+   "recomendacion": "con precaución",
+   "razon_recomendacion": "Tiene sicariato recurrente en varios sectores y riesgo de inundación documentado (La Iguaná, octubre de 2026); solo conviene en sectores junto a la Av. 80, tras visitarlos.",
+   "problemas": [
+    {
+     "tipo": "inundacion",
+     "nivel": "alto",
+     "detalle": "El 9 de octubre de 2026 se desbordó la quebrada La Iguaná (sector El Pesebre): 187 familias atendidas y viviendas colapsadas."
+    },
+    {
+     "tipo": "deslizamiento",
+     "nivel": "medio",
+     "detalle": "En temporada de lluvias se reportan deslizamientos en la comuna; uno en el sector Olaya Herrera colapsó una vivienda (fecha no confirmada)."
+    },
+    {
+     "tipo": "altura",
+     "nivel": "alto",
+     "detalle": "Gran parte de la comuna está en ladera empinada."
+    },
+    {
+     "tipo": "obras",
+     "nivel": "medio",
+     "detalle": "Cierres prolongados por el Metro de la 80 en la Av. 80 con La Iguaná y por el patio taller en Pilarica y El Progreso."
+    }
+   ],
+   "accesos": "Se llega por la Av. 80, la calle 65 y la vía al Mar. Los sectores altos dependen de buses de barrio, por calles estrechas y empinadas.",
+   "opiniones": [
+    {
+     "texto": "Una concejala dijo que hubo dos casos de sicariato en menos de una semana en la comuna 7 y pidió más atención.",
+     "fuente": "https://www.noticiascaracol.com/colombia/ataque-a-bala-contra-un-hombre-y-una-mujer-en-robledo-deja-una-victima-mortal"
+    },
+    {
+     "texto": "Vecinos de la comuna 7 enviaron quejas a la Alcaldía por plazas de vicio y el mal estado de los parques (respuesta de diciembre de 2024).",
+     "fuente": "https://www.medellin.gov.co/es/wp-content/uploads/2024/12/202430616859-1.pdf"
+    }
+   ]
+  },
+  {
+   "nombre": "Calasanz",
+   "comuna": "Comuna 12 - La América (algunos portales lo ubican en Laureles-Estadio)",
+   "seguridad": "media-alta",
+   "confianza": "media",
+   "positivos": [
+    "Barrio residencial tradicional y tranquilo",
+    "Cerca de la estación Floresta, la Av. 80 y la calle Colombia",
+    "Supermercados, bancos y colegios"
+   ],
+   "negativos": [
+    "La parte alta tiene pendientes",
+    "Tráfico y obras del Metro de la 80",
+    "Homicidios aislados (en un intento de hurto en 2024 y en una riña con arma blanca en 2026)"
+   ],
+   "resumen": "Es un barrio familiar y estable del occidente, bien conectado. Solo hay hechos violentos aislados, no recurrentes.",
+   "fuentes": [
+    "https://www.fincaraiz.com.co/blog/blog-barrio-calasanz-medellin/",
+    "https://www.publimetro.co/medellin/2024/02/09/con-polvora-y-globos-despidieron-a-joven-que-murio-en-intento-de-robo-a-excomisionado-de-paz-en-medellin/",
+    "https://telemedellin.tv/cierres-viales-en-calasanz-metro-de-la-80/"
+   ],
+   "terreno": "ondulado",
+   "terreno_nota": "Calasanz bajo es casi plano y Calasanz Parte Alta tiene pendientes marcadas.",
+   "cerca": [
+    "Estación Floresta del metro (~10-15 min desde el plano)",
+    "Av. 80 (buses y futuro Metro de la 80)",
+    "Colegio Calasanz",
+    "Comercio sobre la calle Colombia y la carrera 80"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 2,
+    "hurtos": 1,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "Hay dos hechos aislados: un joven muerto en un intento de hurto (febrero de 2024) y un universitario apuñalado en Semana Santa de 2026. No encontré noticias de extorsión ni de combos."
+   },
+   "recomendacion": "recomendado",
+   "razon_recomendacion": "Es residencial y bien conectado, sin patrones de violencia; mientras duren las obras del Metro de la 80 en la calle Colombia, hay que contar con cierres y ruido.",
+   "problemas": [
+    {
+     "tipo": "obras",
+     "nivel": "alto",
+     "detalle": "Cierres totales y parciales de 24 horas en la calle 50 Colombia y la calle 50A por el Metro de la 80 y la red subterránea de energía (2025-2026)."
+    },
+    {
+     "tipo": "trafico",
+     "nivel": "medio",
+     "detalle": "Congestión en la Av. 80 y la calle Colombia, agravada por las obras."
+    }
+   ],
+   "accesos": "Se llega por la calle Colombia, la Av. 80 y la estación Floresta. La parte baja es fácil sin carro; la parte alta tiene pendientes.",
+   "opiniones": []
+  },
+  {
+   "nombre": "Loma de Los Bernal",
+   "comuna": "Comuna 16 - Belén",
+   "seguridad": "media-alta",
+   "confianza": "baja",
+   "positivos": [
+    "Unidades cerradas con buenas vistas",
+    "Acceso a la Av. 80 y la calle 30",
+    "Cerca del Cerro de las Tres Cruces"
+   ],
+   "negativos": [
+    "Pendientes, y depende del carro o del bus",
+    "Riesgo de inundación junto a la quebrada La Picacha en algunos puntos",
+    "Precios altos para el occidente"
+   ],
+   "resumen": "Es un sector de conjuntos cerrados, tranquilo según los portales, pero sin datos específicos de seguridad.",
+   "fuentes": [
+    "https://www.fincaraiz.com.co/blog/barrio-loma-de-los-bernal-medellin/",
+    "https://www.elcolombiano.com/antioquia/polemica-por-proyecto-de-vivienda-popular-en-la-loma-de-los-bernalen-medellin-ED7173897"
+   ],
+   "terreno": "lomas fuertes",
+   "terreno_nota": "Como dice su nombre, es una loma: las unidades están en vías empinadas.",
+   "cerca": [
+    "Cerro de las Tres Cruces",
+    "Buses por la Av. 80 y la calle 30 (en la parte baja)",
+    "Comercio de barrio limitado"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 0,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "No encontré noticias de seguridad específicas del sector; eso indica poca cobertura, no necesariamente ausencia de delitos."
+   },
+   "recomendacion": "con precaución",
+   "razon_recomendacion": "Parece tranquila, pero tiene lomas fuertes, depende del carro y hay poca información verificable.",
+   "problemas": [
+    {
+     "tipo": "altura",
+     "nivel": "medio",
+     "detalle": "Es una loma con vías empinadas."
+    },
+    {
+     "tipo": "inundacion",
+     "nivel": "bajo",
+     "detalle": "Hay familias en riesgo junto a la quebrada La Picacha; la Alcaldía construyó vivienda para reubicar a 58 de ellas."
+    },
+    {
+     "tipo": "trafico",
+     "nivel": "medio",
+     "detalle": "Pocas vías de entrada (la loma misma, calle 30 y Av. 80), que se congestionan en hora pico."
+    }
+   ],
+   "accesos": "Se entra por la vía Loma de Los Bernal desde la calle 30 o la Av. 80. Hay pocas vías alternas, y sin carro se depende de buses de barrio.",
+   "opiniones": []
+  },
+  {
+   "nombre": "La Castellana",
+   "comuna": "Comuna 11 - Laureles-Estadio",
+   "seguridad": "media-alta",
+   "confianza": "media",
+   "positivos": [
+    "Residencial y sereno de noche, con apartamentos amplios",
+    "Cerca del circuito gastronómico de Laureles",
+    "Buena valorización"
+   ],
+   "negativos": [
+    "Comparte con la comuna 11 los hurtos y la escopolamina",
+    "Arriendos altos para el occidente"
+   ],
+   "resumen": "Es una de las zonas más tranquilas de Laureles. Su riesgo principal son los hurtos de la comuna.",
+   "fuentes": [
+    "https://www.fincaraiz.com.co/blog/barrio-la-castellana-vivir-bien/",
+    "https://www.infobae.com/colombia/2026/08/08/estas-son-las-comunas-de-medellin-donde-mas-roban-usando-escopolamina-el-poblado-encabeza-la-lista/"
+   ],
+   "terreno": "plano",
+   "terreno_nota": "Es plano, como el resto de Laureles.",
+   "cerca": [
+    "Restaurantes y cafés de la carrera 76 y las circulares",
+    "CC Unicentro",
+    "Universidad Pontificia Bolivariana",
+    "Estación Estadio del metro (~15 min o más)"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 0,
+    "hurtos": 1,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "No encontré noticias específicas del barrio; solo aplican las cifras de hurto y escopolamina de la comuna 11."
+   },
+   "recomendacion": "recomendado",
+   "razon_recomendacion": "Es plano, tranquilo y con servicios, sin noticias de violencia grave.",
+   "problemas": [
+    {
+     "tipo": "obras",
+     "nivel": "bajo",
+     "detalle": "Hay efectos indirectos de las obras del Metro de la 80 en las vías cercanas."
+    }
+   ],
+   "accesos": "Se llega por vías planas de Laureles (Nutibara, circulares, carrera 76). Es fácil sin carro con buses; el metro queda algo retirado.",
+   "opiniones": []
+  },
+  {
+   "nombre": "Buenos Aires",
+   "comuna": "Comuna 9 - Buenos Aires",
+   "seguridad": "media",
+   "confianza": "media",
+   "positivos": [
+    "Tranvía de Ayacucho y cercanía al centro",
+    "Precios moderados",
+    "Comercio a lo largo de Ayacucho"
+   ],
+   "negativos": [
+    "El 80% del territorio de la comuna está en pendiente",
+    "El grupo 'Caicedo' hacía cobros extorsivos, loteo ilegal y microtráfico en barrios altos de la comuna (capturas en 2026)",
+    "Motos invadiendo la vía del tranvía"
+   ],
+   "resumen": "La parte baja junto a Ayacucho es práctica y económica, pero en la comuna opera una estructura con extorsión documentada en los barrios altos.",
+   "fuentes": [
+    "https://www.elcolombiano.com/medellin/banda-caicedo-loteo-pirata-microtrafico-rentas-ilegales-medellin-NB37275932",
+    "https://www.minuto30.com/captura-alias-rottweiler-medellin/1709043/",
+    "https://www.fincaraiz.com.co/blog/buenos-aires-zona-residencial-historia/"
+   ],
+   "terreno": "lomas fuertes",
+   "terreno_nota": "Solo el eje de Ayacucho es relativamente suave; el resto sube con fuerza hacia el oriente.",
+   "cerca": [
+    "Tranvía de Ayacucho (estaciones Buenos Aires y Miraflores)",
+    "Comercio de la calle 49 Ayacucho",
+    "Centro de Medellín (~15-20 min)"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 2,
+    "sicariato_homicidios": 0,
+    "hurtos": 0,
+    "microtrafico": 1,
+    "periodo": "2024-2026",
+    "detalle": "En junio de 2026 capturaron a alias 'Rottweiler' y a otros miembros del grupo 'Caicedo', señalados de cobros extorsivos y loteo ilegal en El Salvador, La Milagrosa y Cataluña, con rentas estimadas en 800 millones de pesos al mes. No encontré noticias de sicariato específicas del barrio Buenos Aires."
+   },
+   "recomendacion": "con precaución",
+   "razon_recomendacion": "La parte baja junto al tranvía es aceptable, pero hay extorsión documentada en la comuna y lomas fuertes.",
+   "problemas": [
+    {
+     "tipo": "altura",
+     "nivel": "alto",
+     "detalle": "El 80% de la comuna 9 está en pendiente."
+    },
+    {
+     "tipo": "acceso",
+     "nivel": "medio",
+     "detalle": "Muchas calles estrechas y empinadas fuera del eje de Ayacucho; en octubre de 2025 los vecinos denunciaron hundimientos viales que causaban accidentes."
+    },
+    {
+     "tipo": "basuras",
+     "nivel": "medio",
+     "detalle": "El Colombiano reportó basura, huecos y mal olor en el corredor del tranvía de Ayacucho (fecha no confirmada)."
+    },
+    {
+     "tipo": "trafico",
+     "nivel": "bajo",
+     "detalle": "Motos que invaden la vía del tranvía (quejas en una reunión ciudadana de julio de 2025)."
+    }
+   ],
+   "accesos": "Se llega por la calle 49 Ayacucho (tranvía) y la Av. Oriental. La parte baja es fácil sin carro; la alta depende de buses, por vías estrechas.",
+   "opiniones": [
+    {
+     "texto": "Vecinos denunciaron en octubre de 2025 que hundimientos en la vía tras una obra de EPM habían causado varios accidentes, y que la respuesta tardaba.",
+     "fuente": "https://telemedellin.tv/?p=145102"
+    }
+   ]
+  },
+  {
+   "nombre": "San Antonio de Prado",
+   "comuna": "Corregimiento 80 - San Antonio de Prado",
+   "seguridad": "media",
+   "confianza": "baja",
+   "positivos": [
+    "Arriendos bajos y unidades nuevas",
+    "Ambiente de pueblo",
+    "Pocos homicidios en general (el primero de 2025 fue a finales de febrero)"
+   ],
+   "negativos": [
+    "Lejos del centro y con trancones en la vía de acceso",
+    "Crecimiento urbano acelerado y construcción ilegal",
+    "Homicidios sicariales puntuales"
+   ],
+   "resumen": "Es una opción económica y tranquila en lo cotidiano, pero alejada y con urbanización desordenada.",
+   "fuentes": [
+    "https://analisisurbano.org/primer-homicidio-de-2025-en-san-antonio-de-prado-habitante-de-calle-asesinado-a-balazos/403570",
+    "https://www.minuto30.com/amp/sicarios-acaban-con-la-vida-de-un-hombre-en-san-antonio-de-prado/1662641/",
+    "https://www.elcolombiano.com/medellin/urbanizacion-ilegal-san-antonio-de-prado-255-obras-suspendidas-CE26668093",
+    "https://www.elcolombiano.com/medellin/colapso-en-vias-hacia-san-antonio-de-prado-medellin-DC32568957"
+   ],
+   "terreno": "lomas fuertes",
+   "terreno_nota": "Es un corregimiento de montaña: el casco urbano es ondulado y muchas unidades nuevas están en ladera.",
+   "cerca": [
+    "Parque principal y comercio local del corregimiento",
+    "Lejos del metro y del resto de la ciudad (bus hacia Itagüí)"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 2,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "En 2025 asesinaron a un habitante de calle (febrero) y sicarios mataron a un hombre en mayo, con posible ajuste de cuentas. Según los boletines de 2026, los delitos del corregimiento bajan."
+   },
+   "recomendacion": "con precaución",
+   "razon_recomendacion": "Es económico y sin violencia recurrente, pero el acceso es su gran problema: en enero de 2026 hubo trayectos de más de 3 horas por el cierre de una vía.",
+   "problemas": [
+    {
+     "tipo": "acceso",
+     "nivel": "alto",
+     "detalle": "En enero de 2026 el daño del puente La Limona cerró la vía vieja; hubo trayectos de más de 3 horas desde Itagüí hasta su reapertura."
+    },
+    {
+     "tipo": "trafico",
+     "nivel": "alto",
+     "detalle": "Las vías de acceso por Itagüí colapsan en hora pico; hay un viaducto y un metrocable proyectados."
+    },
+    {
+     "tipo": "obras",
+     "nivel": "medio",
+     "detalle": "Construcción ilegal extendida, con cientos de obras suspendidas, y obras viales futuras."
+    },
+    {
+     "tipo": "altura",
+     "nivel": "medio",
+     "detalle": "Terreno de montaña con unidades en ladera."
+    }
+   ],
+   "accesos": "Se entra por las vías nueva y vieja a Itagüí y por Ditaires, todas congestionadas. Sin carro se depende de buses hacia la estación Itagüí, con trayectos largos.",
+   "opiniones": [
+    {
+     "texto": "Residentes contaron que durante el cierre del puente La Limona tardaban más de tres horas en llegar a casa desde Itagüí.",
+     "fuente": "https://www.elcolombiano.com/medellin/colapso-en-vias-hacia-san-antonio-de-prado-medellin-DC32568957"
+    }
+   ]
+  },
+  {
+   "nombre": "Las Palmas",
+   "comuna": "Comuna 10 - La Candelaria (barrio oficial); el corredor de la Av. Las Palmas toca las comunas 9 y 14",
+   "seguridad": "media",
+   "confianza": "baja",
+   "positivos": [
+    "Acceso rápido al centro, a El Poblado y al Túnel de Oriente",
+    "CC San Diego y Mall El Indio cerca",
+    "Unidades con vigilancia 24 horas"
+   ],
+   "negativos": [
+    "Pendientes, y depende del carro",
+    "Obras en la quebrada El Indio y antecedentes de hundimientos",
+    "Cercanía al centro en la parte baja"
+   ],
+   "resumen": "Es un sector de transición entre el centro y El Poblado, práctico en carro, con pocos datos de seguridad.",
+   "fuentes": [
+    "https://www.medellin.gov.co/es/sala-de-prensa/noticias/avanza-la-construccion-de-obras-de-contencion-y-manejo-de-aguas-de-la-quebrada-el-indio-en-las-palmas/",
+    "https://www.minuto30.com/las-palmas-hundimiento-cierres/1704404/"
+   ],
+   "terreno": "lomas fuertes",
+   "terreno_nota": "Está sobre la ladera oriental, a lo largo de una avenida de montaña.",
+   "cerca": [
+    "CC San Diego (según el punto)",
+    "Mall El Indio",
+    "Av. Las Palmas (buses hacia el centro y El Poblado)"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 0,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "No encontré noticias de seguridad específicas del sector."
+   },
+   "recomendacion": "con precaución",
+   "razon_recomendacion": "Tiene lomas fuertes, depende del carro y hay poca información, aunque sin noticias graves.",
+   "problemas": [
+    {
+     "tipo": "deslizamiento",
+     "nivel": "medio",
+     "detalle": "Hundimiento en la Av. Las Palmas a la altura de Chuscalito, con cierre de carril y obras de estabilización de unos seis meses."
+    },
+    {
+     "tipo": "acceso",
+     "nivel": "medio",
+     "detalle": "Es una avenida de montaña con cierres frecuentes por grietas y socavones; cuando se cierra, colapsan las lomas alternas."
+    },
+    {
+     "tipo": "altura",
+     "nivel": "alto",
+     "detalle": "Está en la ladera oriental empinada."
+    },
+    {
+     "tipo": "inundacion",
+     "nivel": "bajo",
+     "detalle": "Obras de contención en la quebrada El Indio por un socavón anterior en la vía."
+    }
+   ],
+   "accesos": "Se llega por la Av. Las Palmas, que es casi la única vía, desde San Diego o El Poblado. Sin carro se depende de buses sobre la avenida.",
+   "opiniones": []
+  },
+  {
+   "nombre": "Boston",
+   "comuna": "Comuna 10 - La Candelaria",
+   "seguridad": "media",
+   "confianza": "media",
+   "positivos": [
+    "Barrio tradicional de clase media",
+    "Tranvía de Ayacucho y buses, cerca del centro",
+    "Precios moderados"
+   ],
+   "negativos": [
+    "Pertenece a la comuna con más homicidios, hurtos y extorsión",
+    "Un reportaje de Noticias Caracol (sin fecha clara) habla de atracos, extorsión e intimidación de combos en Boston",
+    "Problemas urbanos en los bordes con el centro"
+   ],
+   "resumen": "Es un barrio tradicional y bien ubicado, más residencial que el centro, pero dentro de la comuna 10 y con señales de presión de combos.",
+   "fuentes": [
+    "https://www.noticiascaracol.com/colombia/no-nos-sentimos-protegidos-paisas-hartos-de-robos-y-extorsiones-en-medellin",
+    "https://www.elcolombiano.com/antioquia/boston-memoria-que-se-va-y-se-va-AC8466406",
+    "https://www.elcolombiano.com/medellin/basuras-habitantes-de-calle-centro-de-medellin-barrio-boston-BL26788696"
+   ],
+   "terreno": "ondulado",
+   "terreno_nota": "Tiene pendiente suave a moderada, que sube hacia el oriente.",
+   "cerca": [
+    "Tranvía de Ayacucho",
+    "Parque de Boston",
+    "Parque Bicentenario y Museo Casa de la Memoria",
+    "Centro de Medellín (~15 min)"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 1,
+    "sicariato_homicidios": 0,
+    "hurtos": 1,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "Una nota de Noticias Caracol describe a un pequeño empresario que huyó por atracos y extorsión de combos en Boston (fecha no confirmada). Cerca, en el Parque Bicentenario, hay una plaza de vicio documentada."
+   },
+   "recomendacion": "con precaución",
+   "razon_recomendacion": "Está bien ubicado, pero pertenece a la comuna 10 y hay reportes de presión de combos y hurtos.",
+   "problemas": [
+    {
+     "tipo": "basuras",
+     "nivel": "medio",
+     "detalle": "El Colombiano reportó basuras y habitantes de calle en Boston, cerca del centro."
+    },
+    {
+     "tipo": "ruido",
+     "nivel": "bajo",
+     "detalle": "Movimiento y ruido de la Av. Oriental y del centro en los bordes."
+    }
+   ],
+   "accesos": "Se llega por el tranvía de Ayacucho, la Av. Oriental y la Av. La Playa. Es fácil sin carro.",
+   "opiniones": [
+    {
+     "texto": "Un pequeño empresario contó que tuvo que irse de su casa en Boston por atracos, extorsión e intimidación de combos.",
+     "fuente": "https://www.noticiascaracol.com/colombia/no-nos-sentimos-protegidos-paisas-hartos-de-robos-y-extorsiones-en-medellin"
+    }
+   ]
+  },
+  {
+   "nombre": "Loma del Indio",
+   "comuna": "Comuna 14 - El Poblado (límite con Las Palmas)",
+   "seguridad": "media-alta",
+   "confianza": "baja",
+   "positivos": [
+    "Unidades con vigilancia",
+    "Acceso a la Av. Las Palmas, al Túnel de Oriente y a El Poblado",
+    "Malls cercanos"
+   ],
+   "negativos": [
+    "Loma empinada, y depende del carro",
+    "Obras e historial de afectaciones por la quebrada El Indio"
+   ],
+   "resumen": "Es un sector residencial de estrato 4-5 con buen acceso vial y sin noticias de seguridad específicas.",
+   "fuentes": [
+    "https://www.medellin.gov.co/es/sala-de-prensa/noticias/la-administracion-distrital-entrego-las-obras-de-la-urgencia-manifiesta-de-la-quebrada-el-indio/"
+   ],
+   "terreno": "lomas fuertes",
+   "terreno_nota": "Es una loma empinada que sale de la Av. Las Palmas.",
+   "cerca": [
+    "Mall El Indio",
+    "Av. Las Palmas",
+    "CC San Diego (en carro)"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 0,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "No encontré noticias de seguridad específicas del sector."
+   },
+   "recomendacion": "con precaución",
+   "razon_recomendacion": "Parece tranquilo, pero tiene lomas fuertes, depende del carro y tiene antecedentes de problemas con la quebrada.",
+   "problemas": [
+    {
+     "tipo": "altura",
+     "nivel": "alto",
+     "detalle": "Es una loma empinada."
+    },
+    {
+     "tipo": "inundacion",
+     "nivel": "medio",
+     "detalle": "Obras de urgencia en la quebrada El Indio, que causó un socavón y el cierre del carril de ascenso de Las Palmas en 2021."
+    },
+    {
+     "tipo": "acceso",
+     "nivel": "medio",
+     "detalle": "Depende de la Av. Las Palmas, con cierres frecuentes."
+    }
+   ],
+   "accesos": "Se entra desde la Av. Las Palmas. Es muy dependiente del carro.",
+   "opiniones": []
+  },
+  {
+   "nombre": "Guayabal",
+   "comuna": "Comuna 15 - Guayabal",
+   "seguridad": "media",
+   "confianza": "baja",
+   "positivos": [
+    "Núcleo plano, céntrico y cercano al aeropuerto Olaya Herrera",
+    "Metro y Metroplús (según los portales)",
+    "Precios moderados"
+   ],
+   "negativos": [
+    "Mezcla con zona industrial, con camiones y ruido",
+    "Habitantes de calle en algunos sectores",
+    "Pocos datos recientes"
+   ],
+   "resumen": "Es práctico y conectado, de perfil mixto. Sus residentes perciben sectores como Cristo Rey como tranquilos.",
+   "fuentes": [
+    "https://www.fincaraiz.com.co/blog/guayabal-un-barrio-conectado/",
+    "https://telemedellin.tv/habitantes-cristo-rey-sector-mas-tranquilo-comuna/"
+   ],
+   "terreno": "plano",
+   "terreno_nota": "Está en el fondo del valle, casi todo plano.",
+   "cerca": [
+    "Aeropuerto Olaya Herrera",
+    "Av. Guayabal (buses)",
+    "Comercio de barrio y zona industrial"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 1,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "Solo encontré el hallazgo de un hombre muerto en un local de Cristo Rey (enero de 2026), un hecho aislado. No hay noticias de extorsión ni de combos."
+   },
+   "recomendacion": "con precaución",
+   "razon_recomendacion": "Es plano y conectado, sin violencia recurrente documentada, pero hay poca información y entorno industrial.",
+   "problemas": [
+    {
+     "tipo": "ruido",
+     "nivel": "medio",
+     "detalle": "El aeropuerto Olaya Herrera y la zona industrial generan ruido de aviones y camiones (comunas 15 y 16 en el área de influencia directa)."
+    },
+    {
+     "tipo": "trafico",
+     "nivel": "medio",
+     "detalle": "Tráfico pesado en la Av. Guayabal y la Av. 80."
+    },
+    {
+     "tipo": "otro",
+     "nivel": "bajo",
+     "detalle": "En enero de 2025 se denunciaron pelos en el agua de la llave en un sector del suroccidente (caso puntual)."
+    }
+   ],
+   "accesos": "Se llega por la Av. Guayabal, la Av. 80 y la Regional. Es plano, con buses, y relativamente fácil sin carro.",
+   "opiniones": [
+    {
+     "texto": "Habitantes de Cristo Rey dicen que su sector es de los más seguros de la comuna 15, pero piden atención a los habitantes de calle.",
+     "fuente": "https://telemedellin.tv/habitantes-cristo-rey-sector-mas-tranquilo-comuna/"
+    },
+    {
+     "texto": "Vecinos denunciaron una estructura ilegal que afectaba la tranquilidad del sector, y las autoridades la demolieron.",
+     "fuente": "https://www.medellin.gov.co/es/sala-de-prensa/noticias/autoridades-demolieron-una-estructura-ilegal-que-afectaba-la-tranquilidad-de-los-habitantes-de-guayabal/"
+    }
+   ]
+  },
+  {
+   "nombre": "Castropol",
+   "comuna": "Comuna 14 - El Poblado",
+   "seguridad": "media-alta",
+   "confianza": "media",
+   "positivos": [
+    "Sector verde, residencial y tranquilo",
+    "Cerca de Provenza y de la Av. El Poblado y Las Palmas",
+    "Restaurantes y coworkings"
+   ],
+   "negativos": [
+    "Arriendos altos (aprox. 2,5-7 millones de pesos según los anuncios)",
+    "Pendientes",
+    "Ruido nocturno en los bordes con Provenza"
+   ],
+   "resumen": "Es uno de los sectores más tranquilos y verdes de El Poblado, a precio alto.",
+   "fuentes": [
+    "https://www.ciencuadras.com/blog/guia-de-barrio-castropol-medellin"
+   ],
+   "terreno": "lomas fuertes",
+   "terreno_nota": "Está en la ladera de El Poblado, con calles empinadas hacia Las Palmas.",
+   "cerca": [
+    "Provenza",
+    "Parque Lleras",
+    "Estación Poblado del metro (~15 min de bajada)",
+    "CC Oviedo y CC Santafé (en carro o a pie largo)"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 0,
+    "hurtos": 1,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "No encontré noticias específicas; aplican los hurtos y la escopolamina de la comuna 14."
+   },
+   "recomendacion": "con precaución",
+   "razon_recomendacion": "Es seguro y bien ubicado, pero tiene lomas fuertes y es caro; si eso no importa, es muy buena opción.",
+   "problemas": [
+    {
+     "tipo": "altura",
+     "nivel": "alto",
+     "detalle": "Está en la ladera de El Poblado, con lomas muy empinadas."
+    },
+    {
+     "tipo": "trafico",
+     "nivel": "alto",
+     "detalle": "La Loma de Castropol es vía alterna cuando se cierra Las Palmas y se congestiona."
+    },
+    {
+     "tipo": "ruido",
+     "nivel": "medio",
+     "detalle": "Ruido de rumba en los bordes con Provenza."
+    }
+   ],
+   "accesos": "Se llega por la Loma de Castropol desde la Av. El Poblado o Las Palmas. Caminar es exigente y se depende del carro o de apps.",
+   "opiniones": []
+  },
+  {
+   "nombre": "Rodeo Alto",
+   "comuna": "Límite entre la Comuna 15 (Guayabal) y la Comuna 16 (Belén), según los portales",
+   "seguridad": "media",
+   "confianza": "baja",
+   "positivos": [
+    "Unidades cerradas nuevas",
+    "Av. 80, calle 9 Sur y Línea O"
+   ],
+   "negativos": [
+    "Zona en expansión, con tráfico y servicios en desarrollo",
+    "Pendientes"
+   ],
+   "resumen": "Es una zona de conjuntos cerrados modernos, sin datos específicos de seguridad.",
+   "fuentes": [
+    "https://www.fincaraiz.com.co/blog/barrio-rodeo-alto/"
+   ],
+   "terreno": "lomas fuertes",
+   "terreno_nota": "Las unidades se escalonan en ladera hacia el occidente.",
+   "cerca": [
+    "Zonas comunes de las unidades",
+    "Buses y Línea O por la Av. 80 (en la parte baja)",
+    "Comercio limitado"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 0,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "No encontré noticias de seguridad específicas."
+   },
+   "recomendacion": "con precaución",
+   "razon_recomendacion": "Hay poca información, lomas y servicios limitados, aunque no se conocen noticias graves.",
+   "problemas": [
+    {
+     "tipo": "altura",
+     "nivel": "medio",
+     "detalle": "Las unidades están en ladera."
+    },
+    {
+     "tipo": "trafico",
+     "nivel": "medio",
+     "detalle": "Zona en expansión con más vehículos sobre la calle 9 Sur y la Av. 80."
+    }
+   ],
+   "accesos": "Se llega por la Av. 80 y la calle 9 Sur. Sin carro se depende de rutas integradas y de la Línea O.",
+   "opiniones": []
+  },
+  {
+   "nombre": "San Germán",
+   "comuna": "Comuna 7 - Robledo",
+   "seguridad": "media",
+   "confianza": "baja",
+   "positivos": [
+    "Universidades y Casa de la Literatura San Germán",
+    "Futura estación del Metro de la 80",
+    "Precios accesibles"
+   ],
+   "negativos": [
+    "Pendientes",
+    "Ruido en horario académico y obras",
+    "Pertenece a una comuna con sicariato recurrente en otros sectores"
+   ],
+   "resumen": "Es un barrio universitario y residencial, mejor situado que otros de Robledo.",
+   "fuentes": [
+    "https://www.fincaraiz.com.co/blog/vivir-en-san-german/"
+   ],
+   "terreno": "ondulado",
+   "terreno_nota": "Tiene pendientes moderadas alrededor de la Av. 80 y de las universidades.",
+   "cerca": [
+    "Universidad Nacional (Núcleo El Volador)",
+    "Casa de la Literatura San Germán",
+    "Futura estación San Germán del Metro de la 80",
+    "Av. 80 (buses)"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 0,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "No encontré noticias recientes del barrio; solo una de hurtos de 2016, fuera del periodo."
+   },
+   "recomendacion": "con precaución",
+   "razon_recomendacion": "Es buena opción universitaria sin noticias graves, pero hay poca información y está en una comuna con problemas.",
+   "problemas": [
+    {
+     "tipo": "obras",
+     "nivel": "medio",
+     "detalle": "Obras de la estación San Germán y de la Av. 80 del Metro de la 80, con desvíos."
+    },
+    {
+     "tipo": "altura",
+     "nivel": "medio",
+     "detalle": "Pendiente moderada."
+    }
+   ],
+   "accesos": "Se llega por la Av. 80 y la calle 65. Hay buses frecuentes y es aceptable sin carro.",
+   "opiniones": []
+  },
+  {
+   "nombre": "San Diego",
+   "comuna": "Comuna 10 - La Candelaria",
+   "seguridad": "media",
+   "confianza": "baja",
+   "positivos": [
+    "CC San Diego y muchos servicios",
+    "Ubicación entre el centro, Las Palmas y El Poblado",
+    "Precios intermedios"
+   ],
+   "negativos": [
+    "Pertenece a la comuna 10, la de más hurtos",
+    "Tráfico en la Av. Las Vegas y la Av. 34"
+   ],
+   "resumen": "Es céntrico y práctico, con comercio. Conviene prudencia con los hurtos.",
+   "fuentes": [
+    "https://www.elcolombiano.com/medellin/reduccion-hurtos-en-medellin-DE27107756"
+   ],
+   "terreno": "ondulado",
+   "terreno_nota": "Es plano junto a la Av. 34 y Las Vegas y sube hacia Las Palmas y la Loma de San Julián.",
+   "cerca": [
+    "CC San Diego",
+    "CC Premium Plaza",
+    "Av. Las Vegas y Av. 34 (buses)",
+    "Centro de Medellín (~15-20 min)"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 0,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "No encontré noticias específicas del barrio; aplican las cifras de hurto de la comuna 10."
+   },
+   "recomendacion": "con precaución",
+   "razon_recomendacion": "Tiene buenos servicios, pero pertenece a la comuna con más hurtos y hay poca información propia.",
+   "problemas": [
+    {
+     "tipo": "trafico",
+     "nivel": "medio",
+     "detalle": "Congestión en la Av. Las Vegas, la Av. 34 y la conexión con Las Palmas."
+    },
+    {
+     "tipo": "ruido",
+     "nivel": "bajo",
+     "detalle": "Ruido de avenidas principales."
+    }
+   ],
+   "accesos": "Se llega por la Av. 34, Las Vegas y la Av. Oriental. Es fácil sin carro en la parte baja.",
+   "opiniones": []
+  },
+  {
+   "nombre": "Belén Rincón",
+   "comuna": "Comuna 16 - Belén",
+   "seguridad": "media-baja",
+   "confianza": "baja",
+   "positivos": [
+    "Precios más bajos que en el Belén central",
+    "Comercio de barrio"
+   ],
+   "negativos": [
+    "Ladera con pendientes fuertes",
+    "Historial de combos (La Capilla, 'Joaquinillos') con balaceras y ataques, aunque las notas son antiguas o sin fecha",
+    "Transporte más lento hacia el centro"
+   ],
+   "resumen": "Es un sector de ladera de Belén con historial de disputas de combos. No encontré noticias recientes que confirmen que siguen.",
+   "fuentes": [
+    "https://www.eltiempo.com/colombia/medellin/medellin-cayo-presunto-responsable-de-ataque-armado-que-dejo-dos-jovenes-asesinados-839700",
+    "https://www.fincaraiz.com.co/blog/como-es-el-vivir-en-belen-altavista/",
+    "https://telemedellin.tv/belen-aguas-frias-invernal-deslizamientos/759575/"
+   ],
+   "terreno": "lomas fuertes",
+   "terreno_nota": "Está en la ladera alta de Belén, con calles muy empinadas.",
+   "cerca": [
+    "Comercio de barrio",
+    "Lejos del metro y del Metroplús"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 1,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "Lo encontrado es en su mayoría anterior a 2024: el combo La Capilla en 2015 y un ataque ligado a los 'Joaquinillos'. Para 2024-2026 no hallé noticias específicas confirmadas, así que el historial pesa más que la evidencia reciente."
+   },
+   "recomendacion": "con precaución",
+   "razon_recomendacion": "Tiene lomas fuertes, historial de combos y poca información reciente; solo conviene tras visitarlo y preguntar a los vecinos.",
+   "problemas": [
+    {
+     "tipo": "inundacion",
+     "nivel": "medio",
+     "detalle": "Telemedellín reportó en 2023 inundaciones repetidas de la quebrada La Mosca en viviendas de Belén Rincón."
+    },
+    {
+     "tipo": "deslizamiento",
+     "nivel": "medio",
+     "detalle": "En mayo de 2025 hubo deslizamientos por lluvias en Belén Aguas Frías, zona alta vecina (seis viviendas afectadas)."
+    },
+    {
+     "tipo": "altura",
+     "nivel": "alto",
+     "detalle": "Ladera alta de Belén, con calles muy empinadas."
+    }
+   ],
+   "accesos": "Se accede por vías de ladera estrechas desde Belén. Sin carro se depende de buses de barrio.",
+   "opiniones": []
+  },
+  {
+   "nombre": "La América",
+   "comuna": "Comuna 12 - La América",
+   "seguridad": "media-alta",
+   "confianza": "media",
+   "positivos": [
+    "Comuna con arraigo familiar, de estratos 3 y 4",
+    "Metro (Floresta, Santa Lucía) y calle San Juan",
+    "Comercio de barrio y parques"
+   ],
+   "negativos": [
+    "Tráfico en San Juan y la Av. 80",
+    "Obras del Metro de la 80",
+    "Hechos aislados en la comuna, como el asesinato de un prestamista en El Danubio (fecha no confirmada)"
+   ],
+   "resumen": "Es un barrio familiar, tradicional y de precio medio, con buena conexión y pocos hechos graves.",
+   "fuentes": [
+    "https://www.fincaraiz.com.co/blog/tradicion-residencial-en-la-america/",
+    "https://www.elcolombiano.com/medellin/asesinato-prestamista-barrio-la-america-investigacion-AL28675647"
+   ],
+   "terreno": "plano",
+   "terreno_nota": "Es mayoritariamente plano, con alguna pendiente suave hacia el occidente.",
+   "cerca": [
+    "Estación Santa Lucía o Floresta del metro (~10-15 min)",
+    "Parque e iglesia de La América",
+    "Calle San Juan (buses)",
+    "Comercio de barrio"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 1,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "Encontré el asesinato de un prestamista en El Danubio (comuna 12), de fecha no confirmada. Según el SISC en esa nota, la comuna 12 registra muy pocos homicidios al año. No hay noticias de combos ni de extorsión a residentes."
+   },
+   "recomendacion": "recomendado",
+   "razon_recomendacion": "Es plano, con metro cerca y en una de las comunas más tranquilas, con solo hechos aislados.",
+   "problemas": [
+    {
+     "tipo": "obras",
+     "nivel": "medio",
+     "detalle": "Las obras del Metro de la 80 (2025-2026) traen cierres viales prolongados sobre la Av. 80 y sus alrededores."
+    },
+    {
+     "tipo": "trafico",
+     "nivel": "medio",
+     "detalle": "Congestión en la calle San Juan y la Av. 80."
+    }
+   ],
+   "accesos": "Se llega por la San Juan, la calle 44 y la Av. 80, y por el metro (Floresta, Santa Lucía). Es fácil sin carro.",
+   "opiniones": [
+    {
+     "texto": "Un autor de guías la recomienda como la mejor opción para presupuestos ajustados, pero aconseja revisar bien el sector porque es grande.",
+     "fuente": "https://colombiamove.com/blog/en/barrios-economicos-vivir-medellin/"
+    }
+   ]
+  },
+  {
+   "nombre": "Conquistadores",
+   "comuna": "Comuna 11 - Laureles-Estadio",
+   "seguridad": "media-alta",
+   "confianza": "media",
+   "positivos": [
+    "Plano, residencial y tradicional",
+    "Zonas verdes y cercanía al Estadio y la Av. 80",
+    "Ambiente calmado"
+   ],
+   "negativos": [
+    "Problemas de parqueo",
+    "Precio alto",
+    "Hurtos de la comuna 11"
+   ],
+   "resumen": "Es un barrio tranquilo y caminable de Laureles.",
+   "fuentes": [
+    "https://www.medellin.gov.co/es/?p=285311"
+   ],
+   "terreno": "plano",
+   "terreno_nota": "Es plano.",
+   "cerca": [
+    "Estación Estadio del metro (~10-15 min)",
+    "Unidad Deportiva Atanasio Girardot",
+    "CC Obelisco",
+    "Av. 80 (buses)"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 0,
+    "hurtos": 1,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "No encontré noticias específicas; aplican los hurtos y la escopolamina de la comuna 11."
+   },
+   "recomendacion": "recomendado",
+   "razon_recomendacion": "Es plano, tranquilo y con servicios y metro cerca.",
+   "problemas": [
+    {
+     "tipo": "otro",
+     "nivel": "bajo",
+     "detalle": "Problemas de parqueo en la calle, que llevaron a 16 cambios de sentido vial."
+    }
+   ],
+   "accesos": "Se llega por vías planas (Av. 80, carrera 70, calle 50) cerca del metro Estadio. Es fácil sin carro.",
+   "opiniones": []
+  },
+  {
+   "nombre": "Loma de San Julián",
+   "comuna": "Sector limítrofe entre la Comuna 14 (El Poblado) y la Comuna 10 (San Diego/Las Palmas)",
+   "seguridad": "media-alta",
+   "confianza": "baja",
+   "positivos": [
+    "Cerca de Las Palmas, San Diego y Premium Plaza",
+    "Mucha oferta de apartamentos"
+   ],
+   "negativos": [
+    "Muy empinado, y depende del carro",
+    "Los portales lo clasifican en comunas distintas"
+   ],
+   "resumen": "Es un sector residencial de loma, bien ubicado pero dependiente del carro.",
+   "fuentes": [
+    "https://www.fincaraiz.com.co/blog/loma-de-san-julian-medellin/"
+   ],
+   "terreno": "lomas fuertes",
+   "terreno_nota": "Es una loma muy empinada donde caminar es poco práctico.",
+   "cerca": [
+    "CC Premium Plaza",
+    "CC San Diego",
+    "Av. Las Palmas"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 0,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "No encontré noticias de seguridad específicas."
+   },
+   "recomendacion": "con precaución",
+   "razon_recomendacion": "Tiene lomas fuertes, depende del carro y hay poca información, aunque sin noticias graves.",
+   "problemas": [
+    {
+     "tipo": "altura",
+     "nivel": "alto",
+     "detalle": "Es una loma muy empinada."
+    },
+    {
+     "tipo": "trafico",
+     "nivel": "alto",
+     "detalle": "Se congestiona como vía alterna cuando hay cierres en Las Palmas."
+    }
+   ],
+   "accesos": "Se entra por la Loma de San Julián desde San Diego o Las Palmas. Se depende del carro o de apps.",
+   "opiniones": []
+  },
+  {
+   "nombre": "Ciudad del Río",
+   "comuna": "Comuna 14 - El Poblado",
+   "seguridad": "media-alta",
+   "confianza": "media",
+   "positivos": [
+    "Urbanismo moderno con parques y ciclorrutas",
+    "Metro Industriales y Av. Regional y Las Vegas",
+    "MAMM y servicios"
+   ],
+   "negativos": [
+    "Precios altos",
+    "Espacio público abierto con algunos problemas de convivencia",
+    "Ruido de la Av. Regional"
+   ],
+   "resumen": "Es un barrio nuevo, plano y muy conectado, con baja violencia grave.",
+   "fuentes": [
+    "https://www.fincaraiz.com.co/blog/blog-barrio-ciudad-del-rio-medellin/"
+   ],
+   "terreno": "plano",
+   "terreno_nota": "Es totalmente plano, junto al río.",
+   "cerca": [
+    "Estación Industriales del metro (~10 min)",
+    "Museo de Arte Moderno de Medellín (MAMM)",
+    "Parque Ciudad del Río",
+    "Supermercados y gimnasios del sector"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 0,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "No encontré noticias de seguridad específicas del barrio."
+   },
+   "recomendacion": "recomendado",
+   "razon_recomendacion": "Es plano, con metro y servicios a pie y sin noticias graves.",
+   "problemas": [
+    {
+     "tipo": "ruido",
+     "nivel": "medio",
+     "detalle": "Ruido del tráfico de la Av. Regional y la autopista junto al río."
+    }
+   ],
+   "accesos": "Se llega por la Av. Regional, Las Vegas y la estación Industriales. Es muy fácil sin carro.",
+   "opiniones": []
+  },
+  {
+   "nombre": "Simón Bolívar",
+   "comuna": "Comuna 12 - La América (algunas fuentes lo ubican en Laureles-Estadio)",
+   "seguridad": "media-alta",
+   "confianza": "media",
+   "positivos": [
+    "Residencial y pausado",
+    "Acceso a la Av. 80 y la calle San Juan",
+    "Percepción de seguridad alta según un portal inmobiliario"
+   ],
+   "negativos": [
+    "Tráfico y obras en la Av. 80",
+    "Precios medios-altos (estrato 4)"
+   ],
+   "resumen": "Es un barrio tranquilo y tradicional del occidente. La percepción positiva viene de portales, no de estadísticas.",
+   "fuentes": [
+    "https://www.fincaraiz.com.co/blog/blog-barrio-simon-bolivar-medellin/"
+   ],
+   "terreno": "plano",
+   "terreno_nota": "Es plano o con pendiente muy suave.",
+   "cerca": [
+    "Av. 80 y calle San Juan (buses, futuro Metro de la 80)",
+    "Comercio de barrio",
+    "Estación Floresta (~15-20 min)"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 0,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "No encontré noticias de seguridad específicas."
+   },
+   "recomendacion": "recomendado",
+   "razon_recomendacion": "Es plano, tranquilo y sin noticias graves, en una comuna de baja violencia.",
+   "problemas": [
+    {
+     "tipo": "obras",
+     "nivel": "medio",
+     "detalle": "Las obras del Metro de la 80 (2025-2026) traen cierres viales prolongados sobre la Av. 80 y sus alrededores."
+    },
+    {
+     "tipo": "trafico",
+     "nivel": "medio",
+     "detalle": "Congestión en la Av. 80 y la San Juan."
+    }
+   ],
+   "accesos": "Se llega por la Av. 80 y la San Juan. Con buses es fácil sin carro.",
+   "opiniones": []
+  },
+  {
+   "nombre": "Almería",
+   "comuna": "Sector entre la Comuna 11 (Laureles-Estadio) y la Comuna 12 (La América), junto a Santa Teresita; verificar",
+   "seguridad": "media-alta",
+   "confianza": "baja",
+   "positivos": [
+    "Residencial, arborizado y tranquilo",
+    "Comercio y transporte cercanos"
+   ],
+   "negativos": [
+    "Pocos datos específicos",
+    "Hurtos de la zona de Laureles"
+   ],
+   "resumen": "Es un sector residencial bien valorado según los anuncios, sin información de seguridad específica.",
+   "fuentes": [
+    "https://www.metrocuadrado.com/inmueble/venta-casa-medellin-almeria-5-habitaciones-4-banos/17815-M7051724"
+   ],
+   "terreno": "plano",
+   "terreno_nota": "Es mayoritariamente plano.",
+   "cerca": [
+    "Comercio de barrio",
+    "Buses por la calle 33 y la Av. 80"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 0,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "No encontré noticias de seguridad específicas."
+   },
+   "recomendacion": "recomendado",
+   "razon_recomendacion": "Es plano y residencial, en zona de baja violencia y sin noticias graves, aunque con poca información propia.",
+   "problemas": [],
+   "accesos": "Se llega por la calle 33 y la Av. 80. Con buses es fácil sin carro.",
+   "opiniones": []
+  },
+  {
+   "nombre": "Santa María de Los Ángeles",
+   "comuna": "Comuna 14 - El Poblado",
+   "seguridad": "media-alta",
+   "confianza": "media",
+   "positivos": [
+    "Plano, arborizado y caminable",
+    "Metro Aguacatala y Av. El Poblado y Las Vegas",
+    "Servicios cotidianos"
+   ],
+   "negativos": [
+    "Precios altos",
+    "Presión turística por suites hoteleras",
+    "Hurtos de la comuna 14"
+   ],
+   "resumen": "Es de las partes más planas y residenciales de El Poblado, buena para vivir a pie.",
+   "fuentes": [
+    "https://www.fincaraiz.com.co/blog/santa-maria-de-los-angeles-en-medellin/",
+    "https://www.elcolombiano.com/medellin/santa-maria-de-los-angeles-el-poblado-construiran-suits-hoteleras-para-turismo-ec24379085"
+   ],
+   "terreno": "plano",
+   "terreno_nota": "Es plano, en la parte baja de El Poblado.",
+   "cerca": [
+    "Estación Aguacatala del metro (~10-15 min)",
+    "Av. Las Vegas y Av. El Poblado (buses)",
+    "Clínica Las Vegas",
+    "CC Santafé y CC Monterrey (~15 min)"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 0,
+    "hurtos": 1,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "No encontré noticias específicas; aplican los hurtos de la comuna 14."
+   },
+   "recomendacion": "recomendado",
+   "razon_recomendacion": "Es plano, con metro y servicios cerca y sin noticias graves.",
+   "problemas": [
+    {
+     "tipo": "trafico",
+     "nivel": "medio",
+     "detalle": "Congestión en la Av. El Poblado y Las Vegas en hora pico."
+    },
+    {
+     "tipo": "obras",
+     "nivel": "bajo",
+     "detalle": "Construcción de suites hoteleras en el sector."
+    }
+   ],
+   "accesos": "Se llega por la Av. El Poblado, Las Vegas y el metro Aguacatala. Es plano y fácil sin carro.",
+   "opiniones": []
+  },
+  {
+   "nombre": "El Salvador",
+   "comuna": "Comuna 9 - Buenos Aires",
+   "seguridad": "media-baja",
+   "confianza": "media",
+   "positivos": [
+    "Cerca del centro y del tranvía",
+    "Precios accesibles"
+   ],
+   "negativos": [
+    "Barrio señalado entre los que tenían cobros extorsivos del grupo 'Caicedo' (capturas en 2026)",
+    "Hurtos reportados (nota sin fecha clara)",
+    "Pendientes"
+   ],
+   "resumen": "Es un barrio popular y céntrico donde las autoridades documentaron extorsión de un grupo delincuencial, ahora golpeado con capturas.",
+   "fuentes": [
+    "https://www.minuto30.com/captura-alias-rottweiler-medellin/1709043/",
+    "https://www.elcolombiano.com/medellin/banda-caicedo-loteo-pirata-microtrafico-rentas-ilegales-medellin-NB37275932"
+   ],
+   "terreno": "lomas fuertes",
+   "terreno_nota": "Está en ladera sobre el eje de Ayacucho.",
+   "cerca": [
+    "Tranvía de Ayacucho",
+    "Centro de Medellín (~15-20 min)",
+    "Comercio de barrio"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 2,
+    "sicariato_homicidios": 0,
+    "hurtos": 1,
+    "microtrafico": 1,
+    "periodo": "2024-2026",
+    "detalle": "Según la Alcaldía, un cabecilla del grupo 'Caicedo', capturado en 2026, coordinaba cobros extorsivos y ocupación ilegal de predios en El Salvador, La Milagrosa y Cataluña. Nueve miembros fueron enviados a prisión."
+   },
+   "recomendacion": "con precaución",
+   "razon_recomendacion": "Hay extorsión documentada de un grupo local (recientemente golpeado) y lomas fuertes.",
+   "problemas": [
+    {
+     "tipo": "altura",
+     "nivel": "alto",
+     "detalle": "Está en ladera, sobre el eje de Ayacucho."
+    },
+    {
+     "tipo": "acceso",
+     "nivel": "medio",
+     "detalle": "Calles estrechas y empinadas."
+    }
+   ],
+   "accesos": "Se llega desde Ayacucho (tranvía) por calles empinadas. Sin carro se depende de buses de barrio.",
+   "opiniones": []
+  },
+  {
+   "nombre": "Pajarito",
+   "comuna": "Comuna 7 - Robledo (borde con el corregimiento San Cristóbal)",
+   "seguridad": "sin datos",
+   "confianza": "baja",
+   "positivos": [
+    "Vivienda nueva económica",
+    "Metrocable Línea J en la zona"
+   ],
+   "negativos": [
+    "Lejos del centro y de los servicios",
+    "Robledo y San Cristóbal tuvieron intervenciones por bandas",
+    "La Línea J tuvo suspensiones (incendio en mayo de 2026)"
+   ],
+   "resumen": "Es una zona periférica de vivienda económica sin información específica reciente de seguridad.",
+   "fuentes": [
+    "https://www.medellin.gov.co/es/sala-de-prensa/noticias/con-aumento-de-recompensas-por-11-cabecillas-mas-de-35-allanamientos-y-34-capturas-avanza-intervencion-de-seguridad-en-robledo/"
+   ],
+   "terreno": "lomas fuertes",
+   "terreno_nota": "Está en la ladera alta del noroccidente.",
+   "cerca": [
+    "Metrocable Línea J (estación La Aurora, según el sector)",
+    "Lejos de comercio y transporte"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 0,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "No encontré noticias que nombren a Pajarito; los datos de la comuna 7 y de San Cristóbal muestran presencia de bandas."
+   },
+   "recomendacion": "con precaución",
+   "razon_recomendacion": "Está lejos, en ladera, con acceso limitado, quejas de servicios y zona de bandas; solo si el presupuesto obliga y tras visitarlo.",
+   "problemas": [
+    {
+     "tipo": "agua",
+     "nivel": "medio",
+     "detalle": "Telemedellín recogió quejas de residentes de Nuevo Occidente por daños y humedades; EPM amplía el bombeo Cucaracho-Pajarito (obra iniciada en 2023)."
+    },
+    {
+     "tipo": "altura",
+     "nivel": "alto",
+     "detalle": "Ladera alta del noroccidente."
+    },
+    {
+     "tipo": "acceso",
+     "nivel": "alto",
+     "detalle": "Lejos del centro; depende de pocas vías y del Metrocable J, suspendido en mayo de 2026 por un incendio."
+    },
+    {
+     "tipo": "otro",
+     "nivel": "medio",
+     "detalle": "Hay estudios sobre conflictos de convivencia entre grupos reasentados en la Ciudadela Nuevo Occidente."
+    }
+   ],
+   "accesos": "Se llega por vías de ladera desde Robledo o San Javier y por el Metrocable J (La Aurora). Los trayectos son largos sin carro.",
+   "opiniones": [
+    {
+     "texto": "Residentes de Nuevo Occidente piden una solución urgente por humedades y daños en sus edificios, y dicen que esto deteriora la convivencia.",
+     "fuente": "https://telemedellin.tv/?p=99692"
+    }
+   ]
+  },
+  {
+   "nombre": "Santa Mónica",
+   "comuna": "Comuna 12 - La América",
+   "seguridad": "media",
+   "confianza": "baja",
+   "positivos": [
+    "Calles arborizadas y parque",
+    "Precios más bajos (estrato 3)",
+    "Buses hacia La América y el centro"
+   ],
+   "negativos": [
+    "Pocos datos específicos",
+    "Más alejado del metro"
+   ],
+   "resumen": "Es un barrio residencial asequible dentro de una comuna tranquila.",
+   "fuentes": [
+    "https://www.fincaraiz.com.co/blog/tradicion-residencial-en-la-america/"
+   ],
+   "terreno": "plano",
+   "terreno_nota": "Es plano o con pendientes suaves.",
+   "cerca": [
+    "Parque de Santa Mónica",
+    "Buses por la calle 33 y la Av. 80",
+    "Comercio de barrio"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 0,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "No encontré noticias de seguridad específicas."
+   },
+   "recomendacion": "recomendado",
+   "razon_recomendacion": "Es plano, en una comuna tranquila y sin noticias graves, aunque con poca información propia.",
+   "problemas": [
+    {
+     "tipo": "trafico",
+     "nivel": "bajo",
+     "detalle": "Congestión en la calle 33 y la Av. 80 en hora pico."
+    }
+   ],
+   "accesos": "Se llega por la calle 33 y la Av. 80. Con buses es fácil sin carro.",
+   "opiniones": []
+  },
+  {
+   "nombre": "La Floresta",
+   "comuna": "Comuna 12 - La América",
+   "seguridad": "media-alta",
+   "confianza": "media",
+   "positivos": [
+    "Estación Floresta (Línea B) y futura conexión con el Metro de la 80",
+    "Parque renovado",
+    "Barrio familiar de estratos 3-4"
+   ],
+   "negativos": [
+    "Obras del Metro de la 80",
+    "Movimiento alrededor de la estación",
+    "Un homicidio aislado en noviembre de 2024"
+   ],
+   "resumen": "Es un barrio tradicional con metro a pie y buena vida de barrio.",
+   "fuentes": [
+    "https://telemedellin.tv/la-floresta-un-barrio-con-raices-verdes/",
+    "https://www.medellin.gov.co/es/sala-de-prensa/noticias/mas-de-10-000-habitantes-de-la-comuna-12-disfrutan-del-renovado-parque-de-la-floresta/",
+    "https://www.infobae.com/colombia/2024/11/02/alerta-en-medellin-balacera-dejo-fallecidos-en-el-barrio-los-colores/"
+   ],
+   "terreno": "plano",
+   "terreno_nota": "Es plano.",
+   "cerca": [
+    "Estación Floresta del metro (~5-10 min)",
+    "Parque La Floresta",
+    "Av. 80 (buses y Metro de la 80 en obra)",
+    "Comercio de barrio"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 1,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "Solo hubo el asesinato de una mujer de 61 años en noviembre de 2024 (Infobae), un hecho aislado. No hay noticias de combos ni de extorsión."
+   },
+   "recomendacion": "recomendado",
+   "razon_recomendacion": "Es plano, con metro a pocos minutos y sin patrones de violencia.",
+   "problemas": [
+    {
+     "tipo": "obras",
+     "nivel": "medio",
+     "detalle": "Obras de conexión del Metro de la 80 con la Línea B en la estación Floresta."
+    },
+    {
+     "tipo": "ruido",
+     "nivel": "bajo",
+     "detalle": "Movimiento alrededor de la estación."
+    }
+   ],
+   "accesos": "Se llega por el metro Floresta (Línea B), la calle Colombia y la Av. 80. Es muy fácil sin carro.",
+   "opiniones": []
+  },
+  {
+   "nombre": "Belén Los Alpes",
+   "comuna": "Comuna 16 - Belén",
+   "seguridad": "media",
+   "confianza": "baja",
+   "positivos": [
+    "Precios moderados",
+    "Cerca de la Universidad de Medellín y del Metroplús"
+   ],
+   "negativos": [
+    "Ladera cercana a Altavista, donde opera la banda 'Los Chivos' según la prensa",
+    "Pocos datos específicos recientes"
+   ],
+   "resumen": "Es un sector residencial de Belén en ladera, sin información específica.",
+   "fuentes": [
+    "https://www.fincaraiz.com.co/blog/como-es-el-vivir-en-belen-altavista/",
+    "https://www.elcolombiano.com/medellin/dos-miembros-los-chivos-asesinados-en-un-carro-en-belen-la-gloria-medellin-GL30081788"
+   ],
+   "terreno": "lomas fuertes",
+   "terreno_nota": "Está en ladera hacia el occidente de Belén.",
+   "cerca": [
+    "Universidad de Medellín",
+    "Metroplús (estación U. de Medellín)",
+    "Comercio de barrio"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 0,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "No encontré noticias que nombren a Los Alpes; en zonas vecinas (La Gloria y Altavista) hubo hechos sicariales en 2025."
+   },
+   "recomendacion": "con precaución",
+   "razon_recomendacion": "Tiene lomas, hay poca información y está cerca de zonas con hechos sicariales.",
+   "problemas": [
+    {
+     "tipo": "altura",
+     "nivel": "medio",
+     "detalle": "Ladera hacia el occidente de Belén."
+    },
+    {
+     "tipo": "deslizamiento",
+     "nivel": "bajo",
+     "detalle": "Hubo deslizamientos en mayo de 2025 en la zona alta vecina (Aguas Frías), no en el barrio."
+    }
+   ],
+   "accesos": "Se llega desde la calle 30 (Metroplús, U. de Medellín) y la Av. 80, con calles en pendiente.",
+   "opiniones": []
+  },
+  {
+   "nombre": "Centro",
+   "comuna": "Comuna 10 - La Candelaria",
+   "seguridad": "baja",
+   "confianza": "alta",
+   "positivos": [
+    "Máxima conectividad: metro, tranvía y buses",
+    "Comercio, servicios y cultura",
+    "Arriendos accesibles"
+   ],
+   "negativos": [
+    "La comuna con más homicidios en números absolutos (55 en 2025, con descenso en 2026) y la de más hurtos",
+    "Concentra la mayor cantidad de denuncias de extorsión de la ciudad",
+    "Plaza de vicio en el Parque Bicentenario, raponazos, escopolamina y venta de celulares robados"
+   ],
+   "resumen": "Es muy práctico, pero es la zona con más delitos de todo tipo de la ciudad.",
+   "fuentes": [
+    "https://www.elcolombiano.com/inicio/medellin-segunda-ciudad-extorsiones-colombia-cifras-EL42588914",
+    "https://newsroom.rcnradio.com/colombia/hurtos-en-medellin-2026-autoridades-reportan-descenso-pese-a-alta-incidencia",
+    "https://www.bluradio.com/judicial/fiscalia-judicializa-a-21-capturados-por-extorsiones-y-microtrafico-en-el-centro-de-medellin-rg10",
+    "https://www.elcolombiano.com/medellin/proponen-nuevo-enfoque-para-habitantes-de-calle-en-medellin-alcalde-federico-gutierrez-EO33687366"
+   ],
+   "terreno": "plano",
+   "terreno_nota": "Es plano en el fondo del valle.",
+   "cerca": [
+    "Estaciones Parque Berrío y San Antonio del metro",
+    "Tranvía de Ayacucho",
+    "Plaza Botero y Parque Berrío",
+    "Todo el comercio del centro"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 3,
+    "sicariato_homicidios": 3,
+    "hurtos": 4,
+    "microtrafico": 3,
+    "periodo": "2024-2026",
+    "detalle": "Hay noticias recurrentes de todo tipo: 21 capturados por extorsión y microtráfico, un grupo que extorsionaba a más de 500 víctimas cerca de la Plaza Botero, el microtráfico de 'Los Conejos' en el Parque Bicentenario, un ataque sicarial en noviembre de 2026 con un policía muerto, y raponazos y escopolamina."
+   },
+   "recomendacion": "no recomendado",
+   "razon_recomendacion": "Hay noticias recurrentes de extorsión, homicidios, microtráfico y hurtos.",
+   "problemas": [
+    {
+     "tipo": "basuras",
+     "nivel": "alto",
+     "detalle": "Quejas recurrentes por basuras, olores y habitantes de calle (Av. Oriental, La Playa, Bronx, Plaza Botero); en octubre de 2026 una PQRS reportó basuras y roedores en la calle 26."
+    },
+    {
+     "tipo": "ruido",
+     "nivel": "alto",
+     "detalle": "Comercio, avenidas y música a toda hora."
+    },
+    {
+     "tipo": "otro",
+     "nivel": "medio",
+     "detalle": "En 2026 el Sistema Habitante de Calle hizo más de 50.000 intervenciones solo en la Av. De Greiff."
+    }
+   ],
+   "accesos": "Tiene la mejor conexión de la ciudad: metro, tranvía y buses. No necesita carro.",
+   "opiniones": [
+    {
+     "texto": "Comerciantes y transeúntes de la Av. Oriental se quejan de malos olores e inseguridad en el corredor verde ocupado por habitantes de calle.",
+     "fuente": "https://www.elcolombiano.com/medellin/inseguridad-malos-olores-corredor-verde-avenida-oriental-medellin-IO31599573"
+    },
+    {
+     "texto": "Gremios empresariales pidieron en 2026 un nuevo enfoque para los habitantes de calle del centro.",
+     "fuente": "https://www.elcolombiano.com/medellin/proponen-nuevo-enfoque-para-habitantes-de-calle-en-medellin-alcalde-federico-gutierrez-EO33687366"
+    }
+   ]
+  },
+  {
+   "nombre": "Los Colores",
+   "comuna": "Comuna 11 - Laureles-Estadio",
+   "seguridad": "media-alta",
+   "confianza": "media",
+   "positivos": [
+    "Cerca de universidades, unidades deportivas y comercio",
+    "Línea O, Metro y Av. 80",
+    "Casas tradicionales y torres nuevas"
+   ],
+   "negativos": [
+    "Obras y tráfico en la Av. 80",
+    "Balacera con muertos en noviembre de 2024 (hecho aislado)",
+    "Hurtos de la comuna 11"
+   ],
+   "resumen": "Es un barrio residencial bien conectado; los hechos graves encontrados son aislados.",
+   "fuentes": [
+    "https://www.fincaraiz.com.co/blog/?p=39661",
+    "https://www.infobae.com/colombia/2024/11/02/alerta-en-medellin-balacera-dejo-fallecidos-en-el-barrio-los-colores/"
+   ],
+   "terreno": "ondulado",
+   "terreno_nota": "Tiene pendientes suaves a moderadas, que suben hacia el occidente.",
+   "cerca": [
+    "Av. 80 (Línea O y Metro de la 80 en obra)",
+    "Universidad Nacional, Facultad de Minas (según el sector)",
+    "Comercio de barrio",
+    "Estación Floresta o Estadio (~15-20 min)"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 2,
+    "hurtos": 1,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "Hubo una balacera con fallecidos en noviembre de 2024 y la muerte de un presunto ladrón baleado al entrar a una casa (fecha no clara). No hay noticias de combos ni de extorsión."
+   },
+   "recomendacion": "recomendado",
+   "razon_recomendacion": "Es residencial y conectado; los hechos graves son aislados y no forman un patrón.",
+   "problemas": [
+    {
+     "tipo": "obras",
+     "nivel": "medio",
+     "detalle": "Cierres prolongados por el Metro de la 80 entre las comunas 7 y 11 (Av. 80 con La Iguaná)."
+    },
+    {
+     "tipo": "trafico",
+     "nivel": "medio",
+     "detalle": "Congestión en la Av. 80."
+    }
+   ],
+   "accesos": "Se llega por la Av. 80, la calle 53 y la Línea O. Con buses es aceptable sin carro.",
+   "opiniones": []
+  },
+  {
+   "nombre": "Florida Nueva",
+   "comuna": "Comuna 11 - Laureles-Estadio",
+   "seguridad": "media-alta",
+   "confianza": "baja",
+   "positivos": [
+    "Ubicado en Laureles-Estadio, cerca de El Velódromo y la Av. 80",
+    "Ambiente residencial"
+   ],
+   "negativos": [
+    "Pocos datos",
+    "Quejas por hurtos en el vecino El Velódromo (nota sin fecha clara)"
+   ],
+   "resumen": "Es un barrio residencial de la comuna 11 con poca información propia.",
+   "fuentes": [
+    "https://telemedellin.tv/?p=110655"
+   ],
+   "terreno": "plano",
+   "terreno_nota": "Es plano o con pendiente suave.",
+   "cerca": [
+    "El Velódromo",
+    "Av. 80 (buses)",
+    "Unidad Deportiva Atanasio Girardot (~15 min)"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 0,
+    "hurtos": 1,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "Solo encontré quejas de hurtos en el barrio vecino El Velódromo, de fecha no confirmada."
+   },
+   "recomendacion": "recomendado",
+   "razon_recomendacion": "Es plano y residencial, en comuna de baja violencia y sin noticias graves, aunque con poca información propia.",
+   "problemas": [
+    {
+     "tipo": "obras",
+     "nivel": "bajo",
+     "detalle": "Hay efectos indirectos de las obras del Metro de la 80."
+    }
+   ],
+   "accesos": "Se llega por vías planas de la comuna 11 cerca de la Av. 80. Es fácil sin carro.",
+   "opiniones": [
+    {
+     "texto": "Vecinos del barrio contiguo El Velódromo denunciaron hurtos diarios y dijeron sentirse obligados a quedarse encerrados.",
+     "fuente": "https://telemedellin.tv/vecinos-del-barrio-el-velodromo-denuncian/718629/"
+    }
+   ]
+  },
+  {
+   "nombre": "Los Ángeles",
+   "comuna": "Comuna 10 - La Candelaria",
+   "seguridad": "media-baja",
+   "confianza": "baja",
+   "positivos": [
+    "Cerca del centro, de Prado y del metro",
+    "Precios bajos"
+   ],
+   "negativos": [
+    "Pertenece a la comuna con más delitos",
+    "Entorno con habitantes de calle y hurtos"
+   ],
+   "resumen": "Es un barrio céntrico y económico dentro de la comuna 10, con poca información propia.",
+   "fuentes": [
+    "https://www.medellin.gov.co/es/wp-content/uploads/2025/10/Comuna10_LaCandelaria.pdf"
+   ],
+   "terreno": "ondulado",
+   "terreno_nota": "Tiene pendiente suave hacia el oriente del centro.",
+   "cerca": [
+    "Estación Prado del metro (~10-15 min)",
+    "Centro de Medellín",
+    "Comercio de barrio"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 0,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "No encontré noticias que nombren al barrio; aplican las cifras altas de la comuna 10."
+   },
+   "recomendacion": "con precaución",
+   "razon_recomendacion": "Está en la comuna con más delitos y hay poca información específica.",
+   "problemas": [
+    {
+     "tipo": "basuras",
+     "nivel": "medio",
+     "detalle": "En noviembre de 2025 Telemedellín reportó 75 puntos críticos con cambuches y basuras en la zona de Prado Centro."
+    },
+    {
+     "tipo": "ruido",
+     "nivel": "medio",
+     "detalle": "Ruido de la Av. Oriental y del centro."
+    }
+   ],
+   "accesos": "Se llega por la Av. Oriental y el metro Prado. Es fácil sin carro.",
+   "opiniones": []
+  },
+  {
+   "nombre": "La Candelaria",
+   "comuna": "Comuna 10 - La Candelaria",
+   "seguridad": "baja",
+   "confianza": "alta",
+   "positivos": [
+    "Centro administrativo y comercial con todo el transporte",
+    "Mejoras en 2026: homicidios -36% y hurto a comercio y residencias -50% a inicios de año, según Telemedellín"
+   ],
+   "negativos": [
+    "Lidera las denuncias de hurto (1.174 en el primer trimestre de 2025), de homicidios y de extorsión",
+    "Raponazos y escopolamina",
+    "Microtráfico en parques como el Bicentenario"
+   ],
+   "resumen": "Mejora en 2026, pero sigue siendo la comuna con más delitos.",
+   "fuentes": [
+    "https://www.elcolombiano.com/medellin/reduccion-hurtos-en-medellin-DE27107756",
+    "https://telemedellin.tv/?p=168535",
+    "https://www.medellin.gov.co/es/sala-de-prensa/noticias/desmantelado-grupo-delincuencial-que-extorsionaba-a-mas-500-victimas-en-los-alrededores-de-la-plaza-botero/"
+   ],
+   "terreno": "plano",
+   "terreno_nota": "Es plano en el fondo del valle.",
+   "cerca": [
+    "Estaciones Parque Berrío, San Antonio y Prado del metro",
+    "Tranvía de Ayacucho",
+    "Parque Berrío y Plaza Botero",
+    "Comercio del centro"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 3,
+    "sicariato_homicidios": 3,
+    "hurtos": 4,
+    "microtrafico": 3,
+    "periodo": "2024-2026",
+    "detalle": "Hay noticias recurrentes de extorsión a comerciantes (cuotas semanales, grupo de la Plaza Botero), homicidios (55 en 2025), microtráfico y hurtos, aunque los indicadores de 2026 mejoran."
+   },
+   "recomendacion": "no recomendado",
+   "razon_recomendacion": "Concentra noticias recurrentes de extorsión, homicidios, microtráfico y hurtos.",
+   "problemas": [
+    {
+     "tipo": "basuras",
+     "nivel": "alto",
+     "detalle": "Quejas recurrentes por basuras, olores y habitantes de calle en el centro (2023-2026)."
+    },
+    {
+     "tipo": "ruido",
+     "nivel": "alto",
+     "detalle": "Comercio y avenidas con alto ruido."
+    }
+   ],
+   "accesos": "Tiene metro, tranvía y buses. No necesita carro.",
+   "opiniones": [
+    {
+     "texto": "Comerciantes y transeúntes de la Av. Oriental se quejan de malos olores e inseguridad en el corredor verde ocupado por habitantes de calle.",
+     "fuente": "https://www.elcolombiano.com/medellin/inseguridad-malos-olores-corredor-verde-avenida-oriental-medellin-IO31599573"
+    }
+   ]
+  },
+  {
+   "nombre": "Trinidad",
+   "comuna": "Comuna 15 - Guayabal",
+   "seguridad": "media",
+   "confianza": "baja",
+   "positivos": [
+    "Cerca del aeropuerto Olaya Herrera y de zonas de empleo",
+    "Buenas conexiones viales",
+    "Precios bajos"
+   ],
+   "negativos": [
+    "Perfil industrial, con ruido y camiones",
+    "Un homicidio a bala en marzo de 2025 (hecho aislado)"
+   ],
+   "resumen": "Es un barrio práctico y económico de Guayabal, con carácter industrial.",
+   "fuentes": [
+    "https://www.fincaraiz.com.co/blog/vivir-en-trinidad/"
+   ],
+   "terreno": "plano",
+   "terreno_nota": "Es plano.",
+   "cerca": [
+    "Aeropuerto Olaya Herrera",
+    "Av. Guayabal y Av. 80 (buses)",
+    "Zona industrial y comercial de Guayabal"
+   ],
+   "noticias_seguridad": {
+    "extorsion": 0,
+    "sicariato_homicidios": 1,
+    "hurtos": 0,
+    "microtrafico": 0,
+    "periodo": "2024-2026",
+    "detalle": "En marzo de 2025 un hombre de 26 años murió tras ser baleado; es un hecho aislado. No hay noticias de combos ni de extorsión."
+   },
+   "recomendacion": "con precaución",
+   "razon_recomendacion": "Es plano y conectado, pero tiene entorno industrial, poca información y un hecho grave aislado.",
+   "problemas": [
+    {
+     "tipo": "ruido",
+     "nivel": "medio",
+     "detalle": "Está cerca del aeropuerto Olaya Herrera y de la zona industrial, con aviones y camiones."
+    },
+    {
+     "tipo": "trafico",
+     "nivel": "medio",
+     "detalle": "Tráfico pesado industrial en la Av. Guayabal y la 80."
+    }
+   ],
+   "accesos": "Se llega por la Av. Guayabal, la Av. 80 y la calle 10. Es plano y fácil con buses.",
+   "opiniones": []
+  }
+ ]
+}
