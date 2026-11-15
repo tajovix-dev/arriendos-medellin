@@ -10,5 +10,5 @@ if __name__ == "__main__":
     ts = corridas[-1]["ts"] if corridas else ahora().isoformat()
     anuncios = leer_jsonl(F_ANUNCIOS)
     limpiar(anuncios)
-    n = publicar(anuncios, leer_jsonl(F_GALERIA), corridas, ts)
+    n = publicar(anuncios, leer_jsonl(F_GALERIA), corridas, ts, con_ia=False)
     print(f"Página regenerada: {n} anuncios visibles")

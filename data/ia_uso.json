@@ -1,0 +1,19 @@
+{
+ "agotadas": [
+  "9iaw",
+  "6TF0",
+  "R7Cc",
+  "NAkE",
+  "yfLA"
+ ],
+ "fecha": "2026-11-15",
+ "gemini": {
+  "6TF0": 16,
+  "9iaw": 13,
+  "NAkE": 18,
+  "R7Cc": 16,
+  "o0w4": 3,
+  "yfLA": 19
+ },
+ "groq": 35
+}

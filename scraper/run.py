@@ -28,7 +28,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import config
-from scraper import analisis, fotos, normalizar, ubicacion
+from scraper import analisis, fotos, noticias, normalizar, seleccion, ubicacion
 from scraper.sources import fincaraiz, rentola, albertoalvarez, metrocuadrado
 
 FUENTES = [fincaraiz, rentola, albertoalvarez, metrocuadrado]
@@ -314,9 +314,11 @@ def marcar_duplicados(items, galeria=None):
                     else:
                         # solo se sabe el barrio: tiene que ser el mismo barrio y, además, otro
                         # portal o el mismo anunciante (si no, pueden ser apartamentos distintos)
-                        otro_o_mismo = a["fuente"] != b["fuente"] or (
-                            a.get("anunciante") and a.get("anunciante") == b.get("anunciante"))
-                        igual = mismo_barrio and bool(otro_o_mismo) and d <= 1200
+                        # Solo el barrio no basta (en barrios grandes hay muchos apartamentos iguales en
+                        # precio y tamaño). Se agrupa únicamente si es el mismo anunciante, mismo barrio y
+                        # la misma área exacta; entre portales distintos hace falta foto compartida.
+                        igual = (mismo_barrio and a["fuente"] == b["fuente"] and a.get("anunciante")
+                                 and a.get("anunciante") == b.get("anunciante") and a.get("area") == b.get("area"))
                 if igual:
                     ra, rb = raiz(a["id"]), raiz(b["id"])
                     if ra != rb:
@@ -376,7 +378,7 @@ def estimar_estrato(items):
     print(f"Estrato estimado: {n} por barrio, {m} por cercanía")
 
 
-def publicar(anuncios, galeria, corridas, ts):
+def publicar(anuncios, galeria, corridas, ts, con_ia=True):
     """Genera docs/data con solo lo que debe verse en la página."""
     limite_inactivo = (ahora() - timedelta(days=config.DIAS_INACTIVO)).isoformat()
     visibles = []
@@ -434,6 +436,13 @@ def publicar(anuncios, galeria, corridas, ts):
     # listings.json: un anuncio por línea
     cuerpo = ",\n".join(json.dumps(v, ensure_ascii=False, separators=(",", ":")) for v in visibles)
     escribir(PUB / "listings.json", f'{{"generado":"{ts}","items":[\n{cuerpo}\n]}}\n')
+    # Selección con IA (imperdibles y mejores zonas): solo en las corridas que raspan
+    if con_ia:
+        try:
+            seleccion.generar(visibles, PUB / "ia.json", log=print)
+        except Exception as e:  # la IA nunca debe tumbar la publicación
+            print(f"Selección IA: error {type(e).__name__}")
+    noticias.publicar()
 
     # Galerías por fragmentos
     ids_visibles = {v["id"] for v in visibles}
@@ -559,6 +568,11 @@ def main():
     escribir_jsonl(F_ANUNCIOS, anuncios)
     escribir_jsonl(F_GALERIA, galeria)
     escribir(F_CORRIDAS, json.dumps(corridas, ensure_ascii=False, indent=1))
+    # Noticias por barrio (cada 3 días) e investigación automática con IA
+    try:
+        noticias.actualizar(log=log)
+    except Exception as e:
+        log(f"Noticias: error {type(e).__name__}: {e}")
     n = publicar(anuncios, galeria, corridas, ts)
     log(f"Listo: {n} visibles de {len(anuncios)} guardados ({time.time() - t0:.0f}s)")
     if resumen and all(v["error"] for v in resumen.values()):

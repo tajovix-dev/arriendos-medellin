@@ -1211,3 +1211,25 @@ details.datos-g summary { cursor: pointer; font-size: .8rem; color: var(--acento
 .aviso-fuera { background: #fff4d6; color: #8a5a00; font-size: .78rem; font-weight: 600; padding: 6px 10px; border-radius: 12px 12px 0 0; }
 .det-fecha { margin: 6px 0 0; font-size: .88rem; font-weight: 650; color: var(--texto); }
 .det-fecha.vieja { color: var(--aviso); }
+
+/* ---------- Noticias por barrio e IA ---------- */
+.n-cuando { font-weight: 400; font-size: .76rem; }
+.noticias-b { list-style: none; padding: 0; margin: 6px 0 10px; display: flex; flex-direction: column; gap: 8px; }
+.noticias-b li { display: flex; gap: 8px; font-size: .86rem; line-height: 1.35; }
+.noticias-b .tenue { display: block; font-size: .76rem; }
+.nb-ico { flex: none; width: 22px; text-align: center; }
+.grave { color: var(--bajo); }
+.ia-barrio { border-radius: 10px; padding: 8px 10px; background: var(--sup2); margin: 6px 0; font-size: .86rem; }
+.ia-barrio p { margin: 4px 0; }
+.ia-barrio.alerta-media { background: var(--aviso-suave); }
+.ia-barrio.alerta-alta { background: var(--bajo-suave); }
+.ia-sug { font-weight: 600; }
+.ia-nota { font-size: .72rem !important; }
+.badge-noticias { font-size: .74rem; font-weight: 700; color: var(--bajo); background: var(--bajo-suave); border-radius: 999px; padding: 1px 6px; }
+.etq.imperdible { background: #b45309; color: #fff; }
+.det-imperdible { background: color-mix(in srgb, #f59e0b 16%, var(--sup)); border: 1px solid #f3c56b; border-radius: 10px; padding: 8px 10px; font-size: .88rem; }
+.det-ia { font-size: .86rem; background: var(--sup2); border-radius: 8px; padding: 6px 8px; }
+.imp-tit { font-weight: 700; color: var(--texto); margin: 8px 0 6px; }
+.imp-razon { white-space: normal; font-size: .74rem; line-height: 1.3; }
+.imp-zonas, .imp-consejo { font-size: .82rem; margin-top: 8px; }
+.imp-zonas span { text-decoration: underline dotted; cursor: help; }

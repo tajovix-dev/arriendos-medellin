@@ -296,6 +296,48 @@ const NOMBRE_BARRIO = new Map();   // clave "Municipio|barrio normalizado" → n
 let textoBuscaBarrio = "";
 
 /** Clave del barrio de un anuncio (null si no informa barrio o el "barrio" es el mismo municipio). */
+/* ---------- Noticias por barrio (cada 3 días) y selección con IA ---------- */
+const NOTICIAS = new Map();   // clave de barrio → {noticias:[], ia:{}}
+let NOTICIAS_FECHA = null, IA_SEL = null;
+const CAT_NOTICIA = {
+  extorsion: ["💰", "Extorsión"], homicidio: ["⚠️", "Homicidio"], hurto: ["👜", "Hurto"], microtrafico: ["💊", "Microtráfico"],
+  rina_violencia: ["👊", "Riña / violencia"], accidente: ["🚑", "Accidente"], deslizamiento_inundacion: ["🌧", "Deslizamiento / inundación"],
+  servicios_agua_luz: ["🚰", "Agua / luz"], obras_movilidad: ["🚧", "Obras / movilidad"], positivo: ["✨", "Buena noticia"], otro: ["📰", "Otra"],
+};
+const NEG_NOTICIA = new Set(["extorsion", "homicidio", "hurto", "microtrafico", "rina_violencia", "deslizamiento_inundacion", "servicios_agua_luz"]);
+function cargarNoticias(d) {
+  if (!d || !d.barrios) return;
+  NOTICIAS_FECHA = d.actualizado;
+  for (const [k, v] of Object.entries(d.barrios)) {
+    const [m, nombre] = k.split("|");
+    NOTICIAS.set(`${m}|${normB(nombre)}`, v);
+  }
+}
+/** Noticias negativas de los últimos 30 días (para el aviso en la tarjeta). */
+function noticiasRecientes(clave) {
+  const n = NOTICIAS.get(clave);
+  if (!n) return [];
+  const lim = new Date(Date.now() - 30 * DIA).toISOString().slice(0, 10);
+  return (n.noticias || []).filter((x) => NEG_NOTICIA.has(x.categoria) && (x.gravedad || 0) >= 2 && (x.fecha || "") >= lim);
+}
+function seccionNoticias(clave) {
+  const n = NOTICIAS.get(clave);
+  const cuando = NOTICIAS_FECHA ? `revisadas ${hace(NOTICIAS_FECHA)}` : "";
+  if (!n) return NOTICIAS_FECHA ? `<h3>📰 Noticias recientes</h3><p class="tenue">Sin noticias relevantes en los últimos 30 días (${cuando}).</p>` : "";
+  const ia = n.ia;
+  const alerta = ia ? { alta: "alta", media: "media", baja: "baja", ninguna: "ninguna" }[ia.nivel_alerta] || "" : "";
+  return `<h3>📰 Noticias recientes <span class="tenue n-cuando">${cuando}</span></h3>
+    ${ia ? `<div class="ia-barrio alerta-${alerta}"><b>🤖 Análisis automático (${esc(fechaCorta(ia.fecha))})</b>
+      <p>${esc(ia.resumen_reciente || "")}</p>
+      ${ia.sugerencia && ia.sugerencia !== "mantener" ? `<p class="ia-sug">${ia.sugerencia === "mas_precaucion" ? "⚠ Sugiere más precaución" : "✓ Sugiere que ha mejorado"}: ${esc(ia.motivo || "")}</p>` : ""}
+      <p class="tenue ia-nota">Generado con IA a partir de las noticias de abajo. Verifica antes de decidir.</p></div>` : ""}
+    <ul class="noticias-b">${(n.noticias || []).map((x) => {
+      const c = CAT_NOTICIA[x.categoria] || CAT_NOTICIA.otro;
+      return `<li><span class="nb-ico" title="${esc(c[1])}">${c[0]}</span><span><a href="${esc(urlOk(x.link))}" target="_blank" rel="noopener noreferrer">${esc(x.titulo)}</a>
+        <span class="tenue">${esc(x.fuente || "")} · ${x.fecha ? esc(fechaCorta(x.fecha)) : ""}${x.gravedad >= 2 ? ` · <b class="grave">${esc(c[1])}</b>` : ""}</span></span></li>`;
+    }).join("")}</ul>`;
+}
+const imperdible = (id) => (IA_SEL && IA_SEL.imperdibles || []).find((x) => x.id === id);
 function claveBarrio(it) {
   if (it._kb !== undefined) return it._kb;
   const b = normB(it.barrio);
@@ -376,7 +418,7 @@ function lineaBarrio(it) {
   if (f.terreno) partes.push(`⛰ ${esc(TERRENO[f.terreno] || f.terreno)}`);
   if (f.seguridad) partes.push(etiquetaSeg(f.seguridad));
   return `<button class="btn-barrio-info" data-ficha="${esc(claveBarrio(it))}" title="${esc(f.razon_recomendacion || "Ver qué se dice de este barrio")}">
-    ${insigniaReco(f)}<span class="tenue">${partes.join(" · ")}</span>${iconosProblemas(f)}<span class="ver-mas">Detalles →</span></button>`;
+    ${insigniaReco(f)}<span class="tenue">${partes.join(" · ")}</span>${iconosProblemas(f)}${noticiasRecientes(claveBarrio(it)).length ? `<span class="badge-noticias" title="Noticias negativas en los últimos 30 días">📰 ${noticiasRecientes(claveBarrio(it)).length}</span>` : ""}<span class="ver-mas">Detalles →</span></button>`;
 }
 
 function abrirFichaBarrio(clave) {
@@ -405,6 +447,7 @@ function abrirFichaBarrio(clave) {
       `<li><a href="${esc(urlOk(c.url))}" target="_blank" rel="noopener noreferrer">${esc(c.nombre)}</a>${c.calificacion ? ` <span class="estrellas">★ ${esc(c.calificacion)}</span>` : ""}${c.resenas ? ` <span class="tenue">(${esc(c.resenas)} reseñas)</span>` : ""}</li>`).join("")}</ul>` : ""}
     ${f.terreno_nota ? `<h3>Terreno</h3><p>${esc(f.terreno_nota)}</p>` : ""}
     ${(f.cerca || []).length ? `<h3>Qué hay cerca</h3><ul class="cerca">${f.cerca.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>` : ""}
+    ${seccionNoticias(clave)}
     ${ns ? `<h3>Noticias de seguridad (${esc(ns.periodo || "2024-2026")})</h3>
       <div class="n-grid">${celdaN(ns.extorsion, "Extorsión / vacunas")}${celdaN(ns.sicariato_homicidios, "Sicariato / homicidios")}${celdaN(ns.hurtos, "Hurtos")}${celdaN(ns.microtrafico, "Microtráfico")}</div>
       ${ns.detalle ? `<p class="n-det">${esc(ns.detalle)}</p>` : ""}
@@ -884,6 +927,7 @@ function tarjeta(it) {
     <div class="foto" data-acc="visor" role="button" tabindex="0" aria-label="Ver fotos${it.v ? " y video" : ""}">
       ${it.img ? `<img src="${esc(urlOk(it.img))}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="portadaRota(this)" onload="ajustarFoto(this)">` : `<span class="sin-foto">🏠</span>`}
       <span class="etiquetas">
+        ${imperdible(it.id) ? `<span class="etq imperdible" title="${esc(imperdible(it.id).razon)}">⭐ IMPERDIBLE</span>` : ""}
         ${nuevo ? `<span class="etq nuevo">NUEVO</span>` : ""}
         ${ant === "alto" ? `<span class="etq antiguo">ANTIGUO</span>` : ""}
         ${baj ? `<span class="etq bajo">↓ ${corto(baj)}</span>` : ""}
@@ -1044,11 +1088,22 @@ function renderResumenDia(lista) {
       <span><b>${bajaron.length}</b> bajaron de precio</span>
       <span><b>${buenos.length}</b> con buen precio</span>
     </div>
+    ${bloqueImperdibles(lista)}
     ${top.length ? `<div class="razon" style="margin-bottom:6px">${titTop}</div>
     <div class="carrusel">${top.map((x) => miniTarjeta(x, `<span class="bueno">▼ ${Math.round(-x.dif * 100)}% vs. similares</span>`)).join("")}</div>` : ""}
   </section>`;
 }
 
+function bloqueImperdibles(lista) {
+  if (!IA_SEL || !(IA_SEL.imperdibles || []).length) return "";
+  const porId = new Map(TODOS.map((x) => [x.id, x]));
+  const its = IA_SEL.imperdibles.map((s) => ({ s, x: porId.get(s.id) })).filter((o) => o.x);
+  if (!its.length) return "";
+  return `<div class="razon imp-tit">⭐ Imperdibles de hoy según la IA <span class="tenue">(${esc(hace(IA_SEL.fecha))})</span></div>
+    <div class="carrusel">${its.map(({ s, x }) => miniTarjeta(x, `<span class="razon imp-razon">${esc(s.razon)}</span>`)).join("")}</div>
+    ${(IA_SEL.zonas || []).length ? `<div class="imp-zonas"><b>Mejores zonas para buscar ahora:</b> ${IA_SEL.zonas.map((z) => `<span title="${esc(z.razon)}">${esc(z.barrio)} (${esc(z.municipio)})</span>`).join(" · ")}</div>` : ""}
+    ${IA_SEL.consejo ? `<div class="imp-consejo">💡 ${esc(IA_SEL.consejo)}</div>` : ""}`;
+}
 function renderRecomendados(lista) {
   const cont = $("#recomendados");
   if (!PERFIL) { cont.innerHTML = ""; return; }
@@ -1404,7 +1459,8 @@ function detalleHTML(it) {
     ${it.lat && it.lon ? `<button class="btn-sec" data-acc="mapa">Ver en el mapa</button>` : ""}`;
   // Barrio
   const f = infoBarrio(it);
-  const barrio = f ? `${lineaBarrio(it)}${f.razon_recomendacion ? `<p class="det-razon">${esc(f.razon_recomendacion)}</p>` : ""}` : "";
+  const nb = NOTICIAS.get(claveBarrio(it));
+  const barrio = f ? `${lineaBarrio(it)}${f.razon_recomendacion ? `<p class="det-razon">${esc(f.razon_recomendacion)}</p>` : ""}${nb && nb.ia && nb.ia.resumen_reciente ? `<p class="det-ia">🤖 <b>Lo reciente (${esc(fechaCorta(nb.ia.fecha))}):</b> ${esc(nb.ia.resumen_reciente)}</p>` : ""}` : "";
   // Estrato estimado
   const notaEstrato = !it.estrato && it.estr_b ? `<p class="tenue det-nota">≈${it.estr_b}: estrato estimado (${esc(it.estr_n || "")}); el portal no lo informa.</p>` : "";
   const notaOtro = ["hab", "banos", "area", "estrato"].some((k) => !it[k] && it["_" + k]) ? `<p class="tenue det-nota">* Dato tomado del mismo apartamento publicado en otro portal.</p>` : "";
@@ -1425,6 +1481,7 @@ function detalleHTML(it) {
         <button class="acc-det" data-acc="desc" aria-label="${desc ? "Restaurar" : "No me interesa"}">${desc ? "↺ Restaurar" : "✕ No me interesa"}</button>
       </div>
     </div>
+    ${imperdible(it.id) ? `<div class="det-imperdible">⭐ <b>Imperdible según la IA:</b> ${esc(imperdible(it.id).razon)}</div>` : ""}
     ${comp}
     ${it.titulo ? `<p class="det-titulo">${esc(it.titulo)}</p>` : ""}
     ${sec("Características", ficha(it) + extras(it).replace('<div class="amen">', '<div class="amen todas">') + notaEstrato + notaOtro)}
@@ -1915,7 +1972,7 @@ function tablaFuentes() {
   for (const r of c.slice(-6).reverse()) {
     for (const [f, v] of Object.entries(r.fuentes || {})) {
       h += `<tr><td>${esc(r.ts.slice(5, 16).replace("T", " "))}</td><td>${esc(f)}</td><td class="n">${v.leidos}</td><td class="n">${v.nuevos}</td><td class="n">${v.bajaron}</td>
-        <td class="${v.error ? "err" : "ok"}">${v.error ? esc(v.error) : "OK"}</td></tr>`;
+        <td class="${v.error || !v.leidos ? "err" : "ok"}">${v.error ? esc(v.error) : v.leidos ? "OK" : "0 leídos: posible bloqueo"}</td></tr>`;
     }
   }
   h += `</table>`;
@@ -2313,6 +2370,8 @@ async function iniciar() {
     fetch("data/meta.json", { cache: "no-cache" }).then((r) => r.json()).catch(() => ({})),
     fetch("data/mercado.json", { cache: "no-cache" }).then((r) => r.json()).catch(() => ({ historial: {} })),
     fetch("barrios_info.json", { cache: "no-cache" }).then((r) => r.json()).then((b) => { INFO_FECHA = b.fecha || ""; cargarInfoBarrios(b); }).catch(() => null),
+    fetch("noticias_barrios.json", { cache: "no-cache" }).then((r) => (r.ok ? r.json() : null)).then(cargarNoticias).catch(() => null),
+    fetch("data/ia.json", { cache: "no-cache" }).then((r) => (r.ok ? r.json() : null)).then((d) => { IA_SEL = d; }).catch(() => null),
   ]);
   TODOS = d.items || [];
   completarDuplicados();
@@ -2333,7 +2392,8 @@ async function iniciar() {
   if (S.pmin >= PRECIO_TOPE) S.pmin = 0;
   prepararBarrios();
   $("#zona").checked = !!S.zona;
-  $("#actualizado").textContent = `${NF.format(TODOS.length)} disponibles · actualizado ${hace(d.generado)} · cada 6 h`;
+  const sinActualizar = (Date.now() - new Date(d.generado)) / 36e5 > 13;
+  $("#actualizado").textContent = `${NF.format(TODOS.length)} disponibles · actualizado ${hace(d.generado)} · cada 6 h${sinActualizar ? " · ⚠ lleva más de 12 h sin actualizarse" : ""}`;
   cambiarVista(vista);
   render();
 }
