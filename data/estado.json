@@ -1,77 +1,77 @@
 {
  "fincaraiz": {
   "medellin": {
-   "cursor": 18,
+   "cursor": 33,
    "paginas": 35,
    "ciclos": 4
   },
   "sabaneta": {
    "cursor": 1,
    "paginas": 9,
-   "ciclos": 9
+   "ciclos": 10
   },
   "envigado": {
    "cursor": 1,
    "paginas": 2,
-   "ciclos": 9
+   "ciclos": 10
   },
   "itagui": {
    "cursor": 1,
    "paginas": 4,
-   "ciclos": 9
+   "ciclos": 10
   },
   "la-estrella": {
    "cursor": 1,
    "paginas": 6,
-   "ciclos": 9
+   "ciclos": 10
   }
  },
  "rentola": {
   "sabaneta": {
-   "cursor": 51,
+   "cursor": 1,
    "paginas": 299,
-   "ciclos": 3
-  },
-  "envigado": {
-   "cursor": 51,
-   "paginas": 403,
-   "ciclos": 3
-  },
-  "itagui": {
-   "cursor": 51,
-   "paginas": 118,
-   "ciclos": 3
-  },
-  "la-estrella": {
-   "cursor": 51,
-   "paginas": 61,
-   "ciclos": 3
-  }
- },
- "albertoalvarez": {
-  "medellin": {
-   "cursor": 61,
-   "paginas": 117,
-   "ciclos": 1
-  },
-  "sabaneta": {
-   "cursor": 21,
-   "paginas": 36,
    "ciclos": 4
   },
   "envigado": {
    "cursor": 1,
+   "paginas": 403,
+   "ciclos": 4
+  },
+  "itagui": {
+   "cursor": 1,
+   "paginas": 118,
+   "ciclos": 4
+  },
+  "la-estrella": {
+   "cursor": 1,
+   "paginas": 61,
+   "ciclos": 4
+  }
+ },
+ "albertoalvarez": {
+  "medellin": {
+   "cursor": 81,
+   "paginas": 117,
+   "ciclos": 1
+  },
+  "sabaneta": {
+   "cursor": 1,
+   "paginas": 36,
+   "ciclos": 5
+  },
+  "envigado": {
+   "cursor": 21,
    "paginas": 47,
    "ciclos": 3
   },
   "itagui": {
    "cursor": 1,
-   "ciclos": 10,
+   "ciclos": 11,
    "paginas": 8
   },
   "la-estrella": {
    "cursor": 1,
-   "ciclos": 10,
+   "ciclos": 11,
    "paginas": 10
   }
  },
