@@ -134,6 +134,7 @@ def _normalizar(item, municipio):
 
 
 def scrape(estado, conocidos, log):
+    intentos = fallos = 0
     for municipio, slugs in config.MUNICIPIOS.items():
         slug = slugs.get(NOMBRE)
         if not slug:
@@ -149,7 +150,9 @@ def scrape(estado, conocidos, log):
                 break  # ciclo completo: el siguiente arranca en la próxima corrida
             url = f"{BASE}/arriendo/apartamento/{slug}" + (f"?page={cursor}" if cursor > 1 else "")
             html = get(url, si_404=GONE)
+            intentos += 1
             if html is None:
+                fallos += 1
                 break  # fallo temporal: la próxima corrida sigue desde esta misma página
             cursor += 1
             if html == GONE:
@@ -172,3 +175,6 @@ def scrape(estado, conocidos, log):
         est["cursor"] = cursor
         est["paginas"] = total
         log(f"  rentola/{slug}: {nuevos} nuevos, cursor {cursor}/{total}")
+    if intentos and fallos == intentos:
+        # Antes quedaba como "0 leídos, sin error": que se vea en la tabla de fuentes
+        raise RuntimeError("Rentola no respondió en ningún municipio (fallo temporal del sitio)")

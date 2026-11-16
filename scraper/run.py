@@ -177,44 +177,63 @@ def fusionar(anuncios, galeria, nuevo, ts):
 
 
 def enriquecer(anuncios, galeria, ts, log):
-    """Visita el detalle de los anuncios que aún no lo tienen (galería, fecha, disponibilidad)."""
-    res = {}
-    for fuente, modulo in CON_DETALLE.items():
-        # det < DET_VERSION: nunca visitado o visitado antes de que se extrajeran los campos actuales
-        pendientes = [a for a in anuncios.values()
-                      if a.get("fuente") == fuente and (a.get("det") or 0) < DET_VERSION[fuente] and a.get("disp") is not False
-                      and a.get("precio", 0) <= config.PRECIO_MAX_GUARDAR]
-        pendientes.sort(key=lambda a: a.get("visto1", ""), reverse=True)  # primero los más nuevos
-        hechos = retirados = 0
-        quedan = len(CON_DETALLE) - list(CON_DETALLE).index(fuente)
-        fin_fuente = time.time() + max(0, T0 + config.MINUTOS_MAX_DETALLE * 60 - time.time()) / quedan
-        for a in pendientes[: config.DETALLE_MAX_POR_FUENTE]:
-            if time.time() > fin_fuente:
-                log("   tope de tiempo alcanzado: el resto de detalles sigue en la próxima corrida")
-                break
+    """Visita el detalle de los anuncios que aún no lo tienen (galería, fecha, disponibilidad).
+
+    Cada portal va en su propio hilo: la pausa entre peticiones es por dominio, así que visitar
+    varios portales a la vez no aumenta la carga sobre ninguno y multiplica lo que se alcanza."""
+    from concurrent.futures import ThreadPoolExecutor
+    fin = T0 + config.MINUTOS_MAX_DETALLE * 60
+    with ThreadPoolExecutor(max_workers=len(CON_DETALLE)) as ex:
+        trabajos = [(f, ex.submit(_enriquecer_fuente, f, m, anuncios, galeria, fin)) for f, m in CON_DETALLE.items()]
+        res = {}
+        for fuente, t in trabajos:
             try:
-                d = modulo.detalle(a["url"])
-            except Exception as e:  # un detalle fallido no detiene la corrida
-                log(f"   detalle {a['id']}: {type(e).__name__}")
-                continue
-            a["det"] = DET_VERSION[fuente]
-            hechos += 1
-            if d.get("disponible") is False:
-                a["disp"] = False
-                retirados += 1
-                continue
-            if d.get("disponible") is True:
-                a["disp"] = True
-            if d.get("publicado") and not a.get("publicado"):
-                a["publicado"] = d["publicado"]
-            # Datos que el listado no trae y el detalle sí (solo si faltan)
-            for k in ("banos", "parq", "estrato", "lat", "lon", "mascotas", "amen", "piso", "area", "hab", "admin", "anunciante", "tel", "wa", "barrio"):
-                if d.get(k) not in (None, "", []) and a.get(k) in (None, "", [], 0):
-                    a[k] = d[k]
-            resumen_galeria(a, guardar_galeria(galeria, a["id"], d))
-        res[fuente] = {"detalles": hechos, "retirados": retirados, "pendientes": max(0, len(pendientes) - hechos)}
-        log(f"   detalle {fuente}: {hechos} visitados, {retirados} ya no disponibles, {res[fuente]['pendientes']} pendientes")
+                res[fuente], lineas = t.result()
+            except Exception as e:  # un portal con fallo inesperado no tumba la corrida
+                res[fuente], lineas = {"detalles": 0, "retirados": 0, "error": f"{type(e).__name__}: {e}"}, []
+                traceback.print_exc()
+            for linea in lineas:
+                log(linea)
     return res
+
+
+def _enriquecer_fuente(fuente, modulo, anuncios, galeria, fin):
+    lineas = []
+    log = lineas.append
+    # det < DET_VERSION: nunca visitado o visitado antes de que se extrajeran los campos actuales
+    pendientes = [a for a in list(anuncios.values())
+                  if a.get("fuente") == fuente and (a.get("det") or 0) < DET_VERSION[fuente] and a.get("disp") is not False
+                  and a.get("precio", 0) <= config.PRECIO_MAX_GUARDAR]
+    # Primero el sur (lo que busca el usuario), luego lo visto más recientemente y lo más nuevo
+    pendientes.sort(key=lambda a: (seleccion.es_del_sur(a, {}), a.get("visto", "")[:10], a.get("visto1", "")), reverse=True)
+    hechos = retirados = 0
+    for a in pendientes[: config.DETALLE_MAX_POR_FUENTE]:
+        if time.time() > fin:
+            log("   tope de tiempo alcanzado: el resto de detalles sigue en la próxima corrida")
+            break
+        try:
+            d = modulo.detalle(a["url"])
+        except Exception as e:  # un detalle fallido no detiene la corrida
+            log(f"   detalle {a['id']}: {type(e).__name__}")
+            continue
+        a["det"] = DET_VERSION[fuente]
+        hechos += 1
+        if d.get("disponible") is False:
+            a["disp"] = False
+            retirados += 1
+            continue
+        if d.get("disponible") is True:
+            a["disp"] = True
+        if d.get("publicado") and not a.get("publicado"):
+            a["publicado"] = d["publicado"]
+        # Datos que el listado no trae y el detalle sí (solo si faltan)
+        for k in ("banos", "parq", "estrato", "lat", "lon", "mascotas", "amen", "piso", "area", "hab", "admin", "anunciante", "tel", "wa", "barrio"):
+            if d.get(k) not in (None, "", []) and a.get(k) in (None, "", [], 0):
+                a[k] = d[k]
+        resumen_galeria(a, guardar_galeria(galeria, a["id"], d))
+    res = {"detalles": hechos, "retirados": retirados, "pendientes": max(0, len(pendientes) - hechos)}
+    log(f"   detalle {fuente}: {hechos} visitados, {retirados} ya no disponibles, {res['pendientes']} pendientes")
+    return res, lineas
 
 
 # Recuadro del Valle de Aburrá: coordenadas fuera de aquí son errores del portal

@@ -41,7 +41,7 @@ ALBERTOALVAREZ_PAGINAS = 20     # páginas por municipio y corrida (9 anuncios p
 # Páginas de detalle por fuente y corrida (Rentola y Alberto Álvarez no traen la
 # galería completa en el listado; se visitan primero los anuncios más nuevos)
 DETALLE_MAX_POR_FUENTE = 400
-MINUTOS_MAX_DETALLE = 18   # tope de tiempo para visitar detalles (GitHub Actions corta a los 45 min)
+MINUTOS_MAX_DETALLE = 30   # tope (desde el inicio de la corrida) para visitar detalles; el paso se corta a los 48 min
 
 # Pausa entre peticiones al mismo sitio (segundos)
 PAUSA_SEGUNDOS = 1.5
