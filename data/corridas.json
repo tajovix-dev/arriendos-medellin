@@ -861,5 +861,152 @@
     "pendientes": 0
    }
   }
+ },
+ {
+  "ts": "2026-11-16T14:15:17-05:00",
+  "seg": 1026,
+  "fuentes": {
+   "fincaraiz": {
+    "leidos": 766,
+    "nuevos": 0,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "rentola": {
+    "leidos": 0,
+    "nuevos": 0,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "albertoalvarez": {
+    "leidos": 650,
+    "nuevos": 0,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "metrocuadrado": {
+    "leidos": 280,
+    "nuevos": 2,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "ciencuadras": {
+    "leidos": 778,
+    "nuevos": 146,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "espaciourbano": {
+    "leidos": 365,
+    "nuevos": 0,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "arrendamientosenvigado": {
+    "leidos": 67,
+    "nuevos": 23,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "softin_livewire": {
+    "leidos": 206,
+    "nuevos": 0,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "escala": {
+    "leidos": 106,
+    "nuevos": 0,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "santafe": {
+    "leidos": 200,
+    "nuevos": 0,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "nutibara": {
+    "leidos": 106,
+    "nuevos": 0,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "doomos": {
+    "leidos": 20,
+    "nuevos": 0,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   }
+  },
+  "detalle": {
+   "Rentola": {
+    "detalles": 0,
+    "retirados": 0,
+    "pendientes": 0
+   },
+   "Alberto Álvarez": {
+    "detalles": 0,
+    "retirados": 0,
+    "pendientes": 0
+   },
+   "Ciencuadras": {
+    "detalles": 28,
+    "retirados": 0,
+    "pendientes": 740
+   },
+   "Espacio Urbano": {
+    "detalles": 26,
+    "retirados": 0,
+    "pendientes": 332
+   },
+   "Arrendamientos Santa Fe": {
+    "detalles": 28,
+    "retirados": 0,
+    "pendientes": 164
+   },
+   "Arrendamientos Nutibara": {
+    "detalles": 28,
+    "retirados": 0,
+    "pendientes": 67
+   },
+   "Doomos": {
+    "detalles": 10,
+    "retirados": 0,
+    "pendientes": 0
+   },
+   "Inmobiliaria La Estrella": {
+    "detalles": 11,
+    "retirados": 0,
+    "pendientes": 0
+   },
+   "Arrendamientos Villacruz": {
+    "detalles": 39,
+    "retirados": 0,
+    "pendientes": 47
+   },
+   "Arrendamientos El Castillo": {
+    "detalles": 39,
+    "retirados": 0,
+    "pendientes": 32
+   },
+   "Livin Inmobiliaria": {
+    "detalles": 0,
+    "retirados": 0,
+    "pendientes": 0
+   }
+  }
  }
 ]

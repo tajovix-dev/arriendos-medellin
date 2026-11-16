@@ -280,6 +280,7 @@
  },
  "Itagüí|guayabal": null,
  "Itagüí|guayabalia": null,
+ "Itagüí|induamerica": null,
  "Itagüí|jardines": {
   "lat": 6.1604453,
   "lon": -75.6204528,
@@ -404,18 +405,25 @@
  "La Estrella|ancon": null,
  "La Estrella|ancon san martin": null,
  "La Estrella|ancon sur": null,
+ "La Estrella|bellavista": null,
+ "La Estrella|bellos aires": null,
  "La Estrella|caldas": null,
  "La Estrella|calle quinta": null,
  "La Estrella|calle vieja": null,
+ "La Estrella|campoalegre": null,
+ "La Estrella|caqueta": null,
  "La Estrella|casa jardin": null,
  "La Estrella|centro pueblo viejo": null,
  "La Estrella|chile": null,
  "La Estrella|comfama": null,
+ "La Estrella|cr arboleda la estrella": null,
+ "La Estrella|cr orion": null,
  "La Estrella|ditaires": null,
  "La Estrella|el dorado": null,
  "La Estrella|el guayabo": null,
  "La Estrella|el palmar": null,
  "La Estrella|el pedrero": null,
+ "La Estrella|escobar": null,
  "La Estrella|ferreria": null,
  "La Estrella|horizontes": null,
  "La Estrella|la aldea": {
@@ -431,6 +439,7 @@
   "lon": -75.6354129,
   "tipo": "lugar"
  },
+ "La Estrella|la ospina": null,
  "La Estrella|la tablaza": {
   "lat": 6.118194,
   "lon": -75.6351392,
@@ -453,6 +462,7 @@
  "La Estrella|poblado sur": null,
  "La Estrella|prados de sabaneta": null,
  "La Estrella|prados sabaneta": null,
+ "La Estrella|primavera": null,
  "La Estrella|pueblo viejo": {
   "lat": 6.1372446,
   "lon": -75.6398683,
@@ -463,10 +473,16 @@
   "lon": -75.6558349,
   "tipo": "lugar"
  },
+ "La Estrella|san agustin": null,
  "La Estrella|san antonio de prado": null,
  "La Estrella|san jose": {
   "lat": 6.1655677,
   "lon": -75.656763,
+  "tipo": "zona"
+ },
+ "La Estrella|san miguel": {
+  "lat": 6.1207717,
+  "lon": -75.642301,
   "tipo": "zona"
  },
  "La Estrella|santa catalina": null,
@@ -483,6 +499,7 @@
   "lon": -75.6351392,
   "tipo": "zona"
  },
+ "La Estrella|tarapaca": null,
  "La Estrella|tierra amarilla": {
   "lat": 6.1518609,
   "lon": -75.6568422,
@@ -493,6 +510,7 @@
   "lon": -75.6403769,
   "tipo": "zona"
  },
+ "La Estrella|ub villa campo": null,
  "La Estrella|villa mira": null,
  "La Estrella|yarumito": null,
  "Medellín|": {
@@ -535,15 +553,29 @@
   "tipo": "zona"
  },
  "Medellín|aves maria": null,
+ "Medellín|barichara": {
+  "lat": 6.1761446,
+  "lon": -75.6506895,
+  "tipo": "lugar"
+ },
+ "Medellín|belalcazar": {
+  "lat": 6.2962488,
+  "lon": -75.5649099,
+  "tipo": "zona"
+ },
  "Medellín|belen": {
   "lat": 6.2258758,
   "lon": -75.6004937,
   "tipo": "zona"
  },
+ "Medellín|belen aguas frias": null,
+ "Medellín|belen aliadas": null,
  "Medellín|belen altavista": null,
+ "Medellín|belen altavista parte baja": null,
  "Medellín|belen fatima": null,
  "Medellín|belen granada": null,
  "Medellín|belen la gloria": null,
+ "Medellín|belen la nubia": null,
  "Medellín|belen la palma": null,
  "Medellín|belen las mercedes": null,
  "Medellín|belen las playas": null,
@@ -594,6 +626,7 @@
   "lon": -75.5653717,
   "tipo": "zona"
  },
+ "Medellín|boyaca las brisas": null,
  "Medellín|bucaros": null,
  "Medellín|buenos aires": {
   "lat": 6.2302293,
@@ -619,6 +652,16 @@
   "lon": -75.6018202,
   "tipo": "zona"
  },
+ "Medellín|campo valdes": {
+  "lat": 6.2737937,
+  "lon": -75.5525065,
+  "tipo": "zona"
+ },
+ "Medellín|caribe": {
+  "lat": 6.2702957,
+  "lon": -75.5727143,
+  "tipo": "zona"
+ },
  "Medellín|carlos e restrepo": {
   "lat": 6.2577752,
   "lon": -75.5809379,
@@ -639,6 +682,7 @@
   "lon": -75.5515838,
   "tipo": "zona"
  },
+ "Medellín|cerca exito colombia": null,
  "Medellín|ciudad del rio": null,
  "Medellín|ciudad rio": null,
  "Medellín|colasania": null,
@@ -660,6 +704,11 @@
   "tipo": "zona"
  },
  "Medellín|cristorey": null,
+ "Medellín|diego echavarria": {
+  "lat": 6.2159884,
+  "lon": -75.5962587,
+  "tipo": "zona"
+ },
  "Medellín|doce de octubre": {
   "lat": 6.297565,
   "lon": -75.5775562,
@@ -787,6 +836,11 @@
  "Medellín|la asomadera": {
   "lat": 6.2364857,
   "lon": -75.5639141,
+  "tipo": "lugar"
+ },
+ "Medellín|la aurora": {
+  "lat": 6.2811306,
+  "lon": -75.614184,
   "tipo": "lugar"
  },
  "Medellín|la candelaria": {
@@ -947,14 +1001,25 @@
   "tipo": "zona"
  },
  "Medellín|manrique central": null,
+ "Medellín|milagrosa": {
+  "lat": 6.2356301,
+  "lon": -75.5543576,
+  "tipo": "zona"
+ },
  "Medellín|miravalle": {
   "lat": 6.2363534,
   "lon": -75.6004829,
   "tipo": "zona"
  },
+ "Medellín|moravia": {
+  "lat": 6.2790017,
+  "lon": -75.5668848,
+  "tipo": "zona"
+ },
  "Medellín|naranjal noroccidente": null,
  "Medellín|naranjitos": null,
  "Medellín|nazareth": null,
+ "Medellín|pablo sexto": null,
  "Medellín|pajarito": {
   "lat": 6.2949518,
   "lon": -75.6076527,
@@ -990,6 +1055,11 @@
   "lon": -75.5846688,
   "tipo": "zona"
  },
+ "Medellín|playon los comuneros": {
+  "lat": 6.3065254,
+  "lon": -75.5530706,
+  "tipo": "zona"
+ },
  "Medellín|poblado": {
   "lat": 6.2006197,
   "lon": -75.5636832,
@@ -1002,6 +1072,7 @@
   "lon": -75.5448249,
   "tipo": "zona"
  },
+ "Medellín|porvenir": null,
  "Medellín|pradito": null,
  "Medellín|prado": {
   "lat": 6.2599757,
@@ -1022,6 +1093,7 @@
  },
  "Medellín|robledo el diamante": null,
  "Medellín|robledo la campina": null,
+ "Medellín|robledo palenque": null,
  "Medellín|robledo parque": null,
  "Medellín|robledo santa maria": null,
  "Medellín|rodeo alto": {
@@ -1090,6 +1162,11 @@
  "Medellín|san miguel": {
   "lat": 6.254853,
   "lon": -75.5558968,
+  "tipo": "zona"
+ },
+ "Medellín|san pablo": {
+  "lat": 6.2871242,
+  "lon": -75.5456186,
   "tipo": "zona"
  },
  "Medellín|santa cruz": {
@@ -1173,12 +1250,22 @@
   "lon": -75.5964846,
   "tipo": "lugar"
  },
+ "Medellín|tricentenario": {
+  "lat": 6.2915489,
+  "lon": -75.5661097,
+  "tipo": "zona"
+ },
  "Medellín|trinidad": {
   "lat": 6.227102,
   "lon": -75.5848003,
   "tipo": "zona"
  },
  "Medellín|triste": null,
+ "Medellín|velodromo": {
+  "lat": 6.2561163,
+  "lon": -75.5957112,
+  "tipo": "zona"
+ },
  "Medellín|via las palmas": null,
  "Medellín|villa hermosa": {
   "lat": 6.2585331,
