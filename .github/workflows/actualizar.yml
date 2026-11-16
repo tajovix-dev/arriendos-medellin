@@ -24,7 +24,7 @@ concurrency:
 jobs:
   actualizar:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 55
     steps:
       - uses: actions/checkout@v4
         with:
@@ -39,7 +39,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Correr scrapers
-        timeout-minutes: 35
+        timeout-minutes: 48
         env:
           # Claves de IA guardadas como secretos del repositorio (nunca en el código)
           GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
@@ -78,7 +78,7 @@ jobs:
           python - <<'EOF'
           import json, sys
           c = json.load(open("data/corridas.json", encoding="utf-8"))[-2:]
-          mala = lambda r, f: (r["fuentes"].get(f) or {}).get("error") or not (r["fuentes"].get(f) or {}).get("leidos")
+          mala = lambda r, f: (r["fuentes"].get(f) or {}).get("error") or not ((r["fuentes"].get(f) or {}).get("leidos") or (r["fuentes"].get(f) or {}).get("omitida"))
           caidas = [f for f in c[-1]["fuentes"] if len(c) == 2 and all(mala(r, f) for r in c)]
           if caidas:
               print(f"::error::Sin datos en 2 corridas seguidas: {', '.join(caidas)}"); sys.exit(1)

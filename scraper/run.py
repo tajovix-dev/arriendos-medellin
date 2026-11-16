@@ -29,12 +29,20 @@ from pathlib import Path
 
 import config
 from scraper import analisis, fotos, noticias, normalizar, seleccion, ubicacion
-from scraper.sources import fincaraiz, rentola, albertoalvarez, metrocuadrado
+from scraper.sources import (fincaraiz, rentola, albertoalvarez, metrocuadrado, ciencuadras, espaciourbano,
+                             arrendamientosenvigado, softin_livewire, escala, santafe, nutibara, doomos)
 
-FUENTES = [fincaraiz, rentola, albertoalvarez, metrocuadrado]
+FUENTES = [fincaraiz, rentola, albertoalvarez, metrocuadrado,
+           # Portales e inmobiliarias agregados el 2026-11-16 (prioridad: el sur del valle)
+           ciencuadras, espaciourbano, arrendamientosenvigado, softin_livewire, escala, santafe, nutibara, doomos]
 # Fuentes cuyo listado no trae galería completa: se visita el detalle de los nuevos
 T0 = time.time()  # inicio de la corrida (topes de tiempo)
-CON_DETALLE = {"Rentola": rentola, "Alberto Álvarez": albertoalvarez}
+CON_DETALLE = {"Rentola": rentola, "Alberto Álvarez": albertoalvarez,
+               "Ciencuadras": ciencuadras, "Espacio Urbano": espaciourbano, "Arrendamientos Santa Fe": santafe,
+               "Arrendamientos Nutibara": nutibara, "Doomos": doomos,
+               # Misma plantilla para 4 inmobiliarias
+               "Inmobiliaria La Estrella": softin_livewire, "Arrendamientos Villacruz": softin_livewire,
+               "Arrendamientos El Castillo": softin_livewire, "Livin Inmobiliaria": softin_livewire}
 
 RAIZ = Path(__file__).resolve().parent.parent
 DATA = RAIZ / "data"
@@ -48,7 +56,7 @@ SHARDS = 64
 
 TZ = timezone(timedelta(hours=-5))  # Colombia
 CAMPOS_GALERIA = ("fotos", "video", "tour")
-DET_VERSION = {"Rentola": 2, "Alberto Álvarez": 4}  # súbelo (por portal) cuando el detalle extraiga campos nuevos
+DET_VERSION = {"Rentola": 2, "Alberto Álvarez": 4, **{f: 1 for f in CON_DETALLE if f not in ("Rentola", "Alberto Álvarez")}}  # súbelo (por portal) cuando el detalle extraiga campos nuevos
 
 
 def ahora():
@@ -178,8 +186,10 @@ def enriquecer(anuncios, galeria, ts, log):
                       and a.get("precio", 0) <= config.PRECIO_MAX_GUARDAR]
         pendientes.sort(key=lambda a: a.get("visto1", ""), reverse=True)  # primero los más nuevos
         hechos = retirados = 0
+        quedan = len(CON_DETALLE) - list(CON_DETALLE).index(fuente)
+        fin_fuente = time.time() + max(0, T0 + config.MINUTOS_MAX_DETALLE * 60 - time.time()) / quedan
         for a in pendientes[: config.DETALLE_MAX_POR_FUENTE]:
-            if time.time() - T0 > config.MINUTOS_MAX_DETALLE * 60:
+            if time.time() > fin_fuente:
                 log("   tope de tiempo alcanzado: el resto de detalles sigue en la próxima corrida")
                 break
             try:
@@ -198,7 +208,7 @@ def enriquecer(anuncios, galeria, ts, log):
             if d.get("publicado") and not a.get("publicado"):
                 a["publicado"] = d["publicado"]
             # Datos que el listado no trae y el detalle sí (solo si faltan)
-            for k in ("banos", "parq", "estrato", "lat", "lon", "mascotas", "amen", "piso"):
+            for k in ("banos", "parq", "estrato", "lat", "lon", "mascotas", "amen", "piso", "area", "hab", "admin", "anunciante", "tel", "wa", "barrio"):
                 if d.get(k) not in (None, "", []) and a.get(k) in (None, "", [], 0):
                     a[k] = d[k]
             resumen_galeria(a, guardar_galeria(galeria, a["id"], d))
@@ -498,7 +508,7 @@ def migrar_si_hace_falta():
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--rapido", action="store_true")
-    ap.add_argument("--solo", help="fincaraiz, rentola, albertoalvarez o metrocuadrado")
+    ap.add_argument("--solo", help="NOMBRE de una fuente (p. ej. fincaraiz, ciencuadras, espaciourbano)")
     ap.add_argument("--sin-detalle", action="store_true", help="no visitar páginas de detalle")
     args = ap.parse_args()
 
@@ -548,6 +558,8 @@ def main():
         except Exception as e:  # una fuente caída no detiene a las demás
             cont["error"] = f"{type(e).__name__}: {e}"
             traceback.print_exc()
+        if estado[fuente.NOMBRE].pop("_omitida", False):
+            cont["omitida"] = True  # la fuente decidió no consultar en esta corrida (no es una caída)
         resumen[fuente.NOMBRE] = cont
         log(f"   {cont}")
         escribir(F_ESTADO, json.dumps(estado, ensure_ascii=False, indent=1))

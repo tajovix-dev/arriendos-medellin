@@ -42,7 +42,7 @@ let descartados = new Set(LS.get("ocultos", []));
 const DEF = () => ({
   q: "", municipios: [], pmin: 0, pmax: PRESUPUESTO, hab: 0, banos: 0, area: 0, estratos: [],
   fuentes: [], novedad: 0, bajaron: false, dup: true, favs: false,
-  descartados: false, conAdmin: false, orden: "nuevo", zona: false, buenPrecio: false, sinAlertas: false, barrios: [], recoBarrio: "", soloSur: false, conVideo: false, reciente: 0, sinAntiguos: false, banosSinDato: false,
+  descartados: false, conAdmin: false, orden: "nuevo", zona: false, buenPrecio: false, sinAlertas: false, barrios: [], recoBarrio: "", soloSur: true, conVideo: false, reciente: 0, sinAntiguos: false, banosSinDato: false,
 });
 let S = null;
 let vista = LS.get("vista", "split");
@@ -945,6 +945,7 @@ function tarjeta(it) {
       </span>
     </div>
     <span class="acciones">
+      <button class="acc" data-acc="compartir" aria-label="Compartir enlace a este apartamento" title="Compartir / copiar enlace">${ICO_COMPARTIR}</button>
       <button class="acc ${fav ? "fav-on" : ""}" data-acc="fav" aria-label="${fav ? "Quitar de favoritos" : "Guardar en favoritos"}" title="${fav ? "Quitar de favoritos" : "Guardar"}">${fav ? "★" : "☆"}</button>
       <button class="acc" data-acc="desc" aria-label="${desc ? "Restaurar" : "Descartar"}" title="${desc ? "Restaurar" : "No me interesa"}">${desc ? "↺" : "✕"}</button>
     </span>
@@ -1381,6 +1382,42 @@ function idYoutube(url) {
 }
 const buscarItem = (id) => RES.find((x) => x.id === id) || TODOS.find((x) => x.id === id);
 
+/* ---------- Compartir: enlace que abre la ficha del apartamento en esta página ---------- */
+const ICO_COMPARTIR = `<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7"/><path d="M12 15V3"/><path d="M7 8l5-5 5 5"/></svg>`;
+function enlaceAnuncio(it) {
+  return `${location.origin}${location.pathname}#a=${encodeURIComponent(it.id)}`;
+}
+async function compartirAnuncio(it) {
+  if (!it) return;
+  const url = enlaceAnuncio(it);
+  const texto = `${pesos(it.precio)} · ${[specsCortas(it), lugarDe(it)].filter(Boolean).join(" · ")}`;
+  if (navigator.share && ES_TACTIL) {
+    try { await navigator.share({ title: "Apartamento en arriendo", text: texto, url }); return; }
+    catch (e) { if (e && e.name === "AbortError") return; }  // el usuario cerró el menú de compartir
+  }
+  let ok = false;
+  try { await navigator.clipboard.writeText(url); ok = true; }
+  catch {
+    const ta = document.createElement("textarea");
+    ta.value = url; ta.setAttribute("readonly", ""); ta.style.cssText = "position:fixed;opacity:0;top:0;left:0";
+    document.body.appendChild(ta); ta.select();
+    try { ok = document.execCommand("copy"); } catch { ok = false; }
+    ta.remove();
+  }
+  toast(ok ? "🔗 Enlace copiado: al abrirlo se ve este apartamento" : `Copia este enlace: ${url}`);
+}
+/** Si la página se abrió con #a=<id>, abre directo la ficha de ese apartamento. */
+function abrirDesdeEnlace() {
+  const m = location.hash.match(/^#a=(.+)$/);
+  if (!m) return;
+  const id = decodeURIComponent(m[1]);
+  history.replaceState(history.state, "", location.pathname + location.search);  // limpia el #a= de la barra
+  const it = TODOS.find((x) => x.id === id);
+  if (it) abrirVisor(it);
+  else toast("Ese apartamento ya no está disponible (se arrendó o el portal lo retiró)");
+}
+window.addEventListener("hashchange", abrirDesdeEnlace);
+
 async function moverFotoTarjeta(card, paso) {
   const it = buscarItem(card.dataset.id);
   if (!it) return;
@@ -1483,6 +1520,7 @@ function detalleHTML(it) {
         <p class="det-fecha ${antiguedad(it) ? "vieja" : ""}">📅 ${it.publicado ? `Publicado ${haceLargo(diasPublicado(it))} · ${fechaCorta(it.publicado)}` : `${esc(it.fuente)} no informa la fecha de publicación${it.visto1 ? ` · en esta página desde ${fechaCorta(it.visto1.slice(0, 10))}` : ""}`}</p></div>
       <div class="det-acc">
         <button class="acc-det ${fav ? "on" : ""}" data-acc="fav" aria-label="${fav ? "Quitar de favoritos" : "Guardar en favoritos"}">${fav ? "★ Guardado" : "☆ Guardar"}</button>
+        <button class="acc-det" data-acc="compartir" aria-label="Compartir enlace a este apartamento">${ICO_COMPARTIR} Compartir</button>
         <button class="acc-det" data-acc="desc" aria-label="${desc ? "Restaurar" : "No me interesa"}">${desc ? "↺ Restaurar" : "✕ No me interesa"}</button>
       </div>
     </div>
@@ -1977,7 +2015,7 @@ function tablaFuentes() {
   for (const r of c.slice(-6).reverse()) {
     for (const [f, v] of Object.entries(r.fuentes || {})) {
       h += `<tr><td>${esc(r.ts.slice(5, 16).replace("T", " "))}</td><td>${esc(f)}</td><td class="n">${v.leidos}</td><td class="n">${v.nuevos}</td><td class="n">${v.bajaron}</td>
-        <td class="${v.error || !v.leidos ? "err" : "ok"}">${v.error ? esc(v.error) : v.leidos ? "OK" : "0 leídos: posible bloqueo"}</td></tr>`;
+        <td class="${v.error || (!v.leidos && !v.omitida) ? "err" : "ok"}">${v.error ? esc(v.error) : v.leidos ? "OK" : v.omitida ? "Sin consulta esta vez" : "0 leídos: posible bloqueo"}</td></tr>`;
     }
   }
   h += `</table>`;
@@ -2082,13 +2120,17 @@ document.addEventListener("click", (e) => {
       });
     } else if (t.dataset.acc === "mapa") {
       cerrarVisor();
-      setTimeout(() => irAlMapa(id), 60);
+      setTimeout(() => irAlMapa(id), 60);    } else if (t.dataset.acc === "compartir") {
+      compartirAnuncio(it);
     }
   } else if (t.dataset.acc) {
     const card = t.closest(".tarjeta");
     if (!card) return;
     const id = card.dataset.id;
-    if (t.dataset.acc === "g-ant" || t.dataset.acc === "g-sig") {
+    if (t.dataset.acc === "compartir") {
+      e.stopPropagation();
+      compartirAnuncio(buscarItem(id));
+    } else if (t.dataset.acc === "g-ant" || t.dataset.acc === "g-sig") {
       e.stopPropagation();
       moverFotoTarjeta(card, t.dataset.acc === "g-sig" ? 1 : -1);
     } else if (t.dataset.acc === "visor") {
@@ -2389,6 +2431,8 @@ async function iniciar() {
   PRECIO_TOPE = m.precio_max || PRECIO_TOPE;
   S = { ...DEF(), ...LS.get("filtros2", {}) };
   if (S.orden === "m2") S.orden = "nuevo"; // orden por precio/m² eliminado
+  // El interés es el sur: se enciende «Solo el sur» una vez también para quien ya tenía filtros guardados
+  if (!LS.get("surPorDefecto", false)) { S.soloSur = true; LS.set("surPorDefecto", true); }
   // Si el tope de precio cambió, un filtro guardado por encima se ajusta al nuevo
   if (!S.pmax || S.pmax > PRECIO_TOPE) S.pmax = Math.min(PRESUPUESTO, PRECIO_TOPE);
   if (S.pmin >= PRECIO_TOPE) S.pmin = 0;
@@ -2401,6 +2445,7 @@ async function iniciar() {
   $("#actualizado").textContent = `${NF.format(TODOS.length)} disponibles · actualizado ${hace(d.generado)} · cada 6 h${sinActualizar ? " · ⚠ lleva más de 12 h sin actualizarse" : ""}`;
   cambiarVista(vista);
   render();
+  abrirDesdeEnlace();
 }
 
 iniciar().catch((e) => {

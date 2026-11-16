@@ -6,6 +6,7 @@ de cada barrio. La IA solo puede elegir entre esos anuncios (se valida) y explic
 Una llamada por corrida. Si no hay IA disponible, no se publica nada y la página sigue igual.
 """
 import json
+import re
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -25,6 +26,25 @@ def _info_barrios():
         for b in m.get("barrios", []):
             out[(m["municipio"], b["nombre"].lower())] = b
     return out
+
+
+# Al usuario le interesa el sur del valle: los 4 municipios y el sur de Medellín (mismo criterio que
+# el interruptor «Solo el sur» de la página)
+SUR_MUNICIPIOS = {"Sabaneta", "Envigado", "Itagüí", "La Estrella"}
+_SUR_MED = re.compile(r"comuna 1[456]|el poblado|guayabal|bel[eé]n|san antonio de prado|altavista|"
+                      r"(provenza|manila|astorga|castropol|lalinde|las lomas|los balsos|el tesoro|los naranjos|"
+                      r"la aguacatala|ciudad del r[ií]o|barrio colombia|villa carlota|patio bonito|san lucas|el diamante|"
+                      r"tenche|trinidad|santa fe|shellmar|campo amor|cristo rey|la colina|f[aá]tima|rosales|granada|"
+                      r"san bernardo|las playas|la mota|loma de los bernal|la gloria|los alpes|las mercedes|malib[uú]|"
+                      r"rodeo alto|nueva villa de aburr[aá]|miravalle|el nogal|los almendros)", re.I)
+
+
+def es_del_sur(v, b):
+    if v["municipio"] in SUR_MUNICIPIOS:
+        return True
+    if v["municipio"] != "Medellín":
+        return False
+    return bool(_SUR_MED.search(v.get("barrio") or "") or _SUR_MED.search(b.get("comuna") or ""))
 
 
 def _dias(pub):
@@ -55,6 +75,8 @@ def generar(visibles, destino, log=print):
                 continue
             vistos_dup.add(v["dup"])
         b = info.get((v["municipio"], (v.get("barrio") or "").lower()), {})
+        if not es_del_sur(v, b):
+            continue
         cand.append((v, b, d))
     cand.sort(key=lambda x: x[0]["dif"])
     cand = cand[:40]
@@ -80,7 +102,8 @@ def generar(visibles, destino, log=print):
             f'| barrio: {b.get("recomendacion", "sin investigar")}, seguridad {b.get("seguridad", "?")}, terreno {b.get("terreno", "?")}'
         )
     prompt = (
-        "Eres un asesor de arriendos en el Valle de Aburrá (Colombia). Presupuesto máximo $2.000.000 COP.\n"
+        "Eres un asesor de arriendos en el Valle de Aburrá (Colombia). Presupuesto máximo $2.000.000 COP. "
+        "La persona busca en el SUR del valle (Sabaneta, La Estrella, Envigado, Itagüí y el sur de Medellín).\n"
         "Estos son los mejores candidatos de hoy (id | canon | tamaño | estrato | ubicación | precio frente a apartamentos parecidos "
         "| días publicado | fotos | lo que sabemos del barrio):\n" + "\n".join(filas) + "\n\n"
         "Elige hasta 6 'imperdibles' equilibrando precio, tamaño, seguridad del barrio y que sean recientes. "

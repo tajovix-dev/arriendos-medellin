@@ -1247,3 +1247,7 @@ details.datos-g summary { cursor: pointer; font-size: .8rem; color: var(--acento
 
 .publicado { font-weight: 600; color: var(--texto); }
 .publicado.sin-fecha { font-weight: 500; color: var(--tenue); }
+
+/* Compartir */
+.acc svg { display: block; }
+.acc-det svg { vertical-align: -3px; }
