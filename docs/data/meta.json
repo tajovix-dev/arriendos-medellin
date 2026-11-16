@@ -1,6 +1,6 @@
 {
- "generado": "2026-11-16T10:11:39-05:00",
- "total": 1324,
+ "generado": "2026-11-16T10:24:50-05:00",
+ "total": 1326,
  "presupuesto_defecto": 2000000,
  "precio_max": 2000000,
  "publicacion_max_dias": 60,
@@ -679,6 +679,52 @@
     },
     "Alberto Álvarez": {
      "detalles": 67,
+     "retirados": 0,
+     "pendientes": 0
+    }
+   }
+  },
+  {
+   "ts": "2026-11-16T10:24:50-05:00",
+   "seg": 305,
+   "fuentes": {
+    "fincaraiz": {
+     "leidos": 503,
+     "nuevos": 0,
+     "bajaron": 0,
+     "retirados": 0,
+     "error": null
+    },
+    "rentola": {
+     "leidos": 2100,
+     "nuevos": 2,
+     "bajaron": 0,
+     "retirados": 0,
+     "error": null
+    },
+    "albertoalvarez": {
+     "leidos": 650,
+     "nuevos": 0,
+     "bajaron": 0,
+     "retirados": 0,
+     "error": null
+    },
+    "metrocuadrado": {
+     "leidos": 280,
+     "nuevos": 0,
+     "bajaron": 0,
+     "retirados": 0,
+     "error": null
+    }
+   },
+   "detalle": {
+    "Rentola": {
+     "detalles": 2,
+     "retirados": 0,
+     "pendientes": 0
+    },
+    "Alberto Álvarez": {
+     "detalles": 0,
      "retirados": 0,
      "pendientes": 0
     }
