@@ -101,7 +101,21 @@ def detalle(url):
             m_fin = otro.search(t, i + 20)
             bloque = t[i: m_fin.start() if m_fin else i + 40000]
             fotos = list(dict.fromkeys(re.findall(r'https://lh3\.googleusercontent\.com/[^"\\\s,]+', bloque)))
+    # Fecha de publicación: "CreatedAt" del bloque del propio inmueble (no de los similares)
+    publicado = None
+    i = t.find('"PropertyId":"' + codigo + '"')
+    if i >= 0:
+        ini = t.rfind('{"Id":', 0, i)
+        bloque = t[ini if ini >= 0 else i: i + 3000]
+        m_c = re.search(r'"CreatedAt":"(\d{4}-\d{2}-\d{2})T(\d{2})', bloque)
+        if m_c:
+            from datetime import date, timedelta
+            d = date.fromisoformat(m_c.group(1))
+            if int(m_c.group(2)) < 5:          # UTC → hora Colombia (UTC-5)
+                d -= timedelta(days=1)
+            publicado = d.isoformat()
     return {
+        "publicado": publicado,
         "fotos": fotos,
         "lat": lat if lat and 6.0 < lat < 6.45 else None,
         "lon": lon if lon and -75.8 < lon < -75.4 else None,

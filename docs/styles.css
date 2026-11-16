@@ -1244,3 +1244,6 @@ details.datos-g summary { cursor: pointer; font-size: .8rem; color: var(--acento
 .imp-chip small { font-weight: 400; color: var(--tenue); margin-left: 2px; }
 .imp-consejo { margin-top: 10px; padding: 8px 10px; border-radius: 10px; background: color-mix(in srgb, #f59e0b 12%, var(--sup)); font-size: .86rem; line-height: 1.45; color: var(--texto); }
 .imp-zonas .imp-chip, .imp-zonas .imp-chip small { text-decoration: none; }
+
+.publicado { font-weight: 600; color: var(--texto); }
+.publicado.sin-fecha { font-weight: 500; color: var(--tenue); }

@@ -915,8 +915,12 @@ function tarjeta(it) {
   const nf = it.nf || (it.img ? 1 : 0);
   // Solo se muestra lo que el portal informa: fecha de publicación y disponibilidad
   const dPub = diasPublicado(it), ant = antiguedad(it);
+  // Siempre una fecha: la de publicación del portal o, si el portal no la da, desde cuándo está en esta página
+  const visto = !it.publicado && it.visto1 && !it.ini ? it.visto1.slice(0, 10) : null;
   const publicado = it.publicado && !ant
-    ? `<span class="publicado" title="Publicado el ${fechaCorta(it.publicado)} según ${esc(it.fuente)}">Publicado ${haceLargo(dPub)}</span>` : "";
+    ? `<span class="publicado" title="Publicado el ${fechaCorta(it.publicado)} según ${esc(it.fuente)}">📅 Publicado ${haceLargo(dPub)} · ${fechaCorta(it.publicado)}</span>`
+    : !it.publicado
+    ? `<span class="publicado sin-fecha" title="${esc(it.fuente)} no informa la fecha de publicación">📅 ${visto ? `En la página desde ${fechaCorta(visto)}` : `${esc(it.fuente)} no da la fecha`}</span>` : "";
   const avisoAnt = ant === "alto"
     ? `<div class="aviso-antiguo alto" title="Publicado el ${fechaCorta(it.publicado)} según ${esc(it.fuente)}">⚠ Publicado ${haceLargo(dPub)}${it.disp ? ". El portal aún lo muestra, pero" : ":"} lo más probable es que ya no esté disponible. Confirma antes de ir.</div>`
     : ant === "medio"
@@ -1476,7 +1480,7 @@ function detalleHTML(it) {
   return `<div class="detalle-ficha" data-id="${esc(it.id)}">
     <div class="det-cab">
       <div>${bloquePrecio(it, bajada(it))}<p class="tenue det-adm">${adm}</p>
-        <p class="det-fecha ${antiguedad(it) ? "vieja" : ""}">📅 ${it.publicado ? `Publicado ${haceLargo(diasPublicado(it))} · ${fechaCorta(it.publicado)}` : `${esc(it.fuente)} no informa la fecha de publicación`}</p></div>
+        <p class="det-fecha ${antiguedad(it) ? "vieja" : ""}">📅 ${it.publicado ? `Publicado ${haceLargo(diasPublicado(it))} · ${fechaCorta(it.publicado)}` : `${esc(it.fuente)} no informa la fecha de publicación${it.visto1 && !it.ini ? ` · en esta página desde ${fechaCorta(it.visto1.slice(0, 10))}` : ""}`}</p></div>
       <div class="det-acc">
         <button class="acc-det ${fav ? "on" : ""}" data-acc="fav" aria-label="${fav ? "Quitar de favoritos" : "Guardar en favoritos"}">${fav ? "★ Guardado" : "☆ Guardar"}</button>
         <button class="acc-det" data-acc="desc" aria-label="${desc ? "Restaurar" : "No me interesa"}">${desc ? "↺ Restaurar" : "✕ No me interesa"}</button>

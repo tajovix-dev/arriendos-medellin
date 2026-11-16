@@ -48,7 +48,7 @@ SHARDS = 64
 
 TZ = timezone(timedelta(hours=-5))  # Colombia
 CAMPOS_GALERIA = ("fotos", "video", "tour")
-DET_VERSION = {"Rentola": 2, "Alberto Álvarez": 3}  # súbelo (por portal) cuando el detalle extraiga campos nuevos
+DET_VERSION = {"Rentola": 2, "Alberto Álvarez": 4}  # súbelo (por portal) cuando el detalle extraiga campos nuevos
 
 
 def ahora():
