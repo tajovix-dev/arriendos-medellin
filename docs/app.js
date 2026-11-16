@@ -188,20 +188,34 @@ function ordenar(lista) {
   return lista.sort(f);
 }
 
+/** Qué versión del mismo apartamento se muestra como principal (tarjeta y mapa):
+ *  la que permite contactar gratis, luego la que no es de un portal que cobra, luego la más completa. */
+const PORTALES_DE_PAGO = new Set(["Rentola"]);
+function utilidad(it) {
+  const datos = ["hab", "banos", "area", "estrato", "parq", "barrio", "anunciante", "publicado"].filter((k) => it[k] != null && it[k] !== "").length;
+  return (it.tel || it.wa ? 100 : 0) + (PORTALES_DE_PAGO.has(it.fuente) ? 0 : 50) + datos * 2 + Math.min(it.nf || 0, 10);
+}
 function agrupar(lista) {
   if (!S.dup) { lista.forEach((x) => (x._otras = [])); return lista; }
+  // El grupo conserva el lugar de su primera aparición en el orden elegido
   const grupos = new Map();
   const out = [];
   for (const it of lista) {
-    it._otras = [];
-    if (it.dup != null) {
-      const g = grupos.get(it.dup);
-      if (g) { if (g.fuente !== it.fuente && !g._otras.some((o) => o.fuente === it.fuente)) g._otras.push(it); continue; }
-      grupos.set(it.dup, it);
-    }
-    out.push(it);
+    if (it.dup == null) { out.push(it); continue; }
+    const g = grupos.get(it.dup);
+    if (g) g.push(it);
+    else { const nuevo = [it]; grupos.set(it.dup, nuevo); out.push(nuevo); }
   }
-  return out;
+  return out.map((x) => {
+    if (!Array.isArray(x)) { x._otras = []; return x; }
+    const mejor = x.reduce((a, b) => (utilidad(b) > utilidad(a) ? b : a));
+    mejor._otras = [];
+    for (const o of x) {
+      o._otras = o === mejor ? mejor._otras : [];
+      if (o !== mejor && o.fuente !== mejor.fuente && !mejor._otras.some((y) => y.fuente === o.fuente)) mejor._otras.push(o);
+    }
+    return mejor;
+  });
 }
 
 /* =========================================================
