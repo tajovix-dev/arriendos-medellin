@@ -32,13 +32,14 @@ import config
 from scraper import analisis, fotos, noticias, normalizar, seleccion, ubicacion
 from scraper.sources import (fincaraiz, rentola, albertoalvarez, metrocuadrado, ciencuadras, espaciourbano,
                              arrendamientosenvigado, softin_livewire, escala, santafe, nutibara, doomos,
-                             softinm, duquegiraldo, wasi_sitios, vicasa)
+                             softinm, duquegiraldo, wasi_sitios, vicasa, viviendo)
 
 FUENTES = [fincaraiz, rentola, albertoalvarez, metrocuadrado,
            # Portales e inmobiliarias agregados el 2026-11-16 (prioridad: el sur del valle)
            ciencuadras, espaciourbano, arrendamientosenvigado, softin_livewire, escala, santafe, nutibara, doomos,
            # Inmobiliarias originales que antes solo llegaban copiadas por Rentola
-           softinm, duquegiraldo, wasi_sitios, vicasa]
+           softinm, duquegiraldo, wasi_sitios, vicasa,
+           viviendo]   # portal de Domus: Maxibienes, Portada y otras (sin teléfono: lo da tras un formulario)
 # Fuentes cuyo listado no trae galería completa: se visita el detalle de los nuevos
 T0 = time.time()  # inicio de la corrida (topes de tiempo)
 CON_DETALLE = {"Rentola": rentola, "Alberto Álvarez": albertoalvarez,
@@ -49,7 +50,8 @@ CON_DETALLE = {"Rentola": rentola, "Alberto Álvarez": albertoalvarez,
                "Arrendamientos El Castillo": softin_livewire, "Livin Inmobiliaria": softin_livewire,
                # Plantilla Softinm clásica (5 inmobiliarias) y Duque Giraldo: galería, estrato y contacto de la ficha
                "Arrendamientos Sukasa": softinm, "Mi Lugar Inmobiliario": softinm, "Arrendamientos La Aldea": softinm,
-               "Survivienda": softinm, "Su Vivienda": softinm, "Duque Giraldo": duquegiraldo}
+               "Survivienda": softinm, "Su Vivienda": softinm, "Duque Giraldo": duquegiraldo,
+               "Viviendo": viviendo}
 
 RAIZ = Path(__file__).resolve().parent.parent
 DATA = RAIZ / "data"

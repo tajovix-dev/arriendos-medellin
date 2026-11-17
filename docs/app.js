@@ -194,7 +194,10 @@ const PORTALES_DE_PAGO = new Set(["Rentola"]);
 // Muestran anuncios de otras inmobiliarias (feed de Wasi / bolsa compartida): mejor el original
 const INTERMEDIARIOS = new Set(["Doomos", "Livin Inmobiliaria"]);
 const NOMBRE_PORTAL = { "metrocuadrado.com": "Metrocuadrado", "ciencuadras.com": "Ciencuadras", "properati.com.co": "Properati",
-  "fincaraiz.com.co": "Fincaraíz", "puntopropiedad.com": "Puntopropiedad", "espaciourbano.com": "Espacio Urbano" };
+  "fincaraiz.com.co": "Fincaraíz", "puntopropiedad.com": "Puntopropiedad", "espaciourbano.com": "Espacio Urbano",
+  "viviendo.la": "Viviendo" };
+// Portales que muestran el teléfono solo después de llenar un formulario
+const CONTACTO_CON_FORMULARIO = new Set(["Viviendo"]);
 function portalDe(u) {
   try { const d = new URL(u).hostname.replace(/^www\./, ""); return NOMBRE_PORTAL[d] || d; } catch { return "el portal original"; }
 }
@@ -1008,7 +1011,7 @@ function lineaOrigen(it) {
   const partes = [`Sacado de <a href="${esc(urlOk(it.url))}" target="_blank" rel="noopener noreferrer">${esc(sitioDe(it))}</a> (${esc(tipoOrigen(it))})`
     + (varias ? (it === originalDe(it) ? " · original" : " · copia") : "")];
   if (esDePago(it)) partes.push("⚠ Rentola cobra por contactar");
-  else if (!soloDigitos(it.tel) && !soloDigitos(it.wa)) partes.push("teléfono en el anuncio");
+  else if (!soloDigitos(it.tel) && !soloDigitos(it.wa)) partes.push(CONTACTO_CON_FORMULARIO.has(it.fuente) ? "el teléfono lo dan tras llenar un formulario" : "teléfono en el anuncio");
   else if (it.ofi) partes.push("línea general de la inmobiliaria (da el código del anuncio)");
   else if (it.anunciante && !/persona natural/i.test(it.anunciante)) partes.push(esc(it.anunciante));
   const otraConTel = !soloDigitos(it.tel) && !soloDigitos(it.wa) && varias && GRUPOS[it.dup].find((v) => v.tel || v.wa);
@@ -1097,6 +1100,7 @@ function filaContacto(it) {
   const quien = it.anunciante && !/persona natural/i.test(it.anunciante) ? ` · ${esc(it.anunciante)}` : "";
   if (!tel && !wa) {
     if (esDePago(it)) return `<div class="contacto sin-tel">⚠ Rentola cobra por contactar y aún no sabemos de qué página copió este anuncio</div>`;
+    if (CONTACTO_CON_FORMULARIO.has(it.fuente)) return `<div class="contacto sin-tel">📞 ${esc(sitioDe(it))} da el teléfono después de llenar un formulario en su página${quien}</div>`;
     return `<div class="contacto sin-tel">📞 Teléfono en el anuncio de ${esc(sitioDe(it))}${quien}</div>`;
   }
   const telIntl = tel ? (tel.startsWith("57") ? tel : "57" + tel) : "";
