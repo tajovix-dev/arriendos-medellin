@@ -586,6 +586,11 @@
   "lon": -75.6506895,
   "tipo": "lugar"
  },
+ "Medellín|barrios jesus": {
+  "lat": 6.2299391,
+  "lon": -75.5370999,
+  "tipo": "zona"
+ },
  "Medellín|belalcazar": {
   "lat": 6.2962488,
   "lon": -75.5649099,
@@ -884,6 +889,7 @@
   "lon": -75.5977433,
   "tipo": "lugar"
  },
+ "Medellín|floresta alcazares": null,
  "Medellín|floresta pradera": null,
  "Medellín|florida nueva": {
   "lat": 6.2513549,
@@ -954,6 +960,7 @@
   "lon": -75.5924048,
   "tipo": "zona"
  },
+ "Medellín|la colinita": null,
  "Medellín|la ferreria": null,
  "Medellín|la floresta": {
   "lat": 6.2564077,
@@ -1425,6 +1432,7 @@
   "tipo": "zona"
  },
  "Medellín|triste": null,
+ "Medellín|ub loyola": null,
  "Medellín|velodromo": {
   "lat": 6.2561163,
   "lon": -75.5957112,
