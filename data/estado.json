@@ -404,8 +404,13 @@
     ],
     [
      1950000,
+     1969999,
+     2
+    ],
+    [
+     1970000,
      2000000,
-     15
+     13
     ]
    ],
    "apartaestudio/la-estrella": [
@@ -417,7 +422,7 @@
    ]
   },
   "inicio": 0,
-  "peticiones": 62,
+  "peticiones": 64,
   "ciclos": 2
  },
  "espaciourbano": {
@@ -2790,7 +2795,7 @@
   "inicializado": true
  },
  "nutibara": {
-  "ultima_descarga": 1794878554,
+  "ultima_descarga": 1794879802,
   "inicializado": true
  },
  "doomos": {
@@ -4226,6 +4231,11 @@
     "10463281": [
      "2026-10-15T21:46:40.560Z",
      "2026-10-02",
+     null
+    ],
+    "10460540": [
+     "2026-10-03T15:03:46.281Z",
+     "2026-10-01",
      null
     ]
    }

@@ -1010,8 +1010,8 @@
   }
  },
  {
-  "ts": "2026-11-16T20:08:20-05:00",
-  "seg": 1801,
+  "ts": "2026-11-16T20:30:30-05:00",
+  "seg": 1747,
   "fuentes": {
    "fincaraiz": {
     "leidos": 503,
@@ -1145,9 +1145,9 @@
     "pendientes": 0
    },
    "Ciencuadras": {
-    "detalles": 376,
+    "detalles": 400,
     "retirados": 0,
-    "pendientes": 364
+    "pendientes": 340
    },
    "Espacio Urbano": {
     "detalles": 332,
@@ -1220,9 +1220,9 @@
     "pendientes": 0
    },
    "Viviendo": {
-    "detalles": 379,
+    "detalles": 400,
     "retirados": 0,
-    "pendientes": 224
+    "pendientes": 203
    }
   }
  }
