@@ -66,6 +66,11 @@ def _disponible(availability):
     return availability.rstrip("/").split("/")[-1] in ("InStock", "InStoreOnly", "OnlineOnly", "LimitedAvailability", "PreOrder")
 
 
+def _origen(html):
+    m = re.search(r'\\?"sourceUrl\\?"\s*:\s*\\?"(https?://[^"\\]+)', html)
+    return m.group(1) if m else None
+
+
 def detalle(url):
     """Visita la página del anuncio: galería completa, fecha y disponibilidad."""
     html = get(url, si_404=GONE)
@@ -92,6 +97,9 @@ def detalle(url):
                 "publicado": _fecha_colombia(j.get("datePosted") or oferta.get("validFrom")),
                 "disponible": disp,
                 "banos": banos or None,
+                # Rentola copia anuncios de otros portales y cobra por contactar; la página original
+                # (Metrocuadrado, Ciencuadras, Properati, inmobiliarias...) es gratis y trae el contacto
+                "orig": _origen(html),
             }
     return {}
 

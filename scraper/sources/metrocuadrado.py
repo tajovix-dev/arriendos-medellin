@@ -1,7 +1,11 @@
 """Metrocuadrado: objetos de resultados dentro del payload RSC de Next.js.
 
-Limitación conocida: la paginación es interna (no responde a parámetros de URL),
-así que por ahora solo se lee la primera página (~60 anuncios) por municipio.
+La paginación es interna (no responde a parámetros de URL): cada búsqueda devuelve como mucho
+~50 anuncios y su total en "totalHits". Por eso se filtra en el servidor por canon
+(?search=form&leaseRange=min,max) y, si una búsqueda tiene más de lo que devuelve, se parte en
+rangos de precio más pequeños y luego por número de habitaciones (&roomList=N), hasta que cada
+pedazo quepa. Así se cubre todo lo que está en el presupuesto. Trae teléfono y WhatsApp públicos.
+Limitación: no da fecha de publicación.
 """
 import json
 import re
@@ -66,17 +70,63 @@ def _normalizar(r, municipio):
     }
 
 
+MAX_PETICIONES = 80   # por corrida (todos los municipios); el sur va primero
+ANCHO_MIN = 50_000    # por debajo de este rango de precio se parte por habitaciones
+
+
+def _buscar(slug, lo, hi, cuartos=None):
+    url = f"{BASE}/apartamentos/arriendo/{slug}/?search=form&leaseRange={lo},{hi}" + (f"&roomList={cuartos}" if cuartos else "")
+    html = get(url)
+    if not html:
+        return None, 0
+    texto = rsc_payload(html)
+    m = re.search(r'"totalHits"\s*:\s*(\d+)', texto)
+    res = _resultados(texto)
+    return res, int(m.group(1)) if m else len(res)
+
+
+def _barrer(slug, presupuesto):
+    """Todos los anuncios del municipio con canon en rango, partiendo las búsquedas que no caben."""
+    pendientes = [(config.PRECIO_MIN_GUARDAR, config.PRECIO_MAX_GUARDAR, None)]
+    vistos, incompleto = {}, False
+    while pendientes:
+        if presupuesto[0] <= 0:
+            incompleto = True
+            break
+        lo, hi, cuartos = pendientes.pop(0)
+        presupuesto[0] -= 1
+        res, total = _buscar(slug, lo, hi, cuartos)
+        if res is None:
+            incompleto = True
+            continue
+        for r in res:
+            if isinstance(r, dict) and r.get("midinmueble"):
+                vistos[r["midinmueble"]] = r
+        if total > len(res):
+            if hi - lo > ANCHO_MIN and cuartos is None:
+                mitad = (lo + hi) // 2 // 10_000 * 10_000
+                pendientes += [(lo, mitad, None), (mitad + 1, hi, None)]
+            elif cuartos is None:
+                pendientes += [(lo, hi, n) for n in (1, 2, 3, 4)]
+            else:
+                incompleto = True  # mismo precio y habitaciones con más de 50: se queda lo que hay
+    return list(vistos.values()), incompleto
+
+
 def scrape(estado, conocidos, log):
-    for municipio, slugs in config.MUNICIPIOS.items():
+    presupuesto = [MAX_PETICIONES]
+    # El sur primero: si se acaba el presupuesto, lo que falta es Medellín
+    orden = sorted(config.MUNICIPIOS.items(), key=lambda kv: kv[0] == "Medellín")
+    for municipio, slugs in orden:
         slug = slugs.get(NOMBRE)
         if not slug:
             continue
-        html = get(f"{BASE}/apartamentos/arriendo/{slug}/")
-        if not html:
+        antes = presupuesto[0]
+        resultados, incompleto = _barrer(slug, presupuesto)
+        if not resultados:
             continue
-        resultados = _resultados(rsc_payload(html))
-        primera_vez = not estado.get(slug)
-        estado[slug] = {"visto": True}
+        primera_vez = not estado.get(slug) or estado[slug].get("v") != 2
+        estado[slug] = {"visto": True, "v": 2}
         nuevos = 0
         for r in resultados:
             if not isinstance(r, dict) or not r.get("midinmueble"):
@@ -87,4 +137,5 @@ def scrape(estado, conocidos, log):
             if l["id"] not in conocidos:
                 nuevos += 1
             yield l
-        log(f"  metrocuadrado/{slug}: {len(resultados)} leídos, {nuevos} nuevos")
+        log(f"  metrocuadrado/{slug}: {len(resultados)} leídos, {nuevos} nuevos, {antes - presupuesto[0]} peticiones"
+            + (" (incompleto)" if incompleto else ""))

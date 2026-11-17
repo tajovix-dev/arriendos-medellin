@@ -191,9 +191,21 @@ function ordenar(lista) {
 /** Qué versión del mismo apartamento se muestra como principal (tarjeta y mapa):
  *  la que permite contactar gratis, luego la que no es de un portal que cobra, luego la más completa. */
 const PORTALES_DE_PAGO = new Set(["Rentola"]);
+// Muestran anuncios de otras inmobiliarias (feed de Wasi / bolsa compartida): mejor el original
+const INTERMEDIARIOS = new Set(["Doomos", "Livin Inmobiliaria"]);
+const NOMBRE_PORTAL = { "metrocuadrado.com": "Metrocuadrado", "ciencuadras.com": "Ciencuadras", "properati.com.co": "Properati",
+  "fincaraiz.com.co": "Fincaraíz", "puntopropiedad.com": "Puntopropiedad", "espaciourbano.com": "Espacio Urbano" };
+function portalDe(u) {
+  try { const d = new URL(u).hostname.replace(/^www\./, ""); return NOMBRE_PORTAL[d] || d; } catch { return "el portal original"; }
+}
+/** Nombre del sitio donde se ve (y se contacta) el anuncio. */
+function sitioDe(it) { return it.sitio || it.fuente; }
+/** Rentola sin página original conocida: contactar ahí cuesta. */
+function esDePago(it) { return PORTALES_DE_PAGO.has(it.fuente) && !it.urlPago; }
 function utilidad(it) {
   const datos = ["hab", "banos", "area", "estrato", "parq", "barrio", "anunciante", "publicado"].filter((k) => it[k] != null && it[k] !== "").length;
-  return (it.tel || it.wa ? 100 : 0) + (PORTALES_DE_PAGO.has(it.fuente) ? 0 : 50) + datos * 2 + Math.min(it.nf || 0, 10);
+  const origen = PORTALES_DE_PAGO.has(it.fuente) ? 0 : INTERMEDIARIOS.has(it.fuente) ? 25 : 50;
+  return (it.tel || it.wa ? 100 : 0) + (it.ofi ? -10 : 0) + origen + datos * 2 + Math.min(it.nf || 0, 10);
 }
 function agrupar(lista) {
   if (!S.dup) { lista.forEach((x) => (x._otras = [])); return lista; }
@@ -829,6 +841,15 @@ function dato(it, k) {
 }
 /** Una vez al cargar: completa datos faltantes con los del mismo apartamento en otro portal. */
 function completarDuplicados() {
+  // Portales que cobran por contactar (Rentola): si se sabe de qué página copiaron el anuncio,
+  // todos los enlaces llevan a esa página original, que es gratis y tiene el contacto
+  for (const x of TODOS) {
+    if (PORTALES_DE_PAGO.has(x.fuente) && x.orig && /^https?:\/\//.test(x.orig)) {
+      x.urlPago = x.url;
+      x.url = x.orig;
+      x.sitio = `${portalDe(x.orig)} (vía ${x.fuente})`;
+    }
+  }
   const G = {};
   for (const x of TODOS) if (x.dup != null) (G[x.dup] ||= []).push(x);
   const ok = (v) => v != null && v !== "" && v !== 0;
@@ -903,11 +924,13 @@ function accionesTarjeta(it) {
 
 /** Línea pequeña: de qué portal viene, dónde más está y cómo contactar si no hay teléfono. */
 function lineaOrigen(it) {
-  const partes = [`En ${esc(it.fuente)}`];
+  const partes = [`En ${esc(sitioDe(it))}`];
   if ((it._otras || []).length) {
-    partes.push(`también en ${it._otras.map((o) => `<a href="${esc(urlOk(o.url))}" target="_blank" rel="noopener noreferrer">${esc(o.fuente)}</a>`).join(", ")}`);
+    partes.push(`también en ${it._otras.map((o) => `<a href="${esc(urlOk(o.url))}" target="_blank" rel="noopener noreferrer">${esc(sitioDe(o))}</a>`).join(", ")}`);
   }
-  if (!soloDigitos(it.tel) && !soloDigitos(it.wa)) partes.push("teléfono en el anuncio");
+  if (esDePago(it)) partes.push("⚠ Rentola cobra por contactar");
+  else if (!soloDigitos(it.tel) && !soloDigitos(it.wa)) partes.push("teléfono en el anuncio");
+  else if (it.ofi) partes.push("línea general de la inmobiliaria (da el código del anuncio)");
   else if (it.anunciante && !/persona natural/i.test(it.anunciante)) partes.push(esc(it.anunciante));
   return `<div class="origen">${partes.join(" · ")}</div>`;
 }
@@ -992,7 +1015,8 @@ function filaContacto(it) {
   const tel = soloDigitos(it.tel), wa = soloDigitos(it.wa);
   const quien = it.anunciante && !/persona natural/i.test(it.anunciante) ? ` · ${esc(it.anunciante)}` : "";
   if (!tel && !wa) {
-    return `<div class="contacto sin-tel">📞 Teléfono en el anuncio de ${esc(it.fuente)}${quien}</div>`;
+    if (esDePago(it)) return `<div class="contacto sin-tel">⚠ Rentola cobra por contactar y aún no sabemos de qué página copió este anuncio</div>`;
+    return `<div class="contacto sin-tel">📞 Teléfono en el anuncio de ${esc(sitioDe(it))}${quien}</div>`;
   }
   const telIntl = tel ? (tel.startsWith("57") ? tel : "57" + tel) : "";
   const waIntl = wa ? (wa.startsWith("57") ? wa : "57" + wa) : "";
@@ -1591,7 +1615,7 @@ async function abrirVisor(it, inicio = 0) {
   V.i = Math.min(inicio, Math.max(0, V.items.length - 1));
   $("#visorEnlaces").innerHTML =
     (g.tour ? `<a class="sec" href="${esc(urlOk(g.tour))}" target="_blank" rel="noopener noreferrer">360° Recorrido virtual</a>` : "")
-    + `<a href="${esc(urlOk(it.url))}" target="_blank" rel="noopener noreferrer">Ver anuncio en ${esc(it.fuente)}</a>`;
+    + `<a href="${esc(urlOk(it.url))}" target="_blank" rel="noopener noreferrer">Ver anuncio en ${esc(sitioDe(it))}</a>`;
   $("#visorMinis").innerHTML = V.items.map((x, i) => x.tipo === "foto"
     ? `<button class="mini" data-mini="${i}" aria-label="Foto ${i + 1}"><img src="${esc(x.u)}" alt="" loading="lazy" referrerpolicy="no-referrer" data-u="${esc(x.u)}"></button>`
     : `<button class="mini video" data-mini="${i}" aria-label="Video">▶ Video</button>`).join("");
@@ -1813,7 +1837,7 @@ function popup(it) {
     ${it.aprox ? `<div class="aviso-aprox">${it.ubic === "municipio" ? "Sin dirección ni barrio: ubicado en el centro del municipio" : "Ubicación aproximada: punto general del barrio (el portal no da la dirección)"}</div>` : ""}
     ${ficha(it)}${extras(it)}
     <div class="popup-botones"><button class="btn" data-abrir="${esc(it.id)}">Ver detalles y fotos</button>
-    <a class="ver" href="${esc(urlOk(it.url))}" target="_blank" rel="noopener noreferrer">Ver en ${esc(it.fuente)}</a></div></div></div>`;
+    <a class="ver" href="${esc(urlOk(it.url))}" target="_blank" rel="noopener noreferrer">Ver en ${esc(sitioDe(it))}</a></div></div></div>`;
 }
 
 function renderMapa(lista) {

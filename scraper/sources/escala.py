@@ -9,7 +9,8 @@ La API no filtra por precio ni ordena por canon (los parámetros campo/order no 
 y el filtro de ciudad da totales incoherentes, así que se pagina todo (~21 peticiones; el orden
 por defecto es id descendente = más nuevos primero) y se filtra aquí municipio y precio.
 Limitaciones: no hay fecha de publicación (publicado=None); "administracion" siempre llega en 0,
-así que admin=None. El teléfono del asesor solo sale en /api/v2/propiedad/{id}; no se usa.
+así que admin=None. El teléfono del asesor (el que la ficha muestra para llamar y WhatsApp) solo sale en
+/api/v2/propiedad/{id}: se consulta una vez por asesor (_id_user) y se guarda en estado["asesores"].
 """
 import html as _html
 import json
@@ -26,6 +27,7 @@ TIPOS = {2: "Apartamento", 14: "Apartaestudio"}
 LIMITE = 50
 MAX_PAGINAS = 40          # tope de seguridad por tipo
 MAX_FOTOS = 25
+MAX_ASESORES_CORRIDA = 40   # fichas extra por corrida para conocer asesores nuevos
 
 _MUNICIPIOS = {"MEDELLIN": "Medellín", "SABANETA": "Sabaneta", "ENVIGADO": "Envigado",
                "ITAGUI": "Itagüí", "LA ESTRELLA": "La Estrella",
@@ -88,8 +90,21 @@ def _normalizar(x, municipio):
     }
 
 
+def _asesor(pid):
+    txt = get(f"{BASE}/api/v2/propiedad/{pid}", si_404=GONE)
+    if txt is None:
+        return None  # fallo temporal: se intenta en otra corrida
+    if txt == GONE:
+        return [None, None]
+    ag = (json.loads(txt).get("propiedad") or {}).get("agente") or {}
+    tel = re.sub(r"\D", "", str(ag.get("telefono") or ""))
+    return [tel if len(tel) >= 7 else None, (ag.get("nombre") or "").strip() or None]
+
+
 def scrape(estado, conocidos, log):
     inicial = not estado.get("inicializado")
+    asesores = estado.setdefault("asesores", {})
+    consultas = 0
     vistos = set()
     por_mun = {}
     for tipo_inm, tipo in TIPOS.items():
@@ -121,6 +136,17 @@ def scrape(estado, conocidos, log):
                 if not (config.PRECIO_MIN_GUARDAR <= precio <= config.PRECIO_MAX_GUARDAR):
                     continue
                 l = _normalizar(x, municipio)
+                uid = str(x.get("_id_user") or "")
+                if uid and uid not in asesores and consultas < MAX_ASESORES_CORRIDA:
+                    consultas += 1
+                    r = _asesor(pid)
+                    if r is not None:
+                        asesores[uid] = r
+                tel, nombre = asesores.get(uid) or [None, None]
+                if tel:
+                    l["tel"] = l["wa"] = tel
+                    if nombre:
+                        l["anunciante"] = f"{FUENTE} · {nombre}"
                 c = por_mun.setdefault(municipio, [0, 0])
                 c[0] += 1
                 if l["id"] not in conocidos:
@@ -132,4 +158,5 @@ def scrape(estado, conocidos, log):
                 break  # última página (o la API repite la misma)
     for m, (n, nuevos) in sorted(por_mun.items()):
         log(f"  escala/{m}: {n} leídos, {nuevos} nuevos")
+    log(f"  escala: {len(asesores)} asesores conocidos ({consultas} consultados ahora)")
     estado["inicializado"] = True

@@ -26,6 +26,7 @@ import time
 import traceback
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from urllib.parse import unquote, urlparse
 
 import config
 from scraper import analisis, fotos, noticias, normalizar, seleccion, ubicacion
@@ -56,7 +57,7 @@ SHARDS = 64
 
 TZ = timezone(timedelta(hours=-5))  # Colombia
 CAMPOS_GALERIA = ("fotos", "video", "tour")
-DET_VERSION = {"Rentola": 2, "Alberto Álvarez": 4, **{f: 1 for f in CON_DETALLE if f not in ("Rentola", "Alberto Álvarez")}}  # súbelo (por portal) cuando el detalle extraiga campos nuevos
+DET_VERSION = {"Rentola": 3, "Alberto Álvarez": 4, **{f: 1 for f in CON_DETALLE if f not in ("Rentola", "Alberto Álvarez")}}  # súbelo (por portal) cuando el detalle extraiga campos nuevos
 
 
 def ahora():
@@ -227,7 +228,7 @@ def _enriquecer_fuente(fuente, modulo, anuncios, galeria, fin):
         if d.get("publicado") and not a.get("publicado"):
             a["publicado"] = d["publicado"]
         # Datos que el listado no trae y el detalle sí (solo si faltan)
-        for k in ("banos", "parq", "estrato", "lat", "lon", "mascotas", "amen", "piso", "area", "hab", "admin", "anunciante", "tel", "wa", "barrio"):
+        for k in ("banos", "parq", "estrato", "lat", "lon", "mascotas", "amen", "piso", "area", "hab", "admin", "anunciante", "tel", "wa", "barrio", "orig"):
             if d.get(k) not in (None, "", []) and a.get(k) in (None, "", [], 0):
                 a[k] = d[k]
         resumen_galeria(a, guardar_galeria(galeria, a["id"], d))
@@ -240,6 +241,19 @@ def _enriquecer_fuente(fuente, modulo, anuncios, galeria, fin):
 ZONA = {"lat": (6.0, 6.45), "lon": (-75.8, -75.4)}
 
 
+# Línea pública de arriendos de cada inmobiliaria (publicada en su propia web/fichas) para los
+# anuncios que no traen asesor: así siempre hay a quién llamar o escribir sin pasar por terceros
+CONTACTO_OFICINA = {
+    "Arrendamientos Santa Fe": ("6044484015", "573044403848"),     # fichas /propiedad/{codigo}
+    "Arrendamientos Nutibara": (None, "573117803657"),             # anutibara.com/contacto
+    "Arrendamientos Villacruz": ("6042506000", "573116943863"),    # bloque "Asesor" de las fichas
+    "Arrendamientos El Castillo": ("6042385343", "573116962731"),
+    "Inmobiliaria La Estrella": ("6042500646", "573217158566"),
+    "Livin Inmobiliaria": ("6044444989", "573184444845"),
+    "Escala Inmobiliaria": ("3009122101", "573009122101"),         # si aún no se conoce el asesor
+}
+
+
 def limpiar(anuncios):
     """Correcciones idempotentes sobre datos ya guardados."""
     for a in anuncios.values():
@@ -250,6 +264,14 @@ def limpiar(anuncios):
                 a.pop("lon", None)
         if a.get("estrato") is not None and not (1 <= a["estrato"] <= 6):
             a.pop("estrato")  # valor erróneo del portal (p. ej. 110)
+        ofi = CONTACTO_OFICINA.get(a.get("fuente"))
+        if ofi:
+            if not a.get("tel") and not a.get("wa"):
+                a["tel"], a["wa"] = ofi
+            if (a.get("tel"), a.get("wa")) == ofi:
+                a["ofi"] = 1   # es la línea general de la inmobiliaria, no la del asesor
+            else:
+                a.pop("ofi", None)
         if a.get("fuente") == "Alberto Álvarez" and not a.get("tel"):
             a["tel"], a["wa"] = albertoalvarez.TEL_INMOBILIARIA, albertoalvarez.WA_INMOBILIARIA
         if a.get("fuente") == "Rentola":
@@ -292,6 +314,16 @@ def _fotos_clave(it, galeria):
             if len(nombre) >= 12 and not re.fullmatch(r"(?i)[a-z_\-]*\d{0,3}\.(jpe?g|png|webp)", nombre):
                 out.add(nombre)
     return out
+
+
+def clave_url(u):
+    """Sitio + número del inmueble: la misma ficha aunque cambie el texto de la URL, www o mayúsculas."""
+    p = urlparse(u)
+    ruta = unquote(p.path).rstrip("/")
+    m = re.search(r"(\d+-M\d+|\d{4,})$", ruta)
+    if not m and len(ruta) < 8:
+        return None  # p. ej. sitios con el número tras "#": sin clave segura no se empareja
+    return f'{p.netloc.lower().removeprefix("www.")}|{m.group(1) if m else ruta.lower()}'
 
 
 def marcar_duplicados(items, galeria=None):
@@ -356,6 +388,15 @@ def marcar_duplicados(items, galeria=None):
                         if hi - lo <= 2:
                             padre[ra] = rb
                             rango[rb] = (lo, hi)
+    # Rentola dice de qué página copió cada anuncio: si ese original también lo tenemos, es el mismo
+    por_url = {clave_url(it["url"]): it for it in items if it.get("url") and it.get("fuente") != "Rentola"}
+    por_url.pop(None, None)
+    for it in items:
+        o = it.get("orig") and por_url.get(clave_url(it["orig"]))
+        if o:
+            ra, rb = raiz(it["id"]), raiz(o["id"])
+            if ra != rb:
+                padre[ra] = rb
     miembros = {}
     for it in items:
         miembros.setdefault(raiz(it["id"]), []).append(it)
