@@ -19,8 +19,8 @@ Limitaciones:
   Se guarda `actualizado` (updated_at) solo como dato informativo.
 - La API da `company_id` pero no el nombre de la inmobiliaria (no hay endpoint público con
   los nombres) → anunciante=None.
-- Sin tel/wa: la página pública solo muestra el asesor tras enviar el formulario de contacto,
-  así que no se toma de la API (aunque la API lo entregue).
+- tel/wa del asesor (brokers[]) cuando la inmobiliaria lo carga: la API pública lo entrega; la
+  página lo muestra tras el formulario de contacto (decisión del usuario: usarlo).
 - Muchos anuncios traen barrio "Sin Barrio" o "." → barrio=None.
 - Algunas inmobiliarias ponen una coordenada por defecto (centro del municipio u oficina; una
   misma se veía en Medellín, Itagüí, La Estrella y Sabaneta): las que se repiten en 4+ anuncios
@@ -157,8 +157,20 @@ def detalle(url):
         out["video"] = d["video"]
     if _url_media(d.get("tour3d")):
         out["tour"] = d["tour3d"]
-    # El asesor (brokers[]) NO se usa: la página pública solo lo muestra después de llenar el
-    # formulario "Enviar y ver teléfonos". Para contactar se abre la ficha en viviendo.la.
+    # Asesor del anuncio (brokers[]): la misma API pública lo entrega (sin clave ni cuenta); la página
+    # lo muestra tras el formulario "Enviar y ver teléfonos". Solo algunas inmobiliarias lo cargan.
+    for b in d.get("brokers") or []:
+        if not isinstance(b, dict):
+            continue
+        tel = _digitos(b.get("phone")) or _digitos(b.get("phone_2"))
+        wa = _digitos(b.get("whatsapp"))
+        nombre = (b.get("name") or "").strip()
+        if tel or wa:
+            if nombre:
+                out["anunciante"] = nombre.title() if nombre.isupper() else nombre
+            out["tel"] = tel
+            out["wa"] = wa   # solo si la API lo marca como WhatsApp (no se deduce del celular)
+            break
     return out
 
 
