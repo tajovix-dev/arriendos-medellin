@@ -1251,3 +1251,22 @@ details.datos-g summary { cursor: pointer; font-size: .8rem; color: var(--acento
 /* Compartir */
 .acc svg { display: block; }
 .acc-det svg { vertical-align: -3px; }
+
+/* Versiones del mismo apartamento en varias páginas */
+.versiones-t { display: flex; flex-wrap: wrap; align-items: center; gap: 4px; margin-top: 6px; font-size: .74rem; }
+.v-chip { border: 1px solid var(--borde); background: var(--sup2); color: var(--texto); border-radius: 999px;
+  padding: 3px 9px; font: inherit; cursor: pointer; min-height: 28px; }
+.v-chip.sel { border-color: var(--acento); background: var(--acento-suave); color: var(--acento); font-weight: 600; }
+.v-tel { margin-left: 3px; }
+.v-lista { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 6px; }
+.v-fila { display: flex; align-items: stretch; gap: 6px; border: 1px solid var(--borde); border-radius: 10px; background: var(--sup); }
+.v-fila.sel { border-color: var(--acento); box-shadow: 0 0 0 1px var(--acento) inset; }
+.v-elegir { flex: 1; min-width: 0; display: grid; gap: 2px; text-align: left; background: none; border: 0; padding: 8px 10px;
+  color: var(--texto); font: inherit; cursor: pointer; }
+.v-cab { font-size: .9rem; }
+.v-tipo, .v-fecha { font-size: .76rem; color: var(--tenue); }
+.v-dato { font-size: .84rem; font-weight: 600; }
+.v-etq { display: inline-block; font-size: .68rem; font-weight: 700; padding: 1px 6px; border-radius: 999px;
+  background: var(--sup2); color: var(--tenue); vertical-align: 1px; }
+.v-etq.orig { background: var(--nuevo-suave); color: var(--nuevo); }
+.v-abrir { align-self: center; padding: 8px 10px; font-size: .8rem; color: var(--acento); white-space: nowrap; }

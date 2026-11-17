@@ -84,6 +84,7 @@ def _normalizar(item, municipio):
         "lon": item.get("longitude"),
         "img": img,
         "anunciante": (item.get("owner") or {}).get("name"),
+        "cod": str(item.get("code2") or "").strip() or None,   # código del anunciante (empareja con su web)
         "publicado": (item.get("created_at") or "")[:10] or None,
     }
 

@@ -34,6 +34,14 @@ def _total_paginas(html):
     return (total + 20) // 21
 
 
+def _hora_colombia(iso):
+    """Hora (HH:MM, Colombia) en que Rentola creó su copia del anuncio."""
+    try:
+        return datetime.fromisoformat(iso.replace("Z", "+00:00")).astimezone(timezone(timedelta(hours=-5))).strftime("%H:%M")
+    except (AttributeError, ValueError):
+        return None
+
+
 def _fecha_colombia(iso):
     """'2026-11-04T16:42:39Z' (UTC) → '2026-11-04' en hora de Colombia (UTC-5)."""
     if not iso:
@@ -95,6 +103,7 @@ def detalle(url):
             return {
                 "fotos": [f for f in fotos if isinstance(f, str) and f.startswith("http")],
                 "publicado": _fecha_colombia(j.get("datePosted") or oferta.get("validFrom")),
+                "pub_h": _hora_colombia(j.get("datePosted") or oferta.get("validFrom")),
                 "disponible": disp,
                 "banos": banos or None,
                 # Rentola copia anuncios de otros portales y cobra por contactar; la página original
@@ -138,6 +147,7 @@ def _normalizar(item, municipio):
         "img": item.get("image"),
         "anunciante": None,
         "publicado": _fecha_colombia(oferta.get("validFrom")),
+        "pub_h": _hora_colombia(oferta.get("validFrom")),
     }
 
 

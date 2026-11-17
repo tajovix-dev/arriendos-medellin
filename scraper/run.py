@@ -228,7 +228,7 @@ def _enriquecer_fuente(fuente, modulo, anuncios, galeria, fin):
         if d.get("publicado") and not a.get("publicado"):
             a["publicado"] = d["publicado"]
         # Datos que el listado no trae y el detalle sí (solo si faltan)
-        for k in ("banos", "parq", "estrato", "lat", "lon", "mascotas", "amen", "piso", "area", "hab", "admin", "anunciante", "tel", "wa", "barrio", "orig"):
+        for k in ("banos", "parq", "estrato", "lat", "lon", "mascotas", "amen", "piso", "area", "hab", "admin", "anunciante", "tel", "wa", "barrio", "orig", "pub_h"):
             if d.get(k) not in (None, "", []) and a.get(k) in (None, "", [], 0):
                 a[k] = d[k]
         resumen_galeria(a, guardar_galeria(galeria, a["id"], d))
@@ -326,33 +326,70 @@ def clave_url(u):
     return f'{p.netloc.lower().removeprefix("www.")}|{m.group(1) if m else ruta.lower()}'
 
 
-def marcar_duplicados(items, galeria=None):
-    """Agrupa anuncios que son el mismo apartamento (en varias fuentes o repetidos).
+# Código que el anunciante pone en Fincaraíz (code2) -> id del mismo anuncio en su propia web.
+# Formatos verificados en el portal: Escala "10547191", Alberto Álvarez "AA-96990", Bemsa (bolsa de
+# Alberto Álvarez) "786-49986", Arrendamientos Envigado "1143-80669".
+def _ids_por_codigo(it):
+    c = str(it.get("cod") or "").strip()
+    nom = (it.get("anunciante") or "").lower()
+    if not c:
+        return []
+    if "escala" in nom:
+        return [f"es-{c}"]
+    if "alberto alvarez" in nom or "alberto álvarez" in nom or "bemsa" in nom:
+        return [f"aa-{c}"]
+    if "arrendamientos envigado" in nom and "-" in c:
+        return [f"ae-{c.split('-')[-1]}"]
+    return []
 
-    Deben coincidir canon, habitaciones y área (±2 m², baños si ambos lo dicen) y además:
-    - comparten una foto, o
-    - ambos tienen ubicación exacta y están a menos de 250 m, o
-    - alguno tiene solo el barrio: mismo barrio y (otro portal o el mismo anunciante).
+
+def _sitio(it):
+    u = it.get("orig") if it.get("fuente") == "Rentola" else it.get("url")
+    if not u:
+        return None
+    return urlparse(u).netloc.lower().removeprefix("www.") or None
+
+
+def marcar_duplicados(items, galeria=None):
+    """Agrupa anuncios que son el mismo apartamento publicado en varias fuentes.
+
+    Evidencia, de la más segura a la menos segura (se aplica en ese orden):
+    0. el intermediario dice cuál es el original (Rentola sourceUrl) o el código del anunciante
+       en el portal coincide con el de su propia web (Fincaraíz code2);
+    1. canon, habitaciones y área (±2 m²) iguales y una foto compartida;
+    2. lo mismo y ubicación exacta a menos de 250 m (la más cercana primero);
+    3. dos copias de Rentola con el mismo título y barrio.
+    Nunca se juntan dos anuncios distintos de la misma fuente (salvo copias de Rentola): suelen ser
+    apartamentos distintos del mismo edificio, con las mismas fotos de zonas comunes.
     """
     galeria = galeria or {}
     for it in items:
         it.pop("dup", None)
+    por_id = {it["id"]: it for it in items}
+    aristas = []
+    por_url = {clave_url(it["url"]): it for it in items if it.get("url") and it.get("fuente") != "Rentola"}
+    por_url.pop(None, None)
+    copias = {}
+    for it in items:
+        o = it.get("orig") and por_url.get(clave_url(it["orig"]))
+        if o:
+            aristas.append((0, it["id"], o["id"]))
+        elif it.get("orig") and clave_url(it["orig"]):
+            # dos copias de Rentola del mismo original (el original no lo tenemos)
+            k = clave_url(it["orig"])
+            if k in copias:
+                aristas.append((0, it["id"], copias[k]))
+            copias.setdefault(k, it["id"])
+        for oid in _ids_por_codigo(it):
+            o = por_id.get(oid)
+            if o and o.get("municipio") == it.get("municipio"):
+                aristas.append((0, it["id"], oid))
     cand = {}
     for it in items:
         if it.get("area") and it.get("hab") and it.get("precio"):
             cand.setdefault((it["precio"], it["hab"]), []).append(it)
-    padre = {}
-
-    def raiz(x):
-        while padre.get(x, x) != x:
-            x = padre[x]
-        return x
-
-    rango = {it["id"]: (it["area"], it["area"]) for it in items if it.get("area")}
     fotos = {}
     for lista in cand.values():
-        if len(lista) < 2:
-            continue
         for i, a in enumerate(lista):
             for b in lista[i + 1:]:
                 if abs(a["area"] - b["area"]) > 2:
@@ -362,41 +399,45 @@ def marcar_duplicados(items, galeria=None):
                 for x in (a, b):
                     if x["id"] not in fotos:
                         fotos[x["id"]] = _fotos_clave(x, galeria)
-                igual = bool(fotos[a["id"]] & fotos[b["id"]])
-                if not igual and a["fuente"] == b["fuente"] == "Rentola":
-                    ta, tb = _norm_barrio({"barrio": a.get("titulo")}), _norm_barrio({"barrio": b.get("titulo")})
-                    igual = len(ta) > 20 and ta == tb and _norm_barrio(a) == _norm_barrio(b)
-                if not igual and a.get("lat") and b.get("lat"):
+                if fotos[a["id"]] & fotos[b["id"]]:
+                    aristas.append((1, a["id"], b["id"]))
+                elif a.get("lat") and b.get("lat") and not a.get("aprox") and not b.get("aprox"):
                     d = _dist_m(a, b)
-                    mismo_barrio = bool(_norm_barrio(a)) and _norm_barrio(a) == _norm_barrio(b)
-                    if not a.get("aprox") and not b.get("aprox"):
-                        # ubicación exacta: mismo edificio o muy cerca
-                        igual = d <= 250
-                    else:
-                        # solo se sabe el barrio: tiene que ser el mismo barrio y, además, otro
-                        # portal o el mismo anunciante (si no, pueden ser apartamentos distintos)
-                        # Solo el barrio no basta (en barrios grandes hay muchos apartamentos iguales en
-                        # precio y tamaño). Se agrupa únicamente si es el mismo anunciante, mismo barrio y
-                        # la misma área exacta; entre portales distintos hace falta foto compartida.
-                        igual = (mismo_barrio and a["fuente"] == b["fuente"] and a.get("anunciante")
-                                 and a.get("anunciante") == b.get("anunciante") and a.get("area") == b.get("area"))
-                if igual:
-                    ra, rb = raiz(a["id"]), raiz(b["id"])
-                    if ra != rb:
-                        lo = min(rango[ra][0], rango[rb][0])
-                        hi = max(rango[ra][1], rango[rb][1])
-                        if hi - lo <= 2:
-                            padre[ra] = rb
-                            rango[rb] = (lo, hi)
-    # Rentola dice de qué página copió cada anuncio: si ese original también lo tenemos, es el mismo
-    por_url = {clave_url(it["url"]): it for it in items if it.get("url") and it.get("fuente") != "Rentola"}
-    por_url.pop(None, None)
-    for it in items:
-        o = it.get("orig") and por_url.get(clave_url(it["orig"]))
-        if o:
-            ra, rb = raiz(it["id"]), raiz(o["id"])
-            if ra != rb:
-                padre[ra] = rb
+                    if d <= 250:
+                        aristas.append((2 + d / 1000, a["id"], b["id"]))
+                elif a["fuente"] == b["fuente"] == "Rentola":
+                    ta, tb = _norm_barrio({"barrio": a.get("titulo")}), _norm_barrio({"barrio": b.get("titulo")})
+                    if len(ta) > 20 and ta == tb and _norm_barrio(a) and _norm_barrio(a) == _norm_barrio(b):
+                        aristas.append((3, a["id"], b["id"]))
+    aristas.sort(key=lambda e: e[0])
+
+    padre = {}
+
+    def raiz(x):
+        while padre.get(x, x) != x:
+            padre[x] = padre.get(padre[x], padre[x])
+            x = padre[x]
+        return x
+
+    # Por grupo: sitios de origen y rango de áreas. Cada anuncio cuenta por la web donde está
+    # publicado de verdad (en Rentola, la página de donde lo copió): dos fichas distintas del mismo
+    # sitio son dos apartamentos distintos. Rentola sin original conocido no restringe.
+    # Una copia de Rentola cuyo original sí tenemos es ese mismo anuncio: no cuenta como sitio aparte.
+    ligados = {a for peso, a, b in aristas if peso == 0 and por_id[a].get("fuente") == "Rentola"
+               and por_id[b].get("fuente") != "Rentola"}
+    fuentes = {it["id"]: (set() if it["id"] in ligados else {_sitio(it)} - {None}) for it in items}
+    rango = {it["id"]: (it.get("area") or 0, it.get("area") or 0) for it in items}
+    for peso, a, b in aristas:
+        ra, rb = raiz(a), raiz(b)
+        if ra == rb or fuentes[ra] & fuentes[rb]:
+            continue  # ya juntos, o juntaría dos anuncios distintos de la misma fuente
+        lo = min(x for x in (rango[ra][0], rango[rb][0]) if x) if (rango[ra][0] or rango[rb][0]) else 0
+        hi = max(rango[ra][1], rango[rb][1])
+        if peso > 0 and lo and hi - lo > 2:
+            continue  # el grupo se estiraría a áreas distintas
+        padre[ra] = rb
+        fuentes[rb] |= fuentes[ra]
+        rango[rb] = (lo, hi)
     miembros = {}
     for it in items:
         miembros.setdefault(raiz(it["id"]), []).append(it)

@@ -108,7 +108,7 @@ def _normalizar(r, municipio):
     if not (lat and 5.9 < lat < 6.5 and lon and -75.9 < lon < -75.3):
         lat = lon = None
     url = r.get("url") or ""
-    m = re.match(r"(\d{4}-\d{2}-\d{2})", r.get("createdAt") or "")
+    m = re.match(r"(\d{4}-\d{2}-\d{2})(?:T(\d{2}:\d{2}))?", r.get("createdAt") or "")
     img = r.get("image")
     estrato = a_int(r.get("stratum"))
     tipo = r.get("realEstateType") or "Apartamento"
@@ -135,6 +135,8 @@ def _normalizar(r, municipio):
         "fotos": [img] if img else [],
         "anunciante": (r.get("userName") or "").strip() or None,
         "publicado": m.group(1) if m else None,
+        # La hora ya viene en hora de Colombia (ver arriba); 00:00 suele ser "sin hora"
+        "pub_h": m.group(2) if m and m.group(2) and m.group(2) != "00:00" else None,
         "tel": tel,
         "wa": wa,
     }

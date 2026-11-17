@@ -202,11 +202,40 @@ function portalDe(u) {
 function sitioDe(it) { return it.sitio || it.fuente; }
 /** Rentola sin página original conocida: contactar ahí cuesta. */
 function esDePago(it) { return PORTALES_DE_PAGO.has(it.fuente) && !it.urlPago; }
-function utilidad(it) {
-  const datos = ["hab", "banos", "area", "estrato", "parq", "barrio", "anunciante", "publicado"].filter((k) => it[k] != null && it[k] !== "").length;
-  const origen = PORTALES_DE_PAGO.has(it.fuente) ? 0 : INTERMEDIARIOS.has(it.fuente) ? 25 : 50;
-  return (it.tel || it.wa ? 100 : 0) + (it.ofi ? -10 : 0) + origen + datos * 2 + Math.min(it.nf || 0, 10);
+/* ---------- Versiones: el mismo apartamento publicado en varias páginas ----------
+   Se muestra como principal la que creemos ORIGINAL; las demás quedan como versiones que se
+   pueden elegir, cada una con su página, su fecha y si trae contacto. */
+// Inmobiliarias que leemos en su propia web (la fuente primaria de sus anuncios)
+const INMOBILIARIAS_DIRECTAS = new Set(["Escala Inmobiliaria", "Alberto Álvarez", "Arrendamientos Santa Fe",
+  "Arrendamientos Nutibara", "Arrendamientos Envigado", "Arrendamientos Villacruz", "Arrendamientos El Castillo",
+  "Inmobiliaria La Estrella"]);
+/** 3 web de la inmobiliaria · 2 portal donde publica · 1 intermediario · 0 intermediario que cobra. */
+function nivelOrigen(it) {
+  if (PORTALES_DE_PAGO.has(it.fuente)) return 0;
+  if (INTERMEDIARIOS.has(it.fuente)) return 1;
+  // Alberto Álvarez también muestra la bolsa compartida de otras inmobiliarias (códigos que no son AA-)
+  if (it.fuente === "Alberto Álvarez" && !/^aa-AA-/.test(it.id)) return 2;
+  return INMOBILIARIAS_DIRECTAS.has(it.fuente) ? 3 : 2;
 }
+function tipoOrigen(it) {
+  const n = nivelOrigen(it);
+  if (n === 0) return it.urlPago ? `copia hecha por ${it.fuente} (cobra por contactar)` : `${it.fuente}: cobra por contactar`;
+  if (n === 1) return "intermediario: muestra anuncios de otras inmobiliarias";
+  if (n === 3) return "web de la inmobiliaria";
+  if (it.fuente === "Alberto Álvarez") return "bolsa compartida en la web de Alberto Álvarez";
+  return "portal donde se publicó";
+}
+const elegidas = new Set(LS.get("versionesElegidas", []));
+let GRUPOS = {};   // dup → todas sus versiones (aunque algún filtro esconda alguna)
+/** Orden de las versiones: la original primero (nivel, luego la publicada antes, luego la más completa). */
+function ordenarVersiones(v) {
+  const completo = (it) => ["hab", "banos", "area", "estrato", "barrio", "anunciante"].filter((k) => it[k] != null && it[k] !== "").length
+    + (it.tel || it.wa ? 3 : 0) + Math.min(it.nf || 0, 10) / 10;
+  return v.slice().sort((a, b) => nivelOrigen(b) - nivelOrigen(a)
+    || (a.publicado || "9999").localeCompare(b.publicado || "9999")
+    || completo(b) - completo(a));
+}
+function originalDe(it) { return it.dup != null && GRUPOS[it.dup] ? GRUPOS[it.dup][0] : it; }
 function agrupar(lista) {
   if (!S.dup) { lista.forEach((x) => (x._otras = [])); return lista; }
   // El grupo conserva el lugar de su primera aparición en el orden elegido
@@ -220,14 +249,62 @@ function agrupar(lista) {
   }
   return out.map((x) => {
     if (!Array.isArray(x)) { x._otras = []; return x; }
-    const mejor = x.reduce((a, b) => (utilidad(b) > utilidad(a) ? b : a));
-    mejor._otras = [];
-    for (const o of x) {
-      o._otras = o === mejor ? mejor._otras : [];
-      if (o !== mejor && o.fuente !== mejor.fuente && !mejor._otras.some((y) => y.fuente === o.fuente)) mejor._otras.push(o);
-    }
-    return mejor;
+    // Con que una versión pase los filtros basta: es el mismo apartamento, y se muestra la original
+    // del grupo completo (o la que la persona eligió), aunque un filtro haya dejado fuera esa versión
+    const orden = GRUPOS[x[0].dup] || ordenarVersiones(x);
+    const principal = orden.find((o) => elegidas.has(o.id)) || orden[0];
+    for (const o of orden) o._otras = [];
+    principal._otras = orden.filter((o) => o !== principal);
+    return principal;
   });
+}
+function elegirVersion(id) {
+  const it = buscarItem(id);
+  if (!it || it.dup == null) return;
+  for (const o of GRUPOS[it.dup] || []) elegidas.delete(o.id);
+  if (it !== originalDe(it)) elegidas.add(id);   // la original no hace falta recordarla
+  LS.set("versionesElegidas", [...elegidas].slice(-300));
+}
+/** "11 nov 2:35 p. m." con la hora solo si la fuente la da. */
+function fechaHora(fecha, hora) {
+  if (!fecha) return "";
+  if (!hora) return fechaCorta(fecha);
+  const [h, m] = hora.split(":").map(Number);
+  return `${fechaCorta(fecha)} ${((h + 11) % 12) + 1}:${String(m).padStart(2, "0")} ${h < 12 ? "a. m." : "p. m."}`;
+}
+function fechaVersion(v) {
+  const pub = v.publicado
+    ? `${PORTALES_DE_PAGO.has(v.fuente) ? `${v.fuente} lo copió el` : "Publicado el"} ${fechaHora(v.publicado.slice(0, 10), v.pub_h)}`
+    : `${esc(v.fuente)} no da la fecha`;
+  const visto = v.visto1 ? ` · lo vimos por primera vez el ${fechaHora(v.visto1.slice(0, 10), v.visto1.slice(11, 16))}` : "";
+  return pub + visto;
+}
+/** Selector de versiones (tarjeta: fichas compactas; detalle: lista completa). */
+function versionesHtml(it, completo) {
+  const todas = it.dup != null ? GRUPOS[it.dup] || [] : [];
+  if (!S.dup || todas.length < 2) return "";
+  const orig = todas[0];
+  const filas = todas.map((v) => {
+    const sel = v === it;
+    const etq = v === orig ? `<span class="v-etq orig" title="Lo consideramos el original: ${esc(tipoOrigen(v))}">Original</span>` : `<span class="v-etq">Copia</span>`;
+    const contacto = v.tel || v.wa ? `<span class="v-tel" title="Trae teléfono o WhatsApp">📞</span>` : "";
+    if (!completo) {
+      return `<button class="v-chip ${sel ? "sel" : ""}" data-version="${esc(v.id)}" aria-pressed="${sel}" title="${esc(`${sitioDe(v)} · ${tipoOrigen(v)} · ${pesos(v.precio)}`)}">${esc(sitioDe(v))}${v === orig ? " ★" : ""}${contacto}</button>`;
+    }
+    return `<li class="v-fila ${sel ? "sel" : ""}">
+      <button class="v-elegir" data-version="${esc(v.id)}" aria-pressed="${sel}">
+        <span class="v-cab"><b>${esc(sitioDe(v))}</b> ${etq} ${contacto}</span>
+        <span class="v-tipo">${esc(tipoOrigen(v))}</span>
+        <span class="v-dato">${pesos(v.precio)}${v.precio !== it.precio ? ` <span class="aviso-txt">(precio distinto)</span>` : ""}</span>
+        <span class="v-fecha">${fechaVersion(v)}</span>
+      </button>
+      <a class="v-abrir" href="${esc(urlOk(v.url))}" target="_blank" rel="noopener noreferrer">Abrir ↗</a>
+    </li>`;
+  }).join("");
+  if (!completo) return `<div class="versiones-t"><span class="tenue">En ${todas.length} páginas:</span> ${filas}</div>`;
+  return `<p class="tenue">El mismo apartamento está publicado en ${todas.length} páginas. Mostramos como principal la que creemos original
+    (★): primero la web de la inmobiliaria, luego el portal donde se publicó y de último los intermediarios. Toca otra versión para verla.</p>
+    <ul class="v-lista">${filas}</ul>`;
 }
 
 /* =========================================================
@@ -852,6 +929,8 @@ function completarDuplicados() {
   }
   const G = {};
   for (const x of TODOS) if (x.dup != null) (G[x.dup] ||= []).push(x);
+  GRUPOS = {};
+  for (const [d, v] of Object.entries(G)) GRUPOS[d] = ordenarVersiones(v);
   const ok = (v) => v != null && v !== "" && v !== 0;
   for (const x of TODOS) {
     if (x.dup == null) continue;
@@ -924,15 +1003,16 @@ function accionesTarjeta(it) {
 
 /** Línea pequeña: de qué portal viene, dónde más está y cómo contactar si no hay teléfono. */
 function lineaOrigen(it) {
-  const partes = [`En ${esc(sitioDe(it))}`];
-  if ((it._otras || []).length) {
-    partes.push(`también en ${it._otras.map((o) => `<a href="${esc(urlOk(o.url))}" target="_blank" rel="noopener noreferrer">${esc(sitioDe(o))}</a>`).join(", ")}`);
-  }
+  const varias = S.dup && it.dup != null && (GRUPOS[it.dup] || []).length > 1;
+  const partes = [`Sacado de <a href="${esc(urlOk(it.url))}" target="_blank" rel="noopener noreferrer">${esc(sitioDe(it))}</a> (${esc(tipoOrigen(it))})`
+    + (varias ? (it === originalDe(it) ? " · original" : " · copia") : "")];
   if (esDePago(it)) partes.push("⚠ Rentola cobra por contactar");
   else if (!soloDigitos(it.tel) && !soloDigitos(it.wa)) partes.push("teléfono en el anuncio");
   else if (it.ofi) partes.push("línea general de la inmobiliaria (da el código del anuncio)");
   else if (it.anunciante && !/persona natural/i.test(it.anunciante)) partes.push(esc(it.anunciante));
-  return `<div class="origen">${partes.join(" · ")}</div>`;
+  const otraConTel = !soloDigitos(it.tel) && !soloDigitos(it.wa) && varias && GRUPOS[it.dup].find((v) => v.tel || v.wa);
+  if (otraConTel) partes.push(`📞 la versión de ${esc(sitioDe(otraConTel))} trae teléfono`);
+  return `<div class="origen">${partes.join(" · ")}</div>${versionesHtml(it, false)}`;
 }
 
 /** Canon, administración y total (si se conoce la administración). */
@@ -955,7 +1035,7 @@ function tarjeta(it) {
   // Siempre una fecha: la de publicación del portal o, si el portal no la da, desde cuándo está en esta página
   const visto = !it.publicado && it.visto1 ? it.visto1.slice(0, 10) : null;
   const publicado = it.publicado && !ant
-    ? `<span class="publicado" title="Publicado el ${fechaCorta(it.publicado)} según ${esc(it.fuente)}">📅 Publicado ${haceLargo(dPub)} · ${fechaCorta(it.publicado)}</span>`
+    ? `<span class="publicado" title="${PORTALES_DE_PAGO.has(it.fuente) ? `Fecha en que ${esc(it.fuente)} copió el anuncio, no la del original` : `Publicado el ${fechaCorta(it.publicado)} según ${esc(it.fuente)}`}">📅 ${PORTALES_DE_PAGO.has(it.fuente) ? `${esc(it.fuente)} lo copió` : "Publicado"} ${haceLargo(dPub)} · ${fechaHora(it.publicado.slice(0, 10), it.pub_h)}</span>`
     : !it.publicado
     ? `<span class="publicado sin-fecha" title="${esc(it.fuente)} no informa la fecha de publicación">📅 ${visto ? `En la página desde ${fechaCorta(visto)}` : `${esc(it.fuente)} no da la fecha`}</span>` : "";
   const avisoAnt = ant === "alto"
@@ -1571,7 +1651,8 @@ function detalleHTML(it) {
     ${sec("El barrio", barrio)}
     ${sec("Revisa antes de pagar", alertas)}
     ${sec("Publicación", `<ul class="det-lista">${pub}</ul>`)}
-    ${sec("Contacto", accionesTarjeta(it) + lineaOrigen(it))}
+    ${sec("Contacto", accionesTarjeta(it) + lineaOrigen(it).replace(/<div class="versiones-t">[\s\S]*$/, ""))}
+    ${sec("Dónde está publicado", versionesHtml(it, true))}
     ${sec("Parecidos en la zona", parHtml)}
   </div>`;
 }
@@ -2086,6 +2167,15 @@ function actualizarRecomendaciones() {
 }
 
 document.addEventListener("click", (e) => {
+  const tv = e.target.closest("[data-version]");
+  if (tv) {
+    const id = tv.dataset.version;
+    elegirVersion(id);
+    const enDetalle = tv.closest(".detalle-ficha");
+    render();
+    if (enDetalle) { const it = buscarItem(id); if (it) abrirVisor(it); }
+    return;
+  }
   const t = e.target.closest("[data-ficha],[data-filtrar-barrio],[data-toggle],[data-set],[data-quitar],[data-atajo],[data-acc],[data-vista],[data-abrir],[data-resumen]");
   if (!t) return;
   if (t.dataset.ficha) {
