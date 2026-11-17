@@ -1159,6 +1159,7 @@
  "Medellín|nazareth": null,
  "Medellín|niquia": null,
  "Medellín|nogal los almendros": null,
+ "Medellín|otros": null,
  "Medellín|pablo sexto": null,
  "Medellín|pajarito": {
   "lat": 6.2949518,
@@ -1440,6 +1441,7 @@
   "lon": -75.5645384,
   "tipo": "zona"
  },
+ "Medellín|villanueva": null,
  "Medellín|viviendas del sur": null,
  "Medellín|viviendas sur": null,
  "Medellín|zamora": null,
