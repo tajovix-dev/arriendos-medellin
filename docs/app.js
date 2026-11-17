@@ -223,7 +223,7 @@ function nivelOrigen(it) {
 }
 function tipoOrigen(it) {
   const n = nivelOrigen(it);
-  if (n === 0) return it.urlPago ? `copia hecha por ${it.fuente} (cobra por contactar)` : `${it.fuente}: cobra por contactar`;
+  if (n === 0) return it.urlPago ? `copiado por ${it.fuente}; el enlace lleva a la página original` : `${it.fuente} cobra por contactar`;
   if (n === 1) return "intermediario: muestra anuncios de otras inmobiliarias";
   if (n === 3) return "web de la inmobiliaria";
   if (it.fuente === "Alberto Álvarez") return "bolsa compartida en la web de Alberto Álvarez";
@@ -1008,8 +1008,9 @@ function accionesTarjeta(it) {
 /** Línea pequeña: de qué portal viene, dónde más está y cómo contactar si no hay teléfono. */
 function lineaOrigen(it) {
   const varias = S.dup && it.dup != null && (GRUPOS[it.dup] || []).length > 1;
-  const partes = [`Sacado de <a href="${esc(urlOk(it.url))}" target="_blank" rel="noopener noreferrer">${esc(sitioDe(it))}</a> (${esc(tipoOrigen(it))})`
-    + (varias ? (it === originalDe(it) ? " · original" : " · copia") : "")];
+  const partes = [`Sacado de <a href="${esc(urlOk(it.url))}" target="_blank" rel="noopener noreferrer">${esc(sitioDe(it))}</a>`,
+    esc(tipoOrigen(it))];
+  if (varias) partes.push(it === originalDe(it) ? "<b>original</b>" : "copia");
   if (esDePago(it)) partes.push("⚠ Rentola cobra por contactar");
   else if (!soloDigitos(it.tel) && !soloDigitos(it.wa)) partes.push(CONTACTO_CON_FORMULARIO.has(it.fuente) ? "el teléfono lo dan tras llenar un formulario" : "teléfono en el anuncio");
   else if (it.ofi) partes.push("línea general de la inmobiliaria (da el código del anuncio)");
