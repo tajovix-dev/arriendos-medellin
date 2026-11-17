@@ -214,7 +214,14 @@ const INMOBILIARIAS_DIRECTAS = new Set(["Escala Inmobiliaria", "Alberto Álvarez
   "Inmobiliaria La Estrella", "Arrendamientos Sukasa", "Mi Lugar Inmobiliario", "Arrendamientos La Aldea", "Survivienda",
   "Su Vivienda", "Duque Giraldo", "La Palma Inmobiliaria", "Urve Inmobiliaria", "Alnago", "Inmobiliaria Vicasa"]);
 /** 3 web de la inmobiliaria · 2 portal donde publica · 1 intermediario · 0 intermediario que cobra. */
+// Portales y agregadores (varias inmobiliarias publican ahí): no son la web propia de nadie
+const DOMINIOS_PORTAL = new Set(["metrocuadrado.com", "ciencuadras.com", "properati.com.co", "fincaraiz.com.co",
+  "puntopropiedad.com", "espaciourbano.com", "viviendo.la", "webinmobiliaria.com.co", "doomos.com.co"]);
+function dominioDe(u) { try { return new URL(u).hostname.replace(/^www\./, ""); } catch { return ""; } }
+/** Rentola copió el anuncio de la web propia de una inmobiliaria: su enlace lleva al original. */
+function copiaDeWebPropia(it) { return PORTALES_DE_PAGO.has(it.fuente) && it.urlPago && !DOMINIOS_PORTAL.has(dominioDe(it.url)); }
 function nivelOrigen(it) {
+  if (copiaDeWebPropia(it)) return 3;
   if (PORTALES_DE_PAGO.has(it.fuente)) return 0;
   if (INTERMEDIARIOS.has(it.fuente)) return 1;
   // Alberto Álvarez también muestra la bolsa compartida de otras inmobiliarias (códigos que no son AA-)
@@ -223,6 +230,7 @@ function nivelOrigen(it) {
 }
 function tipoOrigen(it) {
   const n = nivelOrigen(it);
+  if (copiaDeWebPropia(it)) return "web de la inmobiliaria (la encontramos gracias a Rentola)";
   if (n === 0) return it.urlPago ? `copiado por ${it.fuente}; el enlace lleva a la página original` : `${it.fuente} cobra por contactar`;
   if (n === 1) return "intermediario: muestra anuncios de otras inmobiliarias";
   if (n === 3) return "web de la inmobiliaria";
