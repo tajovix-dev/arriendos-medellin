@@ -31,11 +31,14 @@ from urllib.parse import unquote, urlparse
 import config
 from scraper import analisis, fotos, noticias, normalizar, seleccion, ubicacion
 from scraper.sources import (fincaraiz, rentola, albertoalvarez, metrocuadrado, ciencuadras, espaciourbano,
-                             arrendamientosenvigado, softin_livewire, escala, santafe, nutibara, doomos)
+                             arrendamientosenvigado, softin_livewire, escala, santafe, nutibara, doomos,
+                             softinm, duquegiraldo, wasi_sitios, vicasa)
 
 FUENTES = [fincaraiz, rentola, albertoalvarez, metrocuadrado,
            # Portales e inmobiliarias agregados el 2026-11-16 (prioridad: el sur del valle)
-           ciencuadras, espaciourbano, arrendamientosenvigado, softin_livewire, escala, santafe, nutibara, doomos]
+           ciencuadras, espaciourbano, arrendamientosenvigado, softin_livewire, escala, santafe, nutibara, doomos,
+           # Inmobiliarias originales que antes solo llegaban copiadas por Rentola
+           softinm, duquegiraldo, wasi_sitios, vicasa]
 # Fuentes cuyo listado no trae galería completa: se visita el detalle de los nuevos
 T0 = time.time()  # inicio de la corrida (topes de tiempo)
 CON_DETALLE = {"Rentola": rentola, "Alberto Álvarez": albertoalvarez,
@@ -43,7 +46,10 @@ CON_DETALLE = {"Rentola": rentola, "Alberto Álvarez": albertoalvarez,
                "Arrendamientos Nutibara": nutibara, "Doomos": doomos,
                # Misma plantilla para 4 inmobiliarias
                "Inmobiliaria La Estrella": softin_livewire, "Arrendamientos Villacruz": softin_livewire,
-               "Arrendamientos El Castillo": softin_livewire, "Livin Inmobiliaria": softin_livewire}
+               "Arrendamientos El Castillo": softin_livewire, "Livin Inmobiliaria": softin_livewire,
+               # Plantilla Softinm clásica (5 inmobiliarias) y Duque Giraldo: galería, estrato y contacto de la ficha
+               "Arrendamientos Sukasa": softinm, "Mi Lugar Inmobiliario": softinm, "Arrendamientos La Aldea": softinm,
+               "Survivienda": softinm, "Su Vivienda": softinm, "Duque Giraldo": duquegiraldo}
 
 RAIZ = Path(__file__).resolve().parent.parent
 DATA = RAIZ / "data"
@@ -320,7 +326,7 @@ def clave_url(u):
     """Sitio + número del inmueble: la misma ficha aunque cambie el texto de la URL, www o mayúsculas."""
     p = urlparse(u)
     ruta = unquote(p.path).rstrip("/")
-    m = re.search(r"(\d+-M\d+|\d{4,})$", ruta)
+    m = re.search(r"(\d+-M\d+|\d{4,})$", ruta) or re.search(r"/inmueble/(\d{3,})(?:[/-]|$)", ruta)
     if not m and len(ruta) < 8:
         return None  # p. ej. sitios con el número tras "#": sin clave segura no se empareja
     return f'{p.netloc.lower().removeprefix("www.")}|{m.group(1) if m else ruta.lower()}'

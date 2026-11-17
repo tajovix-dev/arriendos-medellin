@@ -35,8 +35,14 @@ def _host(u):
     return urlparse(u).netloc.lower()
 
 
+#  Sitios cuyo robots.txt prohíbe la carpeta de fotos: no se piden (se muestran tal como las enlaza su ficha)
+NO_PROBAR = {"www.inmobiliariavicasa.com", "inmobiliariavicasa.com"}
+
+
 def _probar(u):
     """True si la URL devuelve una imagen."""
+    if _host(u) in NO_PROBAR:
+        return None  # sin probar: se conserva
     try:
         r = requests.get(u, headers={"User-Agent": UA, "Range": "bytes=0-2047"}, timeout=(4, 8), stream=True)
         if r.status_code not in (200, 206):

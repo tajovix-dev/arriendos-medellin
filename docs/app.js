@@ -208,7 +208,8 @@ function esDePago(it) { return PORTALES_DE_PAGO.has(it.fuente) && !it.urlPago; }
 // Inmobiliarias que leemos en su propia web (la fuente primaria de sus anuncios)
 const INMOBILIARIAS_DIRECTAS = new Set(["Escala Inmobiliaria", "Alberto Álvarez", "Arrendamientos Santa Fe",
   "Arrendamientos Nutibara", "Arrendamientos Envigado", "Arrendamientos Villacruz", "Arrendamientos El Castillo",
-  "Inmobiliaria La Estrella"]);
+  "Inmobiliaria La Estrella", "Arrendamientos Sukasa", "Mi Lugar Inmobiliario", "Arrendamientos La Aldea", "Survivienda",
+  "Su Vivienda", "Duque Giraldo", "La Palma Inmobiliaria", "Urve Inmobiliaria", "Alnago", "Inmobiliaria Vicasa"]);
 /** 3 web de la inmobiliaria · 2 portal donde publica · 1 intermediario · 0 intermediario que cobra. */
 function nivelOrigen(it) {
   if (PORTALES_DE_PAGO.has(it.fuente)) return 0;
