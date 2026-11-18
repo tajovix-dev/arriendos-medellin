@@ -844,6 +844,7 @@
   "lon": -75.6035328,
   "tipo": "zona"
  },
+ "Medellín|el robledo": null,
  "Medellín|el salvador": {
   "lat": 6.2370571,
   "lon": -75.5618955,
@@ -1084,6 +1085,7 @@
   "tipo": "zona"
  },
  "Medellín|loma los parra": null,
+ "Medellín|loma san jose": null,
  "Medellín|loma san julian": null,
  "Medellín|lopez mesa": {
   "lat": 6.283605,
