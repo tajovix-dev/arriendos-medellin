@@ -384,6 +384,7 @@
  },
  "Itagüí|suramerica itagui": null,
  "Itagüí|suramericana": null,
+ "Itagüí|tablazo": null,
  "Itagüí|terranova": null,
  "Itagüí|toledo": null,
  "Itagüí|triana": null,
@@ -892,6 +893,7 @@
  },
  "Medellín|floresta alcazares": null,
  "Medellín|floresta pradera": null,
+ "Medellín|floresta sta lucia": null,
  "Medellín|florida nueva": {
   "lat": 6.2513549,
   "lon": -75.5908084,
@@ -922,6 +924,11 @@
  "Medellín|guayabal": {
   "lat": 6.2061369,
   "lon": -75.5878955,
+  "tipo": "zona"
+ },
+ "Medellín|guayaquil": {
+  "lat": 6.2487324,
+  "lon": -75.5731855,
   "tipo": "zona"
  },
  "Medellín|la aguacatala": {

@@ -6,6 +6,25 @@
      "descartada": true,
      "fecha": "2026-11-12"
     },
+    "363a0589c874": {
+     "categoria": "servicios_agua_luz",
+     "fecha": "2026-11-17",
+     "fuente": "Alerta",
+     "gravedad": 1,
+     "id": "363a0589c874",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY05sWURobHRyc3BhYl95QzUxU2lSa2swUy1mYmN2NlBVbk82QmktdVlHZElhQXBLS2Y5ME9SUG5COXc5ZVg3RFlWckwyXzA1NTNpQmtlM3h5WS1GWW1YelEwcXl3WXVKMXBjRWZpMktERkc0QjVvRDRJZi1fNU9mU3R0Wm5Kdk95QnJCdm43TjliSWd6bDlEdXJSbVZjWlFjTUtsTGVmd1hfaHRqSlHSAa4BQVVfeXFMT2NObFlEaGx0cnNwYWJfeUM1MVNpUmtrMFMtZmJjdjZQVW5PNkJpLXVZR2RJYUFwS0tmOTBPUlBuQjl3OWVYN0RZVnJMMl8wNTUzaUJrZTN4eVktRlltWHpRMHF5d1l1SjFwY0VmaTJLREZHNEI1b0Q0SWYtXzVPZlN0dFpuSnZPeUJyQnZuN045Yklnemw5RHVyUm1WY1pRY01LbExlZndYX2h0akpR?oc=5",
+     "relevante": true,
+     "resumen": "Cortes programados de agua en Envigado.",
+     "titulo": "¡Atención! Los sectores de Envigado y Medellín que se quedarán sin agua esta semana - Alerta"
+    },
+    "66aa3097c162": {
+     "descartada": true,
+     "fecha": "2026-11-17"
+    },
+    "69d2f038ddf6": {
+     "descartada": true,
+     "fecha": "2026-10-28"
+    },
     "e284bfcb63b9": {
      "descartada": true,
      "fecha": "2026-10-28"
@@ -44,6 +63,21 @@
      "descartada": true,
      "fecha": "2026-11-12"
     },
+    "363a0589c874": {
+     "categoria": "servicios_agua_luz",
+     "fecha": "2026-11-17",
+     "fuente": "Alerta",
+     "gravedad": 1,
+     "id": "363a0589c874",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY05sWURobHRyc3BhYl95QzUxU2lSa2swUy1mYmN2NlBVbk82QmktdVlHZElhQXBLS2Y5ME9SUG5COXc5ZVg3RFlWckwyXzA1NTNpQmtlM3h5WS1GWW1YelEwcXl3WXVKMXBjRWZpMktERkc0QjVvRDRJZi1fNU9mU3R0Wm5Kdk95QnJCdm43TjliSWd6bDlEdXJSbVZjWlFjTUtsTGVmd1hfaHRqSlHSAa4BQVVfeXFMT2NObFlEaGx0cnNwYWJfeUM1MVNpUmtrMFMtZmJjdjZQVW5PNkJpLXVZR2RJYUFwS0tmOTBPUlBuQjl3OWVYN0RZVnJMMl8wNTUzaUJrZTN4eVktRlltWHpRMHF5d1l1SjFwY0VmaTJLREZHNEI1b0Q0SWYtXzVPZlN0dFpuSnZPeUJyQnZuN045Yklnemw5RHVyUm1WY1pRY01LbExlZndYX2h0akpR?oc=5",
+     "relevante": true,
+     "resumen": "Cortes programados de agua en Envigado.",
+     "titulo": "¡Atención! Los sectores de Envigado y Medellín que se quedarán sin agua esta semana - Alerta"
+    },
+    "66aa3097c162": {
+     "descartada": true,
+     "fecha": "2026-11-17"
+    },
     "7440ce8c5d24": {
      "categoria": "otro",
      "fecha": "2026-10-26",
@@ -77,6 +111,10 @@
      "resumen": "",
      "titulo": "Pasabordos y maletas se tramitan a mano en El Dorado por falla de sistemas - Minuto30"
     },
+    "89930a53476f": {
+     "descartada": true,
+     "fecha": "2026-11-15"
+    },
     "9409bdde9c6d": {
      "categoria": "otro",
      "fecha": "2026-11-11",
@@ -92,6 +130,14 @@
      "descartada": true,
      "fecha": "2026-10-23"
     },
+    "b98d102054c9": {
+     "descartada": true,
+     "fecha": "2026-11-18"
+    },
+    "d8e8122e4801": {
+     "descartada": true,
+     "fecha": "2026-11-12"
+    },
     "f2b067b92126": {
      "descartada": true,
      "fecha": "2026-11-11"
@@ -99,7 +145,19 @@
    }
   },
   "Envigado|El Esmeraldal": {
-   "noticias": {}
+   "noticias": {
+    "d0d58817c81f": {
+     "categoria": "servicios_agua_luz",
+     "fecha": "2026-11-17",
+     "fuente": "Alerta",
+     "gravedad": 1,
+     "id": "d0d58817c81f",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQT1RpOHFHQ2JSdEhZQTFQc1hnbk44WkNISW9HeG51MXVMOXRqT1liNjZKbDFfTWNPdDFxYVZuUGR3Y2Z3TnJYV1hIREc5aWR6TkZkbFNiUjhvcnZ1VkZYY1FNQzZSY00wVmNBWDVCdEdpN003RWp0Wl9tS3RSOXIwc2ZfUUZrUVptQW4yQkMtR3dfSVVlYnJXSEQtSEtSVDV6Y1pUVdIBpAFBVV95cUxQT1RpOHFHQ2JSdEhZQTFQc1hnbk44WkNISW9HeG51MXVMOXRqT1liNjZKbDFfTWNPdDFxYVZuUGR3Y2Z3TnJYV1hIREc5aWR6TkZkbFNiUjhvcnZ1VkZYY1FNQzZSY00wVmNBWDVCdEdpN003RWp0Wl9tS3RSOXIwc2ZfUUZrUVptQW4yQkMtR3dfSVVlYnJXSEQtSEtSVDV6Y1pUVQ?oc=5",
+     "relevante": true,
+     "resumen": "Cortes programados de agua en Envigado.",
+     "titulo": "Cortes de agua en Medellín, Bello y Envigado este miércoles: barrios que deben prepararse - Alerta"
+    }
+   }
   },
   "Envigado|El Portal": {
    "noticias": {
@@ -107,9 +165,24 @@
      "descartada": true,
      "fecha": "2026-11-10"
     },
+    "17d8ad250802": {
+     "descartada": true,
+     "fecha": "2026-11-17"
+    },
     "25fdb1de0a13": {
      "descartada": true,
      "fecha": "2026-10-27"
+    },
+    "363a0589c874": {
+     "categoria": "servicios_agua_luz",
+     "fecha": "2026-11-17",
+     "fuente": "Alerta",
+     "gravedad": 1,
+     "id": "363a0589c874",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY05sWURobHRyc3BhYl95QzUxU2lSa2swUy1mYmN2NlBVbk82QmktdVlHZElhQXBLS2Y5ME9SUG5COXc5ZVg3RFlWckwyXzA1NTNpQmtlM3h5WS1GWW1YelEwcXl3WXVKMXBjRWZpMktERkc0QjVvRDRJZi1fNU9mU3R0Wm5Kdk95QnJCdm43TjliSWd6bDlEdXJSbVZjWlFjTUtsTGVmd1hfaHRqSlHSAa4BQVVfeXFMT2NObFlEaGx0cnNwYWJfeUM1MVNpUmtrMFMtZmJjdjZQVW5PNkJpLXVZR2RJYUFwS0tmOTBPUlBuQjl3OWVYN0RZVnJMMl8wNTUzaUJrZTN4eVktRlltWHpRMHF5d1l1SjFwY0VmaTJLREZHNEI1b0Q0SWYtXzVPZlN0dFpuSnZPeUJyQnZuN045Yklnemw5RHVyUm1WY1pRY01LbExlZndYX2h0akpR?oc=5",
+     "relevante": true,
+     "resumen": "Cortes programados de agua en sectores de Envigado.",
+     "titulo": "¡Atención! Los sectores de Envigado y Medellín que se quedarán sin agua esta semana - Alerta"
     },
     "3c3fda83b7ec": {
      "descartada": true,
@@ -119,9 +192,17 @@
      "descartada": true,
      "fecha": "2026-11-15"
     },
+    "4639f22a8ccc": {
+     "descartada": true,
+     "fecha": "2026-11-15"
+    },
     "507dc10dd7c9": {
      "descartada": true,
      "fecha": "2026-11-11"
+    },
+    "52a6f4d2f0ee": {
+     "descartada": true,
+     "fecha": "2026-11-17"
     },
     "660958915c9e": {
      "descartada": true,
@@ -134,6 +215,22 @@
     "701666e159e4": {
      "descartada": true,
      "fecha": "2026-11-13"
+    },
+    "7500141293f4": {
+     "descartada": true,
+     "fecha": "2026-11-18"
+    },
+    "8046b1f02b3f": {
+     "descartada": true,
+     "fecha": "2026-11-17"
+    },
+    "82a342a9d3d6": {
+     "descartada": true,
+     "fecha": "2026-11-18"
+    },
+    "9b7b4ee1071c": {
+     "descartada": true,
+     "fecha": "2026-11-16"
     },
     "9c6b07966655": {
      "categoria": "otro",
@@ -154,6 +251,10 @@
      "descartada": true,
      "fecha": "2026-11-12"
     },
+    "b98d102054c9": {
+     "descartada": true,
+     "fecha": "2026-11-18"
+    },
     "c4e7aa0ee12a": {
      "categoria": "otro",
      "fecha": "2026-10-23",
@@ -169,9 +270,17 @@
      "descartada": true,
      "fecha": "2026-11-11"
     },
+    "d896aee6f845": {
+     "descartada": true,
+     "fecha": "2026-11-03"
+    },
     "dad4ec7249f0": {
      "descartada": true,
      "fecha": "2026-11-12"
+    },
+    "e440a648d07e": {
+     "descartada": true,
+     "fecha": "2026-11-17"
     },
     "eeb27b4ad14e": {
      "categoria": "otro",
@@ -184,6 +293,17 @@
      "resumen": "No relevante. La noticia trata sobre el significado del \"portal 11/11\", no del barrio El Portal.",
      "titulo": "¿Qué es el portal 11/11 y qué debería hacer este 11 de noviembre? - El Colombiano"
     },
+    "f2e98e3c9509": {
+     "categoria": "otro",
+     "fecha": "2026-11-11",
+     "fuente": "El Colombiano",
+     "gravedad": 0,
+     "id": "f2e98e3c9509",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONEs1cDFvY0hsUFp0QTBoTElLbDRneXFlM3NYSmVnLTVlN3RvWEdZNE96Y3pDODR0UEdJdmxiWlJOYUkzaXZqX0IwdDh2TE9xMDBhUF96UGRSZU1BWm5obWx0NEhiMFdDUWVIOFVnRWlSZkM5dVdaTDJjak1kNVVzMzRsUG16bGVZWXhURV93VGx0Zjd6UmRuSWZn0gGfAUFVX3lxTE9qNkt1VG1ibFBkYnczT1pRd0xaZXMzRWJOOHlldnFOaVE0ZVg3Qk9jdWtCcmN2bldKRmRCS3M3WHhHTHlwcnVhajdZSzRXNmRLZXNHTmc5cXBDOVhkcXJ3LVd4TWZjdURYYTBHYXJfLTB6MWZrdk9RSVBvUzBqTUsybS03ZG5oODJFcXIwUUVfWUNOVHoxWlVjbFBTZjdDYw?oc=5",
+     "relevante": false,
+     "resumen": "Se refiere a un concepto astrológico/esotérico, no al barrio.",
+     "titulo": "¿Qué es el portal 11/11 y qué debería hacer este 11 de noviembre? | El Colombiano - El Colombiano"
+    },
     "fde5be7a0171": {
      "descartada": true,
      "fecha": "2026-11-13"
@@ -195,6 +315,29 @@
     "0af1b92e1770": {
      "descartada": true,
      "fecha": "2026-11-15"
+    },
+    "17d8ad250802": {
+     "descartada": true,
+     "fecha": "2026-11-17"
+    },
+    "26c504753c11": {
+     "categoria": "servicios_agua_luz",
+     "fecha": "2026-10-22",
+     "fuente": "Alerta",
+     "gravedad": 1,
+     "id": "26c504753c11",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWEllY2FHeWc3Zk5xTEVJSUJOUk9jaG1nRGp2cmVQZjB0OTlWYTNkUXFrUnJuWDNzQzdkb0ZCTnlmS0UtVGtlQ0praW9ibFFIRGxMRmNkSnBIY3AtZHFHUExxR0ZQYTlWYzN4MUdqbmQ0MFNrRmRwX250LXpfVmN5ZFZKNzNiM3p4cnIxTl8wbXpiLTRfU0NNOURB0gGaAUFVX3lxTE13Y1c0TlJsM1BPcW90dFJPcGs1Zl85QWE2bmJFM0JZek5UbEVzUTAwNnN5U3pVaXgxdDNCN2tJVFdxRDQ2VUg3Q1N0SVl1QURmNXdlYmxKel9KNlRhX2dwN3B6S1pON1FKMlQxS2w3Z0tKc1ZWSjViZjBfOFF3SDk1S1ZWZVJ3VDFEelZUT2U5NXlJaXA1TnpvbHc?oc=5",
+     "relevante": true,
+     "resumen": "Cortes programados de agua en Envigado.",
+     "titulo": "EPM no levanta el racionamiento: barrios de Medellín tendrán más cortes de agua este 22 de octubre - Alerta"
+    },
+    "3ad1aca4a7ce": {
+     "descartada": true,
+     "fecha": "2026-11-01"
+    },
+    "487a7857a19f": {
+     "descartada": true,
+     "fecha": "2026-10-23"
     },
     "4b33f2b372e7": {
      "categoria": "otro",
@@ -241,6 +384,10 @@
      "resumen": "El Parque Ecoturístico El Salado, un referente del barrio, celebró 20 años, indicando un aspecto positivo de la zona.",
      "titulo": "Parque Ecoturístico El Salado celebró 20 años - El Envigadeño"
     },
+    "de0de3acace9": {
+     "descartada": true,
+     "fecha": "2026-11-08"
+    },
     "fa27a5619228": {
      "categoria": "otro",
      "fecha": "2026-10-21",
@@ -268,6 +415,28 @@
     "sugerencia": "mantener"
    },
    "noticias": {
+    "26c504753c11": {
+     "categoria": "servicios_agua_luz",
+     "fecha": "2026-10-22",
+     "fuente": "Alerta",
+     "gravedad": 1,
+     "id": "26c504753c11",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWEllY2FHeWc3Zk5xTEVJSUJOUk9jaG1nRGp2cmVQZjB0OTlWYTNkUXFrUnJuWDNzQzdkb0ZCTnlmS0UtVGtlQ0praW9ibFFIRGxMRmNkSnBIY3AtZHFHUExxR0ZQYTlWYzN4MUdqbmQ0MFNrRmRwX250LXpfVmN5ZFZKNzNiM3p4cnIxTl8wbXpiLTRfU0NNOURB0gGaAUFVX3lxTE13Y1c0TlJsM1BPcW90dFJPcGs1Zl85QWE2bmJFM0JZek5UbEVzUTAwNnN5U3pVaXgxdDNCN2tJVFdxRDQ2VUg3Q1N0SVl1QURmNXdlYmxKel9KNlRhX2dwN3B6S1pON1FKMlQxS2w3Z0tKc1ZWSjViZjBfOFF3SDk1S1ZWZVJ3VDFEelZUT2U5NXlJaXA1TnpvbHc?oc=5",
+     "relevante": true,
+     "resumen": "Cortes programados de agua en Envigado.",
+     "titulo": "EPM no levanta el racionamiento: barrios de Medellín tendrán más cortes de agua este 22 de octubre - Alerta"
+    },
+    "363a0589c874": {
+     "categoria": "servicios_agua_luz",
+     "fecha": "2026-11-17",
+     "fuente": "Alerta",
+     "gravedad": 1,
+     "id": "363a0589c874",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY05sWURobHRyc3BhYl95QzUxU2lSa2swUy1mYmN2NlBVbk82QmktdVlHZElhQXBLS2Y5ME9SUG5COXc5ZVg3RFlWckwyXzA1NTNpQmtlM3h5WS1GWW1YelEwcXl3WXVKMXBjRWZpMktERkc0QjVvRDRJZi1fNU9mU3R0Wm5Kdk95QnJCdm43TjliSWd6bDlEdXJSbVZjWlFjTUtsTGVmd1hfaHRqSlHSAa4BQVVfeXFMT2NObFlEaGx0cnNwYWJfeUM1MVNpUmtrMFMtZmJjdjZQVW5PNkJpLXVZR2RJYUFwS0tmOTBPUlBuQjl3OWVYN0RZVnJMMl8wNTUzaUJrZTN4eVktRlltWHpRMHF5d1l1SjFwY0VmaTJLREZHNEI1b0Q0SWYtXzVPZlN0dFpuSnZPeUJyQnZuN045Yklnemw5RHVyUm1WY1pRY01LbExlZndYX2h0akpR?oc=5",
+     "relevante": true,
+     "resumen": "Cortes programados de agua en Envigado.",
+     "titulo": "¡Atención! Los sectores de Envigado y Medellín que se quedarán sin agua esta semana - Alerta"
+    },
     "4b33f2b372e7": {
      "categoria": "servicios_agua_luz",
      "fecha": "2026-10-22",
@@ -388,6 +557,21 @@
      "descartada": true,
      "fecha": "2026-11-03"
     },
+    "363a0589c874": {
+     "categoria": "servicios_agua_luz",
+     "fecha": "2026-11-17",
+     "fuente": "Alerta",
+     "gravedad": 1,
+     "id": "363a0589c874",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY05sWURobHRyc3BhYl95QzUxU2lSa2swUy1mYmN2NlBVbk82QmktdVlHZElhQXBLS2Y5ME9SUG5COXc5ZVg3RFlWckwyXzA1NTNpQmtlM3h5WS1GWW1YelEwcXl3WXVKMXBjRWZpMktERkc0QjVvRDRJZi1fNU9mU3R0Wm5Kdk95QnJCdm43TjliSWd6bDlEdXJSbVZjWlFjTUtsTGVmd1hfaHRqSlHSAa4BQVVfeXFMT2NObFlEaGx0cnNwYWJfeUM1MVNpUmtrMFMtZmJjdjZQVW5PNkJpLXVZR2RJYUFwS0tmOTBPUlBuQjl3OWVYN0RZVnJMMl8wNTUzaUJrZTN4eVktRlltWHpRMHF5d1l1SjFwY0VmaTJLREZHNEI1b0Q0SWYtXzVPZlN0dFpuSnZPeUJyQnZuN045Yklnemw5RHVyUm1WY1pRY01LbExlZndYX2h0akpR?oc=5",
+     "relevante": true,
+     "resumen": "Cortes programados de agua en Envigado.",
+     "titulo": "¡Atención! Los sectores de Envigado y Medellín que se quedarán sin agua esta semana - Alerta"
+    },
+    "73ac73d9201e": {
+     "descartada": true,
+     "fecha": "2026-11-12"
+    },
     "7c2418e7f0d4": {
      "categoria": "otro",
      "fecha": "2026-11-05",
@@ -446,6 +630,17 @@
      "descartada": true,
      "fecha": "2026-11-03"
     },
+    "26c504753c11": {
+     "categoria": "servicios_agua_luz",
+     "fecha": "2026-10-22",
+     "fuente": "Alerta",
+     "gravedad": 1,
+     "id": "26c504753c11",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWEllY2FHeWc3Zk5xTEVJSUJOUk9jaG1nRGp2cmVQZjB0OTlWYTNkUXFrUnJuWDNzQzdkb0ZCTnlmS0UtVGtlQ0praW9ibFFIRGxMRmNkSnBIY3AtZHFHUExxR0ZQYTlWYzN4MUdqbmQ0MFNrRmRwX250LXpfVmN5ZFZKNzNiM3p4cnIxTl8wbXpiLTRfU0NNOURB0gGaAUFVX3lxTE13Y1c0TlJsM1BPcW90dFJPcGs1Zl85QWE2bmJFM0JZek5UbEVzUTAwNnN5U3pVaXgxdDNCN2tJVFdxRDQ2VUg3Q1N0SVl1QURmNXdlYmxKel9KNlRhX2dwN3B6S1pON1FKMlQxS2w3Z0tKc1ZWSjViZjBfOFF3SDk1S1ZWZVJ3VDFEelZUT2U5NXlJaXA1TnpvbHc?oc=5",
+     "relevante": true,
+     "resumen": "Cortes programados de agua en Envigado por parte de EPM.",
+     "titulo": "EPM no levanta el racionamiento: barrios de Medellín tendrán más cortes de agua este 22 de octubre - Alerta"
+    },
     "4b33f2b372e7": {
      "categoria": "servicios_agua_luz",
      "fecha": "2026-10-22",
@@ -468,6 +663,17 @@
      "resumen": "Reportan daño en tubería en un barrio de Envigado, causando interrupción del servicio de agua.",
      "titulo": "¿Está sin agua? Reportan daño en tubería en barrio de Envigado - Telemedellín"
     },
+    "70fef335d342": {
+     "categoria": "otro",
+     "fecha": "2026-10-23",
+     "fuente": "Minuto30",
+     "gravedad": 0,
+     "id": "70fef335d342",
+     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQUTN6YXBmYktpUEpLYXFic0RmTjQteVhwSFUxcGJReGNqaUYwaWIzal9iLU1RWjlDZjdPaEI4NXRUY2had2RxMHRfam1waXRFZ05qcm4wSFZ6Ml9kTnhPeVEtMnJUekJSbnRiUm9waVVmRW9vOGM5WVNYZFkxTU9nd1VRaDdaVVNOa3lXUS1vQmJfSzRwUXlwemthR3ptS3ZMUkMzX0pEYzZOdFlhcWZuREx0Nl84NHpMNXBUd25BTTM2eU9Ub1RUcF82aGVnX2xQTm84?oc=5",
+     "relevante": false,
+     "resumen": "El hecho ocurrió en el municipio de Segovia, Antioquia.",
+     "titulo": "Operación contra la minería ilegal en Segovia: siete capturados y 15.498 kilogramos de material aurífero - Minuto30"
+    },
     "7c2418e7f0d4": {
      "categoria": "positivo",
      "fecha": "2026-11-05",
@@ -483,6 +689,10 @@
      "descartada": true,
      "fecha": "2026-11-13"
     },
+    "859fcf1d9130": {
+     "descartada": true,
+     "fecha": "2026-11-17"
+    },
     "8ed560ef6994": {
      "descartada": true,
      "fecha": "2026-10-31"
@@ -490,6 +700,17 @@
     "9067f994c1cc": {
      "descartada": true,
      "fecha": "2026-11-02"
+    },
+    "fa27a5619228": {
+     "categoria": "servicios_agua_luz",
+     "fecha": "2026-10-21",
+     "fuente": "Alerta",
+     "gravedad": 1,
+     "id": "fa27a5619228",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeVpSTVVGdUVFUjFSRjdjLXJFMUY0MU1hdXRXaE5zUkYxdEpNTHYyU3VYeHE0eUJGWVduT3dST3dvN1UyMXJ6QlFyUWNHOW04ZExsWl92b0dTcHVkZUxrTHZpRDdhUGFES3N5UEprNUhpUjRZMlU4UFBJWllpZE1sMDQzWGRzbzFVcVV2Vi1DcXFGLWNXNTBHRHJ30gGaAUFVX3lxTE92MFlKajNHVXdNRGZaaEFmQ0tzclUzRmhxZ3BwcGNBUTZPYnJmNlVnZE9mM0dYc3hGaTlCX2hKWFFLSzFPdzl4TGJ6cW1EUDlwWS1WeWlNYzdUT0VMdGxibUx5eVdDRDBPNlZZcWw2dlhHRE1NNFE5UDhvbmItLXcyNVJBektzNm5pY3loMU5pVU9RUWZoSFdWRnc?oc=5",
+     "relevante": true,
+     "resumen": "Cortes programados de agua en Envigado por parte de EPM.",
+     "titulo": "A llenar los baldes: Medellín, Bello y Envigado tendrán cortes de agua este miércoles 21 de octubre - Alerta"
     }
    }
   },
@@ -530,9 +751,28 @@
      "descartada": true,
      "fecha": "2026-11-10"
     },
+    "363a0589c874": {
+     "categoria": "servicios_agua_luz",
+     "fecha": "2026-11-17",
+     "fuente": "Alerta",
+     "gravedad": 1,
+     "id": "363a0589c874",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY05sWURobHRyc3BhYl95QzUxU2lSa2swUy1mYmN2NlBVbk82QmktdVlHZElhQXBLS2Y5ME9SUG5COXc5ZVg3RFlWckwyXzA1NTNpQmtlM3h5WS1GWW1YelEwcXl3WXVKMXBjRWZpMktERkc0QjVvRDRJZi1fNU9mU3R0Wm5Kdk95QnJCdm43TjliSWd6bDlEdXJSbVZjWlFjTUtsTGVmd1hfaHRqSlHSAa4BQVVfeXFMT2NObFlEaGx0cnNwYWJfeUM1MVNpUmtrMFMtZmJjdjZQVW5PNkJpLXVZR2RJYUFwS0tmOTBPUlBuQjl3OWVYN0RZVnJMMl8wNTUzaUJrZTN4eVktRlltWHpRMHF5d1l1SjFwY0VmaTJLREZHNEI1b0Q0SWYtXzVPZlN0dFpuSnZPeUJyQnZuN045Yklnemw5RHVyUm1WY1pRY01LbExlZndYX2h0akpR?oc=5",
+     "relevante": true,
+     "resumen": "Cortes programados de agua en Envigado.",
+     "titulo": "¡Atención! Los sectores de Envigado y Medellín que se quedarán sin agua esta semana - Alerta"
+    },
     "3aa04d4d6acf": {
      "descartada": true,
      "fecha": "2026-11-11"
+    },
+    "407440bdbbd7": {
+     "descartada": true,
+     "fecha": "2026-11-11"
+    },
+    "44b25c3f5fd6": {
+     "descartada": true,
+     "fecha": "2026-11-15"
     },
     "486c3d252177": {
      "descartada": true,
@@ -569,9 +809,31 @@
      "resumen": "",
      "titulo": "Sindicato de la UNP denuncia «desborde» de esquemas de seguridad en la JEP y menciona a esposa de Iván Cepeda - Minuto30"
     },
+    "8262f50d231a": {
+     "categoria": "otro",
+     "fecha": "2026-11-11",
+     "fuente": "Minuto30",
+     "gravedad": 0,
+     "id": "8262f50d231a",
+     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9zbDVCZjZYUzczU3hlNXhDQVBOelliLUY3ZjFHUjBzQTVQVl9Wc2FJMmF1M0xlckZmd0dQS3hwMlVUQ0pYRzN0SmI1YmZsTnp2MEh6WEpsblo5Qlo2NW1STXpPRFZ2UDF5S3k5Mw?oc=5",
+     "relevante": false,
+     "resumen": "Se refiere a una región geográfica (Montes de María), no al barrio.",
+     "titulo": "Montes de María: la JEP imputa a 11 exuniformados por 32 masacres y 284 asesinatos - Minuto30"
+    },
     "9693c8f30f6b": {
      "descartada": true,
      "fecha": "2026-11-14"
+    },
+    "b3db0f628b15": {
+     "categoria": "otro",
+     "fecha": "2026-11-16",
+     "fuente": "Claro Sports",
+     "gravedad": 0,
+     "id": "b3db0f628b15",
+     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQZUtySmtqTTVNSFBZaThPeUQ5Z0g1UTVvbnlELUtqMFdyejR4RmFtMDA2MWZ3VVppdmlJY3FIWmlKUl82WE1iOTM4SllBNG05UW5oS1RCWFJOeEkzMDk0NU96NmJHLW9yQnRza0kxNHhIbGYteTNLdTVXVXBIVC1vVUdoMkEwbUhMUkRNaURoNVFVeWtaekhDbm9oVS1EN1hnd2VWYlJVMm5mZ24tcmluZGpiVEhSeUFCNEF6MGlaRXRpUklCY2s3RW52WElYRXBDUExXdlBIaXppZ0V4WWhjOFRhMHB3R00?oc=5",
+     "relevante": false,
+     "resumen": "Se refiere a un equipo de fútbol mexicano.",
+     "titulo": "Atlético La Paz vs. Atlético Morelia: así será la final del Apertura 2026 de la Liga de Expansión - Claro Sports"
     },
     "bf24e5963ab3": {
      "categoria": "otro",
@@ -587,6 +849,10 @@
     "c37101518672": {
      "descartada": true,
      "fecha": "2026-11-13"
+    },
+    "cc225c868b2f": {
+     "descartada": true,
+     "fecha": "2026-10-23"
     },
     "e14945ca9265": {
      "descartada": true,
@@ -611,6 +877,17 @@
     "sugerencia": "mantener"
    },
    "noticias": {
+    "363a0589c874": {
+     "categoria": "servicios_agua_luz",
+     "fecha": "2026-11-17",
+     "fuente": "Alerta",
+     "gravedad": 1,
+     "id": "363a0589c874",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY05sWURobHRyc3BhYl95QzUxU2lSa2swUy1mYmN2NlBVbk82QmktdVlHZElhQXBLS2Y5ME9SUG5COXc5ZVg3RFlWckwyXzA1NTNpQmtlM3h5WS1GWW1YelEwcXl3WXVKMXBjRWZpMktERkc0QjVvRDRJZi1fNU9mU3R0Wm5Kdk95QnJCdm43TjliSWd6bDlEdXJSbVZjWlFjTUtsTGVmd1hfaHRqSlHSAa4BQVVfeXFMT2NObFlEaGx0cnNwYWJfeUM1MVNpUmtrMFMtZmJjdjZQVW5PNkJpLXVZR2RJYUFwS0tmOTBPUlBuQjl3OWVYN0RZVnJMMl8wNTUzaUJrZTN4eVktRlltWHpRMHF5d1l1SjFwY0VmaTJLREZHNEI1b0Q0SWYtXzVPZlN0dFpuSnZPeUJyQnZuN045Yklnemw5RHVyUm1WY1pRY01LbExlZndYX2h0akpR?oc=5",
+     "relevante": true,
+     "resumen": "Cortes programados de agua en Envigado.",
+     "titulo": "¡Atención! Los sectores de Envigado y Medellín que se quedarán sin agua esta semana - Alerta"
+    },
     "534c93fb18a2": {
      "categoria": "homicidio",
      "fecha": "2026-11-07",
@@ -629,7 +906,19 @@
    }
   },
   "Envigado|Las Casitas": {
-   "noticias": {}
+   "noticias": {
+    "363a0589c874": {
+     "categoria": "servicios_agua_luz",
+     "fecha": "2026-11-17",
+     "fuente": "Alerta",
+     "gravedad": 1,
+     "id": "363a0589c874",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY05sWURobHRyc3BhYl95QzUxU2lSa2swUy1mYmN2NlBVbk82QmktdVlHZElhQXBLS2Y5ME9SUG5COXc5ZVg3RFlWckwyXzA1NTNpQmtlM3h5WS1GWW1YelEwcXl3WXVKMXBjRWZpMktERkc0QjVvRDRJZi1fNU9mU3R0Wm5Kdk95QnJCdm43TjliSWd6bDlEdXJSbVZjWlFjTUtsTGVmd1hfaHRqSlHSAa4BQVVfeXFMT2NObFlEaGx0cnNwYWJfeUM1MVNpUmtrMFMtZmJjdjZQVW5PNkJpLXVZR2RJYUFwS0tmOTBPUlBuQjl3OWVYN0RZVnJMMl8wNTUzaUJrZTN4eVktRlltWHpRMHF5d1l1SjFwY0VmaTJLREZHNEI1b0Q0SWYtXzVPZlN0dFpuSnZPeUJyQnZuN045Yklnemw5RHVyUm1WY1pRY01LbExlZndYX2h0akpR?oc=5",
+     "relevante": true,
+     "resumen": "Cortes programados de agua en Envigado.",
+     "titulo": "¡Atención! Los sectores de Envigado y Medellín que se quedarán sin agua esta semana - Alerta"
+    }
+   }
   },
   "Envigado|Las Cometas": {
    "noticias": {}
@@ -662,6 +951,10 @@
      "resumen": "",
      "titulo": "Se llevaron whisky y cigarrillos en atraco a tienda de cadena en Las Lomitas, Sabaneta - Minuto30"
     },
+    "a11ac10f6add": {
+     "descartada": true,
+     "fecha": "2026-11-18"
+    },
     "c5d6498d60f6": {
      "categoria": "otro",
      "fecha": "2026-10-20",
@@ -689,6 +982,17 @@
      "descartada": true,
      "fecha": "2026-11-12"
     },
+    "363a0589c874": {
+     "categoria": "servicios_agua_luz",
+     "fecha": "2026-11-17",
+     "fuente": "Alerta",
+     "gravedad": 1,
+     "id": "363a0589c874",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY05sWURobHRyc3BhYl95QzUxU2lSa2swUy1mYmN2NlBVbk82QmktdVlHZElhQXBLS2Y5ME9SUG5COXc5ZVg3RFlWckwyXzA1NTNpQmtlM3h5WS1GWW1YelEwcXl3WXVKMXBjRWZpMktERkc0QjVvRDRJZi1fNU9mU3R0Wm5Kdk95QnJCdm43TjliSWd6bDlEdXJSbVZjWlFjTUtsTGVmd1hfaHRqSlHSAa4BQVVfeXFMT2NObFlEaGx0cnNwYWJfeUM1MVNpUmtrMFMtZmJjdjZQVW5PNkJpLXVZR2RJYUFwS0tmOTBPUlBuQjl3OWVYN0RZVnJMMl8wNTUzaUJrZTN4eVktRlltWHpRMHF5d1l1SjFwY0VmaTJLREZHNEI1b0Q0SWYtXzVPZlN0dFpuSnZPeUJyQnZuN045Yklnemw5RHVyUm1WY1pRY01LbExlZndYX2h0akpR?oc=5",
+     "relevante": true,
+     "resumen": "Cortes programados de agua en Envigado.",
+     "titulo": "¡Atención! Los sectores de Envigado y Medellín que se quedarán sin agua esta semana - Alerta"
+    },
     "3682ae469412": {
      "categoria": "obras_movilidad",
      "fecha": "2026-10-27",
@@ -699,6 +1003,10 @@
      "relevante": true,
      "resumen": "Desvíos por obras en la glorieta de Mayorca (calle 50 Sur), afectando directamente la movilidad del barrio Las Vegas.",
      "titulo": "¡Pilas en Mayorca! Estos son los desvíos por las obras en la glorieta de la calle 50 Sur - Minuto30"
+    },
+    "66aa3097c162": {
+     "descartada": true,
+     "fecha": "2026-11-17"
     },
     "8a60d3a14d61": {
      "categoria": "obras_movilidad",
@@ -770,6 +1078,28 @@
   },
   "Envigado|Loma del Barro": {
    "noticias": {
+    "26c504753c11": {
+     "categoria": "servicios_agua_luz",
+     "fecha": "2026-10-22",
+     "fuente": "Alerta",
+     "gravedad": 1,
+     "id": "26c504753c11",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWEllY2FHeWc3Zk5xTEVJSUJOUk9jaG1nRGp2cmVQZjB0OTlWYTNkUXFrUnJuWDNzQzdkb0ZCTnlmS0UtVGtlQ0praW9ibFFIRGxMRmNkSnBIY3AtZHFHUExxR0ZQYTlWYzN4MUdqbmQ0MFNrRmRwX250LXpfVmN5ZFZKNzNiM3p4cnIxTl8wbXpiLTRfU0NNOURB0gGaAUFVX3lxTE13Y1c0TlJsM1BPcW90dFJPcGs1Zl85QWE2bmJFM0JZek5UbEVzUTAwNnN5U3pVaXgxdDNCN2tJVFdxRDQ2VUg3Q1N0SVl1QURmNXdlYmxKel9KNlRhX2dwN3B6S1pON1FKMlQxS2w3Z0tKc1ZWSjViZjBfOFF3SDk1S1ZWZVJ3VDFEelZUT2U5NXlJaXA1TnpvbHc?oc=5",
+     "relevante": true,
+     "resumen": "Continuidad de racionamiento de agua en barrios de Medellín y alrededores.",
+     "titulo": "EPM no levanta el racionamiento: barrios de Medellín tendrán más cortes de agua este 22 de octubre - Alerta"
+    },
+    "363a0589c874": {
+     "categoria": "servicios_agua_luz",
+     "fecha": "2026-11-17",
+     "fuente": "Alerta",
+     "gravedad": 1,
+     "id": "363a0589c874",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY05sWURobHRyc3BhYl95QzUxU2lSa2swUy1mYmN2NlBVbk82QmktdVlHZElhQXBLS2Y5ME9SUG5COXc5ZVg3RFlWckwyXzA1NTNpQmtlM3h5WS1GWW1YelEwcXl3WXVKMXBjRWZpMktERkc0QjVvRDRJZi1fNU9mU3R0Wm5Kdk95QnJCdm43TjliSWd6bDlEdXJSbVZjWlFjTUtsTGVmd1hfaHRqSlHSAa4BQVVfeXFMT2NObFlEaGx0cnNwYWJfeUM1MVNpUmtrMFMtZmJjdjZQVW5PNkJpLXVZR2RJYUFwS0tmOTBPUlBuQjl3OWVYN0RZVnJMMl8wNTUzaUJrZTN4eVktRlltWHpRMHF5d1l1SjFwY0VmaTJLREZHNEI1b0Q0SWYtXzVPZlN0dFpuSnZPeUJyQnZuN045Yklnemw5RHVyUm1WY1pRY01LbExlZndYX2h0akpR?oc=5",
+     "relevante": true,
+     "resumen": "Alerta por cortes programados de agua en sectores de Envigado.",
+     "titulo": "¡Atención! Los sectores de Envigado y Medellín que se quedarán sin agua esta semana - Alerta"
+    },
     "4b33f2b372e7": {
      "categoria": "servicios_agua_luz",
      "fecha": "2026-10-22",
@@ -847,6 +1177,17 @@
      "relevante": true,
      "resumen": "Cierres viales en Medellín por dos carreras, con posible impacto en la movilidad desde/hacia Loma del Escobero.",
      "titulo": "Atención, conductores: cierres viales en Medellín este domingo por dos carreras - Minuto30"
+    },
+    "d0d58817c81f": {
+     "categoria": "servicios_agua_luz",
+     "fecha": "2026-11-17",
+     "fuente": "Alerta",
+     "gravedad": 1,
+     "id": "d0d58817c81f",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQT1RpOHFHQ2JSdEhZQTFQc1hnbk44WkNISW9HeG51MXVMOXRqT1liNjZKbDFfTWNPdDFxYVZuUGR3Y2Z3TnJYV1hIREc5aWR6TkZkbFNiUjhvcnZ1VkZYY1FNQzZSY00wVmNBWDVCdEdpN003RWp0Wl9tS3RSOXIwc2ZfUUZrUVptQW4yQkMtR3dfSVVlYnJXSEQtSEtSVDV6Y1pUVdIBpAFBVV95cUxQT1RpOHFHQ2JSdEhZQTFQc1hnbk44WkNISW9HeG51MXVMOXRqT1liNjZKbDFfTWNPdDFxYVZuUGR3Y2Z3TnJYV1hIREc5aWR6TkZkbFNiUjhvcnZ1VkZYY1FNQzZSY00wVmNBWDVCdEdpN003RWp0Wl9tS3RSOXIwc2ZfUUZrUVptQW4yQkMtR3dfSVVlYnJXSEQtSEtSVDV6Y1pUVQ?oc=5",
+     "relevante": true,
+     "resumen": "Cortes programados de agua en Envigado.",
+     "titulo": "Cortes de agua en Medellín, Bello y Envigado este miércoles: barrios que deben prepararse - Alerta"
     },
     "f92821dff099": {
      "categoria": "hurto",
@@ -947,6 +1288,10 @@
   },
   "Envigado|Mesa": {
    "noticias": {
+    "04f40f33fe96": {
+     "descartada": true,
+     "fecha": "2026-10-22"
+    },
     "0659d8b27cef": {
      "categoria": "otro",
      "fecha": "2026-11-10",
@@ -962,9 +1307,17 @@
      "descartada": true,
      "fecha": "2026-10-22"
     },
+    "4391f599a3d5": {
+     "descartada": true,
+     "fecha": "2026-11-10"
+    },
     "60b14c6af213": {
      "descartada": true,
      "fecha": "2026-10-22"
+    },
+    "66fe8ce58b88": {
+     "descartada": true,
+     "fecha": "2026-11-12"
     },
     "67a33d755134": {
      "categoria": "otro",
@@ -1054,14 +1407,81 @@
      "relevante": false,
      "resumen": "",
      "titulo": "¿Quién es José Ignacio Mesa, el exalacalde de Envigado al que EE. UU. le quitó la visa? | El Colombiano - El Colombiano"
+    },
+    "f8d694b1d1bb": {
+     "categoria": "accidente",
+     "fecha": "2026-11-12",
+     "fuente": "El Colombiano",
+     "gravedad": 1,
+     "id": "f8d694b1d1bb",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNR3NsMjIxWWtQNmNKUC12WmxmY1Uwd1ZHWm9STWlaN2l0akdkSzh3LVVjQk5ud3FLUm1kNTkxcjlXUXg3ZFAxdW43QnBjMXQzSHo3SXhucnFzOUxtcXdwTDRORy1naGFrY2xoVlVlcFBFYmVCMFI3X0RaWWtzWUVWWndGdy03MzhkUzJpN19fcGtWb0l5LVFhOEhR0gGfAUFVX3lxTE55U2o0ak9KQ1FISE1rWjI0d2V4M25NYW96SVpDdVRCRXRxNF9GN21OTWUxTHRjVGQtLTdneVFiRUl5LTh3QkU3Rno1SlRTb25HVllsUVNyV1h4QTFBRlQtSi1BQ1pxZW5Kc3RuUFhCLTlpNEJoaXUyVGhhZFRHbDByM0U1TGE2QVh5RE5RNU9LOUUwTGczYXAxMGlDaUVPRQ?oc=5",
+     "relevante": true,
+     "resumen": "Accidente de tránsito con fatalidad en Envigado.",
+     "titulo": "Muere un joven en Envigado luego de caer de su moto y convulsionar en plena vía | El Colombiano - El Colombiano"
     }
    }
   },
   "Envigado|Milán - Vallejuelos": {
-   "noticias": {}
+   "noticias": {
+    "363a0589c874": {
+     "categoria": "otro",
+     "fecha": "2026-11-17",
+     "fuente": "Alerta",
+     "gravedad": 0,
+     "id": "363a0589c874",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY05sWURobHRyc3BhYl95QzUxU2lSa2swUy1mYmN2NlBVbk82QmktdVlHZElhQXBLS2Y5ME9SUG5COXc5ZVg3RFlWckwyXzA1NTNpQmtlM3h5WS1GWW1YelEwcXl3WXVKMXBjRWZpMktERkc0QjVvRDRJZi1fNU9mU3R0Wm5Kdk95QnJCdm43TjliSWd6bDlEdXJSbVZjWlFjTUtsTGVmd1hfaHRqSlHSAa4BQVVfeXFMT2NObFlEaGx0cnNwYWJfeUM1MVNpUmtrMFMtZmJjdjZQVW5PNkJpLXVZR2RJYUFwS0tmOTBPUlBuQjl3OWVYN0RZVnJMMl8wNTUzaUJrZTN4eVktRlltWHpRMHF5d1l1SjFwY0VmaTJLREZHNEI1b0Q0SWYtXzVPZlN0dFpuSnZPeUJyQnZuN045Yklnemw5RHVyUm1WY1pRY01LbExlZndYX2h0akpR?oc=5",
+     "relevante": false,
+     "resumen": "Barrio Milán - Vallejuelos no corresponde a Envigado.",
+     "titulo": "¡Atención! Los sectores de Envigado y Medellín que se quedarán sin agua esta semana - Alerta"
+    }
+   }
   },
   "Envigado|Obrero": {
    "noticias": {
+    "04bf2ba60bf1": {
+     "categoria": "otro",
+     "fecha": "2026-11-17",
+     "fuente": "Minuto30",
+     "gravedad": 0,
+     "id": "04bf2ba60bf1",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNR1RhczlCUHE1c3dWQzAwVGEwWnFLRW9FN2JsRTVKVUwtbE9FTjB0WXlWenF6SVRvbWZPSWhGekVnbmVrc0ZaQ3lqMVhVOW52OWVmVnJENk03dTJrTUQtRno0Q01rSkFuYTdjOHZGV3RsSmpiMlJYRGxIYlZPVUg2VkVPLVFVS01fS3dSOGRjclRFakQ4dVRUUXZSdjVsNlA3cnIwTk1WRXdGUGNpd25mYnBRVjFnRDhXT1J3SUNlbHlLaHlTdjZPbi1fRkVDQQ?oc=5",
+     "relevante": false,
+     "resumen": "El hecho ocurrió en Bogotá, no en el barrio Obrero de Envigado.",
+     "titulo": "Capturan en Bogotá a alias Chema, presunto integrante del Clan del Golfo que se ocultaba como obrero - Minuto30"
+    },
+    "15730707baea": {
+     "categoria": "otro",
+     "fecha": "2026-11-17",
+     "fuente": "Minuto30",
+     "gravedad": 0,
+     "id": "15730707baea",
+     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1ISFBXQVVSQmIwM2w4bkVseldRQldwY3VMT2szWGdzSzFmMGJJWlJDVlZsR2tOcnlxM2t0UnBrOTNiOTVfUXYxVGtSbUNDdGRyNWwxSzA3WVdHZ0pmUW9OZWMwaGl2S3pMZndaeXdUdUtWdw?oc=5",
+     "relevante": false,
+     "resumen": "El hecho ocurrió en Cali, no en Envigado.",
+     "titulo": "Insultos racistas a auxiliar de Policía en Cali: Eder dice que identificó al hombre y le pide entregarse - Minuto30"
+    },
+    "363a0589c874": {
+     "categoria": "servicios_agua_luz",
+     "fecha": "2026-11-17",
+     "fuente": "Alerta",
+     "gravedad": 1,
+     "id": "363a0589c874",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY05sWURobHRyc3BhYl95QzUxU2lSa2swUy1mYmN2NlBVbk82QmktdVlHZElhQXBLS2Y5ME9SUG5COXc5ZVg3RFlWckwyXzA1NTNpQmtlM3h5WS1GWW1YelEwcXl3WXVKMXBjRWZpMktERkc0QjVvRDRJZi1fNU9mU3R0Wm5Kdk95QnJCdm43TjliSWd6bDlEdXJSbVZjWlFjTUtsTGVmd1hfaHRqSlHSAa4BQVVfeXFMT2NObFlEaGx0cnNwYWJfeUM1MVNpUmtrMFMtZmJjdjZQVW5PNkJpLXVZR2RJYUFwS0tmOTBPUlBuQjl3OWVYN0RZVnJMMl8wNTUzaUJrZTN4eVktRlltWHpRMHF5d1l1SjFwY0VmaTJLREZHNEI1b0Q0SWYtXzVPZlN0dFpuSnZPeUJyQnZuN045Yklnemw5RHVyUm1WY1pRY01LbExlZndYX2h0akpR?oc=5",
+     "relevante": true,
+     "resumen": "Cortes programados de agua en Envigado.",
+     "titulo": "¡Atención! Los sectores de Envigado y Medellín que se quedarán sin agua esta semana - Alerta"
+    },
+    "6fe613d753d7": {
+     "categoria": "otro",
+     "fecha": "2026-10-29",
+     "fuente": "Minuto30",
+     "gravedad": 0,
+     "id": "6fe613d753d7",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQZllzTW03bGJjUUlWYzNJMWtqbVNmNGZCaFVCQU1kY2F2djNlaC0yazByMUpnNE5aZWw0dVRsLVVseGc2Qlh3UUNkbjIya3VIc0JkblJxTWZjQ0dJRGUyUHlxQmNJelJVWE52WWRVM0FTdEktZkZ5bUJDOWR0dlJXd2k0cDdfb3c1VFE?oc=5",
+     "relevante": false,
+     "resumen": "El hecho ocurrió en Cali, no en Envigado.",
+     "titulo": "Celia Cruz 'salió del pedestal': bajaron su escultura del barrio Obrero de Cali tras la polémica - Minuto30"
+    },
     "dc47a30250b6": {
      "categoria": "positivo",
      "fecha": "2026-11-01",
@@ -1076,7 +1496,19 @@
    }
   },
   "Envigado|Pontevedra": {
-   "noticias": {}
+   "noticias": {
+    "363a0589c874": {
+     "categoria": "servicios_agua_luz",
+     "fecha": "2026-11-17",
+     "fuente": "Alerta",
+     "gravedad": 1,
+     "id": "363a0589c874",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY05sWURobHRyc3BhYl95QzUxU2lSa2swUy1mYmN2NlBVbk82QmktdVlHZElhQXBLS2Y5ME9SUG5COXc5ZVg3RFlWckwyXzA1NTNpQmtlM3h5WS1GWW1YelEwcXl3WXVKMXBjRWZpMktERkc0QjVvRDRJZi1fNU9mU3R0Wm5Kdk95QnJCdm43TjliSWd6bDlEdXJSbVZjWlFjTUtsTGVmd1hfaHRqSlHSAa4BQVVfeXFMT2NObFlEaGx0cnNwYWJfeUM1MVNpUmtrMFMtZmJjdjZQVW5PNkJpLXVZR2RJYUFwS0tmOTBPUlBuQjl3OWVYN0RZVnJMMl8wNTUzaUJrZTN4eVktRlltWHpRMHF5d1l1SjFwY0VmaTJLREZHNEI1b0Q0SWYtXzVPZlN0dFpuSnZPeUJyQnZuN045Yklnemw5RHVyUm1WY1pRY01LbExlZndYX2h0akpR?oc=5",
+     "relevante": true,
+     "resumen": "Alerta por cortes programados de agua en sectores de Envigado.",
+     "titulo": "¡Atención! Los sectores de Envigado y Medellín que se quedarán sin agua esta semana - Alerta"
+    }
+   }
   },
   "Envigado|Primavera": {
    "noticias": {
@@ -1113,6 +1545,17 @@
     "8718383e25e7": {
      "descartada": true,
      "fecha": "2026-11-12"
+    },
+    "b45107f2da57": {
+     "categoria": "obras_movilidad",
+     "fecha": "2026-11-08",
+     "fuente": "Minuto30",
+     "gravedad": 1,
+     "id": "b45107f2da57",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPckZoX1JWOGRkT3pwZDFQd2hpU3hQbGwxNFVvTjMtZVk0dHppcG9xeXNaUHNKX0pSbUZiSldKbDJqZWRCd1BUOUt6SXVlUW9PeEcyZ0Z6a2FaWTVyUUdQOGttZHg1M1JselZUY0dBNHJnSHBkajZLT1NodkpiNS0zUEcxVk1GWWdfMFpqd2dyWEVFbURmUHBhZVQxeEhpXzNmdnFWTlBueU9QS1U4cWtJYnRlM2szb3E5Qm03N01mQ3VqcTlETjVLSnBjTQ?oc=5",
+     "relevante": true,
+     "resumen": "Cierres viales en la vía Primavera - Santa Bárbara.",
+     "titulo": "Del 9 al 20 de noviembre habrá cierres intermitentes en la vía Primavera – Santa Bárbara – La Pintada - Minuto30"
     },
     "c5a960af4818": {
      "categoria": "accidente",
@@ -1152,6 +1595,17 @@
   },
   "Envigado|San Marcos": {
    "noticias": {
+    "363a0589c874": {
+     "categoria": "servicios_agua_luz",
+     "fecha": "2026-11-17",
+     "fuente": "Alerta",
+     "gravedad": 1,
+     "id": "363a0589c874",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY05sWURobHRyc3BhYl95QzUxU2lSa2swUy1mYmN2NlBVbk82QmktdVlHZElhQXBLS2Y5ME9SUG5COXc5ZVg3RFlWckwyXzA1NTNpQmtlM3h5WS1GWW1YelEwcXl3WXVKMXBjRWZpMktERkc0QjVvRDRJZi1fNU9mU3R0Wm5Kdk95QnJCdm43TjliSWd6bDlEdXJSbVZjWlFjTUtsTGVmd1hfaHRqSlHSAa4BQVVfeXFMT2NObFlEaGx0cnNwYWJfeUM1MVNpUmtrMFMtZmJjdjZQVW5PNkJpLXVZR2RJYUFwS0tmOTBPUlBuQjl3OWVYN0RZVnJMMl8wNTUzaUJrZTN4eVktRlltWHpRMHF5d1l1SjFwY0VmaTJLREZHNEI1b0Q0SWYtXzVPZlN0dFpuSnZPeUJyQnZuN045Yklnemw5RHVyUm1WY1pRY01LbExlZndYX2h0akpR?oc=5",
+     "relevante": true,
+     "resumen": "Alerta por cortes programados de agua en sectores de Envigado.",
+     "titulo": "¡Atención! Los sectores de Envigado y Medellín que se quedarán sin agua esta semana - Alerta"
+    },
     "cb182ec25a79": {
      "categoria": "obras_movilidad",
      "fecha": "2026-11-09",
@@ -1227,6 +1681,18 @@
      "descartada": true,
      "fecha": "2026-10-31"
     },
+    "b10e44baf3e0": {
+     "descartada": true,
+     "fecha": "2026-10-23"
+    },
+    "b88d8407197d": {
+     "descartada": true,
+     "fecha": "2026-10-27"
+    },
+    "e7362d0ef83e": {
+     "descartada": true,
+     "fecha": "2026-10-23"
+    },
     "e7b7df5fac8f": {
      "descartada": true,
      "fecha": "2026-10-26"
@@ -1250,6 +1716,10 @@
     "32507d7ca60f": {
      "descartada": true,
      "fecha": "2026-10-20"
+    },
+    "3b8160331bc8": {
+     "descartada": true,
+     "fecha": "2026-11-16"
     },
     "b10e44baf3e0": {
      "categoria": "otro",
@@ -1315,6 +1785,10 @@
      "descartada": true,
      "fecha": "2026-10-20"
     },
+    "25935899093d": {
+     "descartada": true,
+     "fecha": "2026-10-20"
+    },
     "30287609e072": {
      "categoria": "otro",
      "fecha": "2026-10-20",
@@ -1336,6 +1810,10 @@
      "relevante": true,
      "resumen": "Hospital Manuel Uribe Ángel en Envigado admite no activar Código Fucsia en caso de presunto abuso sexual.",
      "titulo": "Hospital Manuel Uribe Ángel de Envigado admite que no activó Código Fucsia en caso de presunto abuso sexual contra menor de edad - Teleantioquia"
+    },
+    "619211a17411": {
+     "descartada": true,
+     "fecha": "2026-11-04"
     },
     "6ff72b9314b5": {
      "categoria": "otro",
@@ -1382,6 +1860,17 @@
   },
   "Envigado|Zona Centro": {
    "noticias": {
+    "363a0589c874": {
+     "categoria": "servicios_agua_luz",
+     "fecha": "2026-11-17",
+     "fuente": "Alerta",
+     "gravedad": 1,
+     "id": "363a0589c874",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY05sWURobHRyc3BhYl95QzUxU2lSa2swUy1mYmN2NlBVbk82QmktdVlHZElhQXBLS2Y5ME9SUG5COXc5ZVg3RFlWckwyXzA1NTNpQmtlM3h5WS1GWW1YelEwcXl3WXVKMXBjRWZpMktERkc0QjVvRDRJZi1fNU9mU3R0Wm5Kdk95QnJCdm43TjliSWd6bDlEdXJSbVZjWlFjTUtsTGVmd1hfaHRqSlHSAa4BQVVfeXFMT2NObFlEaGx0cnNwYWJfeUM1MVNpUmtrMFMtZmJjdjZQVW5PNkJpLXVZR2RJYUFwS0tmOTBPUlBuQjl3OWVYN0RZVnJMMl8wNTUzaUJrZTN4eVktRlltWHpRMHF5d1l1SjFwY0VmaTJLREZHNEI1b0Q0SWYtXzVPZlN0dFpuSnZPeUJyQnZuN045Yklnemw5RHVyUm1WY1pRY01LbExlZndYX2h0akpR?oc=5",
+     "relevante": true,
+     "resumen": "Alerta por cortes programados de agua en sectores de Envigado.",
+     "titulo": "¡Atención! Los sectores de Envigado y Medellín que se quedarán sin agua esta semana - Alerta"
+    },
     "4b33f2b372e7": {
      "categoria": "servicios_agua_luz",
      "fecha": "2026-10-22",
@@ -1416,6 +1905,14 @@
      "descartada": true,
      "fecha": "2026-10-26"
     },
+    "732a6190bf1c": {
+     "descartada": true,
+     "fecha": "2026-10-20"
+    },
+    "80369ec80b3d": {
+     "descartada": true,
+     "fecha": "2026-11-17"
+    },
     "9ea0bb754014": {
      "categoria": "otro",
      "fecha": "2026-10-23",
@@ -1434,6 +1931,14 @@
    }
   },
   "Itagüí|Centro": {
+   "ia": {
+    "fecha": "2026-11-18",
+    "motivo": "Aunque hubo un desmantelamiento de microtráfico, no hay evidencia de un aumento en la frecuencia de delitos que justifique 'más precaución' más allá de la recomendación inicial de 'con precaución' debido a los hurtos y problemas de convivencia ya conocidos.",
+    "nivel_alerta": "baja",
+    "recomendacion_sugerida": "precaucion",
+    "resumen_reciente": "En los últimos 120 días, se desmanteló un centro de microtráfico operado por padre e hijo en el municipio de Itagüí, lo cual es un hecho relevante. También se reportó un incidente aislado de dulces con tornillos en Halloween. Hubo noticias positivas sobre vacunación y otras neutras sobre política y la cárcel.",
+    "sugerencia": "mantener"
+   },
    "noticias": {
     "077ce6eb86f6": {
      "descartada": true,
@@ -1483,6 +1988,10 @@
      "descartada": true,
      "fecha": "2026-11-09"
     },
+    "2f142a6e6378": {
+     "descartada": true,
+     "fecha": "2026-11-17"
+    },
     "38344b94c9fe": {
      "descartada": true,
      "fecha": "2026-10-22"
@@ -1517,9 +2026,39 @@
      "resumen": "Noticia sobre la muerte de gemelas en Medellín, sin relación con el barrio Centro de Itagüí.",
      "titulo": "La otra versión sobre muerte de gemelas en Medellín: no sería por un jabón artesanal como se mencionó - Revista Semana"
     },
+    "732a6190bf1c": {
+     "descartada": true,
+     "fecha": "2026-10-20"
+    },
+    "96ada35460f3": {
+     "descartada": true,
+     "fecha": "2026-10-29"
+    },
     "9a38a8002099": {
      "descartada": true,
      "fecha": "2026-10-22"
+    },
+    "a57d516abf94": {
+     "categoria": "microtrafico",
+     "fecha": "2026-11-17",
+     "fuente": "Entre Ceja y Ceja",
+     "gravedad": 2,
+     "id": "a57d516abf94",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOV1gya3lRNFNmSHhERTNBWl9nc01iNjJjTE9jVzhISjc4YmprcTFnSC1BLVowX0Z3T21TcVNZUTBkd0E1LUZDYzVQMW1CR1BPTUZlYXQ2VVVTd1pfOFN4djZrSUZYUVRZUVRNSkw1X0FVT2cwQVV1YUxZZFRXSWVqZXlBejM0T2FwVmVKMUJJVUtCaU1QQkl1dktTR0U3R2VuaG81Sy12am1NZy04Nk1QNk9obGlVQXlLM1ZKQ280YzlEczRkcWtBWUY3SHF5dw?oc=5",
+     "relevante": true,
+     "resumen": "Captura por expendio de drogas en vivienda del centro de Itagüí.",
+     "titulo": "Padre e hijo fueron capturados en Itagüí por presunto expendio de drogas desde su vivienda - Entre Ceja y Ceja"
+    },
+    "a78bcec03b74": {
+     "categoria": "microtrafico",
+     "fecha": "2026-11-17",
+     "fuente": "IFM Noticias",
+     "gravedad": 2,
+     "id": "a78bcec03b74",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNb2lhZEtnTmhzQmxVT1FwQjNwam5WclZ5VkxYaVlZOEpQT2RJM0NuOTJIUjNleWE2RHNUcWMwMEI0S2k3UFY3LUxVeW5rUERNYXlrX3NjQTd2TnFCQkJiV0J5ZTIwZFZ5bjlyYzJjQU52Y1RwbXE4MVBsaURFM3BFdWpVMDRkTVllbHMtMkU5QkMzVS1NdFpDaW94T1dxQ1VPXzM5SFpvRmJCQm1CVUJuUi10Nk9sa1Y2QXc?oc=5",
+     "relevante": true,
+     "resumen": "Desmantelamiento de expendio de drogas en el centro de Itagüí.",
+     "titulo": "Desmantelan centro de expendio de estupefacientes operado por padre e hijo en Itagüí - IFM Noticias"
     },
     "ac510ba23339": {
      "categoria": "otro",
@@ -1546,6 +2085,17 @@
      "relevante": false,
      "resumen": "Envío a prisión de presunto asesino de policía en el Centro de Medellín, no en el barrio Centro de Itagüí.",
      "titulo": "Presunto asesino de policía en el Centro de Medellín fue enviado a prisión, ¿qué pasó con el otro señalado? | El Colombiano - El Colombiano"
+    },
+    "c27c5f8e1f1a": {
+     "categoria": "otro",
+     "fecha": "2026-10-24",
+     "fuente": "Itagüí Hoy",
+     "gravedad": 0,
+     "id": "c27c5f8e1f1a",
+     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNVN4Qm9XU2RjeE1sTXkxWjVqX243YkJlb3MtRjJyUUt4N1FRRW5EOFVvbEYzQ1ZwOGZCc2NseUhKc2ViVXFWczJGem1SeVpaUkk5WG9ENGEwX21oOE5jOEE0T1NRV1BLUzdBZEhGc3pxcjdOTXE1Nko2cGxMd3BBQUlZWkFJRkIzZzR2U0hpNTdOZlZTY0s1ZzNwTzVvSmZrZnJTTkU1OUVBc1FxQlVOaU1uV1JRaHRoTUlpX1VxY2hMNFJYemlPVElVbkdsWWc4c2c?oc=5",
+     "relevante": true,
+     "resumen": "Noticia de carácter político sin impacto directo en seguridad.",
+     "titulo": "¿Le salió competencia a Rosa Acevedo? Fernando Rodríguez suena para la Alcaldía de Itagüí por el Centro Democrático - Itagüí Hoy"
     },
     "c64ad16b5e45": {
      "descartada": true,
@@ -1620,6 +2170,17 @@
      "descartada": true,
      "fecha": "2026-11-10"
     },
+    "683ed728c124": {
+     "categoria": "obras_movilidad",
+     "fecha": "2026-11-14",
+     "fuente": "Hora 13 Noticias",
+     "gravedad": 1,
+     "id": "683ed728c124",
+     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1VWlZ3WnQ1VDJZUUpJY053SF9lYU5KN2Rldk9JNE1zZUZVWEM4cjVCSFRQYzJ3VkpLYWJWWUFjcjR3NlZVUTQ0cmQzd2R0M09WcEtFNnlVMjNPV09xRDNtRXpCWnBvYlNpUHhqTW5Obw?oc=5",
+     "relevante": true,
+     "resumen": "Cierre vial programado entre Itagüí y San Antonio de Prado.",
+     "titulo": "Cierre total entre Itagüí y San Antonio de Prado este domingo y lunes festivo: conozca los desvíos - Hora 13 Noticias"
+    },
     "b69b8790ab65": {
      "descartada": true,
      "fecha": "2026-10-27"
@@ -1635,6 +2196,10 @@
     "e311613fa75d": {
      "descartada": true,
      "fecha": "2026-10-17"
+    },
+    "f6864ee8d0bd": {
+     "descartada": true,
+     "fecha": "2026-11-04"
     },
     "fcc09ab053b4": {
      "categoria": "servicios_agua_luz",
@@ -1671,6 +2236,17 @@
     "sugerencia": "mas_precaucion"
    },
    "noticias": {
+    "0db3b8954614": {
+     "categoria": "homicidio",
+     "fecha": "2026-11-03",
+     "fuente": "Qhubo Medellín",
+     "gravedad": 3,
+     "id": "0db3b8954614",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSm1HSUU3RFZacUktNGpqcENaY1ZTSVFEQko1UHdtMGFNeU13NXRYd2pjb3BSb0toa3RreWNiN3dETWQwanR4TzhFSDJMWjR2SHI1bWYwc3N5Y1djUkRONVJXTndaTTJCU2VVeF92MndNSl9Gc2Y3RzVVV0MzYV9HT1RIMmo2TzlSNlJ0OGZaazZ0eUFNT2xaQi16aGRLaXRXcG9rU0ZsYUUxSzAteVg2SnU0ZWXSAb8BQVVfeXFMTS1tSHM3VkZNbDBOeExTZmtHUUxnbldZMWFTVDZIdFBpcEZhdldpTmVQLXB5MXlRcm5QNlhZd3Q2dVlXZ0pYaUtCNXozVkxsVDhJaXVHRVVSazRXd1UyU0xWMHM0aFNRd3VuZnF2ZUV1YWJqWkVUWTNPa2E2WjN0aFJ4cnhselRNZEZyY1pJel9Za1NDMUtkUHVHOVBTMmlIQlg3NFIyUXJZMkQ3MXBqaVA3d29WSTBzcG11cGR1UGM?oc=5",
+     "relevante": true,
+     "resumen": "Captura por homicidio derivado de una riña en Itagüí.",
+     "titulo": "Lo capturaron por un homicidio ocurrido durante una riña en Itagüí | Q´HUBO Medellín - Qhubo Medellín"
+    },
     "2a5e049acd12": {
      "categoria": "homicidio",
      "fecha": "2026-11-04",
@@ -1681,6 +2257,17 @@
      "relevante": true,
      "resumen": "Capturan a sospechoso de homicidio en riña en Itagüí. Preocupación por violencia en el barrio El Porvenir.",
      "titulo": "Cámaras de seguridad de Itagüí permiten capturar a sospechoso de homicidio en una riña entre amigos - Hora 13 Noticias"
+    },
+    "4178d8c41b99": {
+     "categoria": "homicidio",
+     "fecha": "2026-11-02",
+     "fuente": "Qhubo Medellín",
+     "gravedad": 3,
+     "id": "4178d8c41b99",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQOG5MS2YzY19Pb0JLc1hVV3ZIOF9ucGhsTEZhR3hQRWdtc1pleG1fRlRkalIzLUVwdTBzcGp4em5XT3FkNGQ4MkxHZ3FVdGdma2Fwc2poMTlzcHFQVFNmeGYzR3dIbWpvOUVpZmYtb1Y1Mjh6bWk3Vjhmam5tb3VjMUJPNlB4NFRCMEFMTksxZjlTcDVVNmdJaEhQSlQwS1p1RVZNb2tkVm0tYS0wVEg4NW9DNA?oc=5",
+     "relevante": true,
+     "resumen": "Homicidio ocurrido en medio de una riña en Itagüí.",
+     "titulo": "Intolerancia en Itagüí: Daniel fue asesinado en medio de una riña - Qhubo Medellín"
     },
     "53fa263640c4": {
      "descartada": true,
@@ -1711,6 +2298,10 @@
      "relevante": true,
      "resumen": "Homicidio en el barrio El Porvenir de Itagüí; capturan a presunto responsable.",
      "titulo": "Homicidio en Itagüí: capturan a presunto responsable de la muerte de Daniel en El Porvenir - Análisis Urbano"
+    },
+    "787d6757bf9b": {
+     "descartada": true,
+     "fecha": "2026-11-04"
     },
     "7e6330a89425": {
      "categoria": "positivo",
@@ -1745,6 +2336,10 @@
     "d743f967210a": {
      "descartada": true,
      "fecha": "2026-10-21"
+    },
+    "e615df845cb6": {
+     "descartada": true,
+     "fecha": "2026-11-06"
     },
     "f0f41ee84f12": {
      "descartada": true,
@@ -1794,6 +2389,10 @@
      "resumen": "Incidente en concierto de Mon Laferte en Las Vegas (EE. UU.), no relacionado con el barrio Las Vegas de Itagüí.",
      "titulo": "¡Qué susto! Lanzaron un celular a la cara de Mon Laferte en pleno concierto en Las Vegas - Minuto30"
     },
+    "15e275279034": {
+     "descartada": true,
+     "fecha": "2026-11-12"
+    },
     "3682ae469412": {
      "categoria": "obras_movilidad",
      "fecha": "2026-10-27",
@@ -1810,6 +2409,14 @@
      "fecha": "2026-11-13"
     },
     "4316cc133e16": {
+     "descartada": true,
+     "fecha": "2026-11-13"
+    },
+    "506c04ecc8ce": {
+     "descartada": true,
+     "fecha": "2026-11-13"
+    },
+    "7a3240083707": {
      "descartada": true,
      "fecha": "2026-11-13"
     },
@@ -1831,6 +2438,10 @@
     "a62d5d413723": {
      "descartada": true,
      "fecha": "2026-11-03"
+    },
+    "cf976cf709ba": {
+     "descartada": true,
+     "fecha": "2026-11-10"
     },
     "f3c68f8b16a8": {
      "categoria": "otro",
@@ -1917,6 +2528,21 @@
     "c375a72ffc90": {
      "descartada": true,
      "fecha": "2026-11-12"
+    },
+    "ce299a263dd1": {
+     "categoria": "positivo",
+     "fecha": "2026-11-17",
+     "fuente": "Qhubo Medellín",
+     "gravedad": 0,
+     "id": "ce299a263dd1",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQzFxWWxzU2tKaFducmRKMEZYa3Q3YkQ2VjJWQlBQSVc4Zld2MlQ2MW9QY2J2RkszdGxTa0FzN2FuWFBuTUJlYThTd0xpRmVzeElZaFlnNldaMFVBV09NdUw1UXRpUUdrQzdGeXJ5dVlUclJDZUlXTGNRUVF2ZWtWRVBtU3VreXpVaTBwb2lOcWJiUTBWZVdfYjBmc3M2SGs5eF9lQtIBrwFBVV95cUxNcl9CMllIUVRMOUVPSkFTZGZBelFObUpGMjRNQ0pGRTNiMmZueWF4UFJmQTBnTVBfY0Z0bU4zWnp1RkVDd0owOGIyV0oyWElVeXJpSmNhd2IyVEo0Sy1VNEw3WjhJR1gtcGE4ekVSbS1kTGNVejVmLVpCTVhQQk5UWUd6SXp5ejVxWm15ZXR2bTdyS1FFMFEwSUx6M1BIVFNSTlhOSmlTWnQ5NmJwOHRr?oc=5",
+     "relevante": true,
+     "resumen": "Actividades recreativas y culturales en el sector de Mayorca.",
+     "titulo": "Pa que se agende: Mayorca estrenó villa navideña y es gratuita | Q´HUBO Medellín - Qhubo Medellín"
+    },
+    "d2ab10886d83": {
+     "descartada": true,
+     "fecha": "2026-11-15"
     },
     "dc7a1ef7a0bf": {
      "categoria": "obras_movilidad",
@@ -2111,6 +2737,10 @@
      "descartada": true,
      "fecha": "2026-10-28"
     },
+    "f1cc26d5eff5": {
+     "descartada": true,
+     "fecha": "2026-11-17"
+    },
     "fcc09ab053b4": {
      "categoria": "servicios_agua_luz",
      "fecha": "2026-10-30",
@@ -2161,6 +2791,10 @@
     "d8b8dbb6977c": {
      "descartada": true,
      "fecha": "2026-10-28"
+    },
+    "e03d4ba793af": {
+     "descartada": true,
+     "fecha": "2026-11-06"
     },
     "fc915b575072": {
      "categoria": "obras_movilidad",
@@ -2248,6 +2882,10 @@
      "descartada": true,
      "fecha": "2026-11-05"
     },
+    "484fd1af0c51": {
+     "descartada": true,
+     "fecha": "2026-10-26"
+    },
     "6afae4d8ba2b": {
      "descartada": true,
      "fecha": "2026-10-22"
@@ -2270,6 +2908,10 @@
      "relevante": true,
      "resumen": "Corte de agua programado por lavado de tanque afectará sectores de Itagüí, incluyendo posiblemente Santa María.",
      "titulo": "Lavado de tanque dejará sin agua a sectores de Medellín e Itagüí el sábado - Hora 13 Noticias"
+    },
+    "96ada35460f3": {
+     "descartada": true,
+     "fecha": "2026-10-29"
     },
     "cd9dc563d7ee": {
      "categoria": "otro",
@@ -2312,6 +2954,10 @@
      "descartada": true,
      "fecha": "2026-11-06"
     },
+    "72c024968a7a": {
+     "descartada": true,
+     "fecha": "2026-11-12"
+    },
     "776c73ea3cf5": {
      "categoria": "accidente",
      "fecha": "2026-10-23",
@@ -2338,6 +2984,10 @@
      "resumen": "Caso de corrupción en contratos de Bomberos de Itagüí, no relacionado directamente con el barrio Simón Bolívar.",
      "titulo": "Envían a prisión a Miguel Quintero por caso de contratos con Bomberos de Itagüí - Caracol Radio"
     },
+    "d788de76ac7d": {
+     "descartada": true,
+     "fecha": "2026-11-04"
+    },
     "e762ccf2fc6d": {
      "descartada": true,
      "fecha": "2026-10-23"
@@ -2345,6 +2995,17 @@
     "e9a06c2bc9ba": {
      "descartada": true,
      "fecha": "2026-10-23"
+    },
+    "eb524414f813": {
+     "categoria": "otro",
+     "fecha": "2026-10-24",
+     "fuente": "Hora 13 Noticias",
+     "gravedad": 0,
+     "id": "eb524414f813",
+     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBUY3hNcXlTZ2V1NFpkdUxycHY0ZUVqdDc0Y1hLSzNDN1YxZ3A0WFhaRDVkejdFb3JSeTBVSS0tS2JnWHVGWTIzR2RGVjhxMk5xVnR0YkdEZzBDQkpkQnZFTXd0dzhyQm5ZZ2RoNA?oc=5",
+     "relevante": false,
+     "resumen": "El accidente ocurrió en la calle Barranquilla, Medellín, no en Simón Bolívar.",
+     "titulo": "VIDEO: Accidente de un bus en la calle Barranquilla habría dejado 34 personas afectadas - Hora 13 Noticias"
     },
     "ff94899e9d64": {
      "descartada": true,
@@ -2419,6 +3080,10 @@
      "resumen": "Noticia no relevante; \"horizontes\" se refiere a un concepto, no al barrio de La Estrella.",
      "titulo": "Horóscopo de Piscis para noviembre de 2026: nuevos horizontes - Astrosofa"
     },
+    "4cab701a7aaa": {
+     "descartada": true,
+     "fecha": "2026-11-04"
+    },
     "733d2c7bc268": {
      "descartada": true,
      "fecha": "2026-11-14"
@@ -2446,9 +3111,17 @@
      "descartada": true,
      "fecha": "2026-11-14"
     },
+    "c63b7ea0838d": {
+     "descartada": true,
+     "fecha": "2026-11-18"
+    },
     "c6d94c232b61": {
      "descartada": true,
      "fecha": "2026-11-06"
+    },
+    "e1ecc245dbd8": {
+     "descartada": true,
+     "fecha": "2026-11-17"
     },
     "ee625a09326b": {
      "descartada": true,
@@ -2484,6 +3157,10 @@
      "resumen": "",
      "titulo": "Una camioneta se estrella en montaña en Nepal y causa 10 muertos y 5 heridos - Independent en Español"
     },
+    "2856aead805f": {
+     "descartada": true,
+     "fecha": "2026-11-12"
+    },
     "307124be9c85": {
      "categoria": "otro",
      "fecha": "2026-10-30",
@@ -2494,6 +3171,10 @@
      "relevante": false,
      "resumen": "",
      "titulo": "Se estrella helicóptero en vuelo de peregrinación al norte de India; reportan 6 muertos - Telediario"
+    },
+    "32441ff62aa3": {
+     "descartada": true,
+     "fecha": "2026-11-18"
     },
     "4d2a32f05f48": {
      "categoria": "otro",
@@ -2506,6 +3187,17 @@
      "resumen": "",
      "titulo": "La Aldea de San Nicolás invita a descubrir su cielo nocturno con una “Noche de Estrellas” - Radio Faro del Noroeste"
     },
+    "aefe5d6ffb87": {
+     "categoria": "otro",
+     "fecha": "2026-11-17",
+     "fuente": "Agenzia Nova",
+     "gravedad": 0,
+     "id": "aefe5d6ffb87",
+     "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQS1ZUbk1ud193NHJTV2pMQlluT0lKeEpxYVJta1d4bkU5b2NyYU0xc1hvV0ZHbV9DeFVTeXRrUjFOT09kSTNPVDN3aHppbHQyaG9Sb3lwQzhfLTVsdk9mc013R3ljRTdBc0lLeUFRS0J4N3RMeklzc1h2SUZma3FpUEI2VllaeFpxMjhBdGZhZzFyMVJTV00xQjBUSmFtUThKQklVSUNhRDY0VjJvRVNQZGNFdUNUVGdGb1RjNXZITy1jYVRxdWR0UkVtcG5tTXJ3N0R0TjFIaE5YUFlkYzF5MGhrai1OaW5wZmRCeUpYaWZlOHVCZEE?oc=5",
+     "relevante": false,
+     "resumen": "Noticia internacional sobre Rusia.",
+     "titulo": "Fuentes de Telegram informan que un avión militar An-12 se estrella en la región rusa de Kemerovo, causando la muerte de 17 personas. - Agenzia Nova"
+    },
     "b8fb3889624a": {
      "descartada": true,
      "fecha": "2026-11-12"
@@ -2514,9 +3206,17 @@
      "descartada": true,
      "fecha": "2026-11-10"
     },
+    "ddf4f58fe7f0": {
+     "descartada": true,
+     "fecha": "2026-11-17"
+    },
     "e03289b1935f": {
      "descartada": true,
      "fecha": "2026-11-10"
+    },
+    "e8829bc1552c": {
+     "descartada": true,
+     "fecha": "2026-10-24"
     },
     "fbbc1584bd1b": {
      "descartada": true,
@@ -2546,6 +3246,25 @@
     "sugerencia": "mas_precaucion"
    },
    "noticias": {
+    "0468122a9ec9": {
+     "descartada": true,
+     "fecha": "2026-11-10"
+    },
+    "143bece34fb5": {
+     "descartada": true,
+     "fecha": "2026-11-18"
+    },
+    "1af598941d50": {
+     "categoria": "otro",
+     "fecha": "2026-11-18",
+     "fuente": "La Linea Cofrade",
+     "gravedad": 0,
+     "id": "1af598941d50",
+     "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNMjMwWnh4b2R3eVlWU3lEc3M1aXlzNlY0MW03amd5NjZsdS1peWJ0QW5GU3ZHbVJxdWRZdDhZaWw4NEZ6b2diNDgteDdocEM2VVNIX09XeDlBb3VqVG04ZERZZm4xZkRMN2U0R01qUFZCTnBZOElLYVdmdFRKaWV6OHVkTWhoOWZVWVJsaVRZVWtrdHJ1SjdRMG5PZUF2QzF1RjlCQUhxZnFEQi1SRngzTkVhQy12UnMtRktqMkpFQzJyNlR6NnlvNkFyVE5JNWxDWXk5enkzeWRyRGJPS0ZXZm1TbDlUNVpZX2dyb09iZHdUdWc?oc=5",
+     "relevante": false,
+     "resumen": "Noticia sobre cofradía en La Línea, España.",
+     "titulo": "LA BANDA DE MÚSICA «CIUDAD DE LA LÍNEA» RENUEVA SU ACOMPAÑAMIENTO MUSICAL A LA INMACULADA CONCEPCIÓN PARA EL PRÓXIMO 8 DE DICIEMBRE - La Linea Cofrade"
+    },
     "201f11519c02": {
      "descartada": true,
      "fecha": "2026-11-13"
@@ -2553,6 +3272,10 @@
     "2371a9437102": {
      "descartada": true,
      "fecha": "2026-10-23"
+    },
+    "24d8850de1f2": {
+     "descartada": true,
+     "fecha": "2026-11-14"
     },
     "30ae97857368": {
      "descartada": true,
@@ -2576,6 +3299,10 @@
     "54753079f531": {
      "descartada": true,
      "fecha": "2026-11-07"
+    },
+    "5dc65d180014": {
+     "descartada": true,
+     "fecha": "2026-11-15"
     },
     "77195d19e7f1": {
      "descartada": true,
@@ -2604,6 +3331,14 @@
      "descartada": true,
      "fecha": "2026-10-22"
     },
+    "d2713c28e7cd": {
+     "descartada": true,
+     "fecha": "2026-11-13"
+    },
+    "dda7d260ebef": {
+     "descartada": true,
+     "fecha": "2026-11-09"
+    },
     "effd78ddceaa": {
      "descartada": true,
      "fecha": "2026-10-21"
@@ -2618,6 +3353,10 @@
      "relevante": false,
      "resumen": "Noticia sobre la muerte de un sicario en la cárcel de La Estrella, no directamente relacionada con el barrio.",
      "titulo": "Sicario murió en cárcel de La Estrella, Antioquia, tras perder 30 kilos: decía que le hicieron brujería - Agencia de Periodismo Investigativo"
+    },
+    "fbdc2694b8f2": {
+     "descartada": true,
+     "fecha": "2026-11-17"
     }
    }
   },
@@ -2687,6 +3426,10 @@
      "resumen": "Obras del acueducto de La Estrella, que impactan La Tablaza, sufren retrasos y se entregarán en un año.",
      "titulo": "Obras del Plan Maestro de Acueducto de La Estrella debieron ser entregadas en octubre: Alcaldía asegura que finalizan en un año - Ciudad Sur"
     },
+    "d5fc527fc270": {
+     "descartada": true,
+     "fecha": "2026-11-11"
+    },
     "f00b6c532f12": {
      "categoria": "servicios_agua_luz",
      "fecha": "2026-11-07",
@@ -2721,6 +3464,17 @@
     "sugerencia": "mas_precaucion"
    },
    "noticias": {
+    "203b24fcde9b": {
+     "categoria": "servicios_agua_luz",
+     "fecha": "2026-10-29",
+     "fuente": "Telemedellín",
+     "gravedad": 1,
+     "id": "203b24fcde9b",
+     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBXM052OHBQdk50R2d1bTNyczk3azc5TGtXRHJOTXBjWE5qTHJkTmpLdmJfdkVDNlZ1REFaZWdYRmVkYmRqcmRhSmIza2d4YnBqdmRTd0pXd0JfZE1WNldLQmxSNDdZTXFvOWZsT0pvWFdRdy1pd0V2M2tXb1d3UQ?oc=5",
+     "relevante": true,
+     "resumen": "Corte de agua programado en La Estrella.",
+     "titulo": "Corte de agua en Itagüí y La Estrella este 30 de octubre - Telemedellín"
+    },
     "3fa095fa25a6": {
      "categoria": "servicios_agua_luz",
      "fecha": "2026-10-29",
@@ -2757,6 +3511,10 @@
     "8ec1f4df5f7d": {
      "descartada": true,
      "fecha": "2026-10-20"
+    },
+    "adf5072f00dc": {
+     "descartada": true,
+     "fecha": "2026-11-13"
     },
     "b62ebeaa4b7d": {
      "descartada": true,
@@ -2851,6 +3609,10 @@
      "resumen": "Noticia sobre nueva red de agua en La Tablaza, no relevante para Pueblo Viejo.",
      "titulo": "Nueva red de suministro de agua beneficiará a cerca de 8.000 habitantes de La Tablaza, en La Estrella - Minuto30"
     },
+    "7123f05a329b": {
+     "descartada": true,
+     "fecha": "2026-11-16"
+    },
     "f1e1d08c1d20": {
      "categoria": "servicios_agua_luz",
      "fecha": "2026-11-12",
@@ -2912,6 +3674,10 @@
      "descartada": true,
      "fecha": "2026-11-13"
     },
+    "2221e2383379": {
+     "descartada": true,
+     "fecha": "2026-10-23"
+    },
     "2d423cf52c24": {
      "categoria": "otro",
      "fecha": "2026-11-09",
@@ -2922,6 +3688,17 @@
      "relevante": false,
      "resumen": "",
      "titulo": "El CB Toledo se estrella ante un SBA más acertado en ataque - La Tribuna de Talavera"
+    },
+    "3cc4c350f155": {
+     "categoria": "otro",
+     "fecha": "2026-11-16",
+     "fuente": "Estrella Digital",
+     "gravedad": 0,
+     "id": "3cc4c350f155",
+     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQY1BCNDRmT21TdFNBbWUtR2tGRktRUTVZeURnbUU2WXBtRTdIY2tJM3ZWT1hCOFRfUG5OYVo4SEN4a3RiaERfMFlBcl8yaWZDdFl4b29ZbFRoRFJzTFc0aEJzbXR5ei1DbURQaXc0ZVVmVTRQZUtqU1FzMVZKY1FXUWJZYUo3dTBPTDBJOVpDYXA5WEJnVW93cy1PcXdNSWh0U3VrQS03aldsTFphcUlUN19WeWNFLVpGUFZ0c1RlX3JsWlROMXlpYzVFWjBGenZjT0pqNjdmR25TdFhITUgxcEdIcGpuTm1O0gHuAUFVX3lxTE5yWjd1WVZhck5va1Rsam1OeU9SOGVFNldLYnpKRFhXbHJ6eTV0MnItZ0dMMkVCR2ZhYV84dHByaHR0ZFhIbXZMelJqY3dmTmxRYmNEMWoyeHJfaEdqaVVlaGlFQUJ1cHRpdmE4QnZjcTMxRkxXY25MNTZDMXQ5MXpKRFliUHVBQzhOUGtYZFBwVHM3U2pPMVdaRmhMQ0F2X0NUbk1rNm9JZzJJOGFhLUlIV2hMSHpLNThFRE0zMGJQWG9RYlB1WTFIbW5zamFXTmJRZjBzM2VfOHVrVHRCbTFMQ1lTR1dvYUN3bkk4a1E?oc=5",
+     "relevante": false,
+     "resumen": "Noticia sobre Toledo, España.",
+     "titulo": "Aprovecharon el accidente de Urda para atracar una joyería: seis detenidos y hasta 400.000 euros robados - Estrella Digital"
     },
     "44b14f8388f0": {
      "categoria": "otro",
@@ -2999,6 +3776,10 @@
      "descartada": true,
      "fecha": "2026-10-31"
     },
+    "7f24b4c89f06": {
+     "descartada": true,
+     "fecha": "2026-11-15"
+    },
     "80c72469e6ca": {
      "descartada": true,
      "fecha": "2026-10-28"
@@ -3023,6 +3804,17 @@
      "descartada": true,
      "fecha": "2026-11-02"
     },
+    "ab0d1734541d": {
+     "categoria": "otro",
+     "fecha": "2026-11-18",
+     "fuente": "La Tribuna de Toledo",
+     "gravedad": 0,
+     "id": "ab0d1734541d",
+     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQNWQtZHZSbVY2cmpsaUVZV05BQ1pnT1NxNEI4X0MxMHQwQWVJOXQxS3J4OVZmcU1Id0RoaFpQN0o1NjhCQ0JfZk90SUEyMEI2RFl6WTl3THdmT09PZWNiWWN2N1hmbGJMUkJfa2FRQkw0UVBjMG8tNWlxYzNqOGl5NnlyWVNPMndoSEthQU0ySDN2Nm5DVVdVd0RKZ1E5djE3cE5GdGJLZlFOUmhScWlqU2RyNGQtdmgzQkwxak5FdHZYR1gzZWlvYXc0ZVNabDA0N1Z3N2pNSk84VXNIR05jTA?oc=5",
+     "relevante": false,
+     "resumen": "Noticia sobre Toledo, España.",
+     "titulo": "Márquez: \"Quiero llegar al fin de semana con energía y preparado\" - La Tribuna de Toledo"
+    },
     "afdecc664373": {
      "descartada": true,
      "fecha": "2026-10-29"
@@ -3031,6 +3823,17 @@
      "descartada": true,
      "fecha": "2026-10-28"
     },
+    "c30a5a2bebcc": {
+     "categoria": "otro",
+     "fecha": "2026-11-17",
+     "fuente": "Estrella Digital",
+     "gravedad": 0,
+     "id": "c30a5a2bebcc",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPeUg2dkdrQnZKMG1pd1cxSFVJajhJWkJHdzlsdzk3ZVJUaF9fU3phN2drRlFfZXZhZEpCWUxzVkxzendBNVFiLXlNUnBZY0tLd25VUFgwT2dtMHFKcVpJeGZaU3cySjljVDRlTU5QRzN2LTlFMEhhUk5KU2RiWG85MUFNQVlQUW5vMHRHMVpYU1NKenJPc1lybW9mdTQ5N1JpSnJpNTA3MXRJcnhIUHZoQmNFN1Y2b2tKd3NFeUdEYW5QeGhnUDg00gHHAUFVX3lxTE95SDZ2R2tCdkowbWl3VzFIVUlqOElaQkd3OWx3OTdlUlRoX19TemE3Z2tGUV9ldmFkSkJZTHNWTHN6d0E1UWIteU1ScFljS0t3blVQWDBPZ20wcUpxWkl4ZlpTdzJKOWNUNGVNTlBHM3YtOUUwSGFSTkpTZGJYbzkxQU1BWVBRbm8wdEcxWlhTU0p6ck9zWXJtb2Z1NDk3UmlKcmk1MDcxdElyeEhQdmhCY0U3VjZva0p3c0V5R0RhblB4aGdQODQ?oc=5",
+     "relevante": false,
+     "resumen": "Noticia sobre Toledo, España.",
+     "titulo": "Rescatan a un niño de 11 años de un pozo de seis metros en Cebolla (Toledo) - Estrella Digital"
+    },
     "d3a2964b37aa": {
      "descartada": true,
      "fecha": "2026-11-12"
@@ -3038,6 +3841,17 @@
     "e07d76a2b9e5": {
      "descartada": true,
      "fecha": "2026-10-29"
+    },
+    "e8e353475480": {
+     "categoria": "otro",
+     "fecha": "2026-11-18",
+     "fuente": "El Español",
+     "gravedad": 0,
+     "id": "e8e353475480",
+     "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNMllkc240d2l4STUwblQtcWNzbzFDQS1SUDFuWE9sajlDUVlaS0x6RUliVFpZekd0aVlKUUdPT3lOeUE2Y0I1Ym0zTGNUY2NGSmg2QjZpeUNqTjVqQXk1Y3U1VnAwcFl3NmwyRFZqMDJtMHVCcU82bWN2SklhdmVqekVQVGFWNlBSOXN3dTJrUjdROUh3czRCdmZ6WFVBSmtHUG5kWTE4d1dGRDMtcmVqMHphZXNfMU8yZ29YZnRkcHhpanFPbi1KZEVaVmV1UW83VlVlMDNCMjNkaHphLVNLOXdKbDBuejdBR1dFLW10ZV81UC00Wjk4MWx4M3YwZGRF0gGGAkFVX3lxTE9FSFJUV3puS3pvZmxRbzNMRkI3RXJ0OHFYYkRTV3pWU0RRVzNvVkJMdVctZjhlVVVkNnJQQldNclBGWWZIczVQUmVjQ1pLVnI3UVVJcllSUE51M2pSYUFnbUsybjBzSXlvd1drNUNxYXFLNTVTcDJ6YVVoMzlXaTV3dHV3WXFDdVhzQ1NTOTdUbjhoUU5oNW5NTHNmcWFWQ0hKU19oNWl6ZURYRGJrc1laSDdpRjNQaXBfWnJJZV9QWmh4eW5uYXNrdTZuRUFQdWR6VDI1ZTZtMDVZaExXb1hyczZ1WDNfMWF5WHR3cGFCNUphTEJOc2xoaGdIRHBzajBEU0dyNmc?oc=5",
+     "relevante": false,
+     "resumen": "Noticia sobre Toledo, España.",
+     "titulo": "Hasta seis empresas optan a convertir la Puerta de Bisagra en un escenario de luz y sonido esta Navidad en Toledo - El Español"
     },
     "eef3c6d66368": {
      "descartada": true,
@@ -3111,6 +3925,10 @@
      "descartada": true,
      "fecha": "2026-11-14"
     },
+    "516871213a0a": {
+     "descartada": true,
+     "fecha": "2026-10-28"
+    },
     "60dbb5d4a96f": {
      "categoria": "otro",
      "fecha": "2026-11-10",
@@ -3122,6 +3940,17 @@
      "resumen": "Noticia deportiva sobre judo en Almería, España, no en Medellín.",
      "titulo": "El Judo Club Don Benito logra dos podios en Almería y Gijón - Nuestra Comarca"
     },
+    "629900e87d95": {
+     "categoria": "otro",
+     "fecha": "2026-11-15",
+     "fuente": "Interalmería TV",
+     "gravedad": 0,
+     "id": "629900e87d95",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPajhZY3VuTzN4VWYtelpnMXdIak9wRENqcTdUT3BLcXZET203NWVYaVA2NlNNOWxHRlpHVFdGZWNIb21RSWlEa3ZtbUdlVjQzVkRGZnVyNnYwMTd0aDdMbTV2aFpHeTludHo0VEF6N28tOWxteUNhMGlDMU5YY2NTOVNDMTQ?oc=5",
+     "relevante": false,
+     "resumen": "Evento cultural en Almería, España.",
+     "titulo": "Gala Día de la Provincia (15/11/2026) - Interalmería TV"
+    },
     "8ed9e94d5b16": {
      "categoria": "otro",
      "fecha": "2026-10-17",
@@ -3132,6 +3961,32 @@
      "relevante": false,
      "resumen": "Noticia deportiva sobre voleibol en Almería, España, no en Medellín.",
      "titulo": "Almería y Soria, casi 40 años ininterrumpidos de voleibol en la máxima categoría - desdeSoria"
+    },
+    "900dce007176": {
+     "descartada": true,
+     "fecha": "2026-10-31"
+    },
+    "bbebb0b47add": {
+     "categoria": "otro",
+     "fecha": "2026-11-06",
+     "fuente": "Cadena Silva",
+     "gravedad": 0,
+     "id": "bbebb0b47add",
+     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9BR1FsM1F1RUotVmM3SE1wY3I3bUdfNGxleF94bGVzSzhGS1ZmUmlzWDNVbXhtd1dMdWViMlk0ajdyNWNuZFRkVmVXYkVldzV3bEhMY2hCRVNUSDZxdHVGVEU4cG9HUDY5cmhNS29sM2lMYVJjdTU3NGVDbw?oc=5",
+     "relevante": false,
+     "resumen": "Evento en Vícar, Almería, España.",
+     "titulo": "Evento: La Gran Castañada (2026) – Vícar (Almería) - Cadena Silva"
+    },
+    "c546d95b86a3": {
+     "categoria": "otro",
+     "fecha": "2026-11-16",
+     "fuente": "Fotocasa",
+     "gravedad": 0,
+     "id": "c546d95b86a3",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTDQ0YkhRSWJ2bzkzVzlsTFZaalhVaER6QkZ6OFBjcFVhc2tjYTlIbEg3eTZ3bDZDekpES29kbnUwNk9DSU9ya1RFV2MzOG1pWkduNGkwMFQ2TU9hNW5OaDY3TklwczFGbGpobEM4Q1B3eWd5TUJIdmR2c0wzLVI3dkcxekMxUV9vMlA4cEtkOGVOLVRE?oc=5",
+     "relevante": false,
+     "resumen": "Anuncio de alquiler en Almería, España.",
+     "titulo": "2 Estudios de alquiler en Almería y entorno - Fotocasa"
     },
     "d34767c0e0a4": {
      "categoria": "otro",
@@ -3274,6 +4129,28 @@
      "resumen": "Capturado grupo delictivo por robos cerca del Pueblito Paisa y Av. Regional, zonas aledañas a Belén.",
      "titulo": "Cayó un grupo señalado de cometer robos cerca del Pueblito Paisa y la avenida Regional de Medellín - MiOriente"
     },
+    "9a628e317534": {
+     "categoria": "microtrafico",
+     "fecha": "2026-10-25",
+     "fuente": "Hora 13 Noticias",
+     "gravedad": 2,
+     "id": "9a628e317534",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBlYWJaY3FXQnBXX3JNUmNLeEFuektiWWtUOEJGZ0twYTh5NXJpTk9tWEpZcWxyQWdmN0FqM0I5eTVIQ2haTXFHX1dpemJCZWhXLXdJZmpFZWhFN0VYM2p1ZnFscnhaX0ow?oc=5",
+     "relevante": true,
+     "resumen": "Captura de integrante de 'Los Chivos' con cargamento de droga en Belén.",
+     "titulo": "Cae presunto integrante de ‘Los Chivos’ con cargamento de cocaína en Belén - Hora 13 Noticias"
+    },
+    "9d8dab7db2ce": {
+     "categoria": "servicios_agua_luz",
+     "fecha": "2026-10-28",
+     "fuente": "Infobae",
+     "gravedad": 1,
+     "id": "9d8dab7db2ce",
+     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPRmVPTEpIU3diZFc3b3laaTZFQV9xdnRCZ2drUUdyNnowNUFObzlaYWlhTVlSYlByRTRRZmJDd0w2MFkzZUpoV21ZYUoyRl96R0JYZERMZU5JM2lXMDN2V1JPcnlMV3NoZjhpcUM2b1JJQnQyNmVFQTl0MFVYbk9jMi1meEIycnl3bHF3RTEyTUxXcllWR09veWhnTy03dkxuVm9zLUI4VkJHNmh2ZFZmN0JXa1l2VzBVMGgtaGNnT2JjUWtZb0RhYk1pTGZQSzZPaDc3XzVCLU9IVTdjR0FnU1R30gH8AUFVX3lxTE9JRE9rVkhreGZ6ckZWSm5MbVR3dUdmeWdTR3h4ODlpa0otVkJ2T0xmMWh5WnRKOE1zYm90Wm9xR1hJWTdzWUwwYlRUcjdZYkF1N080bV9PZEo3Ql9qQ3hKdGduSzNRTnNWQXY1MFdTYU82RWlMaGlKcTc3VTVsUW1QRHp0Z04xVUFVdmpaRnBDUjRCWS1ZSEl6NFpDTzNMYXVUcGNYWHV1dmc4ZlJOaFVEMVNMYjY0WlJOWDNadGotT2hybUVxd1VGcDQ1dk1WQnM5RjVqcGNrLVl0TFJ5cThGUVZpel9MZVVqdEdrX3JaMFVhaWRFRWt4NlZvWQ?oc=5",
+     "relevante": true,
+     "resumen": "Reporte sobre calidad del agua en el Valle de Aburrá.",
+     "titulo": "Por qué el agua en Medellín y otros municipios del Valle de Aburrá está saliendo amarilla: esto dijo EPM - Infobae"
+    },
     "a10c4a3eeaaa": {
      "categoria": "deslizamiento_inundacion",
      "fecha": "2026-11-06",
@@ -3315,6 +4192,17 @@
      "resumen": "Nueva sede de Buen Comienzo en Belén fortalece atención a la primera infancia en Medellín.",
      "titulo": "Medellín fortalece la atención a la primera infancia con nueva sede de Buen Comienzo en Belén - IFM Noticias"
     },
+    "ddfbfe03e178": {
+     "categoria": "microtrafico",
+     "fecha": "2026-10-25",
+     "fuente": "Teleantioquia",
+     "gravedad": 2,
+     "id": "ddfbfe03e178",
+     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWjJNU3Y3UnU3R1dXRXROOC1Id1NCWll2c2dQYUxZam9oZk93eUt0OFl6MXJWNnU0WnpZTTg3ZmotRzA5THVHRlI2TnBEblNJQURfS3VVWlEycmZ4WnN0dWFURDQ3REF3VExObXlYcV9TM3psYUY5ZmRWb2NtWTR6WFpXZ3NWeXhaTWpPTzNPMzQyTUJ0VjZCd1pkN0xVYmtyNkZidW44RV9neWJtb0tCNHJJTExFeTRJWDVCcnFOUGdfVFhUR0J1cXdQdk1NT2toQlk5TDU2alIyeW_SAecBQVVfeXFMT1E2eGNnbW1MTXFYS2RyaXdMSEY5RTJNYW5lcWRKUHMyZmdkeVBDcXYzeU9reV9falo2YTRseWVWVG9KcXVMMzFWRmlKZ0xKUElKeTdUdTd5cVR5NWgwNDZoNDdVLVpMeVFvZFFKY0lkMjUwdG1qZ2d4Z0JYV3ZjV09Bei1OZDIzRF9Lanp6WFZFMk9mN0JBNEloMDNaVEs3LXZ2ZGpNZlNNaDVZWnhXSG1RemFRSUFOdVBwREJpZk1jU1pfV0JheHBSNnZTdElCUlFDdnNlcEkxOHhMR2dQOVE0UGwtWGFj?oc=5",
+     "relevante": true,
+     "resumen": "Incautación de 32 kilos de cocaína vinculados a la banda 'Los Chivos' en Belén.",
+     "titulo": "32 kilos de cocaína en Belén se iban a vender alrededor de un colegio; la droga sería de ‘Los Chivos’ - Teleantioquia"
+    },
     "e1579941c56a": {
      "descartada": true,
      "fecha": "2026-10-26"
@@ -3337,6 +4225,17 @@
      "relevante": true,
      "resumen": "Nueva sede familiar de Buen Comienzo en Belén con 175 cupos para la primera infancia.",
      "titulo": "Medellín estrena sede familiar de Buen Comienzo en Belén con 175 cupos para la primera infancia - Minuto30"
+    },
+    "fbecc2320f66": {
+     "categoria": "microtrafico",
+     "fecha": "2026-10-25",
+     "fuente": "IFM Noticias",
+     "gravedad": 2,
+     "id": "fbecc2320f66",
+     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSk9rUXg1REVYQk5LcHYxeUxPZnZmV2VUcU03RU1YQzZtRWo5VDBCVWNEeUNwWHU3UmNuUmFaTnA0ajU1TGNTWmJ4QUNiSFY3cjZvX0F2ME9yUUJHYjVQS3gzWnNWc0YxWVJDcW9Pb0tPaFZZcjZvenNITTVSc3ZVam1CTTFpVExuZGgzSmc2SFBxdXBXSzU4djhRTTZIdDFpR3RsTWItcnZKel9OODZvcE9nQ1EyWVY5VEY5WVRvVE9lNWFsMUF5TnFabUc?oc=5",
+     "relevante": true,
+     "resumen": "Operativo policial contra el grupo delincuencial 'Los Chivos' por narcotráfico en Belén.",
+     "titulo": "Operativo en Belén permite la incautación de 32 kilos de cocaína al grupo delincuencial Los Chivos - IFM Noticias"
     },
     "fcf938297612": {
      "descartada": true,
@@ -3361,6 +4260,10 @@
     "2fea7f218dfa": {
      "descartada": true,
      "fecha": "2026-10-27"
+    },
+    "6752a7c633c9": {
+     "descartada": true,
+     "fecha": "2026-11-14"
     },
     "8711640dbc98": {
      "descartada": true,
@@ -3469,6 +4372,17 @@
      "resumen": "Dos hombres capturados por torturar y asesinar a un pensionado del magisterio en el barrio Boston de Medellín.",
      "titulo": "Capturaron a los dos hombres que habrían torturado y asesinado a un pensionado del magisterio en el barrio Boston de Medellín - Teleantioquia"
     },
+    "36583ece00c0": {
+     "categoria": "deslizamiento_inundacion",
+     "fecha": "2026-11-03",
+     "fuente": "Facebook",
+     "gravedad": 2,
+     "id": "36583ece00c0",
+     "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNRHVBN1JCNXB0dDNadElHMjhEQV83WkJiVm9FUE1pUTd4MVFUVWRNOGFNbkhpb3dSTlJ0ajdUZFFBTEVkMjRBWlVQTlh4S240c1ZyY195Q2ZYZXg4UFhBSDd4NmtrTHlkYXI1MlE5d0RjbFdWd2JxYS1RLUNEd2JJbjU3cy1JalZnLWxuY3hCcHoyd1UwZGpKVzQyOWMzQ2pLM0w3SVYwTG02cmJDREt6SzNFUG9ybms2TFpoZnk3dDQwLTgzWXlVYzc2VDlISFdOa2ExYWktZkl4MHRmLUk1dlBUcm1ZZG1BSUt6bEN1cXJ1VzJGai12cQ?oc=5",
+     "relevante": true,
+     "resumen": "Incendio estructural en el barrio Boston sin dejar personas lesionadas.",
+     "titulo": "El fuego destruyó el segundo piso de una edificación próxima a la Placita de Flórez, en el barrio Boston, sin causar lesionados entre los residentes evacuados - Facebook"
+    },
     "39159aa0fb39": {
      "categoria": "rina_violencia",
      "fecha": "2026-11-03",
@@ -3479,6 +4393,17 @@
      "relevante": true,
      "resumen": "Incendio provocado en inquilinato de Boston deja a familias afectadas con pérdidas totales.",
      "titulo": "Así quedó inquilinato de Boston tras incendio provocado por uno de los residentes: afectados lo perdieron todo - Telemedellín"
+    },
+    "49819b4b6844": {
+     "categoria": "rina_violencia",
+     "fecha": "2026-11-03",
+     "fuente": "MiOriente",
+     "gravedad": 2,
+     "id": "49819b4b6844",
+     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5xazVTQUNiNXIzZVlWcXB0SmRCNmZoV2dLR2h3ek1PeElleXNLOW41bVBvTUpVSTI3X2ZXQ2ctWTl4aTd1ZkRLSldPRl9nT25nU2xvNzg4eG9tQXY4bHlJSTZNS0diZjF4VDR2anVGaWNWOE9GTFg0RkpB?oc=5",
+     "relevante": true,
+     "resumen": "Captura de un hombre por provocar un incendio en un inquilinato en Boston.",
+     "titulo": "Capturan a hombre por incendio en un inquilinato de Medellín - MiOriente"
     },
     "7e2ff5f011df": {
      "categoria": "homicidio",
@@ -3554,11 +4479,11 @@
   },
   "Medellín|Buenos Aires": {
    "ia": {
-    "fecha": "2026-11-15",
-    "motivo": "Presencia de homicidio reciente y extorsión conocida aumentan el riesgo para arrendar",
+    "fecha": "2026-11-18",
+    "motivo": "Los homicidios recientes, sumados a la extorsión ya documentada en la comuna y lomas fuertes, sugieren un aumento en la precaución necesaria.",
     "nivel_alerta": "media",
     "recomendacion_sugerida": "precaucion",
-    "resumen_reciente": "Se reportó un homicidio de gravedad 3 el 15‑nov‑2026 y se denuncian problemas de movilidad por invasión de vehículos en los andenes. La zona sigue con extorsión documentada en la comuna y riesgos en lomas fuertes.",
+    "resumen_reciente": "En los últimos 120 días, se han reportado tres homicidios en el barrio Buenos Aires, dos de ellos ocurridos en días consecutivos y uno con una persona ya encarcelada. También se ha documentado la invasión de andenes por vehículos, afectando la movilidad peatonal.",
     "sugerencia": "mas_precaucion"
    },
    "noticias": {
@@ -3581,9 +4506,31 @@
      "descartada": true,
      "fecha": "2026-11-08"
     },
+    "193f32e764a1": {
+     "categoria": "otro",
+     "fecha": "2026-11-13",
+     "fuente": "Aviación News",
+     "gravedad": 0,
+     "id": "193f32e764a1",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYm9qT2p5LVU0U3p6WHpnejZia0NpcThmX25lWnA0bExrNkk3QXoyQXRCWndUNTAwZTl4WGdhWTQyOTRBVFdJM0htNGJmRlJnN2g3WFJ6bXY1N1NtOFpNNXhOeEpGTmJ5cFlXRkltem9yUTBXZ1E1cERIOENmb2hwekZWLXNMMVVCX1BJOW10S3VmS0lQQ0UtRnZFSlU4X3BC?oc=5",
+     "relevante": false,
+     "resumen": "Noticia sobre vuelos internacionales a Buenos Aires, Argentina.",
+     "titulo": "Inició JetSMART sus vuelos conectando Buenos Aires y Medellín - Aviación News"
+    },
     "1b11f948a9ff": {
      "descartada": true,
      "fecha": "2026-11-13"
+    },
+    "1fd6472239f5": {
+     "categoria": "homicidio",
+     "fecha": "2026-11-17",
+     "fuente": "El Colombiano",
+     "gravedad": 2,
+     "id": "1fd6472239f5",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYzFpWEwwUHdCM2tFejByQ2lfT2ZoUUMyajdlZmZkMmJ6UmZxTE5qQlpYbUlwcXp5X1VaYXFDR0liTWJzRWhnWDBEdm9ZVWQ1UEp6V0JEWmJhMEp3R1I5cl9NcEpNRTBVOEh1ZzRsaEQxbFpIVnM2QnJMaW11bnBPNTktV3E2Z200dDF4LUZlSXlvcnMybGF5SHVBdU41QTNpVU5aazhRZEVYNzdkSUxDZG9LT1d2Z9IBtgFBVV95cUxOYzFpWEwwUHdCM2tFejByQ2lfT2ZoUUMyajdlZmZkMmJ6UmZxTE5qQlpYbUlwcXp5X1VaYXFDR0liTWJzRWhnWDBEdm9ZVWQ1UEp6V0JEWmJhMEp3R1I5cl9NcEpNRTBVOEh1ZzRsaEQxbFpIVnM2QnJMaW11bnBPNTktV3E2Z200dDF4LUZlSXlvcnMybGF5SHVBdU41QTNpVU5aazhRZEVYNzdkSUxDZG9LT1d2Zw?oc=5",
+     "relevante": true,
+     "resumen": "Hombre fallece tras incidente vial en el barrio Buenos Aires de Medellín.",
+     "titulo": "Manejó herido su moto y murió en la intermedia de Buenos Aires | El Colombiano - El Colombiano"
     },
     "24d36ee93469": {
      "categoria": "homicidio",
@@ -3611,9 +4558,35 @@
      "resumen": "Noticia sobre vuelos a la ciudad de Buenos Aires (Argentina), no al barrio en Medellín.",
      "titulo": "JetSMART estrenó vuelo directo entre Medellín y Buenos Aires: tendrá cinco frecuencias semanales | El Colombiano - El Colombiano"
     },
+    "3d75cfe27d25": {
+     "categoria": "otro",
+     "fecha": "2026-11-17",
+     "fuente": "volavi",
+     "gravedad": 0,
+     "id": "3d75cfe27d25",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMHZkbmx4Nm9QeTNwOFpTbEQwYVpNN2tQNGkwN2dKWVZudkNmZUREUkdBVzJwQjJVYnZaNWd6cmxDX1YzUFRDZjBuVFhFSkQyekRueEF0OW1HTUM1bTl4VURJTi1lVHBwYi1JdU1iWndiVjdfZEFBeFRVdWFKNXdKUHNMWThubGh0MmfSAZIBQVVfeXFMTVE0eldWQ3JyS2dseHJoV2ZiMGx5eklnTEVuZktHSVpjNm1Lc3ZYYzRUVS00TzJsMmgwZllfdkt6cFJkdEJHeEhNdkJLS2NQRlZKWlNxelBHN1Q0bkI2bW1EM2FZOEhuVnNOUmh5TWFCbWhSSjBJSVB0TnloTTFYUkFIbGY3MU40Y016cEtVNmRpWHc?oc=5",
+     "relevante": false,
+     "resumen": "Noticia sobre vuelos internacionales a Buenos Aires, Argentina.",
+     "titulo": "JetSmart inauguró los vuelos entre Medellín y Buenos Aires - volavi"
+    },
+    "400406914cf2": {
+     "categoria": "otro",
+     "fecha": "2026-11-17",
+     "fuente": "Revista Semana",
+     "gravedad": 0,
+     "id": "400406914cf2",
+     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPSUQ1WWtGTjNNaGpRbW4zdXlsWV95cXItSVcxaklGZ1U5S296eC1kZW1fRHBScVZqUWpNT0tlUFBwUk83MFB3SjA1QjhUNzVyV3FMUFdMdkV1amRPdlJ4RGJFZE9jR05pSGlUOTFLRnFzSnRGOVc5MzhzSHpsMndfQnFtVV9kQVZ5ZmRWTFFOYjJ4T0NFY0lmTHM3MFdBaThOc293TlBINVRYWG9CZlFTaVVKdFdWanJCOHZGcmp3YUhaZzdEUWk1NVh3ZzJSSTcwYVRr?oc=5",
+     "relevante": false,
+     "resumen": "Noticia sobre vuelos internacionales a Buenos Aires, Argentina.",
+     "titulo": "JetSmart inauguró ruta entre Medellín y Buenos Aires: revelaron los precios de lanzamiento - Revista Semana"
+    },
     "4b1f5e09c6b0": {
      "descartada": true,
      "fecha": "2026-11-11"
+    },
+    "4febc1242e78": {
+     "descartada": true,
+     "fecha": "2026-11-18"
     },
     "578e4c6ad675": {
      "descartada": true,
@@ -3646,6 +4619,10 @@
      "resumen": "Noticia sobre vuelos a la ciudad de Buenos Aires (Argentina), no al barrio en Medellín.",
      "titulo": "JetSMART inauguró sus vuelos entre Medellín y Buenos Aires - Aviacionline"
     },
+    "7c50f9514d0e": {
+     "descartada": true,
+     "fecha": "2026-10-22"
+    },
     "85de5bb3dcf7": {
      "descartada": true,
      "fecha": "2026-11-13"
@@ -3676,6 +4653,28 @@
      "resumen": "Noticia sobre vuelos a la ciudad de Buenos Aires (Argentina), no al barrio en Medellín.",
      "titulo": "JetSMART: vuelos directos de Medellín a Buenos Aires - KarloBag.eu"
     },
+    "a72c6d0cdff5": {
+     "categoria": "otro",
+     "fecha": "2026-11-17",
+     "fuente": "MiOriente",
+     "gravedad": 0,
+     "id": "a72c6d0cdff5",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQWlZVanotdDY0MDQtNDNyRXFpZ1I1Rk1WbG83b1pqOGg0Z28tY3FQeS1WTG12S2VEMTRlRnlyMGtubXl0ZzlGQnZ1eUhiR2N0dXNkYkdzaTRxek9VRVBjbjlPNTlTb3AxNk5iLXg3U0xUZGhoUTN0c2ZPdHVIcjNiSU1ZYnQxRWtQYXRneWNHekU?oc=5",
+     "relevante": false,
+     "resumen": "Noticia sobre vuelos internacionales a Buenos Aires, Argentina.",
+     "titulo": "Jetsmart inaugura ruta directa entre el aeropuerto José María Córdova y Buenos Aires - MiOriente"
+    },
+    "a8446f734cd0": {
+     "categoria": "otro",
+     "fecha": "2026-11-17",
+     "fuente": "Publimetro Colombia",
+     "gravedad": 0,
+     "id": "a8446f734cd0",
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQekJQNGFVVzdUX2VJMFhKT0RZc0J2RkMwS1VDSk5uYk82V1VsUlRNWEZwSm9YclVDbDlnTlhjemhPcXl2TUc5UXdONm9LVEN1WmIxanBDamdrNXJfSlRBa09qaHAyVlFzcEpNZnVwb1gxRE90ZEwydDJJbkVPVmJMR0IyNnhZRVpPdUhhdzJBQWdwejlaRlZwTFlSMUNYRS02bDJJUjdNZkNtbEpNYVVjeU1CNmRLanVUR0dKTDd0VmpHcGJOM21yNElVRQ?oc=5",
+     "relevante": false,
+     "resumen": "Artículo cultural sobre la ciudad de Buenos Aires, Argentina.",
+     "titulo": "Buenos Aires: una ciudad que suena a tango, sabe a asado y late al ritmo del fútbol - Publimetro Colombia"
+    },
     "a8d50c2c5837": {
      "descartada": true,
      "fecha": "2026-11-01"
@@ -3690,6 +4689,10 @@
      "relevante": false,
      "resumen": "Noticia general de crimen en Medellín, no especifica el barrio Buenos Aires.",
      "titulo": "Cárcel para hombre señalado de irrumpir en una casa en Medellín, asesinar a un residente y robar joyas - Alerta"
+    },
+    "addec0a0abff": {
+     "descartada": true,
+     "fecha": "2026-11-13"
     },
     "b33b7847f71e": {
      "descartada": true,
@@ -3714,9 +4717,35 @@
      "resumen": "Noticia sobre vuelos a la ciudad de Buenos Aires (Argentina), no al barrio en Medellín.",
      "titulo": "JetSMART inaugura ruta Medellín-Buenos Aires: 5 vuelos - ABC Economía"
     },
+    "c6b1edd718ae": {
+     "categoria": "homicidio",
+     "fecha": "2026-11-16",
+     "fuente": "Qhubo Medellín",
+     "gravedad": 2,
+     "id": "c6b1edd718ae",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTkN0YzEzcUtYNTNOSXJ3X2JmNTdBQUsxWktpSVhYaWw2UjNvR3NFRlRISTNVRzRLbk9QY2FrU3NQQVgxcE9ONHFJN1NEM0Z6QW9LeUZ3a3RjMnVQSS1NQndNMS1RNmdJckxxN19LZ3lXRzdHTGltX3o3cTljeXNCMk1HbW1MZUJHOWlvRllmWVBLR1hzbXQ2UkJIX2U1RUVrSy1XalJtRFlyd1nSAbYBQVVfeXFMUDBmMF9rLXlMQ2FVekxib01MYzNYczV5WVptMUpLdWllWmNXQWQxbXFzY0xpU0pnUVViMWQxbjZrUEVyRWhscndUMU1LNFo5NW1kRVAwQmtUYzE1MzA4RHhWc282dC1vNGZmOTh3Qk5GUHY1TTJWYzdTVlh0dzY4c0g4RkY3OFJMbElCWW1ZNHFUbU9Ja3FKa2x2eE42QTRBS2t1QnpDZy14eWc5dmt0NkRjcTVRcVE?oc=5",
+     "relevante": true,
+     "resumen": "Motociclista fallece tras incidente en el barrio Buenos Aires de Medellín.",
+     "titulo": "Manejó herido su moto y murió en la intermedia de Buenos Aires | Q´HUBO Medellín - Qhubo Medellín"
+    },
     "ca0faa8e7b12": {
      "descartada": true,
      "fecha": "2026-10-28"
+    },
+    "cc1ded5bffa6": {
+     "descartada": true,
+     "fecha": "2026-11-13"
+    },
+    "d0d5aae953e5": {
+     "categoria": "otro",
+     "fecha": "2026-11-16",
+     "fuente": "Ladevi",
+     "gravedad": 0,
+     "id": "d0d5aae953e5",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPR3I2MkY1S09aNks2OHBZMWpRajdTdk1nQ1V6YnpuLUF2d0E0ajRIOVk2RjhrWU9zdlE1ZndSX094VXBfRk02RG5YVFZGVk5pQnR4bjRZQU1YSHdLTjlyMjZoR2RxWTZua2w1em1fNWZrZVNOMlpfTGw1TldCakQtYm5fSWt1d09TTGpia0RkUDRfbDNDRG55NG1jNkRFOVN2cC0xMERtdG1KU0ZtM3d6QdIBsAFBVV95cUxPR3I2MkY1S09aNks2OHBZMWpRajdTdk1nQ1V6YnpuLUF2d0E0ajRIOVk2RjhrWU9zdlE1ZndSX094VXBfRk02RG5YVFZGVk5pQnR4bjRZQU1YSHdLTjlyMjZoR2RxWTZua2w1em1fNWZrZVNOMlpfTGw1TldCakQtYm5fSWt1d09TTGpia0RkUDRfbDNDRG55NG1jNkRFOVN2cC0xMERtdG1KU0ZtM3d6QQ?oc=5",
+     "relevante": false,
+     "resumen": "Noticia sobre vuelos internacionales a Buenos Aires, Argentina.",
+     "titulo": "JetSMART lanzó su primera ruta directa entre Buenos Aires y Medellín - Ladevi"
     },
     "dc2bdbb01d72": {
      "descartada": true,
@@ -3787,6 +4816,10 @@
      "resumen": "Noticia sobre operativo policial en La Sierra, no relevante para el barrio Castropol de Medellín.",
      "titulo": "Comandos especiales de Policía le cayeron a Juan Gurre en La Sierra | Q´HUBO Medellín - Qhubo Medellín"
     },
+    "0e6b5afe5a2f": {
+     "descartada": true,
+     "fecha": "2026-11-17"
+    },
     "232ba4c9d7ca": {
      "categoria": "servicios_agua_luz",
      "fecha": "2026-10-20",
@@ -3802,6 +4835,17 @@
      "descartada": true,
      "fecha": "2026-10-19"
     },
+    "a5079a02144e": {
+     "categoria": "positivo",
+     "fecha": "2026-11-07",
+     "fuente": "Vivir en El Poblado",
+     "gravedad": 0,
+     "id": "a5079a02144e",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZ2RaSGxTNjFYNHg4TmVfb2dGd1ZyaC1BYzZvNmhVSEdqNzlBTUczVlI0RFVYam9nZEM3bnpsVTdYanpXc0YzLXhjZUJqbFFGVG9hRzZKRGlZOWJPSnFuQWdjZUltQmUzNzd6SEY0UENEZ2ZNaW0tbEJSMVJEalFOTmI1aVpueG15aEpZNHI5aW0yalN3TUtLOA?oc=5",
+     "relevante": true,
+     "resumen": "Iniciativa vecinal para proteger la biodiversidad en Castropol.",
+     "titulo": "Proponen crear una red vecinal para proteger la biodiversidad de Castropol - Vivir en El Poblado"
+    },
     "c62489905de4": {
      "descartada": true,
      "fecha": "2026-10-18"
@@ -3810,11 +4854,11 @@
   },
   "Medellín|Centro": {
    "ia": {
-    "fecha": "2026-11-15",
-    "motivo": "Persisten homicidios y violencia, sumado a la histórica alta criminalidad",
-    "nivel_alerta": "media",
+    "fecha": "2026-11-18",
+    "motivo": "Las noticias recientes confirman y agravan las preocupaciones de seguridad ya existentes, con una alta incidencia de extorsión, microtráfico y violencia, lo que lo convierte en una zona de alto riesgo para vivir.",
+    "nivel_alerta": "alta",
     "recomendacion_sugerida": "no recomendado",
-    "resumen_reciente": "Se registró un homicidio reciente y varios incidentes de agresión a agentes de tránsito, aunque sin mayor gravedad",
+    "resumen_reciente": "En los últimos 120 días, el barrio Centro de Medellín ha sido escenario de múltiples incidentes graves, incluyendo varias capturas por extorsión, un homicidio, y noticias sobre microtráfico y disputas territoriales entre bandas. También se reportaron incendios y casos de violencia contra agentes de tránsito.",
     "sugerencia": "mas_precaucion"
    },
    "noticias": {
@@ -3825,6 +4869,14 @@
     "03edd70b1c89": {
      "descartada": true,
      "fecha": "2026-11-10"
+    },
+    "0ab8c8157abf": {
+     "descartada": true,
+     "fecha": "2026-11-17"
+    },
+    "0ec07c7a10f1": {
+     "descartada": true,
+     "fecha": "2026-11-15"
     },
     "10783f324ee1": {
      "descartada": true,
@@ -3853,6 +4905,10 @@
      "resumen": "Noticia general sobre programación navideña en centros comerciales de Antioquia.",
      "titulo": "Los centros comerciales de Antioquia tienen una amplia programación para vivir la Navidad - Caracol Radio"
     },
+    "1d26e5e1d37e": {
+     "descartada": true,
+     "fecha": "2026-11-17"
+    },
     "1df8e251e8a3": {
      "descartada": true,
      "fecha": "2026-11-07"
@@ -3872,6 +4928,10 @@
      "resumen": "Se entregó el agresor de un agente de tránsito en el Centro de Medellín.",
      "titulo": "Se entregó el agresor de un agente de tránsito en el Centro de Medellín | El Colombiano - El Colombiano"
     },
+    "1fb2218ce91a": {
+     "descartada": true,
+     "fecha": "2026-11-15"
+    },
     "21264c202d48": {
      "descartada": true,
      "fecha": "2026-10-28"
@@ -3884,6 +4944,14 @@
      "descartada": true,
      "fecha": "2026-10-19"
     },
+    "2cee766596f1": {
+     "descartada": true,
+     "fecha": "2026-11-17"
+    },
+    "2dfa1a21bc23": {
+     "descartada": true,
+     "fecha": "2026-11-17"
+    },
     "2eadd33880d5": {
      "descartada": true,
      "fecha": "2026-11-14"
@@ -3891,6 +4959,10 @@
     "314a9c3fa5bb": {
      "descartada": true,
      "fecha": "2026-10-20"
+    },
+    "39f51d59347f": {
+     "descartada": true,
+     "fecha": "2026-11-17"
     },
     "3a802303d30f": {
      "descartada": true,
@@ -3931,6 +5003,14 @@
      "descartada": true,
      "fecha": "2026-11-05"
     },
+    "5812ddce309c": {
+     "descartada": true,
+     "fecha": "2026-11-17"
+    },
+    "5ada5ef04518": {
+     "descartada": true,
+     "fecha": "2026-11-17"
+    },
     "5bb86b676daf": {
      "descartada": true,
      "fecha": "2026-10-30"
@@ -3939,6 +5019,17 @@
      "descartada": true,
      "fecha": "2026-10-26"
     },
+    "5c9e2648b444": {
+     "categoria": "extorsion",
+     "fecha": "2026-11-17",
+     "fuente": "Caracol Radio",
+     "gravedad": 3,
+     "id": "5c9e2648b444",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVUVwUXlJRmhlRnNwQmYwdVdTZWQybzRoQlp0ZGdXUWppNkhFVUJCWUlMRVZaUFZzc0JMbi1McURvc19EN09jWXFUc201NlJPV3Q1MG85cFQ4U1EwUzBGWTJaS3c3dGg4ZG45a0FSaVFfOUtyeG8zMkZKSHNMdWJROGhqTWwxa2JTeUxHWnFBbUFYbVNLYnVKT2FiSFZ5aE42RFlLS3FwQ2l0UWFacFlKOEZVczVOdmJBVlFUbFUzbUtnR1F10gHYAUFVX3lxTE1JNTBXSURadDNSU1E2YnVlLTlzUWJlQ0VDU01zcmZtOFpaRVctLVRLUDBMdkFUR0FtUEJGeGQ2ejlRUFBfTFRhZ1BpSmFKT2FqYVEtWGthNXdKSHI2WmE5dDlYeFY0cGJUaW56ZEtKVjMxeVp2UlRaSGc3b3Z6YmhZcE5lcUxqdkx5cVd1cVItWnk0Q1FoR1hSb1ZhV3liUlE3RGtDTkc3QzVvb3d2TXFGYUZhck1NQlJlSHVob1NtbDZYc0JmU1lGUF9HWmg4bU83RzRPVE9NQg?oc=5",
+     "relevante": true,
+     "resumen": "Captura por extorsión de 70 millones de pesos.",
+     "titulo": "Capturan a presunto extorsionista cuando iba a recibir $70 millones en el centro de Medellín - Caracol Radio"
+    },
     "5f3fb8640ed2": {
      "descartada": true,
      "fecha": "2026-11-12"
@@ -3946,6 +5037,17 @@
     "60abae6df963": {
      "descartada": true,
      "fecha": "2026-10-20"
+    },
+    "6231f23386ba": {
+     "categoria": "accidente",
+     "fecha": "2026-11-18",
+     "fuente": "Revista Semana",
+     "gravedad": 1,
+     "id": "6231f23386ba",
+     "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQdDljOXdKdFFfVmo0ck5NbmVETkhOQV9yWmY3TzlNSk5iSnBzUnREMnBDWHJERTZaaE9nenlyblpOcVJ5MG80Q0Qzb1M3dlQ1ajBENkdrd1BVbExIWENQLTZKUXo3b3ZCYjVXWmtiZzhFTDhnNXNOamtwdV9LaTQyNGprVEpXYjFkYlpVcDROSTBQVl9USm1ST0hhaXVqYVBWWjB3eHVydEdMY0xSY0lNWW9lM1UxLXBZcHRubHRid19tZjRNYzZvUXhSUmJOOTRNckI2RkVPTkpfY3hnSFFUMm1ueDdXNVZJY2x1Q2FXSQ?oc=5",
+     "relevante": true,
+     "resumen": "Incendio en la Avenida Oriental, requiere atención de organismos de socorro.",
+     "titulo": "Emergencia en plena Avenida Oriental de Medellín: incendio obligó a movilizar los organismos de socorro - Revista Semana"
     },
     "6597669e40a5": {
      "categoria": "homicidio",
@@ -3966,9 +5068,24 @@
      "descartada": true,
      "fecha": "2026-11-12"
     },
+    "672f2ca2225b": {
+     "descartada": true,
+     "fecha": "2026-10-24"
+    },
     "673892204483": {
      "descartada": true,
      "fecha": "2026-11-15"
+    },
+    "6a8486593b2b": {
+     "categoria": "microtrafico",
+     "fecha": "2026-11-17",
+     "fuente": "Teleantioquia",
+     "gravedad": 3,
+     "id": "6a8486593b2b",
+     "link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxNUmxROHI5TWNFaHgySHFjWUpERDBySXMxZkFzTGtYZGNMcElCOFRDOFU3MzJZdkFkUVZkbUxLbWZmaEl0TU1DVGw5STh5WU44VWpVbnQxWTZmLXlSV2pobGJybkp0alJCMmFUQndLbmFGczJRTzdfU1VPVDF1Qlp2OUdVYU9yNHlPSzFZUFk3OWxMT1dzbDlTVnFxRGtYSko2ZDNjVWJfZGs0dUxVaHNLNnNDeXUtVmNzOFMwZ0RDcnpoYkwwVER5NTdyTDAtRGpYZzZob0ZxOVJxcHNhU05BWTg3azQzNm1tNmpTNjZzdm9FaFVieFZNZGpWc1NCTEFnb09KdHBqZGNqZmQ0Zkg3TEVQMjBzZ3pEUTZqaU1oQlZVaG5HX0dQdtIBqAJBVV95cUxNUmxROHI5TWNFaHgySHFjWUpERDBySXMxZkFzTGtYZGNMcElCOFRDOFU3MzJZdkFkUVZkbUxLbWZmaEl0TU1DVGw5STh5WU44VWpVbnQxWTZmLXlSV2pobGJybkp0alJCMmFUQndLbmFGczJRTzdfU1VPVDF1Qlp2OUdVYU9yNHlPSzFZUFk3OWxMT1dzbDlTVnFxRGtYSko2ZDNjVWJfZGs0dUxVaHNLNnNDeXUtVmNzOFMwZ0RDcnpoYkwwVER5NTdyTDAtRGpYZzZob0ZxOVJxcHNhU05BWTg3azQzNm1tNmpTNjZzdm9FaFVieFZNZGpWc1NCTEFnb09KdHBqZGNqZmQ0Zkg3TEVQMjBzZ3pEUTZqaU1oQlZVaG5HX0dQdg?oc=5",
+     "relevante": true,
+     "resumen": "Disputa territorial entre bandas criminales por plazas de vicio.",
+     "titulo": "La Oficina habría vendido plazas de vicio del centro de Medellín al Tren de Aragua y ahora buscaría recuperarlas; esa sería la razón de la violencia - Teleantioquia"
     },
     "6b1b7a0031c3": {
      "categoria": "rina_violencia",
@@ -4001,6 +5118,25 @@
      "descartada": true,
      "fecha": "2026-11-04"
     },
+    "7d441b0cdfcf": {
+     "categoria": "extorsion",
+     "fecha": "2026-11-17",
+     "fuente": "Telemedellín",
+     "gravedad": 3,
+     "id": "7d441b0cdfcf",
+     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1pRGxQVVdZUUZGSk9OT1B0T2JZUVIwdlBRNTF1VkstUlNYNjRLMzNELUlOb3pLRGNJa1g5MnN1ZU9QUWkyXzlNXzZRa0JGRHhzYi1fcTJ0MzBSN28xbDc4dkVKOEgxSzBrWXd1TnljekxSbTBhTlhiUTdR?oc=5",
+     "relevante": true,
+     "resumen": "Captura por extorsión de 70 millones de pesos en el centro.",
+     "titulo": "Lo capturaron justo cuando estaba cobrando una extorsión de $70 millones en el centro de Medellín - Telemedellín"
+    },
+    "7db266694e1e": {
+     "descartada": true,
+     "fecha": "2026-11-16"
+    },
+    "7dff2b0a3b1c": {
+     "descartada": true,
+     "fecha": "2026-11-17"
+    },
     "8f8bf2d023fe": {
      "descartada": true,
      "fecha": "2026-11-13"
@@ -4020,6 +5156,10 @@
      "resumen": "Noticia general sobre seguridad en Medellín, sin especificar el barrio Centro.",
      "titulo": "Con megacárcel y Pentágono, Medellín redobla su apuesta por la seguridad: estos son los detalles - Revista Semana"
     },
+    "9d7e8e691edc": {
+     "descartada": true,
+     "fecha": "2026-10-30"
+    },
     "9f96f3a9e0c8": {
      "descartada": true,
      "fecha": "2026-10-20"
@@ -4035,6 +5175,14 @@
     "a6c950fe0079": {
      "descartada": true,
      "fecha": "2026-11-12"
+    },
+    "ace3c566a9e9": {
+     "descartada": true,
+     "fecha": "2026-11-15"
+    },
+    "b1b6957f2b01": {
+     "descartada": true,
+     "fecha": "2026-11-15"
     },
     "b562433ccc25": {
      "descartada": true,
@@ -4059,13 +5207,65 @@
      "descartada": true,
      "fecha": "2026-10-30"
     },
+    "c6107f962786": {
+     "descartada": true,
+     "fecha": "2026-11-04"
+    },
+    "c6b1edd718ae": {
+     "descartada": true,
+     "fecha": "2026-11-16"
+    },
     "cddd145d31c0": {
      "descartada": true,
      "fecha": "2026-10-29"
     },
+    "ce96133f291e": {
+     "categoria": "otro",
+     "fecha": "2026-11-18",
+     "fuente": "Revista Semana",
+     "gravedad": 0,
+     "id": "ce96133f291e",
+     "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNWlM5QjFJeVFybnl6bXltaDR3Sk9PakRjcjJqX2xlLS0zTXpXZ2E3Y0dzSF83eUxnY1dhVXBUaG0zRmhoSE9HWTFBWW14SEt0ZTFSbm9aREFlb1QtVVFNVVNySHBRSmFLZnFSRU50SDV2UE5GZ1RiRHo3bHpSekZpWk1wNDFybzFKRjJDb01NUGhtdFNUT0JTdVVaVngxVVRPVkZXbnRsVmE1Z3FiV2UyeU5jdkx6SGJkWEpQQUdUblh3eno3Wm9VTThxU0YtZUhJVERPSnFOMkZlck1fS2dEeE1WSnRIY3UyaVhBTFBzc29xRmtUQzBNV0JRUUt2ZFgt0gGGAkFVX3lxTE5EeG1pZERUcjFRMTh0TXBDU3JhOGdrcl9uUjFYVGNSUWN0enJCb3FkQnp6Z29WRUZHcVFtalVCcGMyQkxvc1J3bmJabWpjQUZKbURuNjUzb3VvQkNxMXdGQUhxUDJVdzl0SDEyZ1hxaUVRSVV1Y2tvNXRSeGNKOVZrSUNGOEtKMFh1djNjYW55T002Z1VwODlPNmpERDAtSUxPWHdoZi1kVm1oYWhlcEZwdzJnaTFVOElsS2tzV1pvMGhwLUctTzhQOHR1VThQUU1FSm9iRHVldTd0akM1UDl6OFBCUjVraEdOamtvQUtOUDdlbVNLMk5hTXhIU3NOYUVuR2ZyZkE?oc=5",
+     "relevante": false,
+     "resumen": "Noticia política sobre el partido Centro Democrático.",
+     "titulo": "Tensión en el Centro Democrático: Andrés Guerra denuncia exclusión de su equipo en decisiones del partido; “No les daré gusto” - Revista Semana"
+    },
+    "cf4a2b06ed4b": {
+     "categoria": "accidente",
+     "fecha": "2026-11-17",
+     "fuente": "El Colombiano",
+     "gravedad": 2,
+     "id": "cf4a2b06ed4b",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTEpVc09ZYW14R0JlenlFNThkUnhZLThZSUpvMVZhNUI1enVjMTEwWXdUVmlMQkZnQkRNQk5kemUtbGVVVHJneWhRcXRvd2VERTk3WmhkNTVtTHRjUElKU242N0tvU0xKNllMYVlkOVk5Zm9MTEZMdUZXdmdzUDRRLVhiM3pPUFJHaUJBSTdSTDNhZmUzS21ndDZBMTVUaVF5NmVWeU1DV0M?oc=5",
+     "relevante": true,
+     "resumen": "Alta frecuencia de incendios en bodegas del centro en temporada navideña.",
+     "titulo": "Seis grandes incendios en el Centro de Medellín en cuatro años: así han afectado bodegas y almacenes en temporada navideña - El Colombiano"
+    },
     "d0f997066eff": {
      "descartada": true,
      "fecha": "2026-10-23"
+    },
+    "d4ff3c3858dc": {
+     "categoria": "accidente",
+     "fecha": "2026-11-17",
+     "fuente": "El Colombiano",
+     "gravedad": 1,
+     "id": "d4ff3c3858dc",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMFpLU3h3OXVERk0wSVRVQTZIbm8xekVlNVdpZHpoTFJYdUI5Y29fd045SG1hMWVQRnVLMmRCMk9Qd1NQTjRrN0RkT211WWhNNC1FejZHMFZtdW1WTXIxajlWUFFoUlhFZWFZR2hBZEtuQ3d0QWlYOTRXN0oyRm9Cb1htYVBkSWJkcFlCN2w5emVtNmJJS3JzYmxhWXBiMElx0gGmAUFVX3lxTE1Yb3lfWkNZRm55c3prMFB5RGxZeGRaREtWNzJldU1Mc2NsdEdvVzBvaktSY204TTdoUDh6VHFiRUhIbFRKX0t0eC1tLVdJYVAxRlFQeFlHNDZTQl9pOGNfa0RpeElENTA4eVE3bTg0QkFDZm10dEFVcE9rODJyZUFiZlpINENYQTdWYUEtMGYtUFg5UVdJd2RSM3pORVZSaVZTQ3BtOEE?oc=5",
+     "relevante": true,
+     "resumen": "Incendio en local comercial de la Avenida Oriental.",
+     "titulo": "Emergencia en el Centro de Medellín: Bomberos combaten incendio en local de la Avenida Oriental | El Colombiano - El Colombiano"
+    },
+    "d55f4b998e25": {
+     "categoria": "extorsion",
+     "fecha": "2026-11-17",
+     "fuente": "El Tiempo",
+     "gravedad": 3,
+     "id": "d55f4b998e25",
+     "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNbTlxTXpyVTk0U2ZGTGpjQVFhVVNYR2ZPWGVRRzdXODktQjBkQlVETVhzVTlvcjNmcEVDeWQ3UGlTZF9iMEhRcmFtcG8yRTZORGNOSHpXbUdzcjhOMWh0X2lqek9yM3FWSmFRRV9Jb0tZVFNMa0c5V2tndV9WTTZjXzZEVU5VRnlIcEF0V3oyS0JRZWlVbE1QbUVyUnVjTURFLU5DZHItV1d4aFVwMURTN2Z0QXdQdG9pV0lTc3hZOThqLTBkOTJqc1NGMWJCNFAybG9GcVF3MlN1Z2ZuaVZEZDJNM3FyVEYtb0dMTHFhbEFXZkdCbktqWjZFYlRHNHB2WnYxZjVVVdIBjAJBVV95cUxOYTZDYnR0anRhcHZDZkc2OUxtMTZGYl9RbUgyNV9BMkZSNmVibU15U2hoNEVyYWYtLUcyYnhaSTEtcjlqTFpaYUQ0R0NVSFctUjdudjRqeV9WcWppWktBTHVyTXhVczNmM1A3dU93eXgzUVNnUVd5cU00Nlhxa1BDb3g5VHRqN2ZzWm51c2lRdVMxR1VmY3UybTNzWXcxdVlqRmJaVG1ma1RrazJhekRQU1NiUUZnY2hRenRDUEF1eGpHd3lCcmlUWV9FTkdLdXdaSzJjU3Zoc1dLR29DZEFBSDBpeXBOWkxiWV9vcTkwU3h5aWFtRVhZVExoWEh6RnVCUGNRVm9oLTIxbkxn?oc=5",
+     "relevante": true,
+     "resumen": "Captura de presunto extorsionista en el centro de la ciudad.",
+     "titulo": "Cayó en su propia trampa: capturan a presunto extorsionista cuando iba a recibir 70 millones de pesos en el centro de Medellín - El Tiempo"
     },
     "dcebb126da30": {
      "descartada": true,
@@ -4078,6 +5278,10 @@
     "ea2b71201350": {
      "descartada": true,
      "fecha": "2026-11-10"
+    },
+    "f1c46164aa53": {
+     "descartada": true,
+     "fecha": "2026-11-17"
     },
     "f396876696ac": {
      "categoria": "otro",
@@ -4134,6 +5338,10 @@
      "descartada": true,
      "fecha": "2026-11-14"
     },
+    "6752a7c633c9": {
+     "descartada": true,
+     "fecha": "2026-11-14"
+    },
     "7a140d6692b7": {
      "categoria": "positivo",
      "fecha": "2026-11-13",
@@ -4144,6 +5352,14 @@
      "relevante": true,
      "resumen": "Inversión de más de $1.000 millones en el parque de Ciudad del Río.",
      "titulo": "Distrito asegura que invertirá más de $1.000 millones en el parque de Ciudad del Río - Vivir en El Poblado"
+    },
+    "a14d92a32607": {
+     "descartada": true,
+     "fecha": "2026-10-21"
+    },
+    "aceeb9df3a53": {
+     "descartada": true,
+     "fecha": "2026-11-05"
     },
     "b4df82ddc493": {
      "descartada": true,
@@ -4212,6 +5428,17 @@
      "resumen": "Hallazgo de un hombre muerto en Copacabana, no en el barrio Conquistadores de Medellín.",
      "titulo": "¡Cobijado, embolsado y con medias! Hallan un hombre muerto en Copacabana - Minuto30"
     },
+    "a6f458f9dfc7": {
+     "categoria": "otro",
+     "fecha": "2026-11-17",
+     "fuente": "Diario de Valdivia",
+     "gravedad": 0,
+     "id": "a6f458f9dfc7",
+     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPbWk4dW1QUVBkclk0ZGNqNVdzOTNkZTlsUmcwdUtaRmU1b3FxaWhiZFFGMi1HNC1DeWlKeV9VUE1OSm5fMl9EN3EwRHhabHlDbGd2eHRhYWZTTTdUNU9xdTFzVzl2Rk5zcVRKVDlvbWl6T1Bick8xM2xnT1c2dGtMVlR6cnZ2a3RpZGd4X3BaNTRJcHNTXzQ0Q2pHZ2tWQ3M3MG1mcUExVHJxekZYcmlCcTdFVFltMXFwc29xQjF1N3ptZ0Q4cERSVy1oZzNSZHQ3bk1LZnNfY2o3RE55M3l2UUExVFhwdWdNN3h3?oc=5",
+     "relevante": false,
+     "resumen": "Noticia sobre un colegio en Valdivia, Chile.",
+     "titulo": "Estudiante del Colegio Los Conquistadores brilló en encuentro científico internacional - Diario de Valdivia"
+    },
     "bdd8e581791b": {
      "categoria": "otro",
      "fecha": "2026-11-05",
@@ -4252,6 +5479,14 @@
    }
   },
   "Medellín|El Poblado": {
+   "ia": {
+    "fecha": "2026-11-18",
+    "motivo": "Aunque hay muchas noticias positivas y mejoras en infraestructura, la persistencia de hurtos a turistas y la actividad de microtráfico, sumado a un evento de deslizamiento/inundación, sugieren la necesidad de mayor precaución, especialmente en zonas turísticas y de rumba, y considerar los riesgos naturales en lomas fuertes.",
+    "nivel_alerta": "baja",
+    "recomendacion_sugerida": "precaucion",
+    "resumen_reciente": "En los últimos 120 días, El Poblado ha experimentado un deslizamiento/inundación debido a fuertes lluvias, la captura de una banda dedicada al hurto de turistas extranjeros y la detención de un cabecilla de microtráfico. Sin embargo, también se han reportado numerosas noticias positivas sobre inversiones, eventos culturales y mejoras en infraestructura, incluyendo el avance de una nueva estación de policía.",
+    "sugerencia": "mas_precaucion"
+   },
    "noticias": {
     "048b71a950b3": {
      "descartada": true,
@@ -4261,6 +5496,17 @@
      "descartada": true,
      "fecha": "2026-11-12"
     },
+    "0c7ae8269552": {
+     "categoria": "positivo",
+     "fecha": "2026-11-17",
+     "fuente": "Vivir en El Poblado",
+     "gravedad": 0,
+     "id": "0c7ae8269552",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdml2THhEb25pZmVDcXl2cGFndkl0SEZmcVJzVm9BMlNZSjBwRkNNUF9QQ3dIbFBmeTdmcFlNY01LUmdWQVg2Z2lBdnJfanZheEVKeHpJUlJYV2dyMnZSNXE0WTB4VEZSN3lLdlRORVpGdEFYVWFzT2o1emxVWTRvSmxRYTlsbnNwdmhuVg?oc=5",
+     "relevante": true,
+     "resumen": "Evento deportivo en Medellín.",
+     "titulo": "El ‘Duelo de Leyendas’: una cita con figuras de dos generaciones, en Medellín - Vivir en El Poblado"
+    },
     "0ef13f68addb": {
      "descartada": true,
      "fecha": "2026-10-22"
@@ -4268,6 +5514,10 @@
     "1125dd89d885": {
      "descartada": true,
      "fecha": "2026-10-21"
+    },
+    "13d355365810": {
+     "descartada": true,
+     "fecha": "2026-10-20"
     },
     "162a73190e4a": {
      "descartada": true,
@@ -4292,6 +5542,17 @@
     "28e836011e3d": {
      "descartada": true,
      "fecha": "2026-10-24"
+    },
+    "2cf065de7a34": {
+     "categoria": "hurto",
+     "fecha": "2026-11-17",
+     "fuente": "Revista Semana",
+     "gravedad": 2,
+     "id": "2cf065de7a34",
+     "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPcmI1bklkZUFoQzRpRGM0cUtLRWQxcjZXNU9KRDdkbGUtVUQxTnMyZUFqQVVJR2xVcXktVWY5YjR0U1JxeGEwdHdfZktwNWw1Z0lfdHdJTVJlOEppRkVqZmM1N1lsNEhmQ2ZBMFNBWEt0WUIwbVJkTXFOS0dWMUVCYlRBbWg0ZkdveTMxS184aV8yN3ByVENGa1NyQU9zXzluLUFmNFo4ZF9nY3E5ZmJkbVRPZEtPcU05LXR6RmxmLXE3R19wZU5xcjE2UzJ0ck5Ud3FVZ0ZnckROM2EyYWdYZmdOTl9PNUhST2lYRVU2MEw1TkpueXk3cQ?oc=5",
+     "relevante": true,
+     "resumen": "Captura de banda dedicada al hurto de turistas en El Poblado.",
+     "titulo": "Banda criminal se escondía entre árboles para atracar a turistas extranjeros en Medellín: 5 hombres capturados - Revista Semana"
     },
     "2db6d28668a5": {
      "categoria": "positivo",
@@ -4320,9 +5581,31 @@
      "descartada": true,
      "fecha": "2026-11-12"
     },
+    "4299fbd7d3cd": {
+     "categoria": "positivo",
+     "fecha": "2026-11-09",
+     "fuente": "Vivir en El Poblado",
+     "gravedad": 0,
+     "id": "4299fbd7d3cd",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbEpRQktZV2oxUm5JLUlhakRMdzFNOVY0RWVESENpMk1zWVdGOXcyQlF0dVlnZG93S19FQXgwYTl5VklqWnlCemJqUGlkYjdST2ZlSjM1ODhDYWduU085SFNtcGRPMm1iMzNrMW85WVJ2UzhJbXhabnhQOVlpcElFZDRMaEI?oc=5",
+     "relevante": true,
+     "resumen": "Exposición cultural en El Poblado.",
+     "titulo": "La fotografía colombiana, en múltiples miradas - Vivir en El Poblado"
+    },
     "42ec4e6e7fe8": {
      "descartada": true,
      "fecha": "2026-11-06"
+    },
+    "44f1805efd3e": {
+     "categoria": "positivo",
+     "fecha": "2026-11-17",
+     "fuente": "Vivir en El Poblado",
+     "gravedad": 0,
+     "id": "44f1805efd3e",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbjd5cWFlWjhXMUR3UDJLSnhNaE5COHNZWjVpLWRKbGFVdGZicWpSMWprOE9CbHd4N3RJM0x1SDlhbVdfTkdxT2czSk91OVNWZXRkc0kwb2RiMElVVHFHRlR3Qmp0ZGJQclppS0ZjNGtBd2VWRWhkVF8zMUk1SG52Y1dhdXJKR3hFUU5Nb0swOUo5cy1Ec3BzZW94NWlXckxaMnR3?oc=5",
+     "relevante": true,
+     "resumen": "Mejora en servicios de transporte público.",
+     "titulo": "Con tarjetas débito y crédito también se puede pagar viajes en el metro - Vivir en El Poblado"
     },
     "4ae7bf32f1ae": {
      "descartada": true,
@@ -4331,6 +5614,21 @@
     "4d5374ce039f": {
      "descartada": true,
      "fecha": "2026-11-12"
+    },
+    "56d1fa6fada9": {
+     "descartada": true,
+     "fecha": "2026-10-22"
+    },
+    "59b678b43550": {
+     "categoria": "positivo",
+     "fecha": "2026-11-17",
+     "fuente": "Vivir en El Poblado",
+     "gravedad": 0,
+     "id": "59b678b43550",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQalJybzE3R0lST2RVVUFPeEdOcmFmcm9Md0YyWlZuTUVHMFFWRzh5WlB5SXVSWGQ0SFhmZjFDX1JLajlDR210ckV0WS1GNGVlLXVNekxxMmNDZllYdDNxNERIUThwb1pfejNBa08ydkdUcDFrQlF4aG5nY3lIN19PWlRVVUhpVTBldGVseHU5T0Q?oc=5",
+     "relevante": true,
+     "resumen": "Evento deportivo en Medellín.",
+     "titulo": "Los Juegos Nacionales de la Amistad reúnen en Medellín a deportistas de cuatro ciudades - Vivir en El Poblado"
     },
     "60c97eca5bd9": {
      "descartada": true,
@@ -4352,9 +5650,24 @@
      "descartada": true,
      "fecha": "2026-11-14"
     },
+    "6d510294b328": {
+     "categoria": "positivo",
+     "fecha": "2026-11-18",
+     "fuente": "Vivir en El Poblado",
+     "gravedad": 0,
+     "id": "6d510294b328",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdVdQX0RBbm1QU3UyVUlGN0FIYWQzbHJNcGRHOEdsSmZlV1ZBSVZVN19uLWtqbUpDOEpyNXoxRW8zRENWcWtid096R1FCR2RsRnhiWi1nT2ZRRTVkb1ZCMXdCdUZfdUZRekdNNTNqb1dpNEFQT1dxX2xVUTRldnVhMXZEZERmWG8?oc=5",
+     "relevante": true,
+     "resumen": "Evento cultural en El Poblado.",
+     "titulo": "Leer y escribir desde el universo poético de Olga Elena Mattei - Vivir en El Poblado"
+    },
     "715270977945": {
      "descartada": true,
      "fecha": "2026-11-12"
+    },
+    "7310fb4b299f": {
+     "descartada": true,
+     "fecha": "2026-10-28"
     },
     "7397dc9c038f": {
      "descartada": true,
@@ -4394,6 +5707,17 @@
     "8c740402b187": {
      "descartada": true,
      "fecha": "2026-10-21"
+    },
+    "8d74951f2d9c": {
+     "categoria": "positivo",
+     "fecha": "2026-11-17",
+     "fuente": "Vivir en El Poblado",
+     "gravedad": 0,
+     "id": "8d74951f2d9c",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRjd1U2lKb21BYmtQT0FkUlRDZ2FYZ2hGNjhpMHpFRXJ4MnVhcGlydzZJZzlITjVGdF8tUmI4YUtMNTFQUU5hTDg5M1R2X2MtclhHQUFsSGw2RkNTVDl2Yl9jS3lkeE9EVVZ3MkJMY1dWZkxCX3J1NHlrRU9oX2xSMm1jSWhuUkV5N1lpaHd0SU80cmhaMzNoR0VPQ1pQRTlwcTN4dlc2ZXFpZlU?oc=5",
+     "relevante": true,
+     "resumen": "Entrega de apartamentos en El Poblado.",
+     "titulo": "Sortean los 14 apartamentos de Villa Los González, en El Chispero - Vivir en El Poblado"
     },
     "8ece742b864b": {
      "categoria": "microtrafico",
@@ -4541,6 +5865,17 @@
     "e5a9c721d2ec": {
      "descartada": true,
      "fecha": "2026-10-20"
+    },
+    "e9173904b4e2": {
+     "categoria": "deslizamiento_inundacion",
+     "fecha": "2026-11-17",
+     "fuente": "El Colombiano",
+     "gravedad": 2,
+     "id": "e9173904b4e2",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYTZPUDlXWDloMFAwWk83bWZpMnBGVmprV1Z0aURSRU9Ibm1LLU1ncGppZTkxaXFmVWc2Tll5enF2X3hSc0hhTlFFTmoydG9iYWVCcEh0VHhOQjZDcUZlR191NkFaVDdyX1Y4Y3N6SVVodHdpU2xBR2EycUJmNmpNSVV5YVE2V2xPcGVPQW54WUZ5R2NiZ2pEU3g1eXA1V3JMVldmT0RISHBZQdIBrwFBVV95cUxPQWZnZmdCaWF6U1c1d2g4RG5RRkFMVmdlRlR2UWFmU0JDZ21QSmRTT3BlUENjZjBPLXlidy1HYnNYTmt3WmowUmo5aUN0RDlRbGdYbkRSUzh3cERMcFk3MzZfWVBRdDBQVlV4dUFIMk0yY28wdzlNTklubXZhZGhLS2ZPOU81SXVZZWNfRDVKNXZDMzlBendZOEVXVVZPbC1ERXh5RC1ndkVXaUF3cGJn?oc=5",
+     "relevante": true,
+     "resumen": "Alerta roja por lluvias y crecientes en quebradas del sur del Valle.",
+     "titulo": "Lluvias, granizo y alerta roja en quebradas tras aguacero en Medellín y el sur del Valle de Aburrá | El Colombiano - El Colombiano"
     },
     "ea373b2290d0": {
      "descartada": true,
@@ -4773,6 +6108,10 @@
      "descartada": true,
      "fecha": "2026-11-13"
     },
+    "66a0a2ee6b5d": {
+     "descartada": true,
+     "fecha": "2026-11-17"
+    },
     "a1f46ee59f3d": {
      "descartada": true,
      "fecha": "2026-10-20"
@@ -4843,6 +6182,10 @@
      "relevante": true,
      "resumen": "Cierres viales programados para el fin de semana en Guayabal y otros sectores de Medellín.",
      "titulo": "Ojo que estas vías tendrán cierres el fin de semana en Laureles, Belén, Guayabal y el Centro de Medellín | El Colombiano - El Colombiano"
+    },
+    "7db266694e1e": {
+     "descartada": true,
+     "fecha": "2026-11-16"
     },
     "8c09a16d11f5": {
      "categoria": "obras_movilidad",
@@ -4985,16 +6328,20 @@
     "b4b054a815a1": {
      "descartada": true,
      "fecha": "2026-10-22"
+    },
+    "e7af7551708c": {
+     "descartada": true,
+     "fecha": "2026-10-22"
     }
    }
   },
   "Medellín|La Candelaria": {
    "ia": {
-    "fecha": "2026-11-15",
-    "motivo": "Alta incidencia de homicidios, amenazas con armas y microtráfico que confirman la inseguridad del barrio",
+    "fecha": "2026-11-18",
+    "motivo": "Las noticias recientes confirman y agravan la situación de seguridad ya conocida, con múltiples incidentes de extorsión, homicidios y violencia, lo que representa un riesgo significativo para los residentes.",
     "nivel_alerta": "alta",
     "recomendacion_sugerida": "no recomendado",
-    "resumen_reciente": "En las últimas semanas se registraron varios homicidios, ataques con cuchillo a agentes y capturas de microtráfico en el centro de Medellín, incluido La Candelaria. La violencia se mantiene alta y no se observan cambios positivos.",
+    "resumen_reciente": "La Candelaria sigue siendo una zona con alta actividad delictiva, especialmente extorsión y homicidios, con varios incidentes graves reportados en el último mes. También se han registrado riñas y capturas relacionadas con microtráfico. Adicionalmente, se anunciaron cortes de agua programados.",
     "sugerencia": "mas_precaucion"
    },
    "noticias": {
@@ -5002,9 +6349,31 @@
      "descartada": true,
      "fecha": "2026-11-09"
     },
+    "0ab8c8157abf": {
+     "categoria": "extorsion",
+     "fecha": "2026-11-17",
+     "fuente": "Alerta",
+     "gravedad": 3,
+     "id": "0ab8c8157abf",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaV9OeTZ3ck9RN1V4ZFF1WHBGUUtINUo3QXRrWHNLaEY3dTFrRkpjcUt6OHZtQzg5aFRoSW4xTkZ2bTVEVHZOZUJDajVFendPalRfVzMwZm1vd3dnTkJ2NE1RMHppd2Z0elhPNmMzdVVwaWd1RTlCLTRGZXN0anNySUFnak0ybkM4c3FjVFNRZG4zRzVwWGN2QTN1LWt3akpt0gGgAUFVX3lxTE9GSjJZcnhNNkRSalNpbUxRd1hjVzVoc1pzN3FmbVpuSnJHb0xMcnpBX0M1UWhJa0daWktQUFZyX2RDLV93aUhZamx5S3pBeVZJelhJZ2ZuVW1ndkpSdWdNVURERm9rX1dCdmNsM2w0eXZuamRKRTl0TDhmMDBoRHA3aDVOb2xpVjg5NGNWZnpuWHhsWHJZRnNTMGczeW90S1c?oc=5",
+     "relevante": true,
+     "resumen": "Operativo contra extorsión de 70 millones de pesos.",
+     "titulo": "Gaula frustró extorsión de $70 millones en el centro de Medellín y capturó a un implicado - Alerta"
+    },
     "1497d8672c72": {
      "descartada": true,
      "fecha": "2026-10-19"
+    },
+    "191d4e4ffe15": {
+     "categoria": "servicios_agua_luz",
+     "fecha": "2026-11-17",
+     "fuente": "Minuto30",
+     "gravedad": 1,
+     "id": "191d4e4ffe15",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUjg2bURfS2NJekUtNFJwZmR6RkpTNnlnNWhmYTFDQXdiWmJCdFV3N3I4ZWZNYmd0M0p6bnlNVjJSX3hpOEZLZlJnbUVZWmhuUXV6U2x3SWM2VksxMGFvVmZCLWJ5MUhVTDFfcVdNNmd0Nzl3WDkzNXJrcHFBMkNsSTlrdGIxT2drbjg0ZmV3U19QWHNlMDg1czMtOUNzdTlDR2U3Z2lJYTlNOUtidlFSdTltTVR0ZG9fTjQ1Z1Fn?oc=5",
+     "relevante": true,
+     "resumen": "Corte nocturno de agua en el sector.",
+     "titulo": "¡Prepare el agua! EPM anuncia corte nocturno en sectores de Villa Hermosa y La Candelaria - Minuto30"
     },
     "1e362463088b": {
      "descartada": true,
@@ -5020,6 +6389,17 @@
      "relevante": true,
      "resumen": "Hombre que intentó apuñalar a agente de tránsito en Medellín se presentó en estación de Policía.",
      "titulo": "EN VIDEO | Damián Barrientos, quien intentó apuñalar a un agente de tránsito de Medellín, se presentó en estación de Policía y esto le pasó - Teleantioquia"
+    },
+    "2cee766596f1": {
+     "categoria": "extorsion",
+     "fecha": "2026-11-17",
+     "fuente": "Hora 13 Noticias",
+     "gravedad": 3,
+     "id": "2cee766596f1",
+     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9YZ2NuSVVISXFTcmo4SHBDaVhOZUItSmpLMGlzMHdhUWU2TzZWb1B5b09xdXgtUzRuM1lMZ2IzRFNaY3hsNzlGS1pWUUxLeDdRNDZmUHFYVFpyaXQtR2FQYzRFZmpNdXc?oc=5",
+     "relevante": true,
+     "resumen": "Captura en flagrancia por extorsión en el centro.",
+     "titulo": "VIDEO | Capturan en flagrancia a presunto extorsionista en el Centro de Medellín cuando iba a recibir 70 millones de pesos - Hora 13 Noticias"
     },
     "3ed35d72d2dc": {
      "categoria": "rina_violencia",
@@ -5042,6 +6422,17 @@
      "relevante": true,
      "resumen": "Halloween en Medellín dejó 243 reportes de riñas, afectando potencialmente La Candelaria.",
      "titulo": "Halloween en Medellín y el Valle de Aburrá dejó 46 capturados, más de 2.100 comparendos y 243 reportes de riñas - Teleantioquia"
+    },
+    "401621ad51a7": {
+     "categoria": "extorsion",
+     "fecha": "2026-11-17",
+     "fuente": "MiOriente",
+     "gravedad": 3,
+     "id": "401621ad51a7",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUnVtVUt6U0NqdXQ3UlZaTjlWNUtPRUFfbGI3eUtNVTRDQWdzVEdWMlVKUVIySnpLd2NyMWRPVVBBNWVmUnBjSTBsUElpUmtISmw1MWhDTG1iRzRpc1A5VVg4VXF1bVJrR1pDaE5CcVpybTRicXpYNjBoN2VfREZnXzdsOVlMcUZuNjlrQWhMVXhfZDgtSXpXVnAzZUM?oc=5",
+     "relevante": true,
+     "resumen": "Operativo del GAULA contra extorsionistas en el centro.",
+     "titulo": "GAULA frustró entrega de $70 millones a presuntos extorsionistas - MiOriente"
     },
     "498ce496dfc6": {
      "descartada": true,
@@ -5066,6 +6457,32 @@
      "descartada": true,
      "fecha": "2026-11-03"
     },
+    "5c3c23657765": {
+     "descartada": true,
+     "fecha": "2026-10-26"
+    },
+    "5c9e2648b444": {
+     "categoria": "extorsion",
+     "fecha": "2026-11-17",
+     "fuente": "Caracol Radio",
+     "gravedad": 3,
+     "id": "5c9e2648b444",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVUVwUXlJRmhlRnNwQmYwdVdTZWQybzRoQlp0ZGdXUWppNkhFVUJCWUlMRVZaUFZzc0JMbi1McURvc19EN09jWXFUc201NlJPV3Q1MG85cFQ4U1EwUzBGWTJaS3c3dGg4ZG45a0FSaVFfOUtyeG8zMkZKSHNMdWJROGhqTWwxa2JTeUxHWnFBbUFYbVNLYnVKT2FiSFZ5aE42RFlLS3FwQ2l0UWFacFlKOEZVczVOdmJBVlFUbFUzbUtnR1F10gHYAUFVX3lxTE1JNTBXSURadDNSU1E2YnVlLTlzUWJlQ0VDU01zcmZtOFpaRVctLVRLUDBMdkFUR0FtUEJGeGQ2ejlRUFBfTFRhZ1BpSmFKT2FqYVEtWGthNXdKSHI2WmE5dDlYeFY0cGJUaW56ZEtKVjMxeVp2UlRaSGc3b3Z6YmhZcE5lcUxqdkx5cVd1cVItWnk0Q1FoR1hSb1ZhV3liUlE3RGtDTkc3QzVvb3d2TXFGYUZhck1NQlJlSHVob1NtbDZYc0JmU1lGUF9HWmg4bU83RzRPVE9NQg?oc=5",
+     "relevante": true,
+     "resumen": "Captura por extorsión de 70 millones de pesos.",
+     "titulo": "Capturan a presunto extorsionista cuando iba a recibir $70 millones en el centro de Medellín - Caracol Radio"
+    },
+    "620b325f42e1": {
+     "categoria": "servicios_agua_luz",
+     "fecha": "2026-11-17",
+     "fuente": "Hora 13 Noticias",
+     "gravedad": 1,
+     "id": "620b325f42e1",
+     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBMWjl0d2tJb0YzWDJtUFVLVWdUZmtZaS01S3NtMHVyUDJncFI0VGVLRTlzc21lNjd2V3lLQUhHbFV6ZmpZUEJhV2VhQmkwRDAwSlVtUzh0WXVoaWFiZnJjcDBUa0pCVGhCcUlUS0E4Yw?oc=5",
+     "relevante": true,
+     "resumen": "Suspensión programada del servicio de acueducto.",
+     "titulo": "Van a suspender el acueducto en La Candelaria y Villa Hermosa; conozca cuándo y en qué horario - Hora 13 Noticias"
+    },
     "6853068d1ef3": {
      "descartada": true,
      "fecha": "2026-11-02"
@@ -5085,6 +6502,17 @@
      "resumen": "Asesinatos de presuntos expendedores y un policía en el centro de Medellín prenden alarmas.",
      "titulo": "¿Bandas se declararon la guerra por el control del centro de Medellín? Asesinato de dos presuntos expendedores y de un policía prenden las alarmas - Teleantioquia"
     },
+    "794648ffc2c3": {
+     "categoria": "rina_violencia",
+     "fecha": "2026-11-12",
+     "fuente": "El Colombiano",
+     "gravedad": 2,
+     "id": "794648ffc2c3",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZmd2amNQSHVObHMxRDI1WkRsWjdaT3RUdlNCZDd6MXNadmJraEJKREVJNDNHNlc3OEVPY1FkRmEtMmJhbjg2Yk5UcGhad2twNjFrMFdOeW1scmJmV0tjTVVWTTRWM2wzR0lUeUlqeVZNMUM4Y0tfSENvNV94UEx6X0l2YzRrNmxELUs3NXNDVTAxXzJKa1V1S2Zwck1xbmNYYlp5YW10UktySkHSAbABQVVfeXFMT0pUMDZud2lLMnFLcHBTR2Z6V1ZidU5aVm1oT3RvRFdJcDRsZjZGN3ZqNDFLQWVfM3JHRkJXbFg0ZjdaWEp0ZEUxOUgtSEhtMHh5T3hhaVVJd0pyM3RWcVM3dmhndWp1Nk43eU8xWkhOVkNmU2ZjcTQwSGd5dENHVW55Vm9oSmVkbTZDOFBXX1RDdXZIbmduTWFCR251UlBlUUk0dnpqR3FvcFNRMjZOTXU?oc=5",
+     "relevante": true,
+     "resumen": "Amenaza con arma blanca a un funcionario público.",
+     "titulo": "“No aguantó la presión”: hombre que amenazó con cuchillo a un guarda en Medellín se entregó | El Colombiano - El Colombiano"
+    },
     "82249afafb49": {
      "categoria": "homicidio",
      "fecha": "2026-10-27",
@@ -5100,6 +6528,17 @@
      "descartada": true,
      "fecha": "2026-11-10"
     },
+    "88509efc580c": {
+     "categoria": "rina_violencia",
+     "fecha": "2026-11-13",
+     "fuente": "Caracol Radio",
+     "gravedad": 1,
+     "id": "88509efc580c",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUGpqU2dRTUhyZlhnNEE1a0NSNDljNUYzUzhtSGpGNkllNF9OS0hraExkbHBTZlVTek0xcE1odkpkczd0WGJ1OUxuVmdZeG41OXROLUpqZVJGeWxqTmhCbzlteWtVaXk1bnRCUTZDck95V25OamxEQjdQck9hNXRjNXVzRE5uZXdWbXNfSGppMV9DSkVESUs1Rmk3Vy1jTTVoVE1vMHZPTl93QXZQbjY0aGxfc1VzRWpvNUNHN9IB0AFBVV95cUxNTlZWOEd6Z2hDandaLXViN084SVNsSWk3azA1NzVmdzlIUEl4bG15S0hpY1FsMUNrYndJMlViNFpybTdhRXhMZUhFUUtSeGdZN0YycHlpZ3hsS3hiUnNmalNmRXN3UHJjaGx3aFZWZlRncW1wNTNIVlhucDNCNE9kb2xaODZieFdodFNXd1JtMUNJRmZpenRYSkxsM3YwTEtNblA4Y2NTR296alpxM1paMmV2Y2lrelJZbnc0eHB2eDBqQlA4NGstSlRhNXJNTzVB?oc=5",
+     "relevante": true,
+     "resumen": "Agresión a un guarda de tránsito en la vía pública.",
+     "titulo": "Un joven que agredió a un guarda de tránsito fue conducido por la policía en Medellín - Caracol Radio"
+    },
     "9420439f14ee": {
      "descartada": true,
      "fecha": "2026-10-23"
@@ -5111,6 +6550,10 @@
     "d0f997066eff": {
      "descartada": true,
      "fecha": "2026-10-23"
+    },
+    "d14d57de5db9": {
+     "descartada": true,
+     "fecha": "2026-11-17"
     },
     "d9125e0b4ae7": {
      "descartada": true,
@@ -5223,13 +6666,73 @@
   },
   "Medellín|La Floresta": {
    "noticias": {
+    "0432ab7609d1": {
+     "descartada": true,
+     "fecha": "2026-10-27"
+    },
+    "04f389727b9e": {
+     "categoria": "servicios_agua_luz",
+     "fecha": "2026-11-06",
+     "fuente": "Portal EPM",
+     "gravedad": 1,
+     "id": "04f389727b9e",
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaTF1SUVualZQS3Y0bkJqM0UwWEFSSlFPT25NU3hvOEhGbDR3MGNvY05FRldBd0NVdmY3cHFQZWhkdjhfdUZlemE0QXVkODJVdk9HNHU5NnVtdmFOTURYdnIzLUt2UWV5c211c2pMdm5VdmdWd3dweGR6LVJILXBraGg5NFk2NmxnYXZ5UlVtMXJMek9Ic01FZFZwOHlpaksyUnRoMV9WWEhhQ2NaT21ybHNwVGtzXzQ2S0E?oc=5",
+     "relevante": true,
+     "resumen": "Interrupciones programadas de energía en el sector.",
+     "titulo": "Interrupciones programadas de energía en Antioquia - Portal EPM"
+    },
+    "2692094dbf7a": {
+     "descartada": true,
+     "fecha": "2026-11-04"
+    },
+    "28561d47d9e7": {
+     "categoria": "otro",
+     "fecha": "2026-11-13",
+     "fuente": "Hora 13 Noticias",
+     "gravedad": 0,
+     "id": "28561d47d9e7",
+     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB2eVp5MzlsMWd0VE82QnljdGF4N2gxb0FCWDN4b18xb1BVbmVOUHZVZEJ6TWlid3JTdU5jNVd2UmF2UE9jZHU1U3JpWWt2ZTJvMl9PTjFITEx6VTAxTzBHNVlBc05fTFJpU05qckNHSDhmSzV3MXZGdGdMc1Q?oc=5",
+     "relevante": false,
+     "resumen": "Reporte general de cierres viales en el Valle de Aburrá.",
+     "titulo": "Programe sus recorridos: estos son los cierres viales en Medellín y el sur del Valle de Aburrá durante el puente festivo - Hora 13 Noticias"
+    },
+    "355fc73083ce": {
+     "categoria": "otro",
+     "fecha": "2026-11-15",
+     "fuente": "Telemedellín",
+     "gravedad": 1,
+     "id": "355fc73083ce",
+     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5QQXJjTG1HZHBFY296YWtINUI2d3p6UzdkbUFTeU5PSGhtakU0Z3p4SE56ckFzWjJWQTFKSTVLTXZ1VlhrUWdvcDhEU2oyZVFxQThTY1VmUmk4MFRtcENNb3pJYzBpaFVpRFBQVGpSbGk0ak1JQ0ItTjlYa3N4UQ?oc=5",
+     "relevante": true,
+     "resumen": "Denuncia ciudadana por aumento de roedores en el parque de La Floresta.",
+     "titulo": "Comerciantes y visitantes denuncian aumento de roedores en el parque de La Floresta - Telemedellín"
+    },
+    "36a1ece5e665": {
+     "descartada": true,
+     "fecha": "2026-11-09"
+    },
     "3a172e1de4ec": {
      "descartada": true,
      "fecha": "2026-11-07"
     },
+    "3e53cc6a7e23": {
+     "descartada": true,
+     "fecha": "2026-10-31"
+    },
     "3f021a19f01f": {
      "descartada": true,
      "fecha": "2026-10-27"
+    },
+    "44d491d20f7d": {
+     "categoria": "otro",
+     "fecha": "2026-11-15",
+     "fuente": "Qhubo Medellín",
+     "gravedad": 1,
+     "id": "44d491d20f7d",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPajNsSmoyV2Jva2ViTUVwT2VSQXNBOEtlSnY2TkpEZnVjbjNNWUZTV1RJX2J3Tkt6OHg0RnlRbXpUZk8tV3BaODhNM194eTBjNlBYeG44TURrMGo3SERldXdIVU5qV1Q4Y2lVR1BKa1dSOFliUTB5YmVkOWU5R1Y2c2xfNHBSblZkdUNDaG9DM253b1pTMFlOTno4TjVYUFHSAaoBQVVfeXFMT3NFbW9kcG45NUJvRkZER2tXYmpod1NSNXk4WERFOHl5Q1hSTjJ1YTQzbWxZSUpkazhvUUlVbkV5dVVDOTdGVHpIWGlOSV81dUdMbmJaajlya3gyRDZxTnNWQVFqYzlQUFBJUjV1dTRMbXJNdnNoU2tNaW9vUXZWREVQcjhZNzFZTS02cUc4SGlFQmV6NnlHRkh2UkVEZHFaS0t2Yll5cTgwR1E?oc=5",
+     "relevante": true,
+     "resumen": "Reporte sobre plaga de roedores en el parque de La Floresta.",
+     "titulo": "Las ratas abundan en la zona verde del parque de La Floresta | Q´HUBO Medellín - Qhubo Medellín"
     },
     "68215cbe3196": {
      "categoria": "otro",
@@ -5242,6 +6745,17 @@
      "resumen": "Capturas con munición y estupefacientes en La Floresta de Ciudad Bolívar, no Medellín.",
      "titulo": "Ciudad Bolívar: dos capturados con munición de uso privativo y estupefacientes en La Floresta - Minuto30"
     },
+    "6c9e88ebd492": {
+     "categoria": "otro",
+     "fecha": "2026-11-13",
+     "fuente": "El Colombiano",
+     "gravedad": 0,
+     "id": "6c9e88ebd492",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNLUxTV1l6OUhrcVd2M3NyRk9aR21QWEIydWZmQWN6X0l1NkpEUlFITHA0N292TTRVaXJKOG5WWnRRenlBamVBQkFGSk53N1JCUHludl9YcktfMXpTTXNUR2U2OXd5V3BwZVNUSlIyUWpBOUloVUk2eENueWFjTllEdU4zc2RoTEFybGhtQXdvcVVKZGtIMVF4aG93SXZpa3I40gGmAUFVX3lxTE0xWU9ITm5lLWNCY3M3NzluRHF5THpsUVV6ZnVVVU1nVEtyLUxNeXluVW9WQVFMSjVfSWpweFRRV3VGY21EbnJSVmtNVU1VcmpWeUNobmNLa0IwLVRxbUs5R3FOX2tLcVRjM1lpNDZHTzh5cTVPa0RRSXBNTEFFMmNXRmJsZHc4cTBpRWF6Z08zYnBKWDRrQWVYcHhISHRfcm1NSGRrTmc?oc=5",
+     "relevante": false,
+     "resumen": "Noticia administrativa sobre la Alcaldía de Medellín.",
+     "titulo": "Alcaldía de Medellín denunciará presuntas irregularidades de contratista de la Secretaría de Hacienda | El Colombiano - El Colombiano"
+    },
     "6e5a7777f700": {
      "categoria": "obras_movilidad",
      "fecha": "2026-11-05",
@@ -5252,6 +6766,17 @@
      "relevante": true,
      "resumen": "El barrio La Floresta se transformará con la llegada del Metro de la 80.",
      "titulo": "La Floresta se transformará con la llegada del Metro de la 80: así será quedará la nueva estación - Telemedellín"
+    },
+    "78642a0932b3": {
+     "categoria": "otro",
+     "fecha": "2026-11-17",
+     "fuente": "El Colombiano",
+     "gravedad": 1,
+     "id": "78642a0932b3",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONG5waW1WVnFKOHctbTh2Smt2anNKWkdVc0RFNXM2RHlnaFVtZVltQ2VRaUNuTzEwSjYzRGpldGRNemhsb1dJalplRTR6LVBQZy1iX2F0SktNOThzel9lQW1YUlByVkg3TWVXSG1lMkpxUWUxdTRsTHlHLWtfazNENjZLaVhONm5rUlhmQUlsblZFMGlIYTZISVFGeXI4WlF5QkhhTjBjdF9mQU0taWQ2cUNEZ9IBswFBVV95cUxONG5waW1WVnFKOHctbTh2Smt2anNKWkdVc0RFNXM2RHlnaFVtZVltQ2VRaUNuTzEwSjYzRGpldGRNemhsb1dJalplRTR6LVBQZy1iX2F0SktNOThzel9lQW1YUlByVkg3TWVXSG1lMkpxUWUxdTRsTHlHLWtfazNENjZLaVhONm5rUlhmQUlsblZFMGlIYTZISVFGeXI4WlF5QkhhTjBjdF9mQU0taWQ2cUNEZw?oc=5",
+     "relevante": true,
+     "resumen": "Problema de salubridad por presencia de roedores en el parque de La Floresta.",
+     "titulo": "Las ratas abundan en la zona verde del parque de La Floresta | El Colombiano - El Colombiano"
     },
     "896a86b77593": {
      "descartada": true,
@@ -5268,6 +6793,10 @@
      "resumen": "Capturas con estupefacientes en Ciudad Bolívar, Antioquia, no en La Floresta de Medellín.",
      "titulo": "Policía captura a dos hombres con estupefacientes y cartuchos calibre 5,56 en Ciudad Bolívar, Antioquia - Análisis Urbano"
     },
+    "a11fc3b6cd2e": {
+     "descartada": true,
+     "fecha": "2026-11-11"
+    },
     "a3393c55f433": {
      "descartada": true,
      "fecha": "2026-11-08"
@@ -5276,14 +6805,56 @@
      "descartada": true,
      "fecha": "2026-10-27"
     },
+    "b7ee8bb538c2": {
+     "categoria": "otro",
+     "fecha": "2026-11-12",
+     "fuente": "Hora 13 Noticias",
+     "gravedad": 1,
+     "id": "b7ee8bb538c2",
+     "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBMbU9nLUhSNkQwNVNTLTVWTklod0NfMXVwUHJkN2RNUDlMSml1WWx4cnY2R3ZIZzl6VkdZRkVCcXRUWm5KakRYQWJCOXNmdk5pOWhMNjF3a2JUQk5h?oc=5",
+     "relevante": true,
+     "resumen": "Presencia de roedores en el parque del barrio genera preocupación sanitaria.",
+     "titulo": "Presencia de roedores en el parque de la Floresta genera preocupación entre los habitantes de Medellín - Hora 13 Noticias"
+    },
+    "bb57e19df845": {
+     "descartada": true,
+     "fecha": "2026-11-04"
+    },
+    "bcddd716fbd5": {
+     "descartada": true,
+     "fecha": "2026-10-27"
+    },
     "bdf29d96dab9": {
      "descartada": true,
      "fecha": "2026-11-09"
+    },
+    "c0beeb45b48a": {
+     "descartada": true,
+     "fecha": "2026-11-15"
+    },
+    "c5679cfe1959": {
+     "descartada": true,
+     "fecha": "2026-10-26"
+    },
+    "eebd1ed1d979": {
+     "descartada": true,
+     "fecha": "2026-10-20"
     }
    }
   },
   "Medellín|Las Palmas": {
    "noticias": {
+    "05f63fa658eb": {
+     "categoria": "accidente",
+     "fecha": "2026-11-06",
+     "fuente": "Publimetro Colombia",
+     "gravedad": 1,
+     "id": "05f63fa658eb",
+     "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNS0ZIUlY5ZktFN1NZMEFvaXNVRzBQTHQwaGtjNmVKMDNydmFvYU1lMGVia21aMnc2RU9Db3JUTlBtU3c4SnVBZXRQOFZNMExLQzhNSTF5a1RtQzE1d1VXWElrb3pfLVdDekNORFlRaGgyTlY5OWdSQTAwRzFTT3JhSlpWWVlsMmZSQzl1dUlGbTdTQmk0MlFkMjhZVVBnS1VPeEtza0RvYVF5OEVXZVNTYW1fNk5adE9wQ1lGN01qVW9YN0R0MFItU3BWamh6RmYxOU5rVXcyeGN1VEZxTnUwcWRkTGFLckc1WUJteEdLMWU4Tkp5Nnc?oc=5",
+     "relevante": true,
+     "resumen": "Accidente de tránsito grave en la vía Las Palmas.",
+     "titulo": "Impresionante accidente en Las Palmas: Se conoce nuevo reporte del motociclista que quedó debajo del bus que se volcó - Publimetro Colombia"
+    },
     "0cda197f096a": {
      "descartada": true,
      "fecha": "2026-11-06"
@@ -5427,6 +6998,10 @@
      "descartada": true,
      "fecha": "2026-11-06"
     },
+    "b06134131ff2": {
+     "descartada": true,
+     "fecha": "2026-10-31"
+    },
     "b3fa52e597f1": {
      "descartada": true,
      "fecha": "2026-10-23"
@@ -5466,6 +7041,10 @@
      "titulo": "Seis borrachos y más de 70 multados dejó megaoperativo de movilidad en vía Las Palmas | El Colombiano - El Colombiano"
     },
     "c68a12998c32": {
+     "descartada": true,
+     "fecha": "2026-10-24"
+    },
+    "c6adad13e76a": {
      "descartada": true,
      "fecha": "2026-10-24"
     },
@@ -5656,6 +7235,17 @@
     "sugerencia": "mas_precaucion"
    },
    "noticias": {
+    "017cc19710be": {
+     "categoria": "servicios_agua_luz",
+     "fecha": "2026-11-05",
+     "fuente": "Más Colombia",
+     "gravedad": 1,
+     "id": "017cc19710be",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9nXzJ2dFpyNUhuRXNUSmZlb3ltQ2RzTHl0X2t1MnQ3VTBncHhhc0tGLVIyUExNVTdqME1IZlBBazhUSFZHV0UxSG5PMXJxamJFYUtQMlFZM0JyZmhnRUJKNzBUYVcyeUtI0gFoQVVfeXFMT2dfMnZ0WnI1SG5Fc1RKZmVveW1DZHNMeXRfa3UydDdVMGdweGFzS0YtUjJQTE1VN2owTUhmUEFrOFRIVkdXRTFIbk8xcnFqYkVhS1AyUVkzQnJmaGdFQko3MFRhVzJ5S0g?oc=5",
+     "relevante": true,
+     "resumen": "Cortes de agua programados por EPM en sectores de Belén y zonas aledañas.",
+     "titulo": "EPM corta el agua este sábado a los hogares de nueve sectores de Belén, Guayabal e Itagüí: vuelve hacia las - Más Colombia"
+    },
     "017fb728fbbc": {
      "categoria": "servicios_agua_luz",
      "fecha": "2026-11-06",
@@ -5703,6 +7293,10 @@
      "relevante": true,
      "resumen": "EPM anuncia corte de agua para la noche del sábado en Guayabal, Belén (incluye Loma de los Bernal) e Itagüí.",
      "titulo": "EPM anuncia corte de agua para la noche de este sábado en Guayabal, Belén e Itagüí - Minuto30"
+    },
+    "937c09317529": {
+     "descartada": true,
+     "fecha": "2026-11-18"
     },
     "9554cf603347": {
      "categoria": "rina_violencia",
@@ -5835,6 +7429,10 @@
      "descartada": true,
      "fecha": "2026-11-01"
     },
+    "917e7a784428": {
+     "descartada": true,
+     "fecha": "2026-11-17"
+    },
     "9bc63efb855f": {
      "descartada": true,
      "fecha": "2026-11-05"
@@ -5842,6 +7440,10 @@
     "ae0c27a5707f": {
      "descartada": true,
      "fecha": "2026-10-18"
+    },
+    "b1542a2869f5": {
+     "descartada": true,
+     "fecha": "2026-10-28"
     },
     "b873e1c5e98c": {
      "descartada": true,
@@ -5877,10 +7479,55 @@
    }
   },
   "Medellín|Los Ángeles": {
+   "ia": {
+    "fecha": "2026-11-18",
+    "motivo": "Los cortes de agua frecuentes representan un riesgo real para la habitabilidad, y la persistencia de homicidios en la comuna, aunque no directamente en el barrio, refuerza la necesidad de precaución ya establecida.",
+    "nivel_alerta": "media",
+    "recomendacion_sugerida": "precaucion",
+    "resumen_reciente": "En los últimos 120 días, el barrio Los Ángeles, ubicado en la comuna 10 de Medellín, ha experimentado múltiples cortes de agua programados que afectan la calidad de vida. Adicionalmente, se reportó un homicidio en el centro de Medellín, lo que, aunque no es específico del barrio, contribuye a la percepción de seguridad en la comuna.",
+    "sugerencia": "mas_precaucion"
+   },
    "noticias": {
+    "071572a0ee0f": {
+     "descartada": true,
+     "fecha": "2026-11-16"
+    },
+    "093f31363b1e": {
+     "categoria": "otro",
+     "fecha": "2026-11-16",
+     "fuente": "Nos Cogió la Noche",
+     "gravedad": 0,
+     "id": "093f31363b1e",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNem91ZVNob2ljbC1BUU5Uc0taLUFfYnNzQXhyZlBVYzUzYmlUTm5JSDB3cUZTRTJxaHNrT3d5MHpOMVdsYUNvN0wtT3BzZGRlVVFjQlNMcXFvN3M4djFsam1KcnQxcDJrcndNOW1uUVN6VUVTZDB1NHJVLXRNdXpYd3J3T1NlSk1fQUdiR3Yyc0w2WWc?oc=5",
+     "relevante": false,
+     "resumen": "Noticia sobre premios Grammy y artistas musicales.",
+     "titulo": "Grammy 2027: Shakira y Karol G lideran la invasión colombiana - Nos Cogió la Noche"
+    },
+    "09b3853b7a91": {
+     "categoria": "otro",
+     "fecha": "2026-11-17",
+     "fuente": "Gainblers",
+     "gravedad": 0,
+     "id": "09b3853b7a91",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUUxFa1FDejI0TFZDdDZicXh5Zm9Fd1dkSFBWTHlCNHNjbzdmSkhTUE01dnpnMmNPM3MwQUJxWmc4aXhMU3ZDeGQ4Wkh0c1YtWmxIMlV0bnJBbFRQWWtRcmxONGlzLV96Q2duaVA3VmpBUk41R0gwVklYZUloUjA5Vk1tTDM5ZUJaNGdCZGZWTVRoUXVERTZYeXc4MzhDTDdqRlJoUnJlZnVSWmhvUzB1Nkh1cTVtQQ?oc=5",
+     "relevante": false,
+     "resumen": "Noticia deportiva sobre la NBA.",
+     "titulo": "Pronósticos Lakers vs. Hornets: Los Ángeles quiere seguir imparable en la NBA - Gainblers"
+    },
     "10532e7ed893": {
      "descartada": true,
      "fecha": "2026-10-26"
+    },
+    "150c2440e5f4": {
+     "categoria": "otro",
+     "fecha": "2026-11-15",
+     "fuente": "Diario El Mundo",
+     "gravedad": 0,
+     "id": "150c2440e5f4",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUEtMdkJsV3JyQWJhS1NlcnV1LTBsTUxPNTA5Y3NoTlNVMHlSc2Z2YTV1dmlBanczZlk3YlZtdElVU3p4MWlBOG5vX25vX0U4SnZpcDhNdkZ0S05ORWNJRDNseXczZi14Rk5tOXNFNUlna2g3NkI2VmxIZ3J6NVd6YU9lSFUxT09haV96c05XV3JEeHRZQnJHdk1ad3RMZFJMQ0RCXzJsSVdyOGo0dXfSAbgBQVVfeXFMTjZYVHpoTEl3VDJQYUx4TWFZOXdvM2VkWUQteTdlR2tYcEhSYXFjUHVPc2Utb0txdHVpdEdKeEZva041WlZ4U1MwaE5hZFBQUHpncnNUYml2dUtlbkRXQWVNNC1ETTFVZXFkX2pXNllnaDUzN0N0OVBDZE1UU0Y5cE14WkNGOXZiRWh0X0psNU1PeGIxMUZYZjZ3c0tMM2ZRd3JQT0VaN0lZeVJNWUhFRVpSZ3ZuSUE2Zg?oc=5",
+     "relevante": false,
+     "resumen": "Noticia sobre conectividad aérea internacional.",
+     "titulo": "De Norteamérica a Europa: las 34 ciudades que conecta El Salvador vía aérea - Diario El Mundo"
     },
     "150d9b81bba3": {
      "descartada": true,
@@ -5913,6 +7560,10 @@
      "descartada": true,
      "fecha": "2026-10-29"
     },
+    "2e329cfb89e3": {
+     "descartada": true,
+     "fecha": "2026-11-18"
+    },
     "2fdc395cc39c": {
      "descartada": true,
      "fecha": "2026-11-06"
@@ -5943,6 +7594,17 @@
      "descartada": true,
      "fecha": "2026-10-19"
     },
+    "3e72e1dd4309": {
+     "categoria": "otro",
+     "fecha": "2026-11-17",
+     "fuente": "Gainblers",
+     "gravedad": 0,
+     "id": "3e72e1dd4309",
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVXhCNlk4TXlKQy1UNWJ4TGprR2YtMUQtbFhoZlZVb2tYZHRoZi1nVTdCSE9BNFplT3N0aHlrdzVNLWNSdHRDajM5dWkzZldHaXhyRFdoajVrYnQyR0xEZGp6Yndaa2RuOE9xaVFKYkt6b2tUREFnQ0xNell2TlBpTlFFUVNlOW9lSzA0aDhlXzEwVDVMX3N1VWZRMDhQTmFGbU1ObU9PdlJDblNxUVE?oc=5",
+     "relevante": false,
+     "resumen": "Noticia deportiva sobre la NBA.",
+     "titulo": "Pronósticos Clippers vs. Jazz: Los Ángeles busca consolidar su recuperación ante el peor equipo de la NBA - Gainblers"
+    },
     "44b9a889b4a8": {
      "descartada": true,
      "fecha": "2026-10-18"
@@ -5959,9 +7621,17 @@
      "descartada": true,
      "fecha": "2026-11-06"
     },
+    "620b325f42e1": {
+     "descartada": true,
+     "fecha": "2026-11-17"
+    },
     "6319dc064608": {
      "descartada": true,
      "fecha": "2026-11-14"
+    },
+    "636e2821c09e": {
+     "descartada": true,
+     "fecha": "2026-11-03"
     },
     "63bf96ce7136": {
      "descartada": true,
@@ -5971,9 +7641,28 @@
      "descartada": true,
      "fecha": "2026-11-09"
     },
+    "64cec6f9d9e9": {
+     "categoria": "servicios_agua_luz",
+     "fecha": "2026-11-17",
+     "fuente": "Alerta",
+     "gravedad": 1,
+     "id": "64cec6f9d9e9",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTDBNQ2xhN2FWX3VFVFZfRG1HWHQ0ZkxSLUJqRG1OWGM2MWNwV0JvaE01MG00RWc4NlpVa0lrXzYxeTl5UVUyalNOS2hOTFgxbkdaRkRlSEdPUmFHaF9XaTIxOE9PMzAzaDBmOWVRLW9rUm9HNi05Qm9CbjFxcGQzbUxsaEo5aW1Kb3JBVlNkSTJnVXdNQ01hRHFnTE1UQmVCY1F1RdIBpAFBVV95cUxQT1RpOHFHQ2JSdEhZQTFQc1hnbk44WkNISW9HeG51MXVMOXRqT1liNjZKbDFfTWNPdDFxYVZuUGR3Y2Z3TnJYV1hIREc5aWR6TkZkbFNiUjhvcnZ1VkZYY1FNQzZSY00wVmNBWDVCdEdpN003RWp0Wl9tS3RSOXIwc2ZfUUZrUVptQW4yQkMtR3dfSVVlYnJXSEQtSEtSVDV6Y1pUVQ?oc=5",
+     "relevante": true,
+     "resumen": "Cortes de agua programados en el sector.",
+     "titulo": "Cortes de agua en Medellín, Bello y Envigado este miércoles: barrios que deben prepararse - Alerta"
+    },
     "737bf6c31a42": {
      "descartada": true,
      "fecha": "2026-10-26"
+    },
+    "759c42151ba3": {
+     "descartada": true,
+     "fecha": "2026-11-09"
+    },
+    "77c4b41c8021": {
+     "descartada": true,
+     "fecha": "2026-11-17"
     },
     "7909ca66c01d": {
      "descartada": true,
@@ -5982,6 +7671,10 @@
     "7a63e967ca19": {
      "descartada": true,
      "fecha": "2026-11-02"
+    },
+    "7b8e8d9c72cd": {
+     "descartada": true,
+     "fecha": "2026-11-13"
     },
     "84b7751c7b62": {
      "descartada": true,
@@ -5995,6 +7688,21 @@
      "descartada": true,
      "fecha": "2026-10-28"
     },
+    "8e570bddc2c3": {
+     "categoria": "servicios_agua_luz",
+     "fecha": "2026-10-20",
+     "fuente": "Teleantioquia",
+     "gravedad": 2,
+     "id": "8e570bddc2c3",
+     "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOUkpRLXU0TlBXRWlaNWNyX0tBbWo4SFdSOHhxOWRCVnJWbk9xMEthaWUyRnpwUzl5NUdtaWZ3aVpxSWtMVjJEY2laeWYwc2RURl81YjNDREpKRVV0MEhwOERBQ0dNYUoyeDItYmxKN0NDSk5yOTRDa1NtN3MweVM0SWp1OGdBcHFzNlI1UTZfa3p4aGluX1NIbm1pMFpibmtEYlp5Tmx1X2wwZWF1Qy1vQndtZEpqQ2U0TmFHQ1J2dXIyMnlZRktYdGk3TjNNYzBRcURYelQ2WkNKY0EtWExwRzhwLXplYjZQUlpZdmstdlpUWEJR0gGAAkFVX3lxTE5IU0M5MVVNT056a3hKTXJ2T1FaMHpGNW9FTVFpd3lVVi13R3J6SmFJS0FGY1VtNjY3WUtfOGdQVm5rWnFsVjdTR3NjbkVmUVNKNTVzdXc0bklGRkxBajktQlBQdm12SzNuOUFMOV9iM1pGc1puSVNXeVpGeF9oanRad3FHeGF6SmVQQzktalU0U3A4SGh5eW41VjB2aWVhRXJsSFRaZXY3Vmt6UUNXTnFyOFprQk5LME0zRWtFaE1Jd1pmZ2stc3RaSmpGOVNyeDVwRGY2OW5udzc2eWdQVFlaWkt1OWdDeHlqUlp4eFZKSFVZWklnSGVjcGhqeEZ5OG8?oc=5",
+     "relevante": true,
+     "resumen": "Cortes de agua prolongados por crisis en embalses.",
+     "titulo": "Un mes de cortes de agua en Medellín y los embalses siguen sin recuperarse: EPM pide a usuarios redoblar esfuerzos - Teleantioquia"
+    },
+    "a2436e217d5f": {
+     "descartada": true,
+     "fecha": "2026-11-05"
+    },
     "a35c02a2b046": {
      "descartada": true,
      "fecha": "2026-11-03"
@@ -6002,6 +7710,17 @@
     "ad4363ff135c": {
      "descartada": true,
      "fecha": "2026-10-18"
+    },
+    "ad8fd94b72eb": {
+     "categoria": "homicidio",
+     "fecha": "2026-11-15",
+     "fuente": "El Colombiano",
+     "gravedad": 3,
+     "id": "ad8fd94b72eb",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSzA2VXRicU4xXzNUX2FZeEZMOW1fVUxKQVpScmNMc2xndVA3b0p1TzNNZWthdXFCVmdIWmFKMG50RmM3M3ZxdmxJTTRreXlQZ1hIMlAyd2NPY3YxSHhSZkg2TW5TYmRXV1lBVHJzSGpHYjVuck41eWRCd0tVNjNsOGV3aExia1F4cTZSZWw2ZEtNZFN6MWFUb0pCdWHSAZwBQVVfeXFMTUswNlV0YnFOMV8zVF9hWXhGTDltX1VMSkFaUnJjTHNsZ3VQN29KdU8zTWVrYXVxQlZnSFphSjBudEZjNzN2cXZsSU00a3l5UGdYSDJQMndjT2N2MUh4UmZINk1uU2JkV1dZQVRyc0hqR2I1bnJONXlkQndLVTYzbDhld2hMYmtReHE2UmVsNmRLTWRTejFhVG9KQnVh?oc=5",
+     "relevante": true,
+     "resumen": "Captura por homicidio ocurrido en el centro de Medellín.",
+     "titulo": "Capturan a hombre señalado de asesinar a un ciudadano este domingo en el Centro de Medellín | El Colombiano - El Colombiano"
     },
     "b07c5250ca2f": {
      "descartada": true,
@@ -6014,6 +7733,10 @@
     "bc276b2e4513": {
      "descartada": true,
      "fecha": "2026-11-03"
+    },
+    "c21c3231f7f4": {
+     "descartada": true,
+     "fecha": "2026-11-06"
     },
     "cdd92684296b": {
      "descartada": true,
@@ -6056,6 +7779,21 @@
      "resumen": "Noticia sobre el Super Bowl en Los Ángeles (EE. UU.), no el barrio de Medellín.",
      "titulo": "Jay-Z protagonizará el show de medio tiempo del Super Bowl 2027 en Los Ángeles | El Colombiano - El Colombiano"
     },
+    "e7de79cb1500": {
+     "categoria": "otro",
+     "fecha": "2026-11-15",
+     "fuente": "El Colombiano",
+     "gravedad": 0,
+     "id": "e7de79cb1500",
+     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOWFhwZ3JRUFU5VUNhYk1OUkFXYnNkS0VKNXMwY0twcDlpOGtNaTlxUXkzTktHVTZ5RVU2bDFGZ29RbS1YMGdXdFlsb29zZ1pfNU0wRzJRQnp3amVJZm40NG1NVkxTenNZeFpRaHp1OHhtWjdSWTQtZ2l2NTBFLTNFTHFLaVdGcXNHVy1malNrY29uamkxTUxtY2JTcFZDYTQ2NUVPMF8xQ2hPRnVJaDBscml1b09YczVwQ2xjX0RTLUZWb0kxcVkxdmktcmgySngzMDJLU05PZlZZd0YwM2pGNtIB5gFBVV95cUxPR0Q2ODU1OERIejVkdTVtdkZmTXRZVEdjSnlrNFp3b2I0dVNhU2t3azVUaWFNNVpRZjZYQlpKY2ZhZkZPUThpTXNsTDFiRkwxUDhISzQ1eWhYdUJDc2FEcE5jdW41STc0ZEdZTGNpOC1ORW1hN1NDc05aWWRaMklCMVI2Q2dRa2dkbW5CWGE4T2NUckFyMUdCdmxhNWwwdDQtRUtvbjA3emlpOUhqNUI4cE9HdWFobzlfVWVJODNnMWFjb3V2aFcwNzlzLXZOamRtNU1ienFrOHV3bmVEYlM1ODNFUTlaUQ?oc=5",
+     "relevante": false,
+     "resumen": "Noticia sobre los Juegos Olímpicos.",
+     "titulo": "Tras los Olímpicos Juveniles, este es el panorama de Colombia con miras a Los Ángeles 2028 | El Colombiano - El Colombiano"
+    },
+    "ebc135afcfea": {
+     "descartada": true,
+     "fecha": "2026-11-16"
+    },
     "fa27a5619228": {
      "categoria": "servicios_agua_luz",
      "fecha": "2026-10-21",
@@ -6082,13 +7820,96 @@
   },
   "Medellín|Pajarito": {
    "noticias": {
+    "06005deedd50": {
+     "categoria": "otro",
+     "fecha": "2026-11-07",
+     "fuente": "Minuto30",
+     "gravedad": 0,
+     "id": "06005deedd50",
+     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8zb1NoX3VHWm1ydXk3LUpmNVhvSDBhU2FSNHdJZVc3TzkwaTdXRGZWc21pNWh1YjhVVGUwM0tiMUpoMm4zcC1FemREZnFPb1Uwd0FIc1ZqeWFUeVFral9ZQkZQZGh3a0tnQzJGOW1NM2xaZUtKU0E0?oc=5",
+     "relevante": false,
+     "resumen": "Cierres viales generales en Medellín, no específicos de Pajarito.",
+     "titulo": "Cierres viales en Medellín: pilas, hay calles cortadas por la Donatón, una carrera y una grabación - Minuto30"
+    },
+    "247f2b8c73a2": {
+     "categoria": "otro",
+     "fecha": "2026-11-11",
+     "fuente": "Minuto30",
+     "gravedad": 0,
+     "id": "247f2b8c73a2",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWjlJUFUxVmp0Q01mYU01cFdNN0VFRjk0QkdXLWxnaVRWb01DQVZLSVJsWC16a2JSanVmRzM0ajJ5Zm5vbTltVlpySGtaU0hTcEVTT21mS3k1djlFdk5CY1FXMTJ4ZmZ5VlE3LVNVRWpWT3UxTms0OWtfa0FHejIwSWpXcEQ3UkpZOXd3bW92dllsT1ZMQUgzQ0RjRG1aS3dmXzhqcVV6Sk8temQzazIzelpwWldXYjRYeGlhWTNMRzdJcExXNXNjOEw3czVKdw?oc=5",
+     "relevante": false,
+     "resumen": "Homicidio ocurrido en el barrio El Chagualo.",
+     "titulo": "¡Lo venían persiguiendo! Asesinado de una puñalada en la femoral, en el barrio El Chagualo de Medellín - Minuto30"
+    },
+    "49c46608c7e8": {
+     "descartada": true,
+     "fecha": "2026-11-04"
+    },
+    "587b3e60a011": {
+     "descartada": true,
+     "fecha": "2026-11-07"
+    },
+    "6f376f437551": {
+     "descartada": true,
+     "fecha": "2026-11-16"
+    },
     "6f772072bd33": {
      "descartada": true,
      "fecha": "2026-11-10"
+    },
+    "991ce8626b49": {
+     "categoria": "otro",
+     "fecha": "2026-10-30",
+     "fuente": "Minuto30",
+     "gravedad": 0,
+     "id": "991ce8626b49",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5aNGwwamlGWWNwMUxTdVNaZi16VWNpZjNkZlJaNENvTHJuRVhpc3N1LVpxcnlNTVljNGRWdXFRd04zS3Nkb3lBTWlvU1RMeGs2bkM0WmU4T05xeGtjVVFwMEg1eFRHbE92VDRxOTJyYW5va3Iz?oc=5",
+     "relevante": false,
+     "resumen": "Cierres viales por evento Ritvales en Medellín.",
+     "titulo": "Cierres viales por Ritvales: pilas con el tramo de Medellín que no tendrá paso hasta el lunes - Minuto30"
+    },
+    "9f14d0b8cd5b": {
+     "descartada": true,
+     "fecha": "2026-11-14"
+    },
+    "ae93047c8bdc": {
+     "descartada": true,
+     "fecha": "2026-10-20"
+    },
+    "c8a3b654b6c0": {
+     "categoria": "otro",
+     "fecha": "2026-10-23",
+     "fuente": "Minuto30",
+     "gravedad": 0,
+     "id": "c8a3b654b6c0",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMFotVGdUaDRxbmxTcXJuQmF2UDUtVENUYXR1Qnc0RGxuTW5GYXJ1RjJ5cHIxXzhhZDFqTGVRU3Q4QUR0T3lOQWNRMTkzbm4teVd6WmhDbnlnbGpQdGhpMjA2RE4zQmQ1c3Fhc1FuVHdOdi1nVGxqSjE0ckZiNlVnQUFR?oc=5",
+     "relevante": false,
+     "resumen": "Cierres viales generales en Medellín por carreras deportivas.",
+     "titulo": "Atención, conductores: cierres viales en Medellín este domingo por dos carreras - Minuto30"
+    },
+    "cee0963eebd4": {
+     "categoria": "positivo",
+     "fecha": "2026-11-16",
+     "fuente": "Minuto30",
+     "gravedad": 0,
+     "id": "cee0963eebd4",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONDV0UGpONHZIVjg2THhyeW1OZ3EwbFk0anlZTnJ3d0tvUWRNSXZwX1MtWXdRSmFjNWd2X19CQWpaTVpxaUdKNlRBemZfOWtLQU5EZi0wb1VrQlVCUmhBLW9wNW1YclhnMy04SWh1ekwwcGtvOVRjWF9GTUxhRkxRdHozUHBNclBYVkNxRDBZdjMyemxpRThuODZITkNIbks2OXVhRWM4XzA?oc=5",
+     "relevante": true,
+     "resumen": "Nota informativa sobre la vista panorámica desde Pajarito.",
+     "titulo": "¡Se avecina el agua! Así se ve Medellín desde lo alto de Robledo Pajarito - Minuto30"
     }
    }
   },
   "Medellín|Robledo": {
+   "ia": {
+    "fecha": "2026-11-18",
+    "motivo": "Los accidentes de tránsito graves y recurrentes, junto con un incendio y un caso de microtráfico, sugieren un aumento en los riesgos, sumado a los problemas de seguridad y riesgos de inundación ya conocidos.",
+    "nivel_alerta": "media",
+    "recomendacion_sugerida": "precaucion",
+    "resumen_reciente": "Robledo ha experimentado múltiples accidentes de tránsito graves con víctimas mortales, incluyendo uno donde un camión sin frenos impactó varios vehículos. También se reportó un incendio que afectó viviendas y un caso de microtráfico, aunque hubo una noticia positiva sobre el paisaje. Los accidentes de tránsito son recurrentes en la zona.",
+    "sugerencia": "mas_precaucion"
+   },
    "noticias": {
     "0601315ca42a": {
      "descartada": true,
@@ -6108,6 +7929,17 @@
      "relevante": true,
      "resumen": "Víctimas de accidente fatal en Robledo posiblemente viajaban en moto por aplicación.",
      "titulo": "Víctimas de accidente en Robledo irían en moto por aplicación | Q´HUBO Medellín - Qhubo Medellín"
+    },
+    "1c5af5f5cddf": {
+     "categoria": "accidente",
+     "fecha": "2026-11-13",
+     "fuente": "Telemedellín",
+     "gravedad": 1,
+     "id": "1c5af5f5cddf",
+     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0zQ2RlbDdnTGNEdTZLYnFQTmpXbHppQXJoU0NJR2tWbkNaUWlyZVVGUGM4VWtNcVZsQ05uMHFQNXlDcVZMR2ZIN1RJRm1jRG1iRHlnZDVITllkdTIyMG5kYUpoYjdSSDR1MFByVDVLTDE?oc=5",
+     "relevante": true,
+     "resumen": "Accidente de tránsito en Robledo cerca del Cementerio Universal.",
+     "titulo": "Grave accidente de tránsito en Robledo a la altura del Cementerio Universal - Telemedellín"
     },
     "23423ab82b36": {
      "descartada": true,
@@ -6146,6 +7978,17 @@
      "relevante": true,
      "resumen": "Accidente grave en Robledo: furgón sin frenos deja dos muertos, 15 heridos y 13 vehículos involucrados.",
      "titulo": "Accidente en Robledo deja dos muertos, 15 heridos y 13 vehículos involucrados: furgón se quedó sin frenos - Telemedellín"
+    },
+    "433c2b0cba73": {
+     "categoria": "accidente",
+     "fecha": "2026-11-13",
+     "fuente": "Qhubo Medellín",
+     "gravedad": 1,
+     "id": "433c2b0cba73",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNWdJQmI2c2NFMjFJU3pGeEdWcEZtYU5GRWdseWFUOWdKSmR2NWJXWC1SQnM1QmUwS3QxdzlLRXJCNW1hTGlJUW9fTTVVNUUtSGlZdVp4bUNrNFJ1VzN1OE96Snh4MnhENVhYV1FIRkNnb2JLdW1qZnFnZXlrN1pDTkx6T01KQl9tSVpGUnFmSFAwWWMxWllYUktCUy1xRzBjWU84OdIBrwFBVV95cUxPY1J2SnpWQUQwRkw5ZUVVSjRLVldyZjZxYVRSRm92MmxmSlppU2Z4ZHR4bXNQNkUtSTR2aFpEVkRrOGFrVVpQeDVtSDU2aUlZUkFLWkpUaHV6alBkaEN1Ml9XTS04NmtrMF8xdnZ3U05oWEhvY0EzaWVjYVI1bEFlVUlwcWRZSm1heWRMOU4yOFNHSHphMG03bmVfQU0wOEpTcDFhUEtvbnN2S2NESFAw?oc=5",
+     "relevante": true,
+     "resumen": "Siniestro vial con dos fallecidos en el barrio Robledo.",
+     "titulo": "EN VIDEO: Así fue el siniestro que dejó dos muertos en Robledo | Q´HUBO Medellín - Qhubo Medellín"
     },
     "45aa5196afd9": {
      "descartada": true,
@@ -6213,6 +8056,28 @@
      "descartada": true,
      "fecha": "2026-11-13"
     },
+    "9b9f2ffd923a": {
+     "categoria": "rina_violencia",
+     "fecha": "2026-11-12",
+     "fuente": "Teleantioquia",
+     "gravedad": 1,
+     "id": "9b9f2ffd923a",
+     "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQSzA5dHVwNjZsSzF2OHY4dTZVVmxGVjlJLWhhYW1CNXRFRlZYQU80aUUwX1RSdnc2bDZKekhQVDhPb3c1TmFjVTZXNXNuZFVwZWh4Y3FrMXo1VkFkMkJaZndsaU85SEhNN3ZxcDBIWlEydWhiLVR6Wl8yX1ZiUkhBdFg2a1hic1VQakhBQmRGb1MwLWJKTGhSSVVqZzFmU0ZfS2ctdFE4R1NZRG8xOWJvMEViQV8wZmZvTllPeUlyRVppTnpqU3BUNXhwSjN6Rkx4eTlSY0JqdGpKSkxOY3EyTDNSQkxHXzNuTWx6aTQwN25xWkJZTDVSbjZwWXNQUC16RkFraWZNTmZ5bEpMdXpR0gGbAkFVX3lxTE5tMW5CUm4yUDd4Zjh3TTNvNXdRb3dTMmEwZ0FqblpseDUxdDVyUHlMR01QZmlNbEpISGs1RnI1ckJmaDNjVlRVTWpnLXJsb01JY2VMVDBibllxRnNPSmh6a2I1QmpHcHBoOEY2SG5VQ211RUJld1dFcExWTXlxNnZ1ck1MbXJTOHRNNzZRaHUyRWI1cEdlOG03bjdhWG5rM0hUNER1VVdWd0xFZVVTQ1ZwRE84LVoydGh2enlYbUdYbW1fVFllM1FrSVdyc210TEMxZHBFZ2hIVGhEYmIwX2w0bmZSeUk2cURPZ0VFVllubHBEOXR2cHBHWnl2MW1uVHh2eG56NGN3RTgyYUl0RWpiWDFmbUdGcFBxeVU?oc=5",
+     "relevante": true,
+     "resumen": "Agresión a un agente de tránsito por parte de un motociclista en Robledo.",
+     "titulo": "EN FOTOS | Otro agente de tránsito fue agredido en Medellín: motociclista lo habría embestido mientras auxiliaba a una conductora en Robledo - Teleantioquia"
+    },
+    "9d0e91acff20": {
+     "categoria": "microtrafico",
+     "fecha": "2026-10-31",
+     "fuente": "IFM Noticias",
+     "gravedad": 2,
+     "id": "9d0e91acff20",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQelBIT1lDdG5vOFVCTW42dk9lYnM2YXRtbl85R1p3LXRyclpxblRnbkx4c1hpLTY2cXUxWk0ydVBtckpPMnRxZUFRaV9QajBhTll6MDlIcFl2aUU3NUFLRnBkTUdXNUJMTmx1QVZzdDhFVEVhdEFpMnBIbmdIWlI4SHV1V3I5VlU3a2pEZjQ3UmI1SW5RYWZGQmp6ZEh5SE9uTVEwVXFOMjJTbnJJcnZwMnBYdFphdw?oc=5",
+     "relevante": true,
+     "resumen": "Detención de coordinador de narcotráfico de la banda de Robledo en Norte de Santander.",
+     "titulo": "Capturan en Norte de Santander a alias \"Arroz\", señalado coordinador del narcotráfico de la banda Robledo de Medellín - IFM Noticias"
+    },
     "a21855ace792": {
      "descartada": true,
      "fecha": "2026-11-13"
@@ -6220,6 +8085,10 @@
     "a38751a981a2": {
      "descartada": true,
      "fecha": "2026-11-13"
+    },
+    "a46797d730ea": {
+     "descartada": true,
+     "fecha": "2026-10-21"
     },
     "a49b266e58fd": {
      "descartada": true,
@@ -6233,9 +8102,53 @@
      "descartada": true,
      "fecha": "2026-10-21"
     },
+    "b71e30d51f99": {
+     "categoria": "servicios_agua_luz",
+     "fecha": "2026-11-03",
+     "fuente": "Hora 13 Noticias",
+     "gravedad": 1,
+     "id": "b71e30d51f99",
+     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1rQXhsenJVRjlFV1BBdzA5M2lyRXNlVjBiNnAyVjA5OUJlSjVOemotY3JVeFFJRjlCN0cwRU9Jcm5UYng3LXhEZUlRNlBJQVNzLXVPbTR3Q19nQkVYRzZIMkZB?oc=5",
+     "relevante": true,
+     "resumen": "Programación de cortes de agua en diversos sectores de Medellín, incluyendo Robledo.",
+     "titulo": "Habrá cortes de agua en algunos barrios de Medellín: entérese de cuándo y dónde - Hora 13 Noticias"
+    },
     "cabdb0f0c163": {
      "descartada": true,
      "fecha": "2026-11-01"
+    },
+    "cee0963eebd4": {
+     "categoria": "positivo",
+     "fecha": "2026-11-16",
+     "fuente": "Minuto30",
+     "gravedad": 0,
+     "id": "cee0963eebd4",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONDV0UGpONHZIVjg2THhyeW1OZ3EwbFk0anlZTnJ3d0tvUWRNSXZwX1MtWXdRSmFjNWd2X19CQWpaTVpxaUdKNlRBemZfOWtLQU5EZi0wb1VrQlVCUmhBLW9wNW1YclhnMy04SWh1ekwwcGtvOVRjWF9GTUxhRkxRdHozUHBNclBYVkNxRDBZdjMyemxpRThuODZITkNIbks2OXVhRWM4XzA?oc=5",
+     "relevante": true,
+     "resumen": "Nota informativa sobre el clima y vista panorámica desde Robledo Pajarito.",
+     "titulo": "¡Se avecina el agua! Así se ve Medellín desde lo alto de Robledo Pajarito - Minuto30"
+    },
+    "cf114b82d506": {
+     "categoria": "deslizamiento_inundacion",
+     "fecha": "2026-11-16",
+     "fuente": "Telemedellín",
+     "gravedad": 2,
+     "id": "cf114b82d506",
+     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9MWTNhN3NPNS1mS3h3RTJBNmxEMFpJQXZ1em1IaE4tU0VHQ05VNkpDekg2dEo3d3ZOd0d3WEMzdzFzSmRnZDdybTNMNEpLRURKbXFzZndHSG1oaDhQSjhDUWNLeDJFRWxUdmJjbHpkSHQ0YXQwaF9oU2F1ZUQxZw?oc=5",
+     "relevante": true,
+     "resumen": "Incendio en el sector Olaya Herrera de Robledo afectó seis viviendas.",
+     "titulo": "Incendio en Olaya Herrera, Robledo, afectó seis viviendas - Telemedellín"
+    },
+    "d6596ee8b961": {
+     "categoria": "microtrafico",
+     "fecha": "2026-11-01",
+     "fuente": "Alerta",
+     "gravedad": 2,
+     "id": "d6596ee8b961",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbDlFX2w5WjA0dVRxa2hFbjlfRFVWaFI4YnJyaUdPQzUxUjBFWlg1UUVESEJsc0JreGpLWnNMek9FTWdRMTU0dmxSTjFlSDVpRlJzZURaRXdqeTdiOXpodmVMd19JZGZESWlvNWhIY1BHUmhsWERwQ19taDRraG1LRndhTERpU3NWWHhrUk5yejJnWnNpVWFqMlFZY1BDM0drTURV0gGjAUFVX3lxTE92UkpzbHY2VGlHM2p0Z3FvZEdaaWdXN1IzZDluallPc00yU3pJMDA5Vm1OdDhwUzRnZ2QwR1pkYWxrT2R5YVlGT253bkxaYk1pYy1ZWHdYRmhiWnFQeWExMzVNZnpvSng4TndpallKMWhlM2ViZzNNQkV6NmxBZW5POVpfSDBtWjRrZUtsZXJ0NVNheWxkM3I3aEppTmdyLUQ2SEk?oc=5",
+     "relevante": true,
+     "resumen": "Captura de cabecilla del narcotráfico vinculado a la banda delincuencial de Robledo.",
+     "titulo": "Se quemó alias ‘Arroz’, el narco del combo de Robledo de Medellín que enviaba cocaína a Estados Unidos - Alerta"
     },
     "eabc61a7fc60": {
      "categoria": "accidente",
@@ -6320,6 +8233,17 @@
      "descartada": true,
      "fecha": "2026-10-17"
     },
+    "27e8d7721845": {
+     "categoria": "otro",
+     "fecha": "2026-11-14",
+     "fuente": "Hora 13 Noticias",
+     "gravedad": 0,
+     "id": "27e8d7721845",
+     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBETUh2d1RVakRjWlgyUlVMZEd5QjdPQ3RiSWJCc2RURm90LWhXMEVQbllKTmVxUXFRYXNLLU5jYzl3T0R6cXlwejNTVk5WM0x6elVOeUZUOExXX2lvSHFxdlRFRHNQcTJUa3JqQXpR?oc=5",
+     "relevante": false,
+     "resumen": "Homicidio ocurrido en el municipio de Sabaneta, no en San Antonio de Prado.",
+     "titulo": "Asesinaron a un hombre en Sabaneta, intentaron huir y así fue la persecución para capturarlos - Hora 13 Noticias"
+    },
     "28561d47d9e7": {
      "categoria": "otro",
      "fecha": "2026-11-13",
@@ -6351,6 +8275,28 @@
      "descartada": true,
      "fecha": "2026-10-22"
     },
+    "46da0d2b8d01": {
+     "categoria": "obras_movilidad",
+     "fecha": "2026-10-21",
+     "fuente": "Itagüí Hoy",
+     "gravedad": 2,
+     "id": "46da0d2b8d01",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORWstVTRKUDRGWkVfZHltOFJaVkNYOUJWVHpfOUx5ZjhmT2JwcTBHdFZ4a3R2cWR4Z2FnSlczU242LWc3Y0dPOTFCRHdSS2pCdXNpQnNucGtxenkwOVFnQ0VfN05sckZMal8tdXdBSnJPUV9ZWHV0SWJKMFVzTjc3dW9lcV9kLVNYNG1qbnBmNk5UcUdyenBiZG12MGM0dFpvdkxsd0xUYzdHLVlRRmFmRmFjMWpoSWxEZTVtbHJyNy1fNTdJ?oc=5",
+     "relevante": true,
+     "resumen": "Avance de obras de demolición del puente La Limona entre Itagüí y San Antonio de Prado.",
+     "titulo": "Comenzó la demolición del puente de La Limona: así avanzan las obras entre Itagüí y San Antonio de Prado - Itagüí Hoy"
+    },
+    "4b54dbfb51e3": {
+     "categoria": "obras_movilidad",
+     "fecha": "2026-10-22",
+     "fuente": "El Colombiano",
+     "gravedad": 2,
+     "id": "4b54dbfb51e3",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRG1rOE1qQ1JGRzU2N0pRTjNHWE9aQXpUcFJacl9Yd1JENUl5QXRYQm5GZlBhako4SjY2OVRBTWxGN3dBdmlSWjBJLUdwNlFtSTZaSEZqazVBSDhvRTBRajc3QkRLQmR3a1lRclROYlk1eDl6ZjVScW9oUDg5Zlh1TkNBM0ZaSjV6NmlKTDJRZVNuNTdVT3hYQ3pUSElfY05BWGVmaFJZa0xWQlYxNkhjZzRra3IyUl9BcFFr0gHAAUFVX3lxTE4wMFRsSTY5a1RJV2tWVnE3MFIzR1ZSdF9tSlE2MkRwMUU3MTBBc253M3dEZV85dERYZkxtb29iQlNYUkNKZklIMnhGZVl6VHFqNUNfd2ViT2lsZy11b3Bab2F2QnUzcUd6QTFLeWNTZmJNNzUtX0N5SnFLeEljYmRHdnFrQnRNVkRRdjAteWpmcnJrQ2hiUkk4ZHRTdERja3BJQ3cxR25lVHlzM2xXTnVlOS0yTkRONzRsYmVrOG53cA?oc=5",
+     "relevante": true,
+     "resumen": "Demolición del puente La Limona afecta la movilidad hacia San Antonio de Prado.",
+     "titulo": "Atención en la vía a San Antonio de Prado: inició la demolición del antiguo puente de La Limona entre Itagüí y Medellín | El Colombiano - El Colombiano"
+    },
     "5a709bf5a8c8": {
      "descartada": true,
      "fecha": "2026-11-12"
@@ -6369,6 +8315,28 @@
      "relevante": true,
      "resumen": "Cierre total de la vía entre Itagüí y San Antonio de Prado por puente festivo, afectando movilidad.",
      "titulo": "Cierre total entre Itagüí y San Antonio de Prado este domingo y lunes festivo: conozca los desvíos - Hora 13 Noticias"
+    },
+    "75cf84e27dee": {
+     "categoria": "obras_movilidad",
+     "fecha": "2026-11-16",
+     "fuente": "Telemedellín",
+     "gravedad": 2,
+     "id": "75cf84e27dee",
+     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5jQnRqT043ZFBPeG1nNUhmeTRCMTd2M0tYNk1xb2R0Rkt6MV9Vb1JlUHJOQ3JqN084LUNjOWxrSW9BQzAzVmx1R3RpWnNnQVJIY28zamljQjNyOVVKczhlY0Q3LXNBM0h6ZmduVm1qTkhYRzZrTnJrZHRQODBQeVU?oc=5",
+     "relevante": true,
+     "resumen": "Trancón en San Antonio de Prado debido al cierre del sector La Limona.",
+     "titulo": "Trancón en San Antonio de Prado por cierre de La Limona - Telemedellín"
+    },
+    "79d788bf1c30": {
+     "categoria": "obras_movilidad",
+     "fecha": "2026-11-13",
+     "fuente": "Telemedellín",
+     "gravedad": 1,
+     "id": "79d788bf1c30",
+     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ORFZTc0hVMlVsdnJfY0s4TFpzTlJhUUtqU193VFFuM3hCdktPUXFNaUJoaGM4N1BxMmJ4cWllbFpJUkZMcnNFNEc4R1JLc3dYVUFYMUd5bUcwWDUxbmpoUE9Bd3pnSzVCa2J1eFVxRG1rWVkteXVhX1hOaDRnQVU?oc=5",
+     "relevante": true,
+     "resumen": "Información sobre cierres viales programados en Medellín e Itagüí.",
+     "titulo": "Cierres viales en Medellín e Itagüí durante el puente festivo: fechas, horarios y sectores afectados - Telemedellín"
     },
     "7a236bab0094": {
      "descartada": true,
@@ -6397,6 +8365,10 @@
      "descartada": true,
      "fecha": "2026-10-18"
     },
+    "93d0e17ee89f": {
+     "descartada": true,
+     "fecha": "2026-10-22"
+    },
     "95971065c429": {
      "descartada": true,
      "fecha": "2026-10-24"
@@ -6408,6 +8380,17 @@
     "a2fb26ad832d": {
      "descartada": true,
      "fecha": "2026-11-11"
+    },
+    "a35036890246": {
+     "categoria": "obras_movilidad",
+     "fecha": "2026-11-16",
+     "fuente": "Telemedellín",
+     "gravedad": 2,
+     "id": "a35036890246",
+     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE14emN0X0RpaTByeEowWHd3QmU1NEh0ZHpHTE9oYmZzZklzbHZjek9WZUxLc0hTN09JWTJpS0NIS09GaHg5LXVjSVpVdXU4QXAxellUbWNNaDJVaDd3bGEwcHlySU9xZmZXZlV6VV9UbTVETVc4Rzc4Rw?oc=5",
+     "relevante": true,
+     "resumen": "Colapso de movilidad hacia San Antonio de Prado por cierre en La Limona.",
+     "titulo": "Cierre en el sector de La Limona colapsa la movilidad hacia San Antonio de Prado e Itagüí - Telemedellín"
     },
     "a9b03523872a": {
      "categoria": "rina_violencia",
@@ -6446,6 +8429,17 @@
      "relevante": true,
      "resumen": "Anuncian cierre total de la vía Itagüí - San Antonio de Prado en los próximos días.",
      "titulo": "En los próximos días habrá cierre total en la vía Itagüí - San Antonio de Prado: esta es la fecha - Telemedellín"
+    },
+    "cdd5b2483134": {
+     "categoria": "obras_movilidad",
+     "fecha": "2026-11-17",
+     "fuente": "El Colombiano",
+     "gravedad": 2,
+     "id": "cdd5b2483134",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQnBLOXNtQUNaUWZwWTdNZEl5eEZFYmxuU1lSSUREVlRmUmhuTDFwcU1abVVLWV9rTXd3ZVp5Ti12S3JqUVFiMTR5LXZLN3QyWnB4QTZPYWJaWmhTZ3NKS1BTVnNlSEtSMFJKblA3YnVTMlZpajluM1paV2lYZjM1amREWlhqaXJhV2o1S1dTcl9ER1NrS2FxNnVtb19qNFRzS254SEJCSFJBUFhubjhr0gG0AUFVX3lxTE0tMjJwRFEzaVlyQzhUZVlpNXh5WDBHcVFIVUNHN2psNUFrbkdlZnBrd2RsRGd0Q2FVSTFEMzFhU1hJdkJ1U1ZEYkQzcjhfdXFZNXQ1eVZyUWxVRTR4V3lPLWg0ZmZ3RkswWFpDZzl4S1hsaDVPVkkzQWNrVVc1aGpmZERFdkZIQkEwLVUyNGVBV2hvS0x5cW1QRG9WRUM1RmpLY0lTLVZicFBoTEtwS0xCWUpiVg?oc=5",
+     "relevante": true,
+     "resumen": "Congestión vehicular severa en San Antonio de Prado por cierres viales.",
+     "titulo": "¿Qué causó el monumental caos vial que atrapó a miles de conductores en San Antonio de Prado? | El Colombiano - El Colombiano"
     },
     "d34adf1839ab": {
      "descartada": true,
@@ -6509,6 +8503,21 @@
      "descartada": true,
      "fecha": "2026-10-24"
     },
+    "0e04f15d9d2c": {
+     "categoria": "otro",
+     "fecha": "2026-10-28",
+     "fuente": "Infobae",
+     "gravedad": 0,
+     "id": "0e04f15d9d2c",
+     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNY29EcnpOZ2tvU0E3SXpYSW5EOWdkb2x0RTNlNlRFTzNIMFAyUmh0M2p3VUNZbzRIMTREVTloNkVKS1doa21ZS3NkX1llR1dNeGpTVHphNnpIZFlHdndGUU5LQ0haTDAtenY0bGVkLTh1bzhoem16bjN3YU0wdzFidDU0ZkJpam14YngyUC1aT2RaUUZ4YTlHbUJtcW8zZkgwYzRhV1luVHVsVjBWZUtZbXlCQ0RkTWNQOHN5bmV2cjY5TWJ6WFVDUnM1Z0xxdERKa2Q0aEFB0gHwAUFVX3lxTE5hQVN2YlVmQTlYVFhreTlXOE96M1liUkpPbnRGYVVsYjZfLTlHQ1I3dHowM2lzNUdjb19pR1JQVTFPRU82RDVBX01OeVJWLWJwLUJqdFRial9Wa0p2dlBEbGNSVXFvQS02OVRrOEN5Q1ZWdFA4ZHJkN0xlOGJkb3Joc1lLTDhKd0paSkgxS1BodmhrUVJwTnpIdU03Sjd5Y25UcFhMUWF4UEszSnpZVzB1UzE3UTNHUUJWekdmQnotejR4WFRDV2tjZ0E3Z0pDNG5tSUxORmVoX3Z1U2hTa1FBWVd0UTBMWFhWZmltRjdfSg?oc=5",
+     "relevante": false,
+     "resumen": "Noticia sobre una laguna en Samaná, Caldas.",
+     "titulo": "Conozca la laguna de Samaná, Caldas: los atractivos de una antigua estructura volcánica inundada - Infobae"
+    },
+    "1b7be224ad8d": {
+     "descartada": true,
+     "fecha": "2026-11-12"
+    },
     "23c47990f967": {
      "descartada": true,
      "fecha": "2026-11-12"
@@ -6532,9 +8541,31 @@
      "resumen": "Noticia sobre la laguna de San Diego (Caldas), no relevante para el barrio San Diego de Medellín.",
      "titulo": "Mesa de gobernanza de la laguna de San Diego reúne a comunidad y entidades para protegerla: jóvenes participan - La Patria"
     },
+    "394fdfa8f626": {
+     "categoria": "otro",
+     "fecha": "2026-11-17",
+     "fuente": "Teleantioquia",
+     "gravedad": 0,
+     "id": "394fdfa8f626",
+     "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNb1VSeDJmQUhiVVhxRXlleFMxenl0TDNNTGVwNXFBUUVmYjZBd1VNV0NSenJMUk5paWt4WkgtdHVLbTZ3cUFhMEJQTEVaSktlS28wc3puR3hiY2FGMmlnYi1oQ2NiMzQ2QUlnTnptWnljMGpaNGhjV2RkX01VOEVIeThKc2lWRXBaWFZ2Wll6Rjg2SU1zMGhsR2l2d04tMnhzMGVwampPZFlWdXBxa1FvNVNFMDdqZVZublQtTFJhZWpNNUg1YmlfTUpVMnVKME0tM1dJdmQtamJra0VoNW1rWlJjaGwyYVkwYlg4NFd1bUVxNlFRQmRybC1lVnFWbEpJaEtaZy03bG9VSTBGVWoxSFJ30gGSAkFVX3lxTE1vVVJ4MmZBSGJVWHFFeWV4UzF6eXRMM01MZXA1cUFRRWZiNkF3VU1XQ1J6ckxSTmlpa3haSC10dUttNndxQWEwQlBMRVpKS2VLbzBzem5HeGJjYUYyaWdiLWhDY2IzNDZBSWdOem1aeWMwalo0aGNXZGRfTVU4RUh5OEpzaVZFcFpYVnZaWXpGODZJTXMwaGxHaXZ3Ti0yeHMwZXBqak9kWVZ1cHFrUW81U0UwN2plVm5uVC1MUmFlak01SDViaV9NSlUydUowTS0zV0l2ZC1qYmtrRWg1bWtaUmNobDJhWTBiWDg0V3VtRXE2UVFCZHJsLWVWcVZsSkloS1pnLTdsb1VJMEZVajFIUnc?oc=5",
+     "relevante": false,
+     "resumen": "Noticia sobre extorsión en Medellín sin especificar el barrio San Diego.",
+     "titulo": "Así fue cómo el Gaula engañó a presunto extorsionista en Medellín: pretendía cobrar $70 millones a su víctima, pero terminó capturado - Teleantioquia"
+    },
     "3a172e1de4ec": {
      "descartada": true,
      "fecha": "2026-11-07"
+    },
+    "3ab02fa8126a": {
+     "categoria": "otro",
+     "fecha": "2026-10-28",
+     "fuente": "Minuto30",
+     "gravedad": 0,
+     "id": "3ab02fa8126a",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaVZ6MzhzbFVWLU9QNEVMTklWM1pHMUJ0R01UM3JFakhVNXVUc3FWMFBhRDlVb0RXUzRCQ056Nk1RUWJVanpfcnI1d1ZfdWdpYkpPZTNvbmc2X1BEZ2tEdXJkUm8xdFFNc2JMVWxmY3NvRTJWTXJqZVFtUUIza21iV1ZEUEl2Rnh4blM3WlZjYW4ydkZZUmllVGxYb2tPZDd1MG1SdHU1Ujd1WmZwQWpKcy1GNA?oc=5",
+     "relevante": false,
+     "resumen": "Noticia sobre un hallazgo de cadáver en Tierralta, Cesar.",
+     "titulo": "¡Dolor en Tierralta! Darlys Doria fue hallada sin vida en una vía rural del Cesar - Minuto30"
     },
     "4316cc133e16": {
      "descartada": true,
@@ -6550,6 +8581,17 @@
      "relevante": false,
      "resumen": "Noticia sobre hurtos en el Parque de San Antonio y Berrio de Medellín, no específica del barrio San Diego.",
      "titulo": "El “Soldado” azotaba con sus hurtos el Parque de San Antonio y Berrio de Medellín - El Pais Vallenato"
+    },
+    "5e75e550e301": {
+     "categoria": "otro",
+     "fecha": "2026-10-23",
+     "fuente": "La Razón de México",
+     "gravedad": 0,
+     "id": "5e75e550e301",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPd3o0aUpYZlM4VjNOMjBGbGNUcEt0TW83Rkw3b3pPZktvc3I2cVZwbnhPY1FfYXowb2hRNml6UWVIbERxMHh5anR1S01wY0NfTnM3aldtOFRmTGNIZ0l5NFluX3JvYTN2eW02TC15NlpKR3hzVXBZUVdCS2FUMVNseFdCSG9yTG1YUUJraFhvTm54TDVHbEsycE15aWVVZjMyUlRINnpka3BPMk1PWmJ2TF85MVRpcTBoMVJ4cGlwSEVfQktmaFNqWWlqVHNpcWpV0gHrAUFVX3lxTE5FQldwNkc3MllRbTZlWDRxaXRqSXpDUmNzdzFPemx4ZkI2QWdwN1ZvZG5qdDczRnQ3V0dkU0dkZnlkT2dCNmd0Q25RU2d2T1NWQjM5dWNwSnd0VERJWFZ0M1FlcjFrQXp0UW9tdXd2eEpDeFVmc29Ic19nQ2lMdy1WVVM5Y0pBR1RjLWZHRUdmZzNWSTY4OHBoanVwcHhtWUhYajMzdktHSUtIcHJYX1VtWDZyZXQxMk1qTDNSMEVJTXl0X0hHSnFRM1V6TFVfREQ1T0xkY3l3bXExcERnSS0yX2xoYWdTb1VZVlU?oc=5",
+     "relevante": false,
+     "resumen": "Noticia sobre un homicidio en San Diego, California.",
+     "titulo": "Detienen en Jalisco a estadounidense que era buscado por homicidio en San Diego, California - La Razón de México"
     },
     "6a8401638c87": {
      "categoria": "otro",
@@ -6576,6 +8618,10 @@
      "relevante": false,
      "resumen": "Noticia sobre ampliación de clínica en Llanogrande, no relevante para el barrio San Diego de Medellín.",
      "titulo": "Clínica de Oftalmología San Diego amplía su sede en Llanogrande - MiOriente"
+    },
+    "7e9caa3b32d1": {
+     "descartada": true,
+     "fecha": "2026-11-15"
     },
     "84a04f842422": {
      "descartada": true,
@@ -6680,6 +8726,14 @@
    }
   },
   "Medellín|San Germán": {
+   "ia": {
+    "fecha": "2026-11-18",
+    "motivo": "Aunque se desarticuló una banda de extorsionistas, la existencia de este tipo de delitos en el pasado y los cortes de agua frecuentes justifican una mayor precaución.",
+    "nivel_alerta": "media",
+    "recomendacion_sugerida": "precaucion",
+    "resumen_reciente": "Recientemente, el barrio San Germán ha sido afectado por cortes de agua programados. Además, se ha desarticulado una banda de extorsionistas que operaba en la zona, lo cual es una noticia relevante para la seguridad.",
+    "sugerencia": "mas_precaucion"
+   },
    "noticias": {
     "06b36803eecb": {
      "descartada": true,
@@ -6688,6 +8742,21 @@
     "399a8a17a950": {
      "descartada": true,
      "fecha": "2026-11-09"
+    },
+    "6d510294b328": {
+     "descartada": true,
+     "fecha": "2026-11-18"
+    },
+    "6e1a96c79aa7": {
+     "categoria": "extorsion",
+     "fecha": "2026-10-31",
+     "fuente": "Agencia de Periodismo Investigativo",
+     "gravedad": 3,
+     "id": "6e1a96c79aa7",
+     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZ2tJNTEwVEpmejIzWGdfcGpSN20wemtBdEtGVjhjRkM3UjV6aWR0eEJBdWZkQnRiUEhlTlRsdUZUN0NrUWFpYzQ0am1qTGluSlNJVldvdlZrQjBPYVFtRUZYeHFiLXhBR3J0TWVLMDVLSUkzalRWamVMVjFuc01CN0FTbmxOa19TVURsWG9WcHNMTUxNbnlWVWlwVXBqNS1Ca3A3RzB1QzgtTFZlWHJxRVBid3dNSl9aZG80dTFGekhSMXVMS1ZzaFFMV0czY3FlZ0JoeEZGWkg4c19J?oc=5",
+     "relevante": true,
+     "resumen": "Desarticulación de banda dedicada a la extorsión en el barrio San Germán.",
+     "titulo": "Fiscalía judicializa a 14 presuntos integrantes de ‘Los Usurpadores’ por extorsionar a vecinos de San Germán - Agencia de Periodismo Investigativo"
     },
     "6e5a7777f700": {
      "descartada": true,
@@ -6729,6 +8798,10 @@
     "bd408438f788": {
      "descartada": true,
      "fecha": "2026-10-21"
+    },
+    "c185f18ac1b5": {
+     "descartada": true,
+     "fecha": "2026-11-12"
     }
    }
   },
@@ -6786,6 +8859,17 @@
      "relevante": true,
      "resumen": "Sistema de videovigilancia frustra atraco en el occidente de Medellín.",
      "titulo": "Uso de sistema de videovigilancia permitió frustrar atraco en el occidente de Medellín, ¿cómo ocurrió? | El Colombiano - El Colombiano"
+    },
+    "08e2a55a6dc9": {
+     "categoria": "hurto",
+     "fecha": "2026-11-10",
+     "fuente": "IFM Noticias",
+     "gravedad": 2,
+     "id": "08e2a55a6dc9",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQX3hJWFhyb1hIaXRoRjhqd0VFa25MdXlRcE5zSGZvZ096N1ZvbHZjUlcyU0x6eGUwUTVVeUlLTmZEalVxZ1l2Nk9VdWtvVjkyeWRvVlZlemU3Sm1GU2lwSWpYWmM3YTdpVW5WaGZieWhSX1NPbVlmTUhoOHo5bUZ2NmgwUmU1cmpkWUZmRUhMRzJrNlNmQWZPdEJraTdzODJvYTd2M09XVS1GOFhUV1RPdlR0YWpRQQ?oc=5",
+     "relevante": true,
+     "resumen": "Capturas por operativos de seguridad en el occidente de Medellín.",
+     "titulo": "Dos operativos en flagrancia dejan cuatro capturados en el occidente de Medellín - IFM Noticias"
     },
     "3bc18681153f": {
      "categoria": "otro",
@@ -6853,9 +8937,64 @@
      "resumen": "Dos hombres intentaron robar $400 mil en Medellín y fueron capturados por la Policía.",
      "titulo": "Se querían robar $400 mil en Medellín y terminaron con ‘servicio a domicilio’ gratis de la Policía directo a la cárcel - Alerta"
     },
+    "c11d16de2466": {
+     "categoria": "hurto",
+     "fecha": "2026-11-10",
+     "fuente": "Minuto30",
+     "gravedad": 2,
+     "id": "c11d16de2466",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbmpZelhYSDRIamRoQUdURzFsUGlBbWJRcl9OeXR2N1J3N3VXa1h0SUZRQVVGLUhUNVdDSXQzMnVUbnZsSEZVRkdLVERYZ1BrbERMZmw4RVN6NTA1MGE1WE5UWHp5T1psQS1Jb24zZWlhdHQxODVIY3NXVUx1cWktQ2Z1cjl3cENJcUliOVdDU0NCeW9JdlpxWU5QWnllRnVxOTVxWFk5TmFkbmtkWVA4LS1fbmZWOVdBWk5rTVp0YUFoMFlybWc?oc=5",
+     "relevante": true,
+     "resumen": "Atraco frustrado en un local comercial del occidente de Medellín.",
+     "titulo": "¡Los pillaron con las manos en la caja! Frustran atraco en una tienda del occidente de Medellín - Minuto30"
+    },
     "d254a37f1868": {
      "descartada": true,
      "fecha": "2026-11-10"
+    },
+    "d38ae1b65af3": {
+     "categoria": "hurto",
+     "fecha": "2026-11-10",
+     "fuente": "Hora 13 Noticias",
+     "gravedad": 2,
+     "id": "d38ae1b65af3",
+     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4xQ3otek8tQ0JPblVkNW5MZzVQZ2NJbEVjbGhvSzBrS1huMmllNFRqWmRLLWUwSnNZNzBzVXQ5Y0VIcjlSY3EzM2paZnMweUhVZF9vWlZOR1lCYndfSFducENndw?oc=5",
+     "relevante": true,
+     "resumen": "Intento de hurto frustrado en un establecimiento comercial de Santa Mónica.",
+     "titulo": "Dos hombres fueron capturados en Medellín luego de que les frustraran un robo en una tienda de Santa Mónica - Hora 13 Noticias"
+    },
+    "da4c12b7a267": {
+     "categoria": "hurto",
+     "fecha": "2026-11-10",
+     "fuente": "Nos Cogió la Noche",
+     "gravedad": 2,
+     "id": "da4c12b7a267",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVTZ6QVl3cVc4czkwdU5hRDJHak0yQU1BekNWaWtPeV9PSlNCNWhZeEdIZk5lTnB4RlVZNXA3a0lMcjNPSHhpVnc5UHRaaGdNNG5JOTdVN2VUSGpxWXp2SmZnd3hpc0kxZEpGVU5uemhfeXBNT0xVSFV4aWRxaEdLN0M2bWJxT2dvMjB1VkZyeVBLZE0tRW1WWjVpZjNLdzJlN2JlYkNn?oc=5",
+     "relevante": true,
+     "resumen": "Intento de hurto frustrado en el sector de Santa Mónica.",
+     "titulo": "Intentaban cometer un hurto en Medellín, pero un detalle frustró sus planes - Nos Cogió la Noche"
+    },
+    "e411e45fdcaa": {
+     "categoria": "accidente",
+     "fecha": "2026-11-17",
+     "fuente": "Qhubo Medellín",
+     "gravedad": 2,
+     "id": "e411e45fdcaa",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUjdyTWRwTUtkQ09rM2RhWXFMRkJZS05SWG9QMVNmeUx6QndHOGtOdWVSQ1poV2JRV1ZyUzhBSEt4S1FyY0xwbDMyWGtJRVYwNmFIWjV0dzR3SHJkY2d6YVR3Z0tCSW5RUDdROTc3ald2TXlXNXBoRjNPVEZUTVJBVUVPYjJrVDBSbTIzV25pV0NoTXNTd0ZpS3RUVU9wTERnVHlkNXZnTTBsTDBfdjVmOW93aWI5WjdZYjVLeFBFeULSAcABQVVfeXFMT1I3ck1kcE1LZENPazNkYVlxTEZCWUtOUlhvUDFTZnlMekJ3RzhrTnVlUkNaaFdiUVdWclM4QUhLeEtRcmNMcGwzMlhrSUVWMDZhSFo1dHc0d0hyZGNnemFUd2dLQkluUVA3UTk3N2pXdk15VzVwaEYzT1RGVE1SQVVFT2Iya1QwUm0yM1duaVdDaE1zU3dGaUt0VFVPcExEZ1R5ZDV2Z00wbEwwX3Y1Zjlvd2liOVo3WWI1S3hQRXlC?oc=5",
+     "relevante": true,
+     "resumen": "Incendio estructural en Santa Mónica con personas afectadas por humo.",
+     "titulo": "EN VIDEO: Incendio en Santa Mónica afectó a tres personas por humo | Q´HUBO Medellín - Qhubo Medellín"
+    },
+    "fb956c92afd8": {
+     "categoria": "hurto",
+     "fecha": "2026-11-10",
+     "fuente": "Hora 13 Noticias",
+     "gravedad": 2,
+     "id": "fb956c92afd8",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5hbHcwckJ3LVE4ckhSX2hMVWVBM1RGbTN0N0wyUVV1d1dxYnhmVjBFSWhTTF9tS2RzcWh4c0RZSVFMZllYbkFpc19tVl9ZYmtGYjJyVnpMYzMzU09IMjh6WEp1RVRYRFBJ?oc=5",
+     "relevante": true,
+     "resumen": "Captura en flagrancia de ladrones en un local de Santa Mónica.",
+     "titulo": "VIDEO: Así fue la captura en flagrancia de dos presuntos ladrones en un local de Santa Mónica - Hora 13 Noticias"
     }
    }
   },
@@ -6875,6 +9014,10 @@
      "relevante": false,
      "resumen": "Hipopótamos en la autopista Medellín-Bogotá, no en el barrio Simón Bolívar.",
      "titulo": "Cuatro hipopótamos cruzaron la autopista Medellín-Bogotá y casi provocan un accidente - Caracol Radio"
+    },
+    "193b4b9f677b": {
+     "descartada": true,
+     "fecha": "2026-11-12"
     },
     "29f6efaddf00": {
      "descartada": true,
@@ -6922,6 +9065,17 @@
      "descartada": true,
      "fecha": "2026-11-10"
     },
+    "5c9e2648b444": {
+     "categoria": "otro",
+     "fecha": "2026-11-17",
+     "fuente": "Caracol Radio",
+     "gravedad": 0,
+     "id": "5c9e2648b444",
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVUVwUXlJRmhlRnNwQmYwdVdTZWQybzRoQlp0ZGdXUWppNkhFVUJCWUlMRVZaUFZzc0JMbi1McURvc19EN09jWXFUc201NlJPV3Q1MG85cFQ4U1EwUzBGWTJaS3c3dGg4ZG45a0FSaVFfOUtyeG8zMkZKSHNMdWJROGhqTWwxa2JTeUxHWnFBbUFYbVNLYnVKT2FiSFZ5aE42RFlLS3FwQ2l0UWFacFlKOEZVczVOdmJBVlFUbFUzbUtnR1F10gHYAUFVX3lxTE1JNTBXSURadDNSU1E2YnVlLTlzUWJlQ0VDU01zcmZtOFpaRVctLVRLUDBMdkFUR0FtUEJGeGQ2ejlRUFBfTFRhZ1BpSmFKT2FqYVEtWGthNXdKSHI2WmE5dDlYeFY0cGJUaW56ZEtKVjMxeVp2UlRaSGc3b3Z6YmhZcE5lcUxqdkx5cVd1cVItWnk0Q1FoR1hSb1ZhV3liUlE3RGtDTkc3QzVvb3d2TXFGYUZhck1NQlJlSHVob1NtbDZYc0JmU1lGUF9HWmg4bU83RzRPVE9NQg?oc=5",
+     "relevante": false,
+     "resumen": "Noticia sobre extorsión en el centro de Medellín, no en Simón Bolívar.",
+     "titulo": "Capturan a presunto extorsionista cuando iba a recibir $70 millones en el centro de Medellín - Caracol Radio"
+    },
     "663f2f1a748b": {
      "descartada": true,
      "fecha": "2026-11-06"
@@ -6934,6 +9088,10 @@
      "descartada": true,
      "fecha": "2026-10-20"
     },
+    "72c024968a7a": {
+     "descartada": true,
+     "fecha": "2026-11-12"
+    },
     "7a49743d2f57": {
      "categoria": "otro",
      "fecha": "2026-11-07",
@@ -6944,6 +9102,10 @@
      "relevante": false,
      "resumen": "Pianistas del Conservatorio Simón Bolívar (Venezuela) representarán a su país en Medellín.",
      "titulo": "El Parque Simón Bolívar de Bogotá se llenará de música en la celebración de 'Colombia 200 años' - Alerta"
+    },
+    "7db266694e1e": {
+     "descartada": true,
+     "fecha": "2026-11-16"
     },
     "87a909844cf2": {
      "descartada": true,
@@ -6957,9 +9119,28 @@
      "descartada": true,
      "fecha": "2026-11-12"
     },
+    "9eef5c450ed6": {
+     "descartada": true,
+     "fecha": "2026-11-15"
+    },
     "a42c6abcc1f8": {
      "descartada": true,
      "fecha": "2026-10-23"
+    },
+    "b1f83518c864": {
+     "descartada": true,
+     "fecha": "2026-11-16"
+    },
+    "b76b38ce33d7": {
+     "categoria": "otro",
+     "fecha": "2026-11-16",
+     "fuente": "Caracol Radio",
+     "gravedad": 0,
+     "id": "b76b38ce33d7",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTk1mZWRvbl9sbm8tQXZrNk9rMTNvZ2VqWGthU09PZkRxR182VmNsTWRuRGF2b09qelN4UUpMVzd6OE95Wlg4Ym9FSlNzQUJDcERwanFHeVVkZ25YSEpNdG9UVmtfNS1sYW9jdWJuQjdyaW4ySjhuUUdHclVjWEpxZDhGemhWSktKbWVrOHFuN0xJb3VKcjZNNzFKYk93SWN0RDFGUjVxbWx6bnVJVFh1cUVFWkdHQWNB0gHMAUFVX3lxTFB5VjNOSnE3WUJzWEJsSGk2c1ZlWWN2OXhjbThmMWt2WHduaFVfQklmWGxGQTZCRThrX3MwS1Q0X0R6a3Jlc2dCSnMyWUZEWWd1cW1xWXV4YVkyTVBTcmhFc3NDSFlJQ1pxQWg3Vm90QzhJSWRhazVhUElYVXhhWFhzMzZWQ1FFOXlBa3BlNFBnRzBFVDYwNGg1VHVqaVRiMnlIeGd1Z2tuX01BMVpqcGJ1eV9yVGtRWmduUU9rNVl0WjhhOEdrWW9RRzdVcw?oc=5",
+     "relevante": false,
+     "resumen": "Noticia sobre operativos en la comuna Popular.",
+     "titulo": "Cinco capturados y un arma incautada en operativo en la comuna Popular de Medellín - Caracol Radio"
     },
     "babe9704a416": {
      "categoria": "rina_violencia",
@@ -6987,9 +9168,35 @@
      "descartada": true,
      "fecha": "2026-10-24"
     },
+    "dc4cb381dd5f": {
+     "descartada": true,
+     "fecha": "2026-11-16"
+    },
+    "e2ad11f80951": {
+     "categoria": "otro",
+     "fecha": "2026-11-16",
+     "fuente": "Caracol Radio",
+     "gravedad": 0,
+     "id": "e2ad11f80951",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVWEycC1TX1BMTGpwbTFRWl9OMzdvb1FHYkIxZmxzTnZjeUlRWGNrcVJYZmNjV3dlLU5zM0tJYktZWDR2dDhhOUJlRmJRaU5UX3FUcUJjMXkwVFZqdnk5bktfd1dubnNieXBHSzVIdWZzbzV6UmcyMzdFTk5mWFZDWEEtZFJ6NnVodE1FUllKekxQUXhQdFhUYndBWWRIN3NGcUtjR2YwV1FhZmZLY185U1RRWnBwQUE4VUVJ0gG7AUFVX3lxTE9VYTJwLVNfUExManBtMVFaX04zN29vUUdiQjFmbHNOdmN5SVFYY2txUlhmY2NXd2UtTnMzS0liS1lYNHZ0OGE5QmVGYlFpTlRfcVRxQmMxeTBUVmp2eTluS193V25uc2J5cEdLNUh1ZnNvNXpSZzIzN0VOTmZYVkNYQS1kUno2dWh0TUVSWUp6TFBReFB0WFRid0FZZEg3c0ZxS2NHZjBXUWFmZktjXzlTVFFacHBBQThVRUk?oc=5",
+     "relevante": false,
+     "resumen": "Noticia sobre demoliciones en el municipio de Yarumal.",
+     "titulo": "Gobernación de Antioquia demolió seis focos de inseguridad en Yarumal - Caracol Radio"
+    },
     "fe107b723e36": {
      "descartada": true,
      "fecha": "2026-10-20"
+    },
+    "ffc095bd030b": {
+     "categoria": "otro",
+     "fecha": "2026-11-15",
+     "fuente": "Caracol Radio",
+     "gravedad": 0,
+     "id": "ffc095bd030b",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPN0V1NEF6M2ZWWUJPb0hkd2hnbWNaTkxaZWtuMVQ4OHBqbUxLZXhWUHV1dVFnVXlzUVpLeFBFSnR6QzhPUnhwTGRRZm9iaUJ2TzV0U2pLNEV2VWxnbFlJc1g5RDRoT01aeHNMQXlkV2ZMRTlJWWo5blBmVGtyUEtZRGZfdE5qZjc4Qk1HZW5PemRITDJPNUVtYlBCQ1psdkJBdVFxS3NYcjk5dG9WOXk2eDdFWHltR0pNLWxN0gHPAUFVX3lxTE93QkxqQnpIQk1hd3A5MkdQNjVFUEJaVDlTWjNZbDRzeTdzZ1VvNWR3MXJTdExJZWRFb0EtaGxmd3phcEk5ZzRoemV2ZThiZkY1MFZuWW9YMUNzMjBPa2xxTE91YW1WV2FScHFSdGwyenFwUW9uMGNUYlljWHF0YVNuY1lpYU1fVVd0VkFLTElUMHNDV1U2YUs3eXFjMUhDeXl6Q2pPRVhNYi05aXpuSEh1cWppT0c3XzJ5cF9MOWhkTWJsX0pJbm9faVNkQ0RzRQ?oc=5",
+     "relevante": false,
+     "resumen": "Noticia sobre robos cerca al Pueblito Paisa, no en Simón Bolívar.",
+     "titulo": "Seis capturados por robos cerca del Pueblito Paisa y la avenida Regional de Medellín - Caracol Radio"
     }
    }
   },
@@ -7047,6 +9254,32 @@
     "42524cce7f94": {
      "descartada": true,
      "fecha": "2026-11-08"
+    },
+    "458d37e11bce": {
+     "categoria": "otro",
+     "fecha": "2026-10-27",
+     "fuente": "eltelescopiodigital",
+     "gravedad": 0,
+     "id": "458d37e11bce",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTGxFUkYtZjEybXRHdU01NWpxd2RDUFd4bGg1QWFuVFd6eVE3aWtic0stRWxqbFllS1lYamcxNFlKTndfVU9NbmlGZVl5eDZpeExaOVVQTFNUcEE0RWN1d2hhNGdRSTNjZUJGbXJULURhRWNRY0wzeHJLWmk1QUZxcGViQzBVWDVZMkczUUlIS040TmRXU1JhMTRJVm5DM3JaMUk2czBzSG9Cbk9mWEhOYTBLSFIxbTA4bHN4azFqc1hJWTF2X1BVQQ?oc=5",
+     "relevante": false,
+     "resumen": "Noticia sobre nombramiento político en Madrid.",
+     "titulo": "Pilar Trinidad, nueva Delegada del Gobierno en Madrid - eltelescopiodigital"
+    },
+    "4a640179539d": {
+     "categoria": "otro",
+     "fecha": "2026-10-30",
+     "fuente": "Caracol Radio",
+     "gravedad": 0,
+     "id": "4a640179539d",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNm9tSVlhV3ZzRHpORGZBb09qNUpDdXpXMGF6aHdkTDBvaG1XSmJPYUdqSFQyUFJwOHVoRDR4a1QzRUhsU1FnaDRvaW5TUlJrb2JVSlNsZW9mci1rdWpnX2dvanU4VEVORG53U2xHN0hudHNOMGt2ZFNsSHZzdktsR3RpSjBQdzYxeU5SSmplT2lOazIxR3ZFeDJnWTVhOWItLWpmYm5fTFAxYTE3alk2aU12bDYtQdIBygFBVV95cUxNcG95VllZLW1fYk1LU2x2b0lval9fSW5lN3FxWXl6X1l3WkRrMTk5eHZEMVpMZTJldjhBNUp0MnZoQ0RnckgxeEpYTGc2LVBRLS1iWmdRQ2NUNFNqS0Y2NjNQX05JS0dLMHBKSWIwby1TaHhPTXI2ajlnZFFkd3ZGVXRoM3lMek1XR2RVeFFid2ZzMzR6ZDFVODF6Rjd2MmkxcUNsNmdRMkhmNkhTQWVzd0puelRzTktxV2wwcTJNUkkwdGhrUGFMLU1B?oc=5",
+     "relevante": false,
+     "resumen": "Noticia sobre conflicto armado en el municipio de Nechí.",
+     "titulo": "Un muerto y un capturado dejan combates entre Ejército y Clan del Golfo en Nechí - Caracol Radio"
+    },
+    "6752a7c633c9": {
+     "descartada": true,
+     "fecha": "2026-11-14"
     },
     "6d08b58f88a9": {
      "descartada": true,
@@ -7118,6 +9351,14 @@
    }
   },
   "Sabaneta|Aves María": {
+   "ia": {
+    "fecha": "2026-11-18",
+    "motivo": "Aunque la investigación previa indicaba buena percepción de tranquilidad, los dos homicidios recientes en el municipio de Sabaneta, con la captura de los responsables, sugieren la necesidad de mayor precaución al considerar arrendar en la zona.",
+    "nivel_alerta": "baja",
+    "recomendacion_sugerida": "precaucion",
+    "resumen_reciente": "Se han reportado dos homicidios en el sector de Sabaneta en los últimos 120 días, con la captura de los presuntos responsables en ambos casos. Aunque las noticias no especifican el barrio 'Aves María', la cercanía geográfica sugiere un aumento en la atención sobre la seguridad en la zona.",
+    "sugerencia": "mas_precaucion"
+   },
    "noticias": {
     "25369d4da307": {
      "categoria": "homicidio",
@@ -7151,6 +9392,28 @@
      "relevante": false,
      "resumen": "Asesinato de extranjero en Sabaneta, pero no se especifica que haya sido en el barrio Aves María.",
      "titulo": "Asesinaron a extranjero afuera de un supermercado en Sabaneta: presuntos implicados fueron capturados | El Colombiano - El Colombiano"
+    },
+    "d5f8e7786711": {
+     "categoria": "homicidio",
+     "fecha": "2026-11-17",
+     "fuente": "IFM Noticias",
+     "gravedad": 3,
+     "id": "d5f8e7786711",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSnpSUVJvRngwcWRpci1YTWRHTUE1RnZfbTVUVWhZc0JqOWtLNVBsc2RJVFFILUZKM0JqWWNOMHd3WVh2NUJBS25vazJrM1RmeGNiY1hxeUlNSFhMdVhyUHVKMGtRcHk0ek91MEFhWERMbDFqQWdnT2MyVWlaVzk3aWEtYXJ4ODZXRktrRmNhZWVQYWlKWHh3dGtwU3BBN3N2V1VqaVJJVXJ5RVJNTUpsNlhVMGZ4Zw?oc=5",
+     "relevante": true,
+     "resumen": "Homicidio de un extranjero en el sector de Aves María, Sabaneta.",
+     "titulo": "Cámaras y reacción policial: así cayeron tres presuntos responsables del asesinato de un extranjero en Sabaneta - IFM Noticias"
+    },
+    "e07e98c2bd9d": {
+     "categoria": "homicidio",
+     "fecha": "2026-11-15",
+     "fuente": "Análisis Urbano",
+     "gravedad": 3,
+     "id": "e07e98c2bd9d",
+     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPekM0ci1nQjlMMklSczV2ZzY3N0JXTVgtcU05NWlvcVhJTjRZbkhsLV9IT1pCblo4QnRpWW0yQ19kZm1Oa0lsakNBRXFiYnNfdmJHYnNfZHZTZ1ZNSlFNRHZ1TGhEaW0yNXpFMkVTa0JxZUVmRGM0ekxTMkdwZ0F1dXBBeDFVRGZGZWFNV3dvRVFHb2xKdThIb0s0SEpSbzZyeElDZGV4bmc2dTFiQmtQZ0FYNnFYenBXQno0SnhyWmQtR0FPZkx1SHNFN2NneXZINzVGeEpn?oc=5",
+     "relevante": true,
+     "resumen": "Captura de responsables por homicidio en el barrio Aves María, Sabaneta.",
+     "titulo": "[Video] Tres venezolanos capturados por asesinato de compatriota en Sabaneta: cámaras registraron el ataque - Análisis Urbano"
     }
    }
   },
@@ -7185,6 +9448,14 @@
    }
   },
   "Sabaneta|La Doctora": {
+   "ia": {
+    "fecha": "2026-11-18",
+    "motivo": "A pesar de un incidente de homicidio reciente, la investigación previa y la naturaleza aislada del evento no sugieren un cambio en la reputación de seguridad del barrio, que sigue siendo bien valorado.",
+    "nivel_alerta": "baja",
+    "recomendacion_sugerida": "recomendado",
+    "resumen_reciente": "Se registró un homicidio en el sector, con la captura de tres sospechosos. Este evento es un incidente aislado que no altera la percepción general de seguridad del barrio, que ya se consideraba media-alta.",
+    "sugerencia": "mantener"
+   },
    "noticias": {
     "0404048ea057": {
      "descartada": true,
@@ -7227,6 +9498,17 @@
      "descartada": true,
      "fecha": "2026-11-06"
     },
+    "5bd7dd7da5bb": {
+     "categoria": "homicidio",
+     "fecha": "2026-11-16",
+     "fuente": "Qhubo Medellín",
+     "gravedad": 3,
+     "id": "5bd7dd7da5bb",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWWNRV0Y1TDZ0TklJdS1HTVRmSDJIRk9aS1JHYzJwVGt0c3pOMXlna0lhRkhQcktYRUJ1N2Z2YmhkMDZRN2FPUHR6dmNHRTQtUWJpSzJrblRKWk10YjFhTDFyWVdFellVbHQ5T1RUQVhnVVd4WDlsdk1YUnhpZlVWT2ZLMWI5OGRVVER6cjNnd2ZhRDh1X3g3eWFJTzdPZXRqRjE0NVVxMGdqVVNjcU94bnJhRTliZ9IBwAFBVV95cUxOWmlONDNrRVY1LWtteS0wZmtPaHJrc3VyMWlUNGZwV2RZQU5xeXpJS1F2Z05wNmc0TW51YmYwclBPejNYb0NHWFB4WVN4dE10ZExIdWl3eURnbWFhWEVvUS03SmhuUzlhSGktZVJMcTctaFVrQmdJYW9SeHBFQjZQa3BpRkZaS01vWm5PdjlIUU91UTFEMEFaaFRCQjZMaGlWQVlZMURMaWFpYzB5Z09yTDNUY3FPWVRpQ0ZsdGlWZU4?oc=5",
+     "relevante": true,
+     "resumen": "Persecución y captura por homicidio en el sector de La Doctora, Sabaneta.",
+     "titulo": "EN VIDEO: Así fue la persecución en la que cayeron 3 sujetos por homicidio | Q´HUBO Medellín - Qhubo Medellín"
+    },
     "5f1c5bdc907c": {
      "descartada": true,
      "fecha": "2026-11-09"
@@ -7253,7 +9535,12 @@
    }
   },
   "Sabaneta|La Florida": {
-   "noticias": {}
+   "noticias": {
+    "adb2dd6035ec": {
+     "descartada": true,
+     "fecha": "2026-11-06"
+    }
+   }
   },
   "Sabaneta|Las Lomitas": {
    "ia": {
@@ -7312,6 +9599,10 @@
      "relevante": true,
      "resumen": "Atraco a tienda de cadena en Las Lomitas, Sabaneta, donde robaron whisky y cigarrillos.",
      "titulo": "Se llevaron whisky y cigarrillos en atraco a tienda de cadena en Las Lomitas, Sabaneta - Minuto30"
+    },
+    "a11ac10f6add": {
+     "descartada": true,
+     "fecha": "2026-11-18"
     },
     "c09598233fe9": {
      "categoria": "servicios_agua_luz",
@@ -7549,6 +9840,10 @@
      "descartada": true,
      "fecha": "2026-10-29"
     },
+    "a21688b7df3b": {
+     "descartada": true,
+     "fecha": "2026-10-29"
+    },
     "c5d6498d60f6": {
      "categoria": "positivo",
      "fecha": "2026-10-20",
@@ -7564,9 +9859,31 @@
      "descartada": true,
      "fecha": "2026-11-06"
     },
+    "d970bb32c7a1": {
+     "categoria": "otro",
+     "fecha": "2026-10-29",
+     "fuente": "Minuto30",
+     "gravedad": 0,
+     "id": "d970bb32c7a1",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdHZ0cTU5d3pZeDcyRmpHbW0tMVkycGdTYXZFRnloaUJ3ODJKYXZtTnpuVVlZUmxubXhadHZZVGVHZjc4QXFPNG5kQlBkeWIwNmw5amhpTkpHOVhXb25TRThFdnNIMGZueTV2Q0g2N3VBRERSYm1qcm5wMmhYejVUME1hYkJsbG15TDFfUDd2SXQ4R1JrYndUYkVCZFhZVWxsOURhbHlhc3Yxai1pak0zc25mX2dVazB3TC1r?oc=5",
+     "relevante": false,
+     "resumen": "Se refiere al Parque Lleras en Medellín, no al parque de Sabaneta.",
+     "titulo": "¡Cada shot de tequila a $60.000! La millonaria cuenta que puso a hablar al Parque Lleras - Minuto30"
+    },
     "dcdabbf40b03": {
      "descartada": true,
      "fecha": "2026-11-13"
+    },
+    "e22a2512d507": {
+     "categoria": "otro",
+     "fecha": "2026-11-16",
+     "fuente": "Minuto30",
+     "gravedad": 0,
+     "id": "e22a2512d507",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRC1aQVJiNy1EbUtoM2t6aXljdEc0NDVFNjMtRjBzalN4OTBhQUtTWWpEbVdiY1lKUk1HV0Y0cS1lQUVaRDV2M2x5b1B4T3lteW9tLW9uQmhOWWtsMElERUI5bGY3QlcwN1BwM3RuREk0Y2ZaWEgwcDVXcTFWOTNhVGhUcE83R00zV29WWlFobFNZWVRqbTFhQ0RMNGZKcHJRd3J0dWpIbnA3SUx3YnNsRWpFaTdIc2VDaGNpaUY1RXFwU2ZCTEtr?oc=5",
+     "relevante": false,
+     "resumen": "El hecho ocurrió en el municipio de Entrerríos, no en Sabaneta.",
+     "titulo": "Riña en el parque principal de Entrerríos dejó un herido y un capturado por presuntas lesiones - Minuto30"
     }
    }
   },
@@ -7686,6 +10003,10 @@
      "resumen": "Atraco a tienda en Las Lomitas, Sabaneta, no en el barrio San José.",
      "titulo": "Se llevaron whisky y cigarrillos en atraco a tienda de cadena en Las Lomitas, Sabaneta - Minuto30"
     },
+    "a11ac10f6add": {
+     "descartada": true,
+     "fecha": "2026-11-18"
+    },
     "c5d6498d60f6": {
      "categoria": "positivo",
      "fecha": "2026-10-20",
@@ -7739,6 +10060,10 @@
   },
   "Sabaneta|Vereda Las Lomitas": {
    "noticias": {
+    "a11ac10f6add": {
+     "descartada": true,
+     "fecha": "2026-11-18"
+    },
     "e85805fb3dde": {
      "descartada": true,
      "fecha": "2026-11-02"
@@ -7762,5 +10087,5 @@
    }
   }
  },
- "ultima": "2026-11-15T04:47:00-05:00"
+ "ultima": "2026-11-18T08:48:35-05:00"
 }
