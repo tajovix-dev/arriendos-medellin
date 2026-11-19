@@ -878,6 +878,7 @@
   "tipo": "zona"
  },
  "Medellín|enciso el pinal": null,
+ "Medellín|encizo": null,
  "Medellín|envigado la cuenca": null,
  "Medellín|estadio": {
   "lat": 6.2608828,
@@ -1159,6 +1160,11 @@
  },
  "Medellín|manrique central": null,
  "Medellín|manrique central nororiente": null,
+ "Medellín|manrique oriental": {
+  "lat": 6.2641955,
+  "lon": -75.5496097,
+  "tipo": "zona"
+ },
  "Medellín|maria auxiliadora": {
   "lat": 6.3044152,
   "lon": -75.5712513,
