@@ -128,6 +128,7 @@
  "Envigado|loma la esmeralda": null,
  "Envigado|loma las brujas": null,
  "Envigado|loma las brujas envigado": null,
+ "Envigado|loma san jose": null,
  "Envigado|los arias": null,
  "Envigado|los naranjos": {
   "lat": 6.1680246,
@@ -745,6 +746,7 @@
   "lon": -75.5515838,
   "tipo": "zona"
  },
+ "Medellín|centro la ciudad": null,
  "Medellín|cerca exito colombia": null,
  "Medellín|chagualo": {
   "lat": 6.2622118,
@@ -828,6 +830,11 @@
   "lat": 6.2380398,
   "lon": -75.6000914,
   "tipo": "lugar"
+ },
+ "Medellín|el pinal": {
+  "lat": 6.2444866,
+  "lon": -75.5455971,
+  "tipo": "zona"
  },
  "Medellín|el poblado": {
   "lat": 6.2006197,
@@ -1152,6 +1159,11 @@
  },
  "Medellín|manrique central": null,
  "Medellín|manrique central nororiente": null,
+ "Medellín|maria auxiliadora": {
+  "lat": 6.3044152,
+  "lon": -75.5712513,
+  "tipo": "lugar"
+ },
  "Medellín|milagrosa": {
   "lat": 6.2356301,
   "lon": -75.5543576,
@@ -1177,6 +1189,11 @@
  "Medellín|nazareth": null,
  "Medellín|niquia": null,
  "Medellín|nogal los almendros": null,
+ "Medellín|nuevo": {
+  "lat": 6.2798834,
+  "lon": -75.6416026,
+  "tipo": "zona"
+ },
  "Medellín|otros": null,
  "Medellín|pablo sexto": null,
  "Medellín|pajarito": {
@@ -1263,6 +1280,7 @@
   "lon": -75.6080888,
   "tipo": "lugar"
  },
+ "Medellín|rodeo sur": null,
  "Medellín|rosales": {
   "lat": 6.2358669,
   "lon": -75.5904839,
