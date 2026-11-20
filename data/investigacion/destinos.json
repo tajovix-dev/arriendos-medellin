@@ -1,0 +1,35 @@
+{
+ "fuente": "OpenStreetMap (parques con nombre y estaciones del metro)",
+ "parque_municipio": {
+  "Sabaneta": [
+   6.151573,
+   -75.615427
+  ],
+  "Envigado": [
+   6.170119,
+   -75.587423
+  ],
+  "Itagüí": [
+   6.172389,
+   -75.609419
+  ],
+  "La Estrella": [
+   6.157614,
+   -75.64342
+  ],
+  "San Antonio de Prado": [
+   6.185095,
+   -75.656396
+  ]
+ },
+ "fijos": {
+  "Centro de Medellín (Parque Berrío)": [
+   6.250502,
+   -75.568209
+  ],
+  "El Poblado (estación Poblado)": [
+   6.21198,
+   -75.578123
+  ]
+ }
+}

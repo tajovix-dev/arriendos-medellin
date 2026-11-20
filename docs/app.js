@@ -1752,6 +1752,7 @@ function pedirInvCompleta(it) {
 }
 const RASGO_TXT = { porteria: "portería", vigilancia: "vigilancia", unidad_cerrada: "unidad cerrada", en_casa: "apartamento en casa",
   ascensor: "ascensor", piscina: "piscina", parqueadero: "parqueadero", loma: "menciona loma/pendiente", dice_venta: "menciona «venta»" };
+const kmTxt = (k) => `${String(k).replace(".", ",")} km`;
 function investigacionHtml(it) {
   const v = investigacionDe(it);
   if (v === undefined) { pedirInvCompleta(it); return `<p class="tenue">Cargando la investigación…</p>`; }
@@ -1772,7 +1773,7 @@ function investigacionHtml(it) {
     v.ubic ? `🗺️ Ubicación: ${esc(v.ubic.tipo)}` : "",
     v.conjunto ? `🏢 Conjunto: ${esc(v.conjunto)}` : "",
     v.rasgos && v.rasgos.length ? `🔐 El anuncio menciona: ${v.rasgos.map((r) => esc(RASGO_TXT[r] || r)).join(", ")}` : "",
-    v.metro ? `🚇 Metro ${esc(v.metro.estacion)} a ${(v.metro.m_linea_recta / 1000).toFixed(1).replace(".", ",")} km en línea recta` : "",
+    !(v.recorridos || []).length && v.metro ? `🚇 Metro ${esc(v.metro.estacion)} a ${(v.metro.m_linea_recta / 1000).toFixed(1).replace(".", ",")} km en línea recta` : "",
     c.supermercados && c.supermercados.length ? `🛒 ${lugares(c.supermercados)}` : "",
     c.centros_comerciales && c.centros_comerciales.length ? `🏬 ${lugares(c.centros_comerciales)}` : "",
     c.salud && c.salud.length ? `🏥 ${lugares(c.salud)}` : "",
@@ -1782,10 +1783,15 @@ function investigacionHtml(it) {
   ].filter(Boolean);
   const ci = v.conjunto_inv, bi = v.barrio_inv, si = v.sector_inv;
   return `<div class="inv">
-    ${o ? `<div class="inv-ver ${clase}"><b>${esc(o.veredicto || "")}</b>${o.puntaje != null ? ` · ${esc(o.puntaje)}/10` : ""}<p>${esc(o.resumen || "")}</p></div>` : `<p class="tenue">La IA aún no da su opinión; esto es lo que se encontró.</p>`}
+    ${o ? `<div class="inv-ver ${clase}"><b>${esc(o.veredicto || "")}</b>${o.puntaje != null ? ` · ${esc(o.puntaje)}/10` : ""}<p>${esc(o.resumen || "")}</p>${o.transporte ? `<p>🚌 ${esc(o.transporte)}</p>` : ""}</div>` : `<p class="tenue">La IA aún no da su opinión; esto es lo que se encontró.</p>`}
     ${o ? lista("A favor", o.a_favor) + lista("En contra", o.en_contra) + lista("Pregúntale a la inmobiliaria", o.preguntar) : ""}
     ${lista("⚠️ Alertas", v.alertas)}
     <p class="inv-t">Lo que se verificó</p><ul class="det-lista inv-datos">${datos.map((d) => `<li>${d}</li>`).join("")}</ul>
+    ${(v.recorridos || []).length ? `<p class="inv-t">Qué tan lejos queda (por las calles)</p><ul class="det-lista inv-datos">${v.recorridos.map((r) => `<li>${r.lugar.startsWith("Metro") ? "🚇" : "📌"} <b>${esc(r.lugar)}</b>: ${[
+      r.pie_km != null ? `${kmTxt(r.pie_km)} · ${r.pie_min} min a pie` : "",
+      r.carro_min != null ? `${r.pie_km == null ? kmTxt(r.carro_km) + " · " : ""}${r.carro_min} min en carro` : ""].filter(Boolean).join(" · ") || `${kmTxt(r.linea_recta_km)} en línea recta`}</li>`).join("")}</ul>
+      <p class="tenue inv-pie">En carro: sin trancón (en hora pico puede ser el doble). Recorridos por las calles con OpenStreetMap.</p>` : ""}
+    ${si && ((si.rutas_bus || []).length || (si.tiempos_bus || []).length || si.transporte) ? `<p class="inv-t">🚌 Buses y conexiones (según búsqueda)</p>${si.transporte ? `<p>${esc(si.transporte)}</p>` : ""}${lista("Rutas que pasan cerca", (si.rutas_bus || []).map((r) => [r.ruta, r.recorrido, r.frecuencia].filter((x) => x && !/no especific/i.test(x)).join(" · ")))}${lista("Cuánto suele tardar en bus", (si.tiempos_bus || []).filter((t) => t.tiempo && !/^no especific/i.test(t.tiempo)).map((t) => `${t.a}: ${t.tiempo}${t.fuente ? ` (${t.fuente})` : ""}`))}` : ""}
     ${ci ? `<p class="inv-t">El conjunto${ci.calificacion ? ` · ${esc(ci.calificacion)}` : ""}</p><p>${esc(ci.encontrado === false ? "No se encontró información de este conjunto." : ci.resumen || "")}</p>${lista("Quejas", ci.quejas)}${lista("Noticias", ci.noticias)}${fuentes(ci._fuentes)}` : ""}
     ${si ? `<p class="inv-t">El sector (las cuadras alrededor)</p><p>${esc(si.encontrado === false ? "No se encontraron noticias de este sector." : si.resumen || "")}</p>${lista("Hechos en el sector", si.hechos_sector)}${lista("Riesgos del sector", si.riesgos)}${lista("Del barrio en general (no del sector)", si.del_barrio_no_del_sector)}${fuentes(si._fuentes)}` : ""}
     ${bi ? `<p class="inv-t">El barrio (investigado por la IA)</p><p>${esc(bi.resumen || "")}</p>${lista("Hechos en el barrio", bi.hechos)}${lista("Problemas del barrio", bi.problemas)}${lista("En el municipio (no es del barrio)", bi.contexto_municipio)}${fuentes(bi._fuentes)}` : ""}

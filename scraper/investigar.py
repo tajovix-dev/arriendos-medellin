@@ -71,7 +71,7 @@ LOTE_GROQ = 6                # Groq gratis tiene poco límite de tokens por minu
 DIAS_REVISAR = 5             # se vuelve a abrir la ficha (¿sigue disponible?) cada tantos días
 DIAS_CONJUNTO = 60           # una investigación de conjunto o barrio vale este tiempo
 SEG_LIMITE = 20 * 60         # tiempo máximo de la corrida
-EXP_VERSION = 3              # sube cuando cambia el formato del expediente (fuerza revisarlos)
+EXP_VERSION = 4              # sube cuando cambia el formato del expediente (fuerza revisarlos)
 DIAS_COLA = 10               # entran a la cola los vistos por primera vez en estos días (o los del perfil)
 PERFIL_FILTRO = {"precio_max": 1_700_000, "hab_min": 2, "banos_min": 2}
 
@@ -417,6 +417,76 @@ def alrededores(lat, lon):
     return res
 
 
+F_DESTINOS = D_INV / "destinos.json"
+OSRM = {"pie": "https://routing.openstreetmap.de/routed-foot/table/v1/foot/",
+        "carro": "https://routing.openstreetmap.de/routed-car/table/v1/driving/"}
+DESTINOS = None
+
+
+def _mas_cercano(lat, lon, cats, filtro=None, radio=6000):
+    mejor = None
+    for c, la, lo, nom in lugares():
+        if c in cats and nom and (filtro is None or re.search(filtro, nom, re.I)):
+            d = dist_m(lat, lon, la, lo)
+            if d <= radio and (mejor is None or d < mejor[0]):
+                mejor = (d, nom, la, lo)
+    return mejor
+
+
+def recorridos(lat, lon, municipio, barrio):
+    """Qué tan lejos quedan los lugares importantes y cuánto se tarda, por las calles (OSRM sobre
+    OpenStreetMap): a pie y en carro SIN trancón. No hay datos abiertos de tiempos en bus: esos los
+    busca la IA (ver investigar_sector). Caché por celda de ~110 m."""
+    global DESTINOS
+    k = f"{lat:.3f},{lon:.3f}"
+    c = geo().setdefault("recorridos", {})
+    if k in c:
+        return c[k]
+    if DESTINOS is None:
+        DESTINOS = leer(F_DESTINOS, {})
+    dest = []
+    metro_cercano(lat, lon)   # carga ESTACIONES
+    # las dos estaciones más cercanas: la más cercana en línea recta no siempre es la más rápida por la calle
+    for e in sorted(ESTACIONES, key=lambda x: dist_m(lat, lon, x["lat"], x["lon"]))[:2]:
+        dest.append((f"Metro {e['nombre']}", e["lat"], e["lon"]))
+    pm = DESTINOS.get("parque_municipio", {})
+    clave = "San Antonio de Prado" if "san antonio" in norm(barrio) else municipio
+    if clave in pm:
+        dest.append((f"Parque principal de {clave}", *pm[clave]))
+    cc = _mas_cercano(lat, lon, {"centro_comercial"},
+                      r"centro comercial|mall|\bc\.?\s?c\b|plaza|viva|mayorca|premium|tesoro|oviedo|santaf")
+    if cc:
+        dest.append((cc[1], cc[2], cc[3]))
+    h = _mas_cercano(lat, lon, {"salud"}, r"hospital|cl[ií]nica")
+    if h:
+        dest.append((h[1], h[2], h[3]))
+    for nom, (la, lo) in DESTINOS.get("fijos", {}).items():
+        dest.append((nom, la, lo))
+    if not dest:
+        return None
+    coords = f"{lon},{lat};" + ";".join(f"{d[2]},{d[1]}" for d in dest)
+    out = [{"lugar": d[0], "linea_recta_km": round(dist_m(lat, lon, d[1], d[2]) / 1000, 1)} for d in dest]
+    ok = False
+    for modo, base in OSRM.items():
+        try:
+            r = requests.get(base + coords, params={"sources": "0", "annotations": "duration,distance"},
+                             headers=UA_OSM, timeout=30).json()
+            dur, dis = r["durations"][0][1:], r["distances"][0][1:]
+        except (requests.RequestException, ValueError, KeyError, IndexError, TypeError):
+            continue
+        ok = True
+        for o, t, d in zip(out, dur, dis):
+            if t is None or d is None:
+                continue
+            if modo == "carro" or d <= 4000:   # a pie solo si es caminable (4 km o menos)
+                o[f"{modo}_km"] = round(d / 1000, 1)
+                o[f"{modo}_min"] = round(t / 60)
+        time.sleep(1)
+    if ok:
+        c[k] = out    # si OSRM falló no se guarda: se reintenta en otra corrida
+    return out
+
+
 ESTACIONES = None
 
 
@@ -502,6 +572,7 @@ def expediente(grupo, todos_por_pin):
         ubic.update({"osm": barrio_osm(lat, lon)})
     cerca = alrededores(lat, lon) if lat is not None else None
     metro = metro_cercano(lat, lon) if lat is not None else None
+    reco = recorridos(lat, lon, base["municipio"], base.get("barrio")) if lat is not None and not tipo.startswith("punto") else None
 
     conj_origen = "anuncio" if conj else None
     if not conj and cerca and cerca.get("nombres_cercanos") and tipo in ("exacta", "de la ficha"):
@@ -546,7 +617,7 @@ def expediente(grupo, todos_por_pin):
         "versiones": [{k: f.get(k) for k in ("fuente", "url", "disponible", "publicado", "modificado", "anunciante", "tel")}
                       for f in fichas],
         "rasgos": rasgos, "desc": re.sub(r"\s+", " ", desc)[:700],
-        "ubicacion": ubic, "metro": metro, "cerca": cerca, "barrio_ficha": fb,
+        "ubicacion": ubic, "metro": metro, "recorridos": reco, "cerca": cerca, "barrio_ficha": fb,
         "hist": base.get("hist"),
         "fecha": ahora().isoformat(timespec="minutes"),
     }
@@ -589,7 +660,14 @@ def alertas(e):
     if e.get("cerca") and e["cerca"].get("carcel"):
         c = e["cerca"]["carcel"]
         a.append(f"Hay una cárcel a {c['m']} m ({c['nombre']}).")
-    if e.get("metro") and e["metro"]["m_linea_recta"] > 2500:
+    metros = [r for r in (e.get("recorridos") or []) if r["lugar"].startswith("Metro ")]
+    # la estación más rápida a pie (o, si ninguna es caminable, la más corta por vía)
+    mr = min(metros, key=lambda r: (r.get("pie_min") is None, r.get("pie_min") or 0, r.get("carro_km") or 99), default=None)
+    if mr and mr.get("pie_min") and mr["pie_min"] > 30:
+        a.append(f"Al {mr['lugar']} son {mr['pie_min']} min a pie ({mr['pie_km']} km): toca bus o carro.")
+    elif mr and not mr.get("pie_min") and mr.get("carro_km"):
+        a.append(f"El {mr['lugar']} queda a {mr['carro_km']} km por vía: no es caminable.")
+    elif not mr and e.get("metro") and e["metro"]["m_linea_recta"] > 2500:
         a.append(f"El metro más cercano ({e['metro']['estacion']}) está a {e['metro']['m_linea_recta'] / 1000:.1f} km en línea recta.")
     fb = e.get("barrio_ficha")
     if fb and (fb.get("seguridad") in ("baja", "media-baja") or fb.get("recomendacion") == "no recomendado"):
@@ -651,9 +729,15 @@ def investigar_sector(e):
          f"y (3) lo del municipio. Un hecho va en hechos_sector SOLO si la noticia nombra esas calles, esos lugares, "
          f"ese sector o esas quebradas cercanas; una noticia de otra quebrada u otro sector NO es del sector. "
          f"Si no hay nada del sector, dilo (encontrado=false).\n"
+         f"TRANSPORTE: busca también (Moovit, Metro de Medellín, alcaldía, empresas de buses) qué rutas de bus o "
+         f"alimentadoras del metro pasan por esa vía o esos lugares, su frecuencia y cuánto suele tardar el viaje a la "
+         f"estación de metro más cercana y al centro. Pon solo rutas que la fuente ubique en esa zona.\n"
          'Devuelve JSON: {"encontrado": true|false, "resumen": "2 frases sobre el sector", '
          '"hechos_sector": [{"fecha": "...", "que": "...", "medio": "..."}], "riesgos": ["quebrada, loma, ruido... con fuente"], '
-         '"del_barrio_no_del_sector": ["máx 3"], "del_municipio": ["máx 2"]}')
+         '"del_barrio_no_del_sector": ["máx 3"], "del_municipio": ["máx 2"], '
+         '"rutas_bus": [{"ruta": "código o nombre", "recorrido": "a dónde va", "frecuencia": "si se sabe"}], '
+         '"tiempos_bus": [{"a": "estación de metro, centro, etc.", "tiempo": "ej. 25-35 min", "fuente": "medio o sitio"}], '
+         '"transporte": "1 frase: qué tan conectado está en bus y metro"}')
     return ia.preguntar_json(p, SISTEMA, tarea="fuerte", buscar=True)
 
 
@@ -687,10 +771,11 @@ def resumen_para_ia(clave, e, estado):
         "disponible": e["disponible"], "publicado": e["publicado"] or f"sin fecha; en la página desde {e['en_pagina_desde']}",
         "rasgos": {k: v for k, v in e["rasgos"].items() if v}, "conjunto": e.get("conjunto"),
         "descripcion": e["desc"][:450], "metro": e["metro"], "cerca": cerca,
+        "recorridos_por_vias": e.get("recorridos"),
         "ficha_barrio": e.get("barrio_ficha"),
         "investigacion_barrio": {k: (binv or {}).get(k) for k in ("seguridad", "resumen", "hechos", "problemas")} if binv else None,
         "contexto_municipio_no_es_del_barrio": (binv or {}).get("contexto_municipio"),
-        "investigacion_sector": {k: (sinv or {}).get(k) for k in ("encontrado", "resumen", "hechos_sector", "riesgos")} if sinv else None,
+        "investigacion_sector": {k: (sinv or {}).get(k) for k in ("encontrado", "resumen", "hechos_sector", "riesgos", "rutas_bus", "tiempos_bus", "transporte")} if sinv else None,
         "investigacion_conjunto": {k: (conj or {}).get(k) for k in ("encontrado", "calificacion", "a_favor", "quejas", "resumen")} if conj else None,
         "alertas_automaticas": e["alertas"],
     }
@@ -706,7 +791,10 @@ def opinar(lote, estado):
          "Un anuncio no disponible es 'no recomendable'.\n"
          'Devuelve JSON: {"opiniones": [{"id": "...", "veredicto": "recomendable|con reservas|no recomendable", '
          '"puntaje": 0-10, "resumen": "1-2 frases", "a_favor": ["máx 3"], "en_contra": ["máx 3"], '
-         '"preguntar": ["máx 3 preguntas para la inmobiliaria"]}]}\n\nApartamentos:\n'
+         '"preguntar": ["máx 3 preguntas para la inmobiliaria"], '
+         '"transporte": "1 frase: rutas y conexiones, cuánto se tarda y qué tan lejos quedan los lugares importantes"}]}\n'
+         "Los tiempos 'carro_min' son sin trancón; en hora pico pueden ser el doble. No inventes tiempos de bus: "
+         "usa solo 'tiempos_bus' si existen.\n\nApartamentos:\n"
          + json.dumps(lote, ensure_ascii=False, separators=(",", ":")))
     d = ia.preguntar_json(p, SISTEMA, tarea="fuerte")
     contar_ia(estado)
@@ -877,7 +965,8 @@ PARTES = 16
 VER_COD = {"recomendable": "r", "con reservas": "c", "no recomendable": "n"}
 CAMPOS_ZONA = {
     "b": ("seguridad", "resumen", "hechos", "problemas", "contexto_municipio", "_fuentes", "fecha"),
-    "s": ("encontrado", "resumen", "hechos_sector", "riesgos", "del_barrio_no_del_sector", "_fuentes", "fecha"),
+    "s": ("encontrado", "resumen", "hechos_sector", "riesgos", "del_barrio_no_del_sector", "rutas_bus", "tiempos_bus",
+          "transporte", "_fuentes", "fecha"),
     "c": ("encontrado", "direccion", "calificacion", "a_favor", "quejas", "noticias", "resumen", "_fuentes", "fecha"),
 }
 
@@ -919,7 +1008,7 @@ def publicar(estado, G):
             "conjunto": e.get("conjunto"), "barrio": e.get("barrio"),
             "sector": {kk: v for kk, v in sect.items() if kk != "celda"} or None,
             "ubic": {"tipo": e["ubicacion"]["tipo"], "via": (e["ubicacion"].get("osm") or {}).get("via")},
-            "metro": e["metro"],
+            "metro": e["metro"], "recorridos": e.get("recorridos"),
             "cerca": {kk: c.get(kk) for kk in ("supermercados", "centros_comerciales", "salud", "parques", "colegios", "paraderos", "carcel")} if c else None,
             "alertas": e["alertas"], "opinion": g.get("opinion"), **refs,
         }
