@@ -42,7 +42,7 @@ let descartados = new Set(LS.get("ocultos", []));
 const DEF = () => ({
   q: "", municipios: [], pmin: 0, pmax: PRESUPUESTO, hab: 0, banos: 0, area: 0, estratos: [],
   fuentes: [], novedad: 0, bajaron: false, dup: true, favs: false,
-  descartados: false, conAdmin: false, orden: "nuevo", zona: false, buenPrecio: false, sinAlertas: false, barrios: [], recoBarrio: "", soloSur: true, conVideo: false, reciente: 0, sinAntiguos: false, banosSinDato: false, invReco: false,
+  descartados: false, conAdmin: false, orden: "nuevo", zona: false, buenPrecio: false, sinAlertas: false, barrios: [], recoBarrio: "", soloSur: true, conVideo: false, reciente: 0, sinAntiguos: false, banosSinDato: false, invReco: false, verNoDisp: false,
 });
 let S = null;
 let vista = LS.get("vista", "split");
@@ -136,6 +136,7 @@ function filtrar(sin = null) {
     if (sin !== "reciente" && S.reciente && !esReciente(it, S.reciente)) return false;
     if (S.sinAntiguos && antiguedad(it) === "alto") return false;
     if (sin !== "inv" && S.invReco && !invRecomendado(it)) return false;
+    if (sin !== "nodisp" && !S.verNoDisp && invNoDisponible(it)) return false;
     if (sin !== "reco" && S.recoBarrio) {
       const r = (infoBarrio(it) || {}).recomendacion;
       if (S.recoBarrio === "solo_si" && r !== "recomendado") return false;
@@ -155,7 +156,7 @@ function filtrar(sin = null) {
     if (S.descartados && !descartados.has(it.id)) return false;  // vista "mis descartados"
     if (sin !== "buenPrecio" && S.buenPrecio && !esBuenPrecio(it)) return false;
     if (sin !== "sinAlertas" && S.sinAlertas && it.alertas) return false;
-    if (q && !`${it.barrio || ""} ${it.municipio} ${it.titulo || ""} ${it.anunciante || ""}`.toLowerCase().includes(q)) return false;
+    if (q && !`${it.barrio || ""} ${it.municipio} ${it.titulo || ""} ${it.anunciante || ""} ${sectorDe(it)} ${(invResumen(it) || {}).barrio || ""}`.toLowerCase().includes(q)) return false;
     return true;
   });
 }
@@ -335,7 +336,7 @@ function opcionesOrden() {
   if (TODOS.some((x) => bajada(x))) o.push(["bajada", "Mayor bajada de precio"]);
   if (TODOS.some((x) => x.dif != null)) o.push(["oportunidad", "Más barato vs. similares"]);
   if (favs.size) o.push(["recomendados", "Recomendados para ti"]);
-  if (INVESTIGA && INVESTIGA.items && Object.keys(INVESTIGA.items).length) o.push(["inv", "🔎 Mejor evaluados"]);
+  if (INVESTIGA && INVESTIGA.res && Object.keys(INVESTIGA.res).length) o.push(["inv", "🔎 Mejor evaluados"]);
   return o;
 }
 const pct = (x) => Math.round(x * 100) + "%";
@@ -796,15 +797,17 @@ function renderPanel() {
     const fuentes = [...new Set(TODOS.map((x) => x.fuente))].sort();
     const nVid = contarAptos(filtrarCache("conVideo").filter((x) => x.v));
     const nInv = contarAptos(filtrarCache("inv").filter(invRecomendado));
+    const nNoDisp = contarAptos(filtrarCache("nodisp").filter(invNoDisponible));
     const valor = [S.invReco ? "Recomendados 🔎" : "", S.conVideo ? "Con video" : "", S.fuentes.length ? S.fuentes.join(", ") : "", !S.dup ? "Sin agrupar" : ""].filter(Boolean).join(" · ") || "—";
     const c = interruptor("invReco", "🔎 Solo recomendados por la investigación", `${nInv} en tus resultados`, S.invReco)
+      + interruptor("verNoDisp", "Mostrar los que ya no están publicados", `${nNoDisp} detectados por la investigación (ocultos)`, S.verNoDisp)
       + interruptor("conVideo", "Solo con video", `${nVid} en tus resultados`, S.conVideo)
       + `<div class="sub-t">Portal</div><div class="grupo">${fuentes.map((f) => {
         const on = S.fuentes.includes(f); const n = cf.get(f) || 0;
         return `<button class="chip ${on ? "on" : ""}" data-toggle="fuentes" data-v="${esc(f)}" aria-pressed="${on}" ${!n && !on ? "disabled" : ""}>${esc(f)} <span class="n">${NF.format(n)}</span></button>`;
       }).join("")}</div>`
       + interruptor("dup", "Juntar el mismo apartamento de varios portales", "Una sola tarjeta con enlaces a los demás", S.dup);
-    partes.push(acordeon("mas", "⚙", "Más opciones", esc(valor), c, !!(S.invReco || S.conVideo || S.fuentes.length || !S.dup)));
+    partes.push(acordeon("mas", "⚙", "Más opciones", esc(valor), c, !!(S.invReco || S.verNoDisp || S.conVideo || S.fuentes.length || !S.dup)));
   }
 
   cuerpo.innerHTML = partes.join("");
@@ -846,6 +849,7 @@ function activosLista() {
   if (S.conVideo) a.push(["▶ Con video", () => (S.conVideo = false)]);
   if (S.reciente) a.push([`🕒 Publicados ≤ ${S.reciente} días`, () => (S.reciente = 0), S.reciente === 15]);
   if (S.invReco) a.push(["🔎 Recomendados", () => (S.invReco = false)]);
+  if (S.verNoDisp) a.push(["Incluye no publicados", () => (S.verNoDisp = false)]);
   if (S.sinAntiguos) a.push([`Sin los de +${DIAS_ANTIGUO} días`, () => (S.sinAntiguos = false)]);
   if (S.sinAlertas) a.push(["Sin alertas", () => (S.sinAlertas = false)]);
   return a;
@@ -1088,7 +1092,7 @@ function tarjeta(it) {
     </span>
     <div class="info">
       ${bloquePrecio(it, baj)}${chipVs(it)}
-      <div class="lugar" title="${esc(it.barrio || "")}">📍 ${esc(lugarDe(it))}</div>
+      <div class="lugar" title="${esc(it.barrio || "")}">📍 ${esc(lugarDe(it))}${sectorDe(it) ? ` <span class="tenue">· sector ${esc(sectorDe(it))}</span>` : ""}</div>
       ${ficha(it)}
       ${extras(it)}
       <button class="ver-detalles" data-acc="visor">Ver todos los detalles →</button>
@@ -1679,57 +1683,93 @@ function detalleHTML(it) {
     ${sec("Parecidos en la zona", parHtml)}
   </div>`;
 }
+/* ---------- Investigación automática (scraper/investigar.py) ----------
+   Al cargar la página solo baja el resumen (data/investigaciones.json): veredicto, puntaje, disponible, barrio
+   y sector de cada apartamento. El expediente completo baja por partes al abrir el detalle. */
+const VER_INV = { r: "recomendable", c: "con reservas", n: "no recomendable" };
+function invResumen(it) {
+  if (!INVESTIGA || !INVESTIGA.res) return null;
+  const ids = it.dup != null && GRUPOS[it.dup] ? GRUPOS[it.dup].map((x) => x.id) : [it.id];
+  for (const i of ids) {
+    const k = INVESTIGA.res[i] ? i : INVESTIGA.por_id[i];
+    const r = k && INVESTIGA.res[k];
+    if (r) return { k, ver: VER_INV[r[0]] || "", p: r[1], disp: r[2], barrio: r[3], sector: r[4], parte: r[5] };
+  }
+  return null;
+}
 /** Puntaje para ordenar: recomendable > con reservas > no recomendable; luego el puntaje de 0 a 10. */
 function puntajeInv(it) {
-  const v = investigacionDe(it), o = v && v.opinion;
-  if (!o || v.disponible === false) return -1;
-  return (o.veredicto === "recomendable" ? 100 : o.veredicto === "con reservas" ? 50 : 0) + (+o.puntaje || 0);
+  const r = invResumen(it);
+  if (!r || !r.ver || r.disp === 0) return -1;
+  return (r.ver === "recomendable" ? 100 : r.ver === "con reservas" ? 50 : 0) + (+r.p || 0);
 }
-function invRecomendado(it) {
-  const v = investigacionDe(it), o = v && v.opinion;
-  return !!(o && v.disponible !== false && o.veredicto === "recomendable");
-}
+function invRecomendado(it) { const r = invResumen(it); return !!(r && r.disp !== 0 && r.ver === "recomendable"); }
+function invNoDisponible(it) { const r = invResumen(it); return !!(r && r.disp === 0); }
+function sectorDe(it) { const r = invResumen(it); return r && r.sector ? r.sector : ""; }
 function etqInv(it) {
-  const v = investigacionDe(it), o = v && v.opinion;
-  if (!o) return "";
-  const c = v.disponible === false ? "no" : o.veredicto === "recomendable" ? "si" : o.veredicto === "no recomendable" ? "no" : "medio";
-  const t = v.disponible === false ? "Ya no está disponible" : `${o.veredicto}: ${o.resumen || ""}`;
-  return `<span class="etq inv ${c}" title="${esc(t)}">🔎 ${v.disponible === false ? "NO DISPONIBLE" : `${esc(o.puntaje ?? "")}/10`}</span>`;
+  const r = invResumen(it);
+  if (!r) return "";
+  if (r.disp === 0) return `<span class="etq inv no" title="La investigación encontró que ya no está publicado">🔎 NO DISPONIBLE</span>`;
+  if (!r.ver) return "";
+  const c = r.ver === "recomendable" ? "si" : r.ver === "no recomendable" ? "no" : "medio";
+  return `<span class="etq inv ${c}" title="Investigación: ${esc(r.ver)}">🔎 ${esc(r.p ?? "")}/10</span>`;
 }
 /** Los mejor evaluados DENTRO de los resultados filtrados (respeta todos los filtros). */
 function bloqueInvestigados(lista) {
   const top = lista.filter(invRecomendado).sort((a, b) => puntajeInv(b) - puntajeInv(a)).slice(0, 8);
   if (!top.length) return "";
   return `<div class="razon imp-tit">🔎 Recomendados por la investigación <span class="tenue">(con tus filtros)</span></div>
-    <div class="carrusel">${top.map((x) => { const o = investigacionDe(x).opinion;
-      return miniTarjeta(x, `<span class="razon imp-razon"><b>${esc(o.puntaje ?? "")}/10</b> · ${esc(o.resumen || "")}</span>`); }).join("")}</div>`;
+    <div class="carrusel">${top.map((x) => { const r = invResumen(x);
+      return miniTarjeta(x, `<span class="razon imp-razon"><b>${esc(r.p ?? "")}/10</b> · recomendable${r.sector ? ` · sector ${esc(r.sector)}` : ""}</span>`); }).join("")}</div>`;
 }
-/* ---------- Investigación automática (scraper/investigar.py → data/investigaciones.json) ---------- */
+const INV_DATOS = new Map(), INV_PEDIDAS = new Set();
+let INV_ZONAS = null;
+function investigacionDe(it) {
+  const r = invResumen(it);
+  if (!r) return null;
+  const d = INV_DATOS.get(r.parte);
+  if (!d || !INV_ZONAS) return undefined;   // todavía no ha bajado
+  const v = d[r.k];
+  if (!v) return null;
+  return Object.assign({}, v, { barrio_inv: v.bk ? INV_ZONAS.b[v.bk] : null, sector_inv: v.sk ? INV_ZONAS.s[v.sk] : null,
+    conjunto_inv: v.ck ? INV_ZONAS.c[v.ck] : null });
+}
+function pedirInvCompleta(it) {
+  const r = invResumen(it);
+  if (!r) return;
+  const pz = INV_ZONAS ? Promise.resolve() : fetch("data/investigaciones/zonas.json", { cache: "no-cache" })
+    .then((x) => x.json()).then((j) => { INV_ZONAS = j; }).catch(() => { INV_ZONAS = { b: {}, s: {}, c: {} }; });
+  let pp = Promise.resolve();
+  if (!INV_PEDIDAS.has(r.parte)) {
+    INV_PEDIDAS.add(r.parte);
+    pp = fetch(`data/investigaciones/${String(r.parte).padStart(2, "0")}.json`, { cache: "no-cache" })
+      .then((x) => x.json()).then((j) => INV_DATOS.set(r.parte, j)).catch(() => INV_DATOS.set(r.parte, {}));
+  }
+  Promise.all([pz, pp]).then(() => {
+    const d = $("#visorDetalle"), f = d && d.querySelector(".detalle-ficha");
+    if (f && f.dataset.id === it.id && investigacionDe(it) !== undefined) { const y = d.scrollTop; pintarDetalle(it); d.scrollTop = y; }
+  });
+}
 const RASGO_TXT = { porteria: "portería", vigilancia: "vigilancia", unidad_cerrada: "unidad cerrada", en_casa: "apartamento en casa",
   ascensor: "ascensor", piscina: "piscina", parqueadero: "parqueadero", loma: "menciona loma/pendiente", dice_venta: "menciona «venta»" };
-function investigacionDe(it) {
-  if (!INVESTIGA || !INVESTIGA.por_id) return null;
-  const ids = it.dup != null && GRUPOS[it.dup] ? GRUPOS[it.dup].map((x) => x.id) : [it.id];
-  for (const i of ids) { const k = INVESTIGA.por_id[i]; if (k && INVESTIGA.items[k]) return INVESTIGA.items[k]; }
-  return null;
-}
 function investigacionHtml(it) {
   const v = investigacionDe(it);
+  if (v === undefined) { pedirInvCompleta(it); return `<p class="tenue">Cargando la investigación…</p>`; }
   if (!v) return "";
   const o = v.opinion;
   const clase = o ? (o.veredicto === "recomendable" ? "si" : o.veredicto === "no recomendable" ? "no" : "medio") : "";
   const lista = (t, xs) => (xs && xs.length ? `<p class="inv-t">${t}</p><ul class="det-lista">${xs.map((x) => `<li>${esc(typeof x === "string" ? x : `${x.fecha ? x.fecha + ": " : ""}${x.que || ""}${x.medio ? ` (${x.medio})` : ""}`)}</li>`).join("")}</ul>` : "");
   const fuentes = (fs) => (fs && fs.length ? `<p class="inv-fuentes">Fuentes: ${fs.map((f) => `<a href="${esc(urlOk(f.url))}" target="_blank" rel="noopener">${esc(f.titulo || "enlace")}</a>`).join(" · ")}</p>` : "");
   const lugares = (xs) => (xs || []).map((x) => `${esc(x.nombre)} (${x.m} m)`).join(", ");
-  const c = v.cerca || {};
+  const c = v.cerca || {}, s = v.sector || {};
   const datos = [
     v.disponible === false ? "❌ Ya no está disponible en sus páginas" : v.disponible ? "✅ Sigue disponible (revisado en la página original)" : "",
     v.publicado ? `📅 Publicado ${esc(fechaCorta(v.publicado))}${v.modificado ? ` · modificado ${esc(fechaCorta(v.modificado))}` : ""}` : "",
     v.barrio ? `🏘️ Barrio: <b>${esc(v.barrio)}</b>` : "",
-    v.sector && typeof v.sector === "object" && (v.sector.nombre || v.sector.via || (v.sector.referencias || []).length)
-      ? `📍 Sector: ${[v.sector.nombre ? `<b>${esc(v.sector.nombre)}</b>` : "", v.sector.via ? esc(v.sector.via) : "", (v.sector.referencias || []).length ? `cerca de ${esc(v.sector.referencias.join(", "))}` : ""].filter(Boolean).join(" · ")}` : "",
-    v.sector && (v.sector.quebradas || []).length ? `💧 Quebradas a menos de 300 m: ${esc(v.sector.quebradas.join(", "))}` : "",
-    `🗺️ Ubicación: ${esc(v.ubic.tipo)}`,
+    s.nombre || s.via || (s.referencias || []).length
+      ? `📍 Sector: ${[s.nombre ? `<b>${esc(s.nombre)}</b>` : "", s.via ? esc(s.via) : "", (s.referencias || []).length ? `cerca de ${esc(s.referencias.join(", "))}` : ""].filter(Boolean).join(" · ")}` : "",
+    (s.quebradas || []).length ? `💧 Quebradas a menos de 300 m: ${esc(s.quebradas.join(", "))}` : "",
+    v.ubic ? `🗺️ Ubicación: ${esc(v.ubic.tipo)}` : "",
     v.conjunto ? `🏢 Conjunto: ${esc(v.conjunto)}` : "",
     v.rasgos && v.rasgos.length ? `🔐 El anuncio menciona: ${v.rasgos.map((r) => esc(RASGO_TXT[r] || r)).join(", ")}` : "",
     v.metro ? `🚇 Metro ${esc(v.metro.estacion)} a ${(v.metro.m_linea_recta / 1000).toFixed(1).replace(".", ",")} km en línea recta` : "",
@@ -1749,7 +1789,7 @@ function investigacionHtml(it) {
     ${ci ? `<p class="inv-t">El conjunto${ci.calificacion ? ` · ${esc(ci.calificacion)}` : ""}</p><p>${esc(ci.encontrado === false ? "No se encontró información de este conjunto." : ci.resumen || "")}</p>${lista("Quejas", ci.quejas)}${lista("Noticias", ci.noticias)}${fuentes(ci._fuentes)}` : ""}
     ${si ? `<p class="inv-t">El sector (las cuadras alrededor)</p><p>${esc(si.encontrado === false ? "No se encontraron noticias de este sector." : si.resumen || "")}</p>${lista("Hechos en el sector", si.hechos_sector)}${lista("Riesgos del sector", si.riesgos)}${lista("Del barrio en general (no del sector)", si.del_barrio_no_del_sector)}${fuentes(si._fuentes)}` : ""}
     ${bi ? `<p class="inv-t">El barrio (investigado por la IA)</p><p>${esc(bi.resumen || "")}</p>${lista("Hechos en el barrio", bi.hechos)}${lista("Problemas del barrio", bi.problemas)}${lista("En el municipio (no es del barrio)", bi.contexto_municipio)}${fuentes(bi._fuentes)}` : ""}
-    <p class="tenue inv-pie">Investigado ${esc(fechaCorta(v.fecha.slice(0, 10)))} · distancias en línea recta (OpenStreetMap)</p>
+    <p class="tenue inv-pie">Investigado ${esc(fechaCorta((v.fecha || "").slice(0, 10)))} · distancias en línea recta (OpenStreetMap)</p>
   </div>`;
 }
 function pintarDetalle(it) {

@@ -56,10 +56,36 @@ def _dias(pub):
         return None
 
 
+F_INV = RAIZ / "docs" / "data" / "investigaciones.json"
+
+
+def _investigacion():
+    """id → [veredicto, puntaje, disponible, barrio, sector, parte] según scraper/investigar.py."""
+    try:
+        d = json.loads(F_INV.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return {}
+    res, por_id = d.get("res") or {}, d.get("por_id") or {}
+    out = dict(res)
+    for i, k in por_id.items():
+        if k in res:
+            out[i] = res[k]
+    return out
+
+
+def _txt_inv(r):
+    if not r or not r[0]:
+        return ""
+    ver = {"r": "recomendable", "c": "con reservas", "n": "no recomendable"}.get(r[0], "")
+    return (f" | investigación: {ver} {r[1]}/10" + (f", barrio {r[3]}" if r[3] else "")
+            + (f", sector {r[4]}" if r[4] else ""))
+
+
 def generar(visibles, destino, log=print):
     if not ia.disponible():
         return
     info = _info_barrios()
+    inv = _investigacion()
     cand = []
     vistos_dup = set()
     for v in visibles:
@@ -74,6 +100,9 @@ def generar(visibles, destino, log=print):
             if v["dup"] in vistos_dup:
                 continue
             vistos_dup.add(v["dup"])
+        r = inv.get(v["id"])
+        if r and (r[2] == 0 or r[0] == "n"):
+            continue   # la investigación lo encontró no publicado o no recomendable
         b = info.get((v["municipio"], (v.get("barrio") or "").lower()), {})
         if not es_del_sur(v, b):
             continue
@@ -85,7 +114,7 @@ def generar(visibles, destino, log=print):
         return
     # Si los candidatos son los mismos de la última vez (mismos anuncios y precios), no se gasta IA
     import hashlib
-    huella = hashlib.md5("|".join(f'{v["id"]}:{v["precio"]}' for v, _, _ in cand).encode()).hexdigest()[:12]
+    huella = hashlib.md5("|".join(f'{v["id"]}:{v["precio"]}:{(inv.get(v["id"]) or [""])[0]}' for v, _, _ in cand).encode()).hexdigest()[:12]
     try:
         previo = json.loads(Path(destino).read_text(encoding="utf-8"))
     except (OSError, ValueError):
@@ -100,6 +129,7 @@ def generar(visibles, destino, log=print):
             f'| estrato {v.get("estrato") or v.get("estr_b") or "?"} | {v.get("barrio") or "?"}, {v["municipio"]} '
             f'| {round(v["dif"] * 100)}% vs similares | {d if d is not None else "?"} días publicado | {v.get("nf")} fotos '
             f'| barrio: {b.get("recomendacion", "sin investigar")}, seguridad {b.get("seguridad", "?")}, terreno {b.get("terreno", "?")}'
+            f'{_txt_inv(inv.get(v["id"]))}'
         )
     prompt = (
         "Eres un asesor de arriendos en el Valle de Aburrá (Colombia). Presupuesto máximo $2.000.000 COP. "
@@ -108,6 +138,8 @@ def generar(visibles, destino, log=print):
         "| días publicado | fotos | lo que sabemos del barrio):\n" + "\n".join(filas) + "\n\n"
         "Elige hasta 6 'imperdibles' equilibrando precio, tamaño, seguridad del barrio y que sean recientes. "
         "Evita barrios 'no recomendado' salvo que la oferta sea excepcional (dilo). "
+        "Si un candidato trae 'investigación' (visita a la ficha original, sector y conjunto), úsala: prefiere los "
+        "'recomendable'. Barrio es la zona general y sector las cuadras alrededor: no los confundas. "
         "Luego indica las 3 mejores zonas (barrio, municipio) para buscar ahora según esta lista.\n"
         'Responde JSON: {"imperdibles":[{"id":"...","razon":"máx 140 caracteres, concreta"}],'
         '"zonas":[{"barrio":"...","municipio":"...","razon":"máx 140 caracteres"}],'

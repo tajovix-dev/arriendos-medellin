@@ -873,43 +873,85 @@ def principal(urls=()):
     print(f"Listo en {round(time.time() - T0)} s. Uso de IA hoy en esta función: {estado['uso_ia'].get('n', 0) if 'uso_ia' in estado else 0}")
 
 
+PARTES = 16
+VER_COD = {"recomendable": "r", "con reservas": "c", "no recomendable": "n"}
+CAMPOS_ZONA = {
+    "b": ("seguridad", "resumen", "hechos", "problemas", "contexto_municipio", "_fuentes", "fecha"),
+    "s": ("encontrado", "resumen", "hechos_sector", "riesgos", "del_barrio_no_del_sector", "_fuentes", "fecha"),
+    "c": ("encontrado", "direccion", "calificacion", "a_favor", "quejas", "noticias", "resumen", "_fuentes", "fecha"),
+}
+
+
+def parte_de(k):
+    import hashlib
+    return int(hashlib.md5(k.encode()).hexdigest(), 16) % PARTES
+
+
 def publicar(estado, G):
-    """docs/data/investigaciones.json: lo que muestra la página (compacto)."""
-    items, por_id = {}, {}
+    """Lo que usa la página, en tres capas para que cargue rápido:
+    - docs/data/investigaciones.json: resumen por apartamento (veredicto, puntaje, disponible, barrio, sector, parte).
+      Se carga al abrir la página (tarjetas, filtros, orden, recomendados).
+    - docs/data/investigaciones/NN.json: el expediente completo, repartido en partes; se baja al abrir el detalle.
+    - docs/data/investigaciones/zonas.json: barrios, sectores y conjuntos investigados, UNA vez cada uno
+      (los apartamentos solo guardan la referencia)."""
+    import shutil
+    res, por_id = {}, {}
+    zonas = {"b": {}, "s": {}, "c": {}}
+    partes = [dict() for _ in range(PARTES)]
     for k, g in estado["grupos"].items():
         e = g.get("exp")
         if not e:
             continue
-        conj = estado["conjuntos"].get(clave_conj(e)) if e.get("conjunto") else None
-        binv = estado["barrios"].get(clave_barrio(e)) if not e.get("barrio_ficha") else None
-        sinv = estado["sectores"].get(clave_sector(e)) if e.get("sector") and clave_sector(e) else None
+        refs = {}
+        for z, clave, fuente in (("b", clave_barrio(e) if not e.get("barrio_ficha") else None, estado["barrios"]),
+                                 ("s", clave_sector(e) if isinstance(e.get("sector"), dict) else None, estado["sectores"]),
+                                 ("c", clave_conj(e) if e.get("conjunto") else None, estado["conjuntos"])):
+            if clave and clave in fuente:
+                zonas[z].setdefault(clave, {kk: fuente[clave].get(kk) for kk in CAMPOS_ZONA[z]})
+                refs[z + "k"] = clave
         c = e.get("cerca") or {}
-        items[k] = {
+        sect = e.get("sector") if isinstance(e.get("sector"), dict) else {}
+        n = parte_de(k)
+        partes[n][k] = {
             "fecha": e["fecha"], "disponible": e["disponible"], "publicado": e["publicado"], "modificado": e["modificado"],
-            "video": e["video"], "versiones": e["versiones"], "rasgos": [r for r, v in e["rasgos"].items() if v],
+            "video": e["video"], "versiones": [{kk: x.get(kk) for kk in ("fuente", "disponible", "publicado")} for x in e["versiones"]],
+            "rasgos": [r for r, v in e["rasgos"].items() if v],
             "conjunto": e.get("conjunto"), "barrio": e.get("barrio"),
-            "sector": {k: v for k, v in (e.get("sector") or {}).items() if k != "celda"} if isinstance(e.get("sector"), dict) else None,
-            "sector_inv": {kk: sinv.get(kk) for kk in ("encontrado", "resumen", "hechos_sector", "riesgos", "del_barrio_no_del_sector", "_fuentes", "fecha")} if sinv else None,
-            "ubic": {"tipo": e["ubicacion"]["tipo"], "barrio": (e["ubicacion"].get("osm") or {}).get("barrio"),
-                     "via": (e["ubicacion"].get("osm") or {}).get("via")},
+            "sector": {kk: v for kk, v in sect.items() if kk != "celda"} or None,
+            "ubic": {"tipo": e["ubicacion"]["tipo"], "via": (e["ubicacion"].get("osm") or {}).get("via")},
             "metro": e["metro"],
             "cerca": {kk: c.get(kk) for kk in ("supermercados", "centros_comerciales", "salud", "parques", "colegios", "paraderos", "carcel")} if c else None,
-            "barrio_ficha": e.get("barrio_ficha"),
-            "barrio_inv": {kk: binv.get(kk) for kk in ("seguridad", "resumen", "hechos", "problemas", "contexto_municipio", "_fuentes", "fecha")} if binv else None,
-            "conjunto_inv": {kk: conj.get(kk) for kk in ("encontrado", "direccion", "calificacion", "a_favor", "quejas", "noticias", "resumen", "_fuentes", "fecha")} if conj else None,
-            "alertas": e["alertas"], "opinion": g.get("opinion"),
+            "alertas": e["alertas"], "opinion": g.get("opinion"), **refs,
         }
+        o = g.get("opinion") or {}
+        disp = 1 if e["disponible"] else (0 if e["disponible"] is False else None)
+        res[k] = [VER_COD.get(o.get("veredicto"), ""), o.get("puntaje"), disp, e.get("barrio") or "",
+                  sect.get("nombre") or "", n]
         for i in e["ids"]:
-            por_id[i] = k
-    escribir(F_SALIDA, {"fecha": ahora().isoformat(timespec="minutes"), "perfil": PERFIL, "por_id": por_id, "items": items},
-             compacto=True)
+            if i != k:
+                por_id[i] = k
+    escribir(F_SALIDA, {"fecha": ahora().isoformat(timespec="minutes"), "v": 2, "partes": PARTES,
+                        "por_id": por_id, "res": res}, compacto=True)
+    d = F_SALIDA.parent / "investigaciones"
+    if d.exists():
+        shutil.rmtree(d)
+    for n, p in enumerate(partes):
+        escribir(d / f"{n:02d}.json", p, compacto=True)
+    escribir(d / "zonas.json", zonas, compacto=True)
 
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--url", nargs="*", default=[], help="anuncios a investigar ya")
     ap.add_argument("--max", type=int, default=None, help="máximo de expedientes en esta corrida")
+    ap.add_argument("--solo-publicar", action="store_true", help="regenera los archivos de la página sin investigar")
     a = ap.parse_args()
     if a.max is not None:
         MAX_RECOLECTAR = a.max
-    principal(a.url)
+    if a.solo_publicar:
+        est = leer(F_ESTADO, {})
+        for k in ("grupos", "barrios", "sectores", "conjuntos"):
+            est.setdefault(k, {})
+        publicar(est, None)
+    else:
+        principal(a.url)
