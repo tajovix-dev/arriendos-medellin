@@ -413,7 +413,7 @@ let textoBuscaBarrio = "";
 /** Clave del barrio de un anuncio (null si no informa barrio o el "barrio" es el mismo municipio). */
 /* ---------- Noticias por barrio (cada 3 días) y selección con IA ---------- */
 const NOTICIAS = new Map();   // clave de barrio → {noticias:[], ia:{}}
-let NOTICIAS_FECHA = null, IA_SEL = null;
+let NOTICIAS_FECHA = null, IA_SEL = null, INVESTIGA = null;
 const CAT_NOTICIA = {
   extorsion: ["💰", "Extorsión"], homicidio: ["⚠️", "Homicidio"], hurto: ["👜", "Hurto"], microtrafico: ["💊", "Microtráfico"],
   rina_violencia: ["👊", "Riña / violencia"], accidente: ["🚑", "Accidente"], deslizamiento_inundacion: ["🌧", "Deslizamiento / inundación"],
@@ -1659,6 +1659,7 @@ function detalleHTML(it) {
     ${imperdible(it.id) ? `<div class="det-imperdible">⭐ <b>Imperdible según la IA:</b> ${esc(imperdible(it.id).razon)}</div>` : ""}
     ${comp}
     ${it.titulo ? `<p class="det-titulo">${esc(it.titulo)}</p>` : ""}
+    ${sec("🔎 Investigación", investigacionHtml(it))}
     ${sec("Características", ficha(it) + extras(it).replace('<div class="amen">', '<div class="amen todas">') + notaEstrato + notaOtro)}
     ${(it.amen || []).length > 4 ? `<div class="amen todas">${it.amen.slice(4).map((a) => `<span>${esc(a)}</span>`).join("")}</div>` : ""}
     ${sec("Ubicación", ubic)}
@@ -1668,6 +1669,50 @@ function detalleHTML(it) {
     ${sec("Contacto", accionesTarjeta(it) + lineaOrigen(it).replace(/<div class="versiones-t">[\s\S]*$/, ""))}
     ${sec("Dónde está publicado", versionesHtml(it, true))}
     ${sec("Parecidos en la zona", parHtml)}
+  </div>`;
+}
+/* ---------- Investigación automática (scraper/investigar.py → data/investigaciones.json) ---------- */
+const RASGO_TXT = { porteria: "portería", vigilancia: "vigilancia", unidad_cerrada: "unidad cerrada", en_casa: "apartamento en casa",
+  ascensor: "ascensor", piscina: "piscina", parqueadero: "parqueadero", loma: "menciona loma/pendiente", dice_venta: "menciona «venta»" };
+function investigacionDe(it) {
+  if (!INVESTIGA || !INVESTIGA.por_id) return null;
+  const ids = it.dup != null && GRUPOS[it.dup] ? GRUPOS[it.dup].map((x) => x.id) : [it.id];
+  for (const i of ids) { const k = INVESTIGA.por_id[i]; if (k && INVESTIGA.items[k]) return INVESTIGA.items[k]; }
+  return null;
+}
+function investigacionHtml(it) {
+  const v = investigacionDe(it);
+  if (!v) return "";
+  const o = v.opinion;
+  const clase = o ? (o.veredicto === "recomendable" ? "si" : o.veredicto === "no recomendable" ? "no" : "medio") : "";
+  const lista = (t, xs) => (xs && xs.length ? `<p class="inv-t">${t}</p><ul class="det-lista">${xs.map((x) => `<li>${esc(typeof x === "string" ? x : `${x.fecha ? x.fecha + ": " : ""}${x.que || ""}${x.medio ? ` (${x.medio})` : ""}`)}</li>`).join("")}</ul>` : "");
+  const fuentes = (fs) => (fs && fs.length ? `<p class="inv-fuentes">Fuentes: ${fs.map((f) => `<a href="${esc(urlOk(f.url))}" target="_blank" rel="noopener">${esc(f.titulo || "enlace")}</a>`).join(" · ")}</p>` : "");
+  const lugares = (xs) => (xs || []).map((x) => `${esc(x.nombre)} (${x.m} m)`).join(", ");
+  const c = v.cerca || {};
+  const datos = [
+    v.disponible === false ? "❌ Ya no está disponible en sus páginas" : v.disponible ? "✅ Sigue disponible (revisado en la página original)" : "",
+    v.publicado ? `📅 Publicado ${esc(fechaCorta(v.publicado))}${v.modificado ? ` · modificado ${esc(fechaCorta(v.modificado))}` : ""}` : "",
+    `📍 Ubicación: ${esc(v.ubic.tipo)}${v.ubic.barrio ? ` · según el mapa queda en <b>${esc(v.ubic.barrio)}</b>` : ""}${v.ubic.via ? ` (${esc(v.ubic.via)})` : ""}`,
+    v.sector ? `📝 La descripción dice «${esc(v.sector)}»` : "",
+    v.conjunto ? `🏢 Conjunto: ${esc(v.conjunto)}` : "",
+    v.rasgos && v.rasgos.length ? `🔐 El anuncio menciona: ${v.rasgos.map((r) => esc(RASGO_TXT[r] || r)).join(", ")}` : "",
+    v.metro ? `🚇 Metro ${esc(v.metro.estacion)} a ${(v.metro.m_linea_recta / 1000).toFixed(1).replace(".", ",")} km en línea recta` : "",
+    c.supermercados && c.supermercados.length ? `🛒 ${lugares(c.supermercados)}` : "",
+    c.centros_comerciales && c.centros_comerciales.length ? `🏬 ${lugares(c.centros_comerciales)}` : "",
+    c.salud && c.salud.length ? `🏥 ${lugares(c.salud)}` : "",
+    c.parques && c.parques.length ? `🌳 ${lugares(c.parques)}` : "",
+    c.paraderos ? `🚌 ${c.paraderos} paraderos de bus a 500 m (según OpenStreetMap)` : "",
+    v.video === true ? "🎥 Tiene video" : v.video === false ? "Sin video" : "",
+  ].filter(Boolean);
+  const ci = v.conjunto_inv, bi = v.barrio_inv;
+  return `<div class="inv">
+    ${o ? `<div class="inv-ver ${clase}"><b>${esc(o.veredicto || "")}</b>${o.puntaje != null ? ` · ${esc(o.puntaje)}/10` : ""}<p>${esc(o.resumen || "")}</p></div>` : `<p class="tenue">La IA aún no da su opinión; esto es lo que se encontró.</p>`}
+    ${o ? lista("A favor", o.a_favor) + lista("En contra", o.en_contra) + lista("Pregúntale a la inmobiliaria", o.preguntar) : ""}
+    ${lista("⚠️ Alertas", v.alertas)}
+    <p class="inv-t">Lo que se verificó</p><ul class="det-lista inv-datos">${datos.map((d) => `<li>${d}</li>`).join("")}</ul>
+    ${ci ? `<p class="inv-t">El conjunto${ci.calificacion ? ` · ${esc(ci.calificacion)}` : ""}</p><p>${esc(ci.encontrado === false ? "No se encontró información de este conjunto." : ci.resumen || "")}</p>${lista("Quejas", ci.quejas)}${lista("Noticias", ci.noticias)}${fuentes(ci._fuentes)}` : ""}
+    ${bi ? `<p class="inv-t">El barrio (investigado por la IA)</p><p>${esc(bi.resumen || "")}</p>${lista("Hechos en el barrio", bi.hechos)}${lista("Problemas del barrio", bi.problemas)}${lista("En el municipio (no es del barrio)", bi.contexto_municipio)}${fuentes(bi._fuentes)}` : ""}
+    <p class="tenue inv-pie">Investigado ${esc(fechaCorta(v.fecha.slice(0, 10)))} · distancias en línea recta (OpenStreetMap)</p>
   </div>`;
 }
 function pintarDetalle(it) {
@@ -2561,6 +2606,7 @@ async function iniciar() {
     fetch("barrios_info.json", { cache: "no-cache" }).then((r) => r.json()).then((b) => { INFO_FECHA = b.fecha || ""; cargarInfoBarrios(b); }).catch(() => null),
     fetch("noticias_barrios.json", { cache: "no-cache" }).then((r) => (r.ok ? r.json() : null)).then(cargarNoticias).catch(() => null),
     fetch("data/ia.json", { cache: "no-cache" }).then((r) => (r.ok ? r.json() : null)).then((d) => { IA_SEL = d; }).catch(() => null),
+    fetch("data/investigaciones.json", { cache: "no-cache" }).then((r) => (r.ok ? r.json() : null)).then((d) => { INVESTIGA = d; }).catch(() => null),
   ]);
   TODOS = d.items || [];
   completarDuplicados();

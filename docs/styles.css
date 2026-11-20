@@ -1270,3 +1270,21 @@ details.datos-g summary { cursor: pointer; font-size: .8rem; color: var(--acento
   background: var(--sup2); color: var(--tenue); vertical-align: 1px; }
 .v-etq.orig { background: var(--nuevo-suave); color: var(--nuevo); }
 .v-abrir { align-self: center; padding: 8px 10px; font-size: .8rem; color: var(--acento); white-space: nowrap; }
+
+/* Investigación automática */
+.inv-ver { border-radius: 10px; padding: 10px 12px; margin: 4px 0 8px; background: var(--chip, #f2f2f2); }
+.inv-ver b { text-transform: capitalize; }
+.inv-ver p { margin: 4px 0 0; }
+.inv-ver.si { background: #e6f4ea; color: #14532d; }
+.inv-ver.medio { background: #fff4e0; color: #7a4a00; }
+.inv-ver.no { background: #fde8e8; color: #7f1d1d; }
+.inv-t { font-weight: 600; margin: 10px 0 2px; }
+.inv-datos li { margin: 2px 0; }
+.inv-fuentes { font-size: .85em; }
+.inv-fuentes a { word-break: break-word; }
+.inv-pie { font-size: .8em; margin-top: 8px; }
+@media (prefers-color-scheme: dark) {
+  .inv-ver.si { background: #12351f; color: #c8f0d4; }
+  .inv-ver.medio { background: #3a2a0a; color: #ffe2a8; }
+  .inv-ver.no { background: #3d1414; color: #ffd0d0; }
+}

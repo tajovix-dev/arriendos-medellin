@@ -1,0 +1,130 @@
+{
+ "fuente": "OpenStreetMap (Overpass), railway=station del Metro de Medellín",
+ "estaciones": [
+  {
+   "nombre": "La Estrella",
+   "lat": 6.152777,
+   "lon": -75.626334
+  },
+  {
+   "nombre": "Sabaneta",
+   "lat": 6.157738,
+   "lon": -75.616138
+  },
+  {
+   "nombre": "Itagüí",
+   "lat": 6.162929,
+   "lon": -75.606774
+  },
+  {
+   "nombre": "Envigado",
+   "lat": 6.174701,
+   "lon": -75.597057
+  },
+  {
+   "nombre": "Ayurá",
+   "lat": 6.186155,
+   "lon": -75.586056
+  },
+  {
+   "nombre": "Aguacatala",
+   "lat": 6.193997,
+   "lon": -75.581782
+  },
+  {
+   "nombre": "Poblado",
+   "lat": 6.21198,
+   "lon": -75.578123
+  },
+  {
+   "nombre": "Industriales",
+   "lat": 6.230037,
+   "lon": -75.575633
+  },
+  {
+   "nombre": "Exposiciones",
+   "lat": 6.238416,
+   "lon": -75.573166
+  },
+  {
+   "nombre": "Alpujarra",
+   "lat": 6.242932,
+   "lon": -75.571416
+  },
+  {
+   "nombre": "San Antonio",
+   "lat": 6.247172,
+   "lon": -75.569678
+  },
+  {
+   "nombre": "Cisneros",
+   "lat": 6.24903,
+   "lon": -75.575114
+  },
+  {
+   "nombre": "Parque Berrío",
+   "lat": 6.250502,
+   "lon": -75.568209
+  },
+  {
+   "nombre": "Suramericana",
+   "lat": 6.25297,
+   "lon": -75.582929
+  },
+  {
+   "nombre": "Prado",
+   "lat": 6.256844,
+   "lon": -75.566163
+  },
+  {
+   "nombre": "Santa Lucía",
+   "lat": 6.258082,
+   "lon": -75.603745
+  },
+  {
+   "nombre": "Floresta",
+   "lat": 6.258701,
+   "lon": -75.597741
+  },
+  {
+   "nombre": "Hospital",
+   "lat": 6.263879,
+   "lon": -75.563368
+  },
+  {
+   "nombre": "Universidad",
+   "lat": 6.269407,
+   "lon": -75.565803
+  },
+  {
+   "nombre": "Caribe",
+   "lat": 6.278318,
+   "lon": -75.569406
+  },
+  {
+   "nombre": "Tricentenario",
+   "lat": 6.290311,
+   "lon": -75.564714
+  },
+  {
+   "nombre": "Acevedo",
+   "lat": 6.2999,
+   "lon": -75.558646
+  },
+  {
+   "nombre": "Madera",
+   "lat": 6.315865,
+   "lon": -75.555304
+  },
+  {
+   "nombre": "Bello",
+   "lat": 6.330091,
+   "lon": -75.553637
+  },
+  {
+   "nombre": "Niquía",
+   "lat": 6.337854,
+   "lon": -75.544265
+  }
+ ]
+}

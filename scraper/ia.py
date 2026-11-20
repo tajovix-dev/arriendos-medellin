@@ -106,7 +106,9 @@ def _json_de(texto):
     return None
 
 
-def _gemini(prompt, sistema, modelo):
+def _gemini(prompt, sistema, modelo, buscar=False):
+    """buscar=True: Gemini puede buscar en Google (grounding). Las fuentes que usó vuelven en
+    datos["_fuentes"] (título y enlace), tomadas de la respuesta de Google, no inventadas por el modelo."""
     n = len(_CLAVES)
     for _ in range(n):
         i = _turno.get(modelo, 0)
@@ -119,17 +121,21 @@ def _gemini(prompt, sistema, modelo):
         if espera > 0:
             time.sleep(espera)
         _ultimo[uid] = time.time()
-        config = {"temperature": 0.2, "responseMimeType": "application/json"}
+        # Con búsqueda en Google la API no acepta el modo JSON: se pide JSON en el texto y se extrae
+        config = {"temperature": 0.2} if buscar else {"temperature": 0.2, "responseMimeType": "application/json"}
         if modelo == FLASH:
             config["thinkingConfig"] = {"thinkingBudget": 0}     # sin "pensar": más rápido
+        cuerpo = {"systemInstruction": {"parts": [{"text": sistema}]},
+                  "contents": [{"role": "user", "parts": [{"text": prompt}]}],
+                  "generationConfig": config}
+        if buscar:
+            cuerpo["tools"] = [{"google_search": {}}]
         try:
             r = requests.post(
                 f"https://generativelanguage.googleapis.com/v1beta/models/{modelo}:generateContent",
                 params={"key": k},
-                json={"systemInstruction": {"parts": [{"text": sistema}]},
-                      "contents": [{"role": "user", "parts": [{"text": prompt}]}],
-                      "generationConfig": config},
-                timeout=(10, 90),
+                json=cuerpo,
+                timeout=(10, 120),
             )
         except requests.RequestException:
             continue
@@ -148,11 +154,19 @@ def _gemini(prompt, sistema, modelo):
         if not r.ok:
             continue
         try:
-            partes = r.json()["candidates"][0]["content"]["parts"]
-            texto = "".join(p.get("text", "") for p in partes)
+            cand = r.json()["candidates"][0]
+            texto = "".join(p.get("text", "") for p in cand["content"]["parts"])
         except (KeyError, IndexError, ValueError):
             continue
         datos = _json_de(texto)
+        if datos is not None and buscar and isinstance(datos, dict):
+            vistos, fuentes = set(), []
+            for ch in (cand.get("groundingMetadata") or {}).get("groundingChunks") or []:
+                w = ch.get("web") or {}
+                if w.get("uri") and w.get("uri") not in vistos:
+                    vistos.add(w["uri"])
+                    fuentes.append({"titulo": w.get("title") or "", "url": w["uri"]})
+            datos["_fuentes"] = fuentes[:12]
         if datos is not None:
             USO["gemini"] += 1
             USO["por_modelo"][modelo] = USO["por_modelo"].get(modelo, 0) + 1
@@ -189,8 +203,9 @@ def _groq(prompt, sistema):
     return None
 
 
-def preguntar_json(prompt, sistema="Responde solo con JSON válido, en español.", tarea="fuerte"):
-    """Devuelve un dict con la respuesta, o None si no hay IA o cuota. tarea: 'fuerte' o 'ligero'."""
+def preguntar_json(prompt, sistema="Responde solo con JSON válido, en español.", tarea="fuerte", buscar=False):
+    """Devuelve un dict con la respuesta, o None si no hay IA o cuota. tarea: 'fuerte' o 'ligero'.
+    buscar=True deja que Gemini busque en Google (Groq, el respaldo, no busca: responde sin noticias nuevas)."""
     if not disponible():
         return None
     if USO["gemini"] + USO["groq"] >= MAX_LLAMADAS_CORRIDA:
@@ -199,7 +214,7 @@ def preguntar_json(prompt, sistema="Responde solo con JSON válido, en español.
     datos = None
     for modelo in ORDEN.get(tarea, ORDEN["fuerte"]):
         if _CLAVES and datos is None:
-            datos = _gemini(prompt, sistema, modelo)
+            datos = _gemini(prompt, sistema, modelo, buscar=buscar)
     if datos is None:
         datos = _groq(prompt, sistema)
     if datos is None:

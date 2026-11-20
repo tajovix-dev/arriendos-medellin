@@ -1,0 +1,68 @@
+name: Investigar apartamentos
+
+# Después de cada actualización investiga los apartamentos NUEVOS del sur (ver scraper/investigar.py):
+# 1) recolecta sin IA (ficha original, ubicación real, qué hay cerca, metro),
+# 2) investiga con IA solo barrios sin ficha y conjuntos nuevos (con caché),
+# 3) una sola solicitud de IA opina sobre toda la tanda. Gemini primero; Groq solo si Gemini falla.
+# Tiene un tope diario propio de pedidos de IA para no dejar sin cuota a la actualización.
+
+on:
+  workflow_run:
+    workflows: ["Actualizar apartamentos"]
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      urls:
+        description: "Links de anuncios a investigar ya (separados por espacio). Vacío = solo la cola."
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: investigar
+  cancel-in-progress: false
+
+jobs:
+  investigar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Investigar
+        timeout-minutes: 25
+        env:
+          GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          URLS: ${{ github.event.inputs.urls }}
+        run: |
+          if [ -n "$URLS" ]; then python -m scraper.investigar --url $URLS; else python -m scraper.investigar; fi
+
+      - name: Guardar investigación
+        if: always()
+        run: |
+          git config user.name "actualizador-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/investigacion data/ia_uso.json
+          if [ -f docs/data/investigaciones.json ]; then git add -f docs/data/investigaciones.json; fi
+          if git diff --cached --quiet; then echo "Sin cambios"; exit 0; fi
+          git commit -q -m "Investigación $(date -u +'%Y-%m-%d %H:%M') UTC"
+          for i in 1 2 3; do
+            if git pull --rebase -X theirs origin main && git push origin HEAD:main; then exit 0; fi
+            git rebase --abort 2>/dev/null || true
+            sleep $((i * 15))
+          done
+          echo "::error::No se pudo guardar la investigación tras 3 intentos"
+          exit 1
