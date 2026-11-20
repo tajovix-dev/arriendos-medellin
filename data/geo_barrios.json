@@ -28,6 +28,7 @@
   "lon": -75.5913007,
   "tipo": "lugar"
  },
+ "Envigado|el embrujo": null,
  "Envigado|el esmeraldal": {
   "lat": 6.1755752,
   "lon": -75.5748727,
@@ -56,6 +57,7 @@
   "lon": -75.5748727,
   "tipo": "zona"
  },
+ "Envigado|fontibon": null,
  "Envigado|gualandayes": {
   "lat": 6.1603483,
   "lon": -75.5861037,
@@ -223,6 +225,7 @@
   "tipo": "municipio"
  },
  "Itagüí|alicate": null,
+ "Itagüí|araucaria": null,
  "Itagüí|artex": null,
  "Itagüí|asturias": null,
  "Itagüí|aves maria": null,
