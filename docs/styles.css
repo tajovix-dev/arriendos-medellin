@@ -1294,3 +1294,6 @@ details.datos-g summary { cursor: pointer; font-size: .8rem; color: var(--acento
 .etq.inv.si { background: #1f7a3a; }
 .etq.inv.medio { background: #a86400; }
 .etq.inv.no { background: #9b1c1c; }
+
+/* Versiones unidas en tarjetas pequeñas */
+.mini-v { font-size: .78em; opacity: .85; }

@@ -309,14 +309,14 @@ function versionesHtml(it, completo) {
     return `<li class="v-fila ${sel ? "sel" : ""}">
       <button class="v-elegir" data-version="${esc(v.id)}" aria-pressed="${sel}">
         <span class="v-cab"><b>${esc(sitioDe(v))}</b> ${etq} ${contacto}</span>
-        <span class="v-tipo">${esc(tipoOrigen(v))}</span>
+        <span class="v-tipo">${esc(tipoOrigen(v))}${v.anunciante ? ` · ${esc(v.anunciante)}` : ""}</span>
         <span class="v-dato">${pesos(v.precio)}${v.precio !== it.precio ? ` <span class="aviso-txt">(precio distinto)</span>` : ""}</span>
         <span class="v-fecha">${fechaVersion(v)}</span>
       </button>
       <a class="v-abrir" href="${esc(urlOk(v.url))}" target="_blank" rel="noopener noreferrer">Abrir ↗</a>
     </li>`;
   }).join("");
-  if (!completo) return `<div class="versiones-t"><span class="tenue">En ${todas.length} páginas:</span> ${filas}</div>`;
+  if (!completo) return `<div class="versiones-t"><span class="tenue">🔗 Unimos ${todas.length} versiones del mismo apartamento:</span> ${filas}</div>`;
   return `<p class="tenue">El mismo apartamento está publicado en ${todas.length} páginas. Mostramos como principal la que creemos original
     (★): primero la web de la inmobiliaria, luego el portal donde se publicó y de último los intermediarios. Toca otra versión para verla.</p>
     <ul class="v-lista">${filas}</ul>`;
@@ -1212,7 +1212,12 @@ function miniTarjeta(it, extra = "") {
     <span class="mi"><strong>${pesos(it.precio)}</strong>
       <span class="t">${esc(lugarDe(it))}</span>
       <span class="t">${esc(specsCortas(it))}</span>
-      ${extra}</span></button>`;
+      ${extra}${miniVersiones(it)}</span></button>`;
+}
+/** En las tarjetas pequeñas: qué versiones se unieron (el mismo apartamento en varias páginas). */
+function miniVersiones(it) {
+  const todas = S.dup && it.dup != null ? GRUPOS[it.dup] || [] : [];
+  return todas.length > 1 ? `<span class="t mini-v">🔗 ${todas.length} versiones: ${esc(todas.map(sitioDe).join(" · "))}</span>` : "";
 }
 
 /** Resumen del día + mejores oportunidades, sobre los resultados filtrados. */

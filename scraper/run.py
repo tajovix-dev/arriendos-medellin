@@ -406,6 +406,15 @@ def marcar_duplicados(items, galeria=None):
             o = por_id.get(oid)
             if o and o.get("municipio") == it.get("municipio"):
                 aristas.append((0, it["id"], oid))
+    # Mismo apartamento con otro nombre de inmobiliaria: la descripción trae el código de su propia web
+    # (lo detecta scraper/investigar.py y lo deja en data/investigacion/alias.json)
+    try:
+        alias = json.loads((RAIZ / "data" / "investigacion" / "alias.json").read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        alias = []
+    for a, b in alias:
+        if a in por_id and b in por_id and por_id[a].get("precio") == por_id[b].get("precio"):
+            aristas.append((0, a, b))
     cand = {}
     for it in items:
         if it.get("area") and it.get("hab") and it.get("precio"):

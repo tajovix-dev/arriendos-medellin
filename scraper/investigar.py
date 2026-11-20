@@ -71,7 +71,7 @@ LOTE_GROQ = 6                # Groq gratis tiene poco límite de tokens por minu
 DIAS_REVISAR = 5             # se vuelve a abrir la ficha (¿sigue disponible?) cada tantos días
 DIAS_CONJUNTO = 60           # una investigación de conjunto o barrio vale este tiempo
 SEG_LIMITE = 20 * 60         # tiempo máximo de la corrida
-EXP_VERSION = 4              # sube cuando cambia el formato del expediente (fuerza revisarlos)
+EXP_VERSION = 5              # sube cuando cambia el formato del expediente (fuerza revisarlos)
 DIAS_COLA = 10               # entran a la cola los vistos por primera vez en estos días (o los del perfil)
 PERFIL_FILTRO = {"precio_max": 1_700_000, "hab_min": 2, "banos_min": 2}
 
@@ -532,7 +532,32 @@ def ficha_barrio(municipio, *nombres):
 
 # ---------------------------------------------------------------- Expediente
 
-def expediente(grupo, todos_por_pin):
+RX_CODIGO = re.compile(r"\bC(?:[ÓO]DIGO|OD)\b\.?\s*(?:inmueble\s*)?[:#.\-]?\s*(\d{3,8})\b", re.I)
+F_ALIAS = D_INV / "alias.json"
+
+
+def codigos_en(textos):
+    """Códigos propios de la inmobiliaria que aparecen en la descripción («CÓDIGO: 9761», «COD.17256»)."""
+    return sorted({m.group(1) for t in textos for m in RX_CODIGO.finditer(t or "")})
+
+
+def alias_por_codigo(grupo, codigos, por_sufijo):
+    """El mismo apartamento publicado por la misma inmobiliaria con otro nombre (p. ej. Alquiventas en
+    Ciencuadras = Inmobiliaria La Estrella en su web): la descripción trae el código de su propia web.
+    Se une solo si el otro anuncio es de OTRA fuente, mismo municipio, mismo canon y mismas habitaciones."""
+    base = grupo[0]
+    ids = {it["id"] for it in grupo}
+    fuentes = {it["fuente"] for it in grupo}
+    pares = []
+    for cod in codigos:
+        for o in por_sufijo.get(cod, []):
+            if (o["id"] not in ids and o["fuente"] not in fuentes and o["municipio"] == base["municipio"]
+                    and o["precio"] == base["precio"] and (o.get("hab") or 0) == (base.get("hab") or 0)):
+                pares.append([base["id"], o["id"]])
+    return pares
+
+
+def expediente(grupo, todos_por_pin, por_sufijo=None):
     """grupo: versiones del mismo apartamento. Devuelve el expediente estructurado (sin IA)."""
     base = grupo[0]
     fichas = []
@@ -545,6 +570,7 @@ def expediente(grupo, todos_por_pin):
     disp = [f["disponible"] for f in fichas if f["disponible"] is not None]
     desc = max((f["desc"] for f in fichas), key=len, default="")
     rasgos, conj, sector = leer_texto(desc + " " + " ".join(base.get("amen") or []))
+    codigos = codigos_en([f["desc"] for f in fichas])
 
     # Ubicación: preferir el pin exacto de alguna versión
     lat = lon = None
@@ -616,7 +642,8 @@ def expediente(grupo, todos_por_pin):
         "video": any(f["video"] for f in fichas if f["video"]) if any(f["video"] is not None for f in fichas) else None,
         "versiones": [{k: f.get(k) for k in ("fuente", "url", "disponible", "publicado", "modificado", "anunciante", "tel")}
                       for f in fichas],
-        "rasgos": rasgos, "desc": re.sub(r"\s+", " ", desc)[:700],
+        "rasgos": rasgos, "desc": re.sub(r"\s+", " ", desc)[:700], "codigos": codigos,
+        "alias": alias_por_codigo(grupo, codigos, por_sufijo or {}),
         "ubicacion": ubic, "metro": metro, "recorridos": reco, "cerca": cerca, "barrio_ficha": fb,
         "hist": base.get("hist"),
         "fecha": ahora().isoformat(timespec="minutes"),
@@ -841,6 +868,9 @@ def principal(urls=()):
         v.sort(key=lambda it: (it.get("fuente") == "Rentola", it.get("visto1", "")))
         G[min(it["id"] for it in v)] = v
     por_pin = {}
+    por_sufijo = {}
+    for x in L:
+        por_sufijo.setdefault(x["id"].rsplit("-", 1)[-1], []).append(x)
     for x in L:
         if x.get("lat") and not x.get("aprox"):
             por_pin.setdefault(f"{x['lat']:.5f},{x['lon']:.5f}", set()).add(norm(x.get("anunciante")))
@@ -878,7 +908,7 @@ def principal(urls=()):
         if time.time() - T0 > SEG_LIMITE * 0.6 and k not in pedidos:
             break
         try:
-            e = expediente(G[k], por_pin)
+            e = expediente(G[k], por_pin, por_sufijo)
         except Exception as ex:   # un anuncio raro no debe tumbar la corrida
             print(f"  ! {k}: {ex}")
             continue
@@ -958,6 +988,9 @@ def principal(urls=()):
         del estado["grupos"][k]
     escribir(F_ESTADO, estado)
     publicar(estado, G)
+    # Pares «mismo apartamento» detectados por código: los usa scraper/run.py al agrupar repetidos
+    escribir(F_ALIAS, sorted({tuple(p) for g in estado["grupos"].values() for p in (g.get("exp") or {}).get("alias", [])}),
+             compacto=True)
     print(f"Listo en {round(time.time() - T0)} s. Uso de IA hoy en esta función: {estado['uso_ia'].get('n', 0) if 'uso_ia' in estado else 0}")
 
 
