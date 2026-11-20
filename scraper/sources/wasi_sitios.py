@@ -372,13 +372,17 @@ def _ficha_alnago(texto):
     }
 
 
-def _alnago(cache, pres, conocidos, puntos, log):
+def _alnago(cache, pres, conocidos, puntos, log, extra=()):
     corto, base, fuente = ALNAGO
     sm = pres.get(f"{base}/sitemap.xml")
     if not sm or sm == GONE:
         lista = None
     else:
         lista = dict(re.findall(r"<loc>" + re.escape(base) + r"/es/inmueble/(\d+)</loc>\s*<lastmod>([^<]+)</lastmod>", sm))
+        # El sitemap de Alnago no trae todo su inventario. Los portales donde Alnago publica dan su código
+        # (el mismo de la ficha /es/inmueble/{código}): esas fichas también se leen
+        for c in extra:
+            lista.setdefault(str(c), "portal")
     pmin, pmax = config.PRECIO_MIN_GUARDAR, config.PRECIO_MAX_GUARDAR
     fotos_de = {}
     if lista:
@@ -386,7 +390,9 @@ def _alnago(cache, pres, conocidos, puntos, log):
             if c not in lista:
                 del cache[c]
         pendientes = [c for c in lista if c not in cache or cache[c][0] != lista[c]]
-        pendientes.sort(key=lambda c: (c in cache, -int(c)))   # primero nunca vistos, del más nuevo
+        extra_s = {str(c) for c in extra}
+        # Primero las que un portal confirma activas, luego las nunca vistas (de la más nueva)
+        pendientes.sort(key=lambda c: (c not in extra_s, c in cache, -int(c)))
         for c in pendientes:
             if not pres.queda():
                 break
@@ -446,7 +452,8 @@ def scrape(estado, conocidos, log):
     for corto, base, fuente, tel_of, wa_of in SITIOS:
         resultados.append((corto, _sitio_wasi(corto, base, fuente, tel_of, wa_of, cache.setdefault(corto, {}),
                                               pres, conocidos, puntos, log)))
-    resultados.append((ALNAGO[0], _alnago(cache.setdefault(ALNAGO[0], {}), pres, conocidos, puntos, log)))
+    resultados.append((ALNAGO[0], _alnago(cache.setdefault(ALNAGO[0], {}), pres, conocidos, puntos, log,
+                                          extra=estado.get("extra_alnago") or ())))
     fechas = _fechas_coherentes(puntos)
     pmin, pmax = config.PRECIO_MIN_GUARDAR, config.PRECIO_MAX_GUARDAR
     for corto, lista in resultados:

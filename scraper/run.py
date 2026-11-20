@@ -348,7 +348,21 @@ def _ids_por_codigo(it):
         return [f"aa-{c}"]
     if "arrendamientos envigado" in nom and "-" in c:
         return [f"ae-{c.split('-')[-1]}"]
+    # Webs Wasi: el código en el portal es el mismo de su ficha (verificado: Alnago 10560886)
+    if c.isdigit():
+        if "alnago" in nom:
+            return [f"ws-alnago-{c}"]
+        if "la palma" in nom:
+            return [f"ws-lapalma-{c}"]
+        if "urve" in nom:
+            return [f"ws-urve-{c}"]
     return []
+
+
+def _tel_clave(it):
+    """Últimos 10 dígitos del teléfono o WhatsApp del anuncio (para comparar entre portales)."""
+    t = re.sub(r"\D", "", str(it.get("tel") or it.get("wa") or ""))
+    return t[-10:] if len(t) >= 7 else None
 
 
 def _sitio(it):
@@ -407,6 +421,7 @@ def marcar_duplicados(items, galeria=None):
                 for x in (a, b):
                     if x["id"] not in fotos:
                         fotos[x["id"]] = _fotos_clave(x, galeria)
+                antes = len(aristas)
                 if fotos[a["id"]] & fotos[b["id"]]:
                     aristas.append((1, a["id"], b["id"]))
                 elif a.get("lat") and b.get("lat") and not a.get("aprox") and not b.get("aprox"):
@@ -417,6 +432,13 @@ def marcar_duplicados(items, galeria=None):
                     ta, tb = _norm_barrio({"barrio": a.get("titulo")}), _norm_barrio({"barrio": b.get("titulo")})
                     if len(ta) > 20 and ta == tb and _norm_barrio(a) and _norm_barrio(a) == _norm_barrio(b):
                         aristas.append((3, a["id"], b["id"]))
+                # Mismo anunciante (mismo teléfono) publicando el mismo apartamento en otro portal: canon,
+                # habitaciones, baños, área (±1 m²) y municipio iguales. Los portales ubican distinto la
+                # dirección y guardan sus propias copias de las fotos, así que esto lo detecta mejor.
+                if (len(aristas) == antes and a["fuente"] != b["fuente"] and abs(a["area"] - b["area"]) <= 1
+                        and a.get("banos") and a.get("banos") == b.get("banos") and a.get("municipio") == b.get("municipio")
+                        and _tel_clave(a) and _tel_clave(a) == _tel_clave(b)):
+                    aristas.append((2.5, a["id"], b["id"]))
     aristas.sort(key=lambda e: e[0])
 
     padre = {}
@@ -644,6 +666,13 @@ def main():
         if args.solo and fuente.NOMBRE != args.solo:
             continue
         log(f"== {fuente.NOMBRE}")
+        if fuente is wasi_sitios:
+            # El sitemap de Alnago está incompleto: Fincaraíz da el código de cada anuncio que Alnago publica allí
+            reciente = (ahora() - timedelta(days=config.DIAS_INACTIVO)).isoformat()
+            estado.setdefault(fuente.NOMBRE, {})["extra_alnago"] = sorted(
+                {a["cod"] for a in anuncios.values() if a.get("fuente") == "Fincaraíz" and str(a.get("cod") or "").isdigit()
+                 and "alnago" in (a.get("anunciante") or "").lower() and a.get("visto", "") >= reciente
+                 and a.get("precio", 0) <= config.PRECIO_MAX_GUARDAR})
         cont = {"leidos": 0, "nuevos": 0, "bajaron": 0, "retirados": 0, "error": None}
         conocidos = set(anuncios)
         try:
