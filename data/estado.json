@@ -1,77 +1,77 @@
 {
  "fincaraiz": {
   "medellin": {
-   "cursor": 33,
+   "cursor": 1,
    "paginas": 35,
-   "ciclos": 10
+   "ciclos": 11
   },
   "sabaneta": {
    "cursor": 1,
    "paginas": 8,
-   "ciclos": 28
+   "ciclos": 29
   },
   "envigado": {
    "cursor": 1,
    "paginas": 3,
-   "ciclos": 28
+   "ciclos": 29
   },
   "itagui": {
    "cursor": 1,
    "paginas": 5,
-   "ciclos": 28
+   "ciclos": 29
   },
   "la-estrella": {
    "cursor": 1,
    "paginas": 6,
-   "ciclos": 28
+   "ciclos": 29
   }
  },
  "rentola": {
   "sabaneta": {
-   "cursor": 1,
-   "paginas": 273,
+   "cursor": 26,
+   "paginas": 296,
    "ciclos": 10
   },
   "envigado": {
-   "cursor": 1,
-   "paginas": 318,
+   "cursor": 26,
+   "paginas": 401,
    "ciclos": 10
   },
   "itagui": {
-   "cursor": 1,
-   "paginas": 103,
+   "cursor": 26,
+   "paginas": 117,
    "ciclos": 10
   },
   "la-estrella": {
-   "cursor": 1,
-   "paginas": 57,
+   "cursor": 26,
+   "paginas": 58,
    "ciclos": 10
   }
  },
  "albertoalvarez": {
   "medellin": {
-   "cursor": 81,
-   "paginas": 116,
+   "cursor": 101,
+   "paginas": 115,
    "ciclos": 4
   },
   "sabaneta": {
-   "cursor": 1,
+   "cursor": 21,
    "paginas": 35,
    "ciclos": 14
   },
   "envigado": {
-   "cursor": 21,
+   "cursor": 41,
    "paginas": 47,
    "ciclos": 9
   },
   "itagui": {
    "cursor": 1,
-   "ciclos": 29,
+   "ciclos": 30,
    "paginas": 8
   },
   "la-estrella": {
    "cursor": 1,
-   "ciclos": 29,
+   "ciclos": 30,
    "paginas": 9
   }
  },
@@ -103,7 +103,7 @@
     [
      300000,
      1699999,
-     15
+     16
     ],
     [
      1700000,
@@ -118,7 +118,7 @@
     [
      1800000,
      1800000,
-     49
+     48
     ],
     [
      1800001,
@@ -138,7 +138,7 @@
     [
      1900000,
      1900000,
-     52
+     321
     ],
     [
      1900001,
@@ -148,7 +148,7 @@
     [
      1998126,
      2000000,
-     66
+     67
     ]
    ],
    "apartaestudio/sabaneta": [
@@ -181,8 +181,13 @@
    "apartamento/envigado": [
     [
      300000,
+     1269999,
+     6
+    ],
+    [
+     1270000,
      1599999,
-     20
+     15
     ],
     [
      1600000,
@@ -234,7 +239,7 @@
     [
      1600000,
      1600000,
-     31
+     33
     ],
     [
      1600001,
@@ -244,7 +249,7 @@
     [
      1700000,
      1700000,
-     44
+     46
     ],
     [
      1700001,
@@ -311,7 +316,7 @@
     [
      1950000,
      1998125,
-     6
+     5
     ],
     [
      1998126,
@@ -340,7 +345,7 @@
     [
      300000,
      1399999,
-     10
+     9
     ],
     [
      1400000,
@@ -350,7 +355,7 @@
     [
      1500000,
      1599999,
-     11
+     10
     ],
     [
      1600000,
@@ -360,22 +365,22 @@
     [
      1650000,
      1699999,
-     14
+     13
     ],
     [
      1700000,
      1700000,
-     36
+     35
     ],
     [
      1700001,
      1799999,
-     12
+     13
     ],
     [
      1800000,
      1800000,
-     34
+     444
     ],
     [
      1800001,
@@ -407,14 +412,14 @@
    ]
   },
   "inicio": 0,
-  "peticiones": 60,
-  "ciclos": 13
+  "peticiones": 64,
+  "ciclos": 14
  },
  "espaciourbano": {
   "listas": {
    "10001-1": {
     "paginas": 30,
-    "max": 1822827
+    "max": 1822972
    },
    "10001-4": {
     "paginas": 2,
@@ -422,7 +427,7 @@
    },
    "10005-1": {
     "paginas": 25,
-    "max": 1822871
+    "max": 1822953
    },
    "10005-4": {
     "paginas": 1,
@@ -430,7 +435,7 @@
    },
    "10002-1": {
     "paginas": 5,
-    "max": 1822713
+    "max": 1822978
    },
    "10002-4": {
     "paginas": 1,
@@ -438,22 +443,22 @@
    },
    "10003-1": {
     "paginas": 5,
-    "max": 1822808
+    "max": 1822952
    },
    "10003-4": {
     "paginas": 1,
     "max": 1801774
    },
    "10000-1": {
-    "paginas": 109,
-    "max": 1822878
+    "paginas": 110,
+    "max": 1823006
    },
    "10000-4": {
     "paginas": 13,
-    "max": 1822879
+    "max": 1822981
    }
   },
-  "ciclos": 14,
+  "ciclos": 15,
   "cursor": [
    0,
    1
@@ -839,7 +844,7 @@
    ],
    "72723": [
     1200000,
-    2514,
+    2515,
     18,
     1,
     1,
@@ -851,7 +856,7 @@
    ],
    "72751": [
     1200000,
-    2514,
+    2515,
     18,
     1,
     1,
@@ -875,7 +880,7 @@
    ],
    "72719": [
     1200000,
-    2514,
+    2515,
     18,
     1,
     1,
@@ -887,11 +892,11 @@
    ],
    "72724": [
     1200000,
-    2514,
+    2515,
     18,
     1,
     1,
-    null,
+    0,
     3,
     "El Salado",
     6.146471,
@@ -911,7 +916,7 @@
    ],
    "72715": [
     1200000,
-    2514,
+    2515,
     18,
     1,
     1,
@@ -923,7 +928,7 @@
    ],
    "72717": [
     1200000,
-    2514,
+    2515,
     18,
     1,
     1,
@@ -935,7 +940,7 @@
    ],
    "72722": [
     1200000,
-    2514,
+    2515,
     18,
     1,
     1,
@@ -1535,11 +1540,11 @@
    ],
    "80550": [
     1200000,
-    2512,
+    2515,
     24,
     1,
     1,
-    0,
+    null,
     3,
     "La Magnolia",
     6.17498,
@@ -1547,7 +1552,7 @@
    ],
    "79950": [
     2000000,
-    2512,
+    2515,
     35,
     1,
     1,
@@ -2331,7 +2336,7 @@
    ],
    "72716": [
     1200000,
-    2514,
+    2515,
     18,
     1,
     1,
@@ -2780,7 +2785,7 @@
   "inicializado": true
  },
  "nutibara": {
-  "ultima_descarga": 1795116506,
+  "ultima_descarga": 1795138853,
   "inicializado": true
  },
  "doomos": {
@@ -2796,7 +2801,7 @@
    "2026-11-04": 5,
    "2026-11-15": 2,
    "2026-11-17": 61,
-   "2026-11-18": 36
+   "2026-11-18": 62
   },
   "ids_fecha": [
    876853,
@@ -2967,6 +2972,7 @@
    892499,
    892500,
    892521,
+   892550,
    892556,
    892564,
    892565,
@@ -2975,6 +2981,7 @@
    892585,
    892689,
    892769,
+   892938,
    892952,
    892964,
    892970,
@@ -2984,19 +2991,43 @@
    893016,
    893021,
    893023,
+   893032,
+   893047,
    893053,
    893056,
    893065,
+   893067,
    893068,
    893070,
+   893121,
    893161,
+   893164,
+   893173,
+   893180,
    893197,
    893229,
+   893270,
+   893311,
+   893368,
    893402,
+   893469,
    893494,
+   893524,
+   893527,
+   893580,
+   893586,
+   893613,
+   893629,
+   893657,
+   893667,
    893685,
+   893705,
    893711,
-   893717
+   893712,
+   893717,
+   893750,
+   893792,
+   893904
   ],
   "coords_genericas": [
    [
@@ -3022,9 +3053,13 @@
    [
     "6.1906357",
     "-75.6039863"
+   ],
+   [
+    "6.2476376",
+    "-75.5658153"
    ]
   ],
-  "corridas": 14
+  "corridas": 15
  },
  "softinm": {
   "ok": true
@@ -3458,6 +3493,14 @@
      "lo": -75.5574128,
      "t": "573332610414",
      "w": "573332610414"
+    },
+    "10601446": {
+     "b": "La Candelaria",
+     "e": 4,
+     "la": 6.2513368,
+     "lo": -75.5646009,
+     "t": "573332610414",
+     "w": "573332610414"
     }
    },
    "urve": {
@@ -3727,12 +3770,7 @@
      null
     ],
     "10012998": [
-     "2026-11-19T17:45:25.408Z",
-     "2026-05-27",
-     null
-    ],
-    "10011516": [
-     "2026-11-19T17:45:29.806Z",
+     "2026-11-19T21:51:02.412Z",
      "2026-05-27",
      null
     ],
@@ -3751,13 +3789,8 @@
      "2026-05-26",
      null
     ],
-    "10010157": [
-     "2026-05-26T14:50:53.309Z",
-     "",
-     null
-    ],
     "10008317": [
-     "2026-11-19T17:45:28.023Z",
+     "2026-11-19T21:51:03.144Z",
      "2026-05-25",
      null
     ],
@@ -3766,13 +3799,8 @@
      "2026-05-23",
      null
     ],
-    "10006461": [
-     "2026-05-27T15:31:38.322Z",
-     "2026-05-25",
-     null
-    ],
     "10005691": [
-     "2026-11-19T17:45:27.621Z",
+     "2026-11-19T21:51:02.986Z",
      "2026-05-22",
      null
     ],
@@ -3782,12 +3810,12 @@
      null
     ],
     "10001766": [
-     "2026-11-19T17:45:26.844Z",
+     "2026-11-19T21:51:02.840Z",
      "2026-05-20",
      null
     ],
     "10001681": [
-     "2026-11-19T17:45:26.411Z",
+     "2026-11-19T21:51:02.696Z",
      "2026-05-20",
      null
     ],
@@ -3797,17 +3825,12 @@
      null
     ],
     "9993580": [
-     "2026-11-19T17:45:25.146Z",
+     "2026-11-19T21:51:02.253Z",
      "2026-05-16",
      null
     ],
-    "9992440": [
-     "2026-05-25T19:09:43.409Z",
-     "2026-05-15",
-     null
-    ],
     "9984784": [
-     "2026-11-19T17:45:23.615Z",
+     "2026-11-19T21:51:00.654Z",
      "2026-05-12",
      {
       "tipo": "Apartamento",
@@ -3827,7 +3850,7 @@
      }
     ],
     "9980146": [
-     "2026-11-19T17:45:23.306Z",
+     "2026-11-19T21:44:44.476Z",
      "2026-05-10",
      {
       "tipo": "Apartamento",
@@ -3847,18 +3870,13 @@
      }
     ],
     "9819943": [
-     "2026-11-19T17:44:57.821Z",
+     "2026-11-19T21:44:27.465Z",
      "2026-02-26",
      null
     ],
     "9611057": [
      "2026-10-08T14:38:57.851Z",
      "2025-11-07",
-     null
-    ],
-    "9527769": [
-     "2026-05-25T21:47:36.662Z",
-     "2025-10-11",
      null
     ],
     "9483233": [
@@ -3882,23 +3900,8 @@
      }
     ],
     "8998075": [
-     "2026-11-19T17:44:26.329Z",
+     "2026-11-19T21:44:14.180Z",
      "2026-07-30",
-     null
-    ],
-    "8474203": [
-     "2025-02-10T21:20:13.854Z",
-     "2025-02-10",
-     null
-    ],
-    "8441405": [
-     "2026-03-10T13:44:11.461Z",
-     "2025-01-30",
-     null
-    ],
-    "8430694": [
-     "2025-01-30T15:13:10.858Z",
-     "2025-01-30",
      null
     ],
     "8421132": [
@@ -3907,7 +3910,7 @@
      null
     ],
     "8114875": [
-     "2026-11-19T17:44:23.290Z",
+     "2026-11-19T21:44:10.026Z",
      "2026-03-11",
      null
     ],
@@ -3916,59 +3919,14 @@
      "2024-06-13",
      null
     ],
-    "7410132": [
-     "2024-05-14T20:01:57.110Z",
-     "2024-04-17",
-     null
-    ],
-    "6950008": [
-     "2025-01-29T21:33:41.368Z",
-     "2023-09-14",
-     null
-    ],
-    "6756006": [
-     "2023-09-23T14:13:41.065Z",
-     "2023-06-30",
-     null
-    ],
-    "6722414": [
-     "2023-09-23T14:13:14.312Z",
-     "2023-06-20",
-     null
-    ],
     "6714756": [
      "2023-09-23T14:12:53.187Z",
      "2023-06-16",
      null
     ],
-    "6694874": [
-     "2023-09-23T14:12:53.272Z",
-     "2023-06-13",
-     null
-    ],
-    "6694770": [
-     "2023-09-23T14:12:53.275Z",
-     "2023-08-25",
-     null
-    ],
     "6503279": [
      "2026-10-07T19:46:38.693Z",
      "2023-04-14",
-     null
-    ],
-    "5515231": [
-     "2024-05-16T19:59:38.827Z",
-     "2022-08-24",
-     null
-    ],
-    "5349664": [
-     "2024-05-14T21:54:40.261Z",
-     "2022-07-13",
-     null
-    ],
-    "5317929": [
-     "2024-05-14T19:56:25.420Z",
-     "2022-07-05",
      null
     ],
     "5241168": [
@@ -4441,26 +4399,6 @@
      "2026-09-04",
      null
     ],
-    "10359792": [
-     "2026-11-19T17:46:47.718Z",
-     "2026-09-03",
-     {
-      "tipo": "Apartamento",
-      "precio": 2300000,
-      "admin": null,
-      "area": 50,
-      "hab": 2,
-      "banos": 2,
-      "parq": 0,
-      "lat": 6.266115088250163,
-      "lon": -75.60151576995851,
-      "wa": "573015513657",
-      "m": "Medellín",
-      "b": "Calasanz",
-      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nNDMwOTU1MjAyNjA5MDMwMTQ2MDIuanBnIiwiZWRpdHMiOnsibm9ybWFsaXNlIjp0cnVlLCJyb3RhdGUiOjAsInJlc2l6ZSI6eyJ3aWR0aCI6OTc5LCJoZWlnaHQiOjc0MywiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
-      "x": false
-     }
-    ],
     "9932242": [
      "2026-09-04T21:07:07.561Z",
      "2026-04-17",
@@ -4852,7 +4790,7 @@
      null
     ],
     "9984324": [
-     "2026-11-19T17:45:22.990Z",
+     "2026-11-19T21:44:43.714Z",
      "2026-05-12",
      {
       "tipo": "Apartamento",
@@ -4892,7 +4830,7 @@
      null
     ],
     "9973705": [
-     "2026-11-19T17:45:22.664Z",
+     "2026-11-19T21:44:43.497Z",
      "2026-05-08",
      {
       "tipo": "Apartamento",
@@ -4912,17 +4850,17 @@
      }
     ],
     "9972496": [
-     "2026-11-19T17:45:22.267Z",
+     "2026-11-19T21:44:43.228Z",
      "2026-05-06",
      null
     ],
     "9972271": [
-     "2026-11-19T17:45:21.714Z",
+     "2026-11-19T21:44:42.692Z",
      "2026-05-06",
      null
     ],
     "9971868": [
-     "2026-11-19T17:45:21.893Z",
+     "2026-11-19T21:44:42.988Z",
      "2026-05-06",
      null
     ],
@@ -5271,11 +5209,6 @@
      "2026-10-31",
      null
     ],
-    "10539145": [
-     "2026-10-30T18:33:23.716Z",
-     "2026-10-30",
-     null
-    ],
     "10534835": [
      "2026-10-31T14:23:51.815Z",
      "2026-10-31",
@@ -5341,26 +5274,6 @@
      "2026-10-06",
      null
     ],
-    "10471853": [
-     "2026-11-19T17:47:43.887Z",
-     "2026-10-06",
-     {
-      "tipo": "Apartamento",
-      "precio": 2000000,
-      "admin": null,
-      "area": 45,
-      "hab": 2,
-      "banos": 2,
-      "parq": 0,
-      "lat": 6.243978,
-      "lon": -75.561518,
-      "wa": "573015513657",
-      "m": "Medellín",
-      "b": "Centro",
-      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nX2FwYXJ0YW1lbnRvX2VuX2FycmllbmRvX2VuX2Nlbl8xNzkxMzE2NDUzLTIwNjRfOTU5LmpwZyIsImVkaXRzIjp7InJvdGF0ZSI6MCwicmVzaXplIjp7IndpZHRoIjo5NzksImhlaWdodCI6NzQzLCJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
-      "x": false
-     }
-    ],
     "10334010": [
      "2026-11-17T19:54:51.939Z",
      "2026-04-14",
@@ -5412,32 +5325,32 @@
      null
     ],
     "9970439": [
-     "2026-11-19T17:45:21.516Z",
+     "2026-11-19T21:44:42.465Z",
      "2026-05-06",
      null
     ],
     "9965410": [
-     "2026-11-19T17:45:21.187Z",
+     "2026-11-19T21:44:42.179Z",
      "2026-05-04",
      null
     ],
     "9965223": [
-     "2026-11-19T17:45:20.875Z",
+     "2026-11-19T21:44:41.834Z",
      "2026-05-04",
      null
     ],
     "9959500": [
-     "2026-11-19T17:45:20.510Z",
+     "2026-11-19T21:44:41.588Z",
      "2026-04-30",
      null
     ],
     "9956832": [
-     "2026-11-19T17:45:20.244Z",
+     "2026-11-19T21:44:41.388Z",
      "2026-04-29",
      null
     ],
     "9956824": [
-     "2026-11-19T17:45:19.728Z",
+     "2026-11-19T21:44:41.138Z",
      "2026-04-29",
      null
     ],
@@ -5457,17 +5370,17 @@
      null
     ],
     "9950051": [
-     "2026-11-19T17:45:18.172Z",
+     "2026-11-19T21:44:40.270Z",
      "2026-04-26",
      null
     ],
     "9949205": [
-     "2026-11-19T17:45:17.864Z",
+     "2026-11-19T21:44:37.835Z",
      "2026-04-27",
      null
     ],
     "9947196": [
-     "2026-11-19T17:45:18.807Z",
+     "2026-11-19T21:44:40.505Z",
      "2026-04-26",
      null
     ],
@@ -5487,7 +5400,7 @@
      null
     ],
     "9939908": [
-     "2026-11-19T17:45:19.310Z",
+     "2026-11-19T21:44:40.903Z",
      "2026-04-21",
      null
     ],
@@ -5661,11 +5574,6 @@
       "x": false
      }
     ],
-    "7432454": [
-     "2026-11-17T18:40:14.877Z",
-     "2024-04-30",
-     null
-    ],
     "7389064": [
      "2024-04-30T13:20:35.987Z",
      "2024-04-08",
@@ -5820,6 +5728,251 @@
      "2024-10-21T13:38:11.903Z",
      "2023-12-14",
      null
+    ],
+    "10547601": [
+     "2026-11-03T19:49:06.419Z",
+     "2026-11-03",
+     {
+      "tipo": "Apartamento",
+      "precio": 2300000,
+      "admin": null,
+      "area": 70,
+      "hab": 3,
+      "banos": 2,
+      "parq": 1,
+      "lat": 6.227465,
+      "lon": -75.560313,
+      "wa": "573015513657",
+      "m": "Medellín",
+      "b": "Loma del Indio",
+      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nX2FwYXJ0YW1lbnRvX2VuX2FycmllbmRvX2VuX2xvbV8xNzkzNzM1MjM5LTA0NjhfNzk3OC5qcGciLCJlZGl0cyI6eyJyb3RhdGUiOjAsInJlc2l6ZSI6eyJ3aWR0aCI6OTc5LCJoZWlnaHQiOjc0MywiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "x": false
+     }
+    ],
+    "10482226": [
+     "2026-10-09T19:10:45.536Z",
+     "2026-10-09",
+     {
+      "tipo": "Apartamento",
+      "precio": 1900000,
+      "admin": null,
+      "area": 40,
+      "hab": 2,
+      "banos": 1,
+      "parq": 1,
+      "lat": 6.248299,
+      "lon": -75.610656,
+      "wa": "573015513657",
+      "m": "Medellín",
+      "b": "Barrio Cristobal",
+      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nX2FwYXJ0YW1lbnRvX2VuX2FycmllbmRvX2VuX2Jhcl8xNzkxNTcyOTY4LTYyXzE5MzYuanBnIiwiZWRpdHMiOnsicm90YXRlIjowLCJyZXNpemUiOnsid2lkdGgiOjk3OSwiaGVpZ2h0Ijo3NDMsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+      "x": false
+     }
+    ],
+    "10268817": [
+     "2026-08-24T15:14:55.494Z",
+     "2026-08-11",
+     null
+    ],
+    "10087081": [
+     "2026-06-25T16:08:54.249Z",
+     "",
+     null
+    ],
+    "9947285": [
+     "2026-11-19T21:44:37.311Z",
+     "2026-04-27",
+     null
+    ],
+    "9942306": [
+     "2026-04-22T18:20:49.715Z",
+     "2026-04-22",
+     null
+    ],
+    "9940449": [
+     "2026-04-21T21:33:19.808Z",
+     "2026-04-21",
+     null
+    ],
+    "9936339": [
+     "2026-04-20T20:33:41.287Z",
+     "2026-04-20",
+     null
+    ],
+    "9884939": [
+     "2026-04-21T21:42:12.236Z",
+     "2026-03-25",
+     null
+    ],
+    "9664410": [
+     "2026-11-19T19:34:21.685Z",
+     "2025-12-04",
+     null
+    ],
+    "8167935": [
+     "2024-10-11T14:59:32.227Z",
+     "2024-10-11",
+     null
+    ],
+    "8161855": [
+     "2024-10-09T19:27:55.545Z",
+     "2024-10-09",
+     null
+    ],
+    "8133181": [
+     "2024-09-30T20:56:38.721Z",
+     "2024-09-28",
+     null
+    ],
+    "8115186": [
+     "2024-09-27T13:28:51.655Z",
+     "2024-09-23",
+     {
+      "tipo": "Apartamento",
+      "precio": 3000000,
+      "admin": null,
+      "area": 90,
+      "hab": 3,
+      "banos": 3,
+      "parq": 1,
+      "lat": 6.163680940877508,
+      "lon": -75.63140630722046,
+      "wa": "573015513657",
+      "m": "Itagüí",
+      "b": "Suramericana",
+      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nNDMwOTU1MjAyNDA5MjMwNDU3MjIuanBnIiwiZWRpdHMiOnsibm9ybWFsaXNlIjp0cnVlLCJyb3RhdGUiOjAsInJlc2l6ZSI6eyJ3aWR0aCI6OTc5LCJoZWlnaHQiOjc0MywiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "x": false
+     }
+    ],
+    "7431895": [
+     "2024-04-27T14:48:57.061Z",
+     "2024-04-26",
+     {
+      "tipo": "Apartamento",
+      "precio": 3000000,
+      "admin": null,
+      "area": 76,
+      "hab": 3,
+      "banos": 2,
+      "parq": 1,
+      "lat": 6.146016401359179,
+      "lon": -75.6238102912903,
+      "wa": "573015513657",
+      "m": "Sabaneta",
+      "b": "Ancón Sur",
+      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nNDMwOTUxMjIwMjQwNDI2MDUwNDQ0LmpwZWciLCJlZGl0cyI6eyJub3JtYWxpc2UiOnRydWUsInJvdGF0ZSI6MCwicmVzaXplIjp7IndpZHRoIjo5NzksImhlaWdodCI6NzQzLCJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+      "x": false
+     }
+    ],
+    "7428259": [
+     "2024-04-27T14:44:38.866Z",
+     "2024-04-25",
+     {
+      "tipo": "Apartamento",
+      "precio": 2900000,
+      "admin": null,
+      "area": 74,
+      "hab": 3,
+      "banos": 2,
+      "parq": 1,
+      "lat": 6.153270027293551,
+      "lon": -75.60673534870149,
+      "wa": "573015513657",
+      "m": "Sabaneta",
+      "b": "La Florida",
+      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nNDMwOTUzMjAyNDA0MjUwMTAzMjEuanBlZyIsImVkaXRzIjp7Im5vcm1hbGlzZSI6dHJ1ZSwicm90YXRlIjowLCJyZXNpemUiOnsid2lkdGgiOjk3OSwiaGVpZ2h0Ijo3NDMsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+      "x": false
+     }
+    ],
+    "7428084": [
+     "2024-04-27T14:42:37.278Z",
+     "2024-04-25",
+     {
+      "tipo": "Apartamento",
+      "precio": 2950000,
+      "admin": null,
+      "area": 76,
+      "hab": 3,
+      "banos": 2,
+      "parq": 1,
+      "lat": 6.146123073045496,
+      "lon": -75.62406778335571,
+      "wa": "573015513657",
+      "m": "Sabaneta",
+      "b": "Ancón Sur",
+      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nNDMwOTUxNjIwMjQwNDI1MTE1MDQ4LmpwZWciLCJlZGl0cyI6eyJub3JtYWxpc2UiOnRydWUsInJvdGF0ZSI6MCwicmVzaXplIjp7IndpZHRoIjo5NzksImhlaWdodCI6NzQzLCJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+      "x": false
+     }
+    ],
+    "7336967": [
+     "2024-04-29T14:10:01.617Z",
+     "2024-03-11",
+     null
+    ],
+    "6658957": [
+     "2023-09-23T14:11:39.128Z",
+     "2023-05-31",
+     {
+      "tipo": "Apartamento",
+      "precio": 4700000,
+      "admin": null,
+      "area": 84,
+      "hab": 2,
+      "banos": 2,
+      "parq": 1,
+      "lat": null,
+      "lon": null,
+      "wa": "573015513657",
+      "m": "Envigado",
+      "b": null,
+      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nX2FycmVuZGFtb3NfYXBhcnRhbWVudG9fZW5fZW52aV8xNjg1NTYxMjAyLTk5NjRfMzEzMC5qcGciLCJlZGl0cyI6eyJub3JtYWxpc2UiOnRydWUsInJvdGF0ZSI6MCwicmVzaXplIjp7IndpZHRoIjo5NzksImhlaWdodCI6NzQzLCJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+      "x": false
+     }
+    ],
+    "6602207": [
+     "2023-09-23T14:11:16.807Z",
+     "2023-05-19",
+     null
+    ],
+    "6601572": [
+     "2023-09-23T14:11:16.835Z",
+     "2023-05-19",
+     {
+      "tipo": "Apartamento",
+      "precio": 3500000,
+      "admin": null,
+      "area": 92,
+      "hab": 4,
+      "banos": 4,
+      "parq": 1,
+      "lat": null,
+      "lon": null,
+      "wa": "573015513657",
+      "m": "Sabaneta",
+      "b": "Asdesillas",
+      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nX2FycmVuZGFtb3NfYXBhcnRhbWVudG9fZW5fYXNkZV8xNjg0NTIyNzA5LTc2MjNfODgyMy5qcGciLCJlZGl0cyI6eyJub3JtYWxpc2UiOnRydWUsInJvdGF0ZSI6MCwicmVzaXplIjp7IndpZHRoIjo5NzksImhlaWdodCI6NzQzLCJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+      "x": false
+     }
+    ],
+    "6601548": [
+     "2023-09-23T14:11:16.850Z",
+     "2023-05-19",
+     {
+      "tipo": "Apartamento",
+      "precio": 2700000,
+      "admin": null,
+      "area": 77,
+      "hab": 3,
+      "banos": 2,
+      "parq": 0,
+      "lat": 6.1532684,
+      "lon": -75.6054174,
+      "wa": "573015513657",
+      "m": "Sabaneta",
+      "b": "Asdesillas",
+      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nX2FycmVuZGFtb3NfYXBhcnRhbWVudG9fZW5fYXNkZV8xNjg0NTIxOTEyLTUzMDlfNjY2NS5qcGciLCJlZGl0cyI6eyJub3JtYWxpc2UiOnRydWUsInJvdGF0ZSI6MCwicmVzaXplIjp7IndpZHRoIjo5NzksImhlaWdodCI6NzQzLCJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+      "x": false
+     }
     ]
    }
   },
