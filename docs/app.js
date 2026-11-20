@@ -1725,8 +1725,11 @@ function investigacionHtml(it) {
   const datos = [
     v.disponible === false ? "❌ Ya no está disponible en sus páginas" : v.disponible ? "✅ Sigue disponible (revisado en la página original)" : "",
     v.publicado ? `📅 Publicado ${esc(fechaCorta(v.publicado))}${v.modificado ? ` · modificado ${esc(fechaCorta(v.modificado))}` : ""}` : "",
-    `📍 Ubicación: ${esc(v.ubic.tipo)}${v.ubic.barrio ? ` · según el mapa queda en <b>${esc(v.ubic.barrio)}</b>` : ""}${v.ubic.via ? ` (${esc(v.ubic.via)})` : ""}`,
-    v.sector ? `📝 La descripción dice «${esc(v.sector)}»` : "",
+    v.barrio ? `🏘️ Barrio: <b>${esc(v.barrio)}</b>` : "",
+    v.sector && typeof v.sector === "object" && (v.sector.nombre || v.sector.via || (v.sector.referencias || []).length)
+      ? `📍 Sector: ${[v.sector.nombre ? `<b>${esc(v.sector.nombre)}</b>` : "", v.sector.via ? esc(v.sector.via) : "", (v.sector.referencias || []).length ? `cerca de ${esc(v.sector.referencias.join(", "))}` : ""].filter(Boolean).join(" · ")}` : "",
+    v.sector && (v.sector.quebradas || []).length ? `💧 Quebradas a menos de 300 m: ${esc(v.sector.quebradas.join(", "))}` : "",
+    `🗺️ Ubicación: ${esc(v.ubic.tipo)}`,
     v.conjunto ? `🏢 Conjunto: ${esc(v.conjunto)}` : "",
     v.rasgos && v.rasgos.length ? `🔐 El anuncio menciona: ${v.rasgos.map((r) => esc(RASGO_TXT[r] || r)).join(", ")}` : "",
     v.metro ? `🚇 Metro ${esc(v.metro.estacion)} a ${(v.metro.m_linea_recta / 1000).toFixed(1).replace(".", ",")} km en línea recta` : "",
@@ -1737,13 +1740,14 @@ function investigacionHtml(it) {
     c.paraderos ? `🚌 ${c.paraderos} paraderos de bus a 500 m (según OpenStreetMap)` : "",
     v.video === true ? "🎥 Tiene video" : v.video === false ? "Sin video" : "",
   ].filter(Boolean);
-  const ci = v.conjunto_inv, bi = v.barrio_inv;
+  const ci = v.conjunto_inv, bi = v.barrio_inv, si = v.sector_inv;
   return `<div class="inv">
     ${o ? `<div class="inv-ver ${clase}"><b>${esc(o.veredicto || "")}</b>${o.puntaje != null ? ` · ${esc(o.puntaje)}/10` : ""}<p>${esc(o.resumen || "")}</p></div>` : `<p class="tenue">La IA aún no da su opinión; esto es lo que se encontró.</p>`}
     ${o ? lista("A favor", o.a_favor) + lista("En contra", o.en_contra) + lista("Pregúntale a la inmobiliaria", o.preguntar) : ""}
     ${lista("⚠️ Alertas", v.alertas)}
     <p class="inv-t">Lo que se verificó</p><ul class="det-lista inv-datos">${datos.map((d) => `<li>${d}</li>`).join("")}</ul>
     ${ci ? `<p class="inv-t">El conjunto${ci.calificacion ? ` · ${esc(ci.calificacion)}` : ""}</p><p>${esc(ci.encontrado === false ? "No se encontró información de este conjunto." : ci.resumen || "")}</p>${lista("Quejas", ci.quejas)}${lista("Noticias", ci.noticias)}${fuentes(ci._fuentes)}` : ""}
+    ${si ? `<p class="inv-t">El sector (las cuadras alrededor)</p><p>${esc(si.encontrado === false ? "No se encontraron noticias de este sector." : si.resumen || "")}</p>${lista("Hechos en el sector", si.hechos_sector)}${lista("Riesgos del sector", si.riesgos)}${lista("Del barrio en general (no del sector)", si.del_barrio_no_del_sector)}${fuentes(si._fuentes)}` : ""}
     ${bi ? `<p class="inv-t">El barrio (investigado por la IA)</p><p>${esc(bi.resumen || "")}</p>${lista("Hechos en el barrio", bi.hechos)}${lista("Problemas del barrio", bi.problemas)}${lista("En el municipio (no es del barrio)", bi.contexto_municipio)}${fuentes(bi._fuentes)}` : ""}
     <p class="tenue inv-pie">Investigado ${esc(fechaCorta(v.fecha.slice(0, 10)))} · distancias en línea recta (OpenStreetMap)</p>
   </div>`;

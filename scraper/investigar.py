@@ -71,6 +71,7 @@ LOTE_GROQ = 6                # Groq gratis tiene poco límite de tokens por minu
 DIAS_REVISAR = 5             # se vuelve a abrir la ficha (¿sigue disponible?) cada tantos días
 DIAS_CONJUNTO = 60           # una investigación de conjunto o barrio vale este tiempo
 SEG_LIMITE = 20 * 60         # tiempo máximo de la corrida
+EXP_VERSION = 3              # sube cuando cambia el formato del expediente (fuerza revisarlos)
 DIAS_COLA = 10               # entran a la cola los vistos por primera vez en estos días (o los del perfil)
 PERFIL_FILTRO = {"precio_max": 1_700_000, "hab_min": 2, "banos_min": 2}
 
@@ -330,12 +331,33 @@ out center tags;"""
                     c = "conjunto"
                 out.append([c, round(la, 6), round(lo, 6), t.get("name") or ""])
             if len(out) > 500:
+                out += _descargar_quebradas()
                 escribir(F_LUGARES, {"fuente": "OpenStreetMap (Overpass), sur del Valle de Aburrá", "bbox": bb,
                                      "fecha": ahora().date().isoformat(), "lugares": out}, compacto=True)
                 return True
         except (requests.RequestException, ValueError):
             pass
     return False
+
+
+def _descargar_quebradas():
+    """Quebradas y ríos con nombre, como puntos de su cauce (para saber cuáles pasan cerca del apartamento)."""
+    q = f'[out:json][timeout:240];way["waterway"~"^(stream|river|canal)$"]["name"]({BBOX_SUR});out geom tags;'
+    for u in OVERPASS:
+        try:
+            r = requests.post(u, data={"data": q}, headers=UA_OSM, timeout=300)
+            if not r.ok:
+                continue
+            out = []
+            for w in r.json().get("elements", []):
+                nom = (w.get("tags") or {}).get("name")
+                for i, g in enumerate(w.get("geometry") or []):
+                    if i % 2 == 0:   # un punto cada ~2 nodos basta (cauce cada ~20-40 m)
+                        out.append(["quebrada", round(g["lat"], 5), round(g["lon"], 5), nom])
+            return out
+        except (requests.RequestException, ValueError):
+            pass
+    return []
 
 
 def lugares():
@@ -346,14 +368,15 @@ def lugares():
             viejo = (ahora().date() - datetime.fromisoformat(d.get("fecha", "2000-01-01")).date()).days > 30
         except ValueError:
             viejo = True
-        if (not d.get("lugares") or viejo) and _descargar_lugares():
+        sin_quebradas = not any(x[0] == "quebrada" for x in d.get("lugares", []))
+        if (not d.get("lugares") or viejo or sin_quebradas) and _descargar_lugares():
             d = leer(F_LUGARES, {})
         LUGARES = d.get("lugares", [])
     return LUGARES
 
 
 RADIO = {"supermercado": 800, "centro_comercial": 1500, "salud": 1200, "colegio": 800, "parque": 800,
-         "paradero": 500, "carcel": 1200, "conjunto": 90}
+         "paradero": 500, "carcel": 1200, "conjunto": 90, "quebrada": 300}
 NOMBRE_CAT = {"supermercado": "supermercados", "centro_comercial": "centros_comerciales", "salud": "salud",
               "colegio": "colegios", "parque": "parques"}
 
@@ -363,7 +386,7 @@ def alrededores(lat, lon):
     if not lugares():
         return None
     res = {"supermercados": [], "centros_comerciales": [], "salud": [], "colegios": [], "parques": [],
-           "paraderos": 0, "carcel": None, "nombres_cercanos": []}
+           "paraderos": 0, "carcel": None, "nombres_cercanos": [], "quebradas": {}}
     dlat = 1500 / 111000
     for c, la, lo, nom in LUGARES:
         if abs(la - lat) > dlat or abs(lo - lon) > dlat:
@@ -378,6 +401,8 @@ def alrededores(lat, lon):
                 res["carcel"] = {"nombre": nom or "cárcel", "m": round(d)}
         elif c == "conjunto":
             res["nombres_cercanos"].append(nom)
+        elif c == "quebrada":
+            res["quebradas"][nom] = min(res["quebradas"].get(nom, 9e9), round(d))
         elif nom:
             res[NOMBRE_CAT[c]].append({"nombre": nom, "m": round(d)})
     for kk in NOMBRE_CAT.values():
@@ -388,6 +413,7 @@ def alrededores(lat, lon):
                 unicos.append(x)
         res[kk] = unicos[:5]
     res["nombres_cercanos"] = sorted(set(res["nombres_cercanos"]))[:5]
+    res["quebradas"] = [{"nombre": n, "m": m} for n, m in sorted(res["quebradas"].items(), key=lambda x: x[1])[:4]]
     return res
 
 
@@ -480,15 +506,39 @@ def expediente(grupo, todos_por_pin):
     conj_origen = "anuncio" if conj else None
     if not conj and cerca and cerca.get("nombres_cercanos") and tipo in ("exacta", "de la ficha"):
         conj, conj_origen = cerca["nombres_cercanos"][0], "mapa (a menos de 90 m del pin)"
-    barrio_real = ((ubic.get("osm") or {}).get("barrio")) or None
-    fb = ficha_barrio(base["municipio"], barrio_real, sector, base.get("barrio"))
+
+    # Tres niveles: BARRIO (zona oficial) ≠ SECTOR (dónde queda más o menos: unas cuadras) ≠ CONJUNTO
+    mun = base["municipio"]
+    osm = ubic.get("osm") or {}
+    barrio_portal = next((it.get("barrio") for it in grupo if it.get("barrio")), None)   # alguna versión lo trae
+    fb = ficha_barrio(mun, osm.get("barrio"), barrio_portal)
+    barrio = fb["nombre"] if fb else (barrio_portal or osm.get("barrio"))
+    # El nombre de OpenStreetMap, si no es el mismo barrio, suele ser un sector o urbanización
+    nombre_sector = sector or (osm.get("barrio") if osm.get("barrio") and norm(osm["barrio"]) != norm(barrio or "") else None)
+    refs = []
+    if cerca and not tipo.startswith("punto"):
+        for kk in ("parques", "colegios", "centros_comerciales", "salud", "supermercados"):
+            refs += [x for x in cerca.get(kk, []) if x["m"] <= 400]
+        refs = [f"{x['nombre']} ({x['m']} m)" for x in sorted(refs, key=lambda x: x["m"])[:3]]
+    sect = {"nombre": nombre_sector, "via": osm.get("via"), "referencias": refs,
+            "quebradas": [f"{x['nombre']} ({x['m']} m)" for x in (cerca or {}).get("quebradas", [])] if cerca and not tipo.startswith("punto") else [],
+            "celda": f"{round(lat / 0.004) * 0.004:.3f},{round(lon / 0.004) * 0.004:.3f}"
+            if lat is not None and not tipo.startswith("punto") else None}
+    # ¿El «sector» de la descripción es en realidad OTRO barrio distinto al del portal?
+    fs = ficha_barrio(mun, sector) if sector else None
+    otro_barrio = fs["nombre"] if fs and fb and fs["nombre"] != fb["nombre"] else None
+    fo = ficha_barrio(mun, osm.get("barrio")) if osm.get("barrio") else None
+    fp = ficha_barrio(mun, barrio_portal)
+    pin_otro_barrio = fo["nombre"] if fo and fp and fo["nombre"] != fp["nombre"] else None
     pubs = sorted(f["publicado"] for f in fichas if f.get("publicado"))
     mods = sorted(f["modificado"] for f in fichas if f.get("modificado"))
     exp = {
         "ids": [it["id"] for it in grupo],
         "precio": base["precio"], "hab": base.get("hab"), "banos": base.get("banos"), "area": base.get("area"),
-        "estrato": base.get("estrato"), "municipio": base["municipio"], "barrio_portal": base.get("barrio"),
-        "sector_en_texto": sector, "conjunto": conj, "conjunto_origen": conj_origen,
+        "estrato": base.get("estrato"), "municipio": base["municipio"], "barrio_portal": barrio_portal,
+        "v": EXP_VERSION, "barrio": barrio, "sector": sect, "sector_en_texto": sector,
+        "texto_dice_otro_barrio": otro_barrio, "pin_en_otro_barrio": pin_otro_barrio,
+        "conjunto": conj, "conjunto_origen": conj_origen,
         "disponible": (any(disp) if disp else None),
         "publicado": pubs[0] if pubs else None, "modificado": mods[-1] if mods else None,
         "en_pagina_desde": min(it.get("visto1", "9")[:10] for it in grupo),
@@ -512,12 +562,12 @@ def alertas(e):
     u = e["ubicacion"]
     if u["tipo"].startswith("punto"):
         a.append(f"Ubicación no confirmada: el mapa usa un {u['tipo']}. Pide la dirección exacta.")
-    br = ((u.get("osm") or {}).get("barrio"))
-    if br and e.get("barrio_portal") and norm(br) not in norm(e["barrio_portal"]) and norm(e["barrio_portal"]) not in norm(br):
-        a.append(f"El portal dice «{e['barrio_portal']}», pero el pin cae en «{br}» según OpenStreetMap.")
-    if e.get("sector_en_texto") and e.get("barrio_portal") and norm(e["sector_en_texto"]) not in norm(e["barrio_portal"]) \
-            and norm(e["barrio_portal"]) not in norm(e["sector_en_texto"]):
-        a.append(f"La descripción habla de «{e['sector_en_texto']}» y el portal de «{e['barrio_portal']}».")
+    # Un sector dentro del barrio (p. ej. «Vegas de La Doctora» en La Doctora) NO es una contradicción;
+    # solo se avisa cuando el texto o el pin apuntan a OTRO barrio conocido.
+    if e.get("pin_en_otro_barrio"):
+        a.append(f"El portal dice barrio «{e['barrio_portal']}», pero el pin cae en el barrio «{e['pin_en_otro_barrio']}».")
+    if e.get("texto_dice_otro_barrio"):
+        a.append(f"La descripción lo ubica en «{e['sector_en_texto']}», que es otro barrio distinto de «{e['barrio']}». Pide la dirección.")
     r = e["rasgos"]
     if r.get("en_casa"):
         a.append("Es un apartamento en una casa (no en conjunto).")
@@ -532,6 +582,10 @@ def alertas(e):
             a.append(f"Lleva {dias} días publicado: pregunta si sigue libre.")
     except (TypeError, ValueError):
         pass
+    for q in (e.get("cerca") or {}).get("quebradas", []):
+        if q["m"] <= 120:
+            a.append(f"La {q['nombre']} pasa a {q['m']} m: pregunta si el edificio ha tenido problemas con crecientes.")
+            break
     if e.get("cerca") and e["cerca"].get("carcel"):
         c = e["cerca"]["carcel"]
         a.append(f"Hay una cárcel a {c['m']} m ({c['nombre']}).")
@@ -580,6 +634,29 @@ def investigar_barrio(barrio, municipio):
     return ia.preguntar_json(p, SISTEMA, tarea="fuerte", buscar=True)
 
 
+def investigar_sector(e):
+    """El SECTOR: las pocas cuadras alrededor del apartamento (no el barrio entero)."""
+    s = e["sector"]
+    donde = "; ".join(x for x in [
+        f"sector «{s['nombre']}»" if s.get("nombre") else "",
+        f"sobre o cerca de la vía «{s['via']}»" if s.get("via") else "",
+        f"cerca de {', '.join(s['referencias'])}" if s.get("referencias") else "",
+        f"quebradas a menos de 300 m: {', '.join(s['quebradas'])}" if s.get("quebradas") else "ninguna quebrada con nombre a menos de 300 m",
+        f"barrio {e.get('barrio')}" if e.get("barrio") else ""] if x)
+    p = (f"Investiga el SECTOR (unas pocas cuadras, no el barrio entero) donde queda un apartamento en {e['municipio']} "
+         f"(Antioquia, Colombia): {donde}. Busca en Google noticias de 2025 y 2026 que mencionen esas calles, ese "
+         f"sector o esos lugares: seguridad (hurtos, homicidios, expendios de droga, extorsión), invasiones, bares o "
+         f"ruido, quebradas, inundaciones, deslizamientos, obras. Usa solo lo que encuentres.\n"
+         f"MUY IMPORTANTE: separa (1) lo que pasa en ESE sector o esas calles, (2) lo que es del barrio en general "
+         f"y (3) lo del municipio. Un hecho va en hechos_sector SOLO si la noticia nombra esas calles, esos lugares, "
+         f"ese sector o esas quebradas cercanas; una noticia de otra quebrada u otro sector NO es del sector. "
+         f"Si no hay nada del sector, dilo (encontrado=false).\n"
+         'Devuelve JSON: {"encontrado": true|false, "resumen": "2 frases sobre el sector", '
+         '"hechos_sector": [{"fecha": "...", "que": "...", "medio": "..."}], "riesgos": ["quebrada, loma, ruido... con fuente"], '
+         '"del_barrio_no_del_sector": ["máx 3"], "del_municipio": ["máx 2"]}')
+    return ia.preguntar_json(p, SISTEMA, tarea="fuerte", buscar=True)
+
+
 def investigar_conjunto(nombre, barrio, municipio):
     p = (f"Investiga el conjunto o edificio residencial «{nombre}» en {barrio or ''} {municipio} (Antioquia, Colombia). "
          f"Busca en Google: reseñas y opiniones de residentes (Google Maps, foros, redes), quejas (seguridad, "
@@ -601,16 +678,19 @@ def resumen_para_ia(clave, e, estado):
         cerca["paraderos_500m_segun_osm_incompleto"] = c.get("paraderos")
     conj = estado["conjuntos"].get(clave_conj(e)) if e.get("conjunto") else None
     binv = estado["barrios"].get(clave_barrio(e))
+    sinv = estado["sectores"].get(clave_sector(e)) if clave_sector(e) else None
     return {
         "id": clave, "precio": e["precio"], "hab": e["hab"], "banos": e["banos"], "area": e["area"], "estrato": e["estrato"],
-        "municipio": e["municipio"], "barrio_portal": e["barrio_portal"],
-        "barrio_real_mapa": ((e["ubicacion"].get("osm") or {}).get("barrio")), "tipo_ubicacion": e["ubicacion"]["tipo"],
+        "municipio": e["municipio"], "barrio": e.get("barrio"), "barrio_portal": e["barrio_portal"],
+        "sector": {k: v for k, v in (e.get("sector") or {}).items() if k != "celda" and v},
+        "tipo_ubicacion": e["ubicacion"]["tipo"],
         "disponible": e["disponible"], "publicado": e["publicado"] or f"sin fecha; en la página desde {e['en_pagina_desde']}",
         "rasgos": {k: v for k, v in e["rasgos"].items() if v}, "conjunto": e.get("conjunto"),
         "descripcion": e["desc"][:450], "metro": e["metro"], "cerca": cerca,
         "ficha_barrio": e.get("barrio_ficha"),
         "investigacion_barrio": {k: (binv or {}).get(k) for k in ("seguridad", "resumen", "hechos", "problemas")} if binv else None,
         "contexto_municipio_no_es_del_barrio": (binv or {}).get("contexto_municipio"),
+        "investigacion_sector": {k: (sinv or {}).get(k) for k in ("encontrado", "resumen", "hechos_sector", "riesgos")} if sinv else None,
         "investigacion_conjunto": {k: (conj or {}).get(k) for k in ("encontrado", "calificacion", "a_favor", "quejas", "resumen")} if conj else None,
         "alertas_automaticas": e["alertas"],
     }
@@ -619,7 +699,8 @@ def resumen_para_ia(clave, e, estado):
 def opinar(lote, estado):
     p = ("Perfil de quien busca:\n" + PERFIL + "\n\n"
          "Para CADA apartamento de la lista, da tu opinión basada SOLO en sus datos. Distancias 'm' son en línea recta. "
-         "Pesa más la seguridad del barrio real (no la etiqueta del portal) y la portería/vigilancia. "
+         "Distingue tres niveles: barrio (zona general), sector (las cuadras alrededor) y conjunto. Lo que pasa en el "
+         "sector pesa más que lo del barrio en general. Pesa mucho la portería/vigilancia. "
          "Lo que esté en 'contexto_municipio_no_es_del_barrio' NO es del barrio: no lo cuentes como problema del barrio. "
          "Un hecho de hace más de 2 años pesa poco. "
          "Un anuncio no disponible es 'no recomendable'.\n"
@@ -633,8 +714,18 @@ def opinar(lote, estado):
 
 
 def clave_barrio(e):
-    b = ((e["ubicacion"].get("osm") or {}).get("barrio")) or e.get("sector_en_texto") or e.get("barrio_portal")
+    b = e.get("barrio") or e.get("barrio_portal")
     return f"{e['municipio']}|{norm(b)}" if b else None
+
+
+def clave_sector(e):
+    """Un sector con nombre se investiga por nombre; sin nombre, por celda de ~450 m alrededor del pin."""
+    s = e.get("sector") or {}
+    if s.get("nombre"):
+        return f"{e['municipio']}|{norm(e.get('barrio'))}|{norm(s['nombre'])}"
+    if s.get("celda") and (s.get("via") or s.get("referencias")):
+        return f"{e['municipio']}|celda|{s['celda']}"
+    return None
 
 
 def clave_conj(e):
@@ -649,7 +740,7 @@ def huella(grupo):
 
 def principal(urls=()):
     estado = leer(F_ESTADO, {})
-    for k in ("grupos", "barrios", "conjuntos"):
+    for k in ("grupos", "barrios", "sectores", "conjuntos"):
         estado.setdefault(k, {})
     L = leer(F_LISTINGS, {}).get("items", [])
     por_id = {x["id"]: x for x in L}
@@ -685,7 +776,8 @@ def principal(urls=()):
         if k not in estado["grupos"] and not (max(it.get("visto1", "") for it in v) >= reciente or en_perfil(v[0])):
             continue
         prev = estado["grupos"].get(k)
-        if prev is None or prev.get("huella") != huella(v) or prev.get("exp", {}).get("fecha", "") < limite_viejo:
+        if (prev is None or prev.get("huella") != huella(v) or prev.get("exp", {}).get("fecha", "") < limite_viejo
+                or prev.get("exp", {}).get("v") != EXP_VERSION):
             cola.append(k)
     cola.sort(key=lambda k: max(it.get("visto1", "") for it in G[k]), reverse=True)   # más nuevos primero
     cola.sort(key=lambda k: k in estado["grupos"])                                     # nunca investigados primero
@@ -726,6 +818,12 @@ def principal(urls=()):
         cc = clave_conj(e)
         if cc and estado["conjuntos"].get(cc, {}).get("fecha", "") < vence:
             tareas.append(("conjunto", cc, e))
+        cs = clave_sector(e)
+        if (cs and en_perfil({"precio": e["precio"], "hab": e["hab"], "banos": e["banos"]})
+                and estado["sectores"].get(cs, {}).get("fecha", "") < vence):
+            tareas.append(("sector", cs, e))
+    # primero lo que cumple el perfil del usuario
+    tareas.sort(key=lambda t: not en_perfil({"precio": t[2]["precio"], "hab": t[2]["hab"], "banos": t[2]["banos"]}))
     vistos, n = set(), 0
     for tipo, clave, e in tareas:
         # siempre queda al menos 1 pedido para la opinión de la tanda
@@ -734,10 +832,13 @@ def principal(urls=()):
         vistos.add(clave)
         nombre = clave.split("|", 1)[1]
         if tipo == "barrio":
-            d = investigar_barrio(((e["ubicacion"].get("osm") or {}).get("barrio")) or e.get("sector_en_texto") or e["barrio_portal"], e["municipio"])
+            d = investigar_barrio(e.get("barrio") or e["barrio_portal"], e["municipio"])
             dest = estado["barrios"]
+        elif tipo == "sector":
+            d = investigar_sector(e)
+            dest = estado["sectores"]
         else:
-            d = investigar_conjunto(e["conjunto"], ((e["ubicacion"].get("osm") or {}).get("barrio")) or e["barrio_portal"], e["municipio"])
+            d = investigar_conjunto(e["conjunto"], e.get("barrio") or e["barrio_portal"], e["municipio"])
             dest = estado["conjuntos"]
         contar_ia(estado)
         n += 1
@@ -781,11 +882,14 @@ def publicar(estado, G):
             continue
         conj = estado["conjuntos"].get(clave_conj(e)) if e.get("conjunto") else None
         binv = estado["barrios"].get(clave_barrio(e)) if not e.get("barrio_ficha") else None
+        sinv = estado["sectores"].get(clave_sector(e)) if e.get("sector") and clave_sector(e) else None
         c = e.get("cerca") or {}
         items[k] = {
             "fecha": e["fecha"], "disponible": e["disponible"], "publicado": e["publicado"], "modificado": e["modificado"],
             "video": e["video"], "versiones": e["versiones"], "rasgos": [r for r, v in e["rasgos"].items() if v],
-            "conjunto": e.get("conjunto"), "sector": e.get("sector_en_texto"),
+            "conjunto": e.get("conjunto"), "barrio": e.get("barrio"),
+            "sector": {k: v for k, v in (e.get("sector") or {}).items() if k != "celda"} if isinstance(e.get("sector"), dict) else None,
+            "sector_inv": {kk: sinv.get(kk) for kk in ("encontrado", "resumen", "hechos_sector", "riesgos", "del_barrio_no_del_sector", "_fuentes", "fecha")} if sinv else None,
             "ubic": {"tipo": e["ubicacion"]["tipo"], "barrio": (e["ubicacion"].get("osm") or {}).get("barrio"),
                      "via": (e["ubicacion"].get("osm") or {}).get("via")},
             "metro": e["metro"],
