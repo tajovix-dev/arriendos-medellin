@@ -63,8 +63,8 @@ PERFIL = ("Arriendo para vivir. Prioridades: 1) zona segura; 2) conjunto con por
 
 # Límites (cuota gratuita: ver scraper/ia.py)
 MAX_RECOLECTAR = 60          # expedientes nuevos por corrida
-MAX_BUSQUEDAS_CORRIDA = 5    # barrios + conjuntos investigados con IA por corrida
-IA_MAX_DIA = 16              # pedidos de IA por día para esta función
+MAX_BUSQUEDAS_CORRIDA = 4    # barrios + conjuntos investigados con IA por corrida
+IA_MAX_DIA = 30              # pedidos de IA por día para esta función (8 corridas: ~1 opinión + ≤3 búsquedas c/u)
 MARGEN_ACTUALIZACION = 20    # pedidos de Gemini que siempre quedan libres para la actualización
 LOTE_GEMINI = 40             # anuncios por pedido de opinión en Gemini
 LOTE_GROQ = 6                # Groq gratis tiene poco límite de tokens por minuto
@@ -545,13 +545,13 @@ def alertas(e):
 
 # ---------------------------------------------------------------- 3. Cuota de IA
 
-def cuota_ok(estado):
+def cuota_ok(estado, reserva=0):
     hoy = ahora().date().isoformat()
     u = estado.setdefault("uso_ia", {})
     if u.get("fecha") != hoy:
         u.clear()
         u.update({"fecha": hoy, "n": 0})
-    if u["n"] >= IA_MAX_DIA:
+    if u["n"] + reserva >= IA_MAX_DIA:
         return False
     c = ia.resumen_cuota()
     return (c.get(ia.FLASH, 0) + c.get(ia.FLASH_LITE, 0) > MARGEN_ACTUALIZACION) or c.get("groq", 0) > 20
@@ -728,7 +728,8 @@ def principal(urls=()):
             tareas.append(("conjunto", cc, e))
     vistos, n = set(), 0
     for tipo, clave, e in tareas:
-        if clave in vistos or n >= MAX_BUSQUEDAS_CORRIDA or not ia.disponible() or not cuota_ok(estado):
+        # siempre queda al menos 1 pedido para la opinión de la tanda
+        if clave in vistos or n >= MAX_BUSQUEDAS_CORRIDA or not ia.disponible() or not cuota_ok(estado, reserva=1):
             continue
         vistos.add(clave)
         nombre = clave.split("|", 1)[1]
