@@ -1,11 +1,11 @@
 {
  "agotadas": [],
- "fecha": "2026-11-19",
+ "fecha": "2026-11-20",
  "groq": 0,
  "invalidas": [
   "o0w4"
  ],
  "uso": {
-  "gemini-2.5-flash|9iaw": 4
+  "gemini-2.5-flash|9iaw": 1
  }
 }
