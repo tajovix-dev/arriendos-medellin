@@ -42,7 +42,7 @@ let descartados = new Set(LS.get("ocultos", []));
 const DEF = () => ({
   q: "", municipios: [], pmin: 0, pmax: PRESUPUESTO, hab: 0, banos: 0, area: 0, estratos: [],
   fuentes: [], novedad: 0, bajaron: false, dup: true, favs: false,
-  descartados: false, conAdmin: false, orden: "nuevo", zona: false, buenPrecio: false, sinAlertas: false, barrios: [], recoBarrio: "", soloSur: true, conVideo: false, reciente: 0, sinAntiguos: false, banosSinDato: false,
+  descartados: false, conAdmin: false, orden: "nuevo", zona: false, buenPrecio: false, sinAlertas: false, barrios: [], recoBarrio: "", soloSur: true, conVideo: false, reciente: 0, sinAntiguos: false, banosSinDato: false, invReco: false,
 });
 let S = null;
 let vista = LS.get("vista", "split");
@@ -135,6 +135,7 @@ function filtrar(sin = null) {
     if (sin !== "conVideo" && S.conVideo && !it.v) return false;
     if (sin !== "reciente" && S.reciente && !esReciente(it, S.reciente)) return false;
     if (S.sinAntiguos && antiguedad(it) === "alto") return false;
+    if (sin !== "inv" && S.invReco && !invRecomendado(it)) return false;
     if (sin !== "reco" && S.recoBarrio) {
       const r = (infoBarrio(it) || {}).recomendacion;
       if (S.recoBarrio === "solo_si" && r !== "recomendado") return false;
@@ -184,6 +185,7 @@ function ordenar(lista) {
     bajada: (a, b) => bajada(b) - bajada(a),
     oportunidad: (a, b) => puntajeOportunidad(b) - puntajeOportunidad(a) || (a.dif ?? 9) - (b.dif ?? 9),
     recomendados: (a, b) => afinidad(b) - afinidad(a),
+    inv: (a, b) => puntajeInv(b) - puntajeInv(a) || fechaRef(b).localeCompare(fechaRef(a)),
   }[S.orden] || (() => 0);
   return lista.sort(f);
 }
@@ -333,6 +335,7 @@ function opcionesOrden() {
   if (TODOS.some((x) => bajada(x))) o.push(["bajada", "Mayor bajada de precio"]);
   if (TODOS.some((x) => x.dif != null)) o.push(["oportunidad", "Más barato vs. similares"]);
   if (favs.size) o.push(["recomendados", "Recomendados para ti"]);
+  if (INVESTIGA && INVESTIGA.items && Object.keys(INVESTIGA.items).length) o.push(["inv", "🔎 Mejor evaluados"]);
   return o;
 }
 const pct = (x) => Math.round(x * 100) + "%";
@@ -792,14 +795,16 @@ function renderPanel() {
     const cf = contar(filtrarCache("fuente"), (x) => x.fuente);
     const fuentes = [...new Set(TODOS.map((x) => x.fuente))].sort();
     const nVid = contarAptos(filtrarCache("conVideo").filter((x) => x.v));
-    const valor = [S.conVideo ? "Con video" : "", S.fuentes.length ? S.fuentes.join(", ") : "", !S.dup ? "Sin agrupar" : ""].filter(Boolean).join(" · ") || "—";
-    const c = interruptor("conVideo", "Solo con video", `${nVid} en tus resultados`, S.conVideo)
+    const nInv = contarAptos(filtrarCache("inv").filter(invRecomendado));
+    const valor = [S.invReco ? "Recomendados 🔎" : "", S.conVideo ? "Con video" : "", S.fuentes.length ? S.fuentes.join(", ") : "", !S.dup ? "Sin agrupar" : ""].filter(Boolean).join(" · ") || "—";
+    const c = interruptor("invReco", "🔎 Solo recomendados por la investigación", `${nInv} en tus resultados`, S.invReco)
+      + interruptor("conVideo", "Solo con video", `${nVid} en tus resultados`, S.conVideo)
       + `<div class="sub-t">Portal</div><div class="grupo">${fuentes.map((f) => {
         const on = S.fuentes.includes(f); const n = cf.get(f) || 0;
         return `<button class="chip ${on ? "on" : ""}" data-toggle="fuentes" data-v="${esc(f)}" aria-pressed="${on}" ${!n && !on ? "disabled" : ""}>${esc(f)} <span class="n">${NF.format(n)}</span></button>`;
       }).join("")}</div>`
       + interruptor("dup", "Juntar el mismo apartamento de varios portales", "Una sola tarjeta con enlaces a los demás", S.dup);
-    partes.push(acordeon("mas", "⚙", "Más opciones", esc(valor), c, !!(S.conVideo || S.fuentes.length || !S.dup)));
+    partes.push(acordeon("mas", "⚙", "Más opciones", esc(valor), c, !!(S.invReco || S.conVideo || S.fuentes.length || !S.dup)));
   }
 
   cuerpo.innerHTML = partes.join("");
@@ -840,6 +845,7 @@ function activosLista() {
   if (S.soloSur) a.push(["🧭 Solo el sur", () => (S.soloSur = false), true]);
   if (S.conVideo) a.push(["▶ Con video", () => (S.conVideo = false)]);
   if (S.reciente) a.push([`🕒 Publicados ≤ ${S.reciente} días`, () => (S.reciente = 0), S.reciente === 15]);
+  if (S.invReco) a.push(["🔎 Recomendados", () => (S.invReco = false)]);
   if (S.sinAntiguos) a.push([`Sin los de +${DIAS_ANTIGUO} días`, () => (S.sinAntiguos = false)]);
   if (S.sinAlertas) a.push(["Sin alertas", () => (S.sinAlertas = false)]);
   return a;
@@ -1062,6 +1068,7 @@ function tarjeta(it) {
       ${it.img ? `<img src="${esc(urlOk(it.img))}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="portadaRota(this)" onload="ajustarFoto(this)">` : `<span class="sin-foto">🏠</span>`}
       <span class="etiquetas">
         ${imperdible(it.id) ? `<span class="etq imperdible" title="${esc(imperdible(it.id).razon)}">⭐ IMPERDIBLE</span>` : ""}
+        ${etqInv(it)}
         ${nuevo ? `<span class="etq nuevo">NUEVO</span>` : ""}
         ${ant === "alto" ? `<span class="etq antiguo">ANTIGUO</span>` : ""}
         ${baj ? `<span class="etq bajo">↓ ${corto(baj)}</span>` : ""}
@@ -1225,6 +1232,7 @@ function renderResumenDia(lista) {
       <span><b>${bajaron.length}</b> bajaron de precio</span>
       <span><b>${buenos.length}</b> con buen precio</span>
     </div>
+    ${bloqueInvestigados(lista)}
     ${bloqueImperdibles(lista)}
     ${top.length ? `<div class="razon" style="margin-bottom:6px">${titTop}</div>
     <div class="carrusel">${top.map((x) => miniTarjeta(x, `<span class="bueno">▼ ${Math.round(-x.dif * 100)}% vs. similares</span>`)).join("")}</div>` : ""}
@@ -1233,7 +1241,7 @@ function renderResumenDia(lista) {
 
 function bloqueImperdibles(lista) {
   if (!IA_SEL || !(IA_SEL.imperdibles || []).length) return "";
-  const porId = new Map(TODOS.map((x) => [x.id, x]));
+  const porId = new Map(lista.flatMap((x) => [x, ...(x._otras || [])]).map((x) => [x.id, x]));   // respeta los filtros
   const its = IA_SEL.imperdibles.map((s) => ({ s, x: porId.get(s.id) })).filter((o) => o.x);
   if (!its.length) return "";
   return `<div class="razon imp-tit">⭐ Imperdibles de hoy según la IA <span class="tenue">(${esc(hace(IA_SEL.fecha))})</span></div>
@@ -1670,6 +1678,31 @@ function detalleHTML(it) {
     ${sec("Dónde está publicado", versionesHtml(it, true))}
     ${sec("Parecidos en la zona", parHtml)}
   </div>`;
+}
+/** Puntaje para ordenar: recomendable > con reservas > no recomendable; luego el puntaje de 0 a 10. */
+function puntajeInv(it) {
+  const v = investigacionDe(it), o = v && v.opinion;
+  if (!o || v.disponible === false) return -1;
+  return (o.veredicto === "recomendable" ? 100 : o.veredicto === "con reservas" ? 50 : 0) + (+o.puntaje || 0);
+}
+function invRecomendado(it) {
+  const v = investigacionDe(it), o = v && v.opinion;
+  return !!(o && v.disponible !== false && o.veredicto === "recomendable");
+}
+function etqInv(it) {
+  const v = investigacionDe(it), o = v && v.opinion;
+  if (!o) return "";
+  const c = v.disponible === false ? "no" : o.veredicto === "recomendable" ? "si" : o.veredicto === "no recomendable" ? "no" : "medio";
+  const t = v.disponible === false ? "Ya no está disponible" : `${o.veredicto}: ${o.resumen || ""}`;
+  return `<span class="etq inv ${c}" title="${esc(t)}">🔎 ${v.disponible === false ? "NO DISPONIBLE" : `${esc(o.puntaje ?? "")}/10`}</span>`;
+}
+/** Los mejor evaluados DENTRO de los resultados filtrados (respeta todos los filtros). */
+function bloqueInvestigados(lista) {
+  const top = lista.filter(invRecomendado).sort((a, b) => puntajeInv(b) - puntajeInv(a)).slice(0, 8);
+  if (!top.length) return "";
+  return `<div class="razon imp-tit">🔎 Recomendados por la investigación <span class="tenue">(con tus filtros)</span></div>
+    <div class="carrusel">${top.map((x) => { const o = investigacionDe(x).opinion;
+      return miniTarjeta(x, `<span class="razon imp-razon"><b>${esc(o.puntaje ?? "")}/10</b> · ${esc(o.resumen || "")}</span>`); }).join("")}</div>`;
 }
 /* ---------- Investigación automática (scraper/investigar.py → data/investigaciones.json) ---------- */
 const RASGO_TXT = { porteria: "portería", vigilancia: "vigilancia", unidad_cerrada: "unidad cerrada", en_casa: "apartamento en casa",

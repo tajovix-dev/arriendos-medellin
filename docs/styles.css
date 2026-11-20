@@ -1288,3 +1288,9 @@ details.datos-g summary { cursor: pointer; font-size: .8rem; color: var(--acento
   .inv-ver.medio { background: #3a2a0a; color: #ffe2a8; }
   .inv-ver.no { background: #3d1414; color: #ffd0d0; }
 }
+
+/* Recomendaciones de la investigación */
+.etq.inv { color: #fff; }
+.etq.inv.si { background: #1f7a3a; }
+.etq.inv.medio { background: #a86400; }
+.etq.inv.no { background: #9b1c1c; }

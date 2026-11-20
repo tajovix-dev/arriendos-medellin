@@ -62,10 +62,10 @@ PERFIL = ("Arriendo para vivir. Prioridades: 1) zona segura; 2) conjunto con por
           "Presupuesto hasta $1.700.000, 2 o más habitaciones y 2 baños.")
 
 # Límites (cuota gratuita: ver scraper/ia.py)
-MAX_RECOLECTAR = 60          # expedientes nuevos por corrida
-MAX_BUSQUEDAS_CORRIDA = 4    # barrios + conjuntos investigados con IA por corrida
-IA_MAX_DIA = 30              # pedidos de IA por día para esta función (8 corridas: ~1 opinión + ≤3 búsquedas c/u)
-MARGEN_ACTUALIZACION = 20    # pedidos de Gemini que siempre quedan libres para la actualización
+MAX_RECOLECTAR = 120         # expedientes nuevos por corrida (sin IA: ~5 s cada uno)
+MAX_BUSQUEDAS_CORRIDA = 6    # barrios + conjuntos investigados con IA por corrida
+IA_MAX_DIA = 60              # de ~190 pedidos/día de Gemini (5 claves × 2 modelos × 19); la actualización usa ≤30
+MARGEN_ACTUALIZACION = 40    # pedidos de Gemini que siempre quedan libres para la actualización
 LOTE_GEMINI = 40             # anuncios por pedido de opinión en Gemini
 LOTE_GROQ = 6                # Groq gratis tiene poco límite de tokens por minuto
 DIAS_REVISAR = 5             # se vuelve a abrir la ficha (¿sigue disponible?) cada tantos días
@@ -749,7 +749,7 @@ def principal(urls=()):
 
     # 3. Opinar: una solicitud por tanda (los disponibles sin opinión)
     pend = [k for k, g in estado["grupos"].items() if k in G and "opinion" not in g and g["exp"]["disponible"] is not False]
-    pend.sort(key=lambda k: (k not in pedidos, k not in hechos))
+    pend.sort(key=lambda k: (k not in pedidos, not en_perfil(G[k][0]), k not in hechos))   # primero lo que busca el usuario
     if pend and ia.disponible() and cuota_ok(estado):
         lote = [resumen_para_ia(k, estado["grupos"][k]["exp"], estado) for k in pend[:LOTE_GEMINI]]
         ops = opinar(lote, estado)
