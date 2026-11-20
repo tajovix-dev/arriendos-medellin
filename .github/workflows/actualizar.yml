@@ -1,14 +1,15 @@
 name: Actualizar apartamentos
 
-# Cada 6 horas busca anuncios nuevos, regenera los datos de la página (docs/data) y los
+# Cada 3 horas busca anuncios nuevos, regenera los datos de la página (docs/data) y los
 # guarda en el repositorio. Vercel está conectado al repositorio: cada vez que este robot
 # guarda cambios, Vercel vuelve a publicar la página sola.
 # Cada 3 días además busca noticias por barrio y, si hay algo nuevo, la IA lo investiga.
 
 on:
   schedule:
-    # Hora UTC. En Colombia: 1:23, 7:23, 13:23 y 19:23
-    - cron: "23 0,6,12,18 * * *"
+    # Cada 3 horas (hora UTC). En Colombia: 1:23, 4:23, 7:23, 10:23, 13:23, 16:23, 19:23 y 22:23.
+    # Una corrida dura ~40 min, así que no se pisan (y si una se atrasa, la siguiente espera en cola).
+    - cron: "23 */3 * * *"
   workflow_dispatch: {}   # botón "Run workflow" para correrlo a mano
   push:
     branches: [main]

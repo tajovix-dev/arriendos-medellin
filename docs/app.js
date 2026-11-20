@@ -2584,7 +2584,7 @@ async function iniciar() {
   prepararBarrios();
   $("#zona").checked = !!S.zona;
   const sinActualizar = (Date.now() - new Date(d.generado)) / 36e5 > 13;
-  $("#actualizado").textContent = `${NF.format(TODOS.length)} disponibles · actualizado ${hace(d.generado)} · cada 6 h${sinActualizar ? " · ⚠ lleva más de 12 h sin actualizarse" : ""}`;
+  $("#actualizado").textContent = `${NF.format(TODOS.length)} disponibles · actualizado ${hace(d.generado)} · cada 3 h${sinActualizar ? " · ⚠ lleva más de 12 h sin actualizarse" : ""}`;
   cambiarVista(vista);
   render();
   abrirDesdeEnlace();

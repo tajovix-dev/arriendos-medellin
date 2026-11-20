@@ -1,6 +1,6 @@
 """Configuración del buscador de apartamentos.
 
-Cambia estos valores y la próxima corrida (GitHub Actions cada 6 h) los usa.
+Cambia estos valores y la próxima corrida (GitHub Actions cada 3 h) los usa.
 """
 
 # Municipios a vigilar. Clave = nombre que se muestra en la página.

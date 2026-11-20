@@ -1,12 +1,12 @@
 # Apartamentos en arriendo: Medellín y el sur del Valle de Aburrá
 
-Página personal que reúne ofertas de arriendo de varios portales y se actualiza sola cada 6 horas.
+Página personal que reúne ofertas de arriendo de varios portales y se actualiza sola cada 3 horas.
 
 - **Fuentes activas**: Fincaraíz, Rentola, Alberto Álvarez y Metrocuadrado (detalle en [INVESTIGACION_FUENTES.md](INVESTIGACION_FUENTES.md)).
 - **Municipios**: Medellín, Sabaneta, Envigado, Itagüí y La Estrella.
 - **Precio**: solo apartamentos con canon de hasta **$2.000.000** (`PRECIO_MAX_GUARDAR` en `config.py`).
 - **Página**: `docs/` (HTML estático, publicado con GitHub Pages vía Actions).
-- **Actualización**: `.github/workflows/actualizar.yml` (cron cada 6 h).
+- **Actualización**: `.github/workflows/actualizar.yml` (cron cada 3 h).
 
 ## Qué muestra la página
 
