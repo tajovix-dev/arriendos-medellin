@@ -1,77 +1,77 @@
 {
  "fincaraiz": {
   "medellin": {
-   "cursor": 33,
+   "cursor": 1,
    "paginas": 35,
-   "ciclos": 13
+   "ciclos": 14
   },
   "sabaneta": {
    "cursor": 1,
    "paginas": 8,
-   "ciclos": 37
+   "ciclos": 38
   },
   "envigado": {
    "cursor": 1,
    "paginas": 3,
-   "ciclos": 37
+   "ciclos": 38
   },
   "itagui": {
    "cursor": 1,
    "paginas": 5,
-   "ciclos": 37
+   "ciclos": 38
   },
   "la-estrella": {
    "cursor": 1,
    "paginas": 5,
-   "ciclos": 37
+   "ciclos": 38
   }
  },
  "rentola": {
   "sabaneta": {
-   "cursor": 1,
-   "paginas": 294,
+   "cursor": 26,
+   "paginas": 295,
    "ciclos": 13
   },
   "envigado": {
-   "cursor": 1,
-   "paginas": 402,
+   "cursor": 26,
+   "paginas": 406,
    "ciclos": 13
   },
   "itagui": {
-   "cursor": 1,
+   "cursor": 26,
    "paginas": 116,
    "ciclos": 13
   },
   "la-estrella": {
-   "cursor": 1,
+   "cursor": 26,
    "paginas": 57,
    "ciclos": 13
   }
  },
  "albertoalvarez": {
   "medellin": {
-   "cursor": 21,
+   "cursor": 41,
    "paginas": 114,
    "ciclos": 6
   },
   "sabaneta": {
-   "cursor": 21,
+   "cursor": 1,
    "paginas": 35,
-   "ciclos": 18
+   "ciclos": 19
   },
   "envigado": {
-   "cursor": 21,
+   "cursor": 41,
    "paginas": 47,
    "ciclos": 12
   },
   "itagui": {
    "cursor": 1,
-   "ciclos": 38,
+   "ciclos": 39,
    "paginas": 8
   },
   "la-estrella": {
    "cursor": 1,
-   "ciclos": 38,
+   "ciclos": 39,
    "paginas": 9
   }
  },
@@ -408,7 +408,7 @@
   },
   "inicio": 0,
   "peticiones": 60,
-  "ciclos": 22
+  "ciclos": 23
  },
  "espaciourbano": {
   "listas": {
@@ -453,7 +453,7 @@
     "max": 1823355
    }
   },
-  "ciclos": 23,
+  "ciclos": 24,
   "cursor": [
    0,
    1
@@ -2780,7 +2780,7 @@
   "inicializado": true
  },
  "nutibara": {
-  "ultima_descarga": 1795247118,
+  "ultima_descarga": 1795256431,
   "inicializado": true
  },
  "doomos": {
@@ -2798,7 +2798,7 @@
    "2026-11-17": 61,
    "2026-11-18": 62,
    "2026-11-19": 51,
-   "2026-11-20": 38
+   "2026-11-20": 58
   },
   "ids_fecha": [
    876853,
@@ -3076,10 +3076,18 @@
    895822,
    895837,
    895840,
+   895987,
+   895994,
+   896003,
+   896006,
    896032,
    896038,
+   896041,
    896113,
+   896119,
    896186,
+   896244,
+   896378,
    896389,
    896401,
    896459,
@@ -3096,10 +3104,22 @@
    896529,
    896543,
    896560,
+   896561,
+   896609,
    896611,
    896656,
+   896668,
+   896675,
+   896679,
    896681,
+   896683,
+   896688,
+   896691,
+   896699,
    896717,
+   896730,
+   896734,
+   896735,
    896736,
    896868,
    897017,
@@ -3143,9 +3163,13 @@
    [
     "6.2476376",
     "-75.5658153"
+   ],
+   [
+    "6.2705649",
+    "-75.5912004"
    ]
   ],
-  "corridas": 23
+  "corridas": 24
  },
  "softinm": {
   "ok": true
