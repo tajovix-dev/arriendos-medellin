@@ -1568,6 +1568,11 @@
  },
  "Sabaneta|la doctora la inmaculada": null,
  "Sabaneta|la florida": null,
+ "Sabaneta|la inmaculada": {
+  "lat": 6.1413702,
+  "lon": -75.61079,
+  "tipo": "zona"
+ },
  "Sabaneta|lagos de la doctora": null,
  "Sabaneta|lagos la doctora": null,
  "Sabaneta|las casitas": null,
