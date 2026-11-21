@@ -132,7 +132,7 @@ function filtrar(sin = null) {
       if (S.municipios.length ? (munB.has(it.municipio) && !dentro) : !dentro) return false;
     }
     if (sin !== "sur" && S.soloSur && !esDelSur(it)) return false;
-    if (sin !== "conVideo" && S.conVideo && !it.v) return false;
+    if (sin !== "conVideo" && S.conVideo && !tieneVideo(it)) return false;
     if (sin !== "reciente" && S.reciente && !esReciente(it, S.reciente)) return false;
     if (S.sinAntiguos && antiguedad(it) === "alto") return false;
     if (sin !== "inv" && S.invReco && !invRecomendado(it)) return false;
@@ -795,7 +795,7 @@ function renderPanel() {
   {
     const cf = contar(filtrarCache("fuente"), (x) => x.fuente);
     const fuentes = [...new Set(TODOS.map((x) => x.fuente))].sort();
-    const nVid = contarAptos(filtrarCache("conVideo").filter((x) => x.v));
+    const nVid = contarAptos(filtrarCache("conVideo").filter(tieneVideo));
     const nInv = contarAptos(filtrarCache("inv").filter(invRecomendado));
     const nNoDisp = contarAptos(filtrarCache("nodisp").filter(invNoDisponible));
     const valor = [S.invReco ? "Recomendados 🔎" : "", S.conVideo ? "Con video" : "", S.fuentes.length ? S.fuentes.join(", ") : "", !S.dup ? "Sin agrupar" : ""].filter(Boolean).join(" · ") || "—";
@@ -1068,7 +1068,7 @@ function tarjeta(it) {
   const disp = it.disp === true && ant !== "alto"
     ? `<span class="disp" title="El portal lo reportó como disponible ${hace(it.visto)}">✓ Disponible</span>` : "";
   return `<article class="tarjeta ${desc ? "descartada" : ""} ${ant === "alto" ? "vieja" : ""}" data-id="${esc(it.id)}">
-    <div class="foto" data-acc="visor" role="button" tabindex="0" aria-label="Ver fotos${it.v ? " y video" : ""}">
+    <div class="foto" data-acc="visor" role="button" tabindex="0" aria-label="Ver fotos${tieneVideo(it) ? " y video" : ""}">
       ${it.img ? `<img src="${esc(urlOk(it.img))}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="portadaRota(this)" onload="ajustarFoto(this)">` : `<span class="sin-foto">🏠</span>`}
       <span class="etiquetas">
         ${imperdible(it.id) ? `<span class="etq imperdible" title="${esc(imperdible(it.id).razon)}">⭐ IMPERDIBLE</span>` : ""}
@@ -1081,7 +1081,7 @@ function tarjeta(it) {
       ${nf > 1 ? `<button class="g-nav ant" data-acc="g-ant" aria-label="Foto anterior">${CHEV.ant}</button><button class="g-nav sig" data-acc="g-sig" aria-label="Foto siguiente">${CHEV.sig}</button>` : ""}
       <span class="medios">
         ${nf ? `<span class="medio" data-cont>📷 ${nf}</span>` : ""}
-        ${it.v ? `<span class="medio video">▶ Video</span>` : ""}
+        ${tieneVideo(it) ? `<span class="medio video">▶ Video</span>` : ""}
         ${it.t ? `<span class="medio">360° Recorrido</span>` : ""}
       </span>
     </div>
@@ -1626,7 +1626,9 @@ function parecidos(it, n = 4) {
 }
 function detalleHTML(it) {
   const fav = favs.has(it.id), desc = descartados.has(it.id);
-  const sec = (titulo, cuerpo) => cuerpo ? `<section class="det-sec"><h3>${titulo}</h3>${cuerpo}</section>` : "";
+  const sec = secDet;
+  const vInv = investigacionDe(it) || null;
+  const mas = DET_MAS === it.id;
   // Precio y comparación
   let comp = "";
   if (it.dif != null && it.comp) {
@@ -1656,7 +1658,9 @@ function detalleHTML(it) {
   const notaEstrato = !it.estrato && it.estr_b ? `<p class="tenue det-nota">≈${it.estr_b}: estrato estimado (${esc(it.estr_n || "")}); el portal no lo informa.</p>` : "";
   const notaOtro = ["hab", "banos", "area", "estrato"].some((k) => !it[k] && it["_" + k]) ? `<p class="tenue det-nota">* Dato tomado del mismo apartamento publicado en otro portal.</p>` : "";
   // Alertas completas
-  const alertas = it.alertas ? `<div class="alerta-det">${it.alertas.map((a) => `<p>⚠ ${esc(TEXTO_ALERTA[a] || a)}</p>`).join("")}</div>` : "";
+  // Alertas: las del anuncio y las de la investigación, en una sola lista
+  const alertasL = [...new Set([...(it.alertas || []).map((a) => TEXTO_ALERTA[a] || a), ...((vInv && vInv.alertas) || [])])];
+  const alertas = alertasL.length ? `<div class="alerta-det">${listaIco(alertasL.map((a) => filaIco("⚠️", esc(a))))}</div>` : "";
   // Parecidos
   const par = parecidos(it);
   const parHtml = par.length ? `<div class="det-parecidos">${par.map((x) => `<button class="lg-fila" data-abrir="${esc(x.id)}">
@@ -1674,18 +1678,22 @@ function detalleHTML(it) {
       </div>
     </div>
     ${imperdible(it.id) ? `<div class="det-imperdible">⭐ <b>Imperdible según la IA:</b> ${esc(imperdible(it.id).razon)}</div>` : ""}
+    ${resumenInv(it)}
     ${comp}
-    ${it.titulo ? `<p class="det-titulo">${esc(it.titulo)}</p>` : ""}
-    ${sec("🔎 Investigación", investigacionHtml(it))}
-    ${sec("Características", ficha(it) + extras(it).replace('<div class="amen">', '<div class="amen todas">') + notaEstrato + notaOtro)}
-    ${(it.amen || []).length > 4 ? `<div class="amen todas">${it.amen.slice(4).map((a) => `<span>${esc(a)}</span>`).join("")}</div>` : ""}
-    ${sec("Ubicación", ubic)}
-    ${sec("El barrio", barrio)}
-    ${sec("Revisa antes de pagar", alertas)}
-    ${sec("Publicación", `<ul class="det-lista">${pub}</ul>`)}
-    ${sec("Contacto", accionesTarjeta(it) + lineaOrigen(it).replace(/<div class="versiones-t">[\s\S]*$/, ""))}
-    ${sec("Dónde está publicado", versionesHtml(it, true))}
-    ${sec("Parecidos en la zona", parHtml)}
+    ${sec("🛏️ Características", ficha(it) + extras(it) + notaEstrato + notaOtro)}
+    ${sec("📞 Contacto", accionesTarjeta(it) + lineaOrigen(it).replace(/<div class="versiones-t">[\s\S]*$/, ""))}
+    <button class="det-mas" type="button" data-acc="mas" aria-expanded="${mas}">${mas ? "Ver menos ▴" : "Ver más detalles ▾"}</button>
+    <div class="det-mas-cuerpo"${mas ? "" : " hidden"}>
+      ${it.titulo ? `<p class="det-titulo">${esc(it.titulo)}</p>` : ""}
+      ${investigacionHtml(it)}
+      ${(it.amen || []).length > 4 ? sec("✨ Comodidades", `<div class="amen todas">${it.amen.map((a) => `<span>${esc(a)}</span>`).join("")}</div>`) : ""}
+      ${sec("📍 Ubicación", ubic)}
+      ${sec("🏘️ El barrio", barrio + invBarrioHtml(vInv))}
+      ${sec("⚠️ Revisa antes de pagar", alertas)}
+      ${sec("📅 Publicación", `<ul class="det-lista">${pub}</ul>`)}
+      ${sec("🔗 Dónde está publicado", versionesHtml(it, true))}
+      ${sec("🏠 Parecidos en la zona", parHtml)}
+    </div>
   </div>`;
 }
 /* ---------- Investigación automática (scraper/investigar.py) ----------
@@ -1698,7 +1706,7 @@ function invResumen(it) {
   for (const i of ids) {
     const k = INVESTIGA.res[i] ? i : INVESTIGA.por_id[i];
     const r = k && INVESTIGA.res[k];
-    if (r) return { k, ver: VER_INV[r[0]] || "", p: r[1], disp: r[2], barrio: r[3], sector: r[4], parte: r[5] };
+    if (r) return { k, ver: VER_INV[r[0]] || "", p: r[1], disp: r[2], barrio: r[3], sector: r[4], parte: r[5], vid: !!r[6] };
   }
   return null;
 }
@@ -1710,6 +1718,8 @@ function puntajeInv(it) {
 }
 function invRecomendado(it) { const r = invResumen(it); return !!(r && r.disp !== 0 && r.ver === "recomendable"); }
 function invNoDisponible(it) { const r = invResumen(it); return !!(r && r.disp === 0); }
+/** Tiene video: lo trae el portal o lo encontró la investigación en la página original. */
+function tieneVideo(it) { return !!(it.v || (invResumen(it) || {}).vid); }
 function sectorDe(it) { const r = invResumen(it); return r && r.sector ? r.sector : ""; }
 function etqInv(it) {
   const r = invResumen(it);
@@ -1727,8 +1737,9 @@ function bloqueInvestigados(lista) {
     <div class="carrusel">${top.map((x) => { const r = invResumen(x);
       return miniTarjeta(x, `<span class="razon imp-razon"><b>${esc(r.p ?? "")}/10</b> · recomendable${r.sector ? ` · sector ${esc(r.sector)}` : ""}</span>`); }).join("")}</div>`;
 }
-const INV_DATOS = new Map(), INV_PEDIDAS = new Set();
-let INV_ZONAS = null;
+var DET_MAS = null;   // id del apartamento con «Ver más detalles» abierto
+const INV_DATOS = new Map(), INV_PROM = new Map(), INV_PINTAR = new Set();
+let INV_ZONAS = null, INV_ZONAS_P = null;
 function investigacionDe(it) {
   const r = invResumen(it);
   if (!r) return null;
@@ -1739,69 +1750,148 @@ function investigacionDe(it) {
   return Object.assign({}, v, { barrio_inv: v.bk ? INV_ZONAS.b[v.bk] : null, sector_inv: v.sk ? INV_ZONAS.s[v.sk] : null,
     conjunto_inv: v.ck ? INV_ZONAS.c[v.ck] : null });
 }
-function pedirInvCompleta(it) {
+/** Baja (una sola vez) la parte del expediente y las zonas; devuelve una promesa. */
+function cargarInv(it) {
   const r = invResumen(it);
-  if (!r) return;
-  const pz = INV_ZONAS ? Promise.resolve() : fetch("data/investigaciones/zonas.json", { cache: "no-cache" })
+  if (!r) return Promise.resolve();
+  if (!INV_ZONAS_P) INV_ZONAS_P = fetch("data/investigaciones/zonas.json", { cache: "no-cache" })
     .then((x) => x.json()).then((j) => { INV_ZONAS = j; }).catch(() => { INV_ZONAS = { b: {}, s: {}, c: {} }; });
-  let pp = Promise.resolve();
-  if (!INV_PEDIDAS.has(r.parte)) {
-    INV_PEDIDAS.add(r.parte);
-    pp = fetch(`data/investigaciones/${String(r.parte).padStart(2, "0")}.json`, { cache: "no-cache" })
-      .then((x) => x.json()).then((j) => INV_DATOS.set(r.parte, j)).catch(() => INV_DATOS.set(r.parte, {}));
-  }
-  Promise.all([pz, pp]).then(() => {
-    const d = $("#visorDetalle"), f = d && d.querySelector(".detalle-ficha");
-    if (f && f.dataset.id === it.id && investigacionDe(it) !== undefined) { const y = d.scrollTop; pintarDetalle(it); d.scrollTop = y; }
+  if (!INV_PROM.has(r.parte)) INV_PROM.set(r.parte, fetch(`data/investigaciones/${String(r.parte).padStart(2, "0")}.json`, { cache: "no-cache" })
+    .then((x) => x.json()).then((j) => INV_DATOS.set(r.parte, j)).catch(() => INV_DATOS.set(r.parte, {})));
+  return Promise.all([INV_ZONAS_P, INV_PROM.get(r.parte)]);
+}
+function pedirInvCompleta(it) {
+  if (INV_PINTAR.has(it.id)) return;
+  INV_PINTAR.add(it.id);
+  cargarInv(it).then(() => {
+    INV_PINTAR.delete(it.id);
+    const d = $("#visorDetalle"), f = d && d.querySelector(".detalle-ficha"), c = $("#visorCuerpo");
+    if (f && f.dataset.id === it.id) { const y = d.scrollTop, yc = c.scrollTop; pintarDetalle(it); d.scrollTop = y; c.scrollTop = yc; }
   });
 }
 const RASGO_TXT = { porteria: "portería", vigilancia: "vigilancia", unidad_cerrada: "unidad cerrada", en_casa: "apartamento en casa",
   ascensor: "ascensor", piscina: "piscina", parqueadero: "parqueadero", loma: "menciona loma/pendiente", dice_venta: "menciona «venta»" };
 const kmTxt = (k) => `${String(k).replace(".", ",")} km`;
-function investigacionHtml(it) {
+/* Piezas comunes del detalle: sección con título, lista con íconos y bloque plegable */
+function secDet(titulo, cuerpo) { return cuerpo ? `<section class="det-sec"><h3>${titulo}</h3>${cuerpo}</section>` : ""; }
+const filaIco = (ico, html) => `<li><span class="di" aria-hidden="true">${ico}</span><span>${html}</span></li>`;
+const listaIco = (filas) => (filas.filter(Boolean).length ? `<ul class="det-iconos">${filas.filter(Boolean).join("")}</ul>` : "");
+const plegable = (titulo, html) => (html ? `<details class="det-pleg"><summary>${titulo}</summary>${html}</details>` : "");
+const recorta = (s, n = 100) => (s && s.length > n ? s.slice(0, n - 1).replace(/\s+\S*$/, "") + "…" : s || "");
+const mayus = (s) => (s ? s.charAt(0).toUpperCase() + s.slice(1) : "");
+function primeraFrase(s) {
+  const m = /^[\s\S]*?[.!?](\s|$)/.exec(s || "");
+  const f = (m ? m[0] : s || "").trim();
+  return f.length > 150 ? f.slice(0, 147).replace(/\s+\S*$/, "") + "…" : f;
+}
+const claseVer = (o) => (!o ? "" : o.veredicto === "recomendable" ? "si" : o.veredicto === "no recomendable" ? "no" : "medio");
+function invLista(t, xs) {
+  return xs && xs.length ? `<p class="inv-t">${t}</p><ul class="det-lista">${xs.map((x) => `<li>${esc(typeof x === "string" ? x : `${x.fecha ? x.fecha + ": " : ""}${x.que || ""}${x.medio ? ` (${x.medio})` : ""}`)}</li>`).join("")}</ul>` : "";
+}
+function invFuentes(fs) {
+  return fs && fs.length ? `<p class="inv-fuentes">Fuentes: ${fs.map((f) => `<a href="${esc(urlOk(f.url))}" target="_blank" rel="noopener">${esc(f.titulo || "enlace")}</a>`).join(" · ")}</p>` : "";
+}
+/** Datos clave en chips con ícono (van en el resumen corto). */
+function chipsInv(it, v) {
+  const c = [];
+  const chip = (ico, t, cls = "", tit = "") => `<span class="rc ${cls}"${tit ? ` title="${esc(tit)}"` : ""}>${ico} ${t}</span>`;
+  if (v.disponible === false) c.push(chip("❌", "No disponible", "mal"));
+  else if (v.disponible) c.push(chip("✅", "Disponible", "bien", "Revisado en la página original del anuncio"));
+  const rs = v.rasgos || [];
+  if (rs.includes("porteria")) c.push(chip("🔐", "Portería", "bien"));
+  else if (rs.includes("unidad_cerrada")) c.push(chip("🔐", "Unidad cerrada", "bien"));
+  else if (rs.includes("vigilancia")) c.push(chip("🔐", "Vigilancia", "bien"));
+  else c.push(chip("🔓", "Sin portería en el anuncio", "aviso", "El anuncio no menciona portería ni vigilancia: pregúntalo"));
+  const m = (v.recorridos || []).find((x) => /^Metro/.test(x.lugar));
+  if (m && m.pie_min != null) c.push(chip("🚇", `${esc(m.lugar.replace(/^Metro\s*/, ""))} · ${m.pie_min} min a pie`, m.pie_min > 30 ? "aviso" : "", m.lugar));
+  else if (m && m.carro_min != null) c.push(chip("🚇", `${esc(m.lugar.replace(/^Metro\s*/, ""))} · ${m.carro_min} min en carro`, "aviso", m.lugar));
+  else if (v.metro) c.push(chip("🚇", `${esc(v.metro.estacion)} · ${kmTxt((v.metro.m_linea_recta / 1000).toFixed(1))}`, "", "En línea recta"));
+  const cc = v.cerca || {};
+  const sup = (cc.supermercados || [])[0];
+  if (sup) c.push(chip("🛒", `${sup.m} m`, "", `${sup.nombre} a ${sup.m} m`));
+  if (cc.paraderos) c.push(chip("🚌", `${cc.paraderos} paraderos`, "", "Paraderos de bus a 500 m (OpenStreetMap)"));
+  const nA = new Set([...(it.alertas || []), ...(v.alertas || [])]).size;
+  if (nA) c.push(chip("⚠️", `${nA} alerta${nA === 1 ? "" : "s"}`, "aviso", "Están en «Ver más detalles»"));
+  if (tieneVideo(it) || (v.videos || []).length) c.push(`<button class="rc video" type="button" data-acc="video">▶ Ver video</button>`);
+  return c;
+}
+/** Resumen corto (siempre visible): veredicto, una frase, chips y lo principal a favor / en contra. */
+function resumenInv(it) {
+  const r = invResumen(it);
+  if (!r) return tieneVideo(it) ? `<div class="res-chips"><button class="rc video" type="button" data-acc="video">▶ Ver video</button></div>` : "";
   const v = investigacionDe(it);
-  if (v === undefined) { pedirInvCompleta(it); return `<p class="tenue">Cargando la investigación…</p>`; }
+  if (v === undefined) { pedirInvCompleta(it); return `<div class="res-inv"><p class="res-ver tenue">🔎 Cargando la investigación…</p></div>`; }
   if (!v) return "";
   const o = v.opinion;
-  const clase = o ? (o.veredicto === "recomendable" ? "si" : o.veredicto === "no recomendable" ? "no" : "medio") : "";
-  const lista = (t, xs) => (xs && xs.length ? `<p class="inv-t">${t}</p><ul class="det-lista">${xs.map((x) => `<li>${esc(typeof x === "string" ? x : `${x.fecha ? x.fecha + ": " : ""}${x.que || ""}${x.medio ? ` (${x.medio})` : ""}`)}</li>`).join("")}</ul>` : "");
-  const fuentes = (fs) => (fs && fs.length ? `<p class="inv-fuentes">Fuentes: ${fs.map((f) => `<a href="${esc(urlOk(f.url))}" target="_blank" rel="noopener">${esc(f.titulo || "enlace")}</a>`).join(" · ")}</p>` : "");
-  const lugares = (xs) => (xs || []).map((x) => `${esc(x.nombre)} (${x.m} m)`).join(", ");
-  const c = v.cerca || {}, s = v.sector || {};
-  const datos = [
-    v.disponible === false ? "❌ Ya no está disponible en sus páginas" : v.disponible ? "✅ Sigue disponible (revisado en la página original)" : "",
-    v.publicado ? `📅 Publicado ${esc(fechaCorta(v.publicado))}${v.modificado ? ` · modificado ${esc(fechaCorta(v.modificado))}` : ""}` : "",
-    v.barrio ? `🏘️ Barrio: <b>${esc(v.barrio)}</b>` : "",
-    s.nombre || s.via || (s.referencias || []).length
-      ? `📍 Sector: ${[s.nombre ? `<b>${esc(s.nombre)}</b>` : "", s.via ? esc(s.via) : "", (s.referencias || []).length ? `cerca de ${esc(s.referencias.join(", "))}` : ""].filter(Boolean).join(" · ")}` : "",
-    (s.quebradas || []).length ? `💧 Quebradas a menos de 300 m: ${esc(s.quebradas.join(", "))}` : "",
-    v.ubic ? `🗺️ Ubicación: ${esc(v.ubic.tipo)}` : "",
-    v.conjunto ? `🏢 Conjunto: ${esc(v.conjunto)}` : "",
-    v.rasgos && v.rasgos.length ? `🔐 El anuncio menciona: ${v.rasgos.map((r) => esc(RASGO_TXT[r] || r)).join(", ")}` : "",
-    !(v.recorridos || []).length && v.metro ? `🚇 Metro ${esc(v.metro.estacion)} a ${(v.metro.m_linea_recta / 1000).toFixed(1).replace(".", ",")} km en línea recta` : "",
-    c.supermercados && c.supermercados.length ? `🛒 ${lugares(c.supermercados)}` : "",
-    c.centros_comerciales && c.centros_comerciales.length ? `🏬 ${lugares(c.centros_comerciales)}` : "",
-    c.salud && c.salud.length ? `🏥 ${lugares(c.salud)}` : "",
-    c.parques && c.parques.length ? `🌳 ${lugares(c.parques)}` : "",
-    c.paraderos ? `🚌 ${c.paraderos} paraderos de bus a 500 m (según OpenStreetMap)` : "",
-    v.video === true ? "🎥 Tiene video" : v.video === false ? "Sin video" : "",
-  ].filter(Boolean);
-  const ci = v.conjunto_inv, bi = v.barrio_inv, si = v.sector_inv;
-  return `<div class="inv">
-    ${o ? `<div class="inv-ver ${clase}"><b>${esc(o.veredicto || "")}</b>${o.puntaje != null ? ` · ${esc(o.puntaje)}/10` : ""}<p>${esc(o.resumen || "")}</p>${o.transporte ? `<p>🚌 ${esc(o.transporte)}</p>` : ""}</div>` : `<p class="tenue">La IA aún no da su opinión; esto es lo que se encontró.</p>`}
-    ${o ? lista("A favor", o.a_favor) + lista("En contra", o.en_contra) + lista("Pregúntale a la inmobiliaria", o.preguntar) : ""}
-    ${lista("⚠️ Alertas", v.alertas)}
-    <p class="inv-t">Lo que se verificó</p><ul class="det-lista inv-datos">${datos.map((d) => `<li>${d}</li>`).join("")}</ul>
-    ${(v.recorridos || []).length ? `<p class="inv-t">Qué tan lejos queda (por las calles)</p><ul class="det-lista inv-datos">${v.recorridos.map((r) => `<li>${r.lugar.startsWith("Metro") ? "🚇" : "📌"} <b>${esc(r.lugar)}</b>: ${[
-      r.pie_km != null ? `${kmTxt(r.pie_km)} · ${r.pie_min} min a pie` : "",
-      r.carro_min != null ? `${r.pie_km == null ? kmTxt(r.carro_km) + " · " : ""}${r.carro_min} min en carro` : ""].filter(Boolean).join(" · ") || `${kmTxt(r.linea_recta_km)} en línea recta`}</li>`).join("")}</ul>
-      <p class="tenue inv-pie">En carro: sin trancón (en hora pico puede ser el doble). Recorridos por las calles con OpenStreetMap.</p>` : ""}
-    ${si && ((si.rutas_bus || []).length || (si.tiempos_bus || []).length || si.transporte) ? `<p class="inv-t">🚌 Buses y conexiones (según búsqueda)</p>${si.transporte ? `<p>${esc(si.transporte)}</p>` : ""}${lista("Rutas que pasan cerca", (si.rutas_bus || []).map((r) => [r.ruta, r.recorrido, r.frecuencia].filter((x) => x && !/no especific/i.test(x)).join(" · ")))}${lista("Cuánto suele tardar en bus", (si.tiempos_bus || []).filter((t) => t.tiempo && !/^no especific/i.test(t.tiempo)).map((t) => `${t.a}: ${t.tiempo}${t.fuente ? ` (${t.fuente})` : ""}`))}` : ""}
-    ${ci ? `<p class="inv-t">El conjunto${ci.calificacion ? ` · ${esc(ci.calificacion)}` : ""}</p><p>${esc(ci.encontrado === false ? "No se encontró información de este conjunto." : ci.resumen || "")}</p>${lista("Quejas", ci.quejas)}${lista("Noticias", ci.noticias)}${fuentes(ci._fuentes)}` : ""}
-    ${si ? `<p class="inv-t">El sector (las cuadras alrededor)</p><p>${esc(si.encontrado === false ? "No se encontraron noticias de este sector." : si.resumen || "")}</p>${lista("Hechos en el sector", si.hechos_sector)}${lista("Riesgos del sector", si.riesgos)}${lista("Del barrio en general (no del sector)", si.del_barrio_no_del_sector)}${fuentes(si._fuentes)}` : ""}
-    ${bi ? `<p class="inv-t">El barrio (investigado por la IA)</p><p>${esc(bi.resumen || "")}</p>${lista("Hechos en el barrio", bi.hechos)}${lista("Problemas del barrio", bi.problemas)}${lista("En el municipio (no es del barrio)", bi.contexto_municipio)}${fuentes(bi._fuentes)}` : ""}
-    <p class="tenue inv-pie">Investigado ${esc(fechaCorta((v.fecha || "").slice(0, 10)))} · distancias en línea recta (OpenStreetMap)</p>
+  const chips = chipsInv(it, v);
+  const pro = o && (o.a_favor || [])[0], contra = o && (o.en_contra || [])[0];
+  return `<div class="res-inv ${claseVer(o)}">
+    ${o ? `<p class="res-ver">🔎 <b>${esc(mayus(o.veredicto || ""))}</b>${o.puntaje != null ? ` · <b>${esc(o.puntaje)}/10</b>` : ""}</p>
+      <p class="res-frase">${esc(o.frase || primeraFrase(o.resumen))}</p>`
+    : `<p class="res-ver">🔎 <b>Investigado</b> <span class="tenue">· la IA aún no da su opinión</span></p>`}
+    ${pro || contra ? `<ul class="res-pc">${pro ? `<li>👍 ${esc(recorta(pro))}</li>` : ""}${contra ? `<li>👎 ${esc(recorta(contra))}</li>` : ""}</ul>` : ""}
+    ${chips.length ? `<div class="res-chips">${chips.join("")}</div>` : ""}
   </div>`;
+}
+/** El barrio según la IA (va dentro de la sección «El barrio», junto a la ficha del barrio). */
+function invBarrioHtml(v) {
+  const bi = v && v.barrio_inv;
+  if (!bi) return "";
+  const n = (bi.hechos || []).length + (bi.problemas || []).length + (bi.contexto_municipio || []).length;
+  return `<p class="inv-t">🤖 Lo que encontró la IA</p><p>${esc(bi.resumen || "")}</p>
+    ${plegable(`Hechos, problemas y fuentes${n ? ` (${n})` : ""}`, invLista("Hechos en el barrio", bi.hechos) + invLista("Problemas del barrio", bi.problemas)
+      + invLista("En el municipio (no es del barrio)", bi.contexto_municipio) + invFuentes(bi._fuentes))}`;
+}
+/** Secciones de la investigación que van dentro de «Ver más detalles». */
+function investigacionHtml(it) {
+  const v = investigacionDe(it);
+  if (!v) return "";
+  const o = v.opinion, s = v.sector || {}, c = v.cerca || {}, si = v.sector_inv, ci = v.conjunto_inv;
+  const lugares = (xs) => (xs || []).map((x) => `${esc(x.nombre)} <span class="tenue">${x.m} m</span>`).join(" · ");
+  const opinion = o ? `<div class="inv-ver ${claseVer(o)}"><b>${esc(mayus(o.veredicto || ""))}</b>${o.puntaje != null ? ` · ${esc(o.puntaje)}/10` : ""}<p>${esc(o.resumen || "")}</p></div>
+    ${listaIco([...(o.a_favor || []).map((x) => filaIco("👍", esc(x))), ...(o.en_contra || []).map((x) => filaIco("👎", esc(x)))])}
+    ${(o.preguntar || []).length ? `<p class="inv-t">Pregúntale a la inmobiliaria</p>${listaIco(o.preguntar.map((x) => filaIco("❓", esc(x))))}` : ""}` : "";
+  const verif = listaIco([
+    v.disponible === false ? filaIco("❌", "Ya no está disponible en sus páginas") : v.disponible ? filaIco("✅", "Sigue disponible (revisado en la página original)") : "",
+    v.publicado ? filaIco("📅", `Publicado ${esc(fechaCorta(v.publicado))}${v.modificado ? ` · modificado ${esc(fechaCorta(v.modificado))}` : ""}`) : "",
+    (v.rasgos || []).length ? filaIco("📝", `El anuncio menciona: ${v.rasgos.map((r) => esc(RASGO_TXT[r] || r)).join(", ")}`) : "",
+    !(v.rasgos || []).some((r) => /porteria|vigilancia|unidad_cerrada/.test(r)) ? filaIco("🔓", "No menciona portería ni vigilancia") : "",
+    v.conjunto ? filaIco("🏢", `Conjunto: <b>${esc(v.conjunto)}</b>`) : "",
+    v.ubic ? filaIco("🗺️", `Punto del mapa: ${esc(v.ubic.tipo)}`) : "",
+  ]);
+  const reco = v.recorridos || [];
+  const lejos = listaIco([
+    ...reco.map((r) => filaIco(r.lugar.startsWith("Metro") ? "🚇" : "📌", `<b>${esc(r.lugar)}</b>: ${[
+      r.pie_km != null ? `${kmTxt(r.pie_km)} · ${r.pie_min} min a pie` : "",
+      r.carro_min != null ? `${r.pie_km == null ? kmTxt(r.carro_km) + " · " : ""}${r.carro_min} min en carro` : ""].filter(Boolean).join(" · ") || `${kmTxt(r.linea_recta_km)} en línea recta`}`)),
+    !reco.length && v.metro ? filaIco("🚇", `Metro ${esc(v.metro.estacion)} a ${kmTxt((v.metro.m_linea_recta / 1000).toFixed(1))} en línea recta`) : "",
+    (c.supermercados || []).length ? filaIco("🛒", lugares(c.supermercados)) : "",
+    (c.centros_comerciales || []).length ? filaIco("🏬", lugares(c.centros_comerciales)) : "",
+    (c.salud || []).length ? filaIco("🏥", lugares(c.salud)) : "",
+    (c.parques || []).length ? filaIco("🌳", lugares(c.parques)) : "",
+    (c.colegios || []).length ? filaIco("🏫", lugares(c.colegios)) : "",
+    (s.quebradas || []).length ? filaIco("💧", `Quebradas a menos de 300 m: ${esc(s.quebradas.join(", "))}`) : "",
+  ]) + (reco.length ? `<p class="tenue inv-pie">Por las calles (OpenStreetMap). En carro, sin trancón: en hora pico puede ser el doble.</p>` : "");
+  const rutas = si ? (si.rutas_bus || []).map((r) => [r.ruta, r.recorrido, r.frecuencia].filter((x) => x && !/no especific/i.test(x)).join(" · ")).filter(Boolean) : [];
+  const tiempos = si ? (si.tiempos_bus || []).filter((t) => t.tiempo && !/^no especific/i.test(t.tiempo)).map((t) => `${esc(t.a)}: <b>${esc(t.tiempo)}</b>${t.fuente ? ` <span class="tenue">(${esc(t.fuente)})</span>` : ""}`) : [];
+  const transp = (o && o.transporte) || (si && si.transporte) || "";
+  const buses = (transp ? `<p>${esc(transp)}</p>` : "") + listaIco([
+    ...rutas.map((x) => filaIco("🚌", esc(x))), ...tiempos.map((x) => filaIco("⏱️", x)),
+    c.paraderos ? filaIco("🚏", `${c.paraderos} paraderos a 500 m`) : ""]);
+  const lugarSector = [s.nombre ? `<b>${esc(s.nombre)}</b>` : "", s.via ? esc(s.via) : "", (s.referencias || []).length ? `cerca de ${esc(s.referencias.join(", "))}` : ""].filter(Boolean).join(" · ");
+  const nS = si ? (si.hechos_sector || []).length + (si.riesgos || []).length + (si.del_barrio_no_del_sector || []).length : 0;
+  const sector = (lugarSector ? listaIco([filaIco("📍", lugarSector)]) : "") + (si ? `<p>${esc(si.encontrado === false ? "No se encontraron noticias de este sector." : si.resumen || "")}</p>
+    ${plegable(`Hechos, riesgos y fuentes${nS ? ` (${nS})` : ""}`, invLista("Hechos en el sector", si.hechos_sector) + invLista("Riesgos del sector", si.riesgos)
+      + invLista("Del barrio en general (no del sector)", si.del_barrio_no_del_sector) + invFuentes(si._fuentes))}` : "");
+  const conj = ci ? `<p>${ci.calificacion ? `<b>${esc(mayus(ci.calificacion))}</b> · ` : ""}${esc(ci.encontrado === false ? "No se encontró información de este conjunto." : ci.resumen || "")}</p>
+    ${plegable("Quejas, noticias y fuentes", invLista("Quejas", ci.quejas) + invLista("Noticias", ci.noticias) + invFuentes(ci._fuentes))}` : "";
+  return secDet("🔎 Opinión de la IA", opinion)
+    + secDet("✅ Lo que se verificó", verif)
+    + secDet("🚶 Qué tan lejos queda y qué hay cerca", lejos)
+    + secDet("🚌 Buses y conexiones", buses)
+    + secDet("📍 El sector", sector)
+    + secDet(`🏢 El conjunto${v.conjunto ? ` ${esc(v.conjunto)}` : ""}`, conj)
+    + `<p class="tenue inv-pie">🔎 Investigado ${esc(fechaCorta((v.fecha || "").slice(0, 10)))}</p>`;
 }
 function pintarDetalle(it) {
   const d = $("#visorDetalle");
@@ -1836,19 +1926,59 @@ async function abrirVisor(it, inicio = 0) {
   document.body.style.overflow = "hidden";
   const g = await galeria(it);
   if (V.it !== it) return;
-  V.items = g.fotos.map((u) => ({ tipo: "foto", u }));
-  const yt = idYoutube(g.video);
-  if (yt) V.items.push({ tipo: "youtube", id: yt });
-  else if (g.video && /^https?:\/\/.+\.(mp4|webm)(\?|$)/i.test(g.video)) V.items.push({ tipo: "mp4", u: g.video });
-  V.i = Math.min(inicio, Math.max(0, V.items.length - 1));
-  $("#visorEnlaces").innerHTML =
-    (g.tour ? `<a class="sec" href="${esc(urlOk(g.tour))}" target="_blank" rel="noopener noreferrer">360° Recorrido virtual</a>` : "")
-    + `<a href="${esc(urlOk(it.url))}" target="_blank" rel="noopener noreferrer">Ver anuncio en ${esc(sitioDe(it))}</a>`;
+  const fotos = g.fotos.map((u) => ({ tipo: "foto", u }));
+  const vids = itemsVideo([g.video]);
+  V.items = fotos.slice(0, 1).concat(vids, fotos.slice(1));
+  V.i = Math.min(inicio > 0 ? inicio + vids.length : 0, Math.max(0, V.items.length - 1));
+  const enlaces = () => {
+    $("#visorEnlaces").innerHTML =
+      (g.tour ? `<a class="sec" href="${esc(urlOk(g.tour))}" target="_blank" rel="noopener noreferrer">360° Recorrido virtual</a>` : "")
+      + `<a href="${esc(urlOk(it.url))}" target="_blank" rel="noopener noreferrer">Ver anuncio en ${esc(sitioDe(it))}</a>`;
+  };
+  enlaces();
+  pintarMinis();
+  pintarVisor();
+  // Videos y recorrido 360° que encontró la investigación en la página original del anuncio
+  if (invResumen(it)) cargarInv(it).then(() => {
+    if (V.it !== it) return;
+    const vi = investigacionDe(it) || {};
+    if (vi.tour && !g.tour) { g.tour = vi.tour; enlaces(); }
+    const nuevos = itemsVideo(vi.videos || []).filter((x) => !V.items.some((y) => y.tipo !== "foto" && claveVideo(y) === claveVideo(x)));
+    if (!nuevos.length) return;
+    const pos = V.items.length ? 1 + V.items.filter((y) => y.tipo !== "foto").length : 0;
+    V.items.splice(pos, 0, ...nuevos);
+    const viendoVideo = V.items[V.i] && V.items[V.i].tipo !== "foto";
+    if (V.i >= pos && V.items.length > nuevos.length) V.i += nuevos.length;
+    pintarMinis();
+    if (!viendoVideo) pintarVisor();
+  });
+}
+const claveVideo = (x) => x.id || x.u;
+/** Enlaces → elementos del visor (YouTube o .mp4/.webm), sin repetidos. */
+function itemsVideo(urls) {
+  const out = [];
+  for (const u of urls) {
+    const yt = idYoutube(u);
+    const x = yt ? { tipo: "youtube", id: yt } : u && /^https?:\/\/.+\.(mp4|webm)(\?|$)/i.test(u) ? { tipo: "mp4", u } : null;
+    if (x && !out.some((y) => claveVideo(y) === claveVideo(x))) out.push(x);
+  }
+  return out;
+}
+function pintarMinis() {
   $("#visorMinis").innerHTML = V.items.map((x, i) => x.tipo === "foto"
     ? `<button class="mini" data-mini="${i}" aria-label="Foto ${i + 1}"><img src="${esc(x.u)}" alt="" loading="lazy" referrerpolicy="no-referrer" data-u="${esc(x.u)}"></button>`
     : `<button class="mini video" data-mini="${i}" aria-label="Video">▶ Video</button>`).join("");
   $$("#visorMinis img").forEach((im) => { im.onerror = () => quitarFotoVisor(im.dataset.u); });
+  $$("#visorMinis .mini").forEach((b, i) => b.classList.toggle("on", i === V.i));
+}
+/** Salta al video (botón ▶ sobre la foto o «Ver video» del detalle). */
+function irAlVideo() {
+  const k = V.items.findIndex((y) => y.tipo !== "foto");
+  if (k < 0) return;
+  if (modoFoto()) salirModoFoto();
+  V.i = k;
   pintarVisor();
+  $("#visorCuerpo").scrollTo({ top: 0, behavior: "smooth" });
 }
 /** Quita del visor una foto que no abre y vuelve a pintar. */
 function quitarFotoVisor(u) {
@@ -1858,16 +1988,22 @@ function quitarFotoVisor(u) {
   if (k < 0) return;
   V.items.splice(k, 1);
   if (V.i > k || V.i >= V.items.length) V.i = Math.max(0, V.i - 1);
-  $("#visorMinis").innerHTML = V.items.map((x, i) => x.tipo === "foto"
-    ? `<button class="mini" data-mini="${i}" aria-label="Foto ${i + 1}"><img src="${esc(x.u)}" alt="" loading="lazy" referrerpolicy="no-referrer" data-u="${esc(x.u)}"></button>`
-    : `<button class="mini video" data-mini="${i}" aria-label="Video">▶ Video</button>`).join("");
-  $$("#visorMinis img").forEach((im) => { im.onerror = () => quitarFotoVisor(im.dataset.u); });
+  pintarMinis();
   pintarVisor();
 }
 function pintarVisor() {
   const n = V.items.length;
   const medio = $("#visorMedio");
   $("#visorAnt").hidden = $("#visorSig").hidden = n < 2;
+  // Botón grande «▶ Ver video» sobre las fotos (en celular la fila de miniaturas casi no se ve)
+  let bv = $("#visorVideoBtn");
+  if (!bv) {
+    $("#visorEscena").insertAdjacentHTML("beforeend", `<button class="visor-video-btn" id="visorVideoBtn" type="button" hidden>▶ Ver video</button>`);
+    bv = $("#visorVideoBtn");
+    ["pointerdown", "touchstart", "mousedown"].forEach((ev) => bv.addEventListener(ev, (e) => e.stopPropagation(), { passive: true }));
+    bv.addEventListener("click", (e) => { e.stopPropagation(); irAlVideo(); });
+  }
+  bv.hidden = !(n && V.items[V.i].tipo === "foto" && V.items.some((y) => y.tipo !== "foto"));
   if (!n) { medio.innerHTML = `<span class="cargando">Este anuncio no tiene fotos.</span>`; return; }
   const x = V.items[V.i];
   if (x.tipo === "foto") {
@@ -2397,6 +2533,14 @@ document.addEventListener("click", (e) => {
       cerrarVisor();
       setTimeout(() => irAlMapa(id), 60);    } else if (t.dataset.acc === "compartir") {
       compartirAnuncio(it);
+    } else if (t.dataset.acc === "mas") {
+      DET_MAS = DET_MAS === id ? null : id;
+      const cuerpo = t.nextElementSibling;
+      if (cuerpo) cuerpo.hidden = DET_MAS !== id;
+      t.setAttribute("aria-expanded", String(DET_MAS === id));
+      t.textContent = DET_MAS === id ? "Ver menos ▴" : "Ver más detalles ▾";
+    } else if (t.dataset.acc === "video") {
+      irAlVideo();
     }
   } else if (t.dataset.acc) {
     const card = t.closest(".tarjeta");

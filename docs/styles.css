@@ -1297,3 +1297,38 @@ details.datos-g summary { cursor: pointer; font-size: .8rem; color: var(--acento
 
 /* Versiones unidas en tarjetas pequeñas */
 .mini-v { font-size: .78em; opacity: .85; }
+
+/* Detalle: resumen corto con íconos + «Ver más detalles» */
+.res-inv { border-radius: 12px; padding: 10px 12px; background: var(--sup2); border: 1px solid var(--borde); display: flex; flex-direction: column; gap: 6px; }
+.res-inv.si { background: #e6f4ea; border-color: #b9e0c4; color: #14532d; }
+.res-inv.medio { background: #fff4e0; border-color: #f1d49b; color: #7a4a00; }
+.res-inv.no { background: #fde8e8; border-color: #f3b9b9; color: #7f1d1d; }
+.res-ver, .res-frase { margin: 0; }
+.res-ver { font-size: .95rem; }
+.res-frase { font-size: .9rem; line-height: 1.4; }
+.res-pc { list-style: none; margin: 0; padding: 0; font-size: .85rem; line-height: 1.4; display: flex; flex-direction: column; gap: 2px; }
+.res-chips { display: flex; flex-wrap: wrap; gap: 5px; }
+.rc { display: inline-flex; align-items: center; gap: 4px; font: inherit; font-size: .78rem; font-weight: 600; padding: 3px 9px; border-radius: 999px; background: var(--sup); color: var(--texto); border: 1px solid var(--borde); white-space: nowrap; }
+.rc.bien { color: var(--bueno); }
+.rc.aviso { color: var(--aviso); }
+.rc.mal { color: #b91c1c; }
+button.rc.video { background: #d42a2a; border-color: #d42a2a; color: #fff; cursor: pointer; }
+.det-mas { border: 1px solid var(--borde); background: var(--sup2); color: var(--acento); font: inherit; font-weight: 700; font-size: .92rem; border-radius: 10px; padding: 11px; cursor: pointer; }
+.det-mas:hover { border-color: var(--acento); }
+.det-mas-cuerpo { display: flex; flex-direction: column; gap: 14px; }
+.det-mas-cuerpo[hidden] { display: none; }
+.det-iconos { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; font-size: .88rem; line-height: 1.4; }
+.det-iconos li { display: flex; gap: 8px; align-items: flex-start; }
+.det-iconos .di { flex: none; width: 22px; text-align: center; }
+.alerta-det .det-iconos { gap: 4px; }
+.det-pleg { margin-top: 6px; font-size: .88rem; }
+.det-pleg summary { cursor: pointer; color: var(--acento); font-weight: 600; }
+.det-pleg[open] summary { margin-bottom: 4px; }
+.visor-video-btn { position: absolute; left: 50%; bottom: 14px; transform: translateX(-50%); z-index: 4; border: 0; border-radius: 999px; padding: 9px 18px; background: #d42a2a; color: #fff; font: inherit; font-weight: 700; font-size: .95rem; cursor: pointer; box-shadow: 0 4px 14px rgba(0,0,0,.35); }
+.visor-video-btn[hidden] { display: none; }
+@media (prefers-color-scheme: dark) {
+  .res-inv.si { background: #12351f; border-color: #1f5a35; color: #c8f0d4; }
+  .res-inv.medio { background: #3a2a0a; border-color: #6b4d12; color: #ffe2a8; }
+  .res-inv.no { background: #3d1414; border-color: #6e2323; color: #ffd0d0; }
+  .rc.mal { color: #ff9b9b; }
+}

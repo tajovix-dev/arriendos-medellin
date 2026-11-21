@@ -71,7 +71,7 @@ LOTE_GROQ = 6                # Groq gratis tiene poco límite de tokens por minu
 DIAS_REVISAR = 5             # se vuelve a abrir la ficha (¿sigue disponible?) cada tantos días
 DIAS_CONJUNTO = 60           # una investigación de conjunto o barrio vale este tiempo
 SEG_LIMITE = 20 * 60         # tiempo máximo de la corrida
-EXP_VERSION = 5              # sube cuando cambia el formato del expediente (fuerza revisarlos)
+EXP_VERSION = 6             # sube cuando cambia el formato del expediente (fuerza revisarlos)
 DIAS_COLA = 10               # entran a la cola los vistos por primera vez en estos días (o los del perfil)
 PERFIL_FILTRO = {"precio_max": 1_700_000, "hab_min": 2, "banos_min": 2}
 
@@ -142,11 +142,38 @@ def _primero(patron, txt):
     return m.group(1) if m else None
 
 
+RX_YT = re.compile(r"(?:youtube(?:-nocookie)?\.com/(?:embed/|watch\?v=|shorts/|v/)|youtu\.be/)([\w-]{11})")
+RX_CAMPO_VIDEO = re.compile(r'"(?:youtube|video|videoUrl|video_url|urlVideo|youtubeUrl|youtube_url)"\s*:\s*"([^"]*)"', re.I)
+RX_CAMPO_TOUR = re.compile(r'"(?:tour3d|tour_3d|matterPort|matterport|tour360|tourVirtual|tour_virtual)"\s*:\s*"(https?://[^"]{12,})"', re.I)
+
+
+def un_video(u):
+    """Normaliza un enlace de video reproducible (YouTube o .mp4/.webm); None si no es un video concreto."""
+    u = (u or "").strip()
+    m = RX_YT.search(u)
+    if m:
+        return "https://youtu.be/" + m.group(1)
+    if re.match(r"https?://\S+\.(?:mp4|webm)(?:\?|$)", u, re.I):
+        return u
+    return None
+
+
+def videos_en(plano):
+    """Videos del anuncio. Primero los campos del propio anuncio («video», «youtube»…); si no hay, un único
+    video incrustado en la página. Un campo vacío («youtube.com/embed/») o un canal NO cuentan como video."""
+    vs = [v for v in (un_video(c) for c in RX_CAMPO_VIDEO.findall(plano)) if v]
+    if not vs:
+        ids = set(RX_YT.findall(plano))
+        if len(ids) == 1:
+            vs = ["https://youtu.be/" + ids.pop()]
+    return list(dict.fromkeys(vs))
+
+
 def abrir_ficha(it):
     """Abre la ficha de una versión y devuelve lo que dice la página (sin inventar nada)."""
     url = it["url"]
     out = {"fuente": it.get("fuente"), "url": url, "disponible": None, "publicado": it.get("publicado"),
-           "modificado": None, "video": None, "desc": "", "lat": None, "lon": None}
+           "modificado": None, "video": None, "videos": [], "tour": None, "desc": "", "lat": None, "lon": None}
     try:
         if it.get("fuente") == "Viviendo":
             cod = url.rstrip("/").split("/")[-1]
@@ -154,7 +181,10 @@ def abrir_ficha(it):
             d = d.get("data", d) if isinstance(d, dict) else {}
             out["disponible"] = d.get("status") == "Disponible"
             out["desc"] = (d.get("description") or "") + " | " + ", ".join(a.get("name", "") for a in d.get("amenities") or [])
-            out["video"] = bool(d.get("video") or d.get("tour3d"))
+            out["videos"] = [v for v in [un_video(str(d.get("video") or ""))] if v]
+            t3 = str(d.get("tour3d") or "")
+            out["tour"] = t3 if t3.startswith("http") else None
+            out["video"] = bool(out["videos"])
             if str(d.get("date_published", "")).startswith("20"):
                 out["publicado"] = d["date_published"][:10]
             try:
@@ -172,9 +202,11 @@ def abrir_ficha(it):
         out["publicado"] = (_primero(r'"(?:datePosted|created_at|publicationDate)"\s*:\s*"(20\d\d-\d\d-\d\d)', plano)
                             or out["publicado"])
         out["modificado"] = _primero(r'"(?:dateModified|updated_at)"\s*:\s*"(20\d\d-\d\d-\d\d)', plano)
-        hay_video = re.search(r'"(?:youtube|video|videoUrl|tour3d|matterPort)"\s*:\s*("https?:[^"]+"|\[\s*"[^"]+)', plano)
-        campo_video = re.search(r'"(?:youtube|video|videoUrl|tour3d|matterPort)"\s*:', plano)
-        out["video"] = True if hay_video else (False if campo_video else None)
+        out["videos"] = videos_en(plano)
+        t3 = RX_CAMPO_TOUR.search(plano)
+        out["tour"] = t3.group(1) if t3 else None
+        campo_video = re.search(r'"(?:youtube|video|videoUrl)"\s*:', plano)
+        out["video"] = True if out["videos"] else (False if campo_video else None)
         descs = []
         for m in re.finditer(r'"description"\s*:\s*"((?:[^"\\]|\\.){30,4000})"', raw):
             try:
@@ -640,6 +672,8 @@ def expediente(grupo, todos_por_pin, por_sufijo=None):
         "publicado": pubs[0] if pubs else None, "modificado": mods[-1] if mods else None,
         "en_pagina_desde": min(it.get("visto1", "9")[:10] for it in grupo),
         "video": any(f["video"] for f in fichas if f["video"]) if any(f["video"] is not None for f in fichas) else None,
+        "videos": list(dict.fromkeys(v for f in fichas for v in f.get("videos") or [])),
+        "tour": next((f["tour"] for f in fichas if f.get("tour")), None),
         "versiones": [{k: f.get(k) for k in ("fuente", "url", "disponible", "publicado", "modificado", "anunciante", "tel")}
                       for f in fichas],
         "rasgos": rasgos, "desc": re.sub(r"\s+", " ", desc)[:700], "codigos": codigos,
@@ -817,7 +851,7 @@ def opinar(lote, estado):
          "Un hecho de hace más de 2 años pesa poco. "
          "Un anuncio no disponible es 'no recomendable'.\n"
          'Devuelve JSON: {"opiniones": [{"id": "...", "veredicto": "recomendable|con reservas|no recomendable", '
-         '"puntaje": 0-10, "resumen": "1-2 frases", "a_favor": ["máx 3"], "en_contra": ["máx 3"], '
+         '"puntaje": 0-10, "frase": "lo esencial en máx 14 palabras", "resumen": "1-2 frases","a_favor": ["máx 3"], "en_contra": ["máx 3"], '
          '"preguntar": ["máx 3 preguntas para la inmobiliaria"], '
          '"transporte": "1 frase: rutas y conexiones, cuánto se tarda y qué tan lejos quedan los lugares importantes"}]}\n'
          "Los tiempos 'carro_min' son sin trancón; en hora pico pueden ser el doble. No inventes tiempos de bus: "
@@ -1020,10 +1054,16 @@ def publicar(estado, G):
     res, por_id = {}, {}
     zonas = {"b": {}, "s": {}, "c": {}}
     partes = [dict() for _ in range(PARTES)]
+    # Un video que sale en 3 o más apartamentos distintos es publicidad de la inmobiliaria, no del apartamento
+    usos = {}
+    for g in estado["grupos"].values():
+        for v in set((g.get("exp") or {}).get("videos") or []):
+            usos[v] = usos.get(v, 0) + 1
     for k, g in estado["grupos"].items():
         e = g.get("exp")
         if not e:
             continue
+        videos = [v for v in e.get("videos") or [] if usos.get(v, 0) < 3]
         refs = {}
         for z, clave, fuente in (("b", clave_barrio(e) if not e.get("barrio_ficha") else None, estado["barrios"]),
                                  ("s", clave_sector(e) if isinstance(e.get("sector"), dict) else None, estado["sectores"]),
@@ -1036,7 +1076,8 @@ def publicar(estado, G):
         n = parte_de(k)
         partes[n][k] = {
             "fecha": e["fecha"], "disponible": e["disponible"], "publicado": e["publicado"], "modificado": e["modificado"],
-            "video": e["video"], "versiones": [{kk: x.get(kk) for kk in ("fuente", "disponible", "publicado")} for x in e["versiones"]],
+            "video": bool(videos) if e.get("v", 0) >= 6 else e["video"], "videos": videos, "tour": e.get("tour"),
+            "versiones": [{kk: x.get(kk) for kk in ("fuente", "disponible", "publicado")} for x in e["versiones"]],
             "rasgos": [r for r, v in e["rasgos"].items() if v],
             "conjunto": e.get("conjunto"), "barrio": e.get("barrio"),
             "sector": {kk: v for kk, v in sect.items() if kk != "celda"} or None,
@@ -1048,7 +1089,7 @@ def publicar(estado, G):
         o = g.get("opinion") or {}
         disp = 1 if e["disponible"] else (0 if e["disponible"] is False else None)
         res[k] = [VER_COD.get(o.get("veredicto"), ""), o.get("puntaje"), disp, e.get("barrio") or "",
-                  sect.get("nombre") or "", n]
+                  sect.get("nombre") or "", n, 1 if videos else 0]
         for i in e["ids"]:
             if i != k:
                 por_id[i] = k
