@@ -681,6 +681,11 @@
   "tipo": "zona"
  },
  "Medellín|boyaca las brisas": null,
+ "Medellín|brasilia": {
+  "lat": 6.2739643,
+  "lon": -75.5597163,
+  "tipo": "zona"
+ },
  "Medellín|bucaros": null,
  "Medellín|buenos aires": {
   "lat": 6.2302293,
