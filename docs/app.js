@@ -2301,7 +2301,13 @@ function resaltarPin(id, on) {
 }
 let tEncuadre = null, tZona = null;
 /** Cuando carga la foto de la ventanita del mapa, se reacomoda para que se vea completa. */
-window.ajustarPopup = () => { const p = mapa && mapa._popup; if (p && p.isOpen()) p.update(); };
+// Al cargar la foto el popup cambia de alto: solo se reacomoda. (Antes llamaba a update(), que volvía a crear el
+// contenido y la foto; su onload volvía a llamar aquí: miles de redibujos por segundo y los toques se perdían.)
+window.ajustarPopup = () => {
+  const p = mapa && mapa._popup;
+  if (!p || !p.isOpen()) return;
+  if (p._updateLayout && p._updatePosition) { p._updateLayout(); p._updatePosition(); if (p._adjustPan) p._adjustPan(); }
+};
 function irAlMapa(id, intento = 0) {
   if (!mapaVisible()) cambiarVista("mapa");
   if (!mapa) return;
