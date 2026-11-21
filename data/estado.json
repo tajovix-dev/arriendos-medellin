@@ -1,77 +1,77 @@
 {
  "fincaraiz": {
   "medellin": {
-   "cursor": 1,
+   "cursor": 18,
    "paginas": 35,
    "ciclos": 15
   },
   "sabaneta": {
    "cursor": 1,
    "paginas": 8,
-   "ciclos": 41
+   "ciclos": 42
   },
   "envigado": {
    "cursor": 1,
    "paginas": 3,
-   "ciclos": 41
+   "ciclos": 42
   },
   "itagui": {
    "cursor": 1,
    "paginas": 5,
-   "ciclos": 41
+   "ciclos": 42
   },
   "la-estrella": {
    "cursor": 1,
    "paginas": 5,
-   "ciclos": 41
+   "ciclos": 42
   }
  },
  "rentola": {
   "sabaneta": {
-   "cursor": 26,
+   "cursor": 51,
    "paginas": 295,
    "ciclos": 14
   },
   "envigado": {
-   "cursor": 26,
+   "cursor": 51,
    "paginas": 406,
    "ciclos": 14
   },
   "itagui": {
-   "cursor": 26,
+   "cursor": 51,
    "paginas": 115,
    "ciclos": 14
   },
   "la-estrella": {
-   "cursor": 26,
+   "cursor": 51,
    "paginas": 55,
    "ciclos": 14
   }
  },
  "albertoalvarez": {
   "medellin": {
-   "cursor": 101,
+   "cursor": 1,
    "paginas": 113,
-   "ciclos": 6
+   "ciclos": 7
   },
   "sabaneta": {
-   "cursor": 21,
+   "cursor": 1,
    "paginas": 35,
-   "ciclos": 20
+   "ciclos": 21
   },
   "envigado": {
-   "cursor": 41,
+   "cursor": 1,
    "paginas": 47,
-   "ciclos": 13
+   "ciclos": 14
   },
   "itagui": {
    "cursor": 1,
-   "ciclos": 42,
+   "ciclos": 43,
    "paginas": 8
   },
   "la-estrella": {
    "cursor": 1,
-   "ciclos": 42,
+   "ciclos": 43,
    "paginas": 9
   }
  },
@@ -408,7 +408,7 @@
   },
   "inicio": 0,
   "peticiones": 60,
-  "ciclos": 26
+  "ciclos": 27
  },
  "espaciourbano": {
   "listas": {
@@ -453,7 +453,7 @@
     "max": 1823490
    }
   },
-  "ciclos": 27,
+  "ciclos": 28,
   "cursor": [
    0,
    1
@@ -2780,7 +2780,7 @@
   "inicializado": true
  },
  "nutibara": {
-  "ultima_descarga": 1795289136,
+  "ultima_descarga": 1795299173,
   "inicializado": true
  },
  "doomos": {
@@ -3175,7 +3175,7 @@
     "-75.5912004"
    ]
   ],
-  "corridas": 27
+  "corridas": 28
  },
  "softinm": {
   "ok": true
@@ -6085,7 +6085,7 @@
      }
     ],
     "10033543": [
-     "2026-11-21T09:44:23.522Z",
+     "2026-11-21T17:44:30.344Z",
      "2026-06-06",
      {
       "tipo": "Apartamento",
@@ -6105,7 +6105,7 @@
      }
     ],
     "10033237": [
-     "2026-11-21T09:44:23.444Z",
+     "2026-11-21T17:44:30.149Z",
      "2026-06-10",
      null
     ],
@@ -6115,7 +6115,7 @@
      null
     ],
     "10032092": [
-     "2026-11-21T09:44:23.368Z",
+     "2026-11-21T17:44:29.723Z",
      "2026-06-05",
      null
     ],
@@ -6125,12 +6125,12 @@
      null
     ],
     "10031862": [
-     "2026-11-21T09:44:23.288Z",
+     "2026-11-21T17:44:29.494Z",
      "2026-06-05",
      null
     ],
     "10030615": [
-     "2026-11-21T09:44:23.211Z",
+     "2026-11-21T17:44:29.201Z",
      "2026-06-04",
      {
       "tipo": "Apartamento",
@@ -6155,7 +6155,7 @@
      null
     ],
     "10029878": [
-     "2026-11-21T09:44:23.131Z",
+     "2026-11-21T17:44:28.790Z",
      "2026-06-04",
      null
     ],
@@ -6175,17 +6175,17 @@
      null
     ],
     "10026699": [
-     "2026-11-21T09:44:22.973Z",
+     "2026-11-21T17:44:28.450Z",
      "2026-06-03",
      null
     ],
     "10026595": [
-     "2026-11-21T09:44:22.888Z",
+     "2026-11-21T17:44:28.333Z",
      "2026-06-03",
      null
     ],
     "10026097": [
-     "2026-11-21T09:44:23.053Z",
+     "2026-11-21T17:44:28.591Z",
      "2026-06-02",
      {
       "tipo": "Apartamento",
@@ -6240,7 +6240,7 @@
      null
     ],
     "9831379": [
-     "2026-11-21T09:44:14.428Z",
+     "2026-11-21T17:44:15.437Z",
      "2026-06-27",
      null
     ],
