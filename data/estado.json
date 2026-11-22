@@ -1,77 +1,77 @@
 {
  "fincaraiz": {
   "medellin": {
-   "cursor": 18,
+   "cursor": 33,
    "paginas": 35,
    "ciclos": 16
   },
   "sabaneta": {
    "cursor": 1,
    "paginas": 8,
-   "ciclos": 45
+   "ciclos": 46
   },
   "envigado": {
    "cursor": 1,
    "paginas": 3,
-   "ciclos": 45
+   "ciclos": 46
   },
   "itagui": {
    "cursor": 1,
    "paginas": 5,
-   "ciclos": 45
+   "ciclos": 46
   },
   "la-estrella": {
    "cursor": 1,
    "paginas": 5,
-   "ciclos": 45
+   "ciclos": 46
   }
  },
  "rentola": {
   "sabaneta": {
-   "cursor": 51,
+   "cursor": 1,
    "paginas": 294,
-   "ciclos": 15
+   "ciclos": 16
   },
   "envigado": {
-   "cursor": 51,
+   "cursor": 1,
    "paginas": 410,
-   "ciclos": 15
+   "ciclos": 16
   },
   "itagui": {
-   "cursor": 51,
+   "cursor": 1,
    "paginas": 116,
-   "ciclos": 15
+   "ciclos": 16
   },
   "la-estrella": {
-   "cursor": 51,
+   "cursor": 1,
    "paginas": 55,
-   "ciclos": 15
+   "ciclos": 16
   }
  },
  "albertoalvarez": {
   "medellin": {
-   "cursor": 61,
+   "cursor": 81,
    "paginas": 113,
    "ciclos": 7
   },
   "sabaneta": {
-   "cursor": 21,
+   "cursor": 1,
    "paginas": 35,
-   "ciclos": 22
+   "ciclos": 23
   },
   "envigado": {
-   "cursor": 1,
+   "cursor": 21,
    "paginas": 47,
    "ciclos": 15
   },
   "itagui": {
    "cursor": 1,
-   "ciclos": 46,
+   "ciclos": 47,
    "paginas": 8
   },
   "la-estrella": {
    "cursor": 1,
-   "ciclos": 46,
+   "ciclos": 47,
    "paginas": 9
   }
  },
@@ -408,7 +408,7 @@
   },
   "inicio": 0,
   "peticiones": 60,
-  "ciclos": 30
+  "ciclos": 31
  },
  "espaciourbano": {
   "listas": {
@@ -453,7 +453,7 @@
     "max": 1823490
    }
   },
-  "ciclos": 31,
+  "ciclos": 32,
   "cursor": [
    0,
    1
@@ -2788,7 +2788,7 @@
   "inicializado": true
  },
  "nutibara": {
-  "ultima_descarga": 1795333670,
+  "ultima_descarga": 1795342639,
   "inicializado": true
  },
  "doomos": {
@@ -2807,7 +2807,7 @@
    "2026-11-18": 62,
    "2026-11-19": 51,
    "2026-11-20": 64,
-   "2026-11-21": 9
+   "2026-11-21": 35
   },
   "ids_fecha": [
    876853,
@@ -3150,14 +3150,40 @@
    897454,
    897465,
    897487,
+   897593,
+   897594,
+   897667,
    897671,
+   897679,
+   897682,
+   897683,
+   897687,
+   897698,
+   897703,
+   897711,
+   897715,
+   897718,
+   897720,
+   897721,
+   897722,
+   897724,
+   897727,
+   897734,
+   897738,
    897742,
    897743,
+   897745,
+   897766,
    897771,
    897778,
+   897820,
+   897843,
+   897850,
+   897943,
    897959,
    897967,
-   897980
+   897980,
+   898226
   ],
   "coords_genericas": [
    [
@@ -3193,7 +3219,7 @@
     "-75.5912004"
    ]
   ],
-  "corridas": 31
+  "corridas": 32
  },
  "softinm": {
   "ok": true
