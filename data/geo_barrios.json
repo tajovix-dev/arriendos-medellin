@@ -1077,6 +1077,11 @@
   "tipo": "zona"
  },
  "Medellín|las lomitas": null,
+ "Medellín|las mercedes": {
+  "lat": 6.2357328,
+  "lon": -75.6093621,
+  "tipo": "zona"
+ },
  "Medellín|las palmas": {
   "lat": 6.1769886,
   "lon": -75.5357229,
