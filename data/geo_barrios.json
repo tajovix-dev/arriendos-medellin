@@ -589,6 +589,11 @@
   "lon": -75.5906153,
   "tipo": "zona"
  },
+ "Medellín|avenida oriental": {
+  "lat": 6.2475531,
+  "lon": -75.5659552,
+  "tipo": "lugar"
+ },
  "Medellín|aves maria": null,
  "Medellín|barichara": {
   "lat": 6.1761446,
