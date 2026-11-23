@@ -1,35 +1,5 @@
 [
  {
-  "ts": "2026-11-14T20:06:51-05:00",
-  "seg": 541,
-  "fuentes": {
-   "fincaraiz": {
-    "leidos": 2835,
-    "nuevos": 2603,
-    "bajaron": 0,
-    "error": null
-   },
-   "rentola": {
-    "leidos": 2100,
-    "nuevos": 1670,
-    "bajaron": 0,
-    "error": null
-   },
-   "albertoalvarez": {
-    "leidos": 874,
-    "nuevos": 454,
-    "bajaron": 0,
-    "error": null
-   },
-   "metrocuadrado": {
-    "leidos": 281,
-    "nuevos": 168,
-    "bajaron": 0,
-    "error": null
-   }
-  }
- },
- {
   "ts": "2026-11-14T20:35:31-05:00",
   "seg": 37,
   "fuentes": {
@@ -9684,6 +9654,223 @@
    },
    "Viviendo": {
     "detalles": 2,
+    "retirados": 0,
+    "pendientes": 0
+   }
+  }
+ },
+ {
+  "ts": "2026-11-23T14:23:50-05:00",
+  "seg": 1282,
+  "fuentes": {
+   "fincaraiz": {
+    "leidos": 738,
+    "nuevos": 6,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "rentola": {
+    "leidos": 2100,
+    "nuevos": 2,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "albertoalvarez": {
+    "leidos": 569,
+    "nuevos": 0,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "metrocuadrado": {
+    "leidos": 1067,
+    "nuevos": 14,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "ciencuadras": {
+    "leidos": 761,
+    "nuevos": 8,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "espaciourbano": {
+    "leidos": 352,
+    "nuevos": 7,
+    "bajaron": 2,
+    "retirados": 0,
+    "error": null
+   },
+   "arrendamientosenvigado": {
+    "leidos": 68,
+    "nuevos": 0,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "softin_livewire": {
+    "leidos": 211,
+    "nuevos": 8,
+    "bajaron": 1,
+    "retirados": 0,
+    "error": null
+   },
+   "escala": {
+    "leidos": 98,
+    "nuevos": 0,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "santafe": {
+    "leidos": 196,
+    "nuevos": 1,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "nutibara": {
+    "leidos": 100,
+    "nuevos": 0,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "doomos": {
+    "leidos": 9,
+    "nuevos": 0,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "softinm": {
+    "leidos": 97,
+    "nuevos": 2,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "duquegiraldo": {
+    "leidos": 24,
+    "nuevos": 1,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "wasi_sitios": {
+    "leidos": 153,
+    "nuevos": 0,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "vicasa": {
+    "leidos": 15,
+    "nuevos": 0,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   },
+   "viviendo": {
+    "leidos": 588,
+    "nuevos": 1,
+    "bajaron": 0,
+    "retirados": 0,
+    "error": null
+   }
+  },
+  "detalle": {
+   "Rentola": {
+    "detalles": 2,
+    "retirados": 0,
+    "pendientes": 0
+   },
+   "Alberto Álvarez": {
+    "detalles": 0,
+    "retirados": 0,
+    "pendientes": 0
+   },
+   "Ciencuadras": {
+    "detalles": 8,
+    "retirados": 0,
+    "pendientes": 0
+   },
+   "Espacio Urbano": {
+    "detalles": 7,
+    "retirados": 0,
+    "pendientes": 0
+   },
+   "Arrendamientos Santa Fe": {
+    "detalles": 1,
+    "retirados": 0,
+    "pendientes": 0
+   },
+   "Arrendamientos Nutibara": {
+    "detalles": 0,
+    "retirados": 0,
+    "pendientes": 0
+   },
+   "Doomos": {
+    "detalles": 0,
+    "retirados": 0,
+    "pendientes": 0
+   },
+   "Inmobiliaria La Estrella": {
+    "detalles": 1,
+    "retirados": 0,
+    "pendientes": 0
+   },
+   "Arrendamientos Villacruz": {
+    "detalles": 5,
+    "retirados": 0,
+    "pendientes": 0
+   },
+   "Arrendamientos El Castillo": {
+    "detalles": 2,
+    "retirados": 0,
+    "pendientes": 0
+   },
+   "Livin Inmobiliaria": {
+    "detalles": 0,
+    "retirados": 0,
+    "pendientes": 0
+   },
+   "Arrendamientos Sukasa": {
+    "detalles": 0,
+    "retirados": 0,
+    "pendientes": 0
+   },
+   "Mi Lugar Inmobiliario": {
+    "detalles": 0,
+    "retirados": 0,
+    "pendientes": 0
+   },
+   "Arrendamientos La Aldea": {
+    "detalles": 2,
+    "retirados": 0,
+    "pendientes": 0
+   },
+   "Survivienda": {
+    "detalles": 0,
+    "retirados": 0,
+    "pendientes": 0
+   },
+   "Su Vivienda": {
+    "detalles": 0,
+    "retirados": 0,
+    "pendientes": 0
+   },
+   "Duque Giraldo": {
+    "detalles": 1,
+    "retirados": 0,
+    "pendientes": 0
+   },
+   "Viviendo": {
+    "detalles": 1,
     "retirados": 0,
     "pendientes": 0
    }
