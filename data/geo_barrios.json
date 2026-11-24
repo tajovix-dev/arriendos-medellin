@@ -279,6 +279,7 @@
   "lon": -75.6133201,
   "tipo": "lugar"
  },
+ "Itagüí|el tablazo": null,
  "Itagüí|entre colina": null,
  "Itagüí|fatima": null,
  "Itagüí|ferrara": null,
@@ -544,6 +545,11 @@
   "lat": 6.1939131,
   "lon": -75.5818121,
   "tipo": "lugar"
+ },
+ "Medellín|aguas frias": {
+  "lat": 6.2325094,
+  "lon": -75.625769,
+  "tipo": "zona"
  },
  "Medellín|alameda": {
   "lat": 6.2352271,
