@@ -6,10 +6,15 @@
   "o0w4"
  ],
  "uso": {
-  "gemini-2.5-flash|6TF0": 6,
-  "gemini-2.5-flash|9iaw": 8,
-  "gemini-2.5-flash|NAkE": 3,
-  "gemini-2.5-flash|R7Cc": 3,
-  "gemini-2.5-flash|yfLA": 3
+  "gemini-2.5-flash|6TF0": 10,
+  "gemini-2.5-flash|9iaw": 12,
+  "gemini-2.5-flash|NAkE": 7,
+  "gemini-2.5-flash|R7Cc": 6,
+  "gemini-2.5-flash|yfLA": 6,
+  "gemini-3.1-flash-lite|6TF0": 6,
+  "gemini-3.1-flash-lite|9iaw": 7,
+  "gemini-3.1-flash-lite|NAkE": 6,
+  "gemini-3.1-flash-lite|R7Cc": 6,
+  "gemini-3.1-flash-lite|yfLA": 6
  }
 }
