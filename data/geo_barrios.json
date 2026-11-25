@@ -152,6 +152,7 @@
  "Envigado|mayorca": null,
  "Envigado|mesa": null,
  "Envigado|milan vallejuelos": null,
+ "Envigado|nuevo": null,
  "Envigado|oasis": null,
  "Envigado|obrero": {
   "lat": 6.1727367,
@@ -1364,6 +1365,7 @@
   "tipo": "zona"
  },
  "Medellín|san antonio prado barichara": null,
+ "Medellín|san antonio prado central": null,
  "Medellín|san antonio prado pradito": null,
  "Medellín|san bernardo": {
   "lat": 6.2265555,
