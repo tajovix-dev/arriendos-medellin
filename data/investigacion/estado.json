@@ -263,10 +263,9 @@
    }
   },
   "cc-3949084": {
-   "huella": "cc-3949084|lw-estrella-7164|1650000",
+   "huella": "cc-3949084|1650000",
    "exp": {
     "ids": [
-     "lw-estrella-7164",
      "cc-3949084"
     ],
     "precio": 1650000,
@@ -280,51 +279,30 @@
     "barrio": "El Pedrero",
     "sector": {
      "nombre": null,
-     "via": "Calle 100d",
+     "via": "Calle 87A Sur",
      "referencias": [
-      "Centro Educativo Mundo Ideal (351 m)"
+      "Colegio Comfama (296 m)"
      ],
      "quebradas": [
-      "Río Medellín (98 m)",
-      "Quebrada La Montañita (107 m)",
-      "Quebrada La Polvosa (293 m)"
+      "Quebrada Grande (113 m)"
      ],
-     "celda": "6.116,-75.632"
+     "celda": "6.152,-75.652"
     },
     "sector_en_texto": null,
     "texto_dice_otro_barrio": null,
     "pin_en_otro_barrio": null,
-    "conjunto": null,
-    "conjunto_origen": null,
-    "disponible": true,
+    "conjunto": "Felicity",
+    "conjunto_origen": "anuncio",
+    "disponible": false,
     "publicado": "2026-11-17",
     "modificado": null,
-    "en_pagina_desde": "2026-11-16",
+    "en_pagina_desde": "2026-11-17",
     "video": true,
     "videos": [
-     "https://youtu.be/t4YBXLhq47g",
-     "https://youtu.be/V41M-sa9mKI",
-     "https://youtu.be/W31zrMD32Fs",
-     "https://youtu.be/jyHL8bUn-2s",
-     "https://youtu.be/t6SL2F9of90",
-     "https://youtu.be/BQReupd5CLE",
-     "https://youtu.be/ldVPT2YMui8",
-     "https://youtu.be/tshzFkVsb_8",
-     "https://youtu.be/5VK8C1xE6Ik",
-     "https://youtu.be/fn37yYKMwII",
      "https://youtu.be/CeKeR8qf2Ew"
     ],
     "tour": null,
     "versiones": [
-     {
-      "fuente": "Inmobiliaria La Estrella",
-      "url": "https://www.inmobiliarialaestrella.com/detalle-propiedad/apartamento-enarriendo-en-la-estrella-7164",
-      "disponible": true,
-      "publicado": "2026-11-18",
-      "modificado": null,
-      "anunciante": "Inmobiliaria La Estrella",
-      "tel": "6042500646"
-     },
      {
       "fuente": "Ciencuadras",
       "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-el-pedrero-la-estrella-3949084",
@@ -336,167 +314,157 @@
      }
     ],
     "rasgos": {
-     "porteria": false,
-     "vigilancia": false,
-     "unidad_cerrada": true,
+     "porteria": true,
+     "vigilancia": true,
+     "unidad_cerrada": false,
      "en_casa": false,
      "ascensor": false,
-     "piscina": false,
+     "piscina": true,
      "parqueadero": true,
-     "loma": true,
+     "loma": false,
      "dice_venta": false
     },
-    "desc": "Ubicado en un sector estratégico de El Poblado, muy cerca del Centro Comercial El Tesoro, con excelentes vías de acceso y cercanía a todos los servicios. Cuenta con 3 amplias habitaciones, cada una con baño privado y vestier, además de habitación y baño de servicio. Sus generosos espacios incluyen un estudio independiente, ideal como sala de TV, biblioteca o espacio de trabajo. Como gran diferencial, la propiedad dispone de una oficina independiente ubicada en la zona de parqueaderos, perfecta para trabajar desde casa manteniendo total privacidad y separación de los espacios familiares. Tiene 2 parqueaderos paralelos y cuarto útil. Está ubicado en una unidad residencial completa, ideal para ",
+    "desc": "Descripción Apartamento en Arriendo – Urbanización Felicity, La Estrella (Piso 19) Apartamento de 55 m², ubicado en la Urbanización Felicity, cerca de Comfama La Estrella, en un sector residencial con fácil acceso a comercio, transporte público y servicios esenciales.Cuenta con sala comedor, cocina semintegral con red de gas, 3 habitaciones, 3 clósets, 2 baños cabinados, calentador, , zona de ropas y balcón, ofreciendo espacios cómodos y bien distribuidos, ideales para disfrutar en familia.Además, dispone de parqueadero comú y la urbanización cuenta con excelentes zonas comunes, como piscina, salón social y parque infantil, junto con portería y vigilancia las 24 horas, brindando seguridad, c",
     "codigos": [
      "7164"
     ],
-    "alias": [],
+    "alias": [
+     [
+      "cc-3949084",
+      "lw-estrella-7164"
+     ]
+    ],
     "ubicacion": {
      "tipo": "de la ficha",
-     "lat": 6.117456799999999,
-     "lon": -75.6322718,
+     "lat": 6.152503,
+     "lon": -75.651875,
      "osm": {
       "barrio": null,
-      "via": "Calle 100d",
-      "municipio": "La Tablaza"
+      "via": "Calle 87A Sur",
+      "municipio": "La Estrella"
      }
     },
     "metro": {
      "estacion": "La Estrella",
-     "m_linea_recta": 3982
+     "m_linea_recta": 2824
     },
     "recorridos": [
      {
       "lugar": "Metro La Estrella",
-      "linea_recta_km": 4.0,
-      "carro_km": 6.1,
-      "carro_min": 8
-     },
-     {
-      "lugar": "Metro Sabaneta",
-      "linea_recta_km": 4.8,
-      "carro_km": 7.4,
-      "carro_min": 10
-     },
-     {
-      "lugar": "Parque principal de La Estrella",
-      "linea_recta_km": 4.6,
-      "carro_km": 6.1,
-      "carro_min": 11
-     },
-     {
-      "lugar": "Mall Antares",
       "linea_recta_km": 2.8,
-      "pie_km": 4.0,
-      "pie_min": 53,
+      "pie_km": 3.6,
+      "pie_min": 48,
       "carro_km": 4.1,
       "carro_min": 8
      },
      {
-      "lugar": "Hospital Venancio Díaz Díaz",
-      "linea_recta_km": 3.6,
-      "carro_km": 7.4,
-      "carro_min": 11
+      "lugar": "Metro Sabaneta",
+      "linea_recta_km": 4.0,
+      "carro_km": 5.4,
+      "carro_min": 9
+     },
+     {
+      "lugar": "Parque principal de La Estrella",
+      "linea_recta_km": 1.1,
+      "pie_km": 1.3,
+      "pie_min": 18,
+      "carro_km": 1.3,
+      "carro_min": 3
+     },
+     {
+      "lugar": "Centro Comercial Venecia",
+      "linea_recta_km": 1.2,
+      "pie_km": 1.6,
+      "pie_min": 22,
+      "carro_km": 1.6,
+      "carro_min": 4
+     },
+     {
+      "lugar": "Hospital La Estrella",
+      "linea_recta_km": 0.9,
+      "pie_km": 1.2,
+      "pie_min": 17,
+      "carro_km": 1.4,
+      "carro_min": 3
      },
      {
       "lugar": "Centro de Medellín (Parque Berrío)",
-      "linea_recta_km": 16.4,
-      "carro_km": 19.8,
+      "linea_recta_km": 14.3,
+      "carro_km": 17.8,
       "carro_min": 23
      },
      {
       "lugar": "El Poblado (estación Poblado)",
-      "linea_recta_km": 12.1,
-      "carro_km": 15.2,
+      "linea_recta_km": 10.5,
+      "carro_km": 13.2,
       "carro_min": 17
      }
     ],
     "cerca": {
-     "supermercados": [
+     "supermercados": [],
+     "centros_comerciales": [
       {
-       "nombre": "Justo y Bueno",
-       "m": 551
-      },
-      {
-       "nombre": "Merkespress",
-       "m": 590
+       "nombre": "Centro Comercial Venecia",
+       "m": 1247
       }
      ],
-     "centros_comerciales": [],
-     "salud": [],
+     "salud": [
+      {
+       "nombre": "Hospital La Estrella",
+       "m": 920
+      },
+      {
+       "nombre": "CIS Comfama La Estrella",
+       "m": 1040
+      },
+      {
+       "nombre": "IPS Comfama Sura",
+       "m": 1103
+      },
+      {
+       "nombre": "Cis La Estrella Edificio Fuente Clara",
+       "m": 1105
+      }
+     ],
      "colegios": [
       {
-       "nombre": "Centro Educativo Mundo Ideal",
-       "m": 351
+       "nombre": "Colegio Comfama",
+       "m": 296
       },
       {
-       "nombre": "Colegio Colombo Frances",
-       "m": 432
-      },
-      {
-       "nombre": "Tulio Ospina",
-       "m": 508
-      },
-      {
-       "nombre": "Institucion Educativa José Antonio Galán",
-       "m": 603
+       "nombre": "Colegio Antonino",
+       "m": 553
       }
      ],
-     "parques": [],
+     "parques": [
+      {
+       "nombre": "La María",
+       "m": 743
+      }
+     ],
      "paraderos": 0,
      "carcel": null,
      "nombres_cercanos": [],
      "quebradas": [
       {
-       "nombre": "Río Medellín",
-       "m": 98
-      },
-      {
-       "nombre": "Quebrada La Montañita",
-       "m": 107
-      },
-      {
-       "nombre": "Quebrada La Polvosa",
-       "m": 293
+       "nombre": "Quebrada Grande",
+       "m": 113
       }
      ]
     },
     "barrio_ficha": null,
     "hist": [
      [
-      "2026-11-16",
+      "2026-11-17",
       1650000
      ]
     ],
-    "fecha": "2026-11-25T03:08-05:00",
+    "fecha": "2026-11-25T05:45-05:00",
     "alertas": [
-     "La Río Medellín pasa a 98 m: pregunta si el edificio ha tenido problemas con crecientes.",
-     "El Metro La Estrella queda a 6.1 km por vía: no es caminable."
+     "Ya no está disponible en ninguna de sus páginas.",
+     "La Quebrada Grande pasa a 113 m: pregunta si el edificio ha tenido problemas con crecientes.",
+     "Al Metro La Estrella son 48 min a pie (3.6 km): toca bus o carro."
     ]
-   },
-   "opinion": {
-    "id": "cc-3949084",
-    "veredicto": "con reservas",
-    "puntaje": 6,
-    "frase": "Unidad cerrada con riesgos de inundación y lejos del metro.",
-    "resumen": "Apartamento en unidad cerrada con portería, pero el sector tiene riesgos de inundación y deslizamientos por cercanía a quebradas. El transporte al metro es en bus.",
-    "a_favor": [
-     "Unidad cerrada con portería",
-     "Cercano a colegios y supermercados",
-     "Buen transporte a estación Metro La Estrella"
-    ],
-    "en_contra": [
-     "Riesgo de inundaciones/deslizamientos por quebradas",
-     "Lejos del metro para ir a pie",
-     "Barrio con necesidad de fortalecer acueducto"
-    ],
-    "preguntar": [
-     "¿Ha tenido el edificio problemas con crecientes del Río Medellín o quebradas cercanas?",
-     "¿Cuál es la frecuencia de las rutas de bus mencionadas?",
-     "¿Hay planes de mejora del acueducto en el sector?"
-    ],
-    "transporte": "El sector está bien conectado con la estación La Estrella del Metro a través de diversas rutas de bus, lo que facilita el acceso al centro de Medellín en aproximadamente 13 minutos en metro.",
-    "fecha": "2026-11-25T03:09-05:00"
    }
   },
   "vv-71487": {
@@ -5216,11 +5184,10 @@
    }
   },
   "cc-3953413": {
-   "huella": "cc-3953413|lw-estrella-9761|1700000",
+   "huella": "cc-3953413|1700000",
    "exp": {
     "ids": [
-     "cc-3953413",
-     "lw-estrella-9761"
+     "cc-3953413"
     ],
     "precio": 1700000,
     "hab": 2,
@@ -5232,7 +5199,7 @@
     "v": 6,
     "barrio": null,
     "sector": {
-     "nombre": null,
+     "nombre": "San Gabriel de Itagüí",
      "via": "Calle 47A Sur",
      "referencias": [
       "I.E. Ángela Restrepo Moreno (201 m)",
@@ -5244,28 +5211,17 @@
      ],
      "celda": "6.180,-75.636"
     },
-    "sector_en_texto": null,
+    "sector_en_texto": "San Gabriel de Itagüí",
     "texto_dice_otro_barrio": null,
     "pin_en_otro_barrio": null,
-    "conjunto": null,
-    "conjunto_origen": null,
-    "disponible": true,
-    "publicado": "2026-11-18",
+    "conjunto": "Territorio Verde",
+    "conjunto_origen": "anuncio",
+    "disponible": false,
+    "publicado": "2026-11-20",
     "modificado": null,
     "en_pagina_desde": "2026-11-20",
-    "video": true,
-    "videos": [
-     "https://youtu.be/t4YBXLhq47g",
-     "https://youtu.be/V41M-sa9mKI",
-     "https://youtu.be/W31zrMD32Fs",
-     "https://youtu.be/jyHL8bUn-2s",
-     "https://youtu.be/t6SL2F9of90",
-     "https://youtu.be/BQReupd5CLE",
-     "https://youtu.be/ldVPT2YMui8",
-     "https://youtu.be/tshzFkVsb_8",
-     "https://youtu.be/5VK8C1xE6Ik",
-     "https://youtu.be/fn37yYKMwII"
-    ],
+    "video": false,
+    "videos": [],
     "tour": null,
     "versiones": [
      {
@@ -5276,33 +5232,29 @@
       "modificado": null,
       "anunciante": "ALQUIVENTAS  S A S",
       "tel": "3217158566"
-     },
-     {
-      "fuente": "Inmobiliaria La Estrella",
-      "url": "https://www.inmobiliarialaestrella.com/detalle-propiedad/apartamento-enarriendo-en-itagui-9761",
-      "disponible": true,
-      "publicado": "2026-11-18",
-      "modificado": null,
-      "anunciante": "Inmobiliaria La Estrella",
-      "tel": "6042500646"
      }
     ],
     "rasgos": {
-     "porteria": false,
-     "vigilancia": false,
+     "porteria": true,
+     "vigilancia": true,
      "unidad_cerrada": true,
      "en_casa": false,
      "ascensor": false,
-     "piscina": false,
-     "parqueadero": true,
-     "loma": true,
+     "piscina": true,
+     "parqueadero": false,
+     "loma": false,
      "dice_venta": false
     },
-    "desc": "Ubicado en un sector estratégico de El Poblado, muy cerca del Centro Comercial El Tesoro, con excelentes vías de acceso y cercanía a todos los servicios. Cuenta con 3 amplias habitaciones, cada una con baño privado y vestier, además de habitación y baño de servicio. Sus generosos espacios incluyen un estudio independiente, ideal como sala de TV, biblioteca o espacio de trabajo. Como gran diferencial, la propiedad dispone de una oficina independiente ubicada en la zona de parqueaderos, perfecta para trabajar desde casa manteniendo total privacidad y separación de los espacios familiares. Tiene 2 parqueaderos paralelos y cuarto útil. Está ubicado en una unidad residencial completa, ideal para ",
+    "desc": "Descripción Apartamento en Arriendo – Territorio Verde Apartamentos, San Gabriel, Itagüí (Piso 24) Apartamento de aproximadamente 56 m², ubicado en Territorio Verde Apartamentos, en el sector San Gabriel de Itagüí. Se encuentra en un sector residencial con fácil acceso a comercio, transporte público y servicios esenciales, ideal para quienes buscan comodidad y una buena ubicación.El inmueble cuenta con sala comedor, cocina semintegral con red de gas,2 alcobas, 2 clósets, 2 baños, balcón y calentador, ofreciendo espacios funcionales y bien distribuidos para disfrutar en familia.La unidad residencial ofrece excelentes zonas comunes, como piscina infantil, juegos infantiles, gimnasio, salón soc",
     "codigos": [
      "9761"
     ],
-    "alias": [],
+    "alias": [
+     [
+      "cc-3953413",
+      "lw-estrella-9761"
+     ]
+    ],
     "ubicacion": {
      "tipo": "de la ficha",
      "lat": 6.178644,
@@ -5445,35 +5397,12 @@
       1700000
      ]
     ],
-    "fecha": "2026-11-25T03:07-05:00",
+    "fecha": "2026-11-25T05:45-05:00",
     "alertas": [
+     "Ya no está disponible en ninguna de sus páginas.",
      "La Quebrada Doña María pasa a 88 m: pregunta si el edificio ha tenido problemas con crecientes.",
      "Al Metro Sabaneta son 52 min a pie (3.9 km): toca bus o carro."
     ]
-   },
-   "opinion": {
-    "id": "cc-3953413",
-    "veredicto": "con reservas",
-    "puntaje": 5,
-    "frase": "Unidad cerrada con riesgo de inundación, buen transporte.",
-    "resumen": "Apartamento en unidad cerrada con portería y parqueadero. El sector presenta alto riesgo de inundaciones y deslizamientos por la Quebrada Doña María, aunque hay monitoreo. Buen transporte público.",
-    "a_favor": [
-     "Unidad cerrada con portería y parqueadero",
-     "Cercano a comercio y colegios",
-     "Buen transporte a estaciones de metro"
-    ],
-    "en_contra": [
-     "Alto riesgo de inundaciones y deslizamientos por quebrada",
-     "Quebrada Doña María se desbordó en 2025",
-     "Metro Sabaneta lejos para ir a pie"
-    ],
-    "preguntar": [
-     "¿Ha tenido el edificio problemas con crecientes de la Quebrada Doña María?",
-     "¿Qué medidas de mitigación de riesgos se han implementado en el conjunto?",
-     "¿Cuál es la frecuencia de las rutas de bus mencionadas?"
-    ],
-    "transporte": "El sector está bien conectado por diversas rutas de autobús que permiten el acceso a las estaciones de metro de Sabaneta e Itagüí, facilitando el desplazamiento hacia el centro de Medellín.",
-    "fecha": "2026-11-25T03:09-05:00"
    }
   },
   "cc-3953460": {
@@ -37738,11 +37667,10 @@
    }
   },
   "lw-estrella-8252": {
-   "huella": "lw-estrella-8252|m2-21136-M7247509|1300000",
+   "huella": "lw-estrella-8252|1300000",
    "exp": {
     "ids": [
-     "lw-estrella-8252",
-     "m2-21136-M7247509"
+     "lw-estrella-8252"
     ],
     "precio": 1300000,
     "hab": 2,
@@ -37787,15 +37715,6 @@
       "modificado": null,
       "anunciante": "Inmobiliaria La Estrella",
       "tel": "6042500646"
-     },
-     {
-      "fuente": "Metrocuadrado",
-      "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-medellin-san-antonio-de-prado-2-habitaciones-1-banos/21136-M7247509",
-      "disponible": true,
-      "publicado": null,
-      "modificado": null,
-      "anunciante": "Inmobiliaria",
-      "tel": "6044480577"
      }
     ],
     "rasgos": {
@@ -37809,9 +37728,8 @@
      "loma": false,
      "dice_venta": false
     },
-    "desc": "Acerca de este inmueble Apartamento en Arriendo – Unidad Mirador de la Hacienda, San Antonio de Prado Piso 1 Apartamento de aproximadamente 45 m², ubicado en la unidad residencial Mirador de la Hacienda, en San Antonio de Prado, en un sector residencial con fácil acceso a comercio, transporte público y servicios esenciales. La propiedad cuenta con sala comedor, cocina semintegral con red de gas, 2 alcobas, 2 clósets,1 baño y zona de ropas, ofreciendo espacios cómodos y funcionales para disfrutar en familia.La unidad residencial cuenta con portería y vigilancia las 24 horas, además de excelentes zonas comunes como piscina, cancha deportiva y juegos infantiles, brindando comodidad, seguridad y",
+    "desc": "<strong>Apartamento en Arriendo – Unidad Mirador de la Hacienda, San Antonio de Prado (Piso 1)</strong><br>Apartamento de aproximadamente 45 m², ubicado en la unidad residencial Mirador de la Hacienda, en San Antonio de Prado, en un sector residencial con fácil acceso a comercio, transporte público y servicios esenciales. La propiedad cuenta con sala comedor, cocina semintegral con red de gas, 2 alcobas, 2 clósets,1 baño y zona de ropas, ofreciendo espacios cómodos y funcionales para disfrutar en familia.La unidad residencial cuenta con portería y vigilancia las 24 horas, además de excelentes zonas comunes como piscina, cancha deportiva y juegos infantiles, brindando comodidad, seguridad y e",
     "codigos": [
-     "21136",
      "8252"
     ],
     "alias": [],
@@ -37968,7 +37886,7 @@
       1300000
      ]
     ],
-    "fecha": "2026-11-25T03:07-05:00",
+    "fecha": "2026-11-25T05:45-05:00",
     "alertas": [
      "Hay una cárcel a 623 m (Carcel de Máxima Seguridad de Itagüí (EPC La Paz)).",
      "El Metro Sabaneta queda a 6.6 km por vía: no es caminable."
@@ -37978,25 +37896,25 @@
     "id": "lw-estrella-8252",
     "veredicto": "recomendable",
     "puntaje": 8,
-    "frase": "Unidad cerrada con portería y piscina, buen transporte.",
-    "resumen": "Apartamento en unidad cerrada con portería 24h, vigilancia y piscina. Buen acceso a comercio y transporte público. El barrio tiene lomas fuertes y problemas de acceso general, pero el conjunto es favorable.",
+    "frase": "Unidad cerrada con vigilancia y piscina, buen transporte y precio.",
+    "resumen": "Este apartamento en unidad cerrada cumple con las prioridades de seguridad y servicios, ofreciendo portería 24 horas, vigilancia y piscina. El transporte público es accesible, aunque el barrio tiene problemas de acceso general.",
     "a_favor": [
-     "Unidad cerrada con portería y vigilancia 24h",
-     "Piscina y zonas comunes",
-     "Cercano a comercio, colegios y salud"
+     "Unidad cerrada con portería y vigilancia 24 horas.",
+     "Cuenta con piscina y otras zonas comunes.",
+     "Cercano a transporte público, supermercados y colegios."
     ],
     "en_contra": [
-     "Barrio con lomas fuertes y problemas de acceso",
-     "Cercanía a cárcel de máxima seguridad",
-     "Metro Sabaneta lejos para ir a pie"
+     "Barrio San Antonio de Prado con problemas de acceso y trancones.",
+     "Cercanía a una cárcel (623 m).",
+     "El Metro Sabaneta no es caminable."
     ],
     "preguntar": [
-     "¿Hay rutas de bus directas al metro con alta frecuencia?",
-     "¿Cómo afecta la cercanía a la cárcel la seguridad del conjunto?",
-     "¿Hay parqueadero privado disponible?"
+     "¿Hay rutas de bus directas a la estación de metro más cercana?",
+     "¿Cuál es la frecuencia de las rutas de transporte público?",
+     "¿Hay parqueadero para visitantes?"
     ],
-    "transporte": "El sector está bien conectado con la estación La Estrella del Metro a través de varias rutas de autobús, con tiempos de viaje a la estación y al centro de Medellín que oscilan entre 21 y 29 minutos.",
-    "fecha": "2026-11-25T03:09-05:00"
+    "transporte": "El conjunto cuenta con ruta de transporte de Circular Sur. El Metro La Estrella está a 14 min en carro y el Metro Sabaneta a 14 min en carro. El Centro de Medellín está a 25 min en carro.",
+    "fecha": "2026-11-25T05:46-05:00"
    }
   },
   "m2-22583-M7247650": {
@@ -49966,6 +49884,30 @@
     "alertas": [
      "El portal dice barrio «Pan de Azúcar», pero el pin cae en el barrio «Cañaveralejo»."
     ]
+   },
+   "opinion": {
+    "id": "cc-3915468",
+    "veredicto": "recomendable",
+    "puntaje": 8,
+    "frase": "Unidad con portería y piscina, excelente ubicación y transporte.",
+    "resumen": "Este apartamento en unidad con portería 24 horas y piscina cumple con las prioridades de seguridad y servicios. Su excelente ubicación en Sabaneta ofrece cercanía a comercio, servicios y estaciones de metro.",
+    "a_favor": [
+     "Unidad con portería 24 horas y piscina.",
+     "Excelente ubicación cerca de centros comerciales y supermercados.",
+     "Cercanía a las estaciones Sabaneta y La Estrella del Metro."
+    ],
+    "en_contra": [
+     "El barrio Cañaveralejo tiene partes en ladera.",
+     "Poca información verificable sobre la seguridad del barrio.",
+     "El precio es el límite del presupuesto."
+    ],
+    "preguntar": [
+     "¿El conjunto cuenta con vigilancia 24 horas?",
+     "¿Hay parqueadero para visitantes?",
+     "¿Cuál es la frecuencia de las rutas de bus cercanas?"
+    ],
+    "transporte": "El Metro Sabaneta está a 15 min a pie o 3 min en carro. El Metro La Estrella está a 15 min a pie o 5 min en carro. El Parque Principal Sabaneta está a 8 min a pie.",
+    "fecha": "2026-11-25T05:46-05:00"
    }
   },
   "cc-3919283": {
@@ -50785,6 +50727,30 @@
      "La descripción lo ubica en «el dorado», que es otro barrio distinto de «La Paz». Pide la dirección.",
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
+   },
+   "opinion": {
+    "id": "cc-3925504",
+    "veredicto": "no recomendable",
+    "puntaje": 2,
+    "frase": "Apartaestudio sin vigilancia y con solo 1 habitación, no cumple.",
+    "resumen": "Este apartaestudio no cumple con el requisito de 2 o más habitaciones y no menciona portería ni vigilancia. La información del barrio es limitada, lo que genera incertidumbre sobre la seguridad.",
+    "a_favor": [
+     "Cercano a comercio, servicios y parques.",
+     "Buen acceso a rutas de transporte público.",
+     "Ascensor disponible."
+    ],
+    "en_contra": [
+     "Es un apartaestudio (1 habitación), no cumple el requisito de 2+ habitaciones.",
+     "No tiene portería ni vigilancia.",
+     "Poca información verificable sobre la seguridad del barrio La Paz."
+    ],
+    "preguntar": [
+     "¿Existe alguna medida de seguridad en el edificio?",
+     "¿Cuál es la dirección exacta del apartamento?",
+     "¿Hay parqueadero disponible?"
+    ],
+    "transporte": "El Metro Envigado está a 21 min a pie o 6 min en carro. El Parque principal de Envigado está a 7 min a pie. El Centro de Medellín está a 14 min en carro.",
+    "fecha": "2026-11-25T05:46-05:00"
    }
   },
   "cc-3925559": {
@@ -51047,6 +51013,30 @@
      "La descripción lo ubica en «el dorado», que es otro barrio distinto de «La Paz». Pide la dirección.",
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
+   },
+   "opinion": {
+    "id": "cc-3925559",
+    "veredicto": "no recomendable",
+    "puntaje": 2,
+    "frase": "Apartaestudio sin vigilancia y con solo 1 habitación, no cumple.",
+    "resumen": "Este apartaestudio no cumple con el requisito de 2 o más habitaciones y no menciona portería ni vigilancia. La información del barrio es limitada, lo que genera incertidumbre sobre la seguridad.",
+    "a_favor": [
+     "Cercano a comercio, servicios y parques.",
+     "Buen acceso a rutas de transporte público.",
+     "Ascensor disponible."
+    ],
+    "en_contra": [
+     "Es un apartaestudio (1 habitación), no cumple el requisito de 2+ habitaciones.",
+     "No tiene portería ni vigilancia.",
+     "Poca información verificable sobre la seguridad del barrio La Paz."
+    ],
+    "preguntar": [
+     "¿Existe alguna medida de seguridad en el edificio?",
+     "¿Cuál es la dirección exacta del apartamento?",
+     "¿Hay parqueadero disponible?"
+    ],
+    "transporte": "El Metro Envigado está a 21 min a pie o 6 min en carro. El Parque principal de Envigado está a 7 min a pie. El Centro de Medellín está a 14 min en carro.",
+    "fecha": "2026-11-25T05:46-05:00"
    }
   },
   "cc-3935010": {
@@ -51240,6 +51230,30 @@
      "Al Metro La Estrella son 52 min a pie (3.9 km): toca bus o carro.",
      "Barrio La Inmaculada: seguridad media-baja, no recomendado."
     ]
+   },
+   "opinion": {
+    "id": "cc-3935010",
+    "veredicto": "no recomendable",
+    "puntaje": 3,
+    "frase": "Sin vigilancia, barrio no recomendado y con riesgo de quebrada.",
+    "resumen": "El apartamento no ofrece portería ni vigilancia, y está en un barrio no recomendado por problemas de seguridad (extorsión, microtráfico, sicariato) y riesgo de deslizamientos e inundaciones por la Quebrada La Bermejala.",
+    "a_favor": [
+     "Dentro del presupuesto.",
+     "Cercano a colegios y supermercados.",
+     "Buen acceso a rutas de transporte público."
+    ],
+    "en_contra": [
+     "No tiene portería ni vigilancia.",
+     "Barrio La Inmaculada no recomendado por seguridad.",
+     "Cercanía a Quebrada La Bermejala con riesgo de desbordamiento."
+    ],
+    "preguntar": [
+     "¿El edificio ha tenido problemas con la Quebrada La Bermejala?",
+     "¿Existe alguna medida de seguridad en el edificio?",
+     "¿Cuál es la dirección exacta del apartamento?"
+    ],
+    "transporte": "El Metro La Estrella está a 52 min a pie o 5 min en carro. El Parque principal de La Estrella está a 47 min a pie. El Centro de Medellín está a 20 min en carro.",
+    "fecha": "2026-11-25T05:46-05:00"
    }
   },
   "cc-3942489": {
@@ -51722,6 +51736,30 @@
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
+   },
+   "opinion": {
+    "id": "cc-3944353",
+    "veredicto": "con reservas",
+    "puntaje": 5,
+    "frase": "Sin vigilancia, con quejas de hurto en el barrio y riesgo de quebrada.",
+    "resumen": "El apartamento no ofrece portería ni vigilancia. El barrio La Magnolia ha tenido quejas de hurto y está cerca de la Quebrada La Ayurá, lo que genera reservas sobre la seguridad y el riesgo ambiental.",
+    "a_favor": [
+     "Cercano a comercio, servicios y parques.",
+     "Buen acceso a rutas de transporte público.",
+     "Dentro del presupuesto."
+    ],
+    "en_contra": [
+     "No tiene portería ni vigilancia.",
+     "Barrio La Magnolia con quejas de hurto.",
+     "Cercanía a Quebrada La Ayurá con riesgo de crecientes."
+    ],
+    "preguntar": [
+     "¿El edificio ha tenido problemas con la Quebrada La Ayurá?",
+     "¿Existe alguna medida de seguridad en el edificio?",
+     "¿Hay parqueadero disponible?"
+    ],
+    "transporte": "El Metro Ayurá está a 27 min a pie o 6 min en carro. El Parque principal de Envigado está a 10 min a pie. El Centro de Medellín está a 12 min en carro.",
+    "fecha": "2026-11-25T05:46-05:00"
    }
   },
   "cc-3946609": {
@@ -51939,6 +51977,30 @@
     "alertas": [
      "El portal dice barrio «María Auxiliadora», pero el pin cae en el barrio «Las Lomitas»."
     ]
+   },
+   "opinion": {
+    "id": "cc-3946609",
+    "veredicto": "recomendable",
+    "puntaje": 7,
+    "frase": "Unidad con portería y piscina, buen transporte, pero en loma.",
+    "resumen": "Este apartamento en unidad con portería 24 horas y piscina cumple con las prioridades de seguridad y servicios. El sector tiene buen transporte, pero el barrio Las Lomitas presenta lomas fuertes y dependencia de vehículo.",
+    "a_favor": [
+     "Unidad con portería y vigilancia 24 horas.",
+     "Cuenta con piscina y otras zonas comunes.",
+     "Buen acceso a rutas de transporte público."
+    ],
+    "en_contra": [
+     "Barrio Las Lomitas con lomas fuertes y dependencia de vehículo.",
+     "El precio es el límite del presupuesto.",
+     "No se encontraron reseñas de residentes sobre el conjunto."
+    ],
+    "preguntar": [
+     "¿El conjunto cuenta con vigilancia 24 horas?",
+     "¿Hay parqueadero para visitantes?",
+     "¿Cuál es la frecuencia de las rutas de bus a la estación del Metro?"
+    ],
+    "transporte": "El sector de Las Lomitas está bien conectado con la estación Sabaneta del Metro a través de varias rutas de autobús y a una distancia caminable (10-11 min a pie), lo que facilita el acceso al centro de Medellín (11-22 min en metro).",
+    "fecha": "2026-11-25T05:46-05:00"
    }
   },
   "cc-3947572": {
@@ -52158,6 +52220,30 @@
      "La descripción lo ubica en «MARIA AUXILIADORA», que es otro barrio distinto de «Las Lomitas». Pide la dirección.",
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
+   },
+   "opinion": {
+    "id": "cc-3947572",
+    "veredicto": "con reservas",
+    "puntaje": 6,
+    "frase": "Unidad con piscina, buen transporte, pero sin portería y en loma.",
+    "resumen": "El apartamento está en una unidad con piscina y buen transporte, pero no menciona portería ni vigilancia. El barrio Las Lomitas tiene lomas fuertes y el anuncio ubica el apartamento en un barrio distinto.",
+    "a_favor": [
+     "Cuenta con piscina y otras zonas comunes.",
+     "Buen acceso a rutas de transporte público.",
+     "Dentro del presupuesto."
+    ],
+    "en_contra": [
+     "No tiene portería ni vigilancia.",
+     "Barrio Las Lomitas con lomas fuertes y dependencia de vehículo.",
+     "Discrepancia entre el barrio del portal y el pin de ubicación."
+    ],
+    "preguntar": [
+     "¿El conjunto cuenta con portería y vigilancia 24 horas?",
+     "¿Cuál es la dirección exacta del apartamento?",
+     "¿Hay parqueadero para visitantes?"
+    ],
+    "transporte": "El sector está bien conectado por rutas de bus que facilitan el acceso a la estación del Metro La Estrella (24 min a pie desde la estación más cercana a Sabaneta) y al centro de Medellín (12-15 min en carro desde Sabaneta).",
+    "fecha": "2026-11-25T05:46-05:00"
    }
   },
   "cc-3947577": {
@@ -52375,6 +52461,30 @@
     "alertas": [
      "El portal dice barrio «María Auxiliadora», pero el pin cae en el barrio «Las Lomitas»."
     ]
+   },
+   "opinion": {
+    "id": "cc-3947577",
+    "veredicto": "recomendable",
+    "puntaje": 7,
+    "frase": "Unidad con vigilancia y piscina, buen transporte, pero en loma.",
+    "resumen": "Este apartamento en unidad con vigilancia 24 horas y piscina cumple con las prioridades de seguridad y servicios. El sector tiene buen transporte, pero el barrio Las Lomitas presenta lomas fuertes y dependencia de vehículo.",
+    "a_favor": [
+     "Unidad con portería y vigilancia 24 horas.",
+     "Cuenta con piscina y otras zonas comunes.",
+     "Buen acceso a rutas de transporte público."
+    ],
+    "en_contra": [
+     "Barrio Las Lomitas con lomas fuertes y dependencia de vehículo.",
+     "El precio es el límite del presupuesto.",
+     "Discrepancia entre el barrio del portal y el pin de ubicación."
+    ],
+    "preguntar": [
+     "¿Hay parqueadero para visitantes?",
+     "¿Cuál es la frecuencia de las rutas de bus a la estación del Metro?",
+     "¿Se han resuelto los problemas de tráfico por constructoras en el barrio?"
+    ],
+    "transporte": "El sector de Las Lomitas está bien conectado con la estación Sabaneta del Metro a través de varias rutas de autobús y a una distancia caminable (10-11 min a pie), lo que facilita el acceso al centro de Medellín (11-22 min en metro).",
+    "fecha": "2026-11-25T05:46-05:00"
    }
   },
   "cc-3948092": {
@@ -53382,6 +53492,30 @@
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
+   },
+   "opinion": {
+    "id": "cc-3951000",
+    "veredicto": "con reservas",
+    "puntaje": 5,
+    "frase": "Sin vigilancia, con riesgo de quebrada y barrio con homicidios.",
+    "resumen": "El apartamento no ofrece portería ni vigilancia. El barrio Santa María ha tenido homicidios recientes y hay riesgo de inundación por la Quebrada Doña María. Aunque es céntrico, la seguridad es una preocupación.",
+    "a_favor": [
+     "Cercano a comercio, servicios y hospitales.",
+     "Buen acceso a transporte público.",
+     "Dentro del presupuesto."
+    ],
+    "en_contra": [
+     "No tiene portería ni vigilancia.",
+     "Barrio Santa María con homicidios recientes y riesgo de inundación.",
+     "Mucha actividad comercial y ruido en el barrio."
+    ],
+    "preguntar": [
+     "¿El edificio ha tenido problemas con la Quebrada Doña María?",
+     "¿Existe alguna medida de seguridad en el edificio?",
+     "¿Hay parqueadero disponible?"
+    ],
+    "transporte": "El Metro Ayurá está a 25 min a pie o 5 min en carro. El Hospital del Sur está a 6 min a pie. El Centro de Medellín está a 11 min en carro.",
+    "fecha": "2026-11-25T05:46-05:00"
    }
   },
   "cc-3951172": {
@@ -53874,6 +54008,30 @@
      "Es un apartamento en una casa (no en conjunto).",
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
+   },
+   "opinion": {
+    "id": "cc-3951192",
+    "veredicto": "no recomendable",
+    "puntaje": 1,
+    "frase": "Fuera de presupuesto, sin vigilancia y con solo 1 baño.",
+    "resumen": "El apartaestudio no cumple con el requisito de 2 o más habitaciones y no menciona portería ni vigilancia. Además, el precio es muy bajo, lo que podría indicar problemas o un error en el anuncio.",
+    "a_favor": [
+     "Cercano a comercio, servicios y hospitales.",
+     "Buen acceso a transporte público.",
+     "Dentro del presupuesto."
+    ],
+    "en_contra": [
+     "Es un apartaestudio (0 habitaciones), no cumple el requisito de 2+ habitaciones.",
+     "No tiene portería ni vigilancia.",
+     "El precio es inusualmente bajo, lo que genera sospechas."
+    ],
+    "preguntar": [
+     "¿Existe alguna medida de seguridad en el edificio?",
+     "¿Cuál es el costo real del arriendo?",
+     "¿Hay parqueadero disponible?"
+    ],
+    "transporte": "El Metro Sabaneta está a 22 min a pie o 5 min en carro. El Hospital del Sur está a 4 min a pie. El Centro de Medellín está a 17 min en carro.",
+    "fecha": "2026-11-25T05:46-05:00"
    }
   },
   "cc-3951197": {
@@ -54014,6 +54172,30 @@
      "El anuncio no menciona portería, vigilancia ni unidad cerrada.",
      "Al Metro Caribe son 38 min a pie (2.8 km): toca bus o carro."
     ]
+   },
+   "opinion": {
+    "id": "cc-3951197",
+    "veredicto": "no recomendable",
+    "puntaje": 2,
+    "frase": "Sin vigilancia, con solo 1 baño y lejos del metro.",
+    "resumen": "El apartamento no cumple con el requisito de 2 baños y no ofrece portería ni vigilancia. Además, está lejos del metro para ir a pie, lo que afecta la prioridad de buen transporte.",
+    "a_favor": [
+     "Dentro del presupuesto.",
+     "Cercano a comercio y servicios.",
+     "Patio exterior enrejado."
+    ],
+    "en_contra": [
+     "Solo tiene 1 baño, no cumple el requisito de 2 baños.",
+     "No tiene portería ni vigilancia.",
+     "El Metro Caribe no es caminable."
+    ],
+    "preguntar": [
+     "¿Existe alguna medida de seguridad en el edificio?",
+     "¿Hay rutas de bus directas a la estación de metro?",
+     "¿Hay parqueadero disponible?"
+    ],
+    "transporte": "El Metro Caribe está a 38 min a pie o 8 min en carro. El Centro de Medellín está a 9 min en carro. No se especifica información de rutas de bus.",
+    "fecha": "2026-11-25T05:46-05:00"
    }
   },
   "cc-3951261": {
@@ -73187,6 +73369,30 @@
      "La Quebrada La Ayurá pasa a 117 m: pregunta si el edificio ha tenido problemas con crecientes.",
      "El Metro Envigado queda a 5.7 km por vía: no es caminable."
     ]
+   },
+   "opinion": {
+    "id": "cc-3949177",
+    "veredicto": "no recomendable",
+    "puntaje": 2,
+    "frase": "Apartaestudio sin vigilancia, con riesgo de quebrada y barrio no recomendado.",
+    "resumen": "Este apartaestudio no cumple con el requisito de 2 o más habitaciones y no ofrece portería ni vigilancia. El barrio El Salado no es recomendado por seguridad y la cercanía a la Quebrada La Ayurá es un riesgo.",
+    "a_favor": [
+     "Dentro del presupuesto.",
+     "Balcón con vistas panorámicas.",
+     "Cercano a colegios."
+    ],
+    "en_contra": [
+     "Es un apartaestudio (1 habitación), no cumple el requisito de 2+ habitaciones.",
+     "No tiene portería ni vigilancia.",
+     "Barrio El Salado no recomendado por seguridad y deslizamientos."
+    ],
+    "preguntar": [
+     "¿El edificio ha tenido problemas con la Quebrada La Ayurá?",
+     "¿Existe alguna medida de seguridad en el edificio?",
+     "¿Hay parqueadero disponible?"
+    ],
+    "transporte": "El Metro Itagüí está a 13 min en carro y el Metro Envigado a 11 min en carro. El Parque principal de Envigado está a 45 min a pie. El Centro de Medellín está a 19 min en carro.",
+    "fecha": "2026-11-25T05:46-05:00"
    }
   },
   "cc-3949222": {
@@ -73459,6 +73665,30 @@
      "Es un apartamento en una casa (no en conjunto).",
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
+   },
+   "opinion": {
+    "id": "cc-3949222",
+    "veredicto": "con reservas",
+    "puntaje": 5,
+    "frase": "Sin vigilancia, con riesgo de quebrada y barrio con homicidios.",
+    "resumen": "El apartamento no ofrece portería ni vigilancia. El barrio Santa María ha tenido homicidios recientes y hay riesgo de inundación por la Quebrada Doña María. Aunque es céntrico, la seguridad es una preocupación.",
+    "a_favor": [
+     "Cercano a comercio, servicios y hospitales.",
+     "Buen acceso a transporte público.",
+     "Dentro del presupuesto."
+    ],
+    "en_contra": [
+     "No tiene portería ni vigilancia.",
+     "Barrio Santa María con homicidios recientes y riesgo de inundación.",
+     "Mucha actividad comercial y ruido en el barrio."
+    ],
+    "preguntar": [
+     "¿El edificio ha tenido problemas con la Quebrada Doña María?",
+     "¿Existe alguna medida de seguridad en el edificio?",
+     "¿Hay parqueadero disponible?"
+    ],
+    "transporte": "El Metro Ayurá está a 22 min a pie o 7 min en carro. El Centro comercial La Torre está a 1 min a pie. El Centro de Medellín está a 12 min en carro.",
+    "fecha": "2026-11-25T05:46-05:00"
    }
   },
   "dm-892384": {
@@ -73710,6 +73940,30 @@
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
+   },
+   "opinion": {
+    "id": "dm-892384",
+    "veredicto": "con reservas",
+    "puntaje": 5,
+    "frase": "Sin vigilancia, con riesgo de quebrada y barrio con homicidios.",
+    "resumen": "El apartamento no ofrece portería ni vigilancia. El barrio Santa María ha tenido homicidios recientes y hay riesgo de inundación por la Quebrada Doña María. Aunque es céntrico, la seguridad es una preocupación.",
+    "a_favor": [
+     "Cercano a comercio, servicios y hospitales.",
+     "Buen acceso a transporte público.",
+     "Dentro del presupuesto."
+    ],
+    "en_contra": [
+     "No tiene portería ni vigilancia.",
+     "Barrio Santa María con homicidios recientes y riesgo de inundación.",
+     "Mucha actividad comercial y ruido en el barrio."
+    ],
+    "preguntar": [
+     "¿El edificio ha tenido problemas con la Quebrada Doña María?",
+     "¿Existe alguna medida de seguridad en el edificio?",
+     "¿Hay parqueadero disponible?"
+    ],
+    "transporte": "El Metro Envigado está a 21 min a pie o 5 min en carro. El Parque principal de Itagüí está a 12 min a pie. El Centro de Medellín está a 14 min en carro.",
+    "fecha": "2026-11-25T05:46-05:00"
    }
   },
   "fr-194573069": {
@@ -73942,6 +74196,30 @@
      "Es un apartamento en una casa (no en conjunto).",
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
+   },
+   "opinion": {
+    "id": "fr-194573069",
+    "veredicto": "con reservas",
+    "puntaje": 5,
+    "frase": "Sin vigilancia, con riesgo de quebrada y barrio con homicidios.",
+    "resumen": "El apartamento no ofrece portería ni vigilancia. El barrio Santa María ha tenido homicidios recientes y hay riesgo de inundación por la Quebrada Doña María. Aunque es céntrico, la seguridad es una preocupación.",
+    "a_favor": [
+     "Cercano a colegios y Parque del Artista.",
+     "Buen acceso a transporte público.",
+     "Dentro del presupuesto."
+    ],
+    "en_contra": [
+     "No tiene portería ni vigilancia.",
+     "Barrio Santa María con homicidios recientes y riesgo de inundación.",
+     "Mucha actividad comercial y ruido en el barrio."
+    ],
+    "preguntar": [
+     "¿El edificio ha tenido problemas con la Quebrada Doña María?",
+     "¿Existe alguna medida de seguridad en el edificio?",
+     "¿Hay parqueadero disponible?"
+    ],
+    "transporte": "El Metro Envigado está a 21 min a pie o 4 min en carro. El Parque principal de Itagüí está a 17 min a pie. El Centro de Medellín está a 14 min en carro.",
+    "fecha": "2026-11-25T05:46-05:00"
    }
   },
   "fr-194573103": {
@@ -74217,6 +74495,30 @@
      "El anuncio no menciona portería, vigilancia ni unidad cerrada.",
      "Barrio La Candelaria: seguridad baja, no recomendado."
     ]
+   },
+   "opinion": {
+    "id": "fr-194573103",
+    "veredicto": "no recomendable",
+    "puntaje": 1,
+    "frase": "Fuera de presupuesto, sin vigilancia y barrio no recomendado.",
+    "resumen": "El apartamento excede el presupuesto y no ofrece portería ni vigilancia. El barrio La Candelaria es no recomendado por su alta incidencia de delitos, lo que lo hace no apto para el perfil del buscador.",
+    "a_favor": [
+     "Excelente ubicación céntrica con acceso a todo el transporte.",
+     "Cercano a comercio, servicios y universidades.",
+     "Ascensor disponible."
+    ],
+    "en_contra": [
+     "Excede el presupuesto ($1.900.000).",
+     "No tiene portería ni vigilancia.",
+     "Barrio La Candelaria no recomendado por alta incidencia de delitos."
+    ],
+    "preguntar": [
+     "¿Existe alguna medida de seguridad en el edificio?",
+     "¿Hay parqueadero disponible?",
+     "¿Cuál es el costo de los servicios públicos?"
+    ],
+    "transporte": "El Metro Parque Berrío está a 7 min a pie. El Metro San Antonio está a 7 min a pie. El Centro de Medellín está a 7 min a pie.",
+    "fecha": "2026-11-25T05:46-05:00"
    }
   },
   "cc-3947809": {
@@ -74495,6 +74797,30 @@
     "alertas": [
      "El portal dice barrio «Calle Larga», pero el pin cae en el barrio «San Isidro»."
     ]
+   },
+   "opinion": {
+    "id": "cc-3947809",
+    "veredicto": "con reservas",
+    "puntaje": 6,
+    "frase": "Unidad con vigilancia, buen transporte, pero barrio con riesgos.",
+    "resumen": "El apartaestudio está en una unidad cerrada con portería y vigilancia, lo que cumple con las prioridades. Sin embargo, el barrio San Isidro ha tenido problemas de deslizamientos y operativos antidrogas, lo que genera reservas.",
+    "a_favor": [
+     "Unidad cerrada con portería y vigilancia 24 horas.",
+     "Cercano a comercio, servicios y parques.",
+     "Buen acceso a rutas de transporte público."
+    ],
+    "en_contra": [
+     "Es un apartaestudio (1 habitación), no cumple el requisito de 2+ habitaciones.",
+     "Barrio San Isidro con riesgo de deslizamientos y operativos antidrogas.",
+     "Cercanía a Quebrada La Doctora con riesgo de crecientes."
+    ],
+    "preguntar": [
+     "¿El edificio ha tenido problemas con la Quebrada La Doctora?",
+     "¿Hay parqueadero para visitantes?",
+     "¿Cuál es la frecuencia de las rutas de bus a la estación del Metro?"
+    ],
+    "transporte": "El Metro Sabaneta está a 13 min a pie o 3 min en carro. El Parque Principal Sabaneta está a 2 min a pie. El Centro de Medellín está a 16 min en carro.",
+    "fecha": "2026-11-25T05:46-05:00"
    }
   },
   "rt-p401fb4": {
@@ -74680,6 +75006,22 @@
      "El anuncio no menciona portería, vigilancia ni unidad cerrada.",
      "La Quebrada San Martín pasa a 70 m: pregunta si el edificio ha tenido problemas con crecientes."
     ]
+   },
+   "opinion": {
+    "id": "rt-p401fb4",
+    "veredicto": "no recomendable",
+    "puntaje": 1,
+    "frase": "Anuncio no disponible y sin información de ubicación o seguridad.",
+    "resumen": "El anuncio no está disponible y carece de información crucial sobre la ubicación exacta, portería, vigilancia y servicios, lo que lo hace no recomendable para el perfil del buscador.",
+    "a_favor": [],
+    "en_contra": [
+     "Anuncio no disponible.",
+     "Ubicación no confirmada y sin detalles de sector.",
+     "No tiene portería ni vigilancia."
+    ],
+    "preguntar": [],
+    "transporte": "No hay información de transporte disponible para este anuncio.",
+    "fecha": "2026-11-25T05:46-05:00"
    }
   },
   "cc-3949321": {
@@ -75210,6 +75552,22 @@
      "El portal dice barrio «El Dorado», pero el pin cae en el barrio «La Paz».",
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
+   },
+   "opinion": {
+    "id": "rt-p610944",
+    "veredicto": "no recomendable",
+    "puntaje": 1,
+    "frase": "Anuncio no disponible y sin información de ubicación o seguridad.",
+    "resumen": "El anuncio no está disponible y carece de información crucial sobre la ubicación exacta, portería, vigilancia y servicios, lo que lo hace no recomendable para el perfil del buscador.",
+    "a_favor": [],
+    "en_contra": [
+     "Anuncio no disponible.",
+     "Ubicación no confirmada y sin detalles de sector.",
+     "No tiene portería ni vigilancia."
+    ],
+    "preguntar": [],
+    "transporte": "No hay información de transporte disponible para este anuncio.",
+    "fecha": "2026-11-25T05:46-05:00"
    }
   },
   "cc-3938534": {
@@ -75977,6 +76335,30 @@
      "La Quebrada Doña María pasa a 77 m: pregunta si el edificio ha tenido problemas con crecientes.",
      "Al Metro Sabaneta son 52 min a pie (3.9 km): toca bus o carro."
     ]
+   },
+   "opinion": {
+    "id": "aa-473-23839",
+    "veredicto": "con reservas",
+    "puntaje": 5,
+    "frase": "Sin vigilancia, con riesgo de quebrada y barrio con problemas de seguridad.",
+    "resumen": "El apartamento no ofrece portería ni vigilancia. El barrio San Gabriel ha tenido menciones policiales de grupos delincuenciales y hurtos, y la cercanía a la Quebrada Doña María presenta riesgo de inundaciones.",
+    "a_favor": [
+     "Cercano a colegios y supermercados.",
+     "Buen acceso a rutas de transporte público.",
+     "Dentro del presupuesto."
+    ],
+    "en_contra": [
+     "No tiene portería ni vigilancia.",
+     "Barrio San Gabriel con menciones policiales de grupos delincuenciales y hurtos.",
+     "Cercanía a Quebrada Doña María con riesgo de desbordamiento."
+    ],
+    "preguntar": [
+     "¿El edificio ha tenido problemas con la Quebrada Doña María?",
+     "¿Existe alguna medida de seguridad en el edificio?",
+     "¿Hay parqueadero disponible?"
+    ],
+    "transporte": "El sector está bien conectado por diversas rutas de autobús que permiten el acceso a las estaciones de metro de Sabaneta (14-19 min a pie a paradas cercanas) e Itagüí, facilitando el desplazamiento hacia el centro de Medellín (12-16 min en bus).",
+    "fecha": "2026-11-25T05:46-05:00"
    }
   },
   "aa-AA-97208": {
@@ -76201,6 +76583,30 @@
      "Es un apartamento en una casa (no en conjunto).",
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
+   },
+   "opinion": {
+    "id": "aa-AA-97208",
+    "veredicto": "con reservas",
+    "puntaje": 5,
+    "frase": "Sin vigilancia, con riesgo de quebrada y barrio con homicidios.",
+    "resumen": "El apartamento no ofrece portería ni vigilancia. El barrio Santa María ha tenido homicidios recientes y hay riesgo de inundación por la Quebrada Doña María. Aunque es céntrico, la seguridad es una preocupación.",
+    "a_favor": [
+     "Cercano a comercio, servicios y hospitales.",
+     "Buen acceso a transporte público.",
+     "Dentro del presupuesto."
+    ],
+    "en_contra": [
+     "No tiene portería ni vigilancia.",
+     "Barrio Santa María con homicidios recientes y riesgo de inundación.",
+     "Mucha actividad comercial y ruido en el barrio."
+    ],
+    "preguntar": [
+     "¿El edificio ha tenido problemas con la Quebrada Doña María?",
+     "¿Existe alguna medida de seguridad en el edificio?",
+     "¿Hay parqueadero disponible?"
+    ],
+    "transporte": "El Metro Envigado está a 29 min a pie o 6 min en carro. El Hospital del Sur está a 15 min a pie. El Centro de Medellín está a 15 min en carro.",
+    "fecha": "2026-11-25T05:46-05:00"
    }
   },
   "aa-AC-65770": {
@@ -76449,6 +76855,30 @@
      "El anuncio no menciona portería, vigilancia ni unidad cerrada.",
      "La Quebrada Doña María pasa a 108 m: pregunta si el edificio ha tenido problemas con crecientes."
     ]
+   },
+   "opinion": {
+    "id": "aa-AC-65770",
+    "veredicto": "con reservas",
+    "puntaje": 5,
+    "frase": "Sin vigilancia, con riesgo de quebrada y barrio con homicidios.",
+    "resumen": "El apartamento no ofrece portería ni vigilancia. El barrio Santa María ha tenido homicidios recientes y hay riesgo de inundación por la Quebrada Doña María. Aunque es céntrico, la seguridad es una preocupación.",
+    "a_favor": [
+     "Cercano a comercio, servicios y hospitales.",
+     "Buen acceso a transporte público.",
+     "Dentro del presupuesto."
+    ],
+    "en_contra": [
+     "No tiene portería ni vigilancia.",
+     "Barrio Santa María con homicidios recientes y riesgo de inundación.",
+     "Mucha actividad comercial y ruido en el barrio."
+    ],
+    "preguntar": [
+     "¿El edificio ha tenido problemas con la Quebrada Doña María?",
+     "¿Existe alguna medida de seguridad en el edificio?",
+     "¿Hay parqueadero disponible?"
+    ],
+    "transporte": "El Metro Envigado está a 17 min a pie o 3 min en carro. El Hospital del Sur está a 5 min a pie. El Centro de Medellín está a 12 min en carro.",
+    "fecha": "2026-11-25T05:46-05:00"
    }
   },
   "aa-AC-80052": {
@@ -77960,9 +78390,10 @@
    }
   },
   "cc-3906056": {
-   "huella": "cc-3906056|1700000",
+   "huella": "cc-3906056|lw-estrella-9681|1700000",
    "exp": {
     "ids": [
+     "lw-estrella-9681",
      "cc-3906056"
     ],
     "precio": 1700000,
@@ -77995,11 +78426,20 @@
     "disponible": true,
     "publicado": "2026-10-08",
     "modificado": null,
-    "en_pagina_desde": "2026-11-18",
+    "en_pagina_desde": "2026-11-16",
     "video": false,
     "videos": [],
     "tour": null,
     "versiones": [
+     {
+      "fuente": "Inmobiliaria La Estrella",
+      "url": "https://www.inmobiliarialaestrella.com/detalle-propiedad/apartamento-enarriendo-en-san-antonio-de-prado-9681",
+      "disponible": true,
+      "publicado": null,
+      "modificado": null,
+      "anunciante": "Inmobiliaria La Estrella",
+      "tel": "6042500646"
+     },
      {
       "fuente": "Ciencuadras",
       "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-san-antonio-de-prado-medellin-3906056",
@@ -78025,16 +78465,11 @@
     "codigos": [
      "9681"
     ],
-    "alias": [
-     [
-      "cc-3906056",
-      "lw-estrella-9681"
-     ]
-    ],
+    "alias": [],
     "ubicacion": {
      "tipo": "de la ficha",
-     "lat": 6.184068,
-     "lon": -75.654848,
+     "lat": 6.1840682,
+     "lon": -75.6548482,
      "osm": {
       "barrio": null,
       "via": "Calle 42A Sur",
@@ -78175,11 +78610,11 @@
     },
     "hist": [
      [
-      "2026-11-18",
+      "2026-11-16",
       1700000
      ]
     ],
-    "fecha": "2026-11-25T03:07-05:00",
+    "fecha": "2026-11-25T05:45-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada.",
      "Lleva 48 días publicado: pregunta si sigue libre.",
@@ -78188,34 +78623,36 @@
    },
    "opinion": {
     "id": "cc-3906056",
-    "veredicto": "no recomendable",
-    "puntaje": 4,
-    "frase": "Sin portería, lejos del metro y con problemas de agua.",
-    "resumen": "Apartamento sin portería ni vigilancia. El barrio San Antonio de Prado tiene problemas de acceso y el sector de La Gruta ha sufrido racionamiento de agua por la Quebrada La Manguala.",
+    "veredicto": "con reservas",
+    "puntaje": 5,
+    "frase": "Sector con problemas de agua y sin vigilancia, pero buen transporte.",
+    "resumen": "El apartamento está en un sector con escasez de agua y sin portería/vigilancia, lo que afecta la seguridad y comodidad. Sin embargo, tiene buen acceso a comercio y transporte público.",
     "a_favor": [
-     "Cercano a supermercados y colegios",
-     "Parqueadero disponible",
-     "Transporte público a estaciones de metro"
+     "Cercano a comercio y servicios esenciales.",
+     "Buen transporte público con rutas frecuentes.",
+     "Ascensor y parqueadero."
     ],
     "en_contra": [
-     "No menciona portería ni vigilancia",
-     "Barrio con problemas de acceso y trancones",
-     "Sector con racionamiento de agua por quebrada"
+     "No tiene portería ni vigilancia.",
+     "Sector con problemas de escasez de agua (Quebrada La Manguala).",
+     "Barrio con trancones y lejos del centro."
     ],
     "preguntar": [
-     "¿El edificio cuenta con portería o vigilancia?",
-     "¿Cuál es el estado actual del suministro de agua en el sector?",
-     "¿El anuncio sigue disponible?"
+     "¿El edificio ha tenido problemas de racionamiento de agua?",
+     "¿Existe alguna alternativa de seguridad en el edificio?",
+     "¿El parqueadero es propio o comunal?"
     ],
-    "transporte": "El sector de La Gruta en San Antonio de Prado está bien conectado con el sistema de transporte público de Medellín, con varias rutas de autobús que ofrecen acceso a diferentes estaciones del metro y al centro de la ciudad.",
-    "fecha": "2026-11-25T03:09-05:00"
+    "transporte": "El sector de La Gruta está bien conectado con varias rutas de bus que llegan a estaciones del Metro como La Estrella (1h 3min) y Aguacatala (10min), y al Centro de Medellín (45min).",
+    "fecha": "2026-11-25T05:46-05:00"
    }
   },
   "cc-3906189": {
-   "huella": "cc-3906189|2000000",
+   "huella": "cc-3906189|lw-estrella-9682|m2-21136-M7131770|2000000",
    "exp": {
     "ids": [
-     "cc-3906189"
+     "lw-estrella-9682",
+     "cc-3906189",
+     "m2-21136-M7131770"
     ],
     "precio": 2000000,
     "hab": 3,
@@ -78247,11 +78684,22 @@
     "disponible": true,
     "publicado": "2026-10-08",
     "modificado": null,
-    "en_pagina_desde": "2026-11-18",
-    "video": false,
-    "videos": [],
+    "en_pagina_desde": "2026-11-16",
+    "video": true,
+    "videos": [
+     "https://youtu.be/5VK8C1xE6Ik"
+    ],
     "tour": null,
     "versiones": [
+     {
+      "fuente": "Inmobiliaria La Estrella",
+      "url": "https://www.inmobiliarialaestrella.com/detalle-propiedad/apartamento-enarriendo-en-san-antonio-de-prado-9682",
+      "disponible": true,
+      "publicado": "2026-11-04",
+      "modificado": null,
+      "anunciante": "Inmobiliaria La Estrella",
+      "tel": "6042500646"
+     },
      {
       "fuente": "Ciencuadras",
       "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-san-antonio-de-prado-medellin-3906189",
@@ -78260,6 +78708,15 @@
       "modificado": null,
       "anunciante": "ALQUIVENTAS  S A S",
       "tel": "3217158566"
+     },
+     {
+      "fuente": "Metrocuadrado",
+      "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-medellin-san-antonio-de-prado-3-habitaciones-2-banos/21136-M7131770",
+      "disponible": true,
+      "publicado": null,
+      "modificado": null,
+      "anunciante": "Inmobiliaria",
+      "tel": "6044480577"
      }
     ],
     "rasgos": {
@@ -78275,18 +78732,14 @@
     },
     "desc": "Descripción Apartamento en Arriendo – San Antonio de Prado, Sector La Gruta (Piso 3) Apartamento de aproximadamente 78 m², ubicado en el sector La Gruta de San Antonio de Prado, al frente del parqueadero y Vivero El Sevillano, en un sector tranquilo y de fácil acceso. La propiedad cuenta con sala comedor, cocina integral con red de gas, 3 alcobas, 3 closets, 2 baños cabinados y zona de ropas, ofreciendo espacios cómodos y bien distribuidos para toda la familia.El inmueble no cuenta con parqueadero y el edificio no cuenta con ascensor. CODIGO: 9682 Zonas comunes No tiene Zona lavanderia Explorar cercanías shopping_cart Supermercados school Educación park Parques Supermercado maxioferta prado ",
     "codigos": [
+     "21136",
      "9682"
     ],
-    "alias": [
-     [
-      "cc-3906189",
-      "lw-estrella-9682"
-     ]
-    ],
+    "alias": [],
     "ubicacion": {
      "tipo": "de la ficha",
-     "lat": 6.184068,
-     "lon": -75.654848,
+     "lat": 6.1840682,
+     "lon": -75.6548482,
      "osm": {
       "barrio": null,
       "via": "Calle 42A Sur",
@@ -78427,11 +78880,11 @@
     },
     "hist": [
      [
-      "2026-11-18",
+      "2026-11-16",
       2000000
      ]
     ],
-    "fecha": "2026-11-25T03:08-05:00",
+    "fecha": "2026-11-25T05:45-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada.",
      "Lleva 48 días publicado: pregunta si sigue libre.",
@@ -78441,26 +78894,26 @@
    "opinion": {
     "id": "cc-3906189",
     "veredicto": "no recomendable",
-    "puntaje": 4,
-    "frase": "Sin portería, lejos del metro y con problemas de agua.",
-    "resumen": "Apartamento sin portería ni vigilancia. El barrio San Antonio de Prado tiene problemas de acceso y el sector de La Gruta ha sufrido racionamiento de agua por la Quebrada La Manguala.",
+    "puntaje": 3,
+    "frase": "Fuera de presupuesto, sin vigilancia y con problemas de agua.",
+    "resumen": "El apartamento excede el presupuesto y no ofrece portería ni vigilancia, lo que es una prioridad. Además, el sector tiene problemas de escasez de agua y el barrio presenta dificultades de acceso.",
     "a_favor": [
-     "Cercano a supermercados y colegios",
-     "Parqueadero disponible",
-     "Transporte público a estaciones de metro"
+     "Cercano a comercio y servicios esenciales.",
+     "Buen transporte público con rutas frecuentes.",
+     "Ascensor y parqueadero."
     ],
     "en_contra": [
-     "No menciona portería ni vigilancia",
-     "Barrio con problemas de acceso y trancones",
-     "Sector con racionamiento de agua por quebrada"
+     "Excede el presupuesto ($2.000.000).",
+     "No tiene portería ni vigilancia.",
+     "Sector con problemas de escasez de agua (Quebrada La Manguala)."
     ],
     "preguntar": [
-     "¿El edificio cuenta con portería o vigilancia?",
-     "¿Cuál es el estado actual del suministro de agua en el sector?",
-     "¿El anuncio sigue disponible?"
+     "¿El edificio ha tenido problemas de racionamiento de agua?",
+     "¿Existe alguna alternativa de seguridad en el edificio?",
+     "¿El parqueadero es propio o comunal?"
     ],
-    "transporte": "El sector de La Gruta en San Antonio de Prado está bien conectado con el sistema de transporte público de Medellín, con varias rutas de autobús que ofrecen acceso a diferentes estaciones del metro y al centro de la ciudad.",
-    "fecha": "2026-11-25T03:09-05:00"
+    "transporte": "El sector de La Gruta está bien conectado con varias rutas de bus que llegan a estaciones del Metro como La Estrella (1h 3min) y Aguacatala (10min), y al Centro de Medellín (45min).",
+    "fecha": "2026-11-25T05:46-05:00"
    }
   },
   "cc-3907463": {
@@ -319895,9 +320348,10 @@
    }
   },
   "cc-3945090": {
-   "huella": "cc-3945090|1900000",
+   "huella": "cc-3945090|lw-estrella-9748|1900000",
    "exp": {
     "ids": [
+     "lw-estrella-9748",
      "cc-3945090"
     ],
     "precio": 1900000,
@@ -319938,6 +320392,15 @@
     "tour": null,
     "versiones": [
      {
+      "fuente": "Inmobiliaria La Estrella",
+      "url": "https://www.inmobiliarialaestrella.com/detalle-propiedad/apartamento-enarriendo-en-la-estrella-9748",
+      "disponible": true,
+      "publicado": null,
+      "modificado": null,
+      "anunciante": "Inmobiliaria La Estrella",
+      "tel": "6042500646"
+     },
+     {
       "fuente": "Ciencuadras",
       "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-san-miguel-la-estrella-3945090",
       "disponible": true,
@@ -319962,16 +320425,11 @@
     "codigos": [
      "9748"
     ],
-    "alias": [
-     [
-      "cc-3945090",
-      "lw-estrella-9748"
-     ]
-    ],
+    "alias": [],
     "ubicacion": {
      "tipo": "de la ficha",
-     "lat": 6.118991,
-     "lon": -75.636052,
+     "lat": 6.1189914,
+     "lon": -75.6360515,
      "osm": {
       "barrio": null,
       "via": "Calle 100",
@@ -320075,7 +320533,7 @@
       1900000
      ]
     ],
-    "fecha": "2026-11-25T03:08-05:00",
+    "fecha": "2026-11-25T05:45-05:00",
     "alertas": [
      "El Metro La Estrella queda a 5.7 km por vía: no es caminable."
     ]
@@ -320084,25 +320542,25 @@
     "id": "cc-3945090",
     "veredicto": "recomendable",
     "puntaje": 8,
-    "frase": "Unidad cerrada con portería y piscina, buen transporte.",
-    "resumen": "Apartamento en unidad cerrada con portería 24h, vigilancia y piscina. El sector tiene riesgos de desbordamiento de quebradas, pero el conjunto es seguro y bien ubicado con acceso a transporte público.",
+    "frase": "Unidad cerrada con vigilancia y piscina, buen transporte y servicios.",
+    "resumen": "Este apartamento en unidad cerrada cumple con las prioridades de seguridad y servicios, ofreciendo portería 24 horas, vigilancia y piscina. El sector tiene buen acceso a comercio y transporte público, aunque hay riesgo de quebradas.",
     "a_favor": [
-     "Unidad cerrada con portería y vigilancia 24h",
-     "Piscina y zonas comunes",
-     "Cercano a colegios y transporte público"
+     "Unidad cerrada con portería y vigilancia 24 horas.",
+     "Cuenta con piscina, salón social y zonas verdes.",
+     "Cercano a servicios esenciales y transporte público."
     ],
     "en_contra": [
-     "Riesgo de desbordamiento de Quebrada Palosanto",
-     "Lejos del metro para ir a pie",
-     "Incidente de fuga de gas en inmediaciones del conjunto"
+     "Cercanía a Quebrada Palosanto con riesgo de desbordamiento.",
+     "El Metro La Estrella no es caminable.",
+     "No se encontraron reseñas de residentes sobre el conjunto."
     ],
     "preguntar": [
-     "¿Ha tenido el edificio problemas con crecientes de la Quebrada Palosanto?",
-     "¿Qué medidas de seguridad se implementaron tras la fuga de gas?",
-     "¿Cuál es la frecuencia de las rutas de bus mencionadas?"
+     "¿El edificio ha tenido problemas con la Quebrada Palosanto?",
+     "¿Cuál es la frecuencia de las rutas de bus a la estación del Metro?",
+     "¿Hay parqueadero para visitantes?"
     ],
-    "transporte": "El sector está bien conectado con rutas de bus que pasan por la Calle 100 y llegan a la estación La Estrella del Metro, facilitando el acceso al centro de Medellín.",
-    "fecha": "2026-11-25T03:09-05:00"
+    "transporte": "El sector está bien conectado con rutas de bus que pasan por la Calle 100 y llegan a la estación La Estrella del Metro, facilitando el acceso al centro de Medellín (aprox. 21 min en metro).",
+    "fecha": "2026-11-25T05:46-05:00"
    }
   },
   "cc-3945400": {
@@ -350894,10 +351352,11 @@
    }
   },
   "cc-3920767": {
-   "huella": "cc-3920767|1500000",
+   "huella": "cc-3920767|lw-estrella-9707|1500000",
    "exp": {
     "ids": [
-     "cc-3920767"
+     "cc-3920767",
+     "lw-estrella-9707"
     ],
     "precio": 1500000,
     "hab": 1,
@@ -350940,6 +351399,15 @@
       "modificado": null,
       "anunciante": "ALQUIVENTAS  S A S",
       "tel": "3217158566"
+     },
+     {
+      "fuente": "Inmobiliaria La Estrella",
+      "url": "https://www.inmobiliarialaestrella.com/detalle-propiedad/apartaestudio-enarriendo-en-itagui-9707",
+      "disponible": true,
+      "publicado": null,
+      "modificado": null,
+      "anunciante": "Inmobiliaria La Estrella",
+      "tel": "6042500646"
      }
     ],
     "rasgos": {
@@ -350957,12 +351425,7 @@
     "codigos": [
      "9707"
     ],
-    "alias": [
-     [
-      "cc-3920767",
-      "lw-estrella-9707"
-     ]
-    ],
+    "alias": [],
     "ubicacion": {
      "tipo": "exacta",
      "lat": 6.162786,
@@ -351125,7 +351588,7 @@
       1500000
      ]
     ],
-    "fecha": "2026-11-25T03:08-05:00",
+    "fecha": "2026-11-25T05:45-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
@@ -351133,26 +351596,26 @@
    "opinion": {
     "id": "cc-3920767",
     "veredicto": "no recomendable",
-    "puntaje": 4,
-    "frase": "Apartaestudio sin portería, no cumple habitaciones.",
-    "resumen": "Apartaestudio de 1 habitación, no cumple con el requisito de 2 o más habitaciones. Además, no menciona portería ni vigilancia.",
+    "puntaje": 2,
+    "frase": "Apartaestudio sin vigilancia y con solo 1 habitación, no cumple.",
+    "resumen": "Este apartaestudio no cumple con el requisito de 2 o más habitaciones y no menciona portería ni vigilancia, lo que lo hace no recomendable para el perfil del buscador.",
     "a_favor": [
-     "Cercano a centros comerciales y supermercados",
-     "Buen transporte público y metro cerca",
-     "Cercano a salud y colegios"
+     "Cercanía a la estación Sabaneta del Metro (10 min a pie).",
+     "Cercano a comercio, servicios y hospitales.",
+     "Municipio con reducción de delitos de alto impacto."
     ],
     "en_contra": [
-     "No cumple requisito de 2 o más habitaciones",
-     "No menciona portería ni vigilancia",
-     "Barrio sin información de seguridad específica"
+     "Es un apartaestudio (1 habitación), no cumple el requisito de 2+ habitaciones.",
+     "No tiene portería ni vigilancia.",
+     "No se encontró información específica de seguridad del barrio."
     ],
     "preguntar": [
-     "¿El edificio cuenta con portería o vigilancia?",
-     "¿Hay parqueadero disponible?",
-     "¿Cuál es el estrato del apartaestudio?"
+     "¿Existe alguna medida de seguridad en el edificio?",
+     "¿El edificio cuenta con parqueadero para visitantes?",
+     "¿Cuál es el costo de los servicios públicos?"
     ],
-    "transporte": "El sector está bien conectado con la estación Sabaneta del Metro, a 10 minutos a pie, y con rutas de bus que facilitan el acceso al centro de Medellín.",
-    "fecha": "2026-11-25T03:09-05:00"
+    "transporte": "La estación Sabaneta del Metro está a 10 min a pie. El Centro de Medellín está a 16 min en carro. Hay buen acceso a transporte público.",
+    "fecha": "2026-11-25T05:46-05:00"
    }
   },
   "cc-3921410": {
@@ -363050,10 +363513,11 @@
    }
   },
   "cc-3930544": {
-   "huella": "cc-3930544|1200000",
+   "huella": "cc-3930544|lw-estrella-8561|1200000",
    "exp": {
     "ids": [
-     "cc-3930544"
+     "cc-3930544",
+     "lw-estrella-8561"
     ],
     "precio": 1200000,
     "hab": 0,
@@ -363066,14 +363530,14 @@
     "barrio": "Samaria Et. I",
     "sector": {
      "nombre": "Samaria",
-     "via": "Carrera 54",
+     "via": "Calle 34",
      "referencias": [
-      "Centro Educativo San Nicolás (70 m)",
-      "Centro Educativo Galilei (83 m)",
-      "Centro Educativo Hispanoamericano (157 m)"
+      "Centro Educativo San Nicolás (60 m)",
+      "Centro Educativo Galilei (74 m)",
+      "Centro Educativo Hispanoamericano (166 m)"
      ],
      "quebradas": [
-      "Quebrada La Ospina (187 m)"
+      "Quebrada La Ospina (182 m)"
      ],
      "celda": "6.168,-75.624"
     },
@@ -363100,6 +363564,15 @@
       "modificado": null,
       "anunciante": "ALQUIVENTAS  S A S",
       "tel": "3217158566"
+     },
+     {
+      "fuente": "Inmobiliaria La Estrella",
+      "url": "https://www.inmobiliarialaestrella.com/detalle-propiedad/apartaestudio-enarriendo-en-itagui-8561",
+      "disponible": true,
+      "publicado": null,
+      "modificado": null,
+      "anunciante": "Inmobiliaria La Estrella",
+      "tel": "6042500646"
      }
     ],
     "rasgos": {
@@ -363117,25 +363590,20 @@
     "codigos": [
      "8561"
     ],
-    "alias": [
-     [
-      "cc-3930544",
-      "lw-estrella-8561"
-     ]
-    ],
+    "alias": [],
     "ubicacion": {
-     "tipo": "de la ficha",
-     "lat": 6.167331,
-     "lon": -75.623945,
+     "tipo": "exacta",
+     "lat": 6.1674013,
+     "lon": -75.6240203,
      "osm": {
       "barrio": null,
-      "via": "Carrera 54",
+      "via": "Calle 34",
       "municipio": "Itagüí"
      }
     },
     "metro": {
      "estacion": "Sabaneta",
-     "m_linea_recta": 1372
+     "m_linea_recta": 1383
     },
     "recorridos": [
      {
@@ -363195,79 +363663,75 @@
      "supermercados": [
       {
        "nombre": "Dollarcity",
-       "m": 507
+       "m": 515
       },
       {
        "nombre": "Olímpica San Pío",
-       "m": 519
-      },
-      {
-       "nombre": "La Gran Esquina",
-       "m": 797
+       "m": 530
       }
      ],
      "centros_comerciales": [
       {
        "nombre": "Deposito san pio",
-       "m": 352
+       "m": 363
       },
       {
        "nombre": "Tienda D1",
-       "m": 422
+       "m": 433
       },
       {
        "nombre": "Plaza Arrayanes",
-       "m": 520
+       "m": 529
       },
       {
        "nombre": "Complex ditaires",
-       "m": 603
+       "m": 592
       },
       {
        "nombre": "Éxito",
-       "m": 897
+       "m": 904
       }
      ],
      "salud": [
       {
        "nombre": "Hospital del sur",
-       "m": 298
+       "m": 309
       },
       {
        "nombre": "Hospital Del Sur",
-       "m": 337
+       "m": 349
       },
       {
        "nombre": "HOSPITAL",
-       "m": 365
+       "m": 377
       }
      ],
      "colegios": [
       {
        "nombre": "Centro Educativo San Nicolás",
-       "m": 70
+       "m": 60
       },
       {
        "nombre": "Centro Educativo Galilei",
-       "m": 83
+       "m": 74
       },
       {
        "nombre": "Centro Educativo Hispanoamericano",
-       "m": 157
+       "m": 166
       },
       {
        "nombre": "Institución Educativa Isolda Echavarria",
-       "m": 240
+       "m": 229
       },
       {
        "nombre": "Escuela Malta Cervunion",
-       "m": 243
+       "m": 244
       }
      ],
      "parques": [
       {
        "nombre": "Parque Ditaires",
-       "m": 417
+       "m": 407
       }
      ],
      "paraderos": 0,
@@ -363276,7 +363740,7 @@
      "quebradas": [
       {
        "nombre": "Quebrada La Ospina",
-       "m": 187
+       "m": 182
       }
      ]
     },
@@ -363287,7 +363751,7 @@
       1200000
      ]
     ],
-    "fecha": "2026-11-25T03:08-05:00",
+    "fecha": "2026-11-25T05:45-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
@@ -363295,26 +363759,26 @@
    "opinion": {
     "id": "cc-3930544",
     "veredicto": "no recomendable",
-    "puntaje": 3,
-    "frase": "Apartaestudio sin portería, barrio con homicidios y cortes de agua.",
-    "resumen": "Apartaestudio de 0 habitaciones, no cumple con el requisito de 2 o más habitaciones. No menciona portería ni vigilancia. El barrio Samaria ha tenido homicidios y cortes de agua.",
+    "puntaje": 2,
+    "frase": "Apartaestudio sin vigilancia y con solo 1 baño, no cumple.",
+    "resumen": "Este apartaestudio no cumple con el requisito de 2 o más habitaciones y no menciona portería ni vigilancia. El barrio ha tenido problemas de seguridad y cortes de agua.",
     "a_favor": [
-     "Cercano a salud, colegios y parques",
-     "Buen transporte público y metro cerca",
-     "Cercano a centros comerciales y supermercados"
+     "Cercano a comercio, servicios y hospitales.",
+     "Cercanía a Parque Ditaires.",
+     "Buen acceso a transporte público."
     ],
     "en_contra": [
-     "No cumple requisito de 2 o más habitaciones",
-     "No menciona portería ni vigilancia",
-     "Barrio con homicidio reciente y cortes de agua"
+     "Es un apartaestudio (0 habitaciones), no cumple el requisito de 2+ habitaciones.",
+     "No tiene portería ni vigilancia.",
+     "Barrio con homicidio reciente y cortes de agua."
     ],
     "preguntar": [
-     "¿El edificio cuenta con portería o vigilancia?",
-     "¿Cuál es la frecuencia de los cortes de agua en el sector?",
+     "¿Existe alguna medida de seguridad en el edificio?",
+     "¿Cuál es la frecuencia de los cortes de agua?",
      "¿Hay parqueadero disponible?"
     ],
-    "transporte": "El sector está bien conectado con las estaciones de metro Sabaneta y La Estrella, y con rutas de bus que facilitan el acceso al centro de Medellín.",
-    "fecha": "2026-11-25T03:09-05:00"
+    "transporte": "La estación Sabaneta del Metro está a 25 min a pie y la estación La Estrella a 32 min a pie. El Hospital del Sur está a 4 min a pie. El Centro de Medellín está a 17 min en carro.",
+    "fecha": "2026-11-25T05:46-05:00"
    }
   },
   "cc-3930554": {
@@ -373928,11 +374392,12 @@
    }
   },
   "cc-3937953": {
-   "huella": "cc-3937953|fr-194513629|2000000",
+   "huella": "cc-3937953|fr-194513629|sfm-survivienda-2378|2000000",
    "exp": {
     "ids": [
      "fr-194513629",
-     "cc-3937953"
+     "cc-3937953",
+     "sfm-survivienda-2378"
     ],
     "precio": 2000000,
     "hab": 3,
@@ -373986,6 +374451,15 @@
       "modificado": null,
       "anunciante": "Inmobiliairia Survivienda",
       "tel": "3016706110"
+     },
+     {
+      "fuente": "Survivienda",
+      "url": "https://www.survivienda.com/inmueble/2378",
+      "disponible": true,
+      "publicado": null,
+      "modificado": null,
+      "anunciante": "Survivienda",
+      "tel": "6044489240"
      }
     ],
     "rasgos": {
@@ -374003,12 +374477,7 @@
     "codigos": [
      "2378"
     ],
-    "alias": [
-     [
-      "fr-194513629",
-      "sfm-survivienda-2378"
-     ]
-    ],
+    "alias": [],
     "ubicacion": {
      "tipo": "exacta",
      "lat": 6.1650389,
@@ -374192,7 +374661,7 @@
       2000000
      ]
     ],
-    "fecha": "2026-11-25T03:08-05:00",
+    "fecha": "2026-11-25T05:45-05:00",
     "alertas": [
      "El portal dice barrio «Mesa», pero el pin cae en el barrio «La Paz».",
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
@@ -374200,27 +374669,27 @@
    },
    "opinion": {
     "id": "cc-3937953",
-    "veredicto": "no recomendable",
-    "puntaje": 4,
-    "frase": "Sin portería, barrio con poca información de seguridad.",
-    "resumen": "Apartamento sin portería ni vigilancia. El barrio La Paz tiene muy poca información para evaluar su seguridad. El precio excede el presupuesto.",
+    "veredicto": "con reservas",
+    "puntaje": 5,
+    "frase": "Sin vigilancia y con poca información de seguridad del barrio.",
+    "resumen": "El apartamento no ofrece portería ni vigilancia, lo que es una prioridad. Hay poca información sobre la seguridad del barrio La Paz, aunque el sector Mesa tiene buen acceso a servicios y transporte.",
     "a_favor": [
-     "Cercano a colegios, salud y parques",
-     "Buen transporte público y metro cerca",
-     "Cercano a centros comerciales y supermercados"
+     "Cercano a comercio, servicios y hospitales.",
+     "Buen acceso a rutas de transporte público.",
+     "Amplios espacios y buena iluminación."
     ],
     "en_contra": [
-     "No menciona portería ni vigilancia",
-     "Barrio con poca información de seguridad",
-     "Excede el presupuesto máximo"
+     "No tiene portería ni vigilancia.",
+     "Poca información verificable sobre la seguridad del barrio La Paz.",
+     "El apartamento está en una loma."
     ],
     "preguntar": [
-     "¿El edificio cuenta con portería o vigilancia?",
-     "¿Hay parqueadero disponible?",
-     "¿Hay información sobre la seguridad del barrio?"
+     "¿Existe alguna medida de seguridad en el edificio?",
+     "¿Cuál es la dirección exacta del apartamento?",
+     "¿Hay parqueadero disponible?"
     ],
-    "transporte": "El sector está bien conectado con las estaciones de metro Envigado y Ayurá, y con rutas de bus que facilitan el acceso al centro de Medellín.",
-    "fecha": "2026-11-25T03:09-05:00"
+    "transporte": "El Metro Envigado está a 30 min a pie o 6 min en carro. El Parque principal de Envigado está a 12 min a pie. El Centro de Medellín está a 14 min en carro.",
+    "fecha": "2026-11-25T05:46-05:00"
    }
   },
   "cc-3938007": {
@@ -389252,10 +389721,11 @@
    }
   },
   "cc-3946924": {
-   "huella": "cc-3946924|1900000",
+   "huella": "cc-3946924|lw-estrella-9750|1900000",
    "exp": {
     "ids": [
-     "cc-3946924"
+     "cc-3946924",
+     "lw-estrella-9750"
     ],
     "precio": 1900000,
     "hab": 2,
@@ -389302,6 +389772,15 @@
       "modificado": null,
       "anunciante": "ALQUIVENTAS  S A S",
       "tel": "3217158566"
+     },
+     {
+      "fuente": "Inmobiliaria La Estrella",
+      "url": "https://www.inmobiliarialaestrella.com/detalle-propiedad/apartamento-enarriendo-en-itagui-9750",
+      "disponible": true,
+      "publicado": null,
+      "modificado": null,
+      "anunciante": "Inmobiliaria La Estrella",
+      "tel": "6042500646"
      }
     ],
     "rasgos": {
@@ -389319,12 +389798,7 @@
     "codigos": [
      "9750"
     ],
-    "alias": [
-     [
-      "cc-3946924",
-      "lw-estrella-9750"
-     ]
-    ],
+    "alias": [],
     "ubicacion": {
      "tipo": "de la ficha",
      "lat": 6.178644,
@@ -389467,7 +389941,7 @@
       1900000
      ]
     ],
-    "fecha": "2026-11-25T03:08-05:00",
+    "fecha": "2026-11-25T05:45-05:00",
     "alertas": [
      "La Quebrada Doña María pasa a 88 m: pregunta si el edificio ha tenido problemas con crecientes.",
      "Al Metro Sabaneta son 52 min a pie (3.9 km): toca bus o carro."
@@ -389477,25 +389951,25 @@
     "id": "cc-3946924",
     "veredicto": "con reservas",
     "puntaje": 6,
-    "frase": "Unidad cerrada con piscina, pero con riesgo de inundación.",
-    "resumen": "Apartamento en unidad cerrada con portería, vigilancia y piscina. El sector presenta alto riesgo de inundaciones y deslizamientos por la Quebrada Doña María, aunque hay monitoreo. El conjunto ha tenido quejas de incumplimiento en entregas.",
+    "frase": "Unidad con vigilancia, pero con riesgo de quebrada y quejas de constructora.",
+    "resumen": "El apartamento está en una unidad cerrada con vigilancia y piscina, lo que cumple con las prioridades. Sin embargo, la cercanía a la Quebrada Doña María presenta riesgo de inundaciones y la constructora ha tenido quejas de incumplimiento.",
     "a_favor": [
-     "Unidad cerrada con portería y vigilancia 24h",
-     "Piscina y zonas comunes",
-     "Cercano a comercio, colegios y transporte público"
+     "Unidad cerrada con portería y vigilancia 24 horas.",
+     "Cuenta con piscina y otras zonas comunes.",
+     "Cercano a comercio y transporte público."
     ],
     "en_contra": [
-     "Alto riesgo de inundaciones y deslizamientos por quebrada",
-     "Quejas de incumplimiento de constructora en el conjunto",
-     "Metro Sabaneta lejos para ir a pie"
+     "Cercanía a Quebrada Doña María con riesgo de desbordamiento e inundaciones.",
+     "Quejas de incumplimiento de la constructora.",
+     "El Metro Sabaneta no es caminable."
     ],
     "preguntar": [
-     "¿Ha tenido el edificio problemas con crecientes de la Quebrada Doña María?",
-     "¿Se han resuelto las quejas de incumplimiento de la constructora?",
-     "¿Cuál es la frecuencia de las rutas de bus mencionadas?"
+     "¿El edificio ha tenido problemas con la Quebrada Doña María?",
+     "¿Se han resuelto las quejas de la constructora?",
+     "¿Cuál es la frecuencia de las rutas de bus a la estación del Metro?"
     ],
-    "transporte": "El sector está bien conectado por diversas rutas de autobús que permiten el acceso a las estaciones de metro de Sabaneta e Itagüí, facilitando el desplazamiento hacia el centro de Medellín.",
-    "fecha": "2026-11-25T03:09-05:00"
+    "transporte": "El sector está bien conectado por diversas rutas de autobús que permiten el acceso a las estaciones de metro de Sabaneta (14-19 min a pie a paradas cercanas) e Itagüí, facilitando el desplazamiento hacia el centro de Medellín (12-16 min en bus).",
+    "fecha": "2026-11-25T05:46-05:00"
    }
   },
   "cc-3947053": {
@@ -480042,12 +480516,10 @@
    }
   },
   "fr-194535339": {
-   "huella": "fr-194535339|rt-p3ee019|sfm-survivienda-4607|2000000",
+   "huella": "fr-194535339|2000000",
    "exp": {
     "ids": [
-     "fr-194535339",
-     "sfm-survivienda-4607",
-     "rt-p3ee019"
+     "fr-194535339"
     ],
     "precio": 2000000,
     "hab": 3,
@@ -480089,15 +480561,6 @@
       "modificado": "2026-11-24",
       "anunciante": "Arrendamientos Sur vivienda",
       "tel": null
-     },
-     {
-      "fuente": "Survivienda",
-      "url": "https://www.survivienda.com/inmueble/4607",
-      "disponible": true,
-      "publicado": null,
-      "modificado": null,
-      "anunciante": "Survivienda",
-      "tel": "6044489240"
      }
     ],
     "rasgos": {
@@ -480115,7 +480578,12 @@
     "codigos": [
      "4607"
     ],
-    "alias": [],
+    "alias": [
+     [
+      "fr-194535339",
+      "sfm-survivienda-4607"
+     ]
+    ],
     "ubicacion": {
      "tipo": "exacta",
      "lat": 6.1572654,
@@ -480245,7 +480713,7 @@
       2000000
      ]
     ],
-    "fecha": "2026-11-25T03:07-05:00",
+    "fecha": "2026-11-25T05:45-05:00",
     "alertas": [
      "El portal dice barrio «San Rafael», pero el pin cae en el barrio «Gualandayes».",
      "El anuncio no menciona portería, vigilancia ni unidad cerrada.",
@@ -480256,25 +480724,25 @@
     "id": "fr-194535339",
     "veredicto": "no recomendable",
     "puntaje": 3,
-    "frase": "Sin portería, barrio sin información de seguridad, excede presupuesto.",
-    "resumen": "Apartamento sin portería ni vigilancia. El barrio Gualandayes tiene muy poca información para evaluar su seguridad. El precio excede el presupuesto.",
+    "frase": "Fuera de presupuesto, sin vigilancia y con poca información de seguridad.",
+    "resumen": "El apartamento excede el presupuesto y no ofrece portería ni vigilancia. Hay poca información sobre la seguridad del barrio Gualandayes, lo que lo hace no recomendable para el perfil del buscador.",
     "a_favor": [
-     "Cercano a colegios y centros comerciales",
-     "Buen transporte público",
-     "Cercano a salud"
+     "Cercano a colegios y City Plaza.",
+     "Buen acceso a rutas de transporte público.",
+     "Amplios espacios y patio."
     ],
     "en_contra": [
-     "No menciona portería ni vigilancia",
-     "Barrio sin información de seguridad verificable",
-     "Excede el presupuesto máximo"
+     "Excede el presupuesto ($2.000.000).",
+     "No tiene portería ni vigilancia.",
+     "Poca información verificable sobre la seguridad del barrio Gualandayes."
     ],
     "preguntar": [
-     "¿El edificio cuenta con portería o vigilancia?",
-     "¿Hay parqueadero disponible?",
-     "¿Hay información sobre la seguridad del barrio?"
+     "¿Existe alguna medida de seguridad en el edificio?",
+     "¿Cuál es la dirección exacta del apartamento?",
+     "¿Hay parqueadero disponible?"
     ],
-    "transporte": "El sector está bien conectado con las estaciones de metro Envigado e Itagüí, y con rutas de bus que facilitan el acceso al centro de Medellín.",
-    "fecha": "2026-11-25T03:09-05:00"
+    "transporte": "El Metro Envigado está a 42 min a pie o 8 min en carro. El Hospital Manuel Uribe Angel está a 19 min a pie. El Centro de Medellín está a 16 min en carro.",
+    "fecha": "2026-11-25T05:46-05:00"
    }
   },
   "fr-194550199": {
@@ -484623,275 +485091,6 @@
      "El anuncio no menciona portería, vigilancia ni unidad cerrada.",
      "Hay una cárcel a 448 m (Carcel de Máxima Seguridad de Itagüí (EPC La Paz)).",
      "Al Metro La Estrella son 46 min a pie (3.4 km): toca bus o carro."
-    ]
-   }
-  },
-  "rt-pc435a6": {
-   "huella": "rt-pc435a6|rt-pdf3c01|1800000",
-   "exp": {
-    "ids": [
-     "rt-pc435a6",
-     "rt-pdf3c01"
-    ],
-    "precio": 1800000,
-    "hab": 3,
-    "banos": 2,
-    "area": 76,
-    "estrato": null,
-    "municipio": "Itagüí",
-    "barrio_portal": "Santa Catalina",
-    "v": 6,
-    "barrio": "Santa María",
-    "sector": {
-     "nombre": null,
-     "via": null,
-     "referencias": [
-      "Mall Itagüí (192 m)",
-      "Corporación Tecn Empresarial (208 m)",
-      "Institucion Educativa La Inmaculada (209 m)"
-     ],
-     "quebradas": [
-      "Quebrada Doña María (29 m)",
-      "Quebrada La Tablaza (141 m)"
-     ],
-     "celda": "6.176,-75.612"
-    },
-    "sector_en_texto": null,
-    "texto_dice_otro_barrio": null,
-    "pin_en_otro_barrio": "Santa María",
-    "conjunto": null,
-    "conjunto_origen": null,
-    "disponible": false,
-    "publicado": "2026-11-10",
-    "modificado": null,
-    "en_pagina_desde": "2026-11-14",
-    "video": null,
-    "videos": [],
-    "tour": null,
-    "versiones": [
-     {
-      "fuente": "Rentola",
-      "url": "https://rentola.co.com/listings/apartamento-en-arriendo-en-santa-catalina-pc435a6",
-      "disponible": false,
-      "publicado": "2026-11-10",
-      "modificado": null,
-      "anunciante": null,
-      "tel": null
-     },
-     {
-      "fuente": "Rentola",
-      "url": "https://rentola.co.com/listings/apartamento-en-arriendo-en-santa-catalina-pdf3c01",
-      "disponible": false,
-      "publicado": "2026-11-10",
-      "modificado": null,
-      "anunciante": null,
-      "tel": null
-     }
-    ],
-    "rasgos": {
-     "porteria": false,
-     "vigilancia": false,
-     "unidad_cerrada": false,
-     "en_casa": false,
-     "ascensor": false,
-     "piscina": false,
-     "parqueadero": false,
-     "loma": false,
-     "dice_venta": false
-    },
-    "desc": "Browse available rental property listings and view key details for each property",
-    "codigos": [],
-    "alias": [],
-    "ubicacion": {
-     "tipo": "de la ficha",
-     "lat": 6.17467,
-     "lon": -75.61055,
-     "osm": {
-      "barrio": "Santa María",
-      "via": null,
-      "municipio": "Itagüí"
-     }
-    },
-    "metro": {
-     "estacion": "Itagüí",
-     "m_linea_recta": 1371
-    },
-    "recorridos": [
-     {
-      "lugar": "Metro Itagüí",
-      "linea_recta_km": 1.4,
-      "pie_km": 1.7,
-      "pie_min": 23,
-      "carro_km": 1.8,
-      "carro_min": 3
-     },
-     {
-      "lugar": "Metro Envigado",
-      "linea_recta_km": 1.5,
-      "pie_km": 2.0,
-      "pie_min": 27,
-      "carro_km": 3.1,
-      "carro_min": 6
-     },
-     {
-      "lugar": "Parque principal de Itagüí",
-      "linea_recta_km": 0.3,
-      "pie_km": 0.4,
-      "pie_min": 6,
-      "carro_km": 0.7,
-      "carro_min": 2
-     },
-     {
-      "lugar": "Mall Itagüí",
-      "linea_recta_km": 0.2,
-      "pie_km": 0.3,
-      "pie_min": 4,
-      "carro_km": 0.5,
-      "carro_min": 1
-     },
-     {
-      "lugar": "HOSPITAL",
-      "linea_recta_km": 0.5,
-      "pie_km": 0.6,
-      "pie_min": 9,
-      "carro_km": 0.6,
-      "carro_min": 1
-     },
-     {
-      "lugar": "Centro de Medellín (Parque Berrío)",
-      "linea_recta_km": 9.6,
-      "carro_km": 11.9,
-      "carro_min": 15
-     },
-     {
-      "lugar": "El Poblado (estación Poblado)",
-      "linea_recta_km": 5.5,
-      "carro_km": 7.3,
-      "carro_min": 9
-     }
-    ],
-    "cerca": {
-     "supermercados": [
-      {
-       "nombre": "Supermercado",
-       "m": 211
-      }
-     ],
-     "centros_comerciales": [
-      {
-       "nombre": "Mall Itagüí",
-       "m": 192
-      },
-      {
-       "nombre": "Centro Comercial Itagüí",
-       "m": 296
-      },
-      {
-       "nombre": "AGAVAL",
-       "m": 420
-      },
-      {
-       "nombre": "Quimicos antioquia",
-       "m": 813
-      },
-      {
-       "nombre": "Algamar",
-       "m": 815
-      }
-     ],
-     "salud": [
-      {
-       "nombre": "CIS Comfama Itagüí",
-       "m": 376
-      },
-      {
-       "nombre": "HOSPITAL",
-       "m": 480
-      },
-      {
-       "nombre": "Salud total",
-       "m": 486
-      },
-      {
-       "nombre": "Clínica Antioquia",
-       "m": 595
-      }
-     ],
-     "colegios": [
-      {
-       "nombre": "Corporación Tecn Empresarial",
-       "m": 208
-      },
-      {
-       "nombre": "Institucion Educativa La Inmaculada",
-       "m": 209
-      },
-      {
-       "nombre": "Escode",
-       "m": 233
-      },
-      {
-       "nombre": "Institución Educativa Juan Sebastián de Censa",
-       "m": 261
-      },
-      {
-       "nombre": "Academia Politecnica Interactiva",
-       "m": 287
-      }
-     ],
-     "parques": [
-      {
-       "nombre": "Parque Principal Itagüí",
-       "m": 283
-      },
-      {
-       "nombre": "Parque Obrero",
-       "m": 331
-      }
-     ],
-     "paraderos": 0,
-     "carcel": null,
-     "nombres_cercanos": [],
-     "quebradas": [
-      {
-       "nombre": "Quebrada Doña María",
-       "m": 29
-      },
-      {
-       "nombre": "Quebrada La Tablaza",
-       "m": 141
-      }
-     ]
-    },
-    "barrio_ficha": {
-     "nombre": "Santa María",
-     "seguridad": "media",
-     "recomendacion": "con precaución",
-     "terreno": "plano",
-     "razon": "Bien ubicado y económico, pero en 2026 hubo homicidios ligados a bandas y hay riesgo documentado de inundación cerca de la quebrada. Conviene evitar los edificios a orillas de la Doña María.",
-     "negativos": [
-      "En 2026 hubo homicidios en el barrio: un venezolano asesinado el 13 de junio y otro hombre baleado dentro de una vivienda. El Colombiano relaciona los hechos en Santa María y El Rosario con la disputa de El Ajizal",
-      "En mayo de 2025 la quebrada Doña María se desbordó en Santa María 2 (carrera 48 entre la calle 72 y la carrera 49) y dañó vehículos",
-      "Mucha actividad comercial y de bodegas, con tráfico y ruido"
-     ],
-     "positivos": [
-      "Sector comercial con el Centro de la Moda y la Central Mayorista cerca, y transporte frecuente",
-      "Precios más contenidos que en Ditaires o Suramérica",
-      "Telemedellín lo menciona entre los barrios destacados por su desarrollo y servicios (esa lista se hizo con IA)"
-     ]
-    },
-    "hist": [
-     [
-      "2026-11-14",
-      1800000
-     ]
-    ],
-    "fecha": "2026-11-23T11:52-05:00",
-    "alertas": [
-     "Ya no está disponible en ninguna de sus páginas.",
-     "El portal dice barrio «Santa Catalina», pero el pin cae en el barrio «Santa María».",
-     "El anuncio no menciona portería, vigilancia ni unidad cerrada.",
-     "La Quebrada Doña María pasa a 29 m: pregunta si el edificio ha tenido problemas con crecientes."
     ]
    }
   },
@@ -499140,10 +499339,12 @@
    }
   },
   "fr-194451777": {
-   "huella": "fr-194451777|1700000",
+   "huella": "fr-194451777|rt-p627dd5|sfm-survivienda-4712|1700000",
    "exp": {
     "ids": [
-     "fr-194451777"
+     "fr-194451777",
+     "sfm-survivienda-4712",
+     "rt-p627dd5"
     ],
     "precio": 1700000,
     "hab": 2,
@@ -499188,6 +499389,15 @@
       "modificado": "2026-11-24",
       "anunciante": "Arrendamientos Sur vivienda",
       "tel": null
+     },
+     {
+      "fuente": "Survivienda",
+      "url": "https://www.survivienda.com/inmueble/4712",
+      "disponible": true,
+      "publicado": null,
+      "modificado": null,
+      "anunciante": "Survivienda",
+      "tel": "6044489240"
      }
     ],
     "rasgos": {
@@ -499205,12 +499415,7 @@
     "codigos": [
      "4712"
     ],
-    "alias": [
-     [
-      "fr-194451777",
-      "sfm-survivienda-4712"
-     ]
-    ],
+    "alias": [],
     "ubicacion": {
      "tipo": "exacta",
      "lat": 6.1531304,
@@ -499346,7 +499551,7 @@
       1700000
      ]
     ],
-    "fecha": "2026-11-25T03:08-05:00",
+    "fecha": "2026-11-25T05:45-05:00",
     "alertas": [
      "La descripción lo ubica en «EL CHINGUI», que es otro barrio distinto de «El Salado». Pide la dirección.",
      "Es un apartamento en una casa (no en conjunto).",
@@ -499359,25 +499564,25 @@
     "id": "fr-194451777",
     "veredicto": "no recomendable",
     "puntaje": 3,
-    "frase": "Sin portería, barrio con deslizamientos y homicidios.",
-    "resumen": "Apartamento en casa sin portería ni vigilancia. El barrio El Salado tiene lomas fuertes, deslizamientos documentados y un homicidio reciente. Cercano a quebrada con riesgo.",
+    "frase": "Sin vigilancia, con riesgo de quebrada y barrio no recomendado.",
+    "resumen": "El apartamento no ofrece portería ni vigilancia, y está en un barrio no recomendado por riesgos de deslizamientos y hechos de seguridad. La cercanía a la Quebrada La Ayurá es un riesgo adicional.",
     "a_favor": [
-     "Cercano a colegios y parques",
-     "Buen transporte público",
-     "Cercano a centros comerciales"
+     "Cercano a colegios y Parque Urbano El Chinguí.",
+     "Buen acceso a rutas de transporte público.",
+     "Dentro del presupuesto."
     ],
     "en_contra": [
-     "No menciona portería ni vigilancia",
-     "Barrio con deslizamientos y homicidio reciente",
-     "Cercanía a Quebrada La Ayurá con riesgo"
+     "No tiene portería ni vigilancia.",
+     "Barrio El Salado no recomendado por seguridad y deslizamientos.",
+     "Cercanía a Quebrada La Ayurá con riesgo de crecientes."
     ],
     "preguntar": [
-     "¿El edificio cuenta con portería o vigilancia?",
-     "¿Ha tenido el edificio problemas con crecientes de la Quebrada La Ayurá?",
-     "¿Hay parqueadero disponible?"
+     "¿El edificio ha tenido problemas con la Quebrada La Ayurá?",
+     "¿Existe alguna medida de seguridad en el edificio?",
+     "¿Cuál es la dirección exacta del apartamento?"
     ],
-    "transporte": "El sector está bien conectado con rutas de bus que facilitan el acceso a las estaciones de metro Envigado e Itagüí, y al centro de Medellín.",
-    "fecha": "2026-11-25T03:09-05:00"
+    "transporte": "El Metro Envigado está a 51 min a pie o 9 min en carro. El City Plaza está a 31 min a pie. El Centro de Medellín está a 16 min en carro.",
+    "fecha": "2026-11-25T05:46-05:00"
    }
   },
   "fr-194452062": {
@@ -532596,264 +532801,6 @@
     "fecha": "2026-11-23T21:05-05:00"
    }
   },
-  "rt-p2138d0": {
-   "huella": "rt-p2138d0|1800000",
-   "exp": {
-    "ids": [
-     "rt-p2138d0"
-    ],
-    "precio": 1800000,
-    "hab": 2,
-    "banos": 1,
-    "area": 72,
-    "estrato": null,
-    "municipio": "Itagüí",
-    "barrio_portal": null,
-    "v": 6,
-    "barrio": "Santa María",
-    "sector": {
-     "nombre": null,
-     "via": null,
-     "referencias": [
-      "Mall Itagüí (192 m)",
-      "Corporación Tecn Empresarial (208 m)",
-      "Institucion Educativa La Inmaculada (209 m)"
-     ],
-     "quebradas": [
-      "Quebrada Doña María (29 m)",
-      "Quebrada La Tablaza (141 m)"
-     ],
-     "celda": "6.176,-75.612"
-    },
-    "sector_en_texto": null,
-    "texto_dice_otro_barrio": null,
-    "pin_en_otro_barrio": null,
-    "conjunto": null,
-    "conjunto_origen": null,
-    "disponible": false,
-    "publicado": "2026-11-08",
-    "modificado": null,
-    "en_pagina_desde": "2026-11-14",
-    "video": null,
-    "videos": [],
-    "tour": null,
-    "versiones": [
-     {
-      "fuente": "Rentola",
-      "url": "https://rentola.co.com/listings/apartamento-en-arriendo-en-itagui-p2138d0",
-      "disponible": false,
-      "publicado": "2026-11-08",
-      "modificado": null,
-      "anunciante": null,
-      "tel": null
-     }
-    ],
-    "rasgos": {
-     "porteria": false,
-     "vigilancia": false,
-     "unidad_cerrada": false,
-     "en_casa": false,
-     "ascensor": false,
-     "piscina": false,
-     "parqueadero": false,
-     "loma": false,
-     "dice_venta": false
-    },
-    "desc": "Browse available rental property listings and view key details for each property",
-    "codigos": [],
-    "alias": [],
-    "ubicacion": {
-     "tipo": "de la ficha",
-     "lat": 6.17467,
-     "lon": -75.61055,
-     "osm": {
-      "barrio": "Santa María",
-      "via": null,
-      "municipio": "Itagüí"
-     }
-    },
-    "metro": {
-     "estacion": "Itagüí",
-     "m_linea_recta": 1371
-    },
-    "recorridos": [
-     {
-      "lugar": "Metro Itagüí",
-      "linea_recta_km": 1.4,
-      "pie_km": 1.7,
-      "pie_min": 23,
-      "carro_km": 1.8,
-      "carro_min": 3
-     },
-     {
-      "lugar": "Metro Envigado",
-      "linea_recta_km": 1.5,
-      "pie_km": 2.0,
-      "pie_min": 27,
-      "carro_km": 3.1,
-      "carro_min": 6
-     },
-     {
-      "lugar": "Parque principal de Itagüí",
-      "linea_recta_km": 0.3,
-      "pie_km": 0.4,
-      "pie_min": 6,
-      "carro_km": 0.7,
-      "carro_min": 2
-     },
-     {
-      "lugar": "Mall Itagüí",
-      "linea_recta_km": 0.2,
-      "pie_km": 0.3,
-      "pie_min": 4,
-      "carro_km": 0.5,
-      "carro_min": 1
-     },
-     {
-      "lugar": "HOSPITAL",
-      "linea_recta_km": 0.5,
-      "pie_km": 0.6,
-      "pie_min": 9,
-      "carro_km": 0.6,
-      "carro_min": 1
-     },
-     {
-      "lugar": "Centro de Medellín (Parque Berrío)",
-      "linea_recta_km": 9.6,
-      "carro_km": 11.9,
-      "carro_min": 15
-     },
-     {
-      "lugar": "El Poblado (estación Poblado)",
-      "linea_recta_km": 5.5,
-      "carro_km": 7.3,
-      "carro_min": 9
-     }
-    ],
-    "cerca": {
-     "supermercados": [
-      {
-       "nombre": "Supermercado",
-       "m": 211
-      }
-     ],
-     "centros_comerciales": [
-      {
-       "nombre": "Mall Itagüí",
-       "m": 192
-      },
-      {
-       "nombre": "Centro Comercial Itagüí",
-       "m": 296
-      },
-      {
-       "nombre": "AGAVAL",
-       "m": 420
-      },
-      {
-       "nombre": "Quimicos antioquia",
-       "m": 813
-      },
-      {
-       "nombre": "Algamar",
-       "m": 815
-      }
-     ],
-     "salud": [
-      {
-       "nombre": "CIS Comfama Itagüí",
-       "m": 376
-      },
-      {
-       "nombre": "HOSPITAL",
-       "m": 480
-      },
-      {
-       "nombre": "Salud total",
-       "m": 486
-      },
-      {
-       "nombre": "Clínica Antioquia",
-       "m": 595
-      }
-     ],
-     "colegios": [
-      {
-       "nombre": "Corporación Tecn Empresarial",
-       "m": 208
-      },
-      {
-       "nombre": "Institucion Educativa La Inmaculada",
-       "m": 209
-      },
-      {
-       "nombre": "Escode",
-       "m": 233
-      },
-      {
-       "nombre": "Institución Educativa Juan Sebastián de Censa",
-       "m": 261
-      },
-      {
-       "nombre": "Academia Politecnica Interactiva",
-       "m": 287
-      }
-     ],
-     "parques": [
-      {
-       "nombre": "Parque Principal Itagüí",
-       "m": 283
-      },
-      {
-       "nombre": "Parque Obrero",
-       "m": 331
-      }
-     ],
-     "paraderos": 0,
-     "carcel": null,
-     "nombres_cercanos": [],
-     "quebradas": [
-      {
-       "nombre": "Quebrada Doña María",
-       "m": 29
-      },
-      {
-       "nombre": "Quebrada La Tablaza",
-       "m": 141
-      }
-     ]
-    },
-    "barrio_ficha": {
-     "nombre": "Santa María",
-     "seguridad": "media",
-     "recomendacion": "con precaución",
-     "terreno": "plano",
-     "razon": "Bien ubicado y económico, pero en 2026 hubo homicidios ligados a bandas y hay riesgo documentado de inundación cerca de la quebrada. Conviene evitar los edificios a orillas de la Doña María.",
-     "negativos": [
-      "En 2026 hubo homicidios en el barrio: un venezolano asesinado el 13 de junio y otro hombre baleado dentro de una vivienda. El Colombiano relaciona los hechos en Santa María y El Rosario con la disputa de El Ajizal",
-      "En mayo de 2025 la quebrada Doña María se desbordó en Santa María 2 (carrera 48 entre la calle 72 y la carrera 49) y dañó vehículos",
-      "Mucha actividad comercial y de bodegas, con tráfico y ruido"
-     ],
-     "positivos": [
-      "Sector comercial con el Centro de la Moda y la Central Mayorista cerca, y transporte frecuente",
-      "Precios más contenidos que en Ditaires o Suramérica",
-      "Telemedellín lo menciona entre los barrios destacados por su desarrollo y servicios (esa lista se hizo con IA)"
-     ]
-    },
-    "hist": [
-     [
-      "2026-11-14",
-      1800000
-     ]
-    ],
-    "fecha": "2026-11-23T20:59-05:00",
-    "alertas": [
-     "Ya no está disponible en ninguna de sus páginas.",
-     "El anuncio no menciona portería, vigilancia ni unidad cerrada.",
-     "La Quebrada Doña María pasa a 29 m: pregunta si el edificio ha tenido problemas con crecientes."
-    ]
-   }
-  },
   "rt-p237223": {
    "huella": "rt-p237223|1600000",
    "exp": {
@@ -537053,271 +537000,6 @@
     ],
     "transporte": "La estación Itagüí del Metro está a 1095 m en línea recta, lo que probablemente requiera bus o un trayecto a pie considerable. Hay paraderos de bus cercanos, pero no se especifica la frecuencia de las rutas.",
     "fecha": "2026-11-23T21:05-05:00"
-   }
-  },
-  "rt-p54aae9": {
-   "huella": "rt-p54aae9|1750000",
-   "exp": {
-    "ids": [
-     "rt-p54aae9"
-    ],
-    "precio": 1750000,
-    "hab": 2,
-    "banos": 2,
-    "area": 55,
-    "estrato": null,
-    "municipio": "Envigado",
-    "barrio_portal": null,
-    "v": 6,
-    "barrio": "La Paz",
-    "sector": {
-     "nombre": null,
-     "via": "Carrera 35",
-     "referencias": [
-      "D1 Los Naranjos (101 m)",
-      "Jardín Infantil Rizos de Oro (130 m)",
-      "Normal Superior de Envigado (160 m)"
-     ],
-     "quebradas": [
-      "Quebrada La Ayurá (249 m)",
-      "Quebrada La Sebastiana (269 m)"
-     ],
-     "celda": "6.168,-75.584"
-    },
-    "sector_en_texto": null,
-    "texto_dice_otro_barrio": null,
-    "pin_en_otro_barrio": null,
-    "conjunto": null,
-    "conjunto_origen": null,
-    "disponible": false,
-    "publicado": "2026-11-03",
-    "modificado": null,
-    "en_pagina_desde": "2026-11-14",
-    "video": null,
-    "videos": [],
-    "tour": null,
-    "versiones": [
-     {
-      "fuente": "Rentola",
-      "url": "https://rentola.co.com/listings/apartamento-en-arriendo-en-envigado-p54aae9",
-      "disponible": false,
-      "publicado": "2026-11-03",
-      "modificado": null,
-      "anunciante": null,
-      "tel": null
-     }
-    ],
-    "rasgos": {
-     "porteria": false,
-     "vigilancia": false,
-     "unidad_cerrada": false,
-     "en_casa": false,
-     "ascensor": false,
-     "piscina": false,
-     "parqueadero": false,
-     "loma": false,
-     "dice_venta": false
-    },
-    "desc": "Browse available rental property listings and view key details for each property",
-    "codigos": [],
-    "alias": [],
-    "ubicacion": {
-     "tipo": "de la ficha",
-     "lat": 6.1672781,
-     "lon": -75.5829418,
-     "osm": {
-      "barrio": "La Paz",
-      "via": "Carrera 35",
-      "municipio": "Envigado"
-     }
-    },
-    "metro": {
-     "estacion": "Envigado",
-     "m_linea_recta": 1765
-    },
-    "recorridos": [
-     {
-      "lugar": "Metro Envigado",
-      "linea_recta_km": 1.8,
-      "pie_km": 2.0,
-      "pie_min": 27,
-      "carro_km": 3.1,
-      "carro_min": 6
-     },
-     {
-      "lugar": "Metro Ayurá",
-      "linea_recta_km": 2.2,
-      "pie_km": 2.8,
-      "pie_min": 38,
-      "carro_km": 3.5,
-      "carro_min": 6
-     },
-     {
-      "lugar": "Parque principal de Envigado",
-      "linea_recta_km": 0.6,
-      "pie_km": 0.7,
-      "pie_min": 10,
-      "carro_km": 0.9,
-      "carro_min": 2
-     },
-     {
-      "lugar": "City Plaza",
-      "linea_recta_km": 1.1,
-      "pie_km": 1.3,
-      "pie_min": 18,
-      "carro_km": 1.3,
-      "carro_min": 2
-     },
-     {
-      "lugar": "Clínica Santa Gertrudis",
-      "linea_recta_km": 0.2,
-      "pie_km": 0.3,
-      "pie_min": 4,
-      "carro_km": 0.5,
-      "carro_min": 1
-     },
-     {
-      "lugar": "Centro de Medellín (Parque Berrío)",
-      "linea_recta_km": 9.4,
-      "carro_km": 10.6,
-      "carro_min": 13
-     },
-     {
-      "lugar": "El Poblado (estación Poblado)",
-      "linea_recta_km": 5.0,
-      "carro_km": 6.1,
-      "carro_min": 8
-     }
-    ],
-    "cerca": {
-     "supermercados": [
-      {
-       "nombre": "D1 Los Naranjos",
-       "m": 101
-      },
-      {
-       "nombre": "El baratillo",
-       "m": 340
-      },
-      {
-       "nombre": "Supermercado La Paz",
-       "m": 341
-      },
-      {
-       "nombre": "Plaza de mercado de Envigado",
-       "m": 391
-      },
-      {
-       "nombre": "La Vaquita - Envigado",
-       "m": 411
-      }
-     ],
-     "centros_comerciales": [
-      {
-       "nombre": "City Plaza",
-       "m": 1129
-      },
-      {
-       "nombre": "La Casona",
-       "m": 1201
-      },
-      {
-       "nombre": "Éxito",
-       "m": 1360
-      },
-      {
-       "nombre": "Viva Envigado",
-       "m": 1406
-      }
-     ],
-     "salud": [
-      {
-       "nombre": "Clínica Santa Gertrudis",
-       "m": 194
-      },
-      {
-       "nombre": "Hospital Manuel Uribe Angel",
-       "m": 323
-      }
-     ],
-     "colegios": [
-      {
-       "nombre": "Jardín Infantil Rizos de Oro",
-       "m": 130
-      },
-      {
-       "nombre": "Normal Superior de Envigado",
-       "m": 160
-      },
-      {
-       "nombre": "Jordin Infantil Melodias",
-       "m": 172
-      },
-      {
-       "nombre": "Escuela Normal Superior De Envigado",
-       "m": 174
-      },
-      {
-       "nombre": "Centro Educativo Cent de Estimulación y Preesc Despertar",
-       "m": 233
-      }
-     ],
-     "parques": [
-      {
-       "nombre": "Parque amaneceres",
-       "m": 211
-      },
-      {
-       "nombre": "La Piedra de La Ayua",
-       "m": 247
-      },
-      {
-       "nombre": "Parque Urbano El Dorado",
-       "m": 508
-      },
-      {
-       "nombre": "Parque de Envigado",
-       "m": 588
-      }
-     ],
-     "paraderos": 2,
-     "carcel": null,
-     "nombres_cercanos": [],
-     "quebradas": [
-      {
-       "nombre": "Quebrada La Ayurá",
-       "m": 249
-      },
-      {
-       "nombre": "Quebrada La Sebastiana",
-       "m": 269
-      }
-     ]
-    },
-    "barrio_ficha": {
-     "nombre": "La Paz",
-     "seguridad": "sin datos",
-     "recomendacion": "con precaución",
-     "terreno": "ondulado",
-     "razon": "Hay muy poca información para evaluarlo.",
-     "negativos": [
-      "No encontré noticias ni opiniones"
-     ],
-     "positivos": [
-      "Barrio urbano con rutas municipales"
-     ]
-    },
-    "hist": [
-     [
-      "2026-11-14",
-      1750000
-     ]
-    ],
-    "fecha": "2026-11-23T21:00-05:00",
-    "alertas": [
-     "Ya no está disponible en ninguna de sus páginas.",
-     "El anuncio no menciona portería, vigilancia ni unidad cerrada."
-    ]
    }
   },
   "rt-p5b98ea": {
@@ -548271,511 +547953,6 @@
     ],
     "fecha": "2026-11-23T21:01-05:00",
     "alertas": [
-     "El anuncio no menciona portería, vigilancia ni unidad cerrada."
-    ]
-   }
-  },
-  "rt-pd93965": {
-   "huella": "rt-pd93965|1600000",
-   "exp": {
-    "ids": [
-     "rt-pd93965"
-    ],
-    "precio": 1600000,
-    "hab": 2,
-    "banos": 2,
-    "area": 54,
-    "estrato": null,
-    "municipio": "Itagüí",
-    "barrio_portal": null,
-    "v": 6,
-    "barrio": "Santa María",
-    "sector": {
-     "nombre": null,
-     "via": null,
-     "referencias": [
-      "Mall Itagüí (192 m)",
-      "Corporación Tecn Empresarial (208 m)",
-      "Institucion Educativa La Inmaculada (209 m)"
-     ],
-     "quebradas": [
-      "Quebrada Doña María (29 m)",
-      "Quebrada La Tablaza (141 m)"
-     ],
-     "celda": "6.176,-75.612"
-    },
-    "sector_en_texto": null,
-    "texto_dice_otro_barrio": null,
-    "pin_en_otro_barrio": null,
-    "conjunto": null,
-    "conjunto_origen": null,
-    "disponible": false,
-    "publicado": "2026-10-30",
-    "modificado": null,
-    "en_pagina_desde": "2026-11-14",
-    "video": null,
-    "videos": [],
-    "tour": null,
-    "versiones": [
-     {
-      "fuente": "Rentola",
-      "url": "https://rentola.co.com/listings/apartamento-en-arriendo-en-itagui-pd93965",
-      "disponible": false,
-      "publicado": "2026-10-30",
-      "modificado": null,
-      "anunciante": null,
-      "tel": null
-     }
-    ],
-    "rasgos": {
-     "porteria": false,
-     "vigilancia": false,
-     "unidad_cerrada": false,
-     "en_casa": false,
-     "ascensor": false,
-     "piscina": false,
-     "parqueadero": false,
-     "loma": false,
-     "dice_venta": false
-    },
-    "desc": "Browse available rental property listings and view key details for each property",
-    "codigos": [],
-    "alias": [],
-    "ubicacion": {
-     "tipo": "de la ficha",
-     "lat": 6.17467,
-     "lon": -75.61055,
-     "osm": {
-      "barrio": "Santa María",
-      "via": null,
-      "municipio": "Itagüí"
-     }
-    },
-    "metro": {
-     "estacion": "Itagüí",
-     "m_linea_recta": 1371
-    },
-    "recorridos": [
-     {
-      "lugar": "Metro Itagüí",
-      "linea_recta_km": 1.4,
-      "pie_km": 1.7,
-      "pie_min": 23,
-      "carro_km": 1.8,
-      "carro_min": 3
-     },
-     {
-      "lugar": "Metro Envigado",
-      "linea_recta_km": 1.5,
-      "pie_km": 2.0,
-      "pie_min": 27,
-      "carro_km": 3.1,
-      "carro_min": 6
-     },
-     {
-      "lugar": "Parque principal de Itagüí",
-      "linea_recta_km": 0.3,
-      "pie_km": 0.4,
-      "pie_min": 6,
-      "carro_km": 0.7,
-      "carro_min": 2
-     },
-     {
-      "lugar": "Mall Itagüí",
-      "linea_recta_km": 0.2,
-      "pie_km": 0.3,
-      "pie_min": 4,
-      "carro_km": 0.5,
-      "carro_min": 1
-     },
-     {
-      "lugar": "HOSPITAL",
-      "linea_recta_km": 0.5,
-      "pie_km": 0.6,
-      "pie_min": 9,
-      "carro_km": 0.6,
-      "carro_min": 1
-     },
-     {
-      "lugar": "Centro de Medellín (Parque Berrío)",
-      "linea_recta_km": 9.6,
-      "carro_km": 11.9,
-      "carro_min": 15
-     },
-     {
-      "lugar": "El Poblado (estación Poblado)",
-      "linea_recta_km": 5.5,
-      "carro_km": 7.3,
-      "carro_min": 9
-     }
-    ],
-    "cerca": {
-     "supermercados": [
-      {
-       "nombre": "Supermercado",
-       "m": 211
-      }
-     ],
-     "centros_comerciales": [
-      {
-       "nombre": "Mall Itagüí",
-       "m": 192
-      },
-      {
-       "nombre": "Centro Comercial Itagüí",
-       "m": 296
-      },
-      {
-       "nombre": "AGAVAL",
-       "m": 420
-      },
-      {
-       "nombre": "Quimicos antioquia",
-       "m": 813
-      },
-      {
-       "nombre": "Algamar",
-       "m": 815
-      }
-     ],
-     "salud": [
-      {
-       "nombre": "CIS Comfama Itagüí",
-       "m": 376
-      },
-      {
-       "nombre": "HOSPITAL",
-       "m": 480
-      },
-      {
-       "nombre": "Salud total",
-       "m": 486
-      },
-      {
-       "nombre": "Clínica Antioquia",
-       "m": 595
-      }
-     ],
-     "colegios": [
-      {
-       "nombre": "Corporación Tecn Empresarial",
-       "m": 208
-      },
-      {
-       "nombre": "Institucion Educativa La Inmaculada",
-       "m": 209
-      },
-      {
-       "nombre": "Escode",
-       "m": 233
-      },
-      {
-       "nombre": "Institución Educativa Juan Sebastián de Censa",
-       "m": 261
-      },
-      {
-       "nombre": "Academia Politecnica Interactiva",
-       "m": 287
-      }
-     ],
-     "parques": [
-      {
-       "nombre": "Parque Principal Itagüí",
-       "m": 283
-      },
-      {
-       "nombre": "Parque Obrero",
-       "m": 331
-      }
-     ],
-     "paraderos": 0,
-     "carcel": null,
-     "nombres_cercanos": [],
-     "quebradas": [
-      {
-       "nombre": "Quebrada Doña María",
-       "m": 29
-      },
-      {
-       "nombre": "Quebrada La Tablaza",
-       "m": 141
-      }
-     ]
-    },
-    "barrio_ficha": {
-     "nombre": "Santa María",
-     "seguridad": "media",
-     "recomendacion": "con precaución",
-     "terreno": "plano",
-     "razon": "Bien ubicado y económico, pero en 2026 hubo homicidios ligados a bandas y hay riesgo documentado de inundación cerca de la quebrada. Conviene evitar los edificios a orillas de la Doña María.",
-     "negativos": [
-      "En 2026 hubo homicidios en el barrio: un venezolano asesinado el 13 de junio y otro hombre baleado dentro de una vivienda. El Colombiano relaciona los hechos en Santa María y El Rosario con la disputa de El Ajizal",
-      "En mayo de 2025 la quebrada Doña María se desbordó en Santa María 2 (carrera 48 entre la calle 72 y la carrera 49) y dañó vehículos",
-      "Mucha actividad comercial y de bodegas, con tráfico y ruido"
-     ],
-     "positivos": [
-      "Sector comercial con el Centro de la Moda y la Central Mayorista cerca, y transporte frecuente",
-      "Precios más contenidos que en Ditaires o Suramérica",
-      "Telemedellín lo menciona entre los barrios destacados por su desarrollo y servicios (esa lista se hizo con IA)"
-     ]
-    },
-    "hist": [
-     [
-      "2026-11-14",
-      1600000
-     ]
-    ],
-    "fecha": "2026-11-23T21:01-05:00",
-    "alertas": [
-     "Ya no está disponible en ninguna de sus páginas.",
-     "El anuncio no menciona portería, vigilancia ni unidad cerrada.",
-     "La Quebrada Doña María pasa a 29 m: pregunta si el edificio ha tenido problemas con crecientes."
-    ]
-   }
-  },
-  "rt-pdb214d": {
-   "huella": "rt-pdb214d|1850000",
-   "exp": {
-    "ids": [
-     "rt-pdb214d"
-    ],
-    "precio": 1850000,
-    "hab": 3,
-    "banos": 2,
-    "area": 60,
-    "estrato": null,
-    "municipio": "Sabaneta",
-    "barrio_portal": null,
-    "v": 6,
-    "barrio": "Las Lomitas",
-    "sector": {
-     "nombre": null,
-     "via": "Calle 56 Sur",
-     "referencias": [
-      "Colegio José María Berrio (39 m)"
-     ],
-     "quebradas": [],
-     "celda": "6.152,-75.600"
-    },
-    "sector_en_texto": null,
-    "texto_dice_otro_barrio": null,
-    "pin_en_otro_barrio": null,
-    "conjunto": null,
-    "conjunto_origen": null,
-    "disponible": false,
-    "publicado": "2026-10-30",
-    "modificado": null,
-    "en_pagina_desde": "2026-11-14",
-    "video": null,
-    "videos": [],
-    "tour": null,
-    "versiones": [
-     {
-      "fuente": "Rentola",
-      "url": "https://rentola.co.com/listings/apartamento-en-arriendo-en-sabaneta-pdb214d",
-      "disponible": false,
-      "publicado": "2026-10-30",
-      "modificado": null,
-      "anunciante": null,
-      "tel": null
-     }
-    ],
-    "rasgos": {
-     "porteria": false,
-     "vigilancia": false,
-     "unidad_cerrada": false,
-     "en_casa": false,
-     "ascensor": false,
-     "piscina": false,
-     "parqueadero": false,
-     "loma": false,
-     "dice_venta": false
-    },
-    "desc": "Browse available rental property listings and view key details for each property",
-    "codigos": [],
-    "alias": [],
-    "ubicacion": {
-     "tipo": "de la ficha",
-     "lat": 6.1516381,
-     "lon": -75.6013762,
-     "osm": {
-      "barrio": "Las Lomitas",
-      "via": "Calle 56 Sur",
-      "municipio": "Sabaneta"
-     }
-    },
-    "metro": {
-     "estacion": "Itagüí",
-     "m_linea_recta": 1390
-    },
-    "recorridos": [
-     {
-      "lugar": "Metro Itagüí",
-      "linea_recta_km": 1.4,
-      "pie_km": 2.0,
-      "pie_min": 26,
-      "carro_km": 3.3,
-      "carro_min": 7
-     },
-     {
-      "lugar": "Metro Sabaneta",
-      "linea_recta_km": 1.8,
-      "pie_km": 2.4,
-      "pie_min": 32,
-      "carro_km": 2.7,
-      "carro_min": 6
-     },
-     {
-      "lugar": "Parque principal de Sabaneta",
-      "linea_recta_km": 1.6,
-      "pie_km": 2.1,
-      "pie_min": 28,
-      "carro_km": 2.1,
-      "carro_min": 5
-     },
-     {
-      "lugar": "Mall Señorial",
-      "linea_recta_km": 0.9,
-      "pie_km": 1.7,
-      "pie_min": 23,
-      "carro_km": 2.0,
-      "carro_min": 5
-     },
-     {
-      "lugar": "Clínica de la Policía",
-      "linea_recta_km": 1.1,
-      "pie_km": 1.9,
-      "pie_min": 25,
-      "carro_km": 2.3,
-      "carro_min": 5
-     },
-     {
-      "lugar": "Centro de Medellín (Parque Berrío)",
-      "linea_recta_km": 11.5,
-      "carro_km": 12.9,
-      "carro_min": 17
-     },
-     {
-      "lugar": "El Poblado (estación Poblado)",
-      "linea_recta_km": 7.1,
-      "carro_km": 8.6,
-      "carro_min": 11
-     }
-    ],
-    "cerca": {
-     "supermercados": [
-      {
-       "nombre": "D1",
-       "m": 682
-      },
-      {
-       "nombre": "Supermercado Mil Variedades",
-       "m": 750
-      },
-      {
-       "nombre": "Supertienda Sanzen",
-       "m": 768
-      },
-      {
-       "nombre": "El Tropico",
-       "m": 774
-      },
-      {
-       "nombre": "Los Angeles",
-       "m": 774
-      }
-     ],
-     "centros_comerciales": [
-      {
-       "nombre": "Mall Señorial",
-       "m": 950
-      },
-      {
-       "nombre": "Flamingo",
-       "m": 995
-      },
-      {
-       "nombre": "Éxito",
-       "m": 1031
-      },
-      {
-       "nombre": "Centro Comercial Outlet Mayorca Etapa II",
-       "m": 1038
-      },
-      {
-       "nombre": "Centro Comercial Outlet Mayorca Etapa I",
-       "m": 1195
-      }
-     ],
-     "salud": [
-      {
-       "nombre": "Clínica de la Policía",
-       "m": 1195
-      }
-     ],
-     "colegios": [
-      {
-       "nombre": "Colegio José María Berrio",
-       "m": 39
-      },
-      {
-       "nombre": "Escuela Rural María Auxiliadora",
-       "m": 408
-      },
-      {
-       "nombre": "Jardín Infantil La Gacela",
-       "m": 415
-      },
-      {
-       "nombre": "Collegio Bilingue Lenonardo da Vinci",
-       "m": 454
-      },
-      {
-       "nombre": "Institución Educativa Concejo de Sabaneta José María Ceballos",
-       "m": 610
-      }
-     ],
-     "parques": [
-      {
-       "nombre": "Parque Lila",
-       "m": 593
-      },
-      {
-       "nombre": "Parque de Villas del carmen",
-       "m": 611
-      }
-     ],
-     "paraderos": 1,
-     "carcel": null,
-     "nombres_cercanos": [],
-     "quebradas": []
-    },
-    "barrio_ficha": {
-     "nombre": "Las Lomitas",
-     "seguridad": "media-alta",
-     "recomendacion": "con precaución",
-     "terreno": "lomas fuertes",
-     "razon": "Tranquilo y verde, pero las lomas fuertes y la lejanía de servicios pesan, y hubo un caso puntual de extorsión en la vereda.",
-     "negativos": [
-      "Lomas pronunciadas y dependencia de vehículo",
-      "Desvíos de rutas de bus en el corredor Las Lomitas",
-      "Tráfico por constructoras"
-     ],
-     "positivos": [
-      "Mucho verde, descrito como pulmón de Sabaneta",
-      "Ambiente tranquilo con unidades cerradas",
-      "Vistas al valle"
-     ]
-    },
-    "hist": [
-     [
-      "2026-11-14",
-      1850000
-     ]
-    ],
-    "fecha": "2026-11-23T21:01-05:00",
-    "alertas": [
-     "Ya no está disponible en ninguna de sus páginas.",
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
    }
@@ -562629,11 +561806,13 @@
    }
   },
   "cc-3937478": {
-   "huella": "cc-3937478|fr-194505438|rt-pddcdc7|1920000",
+   "huella": "cc-3937478|fr-194505438|rt-p591d09|rt-pddcdc7|sfm-survivienda-4713|1920000",
    "exp": {
     "ids": [
      "fr-194505438",
      "cc-3937478",
+     "sfm-survivienda-4713",
+     "rt-p591d09",
      "rt-pddcdc7"
     ],
     "precio": 1920000,
@@ -562688,6 +561867,15 @@
       "modificado": null,
       "anunciante": "Inmobiliairia Survivienda",
       "tel": "3016706110"
+     },
+     {
+      "fuente": "Survivienda",
+      "url": "https://www.survivienda.com/inmueble/4713",
+      "disponible": true,
+      "publicado": null,
+      "modificado": null,
+      "anunciante": "Survivienda",
+      "tel": "6044489240"
      }
     ],
     "rasgos": {
@@ -562705,12 +561893,7 @@
     "codigos": [
      "4713"
     ],
-    "alias": [
-     [
-      "fr-194505438",
-      "sfm-survivienda-4713"
-     ]
-    ],
+    "alias": [],
     "ubicacion": {
      "tipo": "exacta",
      "lat": 6.1732043,
@@ -562909,7 +562092,7 @@
       1920000
      ]
     ],
-    "fecha": "2026-11-25T03:07-05:00",
+    "fecha": "2026-11-25T05:45-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada.",
      "La Quebrada Doña María pasa a 109 m: pregunta si el edificio ha tenido problemas con crecientes."
@@ -562917,27 +562100,27 @@
    },
    "opinion": {
     "id": "cc-3937478",
-    "veredicto": "no recomendable",
-    "puntaje": 4,
-    "frase": "Sin portería, barrio con homicidios y riesgo de inundación.",
-    "resumen": "Apartamento sin portería ni vigilancia. El barrio Santa María ha tenido homicidios y el sector riesgo de inundaciones por la Quebrada Doña María. El conjunto no tiene reseñas.",
+    "veredicto": "con reservas",
+    "puntaje": 5,
+    "frase": "Sin vigilancia, con riesgo de quebrada y barrio con homicidios.",
+    "resumen": "El apartamento no ofrece portería ni vigilancia. El barrio Santa María ha tenido homicidios recientes y hay riesgo de inundación por la Quebrada Doña María. Aunque es céntrico, la seguridad es una preocupación.",
     "a_favor": [
-     "Cercano a supermercados y centros comerciales",
-     "Buen transporte público y metro cerca",
-     "Cercano a salud y colegios"
+     "Cercano a comercio, servicios y hospitales.",
+     "Buen acceso a transporte público.",
+     "Dentro del presupuesto."
     ],
     "en_contra": [
-     "No menciona portería ni vigilancia",
-     "Barrio con homicidios recientes",
-     "Riesgo de desbordamiento de Quebrada Doña María"
+     "No tiene portería ni vigilancia.",
+     "Barrio Santa María con homicidios recientes y riesgo de inundación.",
+     "Mucha actividad comercial y ruido en el barrio."
     ],
     "preguntar": [
-     "¿El edificio cuenta con portería o vigilancia?",
-     "¿Ha tenido el edificio problemas con crecientes de la Quebrada Doña María?",
+     "¿El edificio ha tenido problemas con la Quebrada Doña María?",
+     "¿Existe alguna medida de seguridad en el edificio?",
      "¿Hay parqueadero disponible?"
     ],
-    "transporte": "El sector está bien conectado con las estaciones de metro Itagüí y Sabaneta, y con rutas de bus que facilitan el acceso al centro de Medellín.",
-    "fecha": "2026-11-25T03:09-05:00"
+    "transporte": "El Metro Itagüí está a 35 min a pie o 5 min en carro. El Parque principal de Itagüí está a 17 min a pie. El Centro de Medellín está a 16 min en carro.",
+    "fecha": "2026-11-25T05:46-05:00"
    }
   },
   "cc-3957817": {
@@ -578672,534 +577855,6 @@
     "fecha": "2026-11-25T03:09-05:00"
    }
   },
-  "rt-p591d09": {
-   "huella": "rt-p591d09|sfm-survivienda-4713|1920000",
-   "exp": {
-    "ids": [
-     "sfm-survivienda-4713",
-     "rt-p591d09"
-    ],
-    "precio": 1920000,
-    "hab": 3,
-    "banos": 1,
-    "area": 70,
-    "estrato": 3,
-    "municipio": "Itagüí",
-    "barrio_portal": "Santa María la Nueva",
-    "v": 6,
-    "barrio": "Santa María",
-    "sector": {
-     "nombre": null,
-     "via": "Carrera 50",
-     "referencias": [
-      "Parque Principal Itagüí (0 m)",
-      "Institución Educativa Juan Sebastián de Censa (92 m)",
-      "Centro Comercial Itagüí (100 m)"
-     ],
-     "quebradas": [
-      "Quebrada Doña María (250 m)"
-     ],
-     "celda": "6.172,-75.608"
-    },
-    "sector_en_texto": null,
-    "texto_dice_otro_barrio": null,
-    "pin_en_otro_barrio": null,
-    "conjunto": null,
-    "conjunto_origen": null,
-    "disponible": true,
-    "publicado": null,
-    "modificado": null,
-    "en_pagina_desde": "2026-11-14",
-    "video": null,
-    "videos": [],
-    "tour": null,
-    "versiones": [
-     {
-      "fuente": "Survivienda",
-      "url": "https://www.survivienda.com/inmueble/4713",
-      "disponible": true,
-      "publicado": null,
-      "modificado": null,
-      "anunciante": "Survivienda",
-      "tel": "6044489240"
-     }
-    ],
-    "rasgos": {
-     "porteria": false,
-     "vigilancia": false,
-     "unidad_cerrada": false,
-     "en_casa": false,
-     "ascensor": false,
-     "piscina": false,
-     "parqueadero": false,
-     "loma": false,
-     "dice_venta": false
-    },
-    "desc": "",
-    "codigos": [],
-    "alias": [],
-    "ubicacion": {
-     "tipo": "exacta",
-     "lat": 6.1723858,
-     "lon": -75.609416,
-     "osm": {
-      "barrio": null,
-      "via": "Carrera 50",
-      "municipio": "Itagüí"
-     }
-    },
-    "metro": {
-     "estacion": "Itagüí",
-     "m_linea_recta": 1091
-    },
-    "recorridos": [
-     {
-      "lugar": "Metro Itagüí",
-      "linea_recta_km": 1.1,
-      "pie_km": 1.4,
-      "pie_min": 19,
-      "carro_km": 1.3,
-      "carro_min": 3
-     },
-     {
-      "lugar": "Metro Envigado",
-      "linea_recta_km": 1.4,
-      "pie_km": 1.9,
-      "pie_min": 25,
-      "carro_km": 3.1,
-      "carro_min": 5
-     },
-     {
-      "lugar": "Parque principal de Itagüí",
-      "linea_recta_km": 0.0,
-      "pie_km": 0.1,
-      "pie_min": 1,
-      "carro_km": 0.3,
-      "carro_min": 1
-     },
-     {
-      "lugar": "Centro Comercial Itagüí",
-      "linea_recta_km": 0.1,
-      "pie_km": 0.2,
-      "pie_min": 2,
-      "carro_km": 0.6,
-      "carro_min": 2
-     },
-     {
-      "lugar": "HOSPITAL",
-      "linea_recta_km": 0.5,
-      "pie_km": 0.6,
-      "pie_min": 7,
-      "carro_km": 0.7,
-      "carro_min": 2
-     },
-     {
-      "lugar": "Centro de Medellín (Parque Berrío)",
-      "linea_recta_km": 9.8,
-      "carro_km": 11.6,
-      "carro_min": 14
-     },
-     {
-      "lugar": "El Poblado (estación Poblado)",
-      "linea_recta_km": 5.6,
-      "carro_km": 7.0,
-      "carro_min": 8
-     }
-    ],
-    "cerca": {
-     "supermercados": [
-      {
-       "nombre": "Supermercado",
-       "m": 429
-      }
-     ],
-     "centros_comerciales": [
-      {
-       "nombre": "Centro Comercial Itagüí",
-       "m": 100
-      },
-      {
-       "nombre": "Mall Itagüí",
-       "m": 106
-      },
-      {
-       "nombre": "AGAVAL",
-       "m": 144
-      },
-      {
-       "nombre": "Algamar",
-       "m": 583
-      },
-      {
-       "nombre": "Quimicos antioquia",
-       "m": 783
-      }
-     ],
-     "salud": [
-      {
-       "nombre": "Salud total",
-       "m": 276
-      },
-      {
-       "nombre": "CIS Comfama Itagüí",
-       "m": 392
-      },
-      {
-       "nombre": "HOSPITAL",
-       "m": 440
-      },
-      {
-       "nombre": "Clínica Antioquia",
-       "m": 468
-      }
-     ],
-     "colegios": [
-      {
-       "nombre": "Institución Educativa Juan Sebastián de Censa",
-       "m": 92
-      },
-      {
-       "nombre": "Corporación Tecn Empresarial",
-       "m": 118
-      },
-      {
-       "nombre": "Escode",
-       "m": 135
-      },
-      {
-       "nombre": "Alianza Para La Educación Educando Sas",
-       "m": 189
-      },
-      {
-       "nombre": "Preescolar Payasitos",
-       "m": 204
-      }
-     ],
-     "parques": [
-      {
-       "nombre": "Parque Principal Itagüí",
-       "m": 0
-      },
-      {
-       "nombre": "Parque Obrero",
-       "m": 244
-      }
-     ],
-     "paraderos": 0,
-     "carcel": null,
-     "nombres_cercanos": [],
-     "quebradas": [
-      {
-       "nombre": "Quebrada Doña María",
-       "m": 250
-      }
-     ]
-    },
-    "barrio_ficha": {
-     "nombre": "Santa María",
-     "seguridad": "media",
-     "recomendacion": "con precaución",
-     "terreno": "plano",
-     "razon": "Bien ubicado y económico, pero en 2026 hubo homicidios ligados a bandas y hay riesgo documentado de inundación cerca de la quebrada. Conviene evitar los edificios a orillas de la Doña María.",
-     "negativos": [
-      "En 2026 hubo homicidios en el barrio: un venezolano asesinado el 13 de junio y otro hombre baleado dentro de una vivienda. El Colombiano relaciona los hechos en Santa María y El Rosario con la disputa de El Ajizal",
-      "En mayo de 2025 la quebrada Doña María se desbordó en Santa María 2 (carrera 48 entre la calle 72 y la carrera 49) y dañó vehículos",
-      "Mucha actividad comercial y de bodegas, con tráfico y ruido"
-     ],
-     "positivos": [
-      "Sector comercial con el Centro de la Moda y la Central Mayorista cerca, y transporte frecuente",
-      "Precios más contenidos que en Ditaires o Suramérica",
-      "Telemedellín lo menciona entre los barrios destacados por su desarrollo y servicios (esa lista se hizo con IA)"
-     ]
-    },
-    "hist": [
-     [
-      "2026-11-24",
-      1920000
-     ]
-    ],
-    "fecha": "2026-11-25T03:07-05:00",
-    "alertas": [
-     "El anuncio no menciona portería, vigilancia ni unidad cerrada."
-    ]
-   },
-   "opinion": {
-    "id": "rt-p591d09",
-    "veredicto": "no recomendable",
-    "puntaje": 4,
-    "frase": "Sin portería, barrio con homicidios y riesgo de inundación.",
-    "resumen": "Apartamento sin portería ni vigilancia. El barrio Santa María ha tenido homicidios y el sector riesgo de inundaciones por la Quebrada Doña María. El precio excede el presupuesto.",
-    "a_favor": [
-     "Cercano a centros comerciales y supermercados",
-     "Buen transporte público y metro cerca",
-     "Cercano a salud y colegios"
-    ],
-    "en_contra": [
-     "No menciona portería ni vigilancia",
-     "Barrio con homicidios recientes",
-     "Riesgo de desbordamiento de Quebrada Doña María"
-    ],
-    "preguntar": [
-     "¿El edificio cuenta con portería o vigilancia?",
-     "¿Ha tenido el edificio problemas con crecientes de la Quebrada Doña María?",
-     "¿Hay parqueadero disponible?"
-    ],
-    "transporte": "El sector está bien conectado con la estación Itagüí del Metro, a 19 minutos a pie, y con rutas de bus que facilitan el acceso al centro de Medellín.",
-    "fecha": "2026-11-25T03:09-05:00"
-   }
-  },
-  "m2-21136-M7131770": {
-   "huella": "m2-21136-M7131770|2000000",
-   "exp": {
-    "ids": [
-     "m2-21136-M7131770"
-    ],
-    "precio": 2000000,
-    "hab": 3,
-    "banos": 2,
-    "area": 78,
-    "estrato": 3,
-    "municipio": "Medellín",
-    "barrio_portal": "San Antonio de Prado",
-    "v": 6,
-    "barrio": "San Antonio de Prado",
-    "sector": {
-     "nombre": null,
-     "via": "Calle 42A Sur",
-     "referencias": [
-      "Institución Educativa Manuel J Betancur (130 m)",
-      "Merque Paisa (137 m)",
-      "supermercado maxioferta prado 1 (179 m)"
-     ],
-     "quebradas": [
-      "Quebrada La Manguala (171 m)"
-     ],
-     "celda": "6.184,-75.656"
-    },
-    "sector_en_texto": null,
-    "texto_dice_otro_barrio": null,
-    "pin_en_otro_barrio": null,
-    "conjunto": null,
-    "conjunto_origen": null,
-    "disponible": true,
-    "publicado": null,
-    "modificado": null,
-    "en_pagina_desde": "2026-11-23",
-    "video": false,
-    "videos": [],
-    "tour": null,
-    "versiones": [
-     {
-      "fuente": "Metrocuadrado",
-      "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-medellin-san-antonio-de-prado-3-habitaciones-2-banos/21136-M7131770",
-      "disponible": true,
-      "publicado": null,
-      "modificado": null,
-      "anunciante": "Inmobiliaria",
-      "tel": "6044480577"
-     }
-    ],
-    "rasgos": {
-     "porteria": false,
-     "vigilancia": false,
-     "unidad_cerrada": false,
-     "en_casa": false,
-     "ascensor": true,
-     "piscina": false,
-     "parqueadero": true,
-     "loma": false,
-     "dice_venta": false
-    },
-    "desc": "Acerca de este inmueble Apartamento en Arriendo – San Antonio de Prado, Sector La Gruta Piso 3 Apartamento de aproximadamente 78 m², ubicado en el sector La Gruta de San Antonio de Prado, al frente del parqueadero y Vivero El Sevillano, en un sector tranquilo y de fácil acceso. La propiedad cuenta con sala comedor, cocina integral con red de gas, 3 alcobas, 3 closets, 2 baños cabinados y zona de ropas, ofreciendo espacios cómodos y bien distribuidos para toda la familia.El inmueble no cuenta con parqueadero y el edificio no cuenta con ascensor. CODIGO 9682 Ver mas INMOBILIARIA LA ESTRELLA Antigüedad: Entre 0 y 5 años Barrio común: San Antonio De Prado Código: 21136-M7131770 Reportar anuncio ",
-    "codigos": [
-     "21136",
-     "9682"
-    ],
-    "alias": [
-     [
-      "m2-21136-M7131770",
-      "lw-estrella-9682"
-     ]
-    ],
-    "ubicacion": {
-     "tipo": "de la ficha",
-     "lat": 6.184068,
-     "lon": -75.65485,
-     "osm": {
-      "barrio": null,
-      "via": "Calle 42A Sur",
-      "municipio": "Medellín"
-     }
-    },
-    "metro": {
-     "estacion": "La Estrella",
-     "m_linea_recta": 4695
-    },
-    "recorridos": [
-     {
-      "lugar": "Metro La Estrella",
-      "linea_recta_km": 4.7,
-      "carro_km": 7.5,
-      "carro_min": 15
-     },
-     {
-      "lugar": "Metro Sabaneta",
-      "linea_recta_km": 5.2,
-      "carro_km": 8.4,
-      "carro_min": 17
-     },
-     {
-      "lugar": "Parque principal de San Antonio de Prado",
-      "linea_recta_km": 0.2,
-      "pie_km": 0.3,
-      "pie_min": 4,
-      "carro_km": 0.4,
-      "carro_min": 1
-     },
-     {
-      "lugar": "Centro Comercial Venecia",
-      "linea_recta_km": 3.0,
-      "pie_km": 4.0,
-      "pie_min": 53,
-      "carro_km": 4.4,
-      "carro_min": 9
-     },
-     {
-      "lugar": "Hospital La Estrella",
-      "linea_recta_km": 3.4,
-      "carro_km": 5.1,
-      "carro_min": 11
-     },
-     {
-      "lugar": "Centro de Medellín (Parque Berrío)",
-      "linea_recta_km": 12.1,
-      "carro_km": 18.5,
-      "carro_min": 28
-     },
-     {
-      "lugar": "El Poblado (estación Poblado)",
-      "linea_recta_km": 9.0,
-      "carro_km": 13.9,
-      "carro_min": 22
-     }
-    ],
-    "cerca": {
-     "supermercados": [
-      {
-       "nombre": "Merque Paisa",
-       "m": 137
-      },
-      {
-       "nombre": "supermercado maxioferta prado 1",
-       "m": 179
-      },
-      {
-       "nombre": "maxioferta prado 1",
-       "m": 181
-      },
-      {
-       "nombre": "supermercadoo maxioferta prado 3",
-       "m": 260
-      },
-      {
-       "nombre": "supermercado maxioferta prado 3",
-       "m": 261
-      }
-     ],
-     "centros_comerciales": [],
-     "salud": [],
-     "colegios": [
-      {
-       "nombre": "Institución Educativa Manuel J Betancur",
-       "m": 130
-      },
-      {
-       "nombre": "Institución Educativa San Antonio de Prado",
-       "m": 183
-      },
-      {
-       "nombre": "Institución Educativa Manuel J. Betancur",
-       "m": 289
-      },
-      {
-       "nombre": "Colegio Empresarial",
-       "m": 497
-      }
-     ],
-     "parques": [
-      {
-       "nombre": "Parque Principal San Antonio de Prado",
-       "m": 206
-      },
-      {
-       "nombre": "Parque El Paraíso",
-       "m": 738
-      }
-     ],
-     "paraderos": 3,
-     "carcel": null,
-     "nombres_cercanos": [],
-     "quebradas": [
-      {
-       "nombre": "Quebrada La Manguala",
-       "m": 171
-      }
-     ]
-    },
-    "barrio_ficha": {
-     "nombre": "San Antonio de Prado",
-     "seguridad": "media",
-     "recomendacion": "con precaución",
-     "terreno": "lomas fuertes",
-     "razon": "Es económico y sin violencia recurrente, pero el acceso es su gran problema: en enero de 2026 hubo trayectos de más de 3 horas por el cierre de una vía.",
-     "negativos": [
-      "Lejos del centro y con trancones en la vía de acceso",
-      "Crecimiento urbano acelerado y construcción ilegal",
-      "Homicidios sicariales puntuales"
-     ],
-     "positivos": [
-      "Arriendos bajos y unidades nuevas",
-      "Ambiente de pueblo",
-      "Pocos homicidios en general (el primero de 2025 fue a finales de febrero)"
-     ]
-    },
-    "hist": [
-     [
-      "2026-11-23",
-      2000000
-     ]
-    ],
-    "fecha": "2026-11-25T03:07-05:00",
-    "alertas": [
-     "El anuncio no menciona portería, vigilancia ni unidad cerrada.",
-     "El Metro La Estrella queda a 7.5 km por vía: no es caminable."
-    ]
-   },
-   "opinion": {
-    "id": "m2-21136-M7131770",
-    "veredicto": "no recomendable",
-    "puntaje": 4,
-    "frase": "Sin portería, lejos del metro y con problemas de agua.",
-    "resumen": "Apartamento sin portería ni vigilancia. El barrio San Antonio de Prado tiene problemas de acceso y el sector de La Gruta ha sufrido racionamiento de agua por la Quebrada La Manguala. El precio excede el presupuesto.",
-    "a_favor": [
-     "Cercano a supermercados y colegios",
-     "Parqueadero disponible",
-     "Transporte público a estaciones de metro"
-    ],
-    "en_contra": [
-     "No menciona portería ni vigilancia",
-     "Barrio con problemas de acceso y trancones",
-     "Sector con racionamiento de agua por quebrada"
-    ],
-    "preguntar": [
-     "¿El edificio cuenta con portería o vigilancia?",
-     "¿Cuál es el estado actual del suministro de agua en el sector?",
-     "¿El anuncio sigue disponible?"
-    ],
-    "transporte": "El sector de La Gruta en San Antonio de Prado está bien conectado con el sistema de transporte público de Medellín, con varias rutas de autobús que ofrecen acceso a diferentes estaciones del metro y al centro de la ciudad.",
-    "fecha": "2026-11-25T03:09-05:00"
-   }
-  },
   "m2-11067-M5998113": {
    "huella": "m2-11067-M5998113|1900000",
    "exp": {
@@ -579731,11 +578386,602 @@
     "fecha": "2026-11-25T03:09-05:00"
    }
   },
-  "lw-estrella-9681": {
-   "huella": "lw-estrella-9681|m2-21136-M7131503|1700000",
+  "rt-p3ee019": {
+   "huella": "rt-p3ee019|sfm-survivienda-4607|2000000",
    "exp": {
     "ids": [
-     "lw-estrella-9681",
+     "sfm-survivienda-4607",
+     "rt-p3ee019"
+    ],
+    "precio": 2000000,
+    "hab": 3,
+    "banos": 2,
+    "area": 70,
+    "estrato": 2,
+    "municipio": "Envigado",
+    "barrio_portal": "San Rafael",
+    "v": 6,
+    "barrio": "San Rafael",
+    "sector": {
+     "nombre": null,
+     "via": null,
+     "referencias": [],
+     "quebradas": [],
+     "celda": null
+    },
+    "sector_en_texto": null,
+    "texto_dice_otro_barrio": null,
+    "pin_en_otro_barrio": null,
+    "conjunto": null,
+    "conjunto_origen": null,
+    "disponible": true,
+    "publicado": null,
+    "modificado": null,
+    "en_pagina_desde": "2026-11-16",
+    "video": null,
+    "videos": [],
+    "tour": null,
+    "versiones": [
+     {
+      "fuente": "Survivienda",
+      "url": "https://www.survivienda.com/inmueble/4607",
+      "disponible": true,
+      "publicado": null,
+      "modificado": null,
+      "anunciante": "Survivienda",
+      "tel": "6044489240"
+     }
+    ],
+    "rasgos": {
+     "porteria": false,
+     "vigilancia": false,
+     "unidad_cerrada": false,
+     "en_casa": false,
+     "ascensor": false,
+     "piscina": false,
+     "parqueadero": false,
+     "loma": false,
+     "dice_venta": false
+    },
+    "desc": "",
+    "codigos": [],
+    "alias": [],
+    "ubicacion": {
+     "tipo": "sin",
+     "lat": null,
+     "lon": null
+    },
+    "metro": null,
+    "recorridos": null,
+    "cerca": null,
+    "barrio_ficha": {
+     "nombre": "San Rafael",
+     "seguridad": "media",
+     "recomendacion": "con precaución",
+     "terreno": "ondulado",
+     "razon": "Hechos graves aislados en varios años y poca información actual.",
+     "negativos": [
+      "Mayo de 2024: asesinato de una mujer hallada en un apartamento",
+      "Antecedentes: doble homicidio en 2018 y riña mortal en 2022 (zona 6)",
+      "Incluido en el proyecto de sensores de ruido"
+     ],
+     "positivos": [
+      "Rutas integradas a la estación Envigado",
+      "Barrio urbano tradicional"
+     ]
+    },
+    "hist": [
+     [
+      "2026-11-16",
+      2000000
+     ]
+    ],
+    "fecha": "2026-11-25T05:44-05:00",
+    "alertas": [
+     "El anuncio no menciona portería, vigilancia ni unidad cerrada."
+    ]
+   },
+   "opinion": {
+    "id": "rt-p3ee019",
+    "veredicto": "no recomendable",
+    "puntaje": 1,
+    "frase": "Anuncio no disponible y sin información de ubicación o seguridad.",
+    "resumen": "El anuncio no está disponible y carece de información crucial sobre la ubicación exacta, portería, vigilancia y servicios, lo que lo hace no recomendable para el perfil del buscador.",
+    "a_favor": [],
+    "en_contra": [
+     "Anuncio no disponible.",
+     "Ubicación no confirmada y sin detalles de sector.",
+     "No tiene portería ni vigilancia."
+    ],
+    "preguntar": [],
+    "transporte": "No hay información de transporte disponible para este anuncio.",
+    "fecha": "2026-11-25T05:46-05:00"
+   }
+  },
+  "lw-estrella-9761": {
+   "huella": "lw-estrella-9761|1700000",
+   "exp": {
+    "ids": [
+     "lw-estrella-9761"
+    ],
+    "precio": 1700000,
+    "hab": 2,
+    "banos": 2,
+    "area": 56,
+    "estrato": 3,
+    "municipio": "Itagüí",
+    "barrio_portal": null,
+    "v": 6,
+    "barrio": null,
+    "sector": {
+     "nombre": null,
+     "via": "Calle 100d",
+     "referencias": [
+      "Centro Educativo Mundo Ideal (351 m)"
+     ],
+     "quebradas": [
+      "Río Medellín (98 m)",
+      "Quebrada La Montañita (107 m)",
+      "Quebrada La Polvosa (293 m)"
+     ],
+     "celda": "6.116,-75.632"
+    },
+    "sector_en_texto": null,
+    "texto_dice_otro_barrio": null,
+    "pin_en_otro_barrio": null,
+    "conjunto": null,
+    "conjunto_origen": null,
+    "disponible": true,
+    "publicado": "2026-11-18",
+    "modificado": null,
+    "en_pagina_desde": "2026-11-20",
+    "video": true,
+    "videos": [
+     "https://youtu.be/t4YBXLhq47g",
+     "https://youtu.be/V41M-sa9mKI",
+     "https://youtu.be/W31zrMD32Fs",
+     "https://youtu.be/jyHL8bUn-2s",
+     "https://youtu.be/t6SL2F9of90",
+     "https://youtu.be/BQReupd5CLE",
+     "https://youtu.be/ldVPT2YMui8",
+     "https://youtu.be/tshzFkVsb_8",
+     "https://youtu.be/5VK8C1xE6Ik",
+     "https://youtu.be/fn37yYKMwII"
+    ],
+    "tour": null,
+    "versiones": [
+     {
+      "fuente": "Inmobiliaria La Estrella",
+      "url": "https://www.inmobiliarialaestrella.com/detalle-propiedad/apartamento-enarriendo-en-itagui-9761",
+      "disponible": true,
+      "publicado": "2026-11-18",
+      "modificado": null,
+      "anunciante": "Inmobiliaria La Estrella",
+      "tel": "6042500646"
+     }
+    ],
+    "rasgos": {
+     "porteria": false,
+     "vigilancia": false,
+     "unidad_cerrada": false,
+     "en_casa": false,
+     "ascensor": false,
+     "piscina": false,
+     "parqueadero": true,
+     "loma": false,
+     "dice_venta": false
+    },
+    "desc": "Este hermosa casa unifamiliar tiene 80 m; se encuentra ubicada en Belén Las Violetas, Medellín Ant, detrás de la Universidad de Medellín, en una zona estratégica con excelente ubicación, cerca de universidades, centros comerciales, supermercados y rutas integradas del Metro. Además, cuenta con fácil acceso hacia la Avenida 80, Calle 30 y Metroplús, brindando comodidad y conectividad para toda la familia. Cuenta con una distribución cómoda y funcional. En el primer nivel dispone de sala comedor, cocina semi integral y una habitación con clóset y baño privado y espacio de acceso al frente de la vivienda con posibilidad de parqueo para vehículo En el segundo nivel encontrarás dos habitaciones, ",
+    "codigos": [],
+    "alias": [],
+    "ubicacion": {
+     "tipo": "de la ficha",
+     "lat": 6.117456799999999,
+     "lon": -75.6322718,
+     "osm": {
+      "barrio": null,
+      "via": "Calle 100d",
+      "municipio": "La Tablaza"
+     }
+    },
+    "metro": {
+     "estacion": "La Estrella",
+     "m_linea_recta": 3982
+    },
+    "recorridos": [
+     {
+      "lugar": "Metro La Estrella",
+      "linea_recta_km": 4.0,
+      "carro_km": 6.1,
+      "carro_min": 8
+     },
+     {
+      "lugar": "Metro Sabaneta",
+      "linea_recta_km": 4.8,
+      "carro_km": 7.4,
+      "carro_min": 10
+     },
+     {
+      "lugar": "Parque principal de La Estrella",
+      "linea_recta_km": 4.6,
+      "carro_km": 6.1,
+      "carro_min": 11
+     },
+     {
+      "lugar": "Mall Antares",
+      "linea_recta_km": 2.8,
+      "pie_km": 4.0,
+      "pie_min": 53,
+      "carro_km": 4.1,
+      "carro_min": 8
+     },
+     {
+      "lugar": "Hospital Venancio Díaz Díaz",
+      "linea_recta_km": 3.6,
+      "carro_km": 7.4,
+      "carro_min": 11
+     },
+     {
+      "lugar": "Centro de Medellín (Parque Berrío)",
+      "linea_recta_km": 16.4,
+      "carro_km": 19.8,
+      "carro_min": 23
+     },
+     {
+      "lugar": "El Poblado (estación Poblado)",
+      "linea_recta_km": 12.1,
+      "carro_km": 15.2,
+      "carro_min": 17
+     }
+    ],
+    "cerca": {
+     "supermercados": [
+      {
+       "nombre": "Justo y Bueno",
+       "m": 551
+      },
+      {
+       "nombre": "Merkespress",
+       "m": 590
+      }
+     ],
+     "centros_comerciales": [],
+     "salud": [],
+     "colegios": [
+      {
+       "nombre": "Centro Educativo Mundo Ideal",
+       "m": 351
+      },
+      {
+       "nombre": "Colegio Colombo Frances",
+       "m": 432
+      },
+      {
+       "nombre": "Tulio Ospina",
+       "m": 508
+      },
+      {
+       "nombre": "Institucion Educativa José Antonio Galán",
+       "m": 603
+      }
+     ],
+     "parques": [],
+     "paraderos": 0,
+     "carcel": null,
+     "nombres_cercanos": [],
+     "quebradas": [
+      {
+       "nombre": "Río Medellín",
+       "m": 98
+      },
+      {
+       "nombre": "Quebrada La Montañita",
+       "m": 107
+      },
+      {
+       "nombre": "Quebrada La Polvosa",
+       "m": 293
+      }
+     ]
+    },
+    "barrio_ficha": null,
+    "hist": [
+     [
+      "2026-11-20",
+      1700000
+     ]
+    ],
+    "fecha": "2026-11-25T05:44-05:00",
+    "alertas": [
+     "El anuncio no menciona portería, vigilancia ni unidad cerrada.",
+     "La Río Medellín pasa a 98 m: pregunta si el edificio ha tenido problemas con crecientes.",
+     "El Metro La Estrella queda a 6.1 km por vía: no es caminable."
+    ]
+   },
+   "opinion": {
+    "id": "lw-estrella-9761",
+    "veredicto": "con reservas",
+    "puntaje": 4,
+    "frase": "Sin vigilancia y con riesgos de quebradas, pero buen presupuesto.",
+    "resumen": "El apartamento no ofrece portería ni vigilancia, y está cerca de quebradas con riesgo de inundaciones. Aunque el municipio ha mejorado la seguridad, el sector tiene riesgos ambientales.",
+    "a_favor": [
+     "Dentro del presupuesto.",
+     "Municipio con reducción de delitos de alto impacto.",
+     "Parqueadero disponible."
+    ],
+    "en_contra": [
+     "No tiene portería ni vigilancia.",
+     "Cercanía a quebradas con riesgo de inundaciones y deslizamientos.",
+     "No hay información específica de rutas de bus en el sector."
+    ],
+    "preguntar": [
+     "¿El edificio ha tenido problemas con crecientes del Río Medellín o quebradas cercanas?",
+     "¿Hay alguna medida de seguridad en el edificio?",
+     "¿Existen rutas de bus cercanas y sus frecuencias?"
+    ],
+    "transporte": "No se encontró información específica sobre rutas de bus o alimentadoras del metro que pasen por la Calle 100d, ni tiempos de viaje a la estación de metro más cercana o al centro.",
+    "fecha": "2026-11-25T05:46-05:00"
+   }
+  },
+  "m2-21136-M7247509": {
+   "huella": "m2-21136-M7247509|1300000",
+   "exp": {
+    "ids": [
+     "m2-21136-M7247509"
+    ],
+    "precio": 1300000,
+    "hab": 2,
+    "banos": 1,
+    "area": 45,
+    "estrato": 3,
+    "municipio": "Medellín",
+    "barrio_portal": "San Antonio de Prado",
+    "v": 6,
+    "barrio": "San Antonio de Prado",
+    "sector": {
+     "nombre": null,
+     "via": "Carrera 65B",
+     "referencias": [
+      "Fe y Alegría Limonar - Ventanitas (229 m)",
+      "Institución Educativa Ramón Giraldo Ceballos (272 m)",
+      "Escuela Gustavo Rodas Isaza (278 m)"
+     ],
+     "quebradas": [],
+     "celda": "6.176,-75.648"
+    },
+    "sector_en_texto": null,
+    "texto_dice_otro_barrio": null,
+    "pin_en_otro_barrio": null,
+    "conjunto": "Mirador",
+    "conjunto_origen": "anuncio",
+    "disponible": true,
+    "publicado": null,
+    "modificado": null,
+    "en_pagina_desde": "2026-11-19",
+    "video": false,
+    "videos": [],
+    "tour": null,
+    "versiones": [
+     {
+      "fuente": "Metrocuadrado",
+      "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-medellin-san-antonio-de-prado-2-habitaciones-1-banos/21136-M7247509",
+      "disponible": true,
+      "publicado": null,
+      "modificado": null,
+      "anunciante": "Inmobiliaria",
+      "tel": "6044480577"
+     }
+    ],
+    "rasgos": {
+     "porteria": true,
+     "vigilancia": true,
+     "unidad_cerrada": true,
+     "en_casa": false,
+     "ascensor": false,
+     "piscina": true,
+     "parqueadero": false,
+     "loma": false,
+     "dice_venta": false
+    },
+    "desc": "Acerca de este inmueble Apartamento en Arriendo – Unidad Mirador de la Hacienda, San Antonio de Prado Piso 1 Apartamento de aproximadamente 45 m², ubicado en la unidad residencial Mirador de la Hacienda, en San Antonio de Prado, en un sector residencial con fácil acceso a comercio, transporte público y servicios esenciales. La propiedad cuenta con sala comedor, cocina semintegral con red de gas, 2 alcobas, 2 clósets,1 baño y zona de ropas, ofreciendo espacios cómodos y funcionales para disfrutar en familia.La unidad residencial cuenta con portería y vigilancia las 24 horas, además de excelentes zonas comunes como piscina, cancha deportiva y juegos infantiles, brindando comodidad, seguridad y",
+    "codigos": [
+     "21136",
+     "8252"
+    ],
+    "alias": [
+     [
+      "m2-21136-M7247509",
+      "lw-estrella-8252"
+     ]
+    ],
+    "ubicacion": {
+     "tipo": "de la ficha",
+     "lat": 6.175346,
+     "lon": -75.646576,
+     "osm": {
+      "barrio": null,
+      "via": "Carrera 65B",
+      "municipio": "Medellín"
+     }
+    },
+    "metro": {
+     "estacion": "La Estrella",
+     "m_linea_recta": 3362
+    },
+    "recorridos": [
+     {
+      "lugar": "Metro La Estrella",
+      "linea_recta_km": 3.4,
+      "carro_km": 6.9,
+      "carro_min": 14
+     },
+     {
+      "lugar": "Metro Sabaneta",
+      "linea_recta_km": 3.9,
+      "carro_km": 6.6,
+      "carro_min": 14
+     },
+     {
+      "lugar": "Parque principal de San Antonio de Prado",
+      "linea_recta_km": 1.5,
+      "pie_km": 2.2,
+      "pie_min": 29,
+      "carro_km": 2.5,
+      "carro_min": 5
+     },
+     {
+      "lugar": "Centro Comercial Venecia",
+      "linea_recta_km": 1.8,
+      "pie_km": 3.4,
+      "pie_min": 45,
+      "carro_km": 3.4,
+      "carro_min": 8
+     },
+     {
+      "lugar": "Hospital La Estrella",
+      "linea_recta_km": 2.2,
+      "carro_km": 4.1,
+      "carro_min": 10
+     },
+     {
+      "lugar": "Centro de Medellín (Parque Berrío)",
+      "linea_recta_km": 12.1,
+      "carro_km": 16.6,
+      "carro_min": 25
+     },
+     {
+      "lugar": "El Poblado (estación Poblado)",
+      "linea_recta_km": 8.6,
+      "carro_km": 12.0,
+      "carro_min": 19
+     }
+    ],
+    "cerca": {
+     "supermercados": [
+      {
+       "nombre": "D1",
+       "m": 746
+      },
+      {
+       "nombre": "Tienda Memo",
+       "m": 751
+      },
+      {
+       "nombre": "Autoservicio el Peso Menos",
+       "m": 790
+      }
+     ],
+     "centros_comerciales": [],
+     "salud": [
+      {
+       "nombre": "Centro de Salud del Limonar",
+       "m": 412
+      }
+     ],
+     "colegios": [
+      {
+       "nombre": "Fe y Alegría Limonar - Ventanitas",
+       "m": 229
+      },
+      {
+       "nombre": "Institución Educativa Ramón Giraldo Ceballos",
+       "m": 272
+      },
+      {
+       "nombre": "Escuela Gustavo Rodas Isaza",
+       "m": 278
+      },
+      {
+       "nombre": "Fe y Alegría Limonar",
+       "m": 483
+      },
+      {
+       "nombre": "Escuela San Fco",
+       "m": 758
+      }
+     ],
+     "parques": [
+      {
+       "nombre": "Parque de los Enamorados",
+       "m": 517
+      },
+      {
+       "nombre": "Quebrada La Chispa 2",
+       "m": 753
+      },
+      {
+       "nombre": "cancha",
+       "m": 776
+      }
+     ],
+     "paraderos": 0,
+     "carcel": {
+      "nombre": "Carcel de Máxima Seguridad de Itagüí (EPC La Paz)",
+      "m": 623
+     },
+     "nombres_cercanos": [
+      "Unidad Residencial Santa Inés"
+     ],
+     "quebradas": []
+    },
+    "barrio_ficha": {
+     "nombre": "San Antonio de Prado",
+     "seguridad": "media",
+     "recomendacion": "con precaución",
+     "terreno": "lomas fuertes",
+     "razon": "Es económico y sin violencia recurrente, pero el acceso es su gran problema: en enero de 2026 hubo trayectos de más de 3 horas por el cierre de una vía.",
+     "negativos": [
+      "Lejos del centro y con trancones en la vía de acceso",
+      "Crecimiento urbano acelerado y construcción ilegal",
+      "Homicidios sicariales puntuales"
+     ],
+     "positivos": [
+      "Arriendos bajos y unidades nuevas",
+      "Ambiente de pueblo",
+      "Pocos homicidios en general (el primero de 2025 fue a finales de febrero)"
+     ]
+    },
+    "hist": [
+     [
+      "2026-11-19",
+      1300000
+     ]
+    ],
+    "fecha": "2026-11-25T05:44-05:00",
+    "alertas": [
+     "Hay una cárcel a 623 m (Carcel de Máxima Seguridad de Itagüí (EPC La Paz)).",
+     "El Metro Sabaneta queda a 6.6 km por vía: no es caminable."
+    ]
+   },
+   "opinion": {
+    "id": "m2-21136-M7247509",
+    "veredicto": "recomendable",
+    "puntaje": 8,
+    "frase": "Unidad cerrada con vigilancia y piscina, buen transporte y precio.",
+    "resumen": "Este apartamento en unidad cerrada cumple con las prioridades de seguridad y servicios, ofreciendo portería 24 horas, vigilancia y piscina. El transporte público es accesible, aunque el barrio tiene problemas de acceso general.",
+    "a_favor": [
+     "Unidad cerrada con portería y vigilancia 24 horas.",
+     "Cuenta con piscina y otras zonas comunes.",
+     "Cercano a transporte público, supermercados y colegios."
+    ],
+    "en_contra": [
+     "Barrio San Antonio de Prado con problemas de acceso y trancones.",
+     "Cercanía a una cárcel (623 m).",
+     "El Metro Sabaneta no es caminable."
+    ],
+    "preguntar": [
+     "¿Hay rutas de bus directas a la estación de metro más cercana?",
+     "¿Cuál es la frecuencia de las rutas de transporte público?",
+     "¿Hay parqueadero para visitantes?"
+    ],
+    "transporte": "El conjunto cuenta con ruta de transporte de Circular Sur. El Metro La Estrella está a 14 min en carro y el Metro Sabaneta a 14 min en carro. El Centro de Medellín está a 25 min en carro.",
+    "fecha": "2026-11-25T05:46-05:00"
+   }
+  },
+  "m2-21136-M7131503": {
+   "huella": "m2-21136-M7131503|1700000",
+   "exp": {
+    "ids": [
      "m2-21136-M7131503"
     ],
     "precio": 1700000,
@@ -579774,15 +579020,6 @@
     "tour": null,
     "versiones": [
      {
-      "fuente": "Inmobiliaria La Estrella",
-      "url": "https://www.inmobiliarialaestrella.com/detalle-propiedad/apartamento-enarriendo-en-san-antonio-de-prado-9681",
-      "disponible": true,
-      "publicado": null,
-      "modificado": null,
-      "anunciante": "Inmobiliaria La Estrella",
-      "tel": "6042500646"
-     },
-     {
       "fuente": "Metrocuadrado",
       "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-medellin-san-antonio-de-prado-2-habitaciones-2-banos/21136-M7131503",
       "disponible": true,
@@ -579808,11 +579045,16 @@
      "21136",
      "9681"
     ],
-    "alias": [],
+    "alias": [
+     [
+      "m2-21136-M7131503",
+      "lw-estrella-9681"
+     ]
+    ],
     "ubicacion": {
      "tipo": "de la ficha",
-     "lat": 6.1840682,
-     "lon": -75.6548482,
+     "lat": 6.184068,
+     "lon": -75.65485,
      "osm": {
       "barrio": null,
       "via": "Calle 42A Sur",
@@ -579891,7 +579133,7 @@
       },
       {
        "nombre": "supermercado maxioferta prado 3",
-       "m": 262
+       "m": 261
       }
      ],
      "centros_comerciales": [],
@@ -579907,7 +579149,7 @@
       },
       {
        "nombre": "Institución Educativa Manuel J. Betancur",
-       "m": 290
+       "m": 289
       },
       {
        "nombre": "Colegio Empresarial",
@@ -579957,42 +579199,41 @@
       1700000
      ]
     ],
-    "fecha": "2026-11-25T03:07-05:00",
+    "fecha": "2026-11-25T05:45-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada.",
      "El Metro La Estrella queda a 7.5 km por vía: no es caminable."
     ]
    },
    "opinion": {
-    "id": "lw-estrella-9681",
-    "veredicto": "no recomendable",
-    "puntaje": 4,
-    "frase": "Sin portería, lejos del metro y con problemas de agua.",
-    "resumen": "Apartamento sin portería ni vigilancia. El barrio San Antonio de Prado tiene problemas de acceso y el sector de La Gruta ha sufrido racionamiento de agua por la Quebrada La Manguala.",
+    "id": "m2-21136-M7131503",
+    "veredicto": "con reservas",
+    "puntaje": 5,
+    "frase": "Sector con problemas de agua y sin vigilancia, pero buen transporte.",
+    "resumen": "El apartamento está en un sector con escasez de agua y sin portería/vigilancia, lo que afecta la seguridad y comodidad. Sin embargo, tiene buen acceso a comercio y transporte público.",
     "a_favor": [
-     "Cercano a supermercados y colegios",
-     "Parqueadero disponible",
-     "Transporte público a estaciones de metro"
+     "Cercano a comercio y servicios esenciales.",
+     "Buen transporte público con rutas frecuentes.",
+     "Ascensor y parqueadero."
     ],
     "en_contra": [
-     "No menciona portería ni vigilancia",
-     "Barrio con problemas de acceso y trancones",
-     "Sector con racionamiento de agua por quebrada"
+     "No tiene portería ni vigilancia.",
+     "Sector con problemas de escasez de agua (Quebrada La Manguala).",
+     "Barrio con trancones y lejos del centro."
     ],
     "preguntar": [
-     "¿El edificio cuenta con portería o vigilancia?",
-     "¿Cuál es el estado actual del suministro de agua en el sector?",
-     "¿El anuncio sigue disponible?"
+     "¿El edificio ha tenido problemas de racionamiento de agua?",
+     "¿Existe alguna alternativa de seguridad en el edificio?",
+     "¿El parqueadero es propio o comunal?"
     ],
-    "transporte": "El sector de La Gruta en San Antonio de Prado está bien conectado con el sistema de transporte público de Medellín, con varias rutas de autobús que ofrecen acceso a diferentes estaciones del metro y al centro de la ciudad.",
-    "fecha": "2026-11-25T03:09-05:00"
+    "transporte": "El sector de La Gruta está bien conectado con varias rutas de bus que llegan a estaciones del Metro como La Estrella (1h 3min) y Aguacatala (10min), y al Centro de Medellín (45min).",
+    "fecha": "2026-11-25T05:46-05:00"
    }
   },
-  "lw-estrella-9748": {
-   "huella": "lw-estrella-9748|m2-21136-M7236676|1900000",
+  "m2-21136-M7236676": {
+   "huella": "m2-21136-M7236676|1900000",
    "exp": {
     "ids": [
-     "lw-estrella-9748",
      "m2-21136-M7236676"
     ],
     "precio": 1900000,
@@ -580010,10 +579251,10 @@
      "referencias": [
       "Centro Educativo Mundo Ideal (111 m)",
       "Tulio Ospina (121 m)",
-      "Institucion Educativa José Antonio Galán (160 m)"
+      "Institucion Educativa José Antonio Galán (161 m)"
      ],
      "quebradas": [
-      "Quebrada Palosanto (164 m)"
+      "Quebrada Palosanto (165 m)"
      ],
      "celda": "6.120,-75.636"
     },
@@ -580032,15 +579273,6 @@
     ],
     "tour": null,
     "versiones": [
-     {
-      "fuente": "Inmobiliaria La Estrella",
-      "url": "https://www.inmobiliarialaestrella.com/detalle-propiedad/apartamento-enarriendo-en-la-estrella-9748",
-      "disponible": true,
-      "publicado": null,
-      "modificado": null,
-      "anunciante": "Inmobiliaria La Estrella",
-      "tel": "6042500646"
-     },
      {
       "fuente": "Metrocuadrado",
       "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-la-estrella-la-estrella-3-habitaciones-2-banos/21136-M7236676",
@@ -580067,11 +579299,16 @@
      "21136",
      "9748"
     ],
-    "alias": [],
+    "alias": [
+     [
+      "m2-21136-M7236676",
+      "lw-estrella-9748"
+     ]
+    ],
     "ubicacion": {
      "tipo": "de la ficha",
      "lat": 6.1189914,
-     "lon": -75.6360515,
+     "lon": -75.63605,
      "osm": {
       "barrio": null,
       "via": "Calle 100",
@@ -580148,7 +579385,7 @@
       },
       {
        "nombre": "Institucion Educativa José Antonio Galán",
-       "m": 160
+       "m": 161
       },
       {
        "nombre": "Colegio Colombo Frances",
@@ -580164,7 +579401,7 @@
      "quebradas": [
       {
        "nombre": "Quebrada Palosanto",
-       "m": 164
+       "m": 165
       }
      ]
     },
@@ -580175,41 +579412,40 @@
       1900000
      ]
     ],
-    "fecha": "2026-11-25T03:07-05:00",
+    "fecha": "2026-11-25T05:45-05:00",
     "alertas": [
      "El Metro La Estrella queda a 5.7 km por vía: no es caminable."
     ]
    },
    "opinion": {
-    "id": "lw-estrella-9748",
+    "id": "m2-21136-M7236676",
     "veredicto": "recomendable",
     "puntaje": 8,
-    "frase": "Unidad cerrada con portería y piscina, buen transporte.",
-    "resumen": "Apartamento en unidad cerrada con portería 24h, vigilancia y piscina. El sector tiene riesgos de desbordamiento de quebradas, pero el conjunto es seguro y bien ubicado con acceso a transporte público.",
+    "frase": "Unidad cerrada con vigilancia y piscina, buen transporte y servicios.",
+    "resumen": "Este apartamento en unidad cerrada cumple con las prioridades de seguridad y servicios, ofreciendo portería 24 horas, vigilancia y piscina. El sector tiene buen acceso a comercio y transporte público, aunque hay riesgo de quebradas.",
     "a_favor": [
-     "Unidad cerrada con portería y vigilancia 24h",
-     "Piscina y zonas comunes",
-     "Cercano a colegios y transporte público"
+     "Unidad cerrada con portería y vigilancia 24 horas.",
+     "Cuenta con piscina, salón social y zonas verdes.",
+     "Cercano a servicios esenciales y transporte público."
     ],
     "en_contra": [
-     "Riesgo de desbordamiento de Quebrada Palosanto",
-     "Lejos del metro para ir a pie",
-     "Incidente de fuga de gas en inmediaciones del conjunto"
+     "Cercanía a Quebrada Palosanto con riesgo de desbordamiento.",
+     "El Metro La Estrella no es caminable.",
+     "No se encontraron reseñas de residentes sobre el conjunto."
     ],
     "preguntar": [
-     "¿Ha tenido el edificio problemas con crecientes de la Quebrada Palosanto?",
-     "¿Qué medidas de seguridad se implementaron tras la fuga de gas?",
-     "¿Cuál es la frecuencia de las rutas de bus mencionadas?"
+     "¿El edificio ha tenido problemas con la Quebrada Palosanto?",
+     "¿Cuál es la frecuencia de las rutas de bus a la estación del Metro?",
+     "¿Hay parqueadero para visitantes?"
     ],
-    "transporte": "El sector está bien conectado con rutas de bus que pasan por la Calle 100 y llegan a la estación La Estrella del Metro, facilitando el acceso al centro de Medellín.",
-    "fecha": "2026-11-25T03:09-05:00"
+    "transporte": "El sector está bien conectado con rutas de bus que pasan por la Calle 100 y llegan a la estación La Estrella del Metro, facilitando el acceso al centro de Medellín (aprox. 21 min en metro).",
+    "fecha": "2026-11-25T05:46-05:00"
    }
   },
-  "lw-estrella-9750": {
-   "huella": "lw-estrella-9750|m2-21136-M7238758|1900000",
+  "m2-21136-M7238758": {
+   "huella": "m2-21136-M7238758|1900000",
    "exp": {
     "ids": [
-     "lw-estrella-9750",
      "m2-21136-M7238758"
     ],
     "precio": 1900000,
@@ -580250,15 +579486,6 @@
     "tour": null,
     "versiones": [
      {
-      "fuente": "Inmobiliaria La Estrella",
-      "url": "https://www.inmobiliarialaestrella.com/detalle-propiedad/apartamento-enarriendo-en-itagui-9750",
-      "disponible": true,
-      "publicado": null,
-      "modificado": null,
-      "anunciante": "Inmobiliaria La Estrella",
-      "tel": "6042500646"
-     },
-     {
       "fuente": "Metrocuadrado",
       "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-itagui-itagui-2-habitaciones-2-banos/21136-M7238758",
       "disponible": true,
@@ -580284,11 +579511,16 @@
      "21136",
      "9750"
     ],
-    "alias": [],
+    "alias": [
+     [
+      "m2-21136-M7238758",
+      "lw-estrella-9750"
+     ]
+    ],
     "ubicacion": {
      "tipo": "de la ficha",
-     "lat": 6.178539199999999,
-     "lon": -75.6355184,
+     "lat": 6.1785393,
+     "lon": -75.63552,
      "osm": {
       "barrio": null,
       "via": "Carrera 54D",
@@ -580359,7 +579591,7 @@
       },
       {
        "nombre": "Tienda Memo",
-       "m": 540
+       "m": 539
       },
       {
        "nombre": "Carnes la Ilusión",
@@ -580385,7 +579617,7 @@
       },
       {
        "nombre": "Escuela de Música El Limonar",
-       "m": 494
+       "m": 493
       },
       {
        "nombre": "I.E Esteban Ochoa",
@@ -580427,316 +579659,94 @@
       1900000
      ]
     ],
-    "fecha": "2026-11-25T03:07-05:00",
+    "fecha": "2026-11-25T05:45-05:00",
     "alertas": [
      "La Quebrada Doña María pasa a 77 m: pregunta si el edificio ha tenido problemas con crecientes.",
      "Al Metro Sabaneta son 52 min a pie (3.9 km): toca bus o carro."
     ]
    },
    "opinion": {
-    "id": "lw-estrella-9750",
+    "id": "m2-21136-M7238758",
     "veredicto": "con reservas",
     "puntaje": 6,
-    "frase": "Unidad cerrada con piscina, pero con riesgo de inundación.",
-    "resumen": "Apartamento en unidad cerrada con portería, vigilancia y piscina. El sector presenta alto riesgo de inundaciones y deslizamientos por la Quebrada Doña María, aunque hay monitoreo. El conjunto ha tenido quejas de incumplimiento en entregas.",
+    "frase": "Unidad con vigilancia, pero con riesgo de quebrada y quejas de constructora.",
+    "resumen": "El apartamento está en una unidad cerrada con vigilancia y piscina, lo que cumple con las prioridades. Sin embargo, la cercanía a la Quebrada Doña María presenta riesgo de inundaciones y la constructora ha tenido quejas de incumplimiento.",
     "a_favor": [
-     "Unidad cerrada con portería y vigilancia",
-     "Piscina y zonas comunes",
-     "Cercano a comercio, colegios y transporte público"
+     "Unidad cerrada con portería y vigilancia 24 horas.",
+     "Cuenta con piscina y otras zonas comunes.",
+     "Cercano a comercio y transporte público."
     ],
     "en_contra": [
-     "Alto riesgo de inundaciones y deslizamientos por quebrada",
-     "Quejas de incumplimiento de constructora en el conjunto",
-     "Metro Sabaneta lejos para ir a pie"
+     "Cercanía a Quebrada Doña María con riesgo de desbordamiento e inundaciones.",
+     "Quejas de incumplimiento de la constructora.",
+     "El Metro Sabaneta no es caminable."
     ],
     "preguntar": [
-     "¿Ha tenido el edificio problemas con crecientes de la Quebrada Doña María?",
-     "¿Se han resuelto las quejas de incumplimiento de la constructora?",
-     "¿Cuál es la frecuencia de las rutas de bus mencionadas?"
+     "¿El edificio ha tenido problemas con la Quebrada Doña María?",
+     "¿Se han resuelto las quejas de la constructora?",
+     "¿Cuál es la frecuencia de las rutas de bus a la estación del Metro?"
     ],
-    "transporte": "El sector está bien conectado por diversas rutas de autobús que permiten el acceso a las estaciones de metro de Sabaneta e Itagüí, facilitando el desplazamiento hacia el centro de Medellín.",
-    "fecha": "2026-11-25T03:09-05:00"
+    "transporte": "El sector está bien conectado por diversas rutas de autobús que permiten el acceso a las estaciones de metro de Sabaneta (14-19 min a pie a paradas cercanas) e Itagüí, facilitando el desplazamiento hacia el centro de Medellín (12-16 min en bus).",
+    "fecha": "2026-11-25T05:46-05:00"
    }
   },
-  "sfm-survivienda-2378": {
-   "huella": "sfm-survivienda-2378|2000000",
+  "lw-estrella-7164": {
+   "huella": "lw-estrella-7164|1650000",
    "exp": {
     "ids": [
-     "sfm-survivienda-2378"
+     "lw-estrella-7164"
     ],
-    "precio": 2000000,
+    "precio": 1650000,
     "hab": 3,
     "banos": 2,
-    "area": 75,
+    "area": 55,
     "estrato": 3,
-    "municipio": "Envigado",
-    "barrio_portal": "Mesa",
-    "v": 6,
-    "barrio": "Mesa",
-    "sector": {
-     "nombre": null,
-     "via": null,
-     "referencias": [],
-     "quebradas": [],
-     "celda": null
-    },
-    "sector_en_texto": null,
-    "texto_dice_otro_barrio": null,
-    "pin_en_otro_barrio": null,
-    "conjunto": null,
-    "conjunto_origen": null,
-    "disponible": true,
-    "publicado": null,
-    "modificado": null,
-    "en_pagina_desde": "2026-11-16",
-    "video": true,
-    "videos": [
-     "https://youtu.be/RNDtEqqFOmU"
-    ],
-    "tour": null,
-    "versiones": [
-     {
-      "fuente": "Survivienda",
-      "url": "https://www.survivienda.com/inmueble/2378",
-      "disponible": true,
-      "publicado": null,
-      "modificado": null,
-      "anunciante": "Survivienda",
-      "tel": "6044489240"
-     }
-    ],
-    "rasgos": {
-     "porteria": false,
-     "vigilancia": false,
-     "unidad_cerrada": false,
-     "en_casa": false,
-     "ascensor": false,
-     "piscina": false,
-     "parqueadero": false,
-     "loma": false,
-     "dice_venta": false
-    },
-    "desc": "",
-    "codigos": [],
-    "alias": [],
-    "ubicacion": {
-     "tipo": "sin",
-     "lat": null,
-     "lon": null
-    },
-    "metro": null,
-    "recorridos": null,
-    "cerca": null,
-    "barrio_ficha": {
-     "nombre": "Mesa",
-     "seguridad": "sin datos",
-     "recomendacion": "con precaución",
-     "terreno": "ondulado",
-     "razon": "Hay muy poca información para evaluarlo.",
-     "negativos": [
-      "Sin noticias ni opiniones; zonas en ladera"
-     ],
-     "positivos": [
-      "Comuna 6, cerca de El Chinguí y La Inmaculada",
-      "Acceso a City Plaza y a la Transversal Intermedia"
-     ]
-    },
-    "hist": [
-     [
-      "2026-11-16",
-      2000000
-     ]
-    ],
-    "fecha": "2026-11-25T03:07-05:00",
-    "alertas": [
-     "El anuncio no menciona portería, vigilancia ni unidad cerrada."
-    ]
-   },
-   "opinion": {
-    "id": "sfm-survivienda-2378",
-    "veredicto": "no recomendable",
-    "puntaje": 3,
-    "frase": "No disponible, sin portería, ubicación no confirmada.",
-    "resumen": "El anuncio no está disponible. Además, no menciona portería ni vigilancia y la ubicación no está confirmada, lo que lo hace no recomendable.",
-    "a_favor": [],
-    "en_contra": [
-     "Anuncio no disponible",
-     "No menciona portería ni vigilancia",
-     "Ubicación no confirmada"
-    ],
-    "preguntar": [
-     "¿El apartamento sigue disponible?",
-     "¿Cuál es la dirección exacta del inmueble?",
-     "¿El edificio cuenta con portería o vigilancia?"
-    ],
-    "transporte": "No se dispone de información de transporte detallada debido a la ubicación no confirmada del inmueble.",
-    "fecha": "2026-11-25T03:09-05:00"
-   }
-  },
-  "rt-p627dd5": {
-   "huella": "rt-p627dd5|sfm-survivienda-4712|1700000",
-   "exp": {
-    "ids": [
-     "sfm-survivienda-4712",
-     "rt-p627dd5"
-    ],
-    "precio": 1700000,
-    "hab": 2,
-    "banos": 1,
-    "area": 65,
-    "estrato": 2,
-    "municipio": "Envigado",
-    "barrio_portal": "El Salado",
-    "v": 6,
-    "barrio": "El Salado",
-    "sector": {
-     "nombre": null,
-     "via": null,
-     "referencias": [],
-     "quebradas": [],
-     "celda": null
-    },
-    "sector_en_texto": null,
-    "texto_dice_otro_barrio": null,
-    "pin_en_otro_barrio": null,
-    "conjunto": null,
-    "conjunto_origen": null,
-    "disponible": true,
-    "publicado": null,
-    "modificado": null,
-    "en_pagina_desde": "2026-11-14",
-    "video": null,
-    "videos": [],
-    "tour": null,
-    "versiones": [
-     {
-      "fuente": "Survivienda",
-      "url": "https://www.survivienda.com/inmueble/4712",
-      "disponible": true,
-      "publicado": null,
-      "modificado": null,
-      "anunciante": "Survivienda",
-      "tel": "6044489240"
-     }
-    ],
-    "rasgos": {
-     "porteria": false,
-     "vigilancia": false,
-     "unidad_cerrada": false,
-     "en_casa": false,
-     "ascensor": false,
-     "piscina": false,
-     "parqueadero": false,
-     "loma": false,
-     "dice_venta": false
-    },
-    "desc": "",
-    "codigos": [],
-    "alias": [],
-    "ubicacion": {
-     "tipo": "sin",
-     "lat": null,
-     "lon": null
-    },
-    "metro": null,
-    "recorridos": null,
-    "cerca": null,
-    "barrio_ficha": {
-     "nombre": "El Salado",
-     "seguridad": "media",
-     "recomendacion": "con precaución",
-     "terreno": "lomas fuertes",
-     "razon": "Lomas fuertes, deslizamientos documentados, cercanía a La Ayurá y hechos aislados en la zona natural; solo si tienes carro y revisas bien la ubicación.",
-     "negativos": [
-      "Deslizamiento que afectó viviendas durante lluvias",
-      "Robo e intimidación a caminantes en la zona boscosa (fecha no confirmada)",
-      "Agosto de 2025: hallado asesinado 'Peio Neio' bajo un puente de la vereda El Salado sobre la quebrada La Ayurá (riña con alcohol, responsables capturados)"
-     ],
-     "positivos": [
-      "Cerca del Parque Ecológico El Salado",
-      "Rutas integradas al Metro"
-     ]
-    },
-    "hist": [
-     [
-      "2026-11-16",
-      1700000
-     ]
-    ],
-    "fecha": "2026-11-25T03:07-05:00",
-    "alertas": [
-     "El anuncio no menciona portería, vigilancia ni unidad cerrada."
-    ]
-   },
-   "opinion": {
-    "id": "rt-p627dd5",
-    "veredicto": "no recomendable",
-    "puntaje": 2,
-    "frase": "No disponible, sin portería, ubicación no confirmada.",
-    "resumen": "El anuncio no está disponible. Además, no menciona portería ni vigilancia y la ubicación no está confirmada, lo que lo hace no recomendable.",
-    "a_favor": [],
-    "en_contra": [
-     "Anuncio no disponible",
-     "No menciona portería ni vigilancia",
-     "Ubicación no confirmada"
-    ],
-    "preguntar": [
-     "¿El apartamento sigue disponible?",
-     "¿Cuál es la dirección exacta del inmueble?",
-     "¿El edificio cuenta con portería o vigilancia?"
-    ],
-    "transporte": "No se dispone de información de transporte detallada debido a la ubicación no confirmada del inmueble.",
-    "fecha": "2026-11-25T03:09-05:00"
-   }
-  },
-  "lw-estrella-8561": {
-   "huella": "lw-estrella-8561|1200000",
-   "exp": {
-    "ids": [
-     "lw-estrella-8561"
-    ],
-    "precio": 1200000,
-    "hab": 0,
-    "banos": 1,
-    "area": 25,
-    "estrato": 3,
-    "municipio": "Itagüí",
+    "municipio": "La Estrella",
     "barrio_portal": null,
     "v": 6,
     "barrio": null,
     "sector": {
-     "nombre": "Samaria",
-     "via": "Calle 34",
+     "nombre": null,
+     "via": "Calle 100d",
      "referencias": [
-      "Centro Educativo San Nicolás (60 m)",
-      "Centro Educativo Galilei (74 m)",
-      "Centro Educativo Hispanoamericano (166 m)"
+      "Centro Educativo Mundo Ideal (351 m)"
      ],
      "quebradas": [
-      "Quebrada La Ospina (182 m)"
+      "Río Medellín (98 m)",
+      "Quebrada La Montañita (107 m)",
+      "Quebrada La Polvosa (293 m)"
      ],
-     "celda": "6.168,-75.624"
+     "celda": "6.116,-75.632"
     },
-    "sector_en_texto": "Samaria",
+    "sector_en_texto": null,
     "texto_dice_otro_barrio": null,
     "pin_en_otro_barrio": null,
     "conjunto": null,
     "conjunto_origen": null,
     "disponible": true,
-    "publicado": null,
+    "publicado": "2026-11-18",
     "modificado": null,
     "en_pagina_desde": "2026-11-16",
     "video": true,
     "videos": [
-     "https://youtu.be/BQReupd5CLE"
+     "https://youtu.be/t4YBXLhq47g",
+     "https://youtu.be/V41M-sa9mKI",
+     "https://youtu.be/W31zrMD32Fs",
+     "https://youtu.be/jyHL8bUn-2s",
+     "https://youtu.be/t6SL2F9of90",
+     "https://youtu.be/BQReupd5CLE",
+     "https://youtu.be/ldVPT2YMui8",
+     "https://youtu.be/tshzFkVsb_8",
+     "https://youtu.be/5VK8C1xE6Ik",
+     "https://youtu.be/fn37yYKMwII"
     ],
     "tour": null,
     "versiones": [
      {
       "fuente": "Inmobiliaria La Estrella",
-      "url": "https://www.inmobiliarialaestrella.com/detalle-propiedad/apartaestudio-enarriendo-en-itagui-8561",
+      "url": "https://www.inmobiliarialaestrella.com/detalle-propiedad/apartamento-enarriendo-en-la-estrella-7164",
       "disponible": true,
-      "publicado": null,
+      "publicado": "2026-11-18",
       "modificado": null,
       "anunciante": "Inmobiliaria La Estrella",
       "tel": "6042500646"
@@ -580748,564 +579758,121 @@
      "unidad_cerrada": false,
      "en_casa": false,
      "ascensor": false,
-     "piscina": false,
-     "parqueadero": false,
-     "loma": false,
-     "dice_venta": false
-    },
-    "desc": "<strong>Apartaestudio en Arriendo – Sector Samaria, Itagüí (Piso 1)</strong><br>Apartaestudio de aproximadamente 25 m², ubicado en el sector Samaria, en Itagüí. Ideal para quienes buscan un espacio práctico, cómodo y funcional, con una distribución que aprovecha cada rincón.La propiedad es en un solo ambiente y cuenta con cocina semintegral con red de gas, 1 clóset, 1 baño con ducha eléctrica, cuarto útil y zona de ropas, ofreciendo comodidad y practicidad para el día a día.<br><strong>Nota: El inmueble está destinado únicamente para uso como apartaestudio. No se permite para uso comercial.</strong><br><br><strong>CODIGO: 8561</strong>",
-    "codigos": [
-     "8561"
-    ],
-    "alias": [],
-    "ubicacion": {
-     "tipo": "exacta",
-     "lat": 6.1674013,
-     "lon": -75.6240203,
-     "osm": {
-      "barrio": null,
-      "via": "Calle 34",
-      "municipio": "Itagüí"
-     }
-    },
-    "metro": {
-     "estacion": "Sabaneta",
-     "m_linea_recta": 1383
-    },
-    "recorridos": [
-     {
-      "lugar": "Metro Sabaneta",
-      "linea_recta_km": 1.4,
-      "pie_km": 1.9,
-      "pie_min": 25,
-      "carro_km": 3.1,
-      "carro_min": 6
-     },
-     {
-      "lugar": "Metro La Estrella",
-      "linea_recta_km": 1.6,
-      "pie_km": 2.4,
-      "pie_min": 32,
-      "carro_km": 4.8,
-      "carro_min": 7
-     },
-     {
-      "lugar": "Parque principal de Itagüí",
-      "linea_recta_km": 1.7,
-      "pie_km": 1.9,
-      "pie_min": 26,
-      "carro_km": 2.0,
-      "carro_min": 4
-     },
-     {
-      "lugar": "Plaza Arrayanes",
-      "linea_recta_km": 0.5,
-      "pie_km": 0.6,
-      "pie_min": 9,
-      "carro_km": 0.7,
-      "carro_min": 2
-     },
-     {
-      "lugar": "Hospital del sur",
-      "linea_recta_km": 0.3,
-      "pie_km": 0.3,
-      "pie_min": 4,
-      "carro_km": 0.3,
-      "carro_min": 1
-     },
-     {
-      "lugar": "Centro de Medellín (Parque Berrío)",
-      "linea_recta_km": 11.1,
-      "carro_km": 13.4,
-      "carro_min": 17
-     },
-     {
-      "lugar": "El Poblado (estación Poblado)",
-      "linea_recta_km": 7.1,
-      "carro_km": 8.8,
-      "carro_min": 11
-     }
-    ],
-    "cerca": {
-     "supermercados": [
-      {
-       "nombre": "Dollarcity",
-       "m": 515
-      },
-      {
-       "nombre": "Olímpica San Pío",
-       "m": 530
-      }
-     ],
-     "centros_comerciales": [
-      {
-       "nombre": "Deposito san pio",
-       "m": 363
-      },
-      {
-       "nombre": "Tienda D1",
-       "m": 433
-      },
-      {
-       "nombre": "Plaza Arrayanes",
-       "m": 529
-      },
-      {
-       "nombre": "Complex ditaires",
-       "m": 592
-      },
-      {
-       "nombre": "Éxito",
-       "m": 904
-      }
-     ],
-     "salud": [
-      {
-       "nombre": "Hospital del sur",
-       "m": 309
-      },
-      {
-       "nombre": "Hospital Del Sur",
-       "m": 349
-      },
-      {
-       "nombre": "HOSPITAL",
-       "m": 377
-      }
-     ],
-     "colegios": [
-      {
-       "nombre": "Centro Educativo San Nicolás",
-       "m": 60
-      },
-      {
-       "nombre": "Centro Educativo Galilei",
-       "m": 74
-      },
-      {
-       "nombre": "Centro Educativo Hispanoamericano",
-       "m": 166
-      },
-      {
-       "nombre": "Institución Educativa Isolda Echavarria",
-       "m": 229
-      },
-      {
-       "nombre": "Escuela Malta Cervunion",
-       "m": 244
-      }
-     ],
-     "parques": [
-      {
-       "nombre": "Parque Ditaires",
-       "m": 407
-      }
-     ],
-     "paraderos": 0,
-     "carcel": null,
-     "nombres_cercanos": [],
-     "quebradas": [
-      {
-       "nombre": "Quebrada La Ospina",
-       "m": 182
-      }
-     ]
-    },
-    "barrio_ficha": null,
-    "hist": [
-     [
-      "2026-11-16",
-      1200000
-     ]
-    ],
-    "fecha": "2026-11-25T03:07-05:00",
-    "alertas": [
-     "El anuncio no menciona portería, vigilancia ni unidad cerrada."
-    ]
-   }
-  },
-  "lw-estrella-9682": {
-   "huella": "lw-estrella-9682|2000000",
-   "exp": {
-    "ids": [
-     "lw-estrella-9682"
-    ],
-    "precio": 2000000,
-    "hab": 3,
-    "banos": 2,
-    "area": 78,
-    "estrato": 3,
-    "municipio": "Medellín",
-    "barrio_portal": "San Antonio de Prado",
-    "v": 6,
-    "barrio": "San Antonio de Prado",
-    "sector": {
-     "nombre": null,
-     "via": "Calle 42A Sur",
-     "referencias": [
-      "Institución Educativa Manuel J Betancur (130 m)",
-      "Merque Paisa (137 m)",
-      "supermercado maxioferta prado 1 (179 m)"
-     ],
-     "quebradas": [
-      "Quebrada La Manguala (171 m)"
-     ],
-     "celda": "6.184,-75.656"
-    },
-    "sector_en_texto": null,
-    "texto_dice_otro_barrio": null,
-    "pin_en_otro_barrio": null,
-    "conjunto": null,
-    "conjunto_origen": null,
-    "disponible": true,
-    "publicado": "2026-11-04",
-    "modificado": null,
-    "en_pagina_desde": "2026-11-16",
-    "video": false,
-    "videos": [],
-    "tour": null,
-    "versiones": [
-     {
-      "fuente": "Inmobiliaria La Estrella",
-      "url": "https://www.inmobiliarialaestrella.com/detalle-propiedad/apartamento-enarriendo-en-san-antonio-de-prado-9682",
-      "disponible": true,
-      "publicado": "2026-11-04",
-      "modificado": null,
-      "anunciante": "Inmobiliaria La Estrella",
-      "tel": "6042500646"
-     }
-    ],
-    "rasgos": {
-     "porteria": false,
-     "vigilancia": false,
-     "unidad_cerrada": false,
-     "en_casa": false,
-     "ascensor": true,
      "piscina": false,
      "parqueadero": true,
      "loma": false,
      "dice_venta": false
     },
-    "desc": "<strong>Apartamento en Arriendo – San Antonio de Prado, Sector La Gruta (Piso 3)</strong><br>Apartamento de aproximadamente 78 m², ubicado en el sector La Gruta de San Antonio de Prado, al frente del parqueadero y Vivero El Sevillano, en un sector tranquilo y de fácil acceso. La propiedad cuenta con sala comedor, cocina integral con red de gas, 3 alcobas, 3 closets, 2 baños cabinados y zona de ropas, ofreciendo espacios cómodos y bien distribuidos para toda la familia.<strong>El inmueble no cuenta con parqueadero y el edificio no cuenta con ascensor.</strong><br><br><strong>CODIGO: 9682</strong><br>",
-    "codigos": [
-     "9682"
-    ],
+    "desc": "Este hermosa casa unifamiliar tiene 80 m; se encuentra ubicada en Belén Las Violetas, Medellín Ant, detrás de la Universidad de Medellín, en una zona estratégica con excelente ubicación, cerca de universidades, centros comerciales, supermercados y rutas integradas del Metro. Además, cuenta con fácil acceso hacia la Avenida 80, Calle 30 y Metroplús, brindando comodidad y conectividad para toda la familia. Cuenta con una distribución cómoda y funcional. En el primer nivel dispone de sala comedor, cocina semi integral y una habitación con clóset y baño privado y espacio de acceso al frente de la vivienda con posibilidad de parqueo para vehículo En el segundo nivel encontrarás dos habitaciones, ",
+    "codigos": [],
     "alias": [],
     "ubicacion": {
      "tipo": "de la ficha",
-     "lat": 6.1840682,
-     "lon": -75.6548482,
+     "lat": 6.117456799999999,
+     "lon": -75.6322718,
      "osm": {
       "barrio": null,
-      "via": "Calle 42A Sur",
-      "municipio": "Medellín"
+      "via": "Calle 100d",
+      "municipio": "La Tablaza"
      }
     },
     "metro": {
      "estacion": "La Estrella",
-     "m_linea_recta": 4695
+     "m_linea_recta": 3982
     },
     "recorridos": [
      {
       "lugar": "Metro La Estrella",
-      "linea_recta_km": 4.7,
-      "carro_km": 7.5,
-      "carro_min": 15
+      "linea_recta_km": 4.0,
+      "carro_km": 6.1,
+      "carro_min": 8
      },
      {
       "lugar": "Metro Sabaneta",
-      "linea_recta_km": 5.2,
-      "carro_km": 8.4,
-      "carro_min": 17
+      "linea_recta_km": 4.8,
+      "carro_km": 7.4,
+      "carro_min": 10
      },
      {
-      "lugar": "Parque principal de San Antonio de Prado",
-      "linea_recta_km": 0.2,
-      "pie_km": 0.3,
-      "pie_min": 4,
-      "carro_km": 0.4,
-      "carro_min": 1
+      "lugar": "Parque principal de La Estrella",
+      "linea_recta_km": 4.6,
+      "carro_km": 6.1,
+      "carro_min": 11
      },
      {
-      "lugar": "Centro Comercial Venecia",
-      "linea_recta_km": 3.0,
+      "lugar": "Mall Antares",
+      "linea_recta_km": 2.8,
       "pie_km": 4.0,
       "pie_min": 53,
-      "carro_km": 4.4,
-      "carro_min": 9
+      "carro_km": 4.1,
+      "carro_min": 8
      },
      {
-      "lugar": "Hospital La Estrella",
-      "linea_recta_km": 3.4,
-      "carro_km": 5.1,
+      "lugar": "Hospital Venancio Díaz Díaz",
+      "linea_recta_km": 3.6,
+      "carro_km": 7.4,
       "carro_min": 11
      },
      {
       "lugar": "Centro de Medellín (Parque Berrío)",
-      "linea_recta_km": 12.1,
-      "carro_km": 18.5,
-      "carro_min": 28
+      "linea_recta_km": 16.4,
+      "carro_km": 19.8,
+      "carro_min": 23
      },
      {
       "lugar": "El Poblado (estación Poblado)",
-      "linea_recta_km": 9.0,
-      "carro_km": 13.9,
-      "carro_min": 22
+      "linea_recta_km": 12.1,
+      "carro_km": 15.2,
+      "carro_min": 17
      }
     ],
     "cerca": {
      "supermercados": [
       {
-       "nombre": "Merque Paisa",
-       "m": 137
+       "nombre": "Justo y Bueno",
+       "m": 551
       },
       {
-       "nombre": "supermercado maxioferta prado 1",
-       "m": 179
-      },
-      {
-       "nombre": "maxioferta prado 1",
-       "m": 181
-      },
-      {
-       "nombre": "supermercadoo maxioferta prado 3",
-       "m": 260
-      },
-      {
-       "nombre": "supermercado maxioferta prado 3",
-       "m": 262
+       "nombre": "Merkespress",
+       "m": 590
       }
      ],
      "centros_comerciales": [],
      "salud": [],
      "colegios": [
       {
-       "nombre": "Institución Educativa Manuel J Betancur",
-       "m": 130
+       "nombre": "Centro Educativo Mundo Ideal",
+       "m": 351
       },
       {
-       "nombre": "Institución Educativa San Antonio de Prado",
-       "m": 183
+       "nombre": "Colegio Colombo Frances",
+       "m": 432
       },
       {
-       "nombre": "Institución Educativa Manuel J. Betancur",
-       "m": 290
+       "nombre": "Tulio Ospina",
+       "m": 508
       },
       {
-       "nombre": "Colegio Empresarial",
-       "m": 497
+       "nombre": "Institucion Educativa José Antonio Galán",
+       "m": 603
       }
      ],
-     "parques": [
-      {
-       "nombre": "Parque Principal San Antonio de Prado",
-       "m": 206
-      },
-      {
-       "nombre": "Parque El Paraíso",
-       "m": 738
-      }
-     ],
-     "paraderos": 3,
+     "parques": [],
+     "paraderos": 0,
      "carcel": null,
      "nombres_cercanos": [],
      "quebradas": [
       {
-       "nombre": "Quebrada La Manguala",
-       "m": 171
-      }
-     ]
-    },
-    "barrio_ficha": {
-     "nombre": "San Antonio de Prado",
-     "seguridad": "media",
-     "recomendacion": "con precaución",
-     "terreno": "lomas fuertes",
-     "razon": "Es económico y sin violencia recurrente, pero el acceso es su gran problema: en enero de 2026 hubo trayectos de más de 3 horas por el cierre de una vía.",
-     "negativos": [
-      "Lejos del centro y con trancones en la vía de acceso",
-      "Crecimiento urbano acelerado y construcción ilegal",
-      "Homicidios sicariales puntuales"
-     ],
-     "positivos": [
-      "Arriendos bajos y unidades nuevas",
-      "Ambiente de pueblo",
-      "Pocos homicidios en general (el primero de 2025 fue a finales de febrero)"
-     ]
-    },
-    "hist": [
-     [
-      "2026-11-16",
-      2000000
-     ]
-    ],
-    "fecha": "2026-11-25T03:07-05:00",
-    "alertas": [
-     "El anuncio no menciona portería, vigilancia ni unidad cerrada.",
-     "El Metro La Estrella queda a 7.5 km por vía: no es caminable."
-    ]
-   }
-  },
-  "lw-estrella-9707": {
-   "huella": "lw-estrella-9707|1500000",
-   "exp": {
-    "ids": [
-     "lw-estrella-9707"
-    ],
-    "precio": 1500000,
-    "hab": 1,
-    "banos": 1,
-    "area": 30,
-    "estrato": 3,
-    "municipio": "Itagüí",
-    "barrio_portal": null,
-    "v": 6,
-    "barrio": null,
-    "sector": {
-     "nombre": "Valle Sur",
-     "via": null,
-     "referencias": [],
-     "quebradas": [],
-     "celda": null
-    },
-    "sector_en_texto": "Valle Sur",
-    "texto_dice_otro_barrio": null,
-    "pin_en_otro_barrio": null,
-    "conjunto": null,
-    "conjunto_origen": null,
-    "disponible": true,
-    "publicado": null,
-    "modificado": null,
-    "en_pagina_desde": "2026-11-16",
-    "video": false,
-    "videos": [],
-    "tour": null,
-    "versiones": [
-     {
-      "fuente": "Inmobiliaria La Estrella",
-      "url": "https://www.inmobiliarialaestrella.com/detalle-propiedad/apartaestudio-enarriendo-en-itagui-9707",
-      "disponible": true,
-      "publicado": null,
-      "modificado": null,
-      "anunciante": "Inmobiliaria La Estrella",
-      "tel": "6042500646"
-     }
-    ],
-    "rasgos": {
-     "porteria": false,
-     "vigilancia": false,
-     "unidad_cerrada": false,
-     "en_casa": false,
-     "ascensor": true,
-     "piscina": false,
-     "parqueadero": true,
-     "loma": false,
-     "dice_venta": false
-    },
-    "desc": "<strong>Apartaestudio en Arriendo – Valle Sur, Itagüí (Piso 3)</strong><br>Apartaestudio de aproximadamente 30 m², ubicada en el sector Valle Sur, en Itagüí, ideal para quienes buscan un espacio funcional y bien distribuido. Cuenta con sala comedor, cocina integral con red de gas,1 alcoba,1 baño cabinado, calentador y zona de ropas que ofrece espacio adicional para almacenamiento.<br><strong>Nota: La propiedad no cuenta con parqueadero ni ascensor.</strong><br><strong>Inmueble ideal para máximo 2 personas adultas o una pareja.</strong><br><strong>No se permiten mascotas grandes.</strong><br><br><strong>CODIGO: 9707</strong>",
-    "codigos": [
-     "9707"
-    ],
-    "alias": [],
-    "ubicacion": {
-     "tipo": "punto genérico (lo usan varias inmobiliarias)",
-     "lat": 6.1714218,
-     "lon": -75.6377359
-    },
-    "metro": {
-     "estacion": "La Estrella",
-     "m_linea_recta": 2426
-    },
-    "recorridos": null,
-    "cerca": {
-     "supermercados": [
-      {
-       "nombre": "minimercado",
-       "m": 201
+       "nombre": "Río Medellín",
+       "m": 98
       },
       {
-       "nombre": "Autoservicio el Peso Menos",
-       "m": 351
+       "nombre": "Quebrada La Montañita",
+       "m": 107
       },
       {
-       "nombre": "D1",
-       "m": 363
-      },
-      {
-       "nombre": "Justo y bueno",
-       "m": 514
-      },
-      {
-       "nombre": "Carnes la Ilusión",
-       "m": 521
-      }
-     ],
-     "centros_comerciales": [
-      {
-       "nombre": "Complex ditaires",
-       "m": 1025
-      },
-      {
-       "nombre": "Mall Bavaria",
-       "m": 1302
-      },
-      {
-       "nombre": "Centro Comercial Venecia",
-       "m": 1438
-      }
-     ],
-     "salud": [
-      {
-       "nombre": "Centro de Salud del Limonar",
-       "m": 1026
-      }
-     ],
-     "colegios": [
-      {
-       "nombre": "Sede Triana",
-       "m": 67
-      },
-      {
-       "nombre": "ESTEBAN OCHOA",
-       "m": 139
-      },
-      {
-       "nombre": "Centro Educativo Campestre Semillitas del Futuro",
-       "m": 302
-      },
-      {
-       "nombre": "Centro Educativo Arcoiris de Alegria",
-       "m": 387
-      },
-      {
-       "nombre": "Escuela San Fco",
-       "m": 457
-      }
-     ],
-     "parques": [
-      {
-       "nombre": "cancha",
-       "m": 297
-      },
-      {
-       "nombre": "Parque Ecologico El Pomal",
-       "m": 496
-      },
-      {
-       "nombre": "Parque de los Enamorados",
-       "m": 780
-      }
-     ],
-     "paraderos": 0,
-     "carcel": {
-      "nombre": "Carcel de Máxima Seguridad de Itagüí (EPC La Paz)",
-      "m": 763
-     },
-     "nombres_cercanos": [],
-     "quebradas": [
-      {
-       "nombre": "Quebrada La Limona",
-       "m": 238
+       "nombre": "Quebrada La Polvosa",
+       "m": 293
       }
      ]
     },
@@ -581313,15 +579880,39 @@
     "hist": [
      [
       "2026-11-16",
-      1500000
+      1650000
      ]
     ],
-    "fecha": "2026-11-25T03:07-05:00",
+    "fecha": "2026-11-25T05:45-05:00",
     "alertas": [
-     "Ubicación no confirmada: el mapa usa un punto genérico (lo usan varias inmobiliarias). Pide la dirección exacta.",
      "El anuncio no menciona portería, vigilancia ni unidad cerrada.",
-     "Hay una cárcel a 763 m (Carcel de Máxima Seguridad de Itagüí (EPC La Paz))."
+     "La Río Medellín pasa a 98 m: pregunta si el edificio ha tenido problemas con crecientes.",
+     "El Metro La Estrella queda a 6.1 km por vía: no es caminable."
     ]
+   },
+   "opinion": {
+    "id": "lw-estrella-7164",
+    "veredicto": "con reservas",
+    "puntaje": 4,
+    "frase": "Sin vigilancia y con riesgos de quebradas, pero buen presupuesto.",
+    "resumen": "El apartamento no ofrece portería ni vigilancia, y está cerca de quebradas con riesgo de inundaciones. Aunque el municipio ha implementado cámaras de seguridad, el sector tiene riesgos ambientales.",
+    "a_favor": [
+     "Dentro del presupuesto.",
+     "Municipio con cámaras de seguridad en La Tablaza.",
+     "Parqueadero disponible."
+    ],
+    "en_contra": [
+     "No tiene portería ni vigilancia.",
+     "Cercanía a quebradas con riesgo de inundaciones y deslizamientos.",
+     "Riesgo de ruido ambiental."
+    ],
+    "preguntar": [
+     "¿El edificio ha tenido problemas con crecientes del Río Medellín o quebradas cercanas?",
+     "¿Hay alguna medida de seguridad en el edificio?",
+     "¿Existen rutas de bus cercanas y sus frecuencias?"
+    ],
+    "transporte": "El sector está bien conectado con la estación La Estrella del Metro a través de diversas rutas de bus, lo que facilita el acceso al centro de Medellín en aproximadamente 13 minutos en metro.",
+    "fecha": "2026-11-25T05:46-05:00"
    }
   }
  },
@@ -587217,7 +585808,7 @@
  },
  "uso_ia": {
   "fecha": "2026-11-25",
-  "n": 2
+  "n": 3
  },
  "sectores": {
   "Medellín|celda|6.216,-75.604": {
