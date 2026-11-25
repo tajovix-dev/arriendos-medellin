@@ -679,6 +679,11 @@
   "lon": -75.5899287,
   "tipo": "zona"
  },
+ "Medellín|betania": {
+  "lat": 6.2432123,
+  "lon": -75.6202596,
+  "tipo": "zona"
+ },
  "Medellín|bolivariana": {
   "lat": 6.2470889,
   "lon": -75.5904222,
