@@ -1,77 +1,77 @@
 {
  "fincaraiz": {
   "medellin": {
-   "cursor": 18,
+   "cursor": 33,
    "paginas": 34,
    "ciclos": 23
   },
   "sabaneta": {
    "cursor": 1,
-   "paginas": 8,
-   "ciclos": 70
+   "paginas": 7,
+   "ciclos": 71
   },
   "envigado": {
    "cursor": 1,
    "paginas": 3,
-   "ciclos": 70
+   "ciclos": 71
   },
   "itagui": {
    "cursor": 1,
    "paginas": 5,
-   "ciclos": 70
+   "ciclos": 71
   },
   "la-estrella": {
    "cursor": 1,
    "paginas": 5,
-   "ciclos": 70
+   "ciclos": 71
   }
  },
  "rentola": {
   "sabaneta": {
-   "cursor": 1,
-   "paginas": 293,
+   "cursor": 26,
+   "paginas": 294,
    "ciclos": 24
   },
   "envigado": {
-   "cursor": 1,
-   "paginas": 410,
+   "cursor": 26,
+   "paginas": 407,
    "ciclos": 24
   },
   "itagui": {
-   "cursor": 1,
+   "cursor": 26,
    "paginas": 115,
    "ciclos": 24
   },
   "la-estrella": {
-   "cursor": 1,
+   "cursor": 26,
    "paginas": 55,
    "ciclos": 24
   }
  },
  "albertoalvarez": {
   "medellin": {
-   "cursor": 81,
-   "paginas": 115,
+   "cursor": 101,
+   "paginas": 116,
    "ciclos": 11
   },
   "sabaneta": {
-   "cursor": 1,
+   "cursor": 21,
    "paginas": 36,
    "ciclos": 35
   },
   "envigado": {
-   "cursor": 21,
+   "cursor": 41,
    "paginas": 48,
    "ciclos": 23
   },
   "itagui": {
    "cursor": 1,
-   "ciclos": 71,
+   "ciclos": 72,
    "paginas": 8
   },
   "la-estrella": {
    "cursor": 1,
-   "ciclos": 71,
+   "ciclos": 72,
    "paginas": 8
   }
  },
@@ -207,7 +207,7 @@
     [
      1998126,
      2000000,
-     33
+     32
     ]
    ],
    "apartaestudio/envigado": [
@@ -340,7 +340,7 @@
     [
      300000,
      1399999,
-     9
+     8
     ],
     [
      1400000,
@@ -360,7 +360,7 @@
     [
      1650000,
      1699999,
-     12
+     11
     ],
     [
      1700000,
@@ -390,7 +390,7 @@
     [
      1950000,
      2000000,
-     14
+     13
     ]
    ],
    "apartaestudio/la-estrella": [
@@ -403,13 +403,13 @@
   },
   "inicio": 0,
   "peticiones": 59,
-  "ciclos": 55
+  "ciclos": 56
  },
  "espaciourbano": {
   "listas": {
    "10001-1": {
     "paginas": 30,
-    "max": 1824190
+    "max": 1824215
    },
    "10001-4": {
     "paginas": 2,
@@ -425,7 +425,7 @@
    },
    "10002-1": {
     "paginas": 5,
-    "max": 1824119
+    "max": 1824212
    },
    "10002-4": {
     "paginas": 1,
@@ -441,14 +441,14 @@
    },
    "10000-1": {
     "paginas": 110,
-    "max": 1824201
+    "max": 1824219
    },
    "10000-4": {
     "paginas": 13,
     "max": 1824203
    }
   },
-  "ciclos": 56,
+  "ciclos": 57,
   "cursor": [
    0,
    1
@@ -2715,7 +2715,7 @@
   "inicializado": true
  },
  "nutibara": {
-  "ultima_descarga": 1795603137,
+  "ultima_descarga": 1795615211,
   "inicializado": true
  },
  "doomos": {
@@ -2737,7 +2737,7 @@
    "2026-11-21": 56,
    "2026-11-22": 6,
    "2026-11-23": 52,
-   "2026-11-24": 36
+   "2026-11-24": 56
   },
   "ids_fecha": [
    876853,
@@ -3201,6 +3201,7 @@
    899738,
    899748,
    899779,
+   899780,
    899825,
    899829,
    899839,
@@ -3210,15 +3211,34 @@
    899948,
    899949,
    899950,
+   899951,
    899954,
+   899955,
    899957,
+   899958,
+   899960,
+   899964,
    899965,
    899966,
    899967,
+   899969,
    899970,
    899972,
    899973,
    899976,
+   899977,
+   899980,
+   899981,
+   899988,
+   899991,
+   899992,
+   899993,
+   899996,
+   900002,
+   900004,
+   900005,
+   900010,
+   900012,
    900178,
    900179,
    900304,
@@ -3272,7 +3292,7 @@
     "-75.5912004"
    ]
   ],
-  "corridas": 56
+  "corridas": 57
  },
  "softinm": {
   "ok": true
@@ -3642,14 +3662,6 @@
      "lo": -75.55419359999999,
      "t": "573332610414",
      "w": "573332610414"
-    },
-    "9474959": {
-     "b": "Laureles",
-     "e": 5,
-     "la": 6.241459799999999,
-     "lo": -75.6025028,
-     "t": "573244290040",
-     "w": "573244290040"
     },
     "9057511": {
      "b": "Villa Hermosa",
