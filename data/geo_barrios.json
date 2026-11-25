@@ -334,6 +334,11 @@
  "Itagüí|los naranjos": null,
  "Itagüí|malta": null,
  "Itagüí|mayorca": null,
+ "Itagüí|parque principal": {
+  "lat": 6.1723858,
+  "lon": -75.609416,
+  "tipo": "lugar"
+ },
  "Itagüí|pilsen": null,
  "Itagüí|playa rica": {
   "lat": 6.1734179,
@@ -1332,6 +1337,7 @@
  "Medellín|robledo palenque": null,
  "Medellín|robledo parque": null,
  "Medellín|robledo santa maria": null,
+ "Medellín|robledo villaflora": null,
  "Medellín|robledo zona urbana": null,
  "Medellín|rodeo alto": {
   "lat": 6.2057465,
