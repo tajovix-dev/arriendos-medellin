@@ -1329,6 +1329,11 @@
   "lon": -75.5623003,
   "tipo": "zona"
  },
+ "Medellín|progreso": {
+  "lat": 6.2748135,
+  "lon": -75.5765543,
+  "tipo": "zona"
+ },
  "Medellín|quintas del sol de la mota": null,
  "Medellín|quintas sol la mota": null,
  "Medellín|robledo": {
