@@ -1,77 +1,77 @@
 {
  "fincaraiz": {
   "medellin": {
-   "cursor": 33,
+   "cursor": 18,
    "paginas": 32,
    "ciclos": 24
   },
   "sabaneta": {
    "cursor": 1,
    "paginas": 7,
-   "ciclos": 76
+   "ciclos": 77
   },
   "envigado": {
    "cursor": 1,
    "paginas": 3,
-   "ciclos": 76
+   "ciclos": 77
   },
   "itagui": {
    "cursor": 1,
    "paginas": 4,
-   "ciclos": 76
+   "ciclos": 77
   },
   "la-estrella": {
    "cursor": 1,
    "paginas": 5,
-   "ciclos": 76
+   "ciclos": 77
   }
  },
  "rentola": {
   "sabaneta": {
-   "cursor": 1,
+   "cursor": 26,
    "paginas": 296,
    "ciclos": 26
   },
   "envigado": {
-   "cursor": 1,
+   "cursor": 26,
    "paginas": 405,
    "ciclos": 26
   },
   "itagui": {
-   "cursor": 1,
+   "cursor": 26,
    "paginas": 115,
    "ciclos": 26
   },
   "la-estrella": {
-   "cursor": 1,
+   "cursor": 26,
    "paginas": 56,
    "ciclos": 26
   }
  },
  "albertoalvarez": {
   "medellin": {
-   "cursor": 81,
-   "paginas": 115,
+   "cursor": 101,
+   "paginas": 116,
    "ciclos": 12
   },
   "sabaneta": {
-   "cursor": 1,
+   "cursor": 21,
    "paginas": 36,
    "ciclos": 38
   },
   "envigado": {
-   "cursor": 21,
-   "paginas": 47,
+   "cursor": 41,
+   "paginas": 48,
    "ciclos": 25
   },
   "itagui": {
    "cursor": 1,
-   "ciclos": 77,
+   "ciclos": 78,
    "paginas": 8
   },
   "la-estrella": {
    "cursor": 1,
-   "ciclos": 77,
+   "ciclos": 78,
    "paginas": 8
   }
  },
@@ -374,8 +374,13 @@
     ],
     [
      1800001,
-     1949999,
+     1869999,
      7
+    ],
+    [
+     1870000,
+     1949999,
+     16
     ],
     [
      1950000,
@@ -392,14 +397,14 @@
    ]
   },
   "inicio": 0,
-  "peticiones": 58,
-  "ciclos": 61
+  "peticiones": 59,
+  "ciclos": 62
  },
  "espaciourbano": {
   "listas": {
    "10001-1": {
     "paginas": 30,
-    "max": 1824558
+    "max": 1824560
    },
    "10001-4": {
     "paginas": 2,
@@ -407,7 +412,7 @@
    },
    "10005-1": {
     "paginas": 25,
-    "max": 1824508
+    "max": 1824562
    },
    "10005-4": {
     "paginas": 1,
@@ -438,7 +443,7 @@
     "max": 1824493
    }
   },
-  "ciclos": 62,
+  "ciclos": 63,
   "cursor": [
    0,
    1
@@ -2705,7 +2710,7 @@
   "inicializado": true
  },
  "nutibara": {
-  "ultima_descarga": 1795667917,
+  "ultima_descarga": 1795680039,
   "inicializado": true
  },
  "doomos": {
@@ -3282,7 +3287,7 @@
     "-75.5912004"
    ]
   ],
-  "corridas": 62
+  "corridas": 63
  },
  "softinm": {
   "ok": true

@@ -774,6 +774,11 @@
   "lon": -75.5809379,
   "tipo": "zona"
  },
+ "Medellín|castellana": {
+  "lat": 6.2357311,
+  "lon": -75.6055347,
+  "tipo": "zona"
+ },
  "Medellín|castilla": {
   "lat": 6.2936989,
   "lon": -75.5682636,
