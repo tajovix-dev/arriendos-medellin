@@ -1,77 +1,77 @@
 {
  "fincaraiz": {
   "medellin": {
-   "cursor": 19,
+   "cursor": 1,
    "paginas": 32,
-   "ciclos": 25
+   "ciclos": 26
   },
   "sabaneta": {
    "cursor": 1,
    "paginas": 7,
-   "ciclos": 85
+   "ciclos": 86
   },
   "envigado": {
    "cursor": 1,
    "paginas": 3,
-   "ciclos": 85
+   "ciclos": 86
   },
   "itagui": {
    "cursor": 1,
    "paginas": 4,
-   "ciclos": 85
+   "ciclos": 86
   },
   "la-estrella": {
    "cursor": 1,
    "paginas": 5,
-   "ciclos": 85
+   "ciclos": 86
   }
  },
  "rentola": {
   "sabaneta": {
-   "cursor": 1,
-   "paginas": 299,
+   "cursor": 26,
+   "paginas": 292,
    "ciclos": 29
   },
   "envigado": {
-   "cursor": 1,
-   "paginas": 407,
+   "cursor": 26,
+   "paginas": 405,
    "ciclos": 29
   },
   "itagui": {
-   "cursor": 1,
+   "cursor": 26,
    "paginas": 117,
    "ciclos": 29
   },
   "la-estrella": {
-   "cursor": 1,
+   "cursor": 26,
    "paginas": 55,
    "ciclos": 29
   }
  },
  "albertoalvarez": {
   "medellin": {
-   "cursor": 21,
+   "cursor": 41,
    "paginas": 116,
    "ciclos": 14
   },
   "sabaneta": {
-   "cursor": 21,
+   "cursor": 1,
    "paginas": 36,
-   "ciclos": 42
+   "ciclos": 43
   },
   "envigado": {
-   "cursor": 21,
+   "cursor": 41,
    "paginas": 48,
    "ciclos": 28
   },
   "itagui": {
    "cursor": 1,
-   "ciclos": 86,
+   "ciclos": 87,
    "paginas": 8
   },
   "la-estrella": {
    "cursor": 1,
-   "ciclos": 86,
+   "ciclos": 87,
    "paginas": 7
   }
  },
@@ -398,7 +398,7 @@
   },
   "inicio": 0,
   "peticiones": 58,
-  "ciclos": 70
+  "ciclos": 71
  },
  "espaciourbano": {
   "listas": {
@@ -443,7 +443,7 @@
     "max": 1824917
    }
   },
-  "ciclos": 71,
+  "ciclos": 72,
   "cursor": [
    0,
    1
@@ -2710,7 +2710,7 @@
   "inicializado": true
  },
  "nutibara": {
-  "ultima_descarga": 1795766336,
+  "ultima_descarga": 1795776167,
   "inicializado": true
  },
  "doomos": {
@@ -3392,7 +3392,7 @@
     "-75.5912004"
    ]
   ],
-  "corridas": 71
+  "corridas": 72
  },
  "softinm": {
   "ok": true
