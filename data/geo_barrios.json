@@ -412,6 +412,7 @@
  "Itagüí|terranova": null,
  "Itagüí|toledo": null,
  "Itagüí|triana": null,
+ "Itagüí|triana la estrella": null,
  "Itagüí|ub entrecolinas et ii": null,
  "Itagüí|ub entrecolinas i": null,
  "Itagüí|ub valle sur": null,
@@ -1008,6 +1009,11 @@
  "Medellín|guayaquil": {
   "lat": 6.2487324,
   "lon": -75.5731855,
+  "tipo": "zona"
+ },
+ "Medellín|horizontes": {
+  "lat": 6.2403755,
+  "lon": -75.6317569,
   "tipo": "zona"
  },
  "Medellín|la aguacatala": {
