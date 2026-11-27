@@ -1,77 +1,77 @@
 {
  "fincaraiz": {
   "medellin": {
-   "cursor": 18,
+   "cursor": 33,
    "paginas": 32,
    "ciclos": 26
   },
   "sabaneta": {
    "cursor": 1,
    "paginas": 7,
-   "ciclos": 87
+   "ciclos": 88
   },
   "envigado": {
    "cursor": 1,
    "paginas": 3,
-   "ciclos": 87
+   "ciclos": 88
   },
   "itagui": {
    "cursor": 1,
    "paginas": 4,
-   "ciclos": 87
+   "ciclos": 88
   },
   "la-estrella": {
    "cursor": 1,
    "paginas": 5,
-   "ciclos": 87
+   "ciclos": 88
   }
  },
  "rentola": {
   "sabaneta": {
-   "cursor": 51,
+   "cursor": 1,
    "paginas": 292,
-   "ciclos": 29
+   "ciclos": 30
   },
   "envigado": {
-   "cursor": 51,
+   "cursor": 1,
    "paginas": 405,
-   "ciclos": 29
+   "ciclos": 30
   },
   "itagui": {
-   "cursor": 51,
+   "cursor": 1,
    "paginas": 117,
-   "ciclos": 29
+   "ciclos": 30
   },
   "la-estrella": {
-   "cursor": 51,
+   "cursor": 1,
    "paginas": 55,
-   "ciclos": 29
+   "ciclos": 30
   }
  },
  "albertoalvarez": {
   "medellin": {
-   "cursor": 61,
+   "cursor": 81,
    "paginas": 116,
    "ciclos": 14
   },
   "sabaneta": {
-   "cursor": 21,
+   "cursor": 1,
    "paginas": 36,
-   "ciclos": 43
+   "ciclos": 44
   },
   "envigado": {
-   "cursor": 1,
+   "cursor": 21,
    "paginas": 48,
    "ciclos": 29
   },
   "itagui": {
    "cursor": 1,
-   "ciclos": 88,
+   "ciclos": 89,
    "paginas": 8
   },
   "la-estrella": {
    "cursor": 1,
-   "ciclos": 88,
+   "ciclos": 89,
    "paginas": 7
   }
  },
@@ -103,7 +103,7 @@
     [
      300000,
      1699999,
-     13
+     14
     ],
     [
      1700000,
@@ -118,7 +118,7 @@
     [
      1800000,
      1800000,
-     36
+     37
     ],
     [
      1800001,
@@ -155,7 +155,7 @@
     [
      1700000,
      1700000,
-     15
+     14
     ],
     [
      1700001,
@@ -202,14 +202,14 @@
     [
      1998126,
      2000000,
-     29
+     28
     ]
    ],
    "apartaestudio/envigado": [
     [
      300000,
      1199999,
-     6
+     5
     ],
     [
      1200000,
@@ -266,22 +266,22 @@
     [
      1200000,
      1499999,
-     19
+     18
     ],
     [
      1500000,
      1599999,
-     14
+     16
     ],
     [
      1600000,
      1699999,
-     15
+     14
     ],
     [
      1700000,
      1749999,
-     12
+     11
     ],
     [
      1750000,
@@ -291,7 +291,7 @@
     [
      1798126,
      1800000,
-     24
+     25
     ],
     [
      1800001,
@@ -355,12 +355,12 @@
     [
      1650000,
      1699999,
-     11
+     12
     ],
     [
      1700000,
      1700000,
-     28
+     27
     ],
     [
      1700001,
@@ -370,7 +370,7 @@
     [
      1800000,
      1800000,
-     30
+     31
     ],
     [
      1800001,
@@ -380,7 +380,7 @@
     [
      1870000,
      1949999,
-     17
+     18
     ],
     [
      1950000,
@@ -398,13 +398,13 @@
   },
   "inicio": 0,
   "peticiones": 58,
-  "ciclos": 72
+  "ciclos": 73
  },
  "espaciourbano": {
   "listas": {
    "10001-1": {
     "paginas": 30,
-    "max": 1824954
+    "max": 1825060
    },
    "10001-4": {
     "paginas": 2,
@@ -412,15 +412,15 @@
    },
    "10005-1": {
     "paginas": 25,
-    "max": 1824898
+    "max": 1825067
    },
    "10005-4": {
     "paginas": 1,
-    "max": 1824718
+    "max": 1825073
    },
    "10002-1": {
     "paginas": 6,
-    "max": 1824886
+    "max": 1825045
    },
    "10002-4": {
     "paginas": 1,
@@ -428,7 +428,7 @@
    },
    "10003-1": {
     "paginas": 5,
-    "max": 1824949
+    "max": 1825039
    },
    "10003-4": {
     "paginas": 1,
@@ -436,14 +436,14 @@
    },
    "10000-1": {
     "paginas": 110,
-    "max": 1824970
+    "max": 1825077
    },
    "10000-4": {
-    "paginas": 14,
-    "max": 1824917
+    "paginas": 13,
+    "max": 1825068
    }
   },
-  "ciclos": 73,
+  "ciclos": 74,
   "cursor": [
    0,
    1
@@ -2707,6 +2707,10 @@
    "285859": [
     "3000732953",
     "JOSE DAVID DUQUE AGUIRRE"
+   ],
+   "285718": [
+    "3003245168",
+    "MAXIMILIANO ARBOLEDA IBARRA"
    ]
   }
  },
@@ -2714,17 +2718,17 @@
   "inicializado": true
  },
  "nutibara": {
-  "ultima_descarga": 1795787775,
+  "ultima_descarga": 1795797546,
   "inicializado": true
  },
  "doomos": {
   "fechas": {
    "2026-11-14": 33,
    "2026-11-13": 31,
-   "2026-11-12": 10,
-   "2026-11-11": 10,
-   "2026-11-10": 2,
-   "2026-11-09": 4,
+   "2026-11-12": 11,
+   "2026-11-11": 13,
+   "2026-11-10": 3,
+   "2026-11-09": 6,
    "2026-11-06": 1,
    "2026-11-05": 3,
    "2026-11-04": 5,
@@ -3396,7 +3400,7 @@
     "-75.5912004"
    ]
   ],
-  "corridas": 73
+  "corridas": 74
  },
  "softinm": {
   "ok": true
@@ -4920,7 +4924,7 @@
      }
     ],
     "10511714": [
-     "portal",
+     "2026-10-21T13:56:07.300Z",
      "2026-10-21",
      {
       "tipo": "Apartamento",
@@ -4960,7 +4964,7 @@
      }
     ],
     "10498995": [
-     "2026-11-27T09:44:57.093Z",
+     "2026-11-27T13:44:48.392Z",
      "2026-10-16",
      {
       "tipo": "Apartamento",
@@ -5180,7 +5184,7 @@
      }
     ],
     "10433168": [
-     "portal",
+     "2026-11-27T13:44:41.998Z",
      "2026-09-22",
      {
       "tipo": "Apartamento",
@@ -5200,7 +5204,7 @@
      }
     ],
     "10405645": [
-     "2026-11-27T09:44:46.967Z",
+     "2026-11-27T13:44:40.945Z",
      "2026-09-15",
      {
       "tipo": "Apartamento",
@@ -5220,7 +5224,7 @@
      }
     ],
     "10402720": [
-     "2026-11-27T09:44:38.931Z",
+     "2026-11-27T13:44:31.978Z",
      "2026-09-14",
      {
       "tipo": "Apartamento",
@@ -5280,7 +5284,7 @@
      }
     ],
     "10135826": [
-     "portal",
+     "2026-11-27T13:44:30.081Z",
      "2026-07-11",
      {
       "tipo": "Apartamento",
@@ -5320,7 +5324,7 @@
      }
     ],
     "10083884": [
-     "2026-11-27T09:44:34.376Z",
+     "portal",
      "2026-06-24",
      {
       "tipo": "Apartamento",
@@ -5340,7 +5344,7 @@
      }
     ],
     "10072182": [
-     "2026-11-27T09:44:33.938Z",
+     "portal",
      "2026-06-19",
      {
       "tipo": "Apartamento",
@@ -5539,31 +5543,6 @@
       "x": false
      }
     ],
-    "7375704": [
-     "2024-05-23T14:49:32.091Z",
-     "2024-05-22",
-     null
-    ],
-    "6807880": [
-     "2023-09-23T14:15:05.228Z",
-     "2023-07-21",
-     {
-      "tipo": "Apartamento",
-      "precio": 3500000,
-      "admin": null,
-      "area": 85,
-      "hab": 3,
-      "banos": 2,
-      "parq": 1,
-      "lat": 6.191285938995618,
-      "lon": -75.57849168777467,
-      "wa": "573015513657",
-      "m": "Medellín",
-      "b": "Santa Maria de los Angeles",
-      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nNDMwOTU0MjAyMzA3MjExMTAyMDYuanBlZyIsImVkaXRzIjp7Im5vcm1hbGlzZSI6dHJ1ZSwicm90YXRlIjowLCJyZXNpemUiOnsid2lkdGgiOjk3OSwiaGVpZ2h0Ijo3NDMsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
-      "x": false
-     }
-    ],
     "10584721": [
      "portal",
      "2026-11-13",
@@ -5724,19 +5703,9 @@
       "x": false
      }
     ],
-    "10498967": [
-     "2026-11-27T09:44:56.993Z",
-     "2026-10-16",
-     null
-    ],
     "10402739": [
      "2026-09-12T14:26:57.779Z",
      "2026-06-16",
-     null
-    ],
-    "10395004": [
-     "2026-11-27T09:44:41.405Z",
-     "2026-09-11",
      null
     ],
     "10379175": [
@@ -5764,26 +5733,6 @@
      "2026-06-27",
      null
     ],
-    "10088040": [
-     "2026-11-27T09:44:34.597Z",
-     "2026-06-25",
-     {
-      "tipo": "Apartamento",
-      "precio": 2900000,
-      "admin": null,
-      "area": 90,
-      "hab": 3,
-      "banos": 2,
-      "parq": 1,
-      "lat": 6.145818141059632,
-      "lon": -75.61036085956538,
-      "wa": "573015513657",
-      "m": "Sabaneta",
-      "b": "La Doctora",
-      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nX2FwYXJ0YW1lbnRvX2VuX2FycmllbmRvX2VuX2xhXzE3ODI0MTUyNTktODQ0MV82OTMzLmpwZWciLCJlZGl0cyI6eyJub3JtYWxpc2UiOnRydWUsInJvdGF0ZSI6MCwicmVzaXplIjp7IndpZHRoIjo5NzksImhlaWdodCI6NzQzLCJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
-      "x": false
-     }
-    ],
     "10033102": [
      "2026-06-06T14:17:56.485Z",
      "",
@@ -5792,11 +5741,6 @@
     "10032170": [
      "2026-06-05T20:42:21.380Z",
      "",
-     null
-    ],
-    "10031929": [
-     "2026-06-05T19:01:13.898Z",
-     "2026-06-05",
      null
     ],
     "9943031": [
@@ -5848,11 +5792,6 @@
       "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nNDMwOTU0MjAyNTA1MDYxMTIxMzQuanBlZyIsImVkaXRzIjp7Im5vcm1hbGlzZSI6dHJ1ZSwicm90YXRlIjowLCJyZXNpemUiOnsid2lkdGgiOjk3OSwiaGVpZ2h0Ijo3NDMsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
       "x": false
      }
-    ],
-    "8214649": [
-     "2026-09-11T15:11:27.153Z",
-     "2024-10-29",
-     null
     ],
     "8152526": [
      "2026-06-05T20:26:37.716Z",
@@ -5994,11 +5933,6 @@
      "2025-05-05",
      null
     ],
-    "5097027": [
-     "2025-04-30T21:02:09.520Z",
-     "2022-04-25",
-     null
-    ],
     "5074117": [
      "2025-05-02T15:37:11.103Z",
      "2022-04-23",
@@ -6007,36 +5941,6 @@
     "5069116": [
      "2026-06-05T21:23:53.168Z",
      "2022-04-18",
-     null
-    ],
-    "10613113": [
-     "2026-11-25T15:50:11.249Z",
-     "2026-11-25",
-     null
-    ],
-    "10613106": [
-     "2026-11-25T15:47:09.724Z",
-     "2026-11-25",
-     {
-      "tipo": "Apartamento",
-      "precio": 2900000,
-      "admin": null,
-      "area": 80,
-      "hab": 3,
-      "banos": 2,
-      "parq": 0,
-      "lat": 6.235984,
-      "lon": -75.594276,
-      "wa": "573015513657",
-      "m": "Medellín",
-      "b": "Belén Miravalle",
-      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nX2FwYXJ0YW1lbnRvX2VuX2FycmllbmRvX2VuX2JlbF8xNzk1NjIxNDUzLTg3NDlfMTM5Ny5qcGciLCJlZGl0cyI6eyJyb3RhdGUiOjAsInJlc2l6ZSI6eyJ3aWR0aCI6OTc5LCJoZWlnaHQiOjc0MywiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
-      "x": false
-     }
-    ],
-    "10613030": [
-     "2026-11-25T15:20:55.289Z",
-     "2026-11-25",
      null
     ],
     "10612949": [
@@ -6069,37 +5973,12 @@
      "2026-11-10",
      null
     ],
-    "10569356": [
-     "2026-11-10T19:13:32.138Z",
-     "2026-11-10",
-     {
-      "tipo": "Apartamento",
-      "precio": 3500000,
-      "admin": null,
-      "area": 68,
-      "hab": 3,
-      "banos": 2,
-      "parq": 0,
-      "lat": 6.244367,
-      "lon": -75.559708,
-      "wa": "573015513657",
-      "m": "Medellín",
-      "b": "Centro",
-      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nX2FwYXJ0YW1lbnRvX2VuX2FycmllbmRvX2VuX2Nlbl8xNzk0MzM3OTExLTMwMzVfODYyMS5qcGciLCJlZGl0cyI6eyJyb3RhdGUiOjAsInJlc2l6ZSI6eyJ3aWR0aCI6OTc5LCJoZWlnaHQiOjc0MywiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
-      "x": false
-     }
-    ],
-    "10561127": [
-     "2026-11-09T16:29:02.924Z",
-     "2026-11-09",
-     null
-    ],
     "10560928": [
-     "2026-11-09T15:29:00.479Z",
+     "portal",
      "2026-11-09",
      {
       "tipo": "Apartamento",
-      "precio": 2100000,
+      "precio": 2000000,
       "admin": null,
       "area": 60,
       "hab": 3,
@@ -6113,31 +5992,6 @@
       "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nX2FwYXJ0YW1lbnRvX2VuX2FycmllbmRvX2VuX3JvYl8xNzk0MjM3OTM2LTQ2MTZfMjMwNS5qcGciLCJlZGl0cyI6eyJyb3RhdGUiOjAsInJlc2l6ZSI6eyJ3aWR0aCI6OTc5LCJoZWlnaHQiOjc0MywiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
       "x": false
      }
-    ],
-    "10558473": [
-     "2026-11-09T15:12:33.719Z",
-     "2026-11-07",
-     {
-      "tipo": "Apartamento",
-      "precio": 3400000,
-      "admin": null,
-      "area": 70,
-      "hab": 2,
-      "banos": 2,
-      "parq": 1,
-      "lat": 6.222967,
-      "lon": -75.561502,
-      "wa": "573015513657",
-      "m": "Medellín",
-      "b": "Poblado",
-      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nX2FwYXJ0YW1lbnRvX2VuX2FycmllbmRvX2VuX3BvYl8xNzk0MDU4NTg5LTg5MDhfMTU0Ny5qcGciLCJlZGl0cyI6eyJyb3RhdGUiOjAsInJlc2l6ZSI6eyJ3aWR0aCI6OTc5LCJoZWlnaHQiOjc0MywiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
-      "x": false
-     }
-    ],
-    "10552681": [
-     "2026-11-10T19:05:01.137Z",
-     "2026-11-10",
-     null
     ],
     "10500555": [
      "2026-10-20T17:45:10.166Z",
@@ -6193,56 +6047,6 @@
      "2026-10-20T17:45:09.386Z",
      "2026-10-16",
      null
-    ],
-    "10498983": [
-     "2026-10-20T17:45:08.772Z",
-     "2026-10-16",
-     null
-    ],
-    "10498975": [
-     "2026-10-20T17:45:08.677Z",
-     "2026-10-16",
-     null
-    ],
-    "10492494": [
-     "2026-11-10T15:44:38.475Z",
-     "2026-10-14",
-     {
-      "tipo": "Apartamento",
-      "precio": 5000000,
-      "admin": null,
-      "area": 170,
-      "hab": 4,
-      "banos": 4,
-      "parq": 2,
-      "lat": 6.206122,
-      "lon": -75.572418,
-      "wa": "573015513657",
-      "m": "Medellín",
-      "b": "Poblado",
-      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nX2FwYXJ0YW1lbnRvX2VuX2FycmllbmRvX2VuX3BvYl8xNzkyMDEyOTEzLTEzNThfMzg5NC5qcGciLCJlZGl0cyI6eyJyb3RhdGUiOjAsInJlc2l6ZSI6eyJ3aWR0aCI6OTc5LCJoZWlnaHQiOjc0MywiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
-      "x": false
-     }
-    ],
-    "10483940": [
-     "2026-11-27T09:44:55.620Z",
-     "2026-11-10",
-     {
-      "tipo": "Apartamento",
-      "precio": 3000000,
-      "admin": null,
-      "area": 82,
-      "hab": 3,
-      "banos": 2,
-      "parq": 1,
-      "lat": 6.25019,
-      "lon": -75.605782,
-      "wa": "573015513657",
-      "m": "Medellín",
-      "b": "La América",
-      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nNDMwOTUyNzIwMjYxMTEwMDEzNDE0LmpwZWciLCJlZGl0cyI6eyJyb3RhdGUiOjAsInJlc2l6ZSI6eyJ3aWR0aCI6OTc5LCJoZWlnaHQiOjc0MywiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
-      "x": false
-     }
     ],
     "10471156": [
      "2026-10-16T20:22:57.862Z",
@@ -6459,31 +6263,6 @@
      "2023-10-12",
      null
     ],
-    "10613157": [
-     "2026-11-25T16:05:36.111Z",
-     "2026-11-25",
-     {
-      "tipo": "Apartamento",
-      "precio": 7000000,
-      "admin": null,
-      "area": 74,
-      "hab": 2,
-      "banos": 2,
-      "parq": 1,
-      "lat": 6.204178,
-      "lon": -75.573031,
-      "wa": "573015513657",
-      "m": "Medellín",
-      "b": "Poblado",
-      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nX2FwYXJ0YW1lbnRvX2VuX2FycmllbmRvX2VuX3BvYl8xNzk1NjIyNTEwLTI1M18yNjk5LmpwZyIsImVkaXRzIjp7InJvdGF0ZSI6MCwicmVzaXplIjp7IndpZHRoIjo5NzksImhlaWdodCI6NzQzLCJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
-      "x": false
-     }
-    ],
-    "10613131": [
-     "2026-11-25T16:00:50.469Z",
-     "2026-11-25",
-     null
-    ],
     "6851613": [
      "2023-09-23T14:16:08.023Z",
      "2023-08-08",
@@ -6684,46 +6463,6 @@
      "2021-01-21",
      null
     ],
-    "10613886": [
-     "2026-11-25T20:24:47.929Z",
-     "2026-11-25",
-     null
-    ],
-    "10613879": [
-     "2026-11-25T20:19:02.835Z",
-     "2026-11-25",
-     null
-    ],
-    "10613876": [
-     "2026-11-25T20:17:17.396Z",
-     "2026-11-25",
-     null
-    ],
-    "10613865": [
-     "2026-11-25T20:15:06.136Z",
-     "2026-11-25",
-     null
-    ],
-    "10613689": [
-     "2026-11-25T19:13:03.655Z",
-     "2026-11-25",
-     {
-      "tipo": "Apartamento",
-      "precio": 3800000,
-      "admin": null,
-      "area": 105,
-      "hab": 3,
-      "banos": 2,
-      "parq": 1,
-      "lat": 6.221227,
-      "lon": -75.600998,
-      "wa": "573015513657",
-      "m": "Medellín",
-      "b": "Belén la Gloria",
-      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nX2FwYXJ0YW1lbnRvX2VuX2FycmllbmRvX2VuX2JlbF8xNzk1NjMzNzg0LTE3MTRfNjU2NC5qcGciLCJlZGl0cyI6eyJyb3RhdGUiOjAsInJlc2l6ZSI6eyJ3aWR0aCI6OTc5LCJoZWlnaHQiOjc0MywiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
-      "x": false
-     }
-    ],
     "10569433": [
      "2026-11-10T19:35:43.389Z",
      "2026-11-10",
@@ -6760,7 +6499,7 @@
      null
     ],
     "10615406": [
-     "2026-11-26T13:22:53.450Z",
+     "portal",
      "2026-11-26",
      {
       "tipo": "Apartamento",
@@ -6880,7 +6619,7 @@
      }
     ],
     "10615456": [
-     "2026-11-26T13:53:40.141Z",
+     "portal",
      "2026-11-26",
      {
       "tipo": "Apartamento",
@@ -6998,26 +6737,6 @@
      "2026-11-26T14:01:05.689Z",
      "2026-11-26",
      null
-    ],
-    "10615458": [
-     "2026-11-26T13:56:09.569Z",
-     "2026-11-26",
-     {
-      "tipo": "Apartamento",
-      "precio": 2400000,
-      "admin": null,
-      "area": 55,
-      "hab": 2,
-      "banos": 2,
-      "parq": 0,
-      "lat": 6.249012,
-      "lon": -75.559421,
-      "wa": "573015513657",
-      "m": "Medellín",
-      "b": "Boston",
-      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nX2FwYXJ0YW1lbnRvX2VuX2FycmllbmRvX2VuX2Jvc18xNzk1NzAxMjgxLTMwMzZfNjM1LmpwZyIsImVkaXRzIjp7InJvdGF0ZSI6MCwicmVzaXplIjp7IndpZHRoIjo5NzksImhlaWdodCI6NzQzLCJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
-      "x": false
-     }
     ],
     "10609146": [
      "2026-11-26T14:10:49.650Z",
@@ -7429,461 +7148,6 @@
      "2026-11-20",
      null
     ],
-    "10560891": [
-     "2026-11-09T15:05:43.884Z",
-     "2026-11-09",
-     null
-    ],
-    "10560742": [
-     "2026-11-09T14:59:57.408Z",
-     "2026-11-09",
-     null
-    ],
-    "10560734": [
-     "2026-11-09T14:06:09.647Z",
-     "2026-11-09",
-     null
-    ],
-    "10560655": [
-     "2026-11-09T13:27:19.895Z",
-     "2026-11-09",
-     null
-    ],
-    "10498958": [
-     "2026-10-20T17:45:08.448Z",
-     "2026-10-16",
-     null
-    ],
-    "10496849": [
-     "2026-10-20T17:45:07.020Z",
-     "2026-10-15",
-     null
-    ],
-    "10492513": [
-     "2026-10-20T17:45:08.285Z",
-     "2026-10-14",
-     null
-    ],
-    "10492506": [
-     "2026-11-27T09:44:56.891Z",
-     "2026-10-14",
-     {
-      "tipo": "Apartamento",
-      "precio": 2800000,
-      "admin": null,
-      "area": 78,
-      "hab": 2,
-      "banos": 2,
-      "parq": 0,
-      "lat": 6.25678,
-      "lon": -75.602541,
-      "wa": "573015513657",
-      "m": "Medellín",
-      "b": "Floresta",
-      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nX2FwYXJ0YW1lbnRvX2VuX2FycmllbmRvX2VuX2Zsb18xNzkyMDEzMDM4LTgzNzdfNjc5LmpwZyIsImVkaXRzIjp7InJvdGF0ZSI6MCwicmVzaXplIjp7IndpZHRoIjo5NzksImhlaWdodCI6NzQzLCJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
-      "x": false
-     }
-    ],
-    "10492490": [
-     "2026-10-20T17:45:08.071Z",
-     "2026-10-14",
-     null
-    ],
-    "10491928": [
-     "2026-11-27T09:44:56.788Z",
-     "2026-10-14",
-     null
-    ],
-    "10489086": [
-     "2026-11-27T09:44:56.392Z",
-     "2026-10-13",
-     {
-      "tipo": "Apartamento",
-      "precio": 3000000,
-      "admin": null,
-      "area": 70,
-      "hab": 2,
-      "banos": 2,
-      "parq": 0,
-      "lat": 6.262199,
-      "lon": -75.591077,
-      "wa": "573015513657",
-      "m": "Medellín",
-      "b": "Estadio",
-      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nX2FwYXJ0YW1lbnRvX2VuX2FycmllbmRvX2VuX2VzdF8xNzkxOTIxMzA4LTQyMzZfMjc3NS5qcGciLCJlZGl0cyI6eyJyb3RhdGUiOjAsInJlc2l6ZSI6eyJ3aWR0aCI6OTc5LCJoZWlnaHQiOjc0MywiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
-      "x": false
-     }
-    ],
-    "10484180": [
-     "2026-10-14T21:27:53.912Z",
-     "2026-10-14",
-     null
-    ],
-    "10394941": [
-     "2026-11-27T09:44:41.283Z",
-     "2026-09-11",
-     null
-    ],
-    "10390025": [
-     "2026-09-10T20:28:58.937Z",
-     "2026-09-10",
-     null
-    ],
-    "10386879": [
-     "2026-09-10T20:39:56.958Z",
-     "2026-09-09",
-     null
-    ],
-    "10386666": [
-     "2026-09-10T20:34:13.444Z",
-     "2026-09-09",
-     null
-    ],
-    "10075794": [
-     "2026-11-27T09:44:34.040Z",
-     "2026-06-22",
-     null
-    ],
-    "10071569": [
-     "2026-11-27T09:44:33.709Z",
-     "2026-06-19",
-     null
-    ],
-    "10068283": [
-     "2026-11-27T09:44:33.597Z",
-     "2026-06-18",
-     null
-    ],
-    "10065870": [
-     "2026-11-27T09:44:33.500Z",
-     "2026-06-18",
-     {
-      "tipo": "Apartamento",
-      "precio": 6500000,
-      "admin": null,
-      "area": 180,
-      "hab": 2,
-      "banos": 3,
-      "parq": 1,
-      "lat": 6.2408995409509656,
-      "lon": -75.60387044541964,
-      "wa": "573015513657",
-      "m": "Medellín",
-      "b": "La Castellana",
-      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nX2FwYXJ0YW1lbnRvX2VuX3JlbnRhX2VuX2xhX2Nhc18xNzgxNzkxNjA3LTkzNjdfNTIzMi5qcGVnIiwiZWRpdHMiOnsibm9ybWFsaXNlIjp0cnVlLCJyb3RhdGUiOjAsInJlc2l6ZSI6eyJ3aWR0aCI6OTc5LCJoZWlnaHQiOjc0MywiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
-      "x": false
-     }
-    ],
-    "10048018": [
-     "2026-11-27T09:44:33.363Z",
-     "2026-04-17",
-     {
-      "tipo": "Apartamento",
-      "precio": 3500000,
-      "admin": null,
-      "area": 100,
-      "hab": 3,
-      "banos": 3,
-      "parq": 1,
-      "lat": 6.250853624395306,
-      "lon": -75.60377979511168,
-      "wa": "573015513657",
-      "m": "Medellín",
-      "b": "La América",
-      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nNDMwOTUxNzIwMjYwNDE3MDQ0MjE0LmpwZWciLCJlZGl0cyI6eyJub3JtYWxpc2UiOnRydWUsInJvdGF0ZSI6MCwicmVzaXplIjp7IndpZHRoIjo5NzksImhlaWdodCI6NzQzLCJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
-      "x": false
-     }
-    ],
-    "10045899": [
-     "2026-09-10T18:43:16.421Z",
-     "2026-06-12",
-     null
-    ],
-    "10045891": [
-     "2026-10-17T13:51:14.661Z",
-     "2026-06-12",
-     {
-      "tipo": "Apartamento",
-      "precio": 2400000,
-      "admin": null,
-      "area": 50,
-      "hab": 3,
-      "banos": 2,
-      "parq": 0,
-      "lat": 6.245774610548462,
-      "lon": -75.58516898277047,
-      "wa": "573015513657",
-      "m": "Medellín",
-      "b": "San Joaquin",
-      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nX2FwYXJ0YW1lbnRvX2VuX3JlbnRhX2VuX2xhdXJlbF8xNzgxMjc2OTgyLTMyNDFfNDIwOS5qcGVnIiwiZWRpdHMiOnsibm9ybWFsaXNlIjp0cnVlLCJyb3RhdGUiOjAsInJlc2l6ZSI6eyJ3aWR0aCI6OTc5LCJoZWlnaHQiOjc0MywiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
-      "x": false
-     }
-    ],
-    "10043171": [
-     "2026-11-27T09:44:33.135Z",
-     "2026-06-11",
-     null
-    ],
-    "10042391": [
-     "2026-11-27T09:44:33.022Z",
-     "2026-06-11",
-     null
-    ],
-    "10030093": [
-     "2026-06-04T21:09:14.830Z",
-     "2026-06-04",
-     null
-    ],
-    "10029836": [
-     "2026-06-04T19:43:39.254Z",
-     "2026-06-04",
-     null
-    ],
-    "10028783": [
-     "2026-06-04T13:53:37.923Z",
-     "",
-     null
-    ],
-    "9836121": [
-     "2026-06-03T18:20:15.081Z",
-     "2026-03-05",
-     null
-    ],
-    "9750987": [
-     "2026-09-10T18:16:12.905Z",
-     "2026-01-23",
-     null
-    ],
-    "9730969": [
-     "2026-06-04T20:50:55.183Z",
-     "2026-01-21",
-     null
-    ],
-    "9621722": [
-     "2026-09-10T20:31:34.947Z",
-     "2025-11-12",
-     null
-    ],
-    "9421267": [
-     "2026-09-10T18:18:31.995Z",
-     "2025-08-27",
-     null
-    ],
-    "9160566": [
-     "2026-06-05T15:08:32.206Z",
-     "2025-06-03",
-     null
-    ],
-    "8954388": [
-     "2025-04-02T19:47:50.589Z",
-     "2025-04-02",
-     null
-    ],
-    "8910434": [
-     "2025-03-28T15:56:38.270Z",
-     "2025-03-27",
-     null
-    ],
-    "8613274": [
-     "2025-03-28T20:13:20.953Z",
-     "2025-03-20",
-     null
-    ],
-    "8593472": [
-     "2026-09-10T18:17:46.768Z",
-     "2025-03-13",
-     null
-    ],
-    "8515848": [
-     "2026-06-05T16:25:33.923Z",
-     "2025-02-21",
-     null
-    ],
-    "8511983": [
-     "2025-04-09T16:21:19.508Z",
-     "2025-02-27",
-     null
-    ],
-    "8482939": [
-     "2025-04-02T18:47:05.250Z",
-     "2025-02-12",
-     null
-    ],
-    "8373657": [
-     "2026-06-04T18:08:42.930Z",
-     "2025-01-07",
-     null
-    ],
-    "8035537": [
-     "2026-06-03T19:26:56.339Z",
-     "2024-09-05",
-     null
-    ],
-    "7528544": [
-     "2026-06-04T20:59:37.374Z",
-     "2024-03-26",
-     null
-    ],
-    "7479683": [
-     "2024-05-21T17:32:06.971Z",
-     "2024-05-20",
-     {
-      "tipo": "Apartamento",
-      "precio": 5000000,
-      "admin": null,
-      "area": 96,
-      "hab": 2,
-      "banos": 3,
-      "parq": 1,
-      "lat": 6.2014968,
-      "lon": -75.5734173,
-      "wa": "573015513657",
-      "m": "Medellín",
-      "b": "Poblado",
-      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nX2FycmVuZGFtb3NfYXBhcnRhbWVudG9fZW5fZWxfcF8xNzE2MjMyMzIxLTc5NDZfNDc1NC5qcGciLCJlZGl0cyI6eyJub3JtYWxpc2UiOnRydWUsInJvdGF0ZSI6MCwicmVzaXplIjp7IndpZHRoIjo5NzksImhlaWdodCI6NzQzLCJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
-      "x": false
-     }
-    ],
-    "7169587": [
-     "2025-04-29T19:41:49.132Z",
-     "2023-12-27",
-     null
-    ],
-    "6809999": [
-     "2023-09-23T14:15:05.217Z",
-     "2023-07-22",
-     {
-      "tipo": "Apartamento",
-      "precio": 3000000,
-      "admin": null,
-      "area": 68,
-      "hab": 2,
-      "banos": 2,
-      "parq": 1,
-      "lat": null,
-      "lon": null,
-      "wa": "573015513657",
-      "m": "Sabaneta",
-      "b": null,
-      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nX2FycmVuZGFtb3NfYXBhcnRhbWVudG9fZW5fcGFuXzE2OTAwMzQyMjQtNzUzM185MjUzLmpwZyIsImVkaXRzIjp7Im5vcm1hbGlzZSI6dHJ1ZSwicm90YXRlIjowLCJyZXNpemUiOnsid2lkdGgiOjk3OSwiaGVpZ2h0Ijo3NDMsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
-      "x": false
-     }
-    ],
-    "6808768": [
-     "2023-09-23T14:15:05.220Z",
-     "2023-07-21",
-     {
-      "tipo": "Apartamento",
-      "precio": 3900000,
-      "admin": null,
-      "area": 67,
-      "hab": 2,
-      "banos": 1,
-      "parq": 1,
-      "lat": 6.141651299999999,
-      "lon": -75.62133159999999,
-      "wa": "573015513657",
-      "m": "Sabaneta",
-      "b": null,
-      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nX2FycmVuZGFtb3NfYXBhcnRhbWVudG9fYW1vYmxhZF8xNjg5OTcyODAwLTg4MV80NjczLmpwZyIsImVkaXRzIjp7Im5vcm1hbGlzZSI6dHJ1ZSwicm90YXRlIjowLCJyZXNpemUiOnsid2lkdGgiOjk3OSwiaGVpZ2h0Ijo3NDMsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
-      "x": false
-     }
-    ],
-    "6792246": [
-     "2023-09-23T14:14:42.937Z",
-     "2023-07-13",
-     null
-    ],
-    "6780298": [
-     "2023-09-23T14:14:43.010Z",
-     "2023-07-12",
-     null
-    ],
-    "6773829": [
-     "2023-09-23T14:14:24.973Z",
-     "2023-07-10",
-     null
-    ],
-    "6772398": [
-     "2023-09-23T14:14:25.029Z",
-     "2023-07-10",
-     null
-    ],
-    "6770694": [
-     "2023-09-23T14:14:25.059Z",
-     "2023-07-08",
-     null
-    ],
-    "6770273": [
-     "2023-09-23T14:14:25.067Z",
-     "2023-07-07",
-     null
-    ],
-    "6769472": [
-     "2023-09-23T14:14:25.084Z",
-     "2023-07-07",
-     null
-    ],
-    "6757576": [
-     "2023-09-23T14:14:03.774Z",
-     "2023-07-01",
-     null
-    ],
-    "6721672": [
-     "2025-04-03T13:21:27.439Z",
-     "2023-06-20",
-     null
-    ],
-    "6646871": [
-     "2025-04-01T15:56:25.414Z",
-     "2023-05-26",
-     null
-    ],
-    "6248880": [
-     "2024-05-23T14:15:46.413Z",
-     "2023-02-10",
-     null
-    ],
-    "6245010": [
-     "2024-05-23T13:47:46.945Z",
-     "2023-02-09",
-     null
-    ],
-    "6244469": [
-     "2024-05-22T21:57:43.352Z",
-     "2023-02-09",
-     null
-    ],
-    "6240259": [
-     "2024-05-22T21:37:50.561Z",
-     "2023-02-08",
-     null
-    ],
-    "6171215": [
-     "2024-05-21T21:12:55.216Z",
-     "2023-01-17",
-     null
-    ],
-    "6166980": [
-     "2024-05-21T20:05:03.275Z",
-     "2023-01-20",
-     null
-    ],
-    "6057442": [
-     "2024-05-20T14:53:53.548Z",
-     "2022-12-05",
-     null
-    ],
-    "5966827": [
-     "2024-05-18T15:53:46.804Z",
-     "2022-11-24",
-     null
-    ],
-    "5914408": [
-     "2024-05-18T13:52:21.079Z",
-     "2022-10-24",
-     null
-    ],
     "5241185": [
      "2024-05-28T16:40:01.258Z",
      "2023-07-11",
@@ -7904,55 +7168,605 @@
      "2021-07-14",
      null
     ],
-    "10492231": [
-     "2026-10-14T20:32:51.662Z",
-     "2023-08-14",
-     null
-    ],
-    "10390162": [
-     "2026-09-10T18:03:39.921Z",
-     "2026-09-10",
-     null
-    ],
-    "10039167": [
-     "2026-11-27T09:44:32.919Z",
-     "2026-06-10",
-     null
-    ],
-    "9821898": [
-     "2026-06-03T16:34:20.016Z",
-     "2026-02-27",
-     null
-    ],
-    "8639208": [
-     "2025-03-26T21:30:10.847Z",
-     "2025-03-26",
-     null
-    ],
-    "6766790": [
-     "2023-09-23T14:14:03.725Z",
-     "2023-07-06",
-     null
-    ],
-    "5719188": [
-     "2024-05-17T21:52:12.122Z",
-     "2022-10-12",
-     null
-    ],
     "4134848": [
      "2023-09-23T14:00:43.687Z",
      "2021-08-09",
      null
     ],
-    "4132867": [
-     "2025-04-16T18:51:04.576Z",
-     "2021-07-01",
+    "10618047": [
+     "2026-11-27T16:24:50.329Z",
+     "2026-11-27",
      null
     ],
-    "3387350": [
-     "2025-03-29T16:18:22.574Z",
-     "2021-02-11",
+    "10618035": [
+     "2026-11-27T16:20:50.613Z",
+     "2026-11-27",
      null
+    ],
+    "10618026": [
+     "2026-11-27T16:17:40.294Z",
+     "2026-11-27",
+     null
+    ],
+    "10618019": [
+     "2026-11-27T16:15:39.228Z",
+     "2026-11-27",
+     null
+    ],
+    "10617993": [
+     "2026-11-27T16:09:27.304Z",
+     "2026-11-27",
+     {
+      "tipo": "Apartamento",
+      "precio": 1600000,
+      "admin": null,
+      "area": 72,
+      "hab": 2,
+      "banos": 2,
+      "parq": 0,
+      "lat": 6.24018,
+      "lon": -75.562037,
+      "wa": "573015513657",
+      "m": "Medellín",
+      "b": "El Salvador",
+      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nX2FwYXJ0YW1lbnRvX2VuX2FycmllbmRvX2VuX2VsXzE3OTU3OTU0MzYtMzY5OV81NDg0LmpwZyIsImVkaXRzIjp7InJvdGF0ZSI6MCwicmVzaXplIjp7IndpZHRoIjo5NzksImhlaWdodCI6NzQzLCJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+      "x": false
+     }
+    ],
+    "10617983": [
+     "2026-11-27T16:03:25.573Z",
+     "2026-11-27",
+     null
+    ],
+    "10617970": [
+     "2026-11-27T15:59:08.498Z",
+     "2026-11-27",
+     null
+    ],
+    "10617965": [
+     "2026-11-27T15:54:11.818Z",
+     "2026-11-27",
+     null
+    ],
+    "10617953": [
+     "2026-11-27T15:52:29.083Z",
+     "2026-11-27",
+     null
+    ],
+    "10617950": [
+     "2026-11-27T15:49:54.761Z",
+     "2026-11-27",
+     {
+      "tipo": "Apartamento",
+      "precio": 1650000,
+      "admin": null,
+      "area": 90,
+      "hab": 3,
+      "banos": 1,
+      "parq": 1,
+      "lat": 6.271459,
+      "lon": -75.559459,
+      "wa": "573015513657",
+      "m": "Medellín",
+      "b": "Campo Valdes",
+      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nX2FwYXJ0YW1lbnRvX2VuX2FycmllbmRvX2VuX2NhbV8xNzk1Nzk0NTE5LTM0NjVfNzQzMC5qcGciLCJlZGl0cyI6eyJyb3RhdGUiOjAsInJlc2l6ZSI6eyJ3aWR0aCI6OTc5LCJoZWlnaHQiOjc0MywiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "x": false
+     }
+    ],
+    "10617944": [
+     "2026-11-27T15:48:07.357Z",
+     "2026-11-27",
+     {
+      "tipo": "Apartamento",
+      "precio": 4300000,
+      "admin": null,
+      "area": 80,
+      "hab": 2,
+      "banos": 3,
+      "parq": 1,
+      "lat": 6.205346,
+      "lon": -75.567335,
+      "wa": "573015513657",
+      "m": "Medellín",
+      "b": "Poblado",
+      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nX2FwYXJ0YW1lbnRvX2VuX2FycmllbmRvX2VuX3BvYl8xNzk1Nzk0NDAwLTAxODNfMzQ0My5qcGciLCJlZGl0cyI6eyJyb3RhdGUiOjAsInJlc2l6ZSI6eyJ3aWR0aCI6OTc5LCJoZWlnaHQiOjc0MywiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "x": false
+     }
+    ],
+    "10617939": [
+     "2026-11-27T15:46:11.414Z",
+     "2026-11-27",
+     null
+    ],
+    "10617903": [
+     "2026-11-27T15:48:49.978Z",
+     "2023-09-14",
+     null
+    ],
+    "10573661": [
+     "2026-11-11T15:09:13.237Z",
+     "2026-11-11",
+     null
+    ],
+    "10573650": [
+     "2026-11-11T15:06:10.891Z",
+     "2026-11-11",
+     {
+      "tipo": "Apartamento",
+      "precio": 3100000,
+      "admin": null,
+      "area": 78,
+      "hab": 4,
+      "banos": 2,
+      "parq": 0,
+      "lat": 6.220214,
+      "lon": -75.594639,
+      "wa": "573015513657",
+      "m": "Medellín",
+      "b": "Belén las Playas",
+      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nX2FwYXJ0YW1lbnRvX2VuX2FycmllbmRvX2VuX2JlbF8xNzk0NDA5NDc0LTk4MzNfMjQ5OS5qcGciLCJlZGl0cyI6eyJyb3RhdGUiOjAsInJlc2l6ZSI6eyJ3aWR0aCI6OTc5LCJoZWlnaHQiOjc0MywiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "x": false
+     }
+    ],
+    "10573645": [
+     "2026-11-11T15:04:07.866Z",
+     "2026-11-11",
+     {
+      "tipo": "Apartamento",
+      "precio": 3500000,
+      "admin": null,
+      "area": 70,
+      "hab": 2,
+      "banos": 2,
+      "parq": 1,
+      "lat": 6.215344,
+      "lon": -75.604907,
+      "wa": "573015513657",
+      "m": "Medellín",
+      "b": "Belén la Mota",
+      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nX2FwYXJ0YW1lbnRvX2VuX2FycmllbmRvX2VuX2JlbF8xNzk0NDA5MzM1LTQxMTNfNDgyLmpwZyIsImVkaXRzIjp7InJvdGF0ZSI6MCwicmVzaXplIjp7IndpZHRoIjo5NzksImhlaWdodCI6NzQzLCJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+      "x": false
+     }
+    ],
+    "10573634": [
+     "2026-11-11T15:01:04.840Z",
+     "2026-11-11",
+     null
+    ],
+    "10573625": [
+     "2026-11-11T14:58:57.908Z",
+     "2026-11-11",
+     null
+    ],
+    "10573510": [
+     "2026-11-11T14:23:53.976Z",
+     "2026-11-11",
+     null
+    ],
+    "10573502": [
+     "2026-11-11T14:17:33.581Z",
+     "2026-11-11",
+     null
+    ],
+    "10573498": [
+     "2026-11-11T14:15:29.390Z",
+     "2026-11-11",
+     null
+    ],
+    "10573488": [
+     "2026-11-11T14:13:46.767Z",
+     "2026-11-11",
+     null
+    ],
+    "10573482": [
+     "2026-11-11T14:11:07.417Z",
+     "2026-11-11",
+     null
+    ],
+    "10573465": [
+     "2026-11-11T14:09:19.819Z",
+     "2026-11-11",
+     null
+    ],
+    "10511850": [
+     "2026-10-21T14:51:52.159Z",
+     "2026-10-21",
+     {
+      "tipo": "Apartamento",
+      "precio": 3500000,
+      "admin": null,
+      "area": 72,
+      "hab": 2,
+      "banos": 2,
+      "parq": 1,
+      "lat": 6.271429,
+      "lon": -75.589409,
+      "wa": "573015513657",
+      "m": "Medellín",
+      "b": "Robledo San Germán",
+      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nX2FwYXJ0YW1lbnRvX2VuX2FycmllbmRvX2VuX3JvYl8xNzkyNTk0MjQ5LTczMDNfMTk4LmpwZyIsImVkaXRzIjp7InJvdGF0ZSI6MCwicmVzaXplIjp7IndpZHRoIjo5NzksImhlaWdodCI6NzQzLCJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+      "x": false
+     }
+    ],
+    "10511842": [
+     "2026-10-21T14:50:05.551Z",
+     "2026-10-21",
+     null
+    ],
+    "10511825": [
+     "2026-10-21T14:41:33.180Z",
+     "2026-10-21",
+     null
+    ],
+    "10511783": [
+     "2026-10-21T14:22:35.720Z",
+     "2026-10-21",
+     null
+    ],
+    "10511778": [
+     "2026-10-21T14:20:22.936Z",
+     "2026-10-21",
+     {
+      "tipo": "Apartamento",
+      "precio": 3100000,
+      "admin": null,
+      "area": 120,
+      "hab": 3,
+      "banos": 3,
+      "parq": 0,
+      "lat": 6.225749,
+      "lon": -75.591891,
+      "wa": "573015513657",
+      "m": "Medellín",
+      "b": "Belén San Bernardo",
+      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nX2FwYXJ0YW1lbnRvX2VuX2FycmllbmRvX2VuX2JlbF8xNzkyNTkyMzQ0LTU0OTNfNzAxOC5qcGciLCJlZGl0cyI6eyJyb3RhdGUiOjAsInJlc2l6ZSI6eyJ3aWR0aCI6OTc5LCJoZWlnaHQiOjc0MywiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "x": false
+     }
+    ],
+    "10511731": [
+     "2026-10-21T14:04:06.060Z",
+     "2026-10-21",
+     {
+      "tipo": "Apartamento",
+      "precio": 3200000,
+      "admin": null,
+      "area": 120,
+      "hab": 3,
+      "banos": 3,
+      "parq": 0,
+      "lat": 6.224695,
+      "lon": -75.594174,
+      "wa": "573015513657",
+      "m": "Medellín",
+      "b": "Belén San Bernardo",
+      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nX2FwYXJ0YW1lbnRvX2VuX2FycmllbmRvX2VuX2JlbF8xNzkyNTkxMjI2LTY5NDJfNDU2OS5qcGciLCJlZGl0cyI6eyJyb3RhdGUiOjAsInJlc2l6ZSI6eyJ3aWR0aCI6OTc5LCJoZWlnaHQiOjc0MywiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "x": false
+     }
+    ],
+    "10511722": [
+     "2026-10-21T13:58:46.742Z",
+     "2026-10-21",
+     null
+    ],
+    "10511708": [
+     "2026-10-21T13:53:16.171Z",
+     "2026-10-21",
+     {
+      "tipo": "Apartamento",
+      "precio": 1950000,
+      "admin": null,
+      "area": 52,
+      "hab": 3,
+      "banos": 2,
+      "parq": 0,
+      "lat": null,
+      "lon": null,
+      "wa": "573015513657",
+      "m": "Medellín",
+      "b": "Boston",
+      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nX2FwYXJ0YW1lbnRvX2VuX2FycmllbmRvX2VuX2Jvc18xNzkyNTkwNzI2LTUyMjhfMTA5MS5qcGciLCJlZGl0cyI6eyJyb3RhdGUiOjAsInJlc2l6ZSI6eyJ3aWR0aCI6OTc5LCJoZWlnaHQiOjc0MywiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "x": false
+     }
+    ],
+    "10509138": [
+     "2026-10-20T18:33:25.263Z",
+     "2026-10-20",
+     null
+    ],
+    "10508546": [
+     "2026-10-20T15:41:54.328Z",
+     "2026-10-20",
+     {
+      "tipo": "Apartamento",
+      "precio": 2800000,
+      "admin": null,
+      "area": 54,
+      "hab": 2,
+      "banos": 2,
+      "parq": 0,
+      "lat": 6.25657,
+      "lon": -75.584251,
+      "wa": "573015513657",
+      "m": "Medellín",
+      "b": "Suramericana",
+      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nX2FwYXJ0YW1lbnRvX2VuX2FycmllbmRvX2VuX3N1cl8xNzkyNTEwODI2LTg2ODhfODM0MS5qcGciLCJlZGl0cyI6eyJyb3RhdGUiOjAsInJlc2l6ZSI6eyJ3aWR0aCI6OTc5LCJoZWlnaHQiOjc0MywiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "x": false
+     }
+    ],
+    "10456399": [
+     "2026-11-27T13:44:44.451Z",
+     "2026-10-01",
+     null
+    ],
+    "10433166": [
+     "2026-11-27T13:44:42.173Z",
+     "2026-09-22",
+     null
+    ],
+    "10430852": [
+     "2026-11-27T13:44:41.649Z",
+     "2026-09-21",
+     null
+    ],
+    "10430651": [
+     "2026-09-21T19:20:26.197Z",
+     "2026-09-21",
+     null
+    ],
+    "10430239": [
+     "2026-09-21T18:47:40.658Z",
+     "2026-03-16",
+     null
+    ],
+    "10423192": [
+     "2026-11-27T13:44:41.572Z",
+     "2026-09-21",
+     null
+    ],
+    "10417308": [
+     "2026-11-27T13:44:41.498Z",
+     "2026-09-17",
+     null
+    ],
+    "10416908": [
+     "2026-11-27T13:44:41.426Z",
+     "2026-09-17",
+     null
+    ],
+    "10315993": [
+     "2026-09-22T15:31:00.030Z",
+     "2026-08-24",
+     null
+    ],
+    "10298813": [
+     "2026-09-21T18:41:43.217Z",
+     "2023-09-01",
+     null
+    ],
+    "10273315": [
+     "2026-11-27T13:44:32.654Z",
+     "2026-08-12",
+     null
+    ],
+    "10142995": [
+     "2026-07-11T16:07:55.889Z",
+     "",
+     null
+    ],
+    "10142994": [
+     "2026-07-11T16:07:54.213Z",
+     "",
+     null
+    ],
+    "10142900": [
+     "2026-11-27T13:44:30.320Z",
+     "2026-07-11",
+     null
+    ],
+    "10137886": [
+     "2026-07-29T17:46:18.804Z",
+     "2026-07-09",
+     {
+      "tipo": "Apartamento",
+      "precio": 3300000,
+      "admin": null,
+      "area": 80,
+      "hab": 3,
+      "banos": 2,
+      "parq": 1,
+      "lat": 6.149969498629492,
+      "lon": -75.62506304387806,
+      "wa": "573015513657",
+      "m": "Sabaneta",
+      "b": "Ancón Sur",
+      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nX2FwYXJ0YW1lbnRvX2VuX2FycmllbmRvX2VuX2FuY18xNzgzNjExNTY5LTcyODlfODE3NS5qcGVnIiwiZWRpdHMiOnsibm9ybWFsaXNlIjp0cnVlLCJyb3RhdGUiOjAsInJlc2l6ZSI6eyJ3aWR0aCI6OTc5LCJoZWlnaHQiOjc0MywiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "x": false
+     }
+    ],
+    "10137339": [
+     "2026-11-27T13:44:30.169Z",
+     "2026-07-09",
+     null
+    ],
+    "10136873": [
+     "2026-07-23T09:45:06.011Z",
+     "2026-07-08",
+     {
+      "tipo": "Apartamento",
+      "precio": 1900000,
+      "admin": null,
+      "area": 48,
+      "hab": 2,
+      "banos": 1,
+      "parq": 1,
+      "lat": 6.24805793137962,
+      "lon": -75.60941972339427,
+      "wa": "573015513657",
+      "m": "Medellín",
+      "b": "Barrio Cristobal",
+      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nX2FwYXJ0YW1lbnRvX2VuX2FycmllbmRvX2VuX2Jhcl8xNzgzNTU2NTAxLTYzMjlfMzMyOC5qcGVnIiwiZWRpdHMiOnsibm9ybWFsaXNlIjp0cnVlLCJyb3RhdGUiOjAsInJlc2l6ZSI6eyJ3aWR0aCI6OTc5LCJoZWlnaHQiOjc0MywiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "x": false
+     }
+    ],
+    "10135486": [
+     "2026-11-27T13:44:30.006Z",
+     "2026-07-09",
+     null
+    ],
+    "10135416": [
+     "2026-11-27T13:44:29.935Z",
+     "2026-07-08",
+     null
+    ],
+    "10130856": [
+     "2026-11-27T13:44:29.784Z",
+     "2026-07-06",
+     null
+    ],
+    "10046827": [
+     "2026-11-27T13:44:28.068Z",
+     "2026-06-16",
+     {
+      "tipo": "Apartamento",
+      "precio": 1800000,
+      "admin": null,
+      "area": 41,
+      "hab": 1,
+      "banos": 1,
+      "parq": 0,
+      "lat": 6.3415677,
+      "lon": -75.5440741,
+      "wa": "573015513657",
+      "m": "Medellín",
+      "b": "Buenos Aires",
+      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nNDMwOTUxMzIwMjYwNjE2MTEwMTIzLmpwZWciLCJlZGl0cyI6eyJub3JtYWxpc2UiOnRydWUsInJvdGF0ZSI6MCwicmVzaXplIjp7IndpZHRoIjo5NzksImhlaWdodCI6NzQzLCJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+      "x": false
+     }
+    ],
+    "10043168": [
+     "2026-06-11T18:50:20.470Z",
+     "",
+     null
+    ],
+    "10024723": [
+     "2026-09-22T20:19:17.028Z",
+     "2026-06-02",
+     null
+    ],
+    "9858335": [
+     "2026-06-10T21:22:47.115Z",
+     "2026-03-13",
+     null
+    ],
+    "9833040": [
+     "2026-06-10T21:44:56.093Z",
+     "2026-03-04",
+     null
+    ],
+    "9821712": [
+     "2026-06-11T14:15:09.986Z",
+     "2026-02-28",
+     null
+    ],
+    "9820892": [
+     "2026-06-11T14:17:12.837Z",
+     "2026-02-26",
+     null
+    ],
+    "9796672": [
+     "2026-06-11T14:21:34.668Z",
+     "2026-02-17",
+     null
+    ],
+    "9796618": [
+     "2026-06-11T14:24:10.927Z",
+     "2026-02-17",
+     null
+    ],
+    "9786416": [
+     "2026-06-11T14:33:11.010Z",
+     "2026-02-12",
+     null
+    ],
+    "9786373": [
+     "2026-06-11T14:36:01.022Z",
+     "2026-02-12",
+     null
+    ],
+    "9776768": [
+     "2026-06-11T14:43:31.289Z",
+     "2026-02-09",
+     null
+    ],
+    "9758949": [
+     "2026-06-11T14:51:12.617Z",
+     "2026-02-02",
+     null
+    ],
+    "9278311": [
+     "2026-07-07T17:37:40.434Z",
+     "2025-06-28",
+     null
+    ],
+    "9241082": [
+     "2025-06-25T21:54:48.535Z",
+     "2025-06-20",
+     {
+      "tipo": "Apartamento",
+      "precio": 3300000,
+      "admin": null,
+      "area": 85,
+      "hab": 3,
+      "banos": 2,
+      "parq": 1,
+      "lat": 6.158745926843987,
+      "lon": -75.58095020178568,
+      "wa": "573015513657",
+      "m": "Envigado",
+      "b": "Chingui",
+      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nX2FwYXJ0YW1lbnJvX2VuX2FycmllbmRvX2VuX2VsXzE3NTA0NTA2OTctMDcxXzU1ODIuanBlZyIsImVkaXRzIjp7Im5vcm1hbGlzZSI6dHJ1ZSwicm90YXRlIjowLCJyZXNpemUiOnsid2lkdGgiOjk3OSwiaGVpZ2h0Ijo3NDMsImZpdCI6ImNvbnRhaW4iLCJiYWNrZ3JvdW5kIjp7InIiOjI1NSwiZyI6MjU1LCJiIjoyNTUsImFscGhhIjoxfX19fQ==",
+      "x": false
+     }
+    ],
+    "9232384": [
+     "2025-06-25T21:55:40.602Z",
+     "2025-06-19",
+     {
+      "tipo": "Apartamento",
+      "precio": 2600000,
+      "admin": null,
+      "area": 68,
+      "hab": 3,
+      "banos": 2,
+      "parq": 1,
+      "lat": 6.166763613846771,
+      "lon": -75.57386693612395,
+      "wa": "573015513657",
+      "m": "Envigado",
+      "b": "Camino Verde",
+      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nX2FwYXJ0YW1lbnRvX2VuX2FycmllbmRvX2VuX2NhbV8xNzUwMzY1MTI2LTk4OV81OTk1LmpwZWciLCJlZGl0cyI6eyJub3JtYWxpc2UiOnRydWUsInJvdGF0ZSI6MCwicmVzaXplIjp7IndpZHRoIjo5NzksImhlaWdodCI6NzQzLCJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MX19fX0=",
+      "x": false
+     }
+    ],
+    "9232279": [
+     "2025-06-25T21:51:47.141Z",
+     "2025-06-19",
+     {
+      "tipo": "Apartamento",
+      "precio": 2600000,
+      "admin": null,
+      "area": 68,
+      "hab": 3,
+      "banos": 2,
+      "parq": 1,
+      "lat": 6.167464708527964,
+      "lon": -75.57573486844424,
+      "wa": "573015513657",
+      "m": "Envigado",
+      "b": "Camino Verde",
+      "img": "https://image.wasi.co/eyJidWNrZXQiOiJzdGF0aWN3Iiwia2V5IjoiaW5tdWVibGVzXC9nX2FwYXJ0YW1lbnRvX2VuX2FycmllbmRvX2VuX2NhbV8xNzUwMzY0Mjc1LTc3OTRfNTQ0MS5qcGVnIiwiZWRpdHMiOnsibm9ybWFsaXNlIjp0cnVlLCJyb3RhdGUiOjAsInJlc2l6ZSI6eyJ3aWR0aCI6OTc5LCJoZWlnaHQiOjc0MywiZml0IjoiY29udGFpbiIsImJhY2tncm91bmQiOnsiciI6MjU1LCJnIjoyNTUsImIiOjI1NSwiYWxwaGEiOjF9fX19",
+      "x": false
+     }
     ]
    }
   },

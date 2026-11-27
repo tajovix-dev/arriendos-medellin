@@ -889,6 +889,11 @@
   "lon": -75.6000914,
   "tipo": "lugar"
  },
+ "Medellín|el nogal los almendros": {
+  "lat": 6.2374028,
+  "lon": -75.5973072,
+  "tipo": "zona"
+ },
  "Medellín|el pinal": {
   "lat": 6.2444866,
   "lon": -75.5455971,
