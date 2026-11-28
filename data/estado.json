@@ -1,77 +1,77 @@
 {
  "fincaraiz": {
   "medellin": {
-   "cursor": 18,
+   "cursor": 33,
    "paginas": 32,
    "ciclos": 26
   },
   "sabaneta": {
    "cursor": 1,
    "paginas": 7,
-   "ciclos": 93
+   "ciclos": 94
   },
   "envigado": {
    "cursor": 1,
    "paginas": 3,
-   "ciclos": 93
+   "ciclos": 94
   },
   "itagui": {
    "cursor": 1,
    "paginas": 4,
-   "ciclos": 93
+   "ciclos": 94
   },
   "la-estrella": {
    "cursor": 1,
    "paginas": 5,
-   "ciclos": 93
+   "ciclos": 94
   }
  },
  "rentola": {
   "sabaneta": {
-   "cursor": 51,
+   "cursor": 1,
    "paginas": 294,
-   "ciclos": 31
+   "ciclos": 32
   },
   "envigado": {
-   "cursor": 51,
+   "cursor": 1,
    "paginas": 406,
-   "ciclos": 31
+   "ciclos": 32
   },
   "itagui": {
-   "cursor": 51,
+   "cursor": 1,
    "paginas": 116,
-   "ciclos": 31
+   "ciclos": 32
   },
   "la-estrella": {
-   "cursor": 51,
+   "cursor": 1,
    "paginas": 55,
-   "ciclos": 31
+   "ciclos": 32
   }
  },
  "albertoalvarez": {
   "medellin": {
-   "cursor": 61,
+   "cursor": 81,
    "paginas": 116,
    "ciclos": 15
   },
   "sabaneta": {
-   "cursor": 21,
+   "cursor": 1,
    "paginas": 36,
-   "ciclos": 46
+   "ciclos": 47
   },
   "envigado": {
-   "cursor": 1,
+   "cursor": 21,
    "paginas": 49,
    "ciclos": 31
   },
   "itagui": {
    "cursor": 1,
-   "ciclos": 94,
+   "ciclos": 95,
    "paginas": 8
   },
   "la-estrella": {
    "cursor": 1,
-   "ciclos": 94,
+   "ciclos": 95,
    "paginas": 8
   }
  },
@@ -388,7 +388,7 @@
   },
   "inicio": 0,
   "peticiones": 56,
-  "ciclos": 78
+  "ciclos": 79
  },
  "espaciourbano": {
   "listas": {
@@ -433,7 +433,7 @@
     "max": 1825248
    }
   },
-  "ciclos": 79,
+  "ciclos": 80,
   "cursor": [
    0,
    1
@@ -2712,17 +2712,17 @@
   "inicializado": true
  },
  "nutibara": {
-  "ultima_descarga": 1795852487,
+  "ultima_descarga": 1795861542,
   "inicializado": true
  },
  "doomos": {
   "fechas": {
    "2026-11-14": 33,
-   "2026-11-13": 31,
-   "2026-11-12": 16,
-   "2026-11-11": 28,
-   "2026-11-10": 9,
-   "2026-11-09": 18,
+   "2026-11-13": 32,
+   "2026-11-12": 17,
+   "2026-11-11": 31,
+   "2026-11-10": 10,
+   "2026-11-09": 20,
    "2026-11-06": 1,
    "2026-11-05": 3,
    "2026-11-04": 5,
@@ -2737,28 +2737,9 @@
    "2026-11-24": 56,
    "2026-11-25": 59,
    "2026-11-26": 69,
-   "2026-11-27": 20
+   "2026-11-27": 39
   },
   "ids_fecha": [
-   886949,
-   886982,
-   887003,
-   887014,
-   887034,
-   887061,
-   887068,
-   887188,
-   887280,
-   887377,
-   887380,
-   887406,
-   887441,
-   887878,
-   887893,
-   887918,
-   887919,
-   887925,
-   887950,
    887965,
    887993,
    888026,
@@ -3324,22 +3305,41 @@
    903071,
    903073,
    903076,
+   903077,
+   903096,
    903114,
    903155,
    903189,
+   903194,
+   903200,
+   903204,
+   903213,
+   903218,
+   903219,
    903220,
    903221,
+   903231,
    903244,
+   903249,
    903251,
+   903257,
    903281,
    903290,
    903292,
    903296,
+   903297,
    903301,
    903308,
    903318,
    903320,
-   903322
+   903322,
+   903465,
+   903510,
+   903552,
+   903692,
+   903794,
+   903832,
+   903857
   ],
   "coords_genericas": [
    [
@@ -3399,7 +3399,7 @@
     "-75.5912004"
    ]
   ],
-  "corridas": 79
+  "corridas": 80
  },
  "softinm": {
   "ok": true
