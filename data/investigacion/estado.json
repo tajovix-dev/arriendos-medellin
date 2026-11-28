@@ -4964,11 +4964,10 @@
    }
   },
   "cc-3953413": {
-   "huella": "cc-3953413|lw-estrella-9761|1700000",
+   "huella": "cc-3953413|1700000",
    "exp": {
     "ids": [
-     "cc-3953413",
-     "lw-estrella-9761"
+     "cc-3953413"
     ],
     "precio": 1700000,
     "hab": 2,
@@ -4980,7 +4979,7 @@
     "v": 6,
     "barrio": null,
     "sector": {
-     "nombre": "Guayabal",
+     "nombre": "San Gabriel de Itagüí",
      "via": "Calle 47A Sur",
      "referencias": [
       "I.E. Ángela Restrepo Moreno (201 m)",
@@ -4992,27 +4991,17 @@
      ],
      "celda": "6.180,-75.636"
     },
-    "sector_en_texto": "Guayabal",
+    "sector_en_texto": "San Gabriel de Itagüí",
     "texto_dice_otro_barrio": null,
     "pin_en_otro_barrio": null,
-    "conjunto": null,
-    "conjunto_origen": null,
-    "disponible": true,
+    "conjunto": "Territorio Verde",
+    "conjunto_origen": "anuncio",
+    "disponible": false,
     "publicado": "2026-11-20",
     "modificado": null,
     "en_pagina_desde": "2026-11-20",
-    "video": true,
-    "videos": [
-     "https://youtu.be/Ki42WWuwZws",
-     "https://youtu.be/d4sbj7ghjho",
-     "https://youtu.be/9R_ANx147pU",
-     "https://youtu.be/Lnddjm1Tjws",
-     "https://youtu.be/i0jJj7vXOOk",
-     "https://youtu.be/sxxaeMhG5do",
-     "https://youtu.be/ur3FqTyY6rk",
-     "https://youtu.be/fn37yYKMwII",
-     "https://youtu.be/V41M-sa9mKI"
-    ],
+    "video": false,
+    "videos": [],
     "tour": null,
     "versiones": [
      {
@@ -5023,33 +5012,29 @@
       "modificado": null,
       "anunciante": "ALQUIVENTAS  S A S",
       "tel": "3217158566"
-     },
-     {
-      "fuente": "Inmobiliaria La Estrella",
-      "url": "https://www.inmobiliarialaestrella.com/detalle-propiedad/apartamento-enarriendo-en-itagui-9761",
-      "disponible": true,
-      "publicado": "2026-11-24",
-      "modificado": null,
-      "anunciante": "Inmobiliaria La Estrella",
-      "tel": "6042500646"
      }
     ],
     "rasgos": {
      "porteria": true,
-     "vigilancia": false,
+     "vigilancia": true,
      "unidad_cerrada": true,
      "en_casa": false,
      "ascensor": false,
-     "piscina": false,
-     "parqueadero": true,
-     "loma": true,
+     "piscina": true,
+     "parqueadero": false,
+     "loma": false,
      "dice_venta": false
     },
-    "desc": "Este hermoso apartamento dúplex tiene 84 m; se encuentra ubicado en el sector Guayabal, Medellín Ant, en una unidad cerrada con excelente ubicación, cerca de colegios, supermercados, centros comerciales, transporte público y diferentes servicios del sector, ideal para disfrutar de una vida cómoda y práctica. Cuenta con una distribución cómoda y funcional de 3 habitaciones, 2 con clóset y la principal con vestier, balcón y baño privado con bañera, además de baño social, sala-comedor, biblioteca o estudio con posibilidad de adecuarse como cuarta habitación, cocina integral equipada con extractor, gabinetes y red de gas, ventanal, zona de ropas independiente y cuarto útil interno, ofreciendo es",
+    "desc": "Descripción Apartamento en Arriendo – Territorio Verde Apartamentos, San Gabriel, Itagüí (Piso 24) Apartamento de aproximadamente 56 m², ubicado en Territorio Verde Apartamentos, en el sector San Gabriel de Itagüí. Se encuentra en un sector residencial con fácil acceso a comercio, transporte público y servicios esenciales, ideal para quienes buscan comodidad y una buena ubicación.El inmueble cuenta con sala comedor, cocina semintegral con red de gas,2 alcobas, 2 clósets, 2 baños, balcón y calentador, ofreciendo espacios funcionales y bien distribuidos para disfrutar en familia.La unidad residencial ofrece excelentes zonas comunes, como piscina infantil, juegos infantiles, gimnasio, salón soc",
     "codigos": [
      "9761"
     ],
-    "alias": [],
+    "alias": [
+     [
+      "cc-3953413",
+      "lw-estrella-9761"
+     ]
+    ],
     "ubicacion": {
      "tipo": "de la ficha",
      "lat": 6.178644,
@@ -5192,35 +5177,12 @@
       1700000
      ]
     ],
-    "fecha": "2026-11-28T03:00-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
+     "Ya no está disponible en ninguna de sus páginas.",
      "La Quebrada Doña María pasa a 88 m: pregunta si el edificio ha tenido problemas con crecientes.",
      "Al Metro Sabaneta son 52 min a pie (3.9 km): toca bus o carro."
     ]
-   },
-   "opinion": {
-    "id": "cc-3953413",
-    "veredicto": "con reservas",
-    "puntaje": 6,
-    "frase": "Unidad cerrada con portería, pero sector con incidentes de seguridad y riesgos de inundación.",
-    "resumen": "El apartamento está en una unidad cerrada con portería, lo cual es positivo para la seguridad. Sin embargo, el sector de Guayabal en Itagüí ha reportado homicidios y extorsiones recientes, además de riesgos de inundación por quebradas cercanas.",
-    "a_favor": [
-     "Unidad cerrada con portería",
-     "Cerca a colegios y supermercados",
-     "Buen transporte público"
-    ],
-    "en_contra": [
-     "Incidentes de seguridad recientes en el sector",
-     "Riesgo de inundaciones por quebradas",
-     "Lejos del metro a pie"
-    ],
-    "preguntar": [
-     "¿El edificio ha tenido problemas con crecientes de la Quebrada Doña María?",
-     "¿Hay rutas de bus directas al metro y cuál es la frecuencia?",
-     "¿Cuál es el historial de seguridad del conjunto?"
-    ],
-    "transporte": "El sector está bien conectado por rutas de bus que pasan por la Avenida Guayabal, facilitando el acceso a estaciones del Metro de Medellín. La estación La Estrella está a 11 minutos en carro.",
-    "fecha": "2026-11-28T03:04-05:00"
    }
   },
   "cc-3953460": {
@@ -76871,9 +76833,10 @@
    }
   },
   "cc-3906056": {
-   "huella": "cc-3906056|1700000",
+   "huella": "cc-3906056|lw-estrella-9681|1700000",
    "exp": {
     "ids": [
+     "lw-estrella-9681",
      "cc-3906056"
     ],
     "precio": 1700000,
@@ -76906,11 +76869,22 @@
     "disponible": true,
     "publicado": "2026-10-08",
     "modificado": null,
-    "en_pagina_desde": "2026-11-18",
-    "video": false,
-    "videos": [],
+    "en_pagina_desde": "2026-11-16",
+    "video": true,
+    "videos": [
+     "https://youtu.be/PUzFlqV3v8w"
+    ],
     "tour": null,
     "versiones": [
+     {
+      "fuente": "Inmobiliaria La Estrella",
+      "url": "https://www.inmobiliarialaestrella.com/detalle-propiedad/apartamento-enarriendo-en-san-antonio-de-prado-9681",
+      "disponible": true,
+      "publicado": null,
+      "modificado": null,
+      "anunciante": "Inmobiliaria La Estrella",
+      "tel": "6042500646"
+     },
      {
       "fuente": "Ciencuadras",
       "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-san-antonio-de-prado-medellin-3906056",
@@ -76936,16 +76910,11 @@
     "codigos": [
      "9681"
     ],
-    "alias": [
-     [
-      "cc-3906056",
-      "lw-estrella-9681"
-     ]
-    ],
+    "alias": [],
     "ubicacion": {
      "tipo": "de la ficha",
-     "lat": 6.184068,
-     "lon": -75.654848,
+     "lat": 6.1840682,
+     "lon": -75.6548482,
      "osm": {
       "barrio": null,
       "via": "Calle 42A Sur",
@@ -77086,11 +77055,11 @@
     },
     "hist": [
      [
-      "2026-11-18",
+      "2026-11-16",
       1700000
      ]
     ],
-    "fecha": "2026-11-28T03:00-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada.",
      "Lleva 51 días publicado: pregunta si sigue libre.",
@@ -77099,34 +77068,36 @@
    },
    "opinion": {
     "id": "cc-3906056",
-    "veredicto": "no recomendable",
-    "puntaje": 4,
-    "frase": "Sin portería ni vigilancia, sector con escasez de agua y lejos del metro.",
-    "resumen": "El apartamento no menciona portería ni vigilancia, lo cual es una prioridad. El sector de La Gruta ha tenido problemas de escasez de agua y está lejos del metro. El barrio San Antonio de Prado tiene problemas de acceso y trancones.",
+    "veredicto": "con reservas",
+    "puntaje": 5,
+    "frase": "Sector tranquilo, pero sin portería y con riesgo de agua.",
+    "resumen": "El apartamento está en un sector tranquilo con comercio cercano, pero carece de portería y el barrio tiene problemas de acceso y racionamiento de agua.",
     "a_favor": [
-     "Cerca a supermercados y colegios",
-     "Sector tranquilo y de fácil acceso (según descripción)",
-     "Ascensor y parqueadero (según rasgos)"
+     "Sector La Gruta es tranquilo y de fácil acceso.",
+     "Cercanía a supermercados y colegios.",
+     "Transporte público con rutas frecuentes."
     ],
     "en_contra": [
-     "No tiene portería ni vigilancia",
-     "Escasez de agua en el sector (Quebrada La Manguala)",
-     "Lejos del metro y con trancones en el barrio"
+     "No cuenta con portería ni vigilancia.",
+     "Racionamiento de agua en el sector por Quebrada La Manguala.",
+     "Barrio San Antonio de Prado lejos del centro y con trancones."
     ],
     "preguntar": [
-     "¿El edificio cuenta con algún sistema de seguridad o control de acceso?",
-     "¿Cómo se ha gestionado la escasez de agua en el edificio?",
-     "¿El parqueadero es propio o comunal?"
+     "¿El edificio cuenta con algún sistema de seguridad?",
+     "¿Ha habido problemas recientes de racionamiento de agua en el edificio?",
+     "¿Cuál es el tiempo real de viaje al Metro en hora pico?"
     ],
-    "transporte": "El sector está conectado con rutas de bus que ofrecen acceso a estaciones del Metro de Medellín y al centro, pero la estación La Estrella está a 1 hora 3 minutos en bus.",
-    "fecha": "2026-11-28T03:04-05:00"
+    "transporte": "El sector tiene rutas de bus frecuentes a estaciones del Metro como Aguacatala (10 min) y Exposiciones (28-32 min), y al Centro de Medellín (45 min).",
+    "fecha": "2026-11-28T05:32-05:00"
    }
   },
   "cc-3906189": {
-   "huella": "cc-3906189|2000000",
+   "huella": "cc-3906189|lw-estrella-9682|m2-21136-M7131770|2000000",
    "exp": {
     "ids": [
-     "cc-3906189"
+     "lw-estrella-9682",
+     "cc-3906189",
+     "m2-21136-M7131770"
     ],
     "precio": 2000000,
     "hab": 3,
@@ -77158,11 +77129,20 @@
     "disponible": true,
     "publicado": "2026-10-08",
     "modificado": null,
-    "en_pagina_desde": "2026-11-18",
+    "en_pagina_desde": "2026-11-16",
     "video": false,
     "videos": [],
     "tour": null,
     "versiones": [
+     {
+      "fuente": "Inmobiliaria La Estrella",
+      "url": "https://www.inmobiliarialaestrella.com/detalle-propiedad/apartamento-enarriendo-en-san-antonio-de-prado-9682",
+      "disponible": true,
+      "publicado": "2026-11-04",
+      "modificado": null,
+      "anunciante": "Inmobiliaria La Estrella",
+      "tel": "6042500646"
+     },
      {
       "fuente": "Ciencuadras",
       "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-san-antonio-de-prado-medellin-3906189",
@@ -77171,6 +77151,15 @@
       "modificado": null,
       "anunciante": "ALQUIVENTAS  S A S",
       "tel": "3217158566"
+     },
+     {
+      "fuente": "Metrocuadrado",
+      "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-medellin-san-antonio-de-prado-3-habitaciones-2-banos/21136-M7131770",
+      "disponible": true,
+      "publicado": null,
+      "modificado": null,
+      "anunciante": "Inmobiliaria",
+      "tel": "6044480577"
      }
     ],
     "rasgos": {
@@ -77186,18 +77175,14 @@
     },
     "desc": "Descripción Apartamento en Arriendo – San Antonio de Prado, Sector La Gruta (Piso 3) Apartamento de aproximadamente 78 m², ubicado en el sector La Gruta de San Antonio de Prado, al frente del parqueadero y Vivero El Sevillano, en un sector tranquilo y de fácil acceso. La propiedad cuenta con sala comedor, cocina integral con red de gas, 3 alcobas, 3 closets, 2 baños cabinados y zona de ropas, ofreciendo espacios cómodos y bien distribuidos para toda la familia.El inmueble no cuenta con parqueadero y el edificio no cuenta con ascensor. CODIGO: 9682 Zonas comunes No tiene Zona lavanderia Explorar cercanías shopping_cart Supermercados school Educación park Parques Supermercado maxioferta prado ",
     "codigos": [
+     "21136",
      "9682"
     ],
-    "alias": [
-     [
-      "cc-3906189",
-      "lw-estrella-9682"
-     ]
-    ],
+    "alias": [],
     "ubicacion": {
      "tipo": "de la ficha",
-     "lat": 6.184068,
-     "lon": -75.654848,
+     "lat": 6.1840682,
+     "lon": -75.6548482,
      "osm": {
       "barrio": null,
       "via": "Calle 42A Sur",
@@ -77338,11 +77323,11 @@
     },
     "hist": [
      [
-      "2026-11-18",
+      "2026-11-16",
       2000000
      ]
     ],
-    "fecha": "2026-11-28T03:00-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada.",
      "Lleva 51 días publicado: pregunta si sigue libre.",
@@ -77353,25 +77338,25 @@
     "id": "cc-3906189",
     "veredicto": "no recomendable",
     "puntaje": 4,
-    "frase": "Fuera de presupuesto, sin portería ni vigilancia, sector con escasez de agua y lejos del metro.",
-    "resumen": "El apartamento excede el presupuesto. No menciona portería ni vigilancia, lo cual es una prioridad. El sector de La Gruta ha tenido problemas de escasez de agua y está lejos del metro. El barrio San Antonio de Prado tiene problemas de acceso y trancones.",
+    "frase": "Fuera de presupuesto, sin portería, y con problemas de agua y acceso.",
+    "resumen": "El apartamento excede el presupuesto, no tiene portería, y el sector presenta problemas de racionamiento de agua y el barrio tiene dificultades de acceso.",
     "a_favor": [
-     "Cerca a supermercados y colegios",
-     "Sector tranquilo y de fácil acceso (según descripción)",
-     "Ascensor y parqueadero (según rasgos)"
+     "Sector La Gruta es tranquilo y de fácil acceso.",
+     "Cercanía a supermercados y colegios.",
+     "Transporte público con rutas frecuentes."
     ],
     "en_contra": [
-     "Excede el presupuesto",
-     "No tiene portería ni vigilancia",
-     "Escasez de agua en el sector (Quebrada La Manguala)"
+     "Excede el presupuesto ($2.000.000).",
+     "No cuenta con portería ni vigilancia.",
+     "Racionamiento de agua en el sector por Quebrada La Manguala."
     ],
     "preguntar": [
-     "¿El edificio cuenta con algún sistema de seguridad o control de acceso?",
-     "¿Cómo se ha gestionado la escasez de agua en el edificio?",
-     "¿El parqueadero es propio o comunal?"
+     "¿El edificio cuenta con algún sistema de seguridad?",
+     "¿Ha habido problemas recientes de racionamiento de agua en el edificio?",
+     "¿Cuál es el tiempo real de viaje al Metro en hora pico?"
     ],
-    "transporte": "El sector está conectado con rutas de bus que ofrecen acceso a estaciones del Metro de Medellín y al centro, pero la estación La Estrella está a 1 hora 3 minutos en bus.",
-    "fecha": "2026-11-28T03:04-05:00"
+    "transporte": "El sector tiene rutas de bus frecuentes a estaciones del Metro como Aguacatala (10 min) y Exposiciones (28-32 min), y al Centro de Medellín (45 min).",
+    "fecha": "2026-11-28T05:32-05:00"
    }
   },
   "cc-3907463": {
@@ -308540,11 +308525,12 @@
    }
   },
   "cc-3927702": {
-   "huella": "cc-3927702|lw-estrella-9147|1800000",
+   "huella": "cc-3927702|lw-estrella-9147|m2-21136-M7262354|1800000",
    "exp": {
     "ids": [
      "cc-3927702",
-     "lw-estrella-9147"
+     "lw-estrella-9147",
+     "m2-21136-M7262354"
     ],
     "precio": 1800000,
     "hab": 3,
@@ -308556,7 +308542,7 @@
     "v": 6,
     "barrio": "La Ospina",
     "sector": {
-     "nombre": null,
+     "nombre": "Villa Mira de La Estrella",
      "via": "Carrera 56E",
      "referencias": [
       "Parque Villa Mira (92 m)",
@@ -308568,7 +308554,7 @@
      ],
      "celda": "6.160,-75.640"
     },
-    "sector_en_texto": null,
+    "sector_en_texto": "Villa Mira de La Estrella",
     "texto_dice_otro_barrio": null,
     "pin_en_otro_barrio": null,
     "conjunto": null,
@@ -308600,6 +308586,15 @@
       "modificado": null,
       "anunciante": "Inmobiliaria La Estrella",
       "tel": "6042500646"
+     },
+     {
+      "fuente": "Metrocuadrado",
+      "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-la-estrella-la-estrella-3-habitaciones-2-banos/21136-M7262354",
+      "disponible": true,
+      "publicado": null,
+      "modificado": null,
+      "anunciante": "Inmobiliaria",
+      "tel": null
      }
     ],
     "rasgos": {
@@ -308607,14 +308602,15 @@
      "vigilancia": false,
      "unidad_cerrada": false,
      "en_casa": false,
-     "ascensor": true,
+     "ascensor": false,
      "piscina": false,
      "parqueadero": false,
      "loma": false,
      "dice_venta": false
     },
-    "desc": "Descripción Arriendo La Estrella Apartamento Villa Mira, en Ph, estrato 4, piso 5 SIN ASCENSOR, 68 m2 aprox, 3 habitaciones 2 con clóset, 2 baños cabinados, sala comedor, balcón cocina integral, zona de ropas, inmueble en proceso de terminación y legalización de servicios públicos disponible, transporte publico. Nota: a partir de noviembre 20 Explorar cercanías directions_bus Transporte público shopping_cart Supermercados school Educación medical_services Salud park Parques Terminal yarumito Flota occidental sa La estrella ¿Aún tienes dudas? ¡Hablemos! ",
+    "desc": "Acerca de este inmueble Apartamento en Arriendo – Villa Mira, La Estrella Piso 3 Apartamento de aproximadamente 70 m², ubicado en el sector Villa Mira de La Estrella, en una zona residencial con fácil acceso a comercio, transporte público y servicios esenciales. Ideal para quienes buscan comodidad y espacios amplios para disfrutar en familia.El inmueble cuenta con sala comedor, cocina semintegral con red de gas, 3 alcobas, 2 clósets, 2 baños, , balcón y zona de ropas, ofreciendo una distribución funcional y agradable. CODIGO 9147 Ver mas INMOBILIARIA LA ESTRELLA Antigüedad: Entre 0 y 5 años Barrio común: La Estrella Código: 21136-M7262354 Reportar anuncio Cerrar ",
     "codigos": [
+     "21136",
      "9147"
     ],
     "alias": [],
@@ -308801,7 +308797,7 @@
       1800000
      ]
     ],
-    "fecha": "2026-11-28T03:00-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada.",
      "Hay una cárcel a 1142 m (Carcel de Máxima Seguridad de Itagüí (EPC La Paz))."
@@ -308811,25 +308807,25 @@
     "id": "cc-3927702",
     "veredicto": "con reservas",
     "puntaje": 6,
-    "frase": "Sin portería ni vigilancia, barrio con amenaza de avenida torrencial y cerca de cárcel.",
-    "resumen": "El apartamento no menciona portería ni vigilancia. El barrio La Ospina tiene amenaza por avenida torrencial de la quebrada La Ospina. Además, está cerca de una cárcel. Aunque tiene ascensor, el anuncio indica que el apartamento está en un 5to piso SIN ASCENSOR.",
+    "frase": "Cerca a servicios, pero sin portería y con riesgo de quebrada.",
+    "resumen": "Ubicación conveniente cerca de comercio y transporte, pero el apartamento no tiene portería y el barrio tiene riesgo por la quebrada La Ospina.",
     "a_favor": [
-     "Cerca a centros comerciales y supermercados",
-     "Buen transporte público",
-     "Cerca a parques y colegios"
+     "Cercanía a centros comerciales, supermercados y parques.",
+     "Buen acceso a transporte público y Metro La Estrella.",
+     "Barrio con reducción de delitos a nivel municipal."
     ],
     "en_contra": [
-     "No tiene portería ni vigilancia",
-     "Barrio con amenaza por avenida torrencial",
-     "Cercanía a una cárcel"
+     "No cuenta con portería ni vigilancia.",
+     "Barrio con amenaza por avenida torrencial de Quebrada La Ospina.",
+     "El Metro La Estrella no es caminable (2.2 km)."
     ],
     "preguntar": [
      "¿El edificio cuenta con algún sistema de seguridad o control de acceso?",
-     "¿Hay rutas de bus directas y frecuentes a la estación La Estrella del Metro?",
-     "¿El apartamento realmente no tiene ascensor, a pesar de que el rasgo lo indica?"
+     "¿Se han tomado medidas de mitigación por la Quebrada La Ospina?",
+     "¿Hay rutas de bus directas y frecuentes al Metro La Estrella?"
     ],
-    "transporte": "El sector está bien conectado con rutas de bus que permiten el acceso a la estación La Estrella del Metro (6 minutos en carro) y al centro de Medellín (20 minutos en carro).",
-    "fecha": "2026-11-28T03:04-05:00"
+    "transporte": "El Metro La Estrella está a 6 min en carro y 29 min a pie. El Parque principal de La Estrella está a 3 min en carro y 11 min a pie.",
+    "fecha": "2026-11-28T05:32-05:00"
    }
   },
   "cc-3927855": {
@@ -313725,9 +313721,10 @@
    }
   },
   "cc-3945090": {
-   "huella": "cc-3945090|1900000",
+   "huella": "cc-3945090|lw-estrella-9748|1900000",
    "exp": {
     "ids": [
+     "lw-estrella-9748",
      "cc-3945090"
     ],
     "precio": 1900000,
@@ -313768,6 +313765,15 @@
     "tour": null,
     "versiones": [
      {
+      "fuente": "Inmobiliaria La Estrella",
+      "url": "https://www.inmobiliarialaestrella.com/detalle-propiedad/apartamento-enarriendo-en-la-estrella-9748",
+      "disponible": true,
+      "publicado": null,
+      "modificado": null,
+      "anunciante": "Inmobiliaria La Estrella",
+      "tel": "6042500646"
+     },
+     {
       "fuente": "Ciencuadras",
       "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-san-miguel-la-estrella-3945090",
       "disponible": true,
@@ -313792,16 +313798,11 @@
     "codigos": [
      "9748"
     ],
-    "alias": [
-     [
-      "cc-3945090",
-      "lw-estrella-9748"
-     ]
-    ],
+    "alias": [],
     "ubicacion": {
      "tipo": "de la ficha",
-     "lat": 6.118991,
-     "lon": -75.636052,
+     "lat": 6.1189914,
+     "lon": -75.6360515,
      "osm": {
       "barrio": null,
       "via": "Calle 100",
@@ -313905,7 +313906,7 @@
       1900000
      ]
     ],
-    "fecha": "2026-11-28T03:01-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El Metro La Estrella queda a 5.7 km por vía: no es caminable."
     ]
@@ -313913,26 +313914,26 @@
    "opinion": {
     "id": "cc-3945090",
     "veredicto": "recomendable",
-    "puntaje": 9,
-    "frase": "Unidad cerrada con portería y vigilancia, cerca a comercio y buen transporte.",
-    "resumen": "El apartamento está en una unidad cerrada con portería y vigilancia 24 horas, piscina y parqueadero, cumpliendo todas las prioridades de seguridad. Está cerca de colegios y tiene buen transporte público, aunque lejos del metro a pie.",
+    "puntaje": 8,
+    "frase": "Unidad cerrada con portería y servicios, pero fuera de presupuesto.",
+    "resumen": "Unidad cerrada con portería y vigilancia 24/7, piscina y buen transporte, cumpliendo prioridades, pero excede el presupuesto.",
     "a_favor": [
-     "Unidad cerrada con portería y vigilancia 24 horas",
-     "Piscina, salón social y zonas verdes",
-     "Cerca a colegios y transporte público"
+     "Unidad cerrada con portería y vigilancia 24/7, piscina y zonas comunes.",
+     "Entorno tranquilo y campestre, con buena iluminación natural.",
+     "Cercanía a colegios, supermercados y transporte público."
     ],
     "en_contra": [
-     "Lejos del metro a pie",
-     "Riesgo de desbordamiento de quebradas en el municipio",
-     "Precio ligeramente por encima del presupuesto"
+     "Excede el presupuesto ($1.900.000).",
+     "Riesgo de desbordamiento de Quebrada Palosanto.",
+     "El Metro La Estrella no es caminable (5.7 km)."
     ],
     "preguntar": [
-     "¿Cuál es el costo de la administración?",
-     "¿Hay rutas de bus directas y frecuentes a la estación La Estrella del Metro?",
-     "¿Ha habido incidentes de seguridad recientes en el conjunto?"
+     "¿Es posible negociar el precio del arriendo?",
+     "¿Ha habido incidentes de desbordamiento de la Quebrada Palosanto en el conjunto?",
+     "¿Hay rutas de bus directas y frecuentes al Metro La Estrella?"
     ],
-    "transporte": "El sector está bien conectado con rutas de bus que pasan por la Calle 100 y llegan a la estación La Estrella del Metro (7 minutos en carro), facilitando el acceso al centro de Medellín (22 minutos en carro).",
-    "fecha": "2026-11-28T03:04-05:00"
+    "transporte": "Bien conectado con rutas de bus a la Estación La Estrella del Metro, facilitando el acceso al centro de Medellín (aprox. 31 min en auto).",
+    "fecha": "2026-11-28T05:32-05:00"
    }
   },
   "cc-3945400": {
@@ -344435,11 +344436,10 @@
    }
   },
   "cc-3920767": {
-   "huella": "cc-3920767|lw-estrella-9707|1500000",
+   "huella": "cc-3920767|1500000",
    "exp": {
     "ids": [
-     "cc-3920767",
-     "lw-estrella-9707"
+     "cc-3920767"
     ],
     "precio": 1500000,
     "hab": 1,
@@ -344482,15 +344482,6 @@
       "modificado": null,
       "anunciante": "ALQUIVENTAS  S A S",
       "tel": "3217158566"
-     },
-     {
-      "fuente": "Inmobiliaria La Estrella",
-      "url": "https://www.inmobiliarialaestrella.com/detalle-propiedad/apartaestudio-enarriendo-en-itagui-9707",
-      "disponible": true,
-      "publicado": null,
-      "modificado": null,
-      "anunciante": "Inmobiliaria La Estrella",
-      "tel": "6042500646"
      }
     ],
     "rasgos": {
@@ -344508,7 +344499,12 @@
     "codigos": [
      "9707"
     ],
-    "alias": [],
+    "alias": [
+     [
+      "cc-3920767",
+      "lw-estrella-9707"
+     ]
+    ],
     "ubicacion": {
      "tipo": "exacta",
      "lat": 6.162786,
@@ -344671,7 +344667,7 @@
       1500000
      ]
     ],
-    "fecha": "2026-11-28T03:01-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
@@ -344680,25 +344676,24 @@
     "id": "cc-3920767",
     "veredicto": "no recomendable",
     "puntaje": 3,
-    "frase": "Apartaestudio sin portería, no cumple requisitos de habitaciones y baños.",
-    "resumen": "Este es un apartaestudio de 1 habitación y 1 baño, lo cual no cumple con el requisito de 2 o más habitaciones y 2 baños. Además, no menciona portería ni vigilancia.",
+    "frase": "Apartaestudio con una habitación, no cumple requisitos.",
+    "resumen": "El inmueble es un apartaestudio de una habitación, no cumpliendo el requisito de 2 o más habitaciones.",
     "a_favor": [
-     "Cerca a supermercados y centros comerciales",
-     "Cerca a hospitales y colegios",
-     "Cerca al metro Sabaneta (10 min a pie)"
+     "Cercanía a Metro Sabaneta (10 min a pie).",
+     "Cercanía a supermercados, centros comerciales y hospitales.",
+     "Sector con buena conectividad."
     ],
     "en_contra": [
-     "No cumple con el requisito de habitaciones y baños",
-     "No tiene portería ni vigilancia",
-     "El anuncio indica que no tiene parqueadero ni ascensor, a pesar de los rasgos"
+     "Es un apartaestudio de 1 habitación, no cumple requisito de 2+ habitaciones.",
+     "No cuenta con portería ni vigilancia.",
+     "No se encontró información específica de seguridad del barrio."
     ],
     "preguntar": [
-     "¿El edificio cuenta con algún sistema de seguridad o control de acceso?",
-     "¿El apartamento realmente no tiene parqueadero ni ascensor?",
-     "¿Cuál es el costo de la administración?"
+     "¿El edificio cuenta con portería o algún sistema de seguridad?",
+     "¿Hay opciones de apartamentos de 2 o más habitaciones en el mismo edificio?"
     ],
-    "transporte": "El sector está muy bien conectado con el Metro Sabaneta (10 minutos a pie) y el Metro Itagüí (29 minutos a pie). También hay rutas de bus frecuentes.",
-    "fecha": "2026-11-28T03:04-05:00"
+    "transporte": "Excelente conexión con Metro Sabaneta (10 min a pie) y Metro Itagüí (29 min a pie). Rutas de bus al Centro de Medellín (16 min).",
+    "fecha": "2026-11-28T05:32-05:00"
    }
   },
   "cc-3921410": {
@@ -355569,11 +355564,10 @@
    }
   },
   "cc-3930544": {
-   "huella": "cc-3930544|lw-estrella-8561|1200000",
+   "huella": "cc-3930544|1200000",
    "exp": {
     "ids": [
-     "cc-3930544",
-     "lw-estrella-8561"
+     "cc-3930544"
     ],
     "precio": 1200000,
     "hab": 0,
@@ -355586,14 +355580,14 @@
     "barrio": "Samaria Et. I",
     "sector": {
      "nombre": "Samaria",
-     "via": "Calle 34",
+     "via": "Carrera 54",
      "referencias": [
-      "Centro Educativo San Nicolás (60 m)",
-      "Centro Educativo Galilei (74 m)",
-      "Centro Educativo Hispanoamericano (166 m)"
+      "Centro Educativo San Nicolás (70 m)",
+      "Centro Educativo Galilei (83 m)",
+      "Centro Educativo Hispanoamericano (157 m)"
      ],
      "quebradas": [
-      "Quebrada La Ospina (182 m)"
+      "Quebrada La Ospina (187 m)"
      ],
      "celda": "6.168,-75.624"
     },
@@ -355620,15 +355614,6 @@
       "modificado": null,
       "anunciante": "ALQUIVENTAS  S A S",
       "tel": "3217158566"
-     },
-     {
-      "fuente": "Inmobiliaria La Estrella",
-      "url": "https://www.inmobiliarialaestrella.com/detalle-propiedad/apartaestudio-enarriendo-en-itagui-8561",
-      "disponible": true,
-      "publicado": null,
-      "modificado": null,
-      "anunciante": "Inmobiliaria La Estrella",
-      "tel": "6042500646"
      }
     ],
     "rasgos": {
@@ -355646,20 +355631,25 @@
     "codigos": [
      "8561"
     ],
-    "alias": [],
+    "alias": [
+     [
+      "cc-3930544",
+      "lw-estrella-8561"
+     ]
+    ],
     "ubicacion": {
-     "tipo": "exacta",
-     "lat": 6.1674013,
-     "lon": -75.6240203,
+     "tipo": "de la ficha",
+     "lat": 6.167331,
+     "lon": -75.623945,
      "osm": {
       "barrio": null,
-      "via": "Calle 34",
+      "via": "Carrera 54",
       "municipio": "Itagüí"
      }
     },
     "metro": {
      "estacion": "Sabaneta",
-     "m_linea_recta": 1383
+     "m_linea_recta": 1372
     },
     "recorridos": [
      {
@@ -355719,75 +355709,79 @@
      "supermercados": [
       {
        "nombre": "Dollarcity",
-       "m": 515
+       "m": 507
       },
       {
        "nombre": "Olímpica San Pío",
-       "m": 530
+       "m": 519
+      },
+      {
+       "nombre": "La Gran Esquina",
+       "m": 797
       }
      ],
      "centros_comerciales": [
       {
        "nombre": "Deposito san pio",
-       "m": 363
+       "m": 352
       },
       {
        "nombre": "Tienda D1",
-       "m": 433
+       "m": 422
       },
       {
        "nombre": "Plaza Arrayanes",
-       "m": 529
+       "m": 520
       },
       {
        "nombre": "Complex ditaires",
-       "m": 592
+       "m": 603
       },
       {
        "nombre": "Éxito",
-       "m": 904
+       "m": 897
       }
      ],
      "salud": [
       {
        "nombre": "Hospital del sur",
-       "m": 309
+       "m": 298
       },
       {
        "nombre": "Hospital Del Sur",
-       "m": 349
+       "m": 337
       },
       {
        "nombre": "HOSPITAL",
-       "m": 377
+       "m": 365
       }
      ],
      "colegios": [
       {
        "nombre": "Centro Educativo San Nicolás",
-       "m": 60
+       "m": 70
       },
       {
        "nombre": "Centro Educativo Galilei",
-       "m": 74
+       "m": 83
       },
       {
        "nombre": "Centro Educativo Hispanoamericano",
-       "m": 166
+       "m": 157
       },
       {
        "nombre": "Institución Educativa Isolda Echavarria",
-       "m": 229
+       "m": 240
       },
       {
        "nombre": "Escuela Malta Cervunion",
-       "m": 244
+       "m": 243
       }
      ],
      "parques": [
       {
        "nombre": "Parque Ditaires",
-       "m": 407
+       "m": 417
       }
      ],
      "paraderos": 0,
@@ -355796,7 +355790,7 @@
      "quebradas": [
       {
        "nombre": "Quebrada La Ospina",
-       "m": 182
+       "m": 187
       }
      ]
     },
@@ -355807,7 +355801,7 @@
       1200000
      ]
     ],
-    "fecha": "2026-11-28T03:01-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
@@ -355816,25 +355810,25 @@
     "id": "cc-3930544",
     "veredicto": "no recomendable",
     "puntaje": 3,
-    "frase": "Apartaestudio sin portería, no cumple requisitos de habitaciones y baños.",
-    "resumen": "Este es un apartaestudio de 0 habitaciones y 1 baño, lo cual no cumple con el requisito de 2 o más habitaciones y 2 baños. Además, no menciona portería ni vigilancia. El barrio ha tenido un homicidio reciente y cortes de agua.",
+    "frase": "Apartaestudio con una habitación, no cumple requisitos.",
+    "resumen": "El inmueble es un apartaestudio de una habitación, no cumpliendo el requisito de 2 o más habitaciones.",
     "a_favor": [
-     "Cerca a centros comerciales y supermercados",
-     "Cerca a hospitales y colegios",
-     "Cerca al metro Sabaneta (25 min a pie)"
+     "Cercanía a hospitales y centros educativos.",
+     "Transporte público con rutas a estaciones del Metro.",
+     "Barrio con reducción de delitos a nivel municipal."
     ],
     "en_contra": [
-     "No cumple con el requisito de habitaciones y baños",
-     "No tiene portería ni vigilancia",
-     "Homicidio reciente y cortes de agua en el barrio"
+     "Es un apartaestudio de 1 habitación, no cumple requisito de 2+ habitaciones.",
+     "No cuenta con portería ni vigilancia.",
+     "Barrio con cortes de agua programados y un homicidio reciente."
     ],
     "preguntar": [
-     "¿El edificio cuenta con algún sistema de seguridad o control de acceso?",
-     "¿Cuál es la situación actual de seguridad en el sector?",
-     "¿Hay rutas de bus directas y frecuentes a la estación de metro más cercana?"
+     "¿El edificio cuenta con portería o algún sistema de seguridad?",
+     "¿Hay opciones de apartamentos de 2 o más habitaciones en el mismo edificio?",
+     "¿Con qué frecuencia ocurren los cortes de agua en el sector?"
     ],
-    "transporte": "El sector está bien conectado con el Metro Sabaneta (25 minutos a pie) y el Metro La Estrella (32 minutos a pie). También hay rutas de bus frecuentes.",
-    "fecha": "2026-11-28T03:04-05:00"
+    "transporte": "Conexión a Metro Sabaneta (25 min a pie) y Metro La Estrella (32 min a pie). Rutas de bus al Centro de Medellín (17 min).",
+    "fecha": "2026-11-28T05:32-05:00"
    }
   },
   "cc-3930554": {
@@ -365228,12 +365222,11 @@
    }
   },
   "cc-3937953": {
-   "huella": "cc-3937953|fr-194513629|sfm-survivienda-2378|2000000",
+   "huella": "cc-3937953|fr-194513629|2000000",
    "exp": {
     "ids": [
      "fr-194513629",
-     "cc-3937953",
-     "sfm-survivienda-2378"
+     "cc-3937953"
     ],
     "precio": 2000000,
     "hab": 3,
@@ -365287,15 +365280,6 @@
       "modificado": null,
       "anunciante": "Inmobiliairia Survivienda",
       "tel": "3016706110"
-     },
-     {
-      "fuente": "Survivienda",
-      "url": "https://www.survivienda.com/inmueble/2378",
-      "disponible": true,
-      "publicado": null,
-      "modificado": null,
-      "anunciante": "Survivienda",
-      "tel": "6044489240"
      }
     ],
     "rasgos": {
@@ -365313,7 +365297,12 @@
     "codigos": [
      "2378"
     ],
-    "alias": [],
+    "alias": [
+     [
+      "fr-194513629",
+      "sfm-survivienda-2378"
+     ]
+    ],
     "ubicacion": {
      "tipo": "exacta",
      "lat": 6.1650389,
@@ -365497,7 +365486,7 @@
       2000000
      ]
     ],
-    "fecha": "2026-11-28T03:01-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El portal dice barrio «Mesa», pero el pin cae en el barrio «La Paz».",
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
@@ -365506,26 +365495,26 @@
    "opinion": {
     "id": "cc-3937953",
     "veredicto": "no recomendable",
-    "puntaje": 5,
-    "frase": "Fuera de presupuesto, sin portería ni vigilancia, barrio con poca información de seguridad.",
-    "resumen": "El apartamento excede el presupuesto. No menciona portería ni vigilancia. El barrio La Paz tiene poca información de seguridad, lo que genera incertidumbre. Aunque está cerca de comercio y servicios, la falta de seguridad es un punto crítico.",
+    "puntaje": 4,
+    "frase": "Fuera de presupuesto y sin portería; poca información de seguridad.",
+    "resumen": "El apartamento excede el presupuesto, no tiene portería y hay poca información de seguridad del barrio, lo que genera incertidumbre.",
     "a_favor": [
-     "Cerca a centros comerciales y supermercados",
-     "Cerca a hospitales y colegios",
-     "Buen transporte público"
+     "Cercanía a colegios, supermercados y hospitales.",
+     "Buen acceso a transporte público y Metro Envigado.",
+     "Espacios cómodos y amplios."
     ],
     "en_contra": [
-     "Excede el presupuesto",
-     "No tiene portería ni vigilancia",
-     "Poca información de seguridad del barrio"
+     "Excede el presupuesto ($2.000.000).",
+     "No cuenta con portería ni vigilancia.",
+     "Poca información de seguridad del barrio La Paz."
     ],
     "preguntar": [
      "¿El edificio cuenta con algún sistema de seguridad o control de acceso?",
-     "¿Cuál es la situación actual de seguridad en el sector?",
-     "¿Hay rutas de bus directas y frecuentes a la estación de metro más cercana?"
+     "¿Cuál es la percepción de seguridad de los residentes en el sector?",
+     "¿Hay rutas de bus directas y frecuentes al Metro Envigado?"
     ],
-    "transporte": "El sector está bien conectado con el Metro Envigado (6 minutos en carro) y el Metro Ayurá (6 minutos en carro). También hay rutas de bus frecuentes.",
-    "fecha": "2026-11-28T03:04-05:00"
+    "transporte": "El Metro Envigado está a 6 min en carro y 30 min a pie. El Parque principal de Envigado está a 2 min en carro y 12 min a pie.",
+    "fecha": "2026-11-28T05:32-05:00"
    }
   },
   "cc-3938007": {
@@ -379839,10 +379828,11 @@
    }
   },
   "cc-3946924": {
-   "huella": "cc-3946924|1900000",
+   "huella": "cc-3946924|lw-estrella-9750|1900000",
    "exp": {
     "ids": [
-     "cc-3946924"
+     "cc-3946924",
+     "lw-estrella-9750"
     ],
     "precio": 1900000,
     "hab": 2,
@@ -379871,13 +379861,22 @@
     "pin_en_otro_barrio": null,
     "conjunto": "Territorio Verde",
     "conjunto_origen": "anuncio",
-    "disponible": false,
+    "disponible": true,
     "publicado": "2026-11-13",
     "modificado": null,
     "en_pagina_desde": "2026-11-16",
     "video": true,
     "videos": [
-     "https://youtu.be/sFWLuRJuDy0"
+     "https://youtu.be/sFWLuRJuDy0",
+     "https://youtu.be/Ki42WWuwZws",
+     "https://youtu.be/d4sbj7ghjho",
+     "https://youtu.be/9R_ANx147pU",
+     "https://youtu.be/Lnddjm1Tjws",
+     "https://youtu.be/i0jJj7vXOOk",
+     "https://youtu.be/sxxaeMhG5do",
+     "https://youtu.be/ur3FqTyY6rk",
+     "https://youtu.be/fn37yYKMwII",
+     "https://youtu.be/V41M-sa9mKI"
     ],
     "tour": null,
     "versiones": [
@@ -379889,6 +379888,15 @@
       "modificado": null,
       "anunciante": "ALQUIVENTAS  S A S",
       "tel": "3217158566"
+     },
+     {
+      "fuente": "Inmobiliaria La Estrella",
+      "url": "https://www.inmobiliarialaestrella.com/detalle-propiedad/apartamento-enarriendo-en-itagui-9750",
+      "disponible": true,
+      "publicado": "2026-11-24",
+      "modificado": null,
+      "anunciante": "Inmobiliaria La Estrella",
+      "tel": "6042500646"
      }
     ],
     "rasgos": {
@@ -379906,12 +379914,7 @@
     "codigos": [
      "9750"
     ],
-    "alias": [
-     [
-      "cc-3946924",
-      "lw-estrella-9750"
-     ]
-    ],
+    "alias": [],
     "ubicacion": {
      "tipo": "de la ficha",
      "lat": 6.178644,
@@ -380054,12 +380057,35 @@
       1900000
      ]
     ],
-    "fecha": "2026-11-28T03:01-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
-     "Ya no está disponible en ninguna de sus páginas.",
      "La Quebrada Doña María pasa a 88 m: pregunta si el edificio ha tenido problemas con crecientes.",
      "Al Metro Sabaneta son 52 min a pie (3.9 km): toca bus o carro."
     ]
+   },
+   "opinion": {
+    "id": "cc-3946924",
+    "veredicto": "con reservas",
+    "puntaje": 7,
+    "frase": "Unidad cerrada con portería, pero con riesgo de inundaciones.",
+    "resumen": "Unidad cerrada con portería y vigilancia 24/7, cumpliendo prioridades, pero el sector tiene riesgo de inundaciones por la Quebrada Doña María.",
+    "a_favor": [
+     "Unidad cerrada con portería y vigilancia 24/7, piscina y zonas comunes.",
+     "Cercanía a colegios y supermercados.",
+     "Barrio con reducción de delitos a nivel municipal."
+    ],
+    "en_contra": [
+     "Riesgo de inundaciones y deslizamientos por Quebrada Doña María.",
+     "El Metro Sabaneta no es caminable (3.9 km).",
+     "Quejas por incumplimiento de constructora en el pasado."
+    ],
+    "preguntar": [
+     "¿El edificio ha tenido problemas con crecientes de la Quebrada Doña María?",
+     "¿Hay rutas de bus directas y frecuentes al Metro Sabaneta?",
+     "¿La constructora ha resuelto los problemas de incumplimiento?"
+    ],
+    "transporte": "Bien conectado por rutas de bus a las estaciones de Metro Sabaneta e Itagüí, facilitando el desplazamiento al centro de Medellín (12-16 min en bus).",
+    "fecha": "2026-11-28T05:32-05:00"
    }
   },
   "cc-3947053": {
@@ -395121,7 +395147,7 @@
       1900000
      ]
     ],
-    "fecha": "2026-11-22T23:49-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
@@ -395241,7 +395267,7 @@
       1900000
      ]
     ],
-    "fecha": "2026-11-22T23:49-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
@@ -395361,7 +395387,7 @@
       1850000
      ]
     ],
-    "fecha": "2026-11-22T23:49-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "Ya no está disponible en ninguna de sus páginas.",
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
@@ -395381,15 +395407,15 @@
     "area": 42,
     "estrato": 3,
     "municipio": "Itagüí",
-    "barrio_portal": "Santa Maria no. 1",
+    "barrio_portal": "Santa Maria Nro 1",
     "v": 6,
     "barrio": "Santa María",
     "sector": {
      "nombre": "Santa María",
      "via": "Carrera 50A",
      "referencias": [
-      "Centro Educativo Nubes de Colores (156 m)",
-      "Escuela La Providencia (202 m)",
+      "Centro Educativo Nubes de Colores (155 m)",
+      "Escuela La Providencia (203 m)",
       "Institución Educativa Oreste Síndici (249 m)"
      ],
      "quebradas": [],
@@ -395444,9 +395470,9 @@
     ],
     "alias": [],
     "ubicacion": {
-     "tipo": "de la ficha",
+     "tipo": "exacta",
      "lat": 6.186691,
-     "lon": -75.59388,
+     "lon": -75.593876,
      "osm": {
       "barrio": null,
       "via": "Carrera 50A",
@@ -395531,13 +395557,13 @@
       },
       {
        "nombre": "Supermercado Maxioferta Sede Mayorista",
-       "m": 540
+       "m": 539
       }
      ],
      "centros_comerciales": [
       {
        "nombre": "Centro comercial la torre",
-       "m": 347
+       "m": 348
       },
       {
        "nombre": "La Torre",
@@ -395569,11 +395595,11 @@
      "colegios": [
       {
        "nombre": "Centro Educativo Nubes de Colores",
-       "m": 156
+       "m": 155
       },
       {
        "nombre": "Escuela La Providencia",
-       "m": 202
+       "m": 203
       },
       {
        "nombre": "Institución Educativa Oreste Síndici",
@@ -395581,7 +395607,7 @@
       },
       {
        "nombre": "Escuela Urbano Los Olivares",
-       "m": 400
+       "m": 399
       },
       {
        "nombre": "Preescolar Cent de Dificultades Coquito",
@@ -395630,7 +395656,7 @@
       2000000
      ]
     ],
-    "fecha": "2026-11-22T23:49-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
@@ -395749,7 +395775,7 @@
       1900000
      ]
     ],
-    "fecha": "2026-11-22T23:49-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
@@ -395868,7 +395894,7 @@
       1250000
      ]
     ],
-    "fecha": "2026-11-22T23:49-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
@@ -395971,7 +395997,7 @@
       2000000
      ]
     ],
-    "fecha": "2026-11-22T23:49-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
@@ -396090,7 +396116,7 @@
       1700000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
@@ -396209,7 +396235,7 @@
       1900000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
@@ -396329,7 +396355,7 @@
       2000000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
@@ -396433,7 +396459,7 @@
       1900000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
@@ -396535,7 +396561,7 @@
       1935000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
@@ -396767,7 +396793,7 @@
       2000000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
@@ -396871,7 +396897,7 @@
       1600000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
@@ -396987,7 +397013,7 @@
       1800000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "Ya no está disponible en ninguna de sus páginas.",
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
@@ -397083,7 +397109,7 @@
       1100000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
@@ -397204,7 +397230,7 @@
       1650000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada.",
      "Barrio La Inmaculada: seguridad media-baja, no recomendado."
@@ -397307,7 +397333,7 @@
       1400000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
@@ -397425,7 +397451,7 @@
       1300000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
@@ -397542,7 +397568,7 @@
       1700000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "Ya no está disponible en ninguna de sus páginas.",
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
@@ -397637,7 +397663,7 @@
       1800000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "Ya no está disponible en ninguna de sus páginas.",
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
@@ -397734,10 +397760,33 @@
       2000000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
+   },
+   "opinion": {
+    "id": "eu-1800976",
+    "veredicto": "no recomendable",
+    "puntaje": 3,
+    "frase": "Apartaestudio con una habitación, no cumple requisitos.",
+    "resumen": "El inmueble es un apartaestudio de una habitación, no cumpliendo el requisito de 2 o más habitaciones.",
+    "a_favor": [
+     "Barrio Calle Larga es céntrico y con vida comercial.",
+     "Cercanía al parque y al metro (según ficha de barrio)."
+    ],
+    "en_contra": [
+     "Es un apartaestudio de 1 habitación, no cumple requisito de 2+ habitaciones.",
+     "No cuenta con portería ni vigilancia.",
+     "Barrio con rumba, ruido y hechos violentos puntuales."
+    ],
+    "preguntar": [
+     "¿El edificio cuenta con portería o algún sistema de seguridad?",
+     "¿Cuál es la dirección exacta del apartamento?",
+     "¿Hay opciones de apartamentos de 2 o más habitaciones en el mismo edificio?"
+    ],
+    "transporte": "No se puede evaluar el transporte con precisión sin la ubicación exacta. La ficha de barrio menciona cercanía al metro.",
+    "fecha": "2026-11-28T05:32-05:00"
    }
   },
   "eu-1801414": {
@@ -397830,10 +397879,33 @@
       1900000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
+   },
+   "opinion": {
+    "id": "eu-1801414",
+    "veredicto": "no recomendable",
+    "puntaje": 4,
+    "frase": "Barrio con lomas fuertes y sin portería; riesgo por lluvias.",
+    "resumen": "El barrio tiene lomas fuertes y riesgo por lluvias, además el apartamento no tiene portería, lo que afecta la seguridad y comodidad.",
+    "a_favor": [
+     "Entorno verde y tranquilo con vistas.",
+     "Proyectos residenciales nuevos en el barrio."
+    ],
+    "en_contra": [
+     "No cuenta con portería ni vigilancia.",
+     "Barrio con lomas fuertes, pendientes y poco transporte.",
+     "Riesgo de deslizamientos en lluvias y un homicidio reciente en zona rural."
+    ],
+    "preguntar": [
+     "¿El edificio cuenta con portería o algún sistema de seguridad?",
+     "¿Cuál es la dirección exacta del apartamento?",
+     "¿Hay rutas de bus frecuentes que conecten con el metro?"
+    ],
+    "transporte": "No se puede evaluar el transporte con precisión sin la ubicación exacta. El barrio tiene poco transporte.",
+    "fecha": "2026-11-28T05:32-05:00"
    }
   },
   "eu-1801730": {
@@ -397926,10 +397998,34 @@
       1900000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
+   },
+   "opinion": {
+    "id": "eu-1801730",
+    "veredicto": "con reservas",
+    "puntaje": 6,
+    "frase": "Barrio recomendado, pero sin portería y poca información.",
+    "resumen": "El barrio es recomendado por seguridad, pero el apartamento no tiene portería y hay poca información específica del inmueble.",
+    "a_favor": [
+     "Barrio Cañaveralejo recomendado por seguridad (media-alta).",
+     "Cerca de comercio, supermercados y vías principales.",
+     "Zona residencial con oferta de apartamentos nuevos."
+    ],
+    "en_contra": [
+     "No cuenta con portería ni vigilancia.",
+     "Poca información específica del inmueble.",
+     "Barrio con construcción y tráfico en horas pico."
+    ],
+    "preguntar": [
+     "¿El edificio cuenta con portería o algún sistema de seguridad?",
+     "¿Cuál es la dirección exacta del apartamento?",
+     "¿Hay rutas de bus frecuentes que conecten con el metro?"
+    ],
+    "transporte": "No se puede evaluar el transporte con precisión sin la ubicación exacta. El barrio tiene acceso razonable a servicios.",
+    "fecha": "2026-11-28T05:32-05:00"
    }
   },
   "eu-1801774": {
@@ -398006,10 +398102,33 @@
       1800000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
+   },
+   "opinion": {
+    "id": "eu-1801774",
+    "veredicto": "no recomendable",
+    "puntaje": 3,
+    "frase": "Apartaestudio con una habitación, no cumple requisitos.",
+    "resumen": "El inmueble es un apartaestudio de una habitación, no cumpliendo el requisito de 2 o más habitaciones.",
+    "a_favor": [
+     "Barrio Centro de La Estrella con reducción de delitos a nivel municipal.",
+     "Cercanía a comercio y servicios."
+    ],
+    "en_contra": [
+     "Es un apartaestudio de 1 habitación, no cumple requisito de 2+ habitaciones.",
+     "No cuenta con portería ni vigilancia.",
+     "Barrio con operativos contra microtráfico y racionamiento de agua municipal."
+    ],
+    "preguntar": [
+     "¿El edificio cuenta con portería o algún sistema de seguridad?",
+     "¿Cuál es la dirección exacta del apartamento?",
+     "¿Hay opciones de apartamentos de 2 o más habitaciones en el mismo edificio?"
+    ],
+    "transporte": "No se puede evaluar el transporte con precisión sin la ubicación exacta. El barrio es céntrico.",
+    "fecha": "2026-11-28T05:32-05:00"
    }
   },
   "eu-1803073": {
@@ -398103,7 +398222,7 @@
       1700000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "Ya no está disponible en ninguna de sus páginas.",
      "El anuncio no menciona portería, vigilancia ni unidad cerrada.",
@@ -398200,10 +398319,32 @@
       1900000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
+   },
+   "opinion": {
+    "id": "eu-1803262",
+    "veredicto": "no recomendable",
+    "puntaje": 4,
+    "frase": "Barrio con lomas fuertes y sin portería; vía de acceso problemática.",
+    "resumen": "El barrio tiene lomas fuertes y una vía de acceso problemática, además el apartamento no tiene portería, lo que afecta la seguridad y comodidad.",
+    "a_favor": [
+     "Proyectos residenciales nuevos y entorno verde con vistas."
+    ],
+    "en_contra": [
+     "No cuenta con portería ni vigilancia.",
+     "Barrio con lomas fuertes y una sola vía de acceso estrecha y empinada.",
+     "La vía de acceso se bloquea con lluvias o varadas."
+    ],
+    "preguntar": [
+     "¿El edificio cuenta con portería o algún sistema de seguridad?",
+     "¿Cuál es la dirección exacta del apartamento?",
+     "¿Hay rutas de bus frecuentes que conecten con el metro?"
+    ],
+    "transporte": "No se puede evaluar el transporte con precisión sin la ubicación exacta. El barrio tiene pendientes y obras constantes.",
+    "fecha": "2026-11-28T05:32-05:00"
    }
   },
   "eu-1803605": {
@@ -398292,10 +398433,32 @@
       1300000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
+   },
+   "opinion": {
+    "id": "eu-1803605",
+    "veredicto": "no recomendable",
+    "puntaje": 3,
+    "frase": "Apartamento con un baño, no cumple requisitos.",
+    "resumen": "El inmueble tiene solo un baño, no cumpliendo el requisito de 2 o más baños.",
+    "a_favor": [
+     "Zona urbana del municipio."
+    ],
+    "en_contra": [
+     "Tiene solo 1 baño, no cumple requisito de 2+ baños.",
+     "No cuenta con portería ni vigilancia.",
+     "Poca información de seguridad del barrio Primavera."
+    ],
+    "preguntar": [
+     "¿El edificio cuenta con portería o algún sistema de seguridad?",
+     "¿Cuál es la dirección exacta del apartamento?",
+     "¿Hay opciones de apartamentos con 2 o más baños en el mismo edificio?"
+    ],
+    "transporte": "No se puede evaluar el transporte con precisión sin la ubicación exacta. El barrio es ondulado.",
+    "fecha": "2026-11-28T05:32-05:00"
    }
   },
   "eu-1804167": {
@@ -398386,10 +398549,33 @@
       2000000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
+   },
+   "opinion": {
+    "id": "eu-1804167",
+    "veredicto": "con reservas",
+    "puntaje": 5,
+    "frase": "Barrio sin señales negativas, pero sin portería y poca información.",
+    "resumen": "El barrio no tiene señales negativas reportadas, pero el apartamento no tiene portería y hay poca información independiente para respaldar la seguridad.",
+    "a_favor": [
+     "Barrio plano y cerca de servicios (según anuncios).",
+     "Mayormente estrato 3 con oferta de apartamentos."
+    ],
+    "en_contra": [
+     "No cuenta con portería ni vigilancia.",
+     "Poca información independiente del barrio.",
+     "Necesidad de verificar en persona la seguridad y servicios."
+    ],
+    "preguntar": [
+     "¿El edificio cuenta con portería o algún sistema de seguridad?",
+     "¿Cuál es la dirección exacta del apartamento?",
+     "¿Hay rutas de bus frecuentes que conecten con el metro?"
+    ],
+    "transporte": "No se puede evaluar el transporte con precisión sin la ubicación exacta. Los anuncios mencionan transporte cercano.",
+    "fecha": "2026-11-28T05:32-05:00"
    }
   },
   "eu-1804720": {
@@ -398419,7 +398605,7 @@
     "pin_en_otro_barrio": null,
     "conjunto": null,
     "conjunto_origen": null,
-    "disponible": true,
+    "disponible": false,
     "publicado": null,
     "modificado": null,
     "en_pagina_desde": "2026-11-16",
@@ -398430,7 +398616,7 @@
      {
       "fuente": "Espacio Urbano",
       "url": "https://www.espaciourbano.com/Ficha.asp?xId=1804720",
-      "disponible": true,
+      "disponible": false,
       "publicado": null,
       "modificado": null,
       "anunciante": "INMOBICO SAS",
@@ -398466,8 +398652,9 @@
       1210000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
+     "Ya no está disponible en ninguna de sus páginas.",
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
    }
@@ -398546,7 +398733,7 @@
       1750000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "Ya no está disponible en ninguna de sus páginas.",
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
@@ -398627,10 +398814,33 @@
       1650000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
+   },
+   "opinion": {
+    "id": "eu-1805956",
+    "veredicto": "no recomendable",
+    "puntaje": 3,
+    "frase": "Apartaestudio con una habitación, no cumple requisitos.",
+    "resumen": "El inmueble es un apartaestudio de una habitación, no cumpliendo el requisito de 2 o más habitaciones.",
+    "a_favor": [
+     "Excelente ubicación cerca del parque principal de Itagüí.",
+     "Acceso a cajeros y zonas comerciales."
+    ],
+    "en_contra": [
+     "Es un apartaestudio de 1 habitación, no cumple requisito de 2+ habitaciones.",
+     "No cuenta con portería ni vigilancia.",
+     "Barrio con cortes de agua programados."
+    ],
+    "preguntar": [
+     "¿El edificio cuenta con portería o algún sistema de seguridad?",
+     "¿Cuál es la dirección exacta del apartamento?",
+     "¿Hay opciones de apartamentos de 2 o más habitaciones en el mismo edificio?"
+    ],
+    "transporte": "No se puede evaluar el transporte con precisión sin la ubicación exacta. El barrio está cerca del parque principal de Itagüí.",
+    "fecha": "2026-11-28T05:32-05:00"
    }
   },
   "eu-1806069": {
@@ -398722,10 +398932,33 @@
       1600000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
+   },
+   "opinion": {
+    "id": "eu-1806069",
+    "veredicto": "no recomendable",
+    "puntaje": 3,
+    "frase": "Apartaestudio con una habitación, no cumple requisitos.",
+    "resumen": "El inmueble es un apartaestudio de una habitación, no cumpliendo el requisito de 2 o más habitaciones.",
+    "a_favor": [
+     "Cerca del Parque Ecológico El Salado.",
+     "Rutas integradas al Metro."
+    ],
+    "en_contra": [
+     "Es un apartaestudio de 1 habitación, no cumple requisito de 2+ habitaciones.",
+     "No cuenta con portería ni vigilancia.",
+     "Barrio con lomas fuertes, deslizamientos y hechos aislados de inseguridad."
+    ],
+    "preguntar": [
+     "¿El edificio cuenta con portería o algún sistema de seguridad?",
+     "¿Cuál es la dirección exacta del apartamento?",
+     "¿Hay opciones de apartamentos de 2 o más habitaciones en el mismo edificio?"
+    ],
+    "transporte": "El barrio tiene rutas integradas al Metro.",
+    "fecha": "2026-11-28T05:32-05:00"
    }
   },
   "eu-1806338": {
@@ -398817,10 +399050,33 @@
       1800000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
+   },
+   "opinion": {
+    "id": "eu-1806338",
+    "veredicto": "con reservas",
+    "puntaje": 5,
+    "frase": "Barrio con obras y trancones, pero sin portería.",
+    "resumen": "El barrio tiene obras viales importantes y trancones, lo que afecta la calidad de vida, y el apartamento no tiene portería.",
+    "a_favor": [
+     "Buena conexión con Autopista Sur y el centro.",
+     "Mejoras en la movilidad por intercambio vial."
+    ],
+    "en_contra": [
+     "No cuenta con portería ni vigilancia.",
+     "Obras viales hasta 2028 con cierres y trancones.",
+     "Entorno industrial y comercial con ruido."
+    ],
+    "preguntar": [
+     "¿El edificio cuenta con portería o algún sistema de seguridad?",
+     "¿Cuál es la dirección exacta del apartamento?",
+     "¿Cómo afecta el ruido de las obras al apartamento?"
+    ],
+    "transporte": "No se puede evaluar el transporte con precisión sin la ubicación exacta. El barrio tiene buena conexión con vías principales.",
+    "fecha": "2026-11-28T05:32-05:00"
    }
   },
   "eu-1807410": {
@@ -398912,10 +399168,33 @@
       1700000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
+   },
+   "opinion": {
+    "id": "eu-1807410",
+    "veredicto": "no recomendable",
+    "puntaje": 3,
+    "frase": "Apartaestudio con una habitación, no cumple requisitos.",
+    "resumen": "El inmueble es un apartaestudio de una habitación, no cumpliendo el requisito de 2 o más habitaciones.",
+    "a_favor": [
+     "Barrio El Dorado recomendado por tranquilidad y ser plano.",
+     "Muy caminable, con comercio, parques y rutas integradas."
+    ],
+    "en_contra": [
+     "Es un apartaestudio de 1 habitación, no cumple requisito de 2+ habitaciones.",
+     "No cuenta con portería ni vigilancia.",
+     "Cerca del centro, que puede ser ruidoso."
+    ],
+    "preguntar": [
+     "¿El edificio cuenta con portería o algún sistema de seguridad?",
+     "¿Cuál es la dirección exacta del apartamento?",
+     "¿Hay opciones de apartamentos de 2 o más habitaciones en el mismo edificio?"
+    ],
+    "transporte": "No se puede evaluar el transporte con precisión sin la ubicación exacta. El barrio tiene rutas integradas.",
+    "fecha": "2026-11-28T05:32-05:00"
    }
   },
   "eu-1807411": {
@@ -399007,10 +399286,33 @@
       1700000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
+   },
+   "opinion": {
+    "id": "eu-1807411",
+    "veredicto": "no recomendable",
+    "puntaje": 3,
+    "frase": "Apartaestudio con una habitación, no cumple requisitos.",
+    "resumen": "El inmueble es un apartaestudio de una habitación, no cumpliendo el requisito de 2 o más habitaciones.",
+    "a_favor": [
+     "Barrio El Dorado recomendado por tranquilidad y ser plano.",
+     "Muy caminable, con comercio, parques y rutas integradas."
+    ],
+    "en_contra": [
+     "Es un apartaestudio de 1 habitación, no cumple requisito de 2+ habitaciones.",
+     "No cuenta con portería ni vigilancia.",
+     "Cerca del centro, que puede ser ruidoso."
+    ],
+    "preguntar": [
+     "¿El edificio cuenta con portería o algún sistema de seguridad?",
+     "¿Cuál es la dirección exacta del apartamento?",
+     "¿Hay opciones de apartamentos de 2 o más habitaciones en el mismo edificio?"
+    ],
+    "transporte": "No se puede evaluar el transporte con precisión sin la ubicación exacta. El barrio tiene rutas integradas.",
+    "fecha": "2026-11-28T05:32-05:00"
    }
   },
   "eu-1807412": {
@@ -399102,10 +399404,33 @@
       1700000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
+   },
+   "opinion": {
+    "id": "eu-1807412",
+    "veredicto": "no recomendable",
+    "puntaje": 3,
+    "frase": "Apartaestudio con una habitación, no cumple requisitos.",
+    "resumen": "El inmueble es un apartaestudio de una habitación, no cumpliendo el requisito de 2 o más habitaciones.",
+    "a_favor": [
+     "Barrio El Dorado recomendado por tranquilidad y ser plano.",
+     "Muy caminable, con comercio, parques y rutas integradas."
+    ],
+    "en_contra": [
+     "Es un apartaestudio de 1 habitación, no cumple requisito de 2+ habitaciones.",
+     "No cuenta con portería ni vigilancia.",
+     "Cerca del centro, que puede ser ruidoso."
+    ],
+    "preguntar": [
+     "¿El edificio cuenta con portería o algún sistema de seguridad?",
+     "¿Cuál es la dirección exacta del apartamento?",
+     "¿Hay opciones de apartamentos de 2 o más habitaciones en el mismo edificio?"
+    ],
+    "transporte": "No se puede evaluar el transporte con precisión sin la ubicación exacta. El barrio tiene rutas integradas.",
+    "fecha": "2026-11-28T05:32-05:00"
    }
   },
   "eu-1807414": {
@@ -399197,10 +399522,33 @@
       1700000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
+   },
+   "opinion": {
+    "id": "eu-1807414",
+    "veredicto": "no recomendable",
+    "puntaje": 3,
+    "frase": "Apartaestudio con una habitación, no cumple requisitos.",
+    "resumen": "El inmueble es un apartaestudio de una habitación, no cumpliendo el requisito de 2 o más habitaciones.",
+    "a_favor": [
+     "Barrio El Dorado recomendado por tranquilidad y ser plano.",
+     "Muy caminable, con comercio, parques y rutas integradas."
+    ],
+    "en_contra": [
+     "Es un apartaestudio de 1 habitación, no cumple requisito de 2+ habitaciones.",
+     "No cuenta con portería ni vigilancia.",
+     "Cerca del centro, que puede ser ruidoso."
+    ],
+    "preguntar": [
+     "¿El edificio cuenta con portería o algún sistema de seguridad?",
+     "¿Cuál es la dirección exacta del apartamento?",
+     "¿Hay opciones de apartamentos de 2 o más habitaciones en el mismo edificio?"
+    ],
+    "transporte": "No se puede evaluar el transporte con precisión sin la ubicación exacta. El barrio tiene rutas integradas.",
+    "fecha": "2026-11-28T05:32-05:00"
    }
   },
   "eu-1807415": {
@@ -399292,10 +399640,33 @@
       1700000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
+   },
+   "opinion": {
+    "id": "eu-1807415",
+    "veredicto": "no recomendable",
+    "puntaje": 3,
+    "frase": "Apartaestudio con una habitación, no cumple requisitos.",
+    "resumen": "El inmueble es un apartaestudio de una habitación, no cumpliendo el requisito de 2 o más habitaciones.",
+    "a_favor": [
+     "Barrio El Dorado recomendado por tranquilidad y ser plano.",
+     "Muy caminable, con comercio, parques y rutas integradas."
+    ],
+    "en_contra": [
+     "Es un apartaestudio de 1 habitación, no cumple requisito de 2+ habitaciones.",
+     "No cuenta con portería ni vigilancia.",
+     "Cerca del centro, que puede ser ruidoso."
+    ],
+    "preguntar": [
+     "¿El edificio cuenta con portería o algún sistema de seguridad?",
+     "¿Cuál es la dirección exacta del apartamento?",
+     "¿Hay opciones de apartamentos de 2 o más habitaciones en el mismo edificio?"
+    ],
+    "transporte": "No se puede evaluar el transporte con precisión sin la ubicación exacta. El barrio tiene rutas integradas.",
+    "fecha": "2026-11-28T05:32-05:00"
    }
   },
   "eu-1808240": {
@@ -399388,10 +399759,33 @@
       2000000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
+   },
+   "opinion": {
+    "id": "eu-1808240",
+    "veredicto": "no recomendable",
+    "puntaje": 4,
+    "frase": "Fuera de presupuesto y sin portería; hechos puntuales de inseguridad.",
+    "resumen": "El apartamento excede el presupuesto, no tiene portería y el barrio ha tenido hechos puntuales de inseguridad, lo que genera reservas.",
+    "a_favor": [
+     "Cerca del santuario y del centro, con buena oferta comercial.",
+     "Precios más moderados en el barrio."
+    ],
+    "en_contra": [
+     "Excede el presupuesto ($2.000.000).",
+     "No cuenta con portería ni vigilancia.",
+     "Barrio con hechos puntuales de inseguridad y calles congestionadas."
+    ],
+    "preguntar": [
+     "¿El edificio cuenta con portería o algún sistema de seguridad?",
+     "¿Cuál es la dirección exacta del apartamento?",
+     "¿Es posible negociar el precio del arriendo?"
+    ],
+    "transporte": "No se puede evaluar el transporte con precisión sin la ubicación exacta. El barrio es céntrico.",
+    "fecha": "2026-11-28T05:32-05:00"
    }
   },
   "eu-1809451": {
@@ -399540,7 +399934,7 @@
     "pin_en_otro_barrio": null,
     "conjunto": null,
     "conjunto_origen": null,
-    "disponible": true,
+    "disponible": false,
     "publicado": null,
     "modificado": null,
     "en_pagina_desde": "2026-11-16",
@@ -399551,7 +399945,7 @@
      {
       "fuente": "Espacio Urbano",
       "url": "https://www.espaciourbano.com/Ficha.asp?xId=1809529",
-      "disponible": true,
+      "disponible": false,
       "publicado": null,
       "modificado": null,
       "anunciante": "ANDRES RAIZ INMOBILIARIA SAS",
@@ -399608,8 +400002,9 @@
       1600000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
+     "Ya no está disponible en ninguna de sus páginas.",
      "El anuncio no menciona portería, vigilancia ni unidad cerrada.",
      "Barrio La Inmaculada: seguridad media-baja, no recomendado."
     ]
@@ -399727,7 +400122,7 @@
       1700000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:31-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
@@ -399847,10 +400242,33 @@
       1750000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:31-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
+   },
+   "opinion": {
+    "id": "eu-1811111",
+    "veredicto": "no recomendable",
+    "puntaje": 3,
+    "frase": "Apartaestudio con una habitación, no cumple requisitos.",
+    "resumen": "El inmueble es un apartaestudio de una habitación, no cumpliendo el requisito de 2 o más habitaciones.",
+    "a_favor": [
+     "Barrio Calle Larga es céntrico y con vida comercial.",
+     "Cercanía al parque y al metro (según ficha de barrio)."
+    ],
+    "en_contra": [
+     "Es un apartaestudio de 1 habitación, no cumple requisito de 2+ habitaciones.",
+     "No cuenta con portería ni vigilancia.",
+     "Barrio con rumba, ruido y hechos violentos puntuales."
+    ],
+    "preguntar": [
+     "¿El edificio cuenta con portería o algún sistema de seguridad?",
+     "¿Cuál es la dirección exacta del apartamento?",
+     "¿Hay opciones de apartamentos de 2 o más habitaciones en el mismo edificio?"
+    ],
+    "transporte": "No se puede evaluar el transporte con precisión sin la ubicación exacta. La ficha de barrio menciona cercanía al metro.",
+    "fecha": "2026-11-28T05:32-05:00"
    }
   },
   "eu-1811138": {
@@ -399943,7 +400361,7 @@
       1500000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:31-05:00",
     "alertas": [
      "Ya no está disponible en ninguna de sus páginas.",
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
@@ -400041,7 +400459,7 @@
       1700000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:31-05:00",
     "alertas": [
      "Ya no está disponible en ninguna de sus páginas.",
      "El anuncio no menciona portería, vigilancia ni unidad cerrada.",
@@ -400139,10 +400557,33 @@
       1910000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:31-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
+   },
+   "opinion": {
+    "id": "eu-1811517",
+    "veredicto": "no recomendable",
+    "puntaje": 3,
+    "frase": "Apartaestudio con una habitación, no cumple requisitos.",
+    "resumen": "El inmueble es un apartaestudio de una habitación, no cumpliendo el requisito de 2 o más habitaciones.",
+    "a_favor": [
+     "Cerca del santuario y del centro, con buena oferta comercial.",
+     "Precios más moderados en el barrio."
+    ],
+    "en_contra": [
+     "Es un apartaestudio de 1 habitación, no cumple requisito de 2+ habitaciones.",
+     "No cuenta con portería ni vigilancia.",
+     "Barrio con hechos puntuales de inseguridad y calles congestionadas."
+    ],
+    "preguntar": [
+     "¿El edificio cuenta con portería o algún sistema de seguridad?",
+     "¿Cuál es la dirección exacta del apartamento?",
+     "¿Hay opciones de apartamentos de 2 o más habitaciones en el mismo edificio?"
+    ],
+    "transporte": "No se puede evaluar el transporte con precisión sin la ubicación exacta. El barrio es céntrico.",
+    "fecha": "2026-11-28T05:32-05:00"
    }
   },
   "eu-1812403": {
@@ -400235,10 +400676,33 @@
       2000000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:31-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
+   },
+   "opinion": {
+    "id": "eu-1812403",
+    "veredicto": "no recomendable",
+    "puntaje": 4,
+    "frase": "Fuera de presupuesto y sin portería; hechos puntuales de inseguridad.",
+    "resumen": "El apartamento excede el presupuesto, no tiene portería y el barrio ha tenido hechos puntuales de inseguridad, lo que genera reservas.",
+    "a_favor": [
+     "Cerca del santuario y del centro, con buena oferta comercial.",
+     "Precios más moderados en el barrio."
+    ],
+    "en_contra": [
+     "Excede el presupuesto ($2.000.000).",
+     "No cuenta con portería ni vigilancia.",
+     "Barrio con hechos puntuales de inseguridad y calles congestionadas."
+    ],
+    "preguntar": [
+     "¿El edificio cuenta con portería o algún sistema de seguridad?",
+     "¿Cuál es la dirección exacta del apartamento?",
+     "¿Es posible negociar el precio del arriendo?"
+    ],
+    "transporte": "No se puede evaluar el transporte con precisión sin la ubicación exacta. El barrio es céntrico.",
+    "fecha": "2026-11-28T05:32-05:00"
    }
   },
   "eu-1812599": {
@@ -400329,7 +400793,7 @@
       1700000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:31-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
@@ -400449,10 +400913,33 @@
       1780000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:31-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
+   },
+   "opinion": {
+    "id": "eu-1812786",
+    "veredicto": "con reservas",
+    "puntaje": 5,
+    "frase": "Céntrico, pero sin portería y con hechos puntuales de inseguridad.",
+    "resumen": "El barrio es céntrico y con servicios, pero el apartamento no tiene portería y ha habido hechos puntuales de inseguridad.",
+    "a_favor": [
+     "Cerca del santuario y del centro, con buena oferta comercial.",
+     "Precios más moderados en el barrio."
+    ],
+    "en_contra": [
+     "No cuenta con portería ni vigilancia.",
+     "Barrio con hechos puntuales de inseguridad y calles congestionadas.",
+     "Poca información para confirmar tendencia de seguridad."
+    ],
+    "preguntar": [
+     "¿El edificio cuenta con portería o algún sistema de seguridad?",
+     "¿Cuál es la dirección exacta del apartamento?",
+     "¿Hay rutas de bus frecuentes que conecten con el metro?"
+    ],
+    "transporte": "No se puede evaluar el transporte con precisión sin la ubicación exacta. El barrio es céntrico.",
+    "fecha": "2026-11-28T05:32-05:00"
    }
   },
   "eu-1812794": {
@@ -400482,7 +400969,7 @@
     "pin_en_otro_barrio": null,
     "conjunto": null,
     "conjunto_origen": null,
-    "disponible": true,
+    "disponible": false,
     "publicado": null,
     "modificado": null,
     "en_pagina_desde": "2026-11-16",
@@ -400493,7 +400980,7 @@
      {
       "fuente": "Espacio Urbano",
       "url": "https://www.espaciourbano.com/Ficha.asp?xId=1812794",
-      "disponible": true,
+      "disponible": false,
       "publicado": null,
       "modificado": null,
       "anunciante": "ACC PROPIEDAD RAÍZ SAS",
@@ -400546,8 +401033,9 @@
       2000000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:31-05:00",
     "alertas": [
+     "Ya no está disponible en ninguna de sus páginas.",
      "El anuncio no menciona portería, vigilancia ni unidad cerrada.",
      "Barrio La Tablaza: seguridad media-baja, con precaución."
     ]
@@ -400643,10 +401131,33 @@
       2000000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:31-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
+   },
+   "opinion": {
+    "id": "eu-1812811",
+    "veredicto": "no recomendable",
+    "puntaje": 4,
+    "frase": "Fuera de presupuesto y sin portería; hechos puntuales de inseguridad.",
+    "resumen": "El apartamento excede el presupuesto, no tiene portería y el barrio ha tenido hechos puntuales de inseguridad, lo que genera reservas.",
+    "a_favor": [
+     "Cerca del santuario y del centro, con buena oferta comercial.",
+     "Precios más moderados en el barrio."
+    ],
+    "en_contra": [
+     "Excede el presupuesto ($2.000.000).",
+     "No cuenta con portería ni vigilancia.",
+     "Barrio con hechos puntuales de inseguridad y calles congestionadas."
+    ],
+    "preguntar": [
+     "¿El edificio cuenta con portería o algún sistema de seguridad?",
+     "¿Cuál es la dirección exacta del apartamento?",
+     "¿Es posible negociar el precio del arriendo?"
+    ],
+    "transporte": "No se puede evaluar el transporte con precisión sin la ubicación exacta. El barrio es céntrico.",
+    "fecha": "2026-11-28T05:32-05:00"
    }
   },
   "eu-1812942": {
@@ -400739,10 +401250,33 @@
       2000000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:31-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
+   },
+   "opinion": {
+    "id": "eu-1812942",
+    "veredicto": "no recomendable",
+    "puntaje": 4,
+    "frase": "Fuera de presupuesto y sin portería; ruidoso y con hechos violentos.",
+    "resumen": "El apartamento excede el presupuesto, no tiene portería y el barrio es ruidoso por la rumba y ha tenido hechos violentos puntuales.",
+    "a_favor": [
+     "Barrio Calle Larga es céntrico y con vida comercial.",
+     "Cercanía al parque y al metro (según ficha de barrio)."
+    ],
+    "en_contra": [
+     "Excede el presupuesto ($2.000.000).",
+     "No cuenta con portería ni vigilancia.",
+     "Barrio con rumba, ruido y hechos violentos puntuales."
+    ],
+    "preguntar": [
+     "¿El edificio cuenta con portería o algún sistema de seguridad?",
+     "¿Cuál es la dirección exacta del apartamento?",
+     "¿Es posible negociar el precio del arriendo?"
+    ],
+    "transporte": "No se puede evaluar el transporte con precisión sin la ubicación exacta. La ficha de barrio menciona cercanía al metro.",
+    "fecha": "2026-11-28T05:32-05:00"
    }
   },
   "eu-1812949": {
@@ -400834,10 +401368,33 @@
       1850000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:31-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
+   },
+   "opinion": {
+    "id": "eu-1812949",
+    "veredicto": "con reservas",
+    "puntaje": 5,
+    "frase": "Barrio tranquilo, pero sin portería y con lomas fuertes.",
+    "resumen": "El barrio es tranquilo, pero el apartamento no tiene portería y el sector tiene lomas fuertes que dificultan el acceso a pie al metro.",
+    "a_favor": [
+     "Ambiente residencial y tranquilo con clima fresco.",
+     "Cercanía a instituciones educativas y comercio."
+    ],
+    "en_contra": [
+     "No cuenta con portería ni vigilancia.",
+     "Sector de ladera con pendientes y accesos a revisar.",
+     "No se llega al metro a pie; depende de rutas de bus."
+    ],
+    "preguntar": [
+     "¿El edificio cuenta con portería o algún sistema de seguridad?",
+     "¿Cuál es la dirección exacta del apartamento?",
+     "¿Hay rutas de bus frecuentes que conecten con el metro?"
+    ],
+    "transporte": "No se puede evaluar el transporte con precisión sin la ubicación exacta. El barrio depende de rutas de bus para el metro.",
+    "fecha": "2026-11-28T05:32-05:00"
    }
   },
   "eu-1813047": {
@@ -400930,10 +401487,33 @@
       2000000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:31-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
+   },
+   "opinion": {
+    "id": "eu-1813047",
+    "veredicto": "no recomendable",
+    "puntaje": 3,
+    "frase": "Apartaestudio con una habitación, no cumple requisitos.",
+    "resumen": "El inmueble es un apartaestudio de una habitación, no cumpliendo el requisito de 2 o más habitaciones.",
+    "a_favor": [
+     "Todo a mano: comercio, bancos, restaurantes.",
+     "Cerca del metro y con vida de día."
+    ],
+    "en_contra": [
+     "Es un apartaestudio de 1 habitación, no cumple requisito de 2+ habitaciones.",
+     "No cuenta con portería ni vigilancia.",
+     "Barrio con rumba, ruido nocturno y hurtos ocasionales."
+    ],
+    "preguntar": [
+     "¿El edificio cuenta con portería o algún sistema de seguridad?",
+     "¿Cuál es la dirección exacta del apartamento?",
+     "¿Hay opciones de apartamentos de 2 o más habitaciones en el mismo edificio?"
+    ],
+    "transporte": "No se puede evaluar el transporte con precisión sin la ubicación exacta. El barrio está cerca del metro.",
+    "fecha": "2026-11-28T05:32-05:00"
    }
   },
   "eu-1813132": {
@@ -401026,7 +401606,7 @@
       1800000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:31-05:00",
     "alertas": [
      "Ya no está disponible en ninguna de sus páginas.",
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
@@ -401124,7 +401704,7 @@
       1700000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:31-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada.",
      "Barrio La Inmaculada: seguridad media-baja, no recomendado."
@@ -401243,10 +401823,33 @@
       1880000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:31-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
+   },
+   "opinion": {
+    "id": "eu-1814074",
+    "veredicto": "con reservas",
+    "puntaje": 5,
+    "frase": "Barrio con lomas fuertes y sin portería; riesgo por lluvias.",
+    "resumen": "El barrio tiene lomas fuertes y riesgo por lluvias, además el apartamento no tiene portería, lo que afecta la seguridad y comodidad.",
+    "a_favor": [
+     "Entorno verde y tranquilo con vistas.",
+     "Proyectos residenciales nuevos en el barrio."
+    ],
+    "en_contra": [
+     "No cuenta con portería ni vigilancia.",
+     "Barrio con lomas fuertes, pendientes y poco transporte.",
+     "Riesgo de deslizamientos en lluvias y un homicidio reciente en zona rural."
+    ],
+    "preguntar": [
+     "¿El edificio cuenta con portería o algún sistema de seguridad?",
+     "¿Cuál es la dirección exacta del apartamento?",
+     "¿Hay rutas de bus frecuentes que conecten con el metro?"
+    ],
+    "transporte": "No se puede evaluar el transporte con precisión sin la ubicación exacta. El barrio tiene poco transporte.",
+    "fecha": "2026-11-28T05:32-05:00"
    }
   },
   "eu-1814203": {
@@ -401339,10 +401942,33 @@
       1800000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:31-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
+   },
+   "opinion": {
+    "id": "eu-1814203",
+    "veredicto": "no recomendable",
+    "puntaje": 4,
+    "frase": "Fuera de presupuesto y sin portería; riesgo por lluvias.",
+    "resumen": "El apartamento excede el presupuesto, no tiene portería y el barrio tiene lomas fuertes y riesgo por lluvias, lo que afecta la seguridad y comodidad.",
+    "a_favor": [
+     "Entorno verde y tranquilo con vistas.",
+     "Proyectos residenciales nuevos en el barrio."
+    ],
+    "en_contra": [
+     "Excede el presupuesto ($1.800.000).",
+     "No cuenta con portería ni vigilancia.",
+     "Barrio con lomas fuertes, pendientes y poco transporte."
+    ],
+    "preguntar": [
+     "¿El edificio cuenta con portería o algún sistema de seguridad?",
+     "¿Cuál es la dirección exacta del apartamento?",
+     "¿Es posible negociar el precio del arriendo?"
+    ],
+    "transporte": "No se puede evaluar el transporte con precisión sin la ubicación exacta. El barrio tiene poco transporte.",
+    "fecha": "2026-11-28T05:32-05:00"
    }
   },
   "eu-1814608": {
@@ -401435,7 +402061,7 @@
       1800000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:31-05:00",
     "alertas": [
      "Ya no está disponible en ninguna de sus páginas.",
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
@@ -401516,10 +402142,32 @@
       2000000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:31-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
+   },
+   "opinion": {
+    "id": "eu-1814627",
+    "veredicto": "no recomendable",
+    "puntaje": 4,
+    "frase": "Fuera de presupuesto y sin portería; con cortes de agua.",
+    "resumen": "El apartamento excede el presupuesto, no tiene portería y el barrio ha tenido cortes de agua programados, lo que genera reservas.",
+    "a_favor": [
+     "Barrio con reducción de homicidios y hurtos a nivel municipal."
+    ],
+    "en_contra": [
+     "Excede el presupuesto ($2.000.000).",
+     "No cuenta con portería ni vigilancia.",
+     "Barrio con cortes de agua programados."
+    ],
+    "preguntar": [
+     "¿El edificio cuenta con portería o algún sistema de seguridad?",
+     "¿Cuál es la dirección exacta del apartamento?",
+     "¿Con qué frecuencia ocurren los cortes de agua en el sector?"
+    ],
+    "transporte": "No se puede evaluar el transporte con precisión sin la ubicación exacta. El barrio tiene buena conectividad a nivel municipal.",
+    "fecha": "2026-11-28T05:32-05:00"
    }
   },
   "eu-1814676": {
@@ -401611,7 +402259,7 @@
       1700000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:31-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
@@ -401732,11 +402380,34 @@
       2000000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:31-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada.",
      "Barrio La Tablaza: seguridad media-baja, con precaución."
     ]
+   },
+   "opinion": {
+    "id": "eu-1814721",
+    "veredicto": "no recomendable",
+    "puntaje": 4,
+    "frase": "Fuera de presupuesto y sin portería; barrio con inseguridad.",
+    "resumen": "El apartamento excede el presupuesto, no tiene portería y el barrio tiene problemas de inseguridad, tráfico y acueducto, lo que lo hace poco recomendable.",
+    "a_favor": [
+     "Arriendos más económicos que en la zona urbana.",
+     "Ambiente semirrural y salida rápida hacia Caldas."
+    ],
+    "en_contra": [
+     "Excede el presupuesto ($2.000.000).",
+     "No cuenta con portería ni vigilancia.",
+     "Barrio con hechos graves de inseguridad y banda extorsiva."
+    ],
+    "preguntar": [
+     "¿El edificio cuenta con portería o algún sistema de seguridad?",
+     "¿Cuál es la dirección exacta del apartamento?",
+     "¿Es posible negociar el precio del arriendo?"
+    ],
+    "transporte": "No se puede evaluar el transporte con precisión sin la ubicación exacta. El barrio está lejos del metro y del comercio grande.",
+    "fecha": "2026-11-28T05:32-05:00"
    }
   },
   "eu-1814726": {
@@ -401813,7 +402484,7 @@
       1700000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:31-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
@@ -402029,7 +402700,7 @@
       1700000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:31-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
@@ -402146,7 +402817,7 @@
       1950000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:31-05:00",
     "alertas": [
      "Ya no está disponible en ninguna de sus páginas.",
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
@@ -402243,7 +402914,7 @@
       2000000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:31-05:00",
     "alertas": [
      "Ya no está disponible en ninguna de sus páginas.",
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
@@ -402326,7 +402997,7 @@
       1550000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:31-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
@@ -402422,7 +403093,7 @@
       2000000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:31-05:00",
     "alertas": [
      "Ya no está disponible en ninguna de sus páginas.",
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
@@ -402503,7 +403174,7 @@
       1200000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:31-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
@@ -402595,7 +403266,7 @@
       1800000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:31-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
@@ -402691,7 +403362,7 @@
       1900000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:31-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
@@ -402787,7 +403458,7 @@
       2000000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:31-05:00",
     "alertas": [
      "Ya no está disponible en ninguna de sus páginas.",
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
@@ -402884,7 +403555,7 @@
       1500000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:31-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
@@ -402917,20 +403588,18 @@
     "pin_en_otro_barrio": null,
     "conjunto": null,
     "conjunto_origen": null,
-    "disponible": true,
+    "disponible": false,
     "publicado": null,
     "modificado": null,
     "en_pagina_desde": "2026-11-16",
-    "video": true,
-    "videos": [
-     "https://youtu.be/ZlYuSSyKdk0"
-    ],
+    "video": null,
+    "videos": [],
     "tour": null,
     "versiones": [
      {
       "fuente": "Espacio Urbano",
       "url": "https://www.espaciourbano.com/Ficha.asp?xId=1817494",
-      "disponible": true,
+      "disponible": false,
       "publicado": null,
       "modificado": null,
       "anunciante": "ESTUDIO INMOBILIARIO SAS",
@@ -402966,8 +403635,9 @@
       1800000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:31-05:00",
     "alertas": [
+     "Ya no está disponible en ninguna de sus páginas.",
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
    }
@@ -402999,20 +403669,18 @@
     "pin_en_otro_barrio": null,
     "conjunto": null,
     "conjunto_origen": null,
-    "disponible": true,
+    "disponible": false,
     "publicado": null,
     "modificado": null,
     "en_pagina_desde": "2026-11-16",
-    "video": true,
-    "videos": [
-     "https://youtu.be/8kEbD4MTw6c"
-    ],
+    "video": null,
+    "videos": [],
     "tour": null,
     "versiones": [
      {
       "fuente": "Espacio Urbano",
       "url": "https://www.espaciourbano.com/Ficha.asp?xId=1817507",
-      "disponible": true,
+      "disponible": false,
       "publicado": null,
       "modificado": null,
       "anunciante": "ESTUDIO INMOBILIARIO SAS",
@@ -403048,8 +403716,9 @@
       1800000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:31-05:00",
     "alertas": [
+     "Ya no está disponible en ninguna de sus páginas.",
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
    }
@@ -403128,7 +403797,7 @@
       1830000
      ]
     ],
-    "fecha": "2026-11-22T23:50-05:00",
+    "fecha": "2026-11-28T05:31-05:00",
     "alertas": [
      "Ya no está disponible en ninguna de sus páginas.",
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
@@ -404370,7 +405039,7 @@
       1800000
      ]
     ],
-    "fecha": "2026-11-23T03:18-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "Ubicación no confirmada: el mapa usa un punto general del barrio. Pide la dirección exacta.",
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
@@ -404419,7 +405088,7 @@
     "v": 6,
     "barrio": "Las Lomitas",
     "sector": {
-     "nombre": "María Auxiliadora",
+     "nombre": null,
      "via": null,
      "referencias": [
       "Escuela Rural María Auxiliadora (256 m)",
@@ -404428,32 +405097,35 @@
      "quebradas": [],
      "celda": "6.148,-75.600"
     },
-    "sector_en_texto": "María Auxiliadora",
-    "texto_dice_otro_barrio": "María Auxiliadora",
+    "sector_en_texto": null,
+    "texto_dice_otro_barrio": null,
     "pin_en_otro_barrio": "Las Lomitas",
-    "conjunto": "Buena Vista",
+    "conjunto": "Carmesí",
     "conjunto_origen": "anuncio",
-    "disponible": true,
-    "publicado": "2026-10-08",
-    "modificado": "2026-10-08",
+    "disponible": false,
+    "publicado": "2026-10-05",
+    "modificado": "2026-11-27",
     "en_pagina_desde": "2026-11-14",
-    "video": false,
-    "videos": [],
+    "video": true,
+    "videos": [
+     "https://youtu.be/khR8hHwyNWs",
+     "https://youtu.be/01wWEY9kGEQ"
+    ],
     "tour": null,
     "versiones": [
      {
       "fuente": "Fincaraíz",
       "url": "https://www.fincaraiz.com.co/apartamento-en-arriendo-en-maria-auxiliadora-sabaneta/194376232",
-      "disponible": true,
-      "publicado": "2026-10-08",
-      "modificado": "2026-10-08",
+      "disponible": false,
+      "publicado": "2026-10-05",
+      "modificado": "2026-11-27",
       "anunciante": "Arrendamientos Alnago",
       "tel": null
      },
      {
       "fuente": "Metrocuadrado",
       "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-sabaneta-na-3-habitaciones-2-banos/23074-M7132411",
-      "disponible": true,
+      "disponible": false,
       "publicado": null,
       "modificado": null,
       "anunciante": "Inmobiliaria",
@@ -404462,7 +405134,7 @@
      {
       "fuente": "Alnago",
       "url": "https://alnago.com/es/inmueble/10479464",
-      "disponible": true,
+      "disponible": false,
       "publicado": "2026-10-08",
       "modificado": null,
       "anunciante": "Alnago",
@@ -404471,7 +405143,7 @@
      {
       "fuente": "Ciencuadras",
       "url": "https://www.ciencuadras.com/inmueble/apartamento-en-arriendo-en-sabaneta-sabaneta-3906580",
-      "disponible": true,
+      "disponible": false,
       "publicado": "2026-10-08",
       "modificado": null,
       "anunciante": "ALNAGO",
@@ -404484,15 +405156,13 @@
      "unidad_cerrada": false,
      "en_casa": false,
      "ascensor": true,
-     "piscina": false,
+     "piscina": true,
      "parqueadero": true,
-     "loma": false,
+     "loma": true,
      "dice_venta": false
     },
-    "desc": "Descripción ¿Buscas un hogar cómodo y bien ubicado en Sabaneta? Esta propiedad en el sector María Auxiliadora, dentro de la unidad Buena Vista, te ofrece la tranquilidad y seguridad de una portería 24 horas. Su ubicación cercana a la unidad Color Selva facilita el acceso a servicios y vías principales. El apartamento cuenta con tres habitaciones con closet, dos baños, cocina integral y una práctica zona de ropas. La distribución es funcional, con pisos en cerámica que aportan frescura y fácil mantenimiento. La luz natural entra generosa gracias al balcón y ventanales, creando un ambiente acogedor y agradable. Además, dispone de ascensor y parqueadero (a confirmar). No pierdas la oportunidad ",
-    "codigos": [
-     "23074"
-    ],
+    "desc": "COD A122 – APARTAMENTO EN ARRIENDO – CONJUNTO CARMESÍ – ECOCIUDADELA LA RIVIERA, IBAGUÉ Descubra la oportunidad de vivir con estilo y confort en este hermoso apartamento de 40 m², ubicado en el tercer piso del exclusivo Conjunto Residencial Carmesí, dentro de la prestigiosa Ecociudadela La Riviera, en el vibrante sector de Picaleña, Ibagué. Este inmueble ha sido diseñado para ofrecer una experiencia de vida superior, destacando por su excelente distribución, abundante iluminación natural y acabados modernos que reflejan buen gusto y funcionalidad. CARACTERÍSTICAS EXCEPCIONALES DEL INMUEBLE Con un área construida de 40 m² y ubicado en un tercer piso, este apartamento de estrato 2 cuenta con d",
+    "codigos": [],
     "alias": [],
     "ubicacion": {
      "tipo": "exacta",
@@ -404630,11 +405300,11 @@
       1900000
      ]
     ],
-    "fecha": "2026-11-23T03:18-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
+     "Ya no está disponible en ninguna de sus páginas.",
      "El portal dice barrio «María Auxiliadora», pero el pin cae en el barrio «Las Lomitas».",
-     "La descripción lo ubica en «María Auxiliadora», que es otro barrio distinto de «Las Lomitas». Pide la dirección.",
-     "Lleva 46 días publicado: pregunta si sigue libre.",
+     "Lleva 54 días publicado: pregunta si sigue libre.",
      "Al Metro Itagüí son 31 min a pie (2.3 km): toca bus o carro."
     ]
    },
@@ -404921,10 +405591,10 @@
       2000000
      ]
     ],
-    "fecha": "2026-11-23T03:18-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El portal dice barrio «María Auxiliadora», pero el pin cae en el barrio «San Isidro».",
-     "Lleva 51 días publicado: pregunta si sigue libre."
+     "Lleva 56 días publicado: pregunta si sigue libre."
     ]
    },
    "opinion": {
@@ -404969,7 +405639,7 @@
     "v": 6,
     "barrio": "Belén",
     "sector": {
-     "nombre": "común",
+     "nombre": "Comuna 16 - Belén",
      "via": "Calle 6 Sur",
      "referencias": [
       "D1 (290 m)",
@@ -404981,7 +405651,7 @@
      ],
      "celda": "6.204,-75.600"
     },
-    "sector_en_texto": "común",
+    "sector_en_texto": null,
     "texto_dice_otro_barrio": null,
     "pin_en_otro_barrio": null,
     "conjunto": null,
@@ -405024,7 +405694,7 @@
      "loma": false,
      "dice_venta": false
     },
-    "desc": "Acerca de este inmueble Se ofrece apartamento en edificio residencial de Guayabal, Medellín, con 3 habitaciones, 2 baños, balcón y ventanas con malla de seguridad, sala comedor, parqueadero privado y portería. HERENCIA INMOBILIARIA SAS Antigüedad: Entre 0 y 5 años Barrio común: Belen Código: 11067-M4645116 Reportar anuncio Cerrar ",
+    "desc": "Descripción Se ofrece apartamento en edificio residencial de Guayabal, Medellín, con 3 habitaciones, 2 baños, balcón y ventanas con malla de seguridad, sala comedor, parqueadero privado y portería. Zonas comunes 24 horas Zona lavanderia Explorar cercanías directions_bus Transporte público shopping_bag Centros comerciales shopping_cart Supermercados school Educación park Parques Cra 51 con cll 6 sur Cra 50ff con cll 10 sur Cra 50ff con cll 7 sur Cll 12 sur 50c-22 Dg 75b con cll 8 ¿Aún tienes dudas? ¡Hablemos! ",
     "codigos": [
      "11067"
     ],
@@ -405187,9 +405857,9 @@
       1953000
      ]
     ],
-    "fecha": "2026-11-23T03:18-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
-     "Lleva 52 días publicado: pregunta si sigue libre.",
+     "Lleva 57 días publicado: pregunta si sigue libre.",
      "La Quebrada La Guayabala pasa a 27 m: pregunta si el edificio ha tenido problemas con crecientes.",
      "Al Metro Aguacatala son 39 min a pie (2.9 km): toca bus o carro."
     ]
@@ -405250,7 +405920,7 @@
     "pin_en_otro_barrio": null,
     "conjunto": null,
     "conjunto_origen": null,
-    "disponible": true,
+    "disponible": false,
     "publicado": "2026-11-13",
     "modificado": null,
     "en_pagina_desde": "2026-11-23",
@@ -405261,7 +405931,7 @@
      {
       "fuente": "Ciencuadras",
       "url": "https://www.ciencuadras.com/inmueble/apartaestudio-en-arriendo-en-la-colina-medellin-3946424",
-      "disponible": true,
+      "disponible": false,
       "publicado": "2026-11-13",
       "modificado": null,
       "anunciante": "MUÑOZ CARVAJAL INMOBILIARIA S.A.S.",
@@ -405279,7 +405949,7 @@
      "loma": true,
      "dice_venta": false
     },
-    "desc": "Descripción Se arrienda apartaestudio en Guayabal el Bolo. Cuenta con una habitación, sala comedor, cocina integral, red de gas, zona de ropas, un baño. Amplias rutas de transporte, integrado del metro. Zonas comunes Independiente ¿Aún tienes dudas? ¡Hablemos! ",
+    "desc": "Descripción Se arrienda apartaestudio en Guayabal el Bolo. Cuenta con una habitación, sala comedor, cocina integral, red de gas, zona de ropas, un baño. Amplias rutas de transporte, integrado del metro. Zonas comunes Independiente Explorar cercanías directions_bus Transporte público shopping_bag Centros comerciales shopping_cart Supermercados school Educación medical_services Salud park Parques Cll 2 sur 65-120 Ayura Cll 15 sur con cra 48 Estacion aguacatala Estacion del metro aguacatala ¿Aún tienes dudas? ¡Hablemos! ",
     "codigos": [],
     "alias": [],
     "ubicacion": {
@@ -405456,8 +406126,9 @@
       1000000
      ]
     ],
-    "fecha": "2026-11-23T03:19-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
+     "Ya no está disponible en ninguna de sus páginas.",
      "El anuncio no menciona portería, vigilancia ni unidad cerrada.",
      "La Quebrada La Jabalcona pasa a 55 m: pregunta si el edificio ha tenido problemas con crecientes."
     ]
@@ -405705,7 +406376,7 @@
       1900000
      ]
     ],
-    "fecha": "2026-11-23T03:19-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada."
     ]
@@ -406166,7 +406837,7 @@
       1500000
      ]
     ],
-    "fecha": "2026-11-23T03:19-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "Ya no está disponible en ninguna de sus páginas.",
      "El anuncio no menciona portería, vigilancia ni unidad cerrada.",
@@ -537222,11 +537893,13 @@
    }
   },
   "cc-3937478": {
-   "huella": "cc-3937478|fr-194505438|rt-pddcdc7|1920000",
+   "huella": "cc-3937478|fr-194505438|rt-p591d09|rt-pddcdc7|sfm-survivienda-4713|1920000",
    "exp": {
     "ids": [
      "fr-194505438",
      "cc-3937478",
+     "sfm-survivienda-4713",
+     "rt-p591d09",
      "rt-pddcdc7"
     ],
     "precio": 1920000,
@@ -537281,6 +537954,15 @@
       "modificado": null,
       "anunciante": "Inmobiliairia Survivienda",
       "tel": "3016706110"
+     },
+     {
+      "fuente": "Survivienda",
+      "url": "https://www.survivienda.com/inmueble/4713",
+      "disponible": true,
+      "publicado": null,
+      "modificado": null,
+      "anunciante": "Survivienda",
+      "tel": "6044489240"
      }
     ],
     "rasgos": {
@@ -537298,12 +537980,7 @@
     "codigos": [
      "4713"
     ],
-    "alias": [
-     [
-      "fr-194505438",
-      "sfm-survivienda-4713"
-     ]
-    ],
+    "alias": [],
     "ubicacion": {
      "tipo": "exacta",
      "lat": 6.1732043,
@@ -537502,7 +538179,7 @@
       1920000
      ]
     ],
-    "fecha": "2026-11-28T03:00-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada.",
      "La Quebrada Doña María pasa a 109 m: pregunta si el edificio ha tenido problemas con crecientes."
@@ -597091,10 +597768,11 @@
    }
   },
   "lw-estrella-8052": {
-   "huella": "lw-estrella-8052|1000000",
+   "huella": "lw-estrella-8052|m2-21136-M7236473|1000000",
    "exp": {
     "ids": [
-     "lw-estrella-8052"
+     "lw-estrella-8052",
+     "m2-21136-M7236473"
     ],
     "precio": 1000000,
     "hab": 2,
@@ -597123,8 +597801,10 @@
     "publicado": "2026-11-26",
     "modificado": null,
     "en_pagina_desde": "2026-11-26",
-    "video": false,
-    "videos": [],
+    "video": true,
+    "videos": [
+     "https://youtu.be/UgOLEaujrZw"
+    ],
     "tour": null,
     "versiones": [
      {
@@ -597135,6 +597815,15 @@
       "modificado": null,
       "anunciante": "Inmobiliaria La Estrella",
       "tel": "6042500646"
+     },
+     {
+      "fuente": "Metrocuadrado",
+      "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-la-estrella-inmaculada-ii-2-habitaciones-1-banos/21136-M7236473",
+      "disponible": true,
+      "publicado": null,
+      "modificado": null,
+      "anunciante": "Inmobiliaria",
+      "tel": null
      }
     ],
     "rasgos": {
@@ -597148,8 +597837,9 @@
      "loma": false,
      "dice_venta": false
     },
-    "desc": "<strong>Apartamento en Arriendo – Sector La Inmaculada, Vía a La Tablaza, La Estrella (Piso 3) (Empalme)</strong><br>Apartamento de 38 m², ubicado en el sector La Inmaculada, vía a La Tablaza, en La Estrella. Se encuentra en un tercer piso interno, en una zona residencial tranquila y con fácil acceso a comercio, transporte público y servicios esenciales. Cuenta con sala comedor, cocina integral que funciona con pipeta de gas, 2 habitaciones con clóset, 1 baño y zona de ropas, ofreciendo espacios cómodos y funcionales, ideales para disfrutar en familia.Una excelente opción para quienes buscan comodidad, tranquilidad y buena ubicación.<br><strong>Nota: Disponible para empalme. </strong><br><st",
+    "desc": "Acerca de este inmueble Apartamento en Arriendo – Sector La Inmaculada, Vía a La Tablaza, La Estrella Piso 3 Empalme Apartamento de 38 m², ubicado en el sector La Inmaculada, vía a La Tablaza, en La Estrella. Se encuentra en un tercer piso interno, en una zona residencial tranquila y con fácil acceso a comercio, transporte público y servicios esenciales. Cuenta con sala comedor, cocina integral que funciona con pipeta de gas, 2 habitaciones con clóset, 1 baño y zona de ropas, ofreciendo espacios cómodos y funcionales, ideales para disfrutar en familia.Una excelente opción para quienes buscan comodidad, tranquilidad y buena ubicación. Nota Disponible para empalme. Se permite máximo una mascot",
     "codigos": [
+     "21136",
      "8052"
     ],
     "alias": [],
@@ -597252,7 +597942,7 @@
       1000000
      ]
     ],
-    "fecha": "2026-11-28T03:00-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada.",
      "El Metro La Estrella queda a 4.1 km por vía: no es caminable."
@@ -601106,12 +601796,11 @@
    }
   },
   "cc-3938873": {
-   "huella": "cc-3938873|lw-estrella-9738|m2-21136-M7224184|1650000",
+   "huella": "cc-3938873|lw-estrella-9738|1650000",
    "exp": {
     "ids": [
      "cc-3938873",
-     "lw-estrella-9738",
-     "m2-21136-M7224184"
+     "lw-estrella-9738"
     ],
     "precio": 1650000,
     "hab": 2,
@@ -601167,15 +601856,6 @@
       "modificado": null,
       "anunciante": "Inmobiliaria La Estrella",
       "tel": "6042500646"
-     },
-     {
-      "fuente": "Metrocuadrado",
-      "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-la-estrella-la-estrella-2-habitaciones-2-banos/21136-M7224184",
-      "disponible": true,
-      "publicado": null,
-      "modificado": null,
-      "anunciante": "Inmobiliaria",
-      "tel": null
      }
     ],
     "rasgos": {
@@ -601191,7 +601871,6 @@
     },
     "desc": "Descripción Apartamento Interno en Arriendo – Edificio Venecia, La Estrella (Piso 5) Apartamento interno de aproximadamente 52 m², ubicado en el Edificio Venecia, en La Estrella, en un sector residencial tranquilo y con fácil acceso a comercio, transporte público y servicios esenciales. Cuenta con sala comedor, cocina integral con red de gas, 2 alcobas,2 closet, 1 baño cabinado,1 baño social, zona de ropas, ofreciendo espacios cómodos y bien distribuidos, ideales para disfrutar en familia. El edificio cuenta con ascensor, brindando mayor comodidad y facilidad de acceso al apartamento. Nota: El apartamento no cuenta con parqueadero. Apartamento con opción a venta. CODIGO: 9738 Zonas comunes N",
     "codigos": [
-     "21136",
      "9738"
     ],
     "alias": [],
@@ -601372,7 +602051,7 @@
       1650000
      ]
     ],
-    "fecha": "2026-11-28T03:00-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada.",
      "Hay una cárcel a 1164 m (Carcel de Máxima Seguridad de Itagüí (EPC La Paz)).",
@@ -601382,26 +602061,26 @@
    "opinion": {
     "id": "cc-3938873",
     "veredicto": "con reservas",
-    "puntaje": 7,
-    "frase": "Céntrico y con servicios, pero sin portería y con incidentes de seguridad en el barrio.",
-    "resumen": "El apartamento está en una ubicación muy céntrica en La Estrella, con fácil acceso a comercio y servicios. Sin embargo, no se menciona portería ni vigilancia, y el barrio ha tenido operativos contra el microtráfico. Está cerca de una cárcel.",
+    "puntaje": 6,
+    "frase": "Céntrico, con servicios y transporte, pero sin portería y cerca a cárcel.",
+    "resumen": "Ubicación excelente cerca de comercio y transporte, pero el edificio no tiene portería y está a más de 1 km de una cárcel.",
     "a_favor": [
-     "Ubicación céntrica con comercio y servicios",
-     "Cerca a parques y colegios",
-     "Buen transporte público y cerca al metro (en bus)"
+     "Ubicación céntrica con comercio y servicios cercanos.",
+     "Fácil acceso a transporte público y Metro La Estrella.",
+     "Apartamento cómodo, moderno y con ascensor."
     ],
     "en_contra": [
-     "No tiene portería ni vigilancia",
-     "Incidentes de seguridad en el barrio (microtráfico)",
-     "Cercanía a una cárcel"
+     "No cuenta con portería ni vigilancia.",
+     "Cercanía a la Cárcel de Máxima Seguridad de Itagüí (1.1 km).",
+     "Barrio Centro con operativos contra microtráfico y racionamiento de agua municipal."
     ],
     "preguntar": [
-     "¿El edificio cuenta con algún sistema de seguridad o control de acceso?",
-     "¿Cuál es la situación actual de seguridad en el sector?",
-     "¿Hay rutas de bus directas y frecuentes a la estación La Estrella del Metro?"
+     "¿El edificio tiene algún sistema de seguridad o control de acceso?",
+     "¿Cómo se gestiona la seguridad en el edificio?",
+     "¿Hay rutas de bus directas al Metro La Estrella?"
     ],
-    "transporte": "El sector está bien conectado con la Estación La Estrella del Metro a través de varias rutas de autobús y alimentadoras, con tiempos de viaje cortos a la estación (2 minutos caminando a la parada de bus) y al centro de Medellín (21 minutos en metro).",
-    "fecha": "2026-11-28T03:04-05:00"
+    "transporte": "El sector está bien conectado con la Estación La Estrella del Metro (2 min caminando a paradas cercanas) y al centro de Medellín (21 min en metro).",
+    "fecha": "2026-11-28T05:32-05:00"
    }
   },
   "cc-3961198": {
@@ -618061,11 +618740,10 @@
    }
   },
   "lw-estrella-9769": {
-   "huella": "lw-estrella-9769|m2-21136-M7261826|1800000",
+   "huella": "lw-estrella-9769|1800000",
    "exp": {
     "ids": [
-     "lw-estrella-9769",
-     "m2-21136-M7261826"
+     "lw-estrella-9769"
     ],
     "precio": 1800000,
     "hab": 3,
@@ -618110,15 +618788,6 @@
       "modificado": null,
       "anunciante": "Inmobiliaria La Estrella",
       "tel": "6042500646"
-     },
-     {
-      "fuente": "Metrocuadrado",
-      "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-medellin-san-antonio-de-prado-3-habitaciones-2-banos-1-garajes/21136-M7261826",
-      "disponible": true,
-      "publicado": null,
-      "modificado": null,
-      "anunciante": "Inmobiliaria",
-      "tel": null
      }
     ],
     "rasgos": {
@@ -618132,9 +618801,8 @@
      "loma": false,
      "dice_venta": false
     },
-    "desc": "Acerca de este inmueble Apartamento en Arriendo – Urbanización Entreprados, San Antonio de Prado Piso 3 Apartamento de aproximadamente 65 m², ubicado en la Urbanización Entreprados de San Antonio de Prado, en un sector residencial con fácil acceso a comercio, transporte público y servicios esenciales. Ideal para quienes buscan comodidad y espacios funcionales para disfrutar en familia.El inmueble cuenta con sala-comedor, cocina semintegral, 3 habitaciones, 2 clósets, 2 baños, balcón, zona de ropas y parqueadero privado. Nota No se paga servicio de agua. CODIGO 9769 Ver mas INMOBILIARIA LA ESTRELLA Antigüedad: Entre 0 y 5 años Barrio común: San Antonio De Prado Código: 21136-M7261826 Reportar",
+    "desc": "<strong>Apartamento en Arriendo – Urbanización Entreprados, San Antonio de Prado (Piso 3)</strong><br>Apartamento de aproximadamente 65 m², ubicado en la Urbanización Entreprados de San Antonio de Prado, en un sector residencial con fácil acceso a comercio, transporte público y servicios esenciales. Ideal para quienes buscan comodidad y espacios funcionales para disfrutar en familia.El inmueble cuenta con sala-comedor, cocina semintegral, 3 habitaciones, 2 clósets, 2 baños, balcón, zona de ropas y parqueadero privado.<br><br><strong>Nota: No se paga servicio de agua.</strong><br><br><strong>CODIGO: 9769</strong>",
     "codigos": [
-     "21136",
      "9769"
     ],
     "alias": [],
@@ -618275,7 +618943,7 @@
       1800000
      ]
     ],
-    "fecha": "2026-11-28T03:00-05:00",
+    "fecha": "2026-11-28T05:30-05:00",
     "alertas": [
      "El anuncio no menciona portería, vigilancia ni unidad cerrada.",
      "Hay una cárcel a 1128 m (Carcel de Máxima Seguridad de Itagüí (EPC La Paz)).",
@@ -630460,917 +631128,6 @@
     "fecha": "2026-11-28T03:04-05:00"
    }
   },
-  "m2-21136-M7262354": {
-   "huella": "m2-21136-M7262354|1800000",
-   "exp": {
-    "ids": [
-     "m2-21136-M7262354"
-    ],
-    "precio": 1800000,
-    "hab": 3,
-    "banos": 2,
-    "area": 70,
-    "estrato": 3,
-    "municipio": "La Estrella",
-    "barrio_portal": null,
-    "v": 6,
-    "barrio": null,
-    "sector": {
-     "nombre": "Villa Mira de La Estrella",
-     "via": null,
-     "referencias": [],
-     "quebradas": [],
-     "celda": null
-    },
-    "sector_en_texto": "Villa Mira de La Estrella",
-    "texto_dice_otro_barrio": null,
-    "pin_en_otro_barrio": null,
-    "conjunto": null,
-    "conjunto_origen": null,
-    "disponible": true,
-    "publicado": null,
-    "modificado": null,
-    "en_pagina_desde": "2026-11-27",
-    "video": false,
-    "videos": [],
-    "tour": null,
-    "versiones": [
-     {
-      "fuente": "Metrocuadrado",
-      "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-la-estrella-la-estrella-3-habitaciones-2-banos/21136-M7262354",
-      "disponible": true,
-      "publicado": null,
-      "modificado": null,
-      "anunciante": "Inmobiliaria",
-      "tel": null
-     }
-    ],
-    "rasgos": {
-     "porteria": false,
-     "vigilancia": false,
-     "unidad_cerrada": false,
-     "en_casa": false,
-     "ascensor": false,
-     "piscina": false,
-     "parqueadero": false,
-     "loma": false,
-     "dice_venta": false
-    },
-    "desc": "Acerca de este inmueble Apartamento en Arriendo – Villa Mira, La Estrella Piso 3 Apartamento de aproximadamente 70 m², ubicado en el sector Villa Mira de La Estrella, en una zona residencial con fácil acceso a comercio, transporte público y servicios esenciales. Ideal para quienes buscan comodidad y espacios amplios para disfrutar en familia.El inmueble cuenta con sala comedor, cocina semintegral con red de gas, 3 alcobas, 2 clósets, 2 baños, , balcón y zona de ropas, ofreciendo una distribución funcional y agradable. CODIGO 9147 Ver mas INMOBILIARIA LA ESTRELLA Antigüedad: Entre 0 y 5 años Barrio común: La Estrella Código: 21136-M7262354 Reportar anuncio Cerrar ",
-    "codigos": [
-     "21136",
-     "9147"
-    ],
-    "alias": [
-     [
-      "m2-21136-M7262354",
-      "lw-estrella-9147"
-     ]
-    ],
-    "ubicacion": {
-     "tipo": "punto genérico (lo usan varias inmobiliarias)",
-     "lat": 6.1613755,
-     "lon": -75.63886
-    },
-    "metro": {
-     "estacion": "La Estrella",
-     "m_linea_recta": 1683
-    },
-    "recorridos": null,
-    "cerca": {
-     "supermercados": [
-      {
-       "nombre": "D1",
-       "m": 329
-      },
-      {
-       "nombre": "Tienda D1",
-       "m": 388
-      },
-      {
-       "nombre": "Tienda Ara",
-       "m": 389
-      },
-      {
-       "nombre": "Supermercado Maxioferta",
-       "m": 452
-      },
-      {
-       "nombre": "Abarrotes La 80",
-       "m": 527
-      }
-     ],
-     "centros_comerciales": [
-      {
-       "nombre": "Mall Bavaria",
-       "m": 271
-      },
-      {
-       "nombre": "Centro Comercial Venecia",
-       "m": 518
-      },
-      {
-       "nombre": "Éxito",
-       "m": 1412
-      },
-      {
-       "nombre": "Plaza 77",
-       "m": 1415
-      }
-     ],
-     "salud": [
-      {
-       "nombre": "IPS Comfama Sura",
-       "m": 674
-      },
-      {
-       "nombre": "Cis La Estrella Edificio Fuente Clara",
-       "m": 674
-      },
-      {
-       "nombre": "CIS Comfama La Estrella",
-       "m": 772
-      },
-      {
-       "nombre": "Hospital La Estrella",
-       "m": 882
-      }
-     ],
-     "colegios": [
-      {
-       "nombre": "Centro Educativo Siderense",
-       "m": 271
-      },
-      {
-       "nombre": "Colegio Divino Salvador",
-       "m": 300
-      },
-      {
-       "nombre": "Centro Educativo Santa Teresita de Niño Jesus",
-       "m": 508
-      },
-      {
-       "nombre": "Escuela Rafael Pombo",
-       "m": 544
-      },
-      {
-       "nombre": "Centro Educativo Manantial",
-       "m": 630
-      }
-     ],
-     "parques": [
-      {
-       "nombre": "Parque Villa Mira",
-       "m": 103
-      },
-      {
-       "nombre": "Parque Pitriza",
-       "m": 637
-      },
-      {
-       "nombre": "Parque La Estrella",
-       "m": 655
-      }
-     ],
-     "paraderos": 0,
-     "carcel": {
-      "nombre": "Carcel de Máxima Seguridad de Itagüí (EPC La Paz)",
-      "m": 1157
-     },
-     "nombres_cercanos": [],
-     "quebradas": [
-      {
-       "nombre": "Quebrada La Ospina",
-       "m": 208
-      }
-     ]
-    },
-    "barrio_ficha": null,
-    "hist": [
-     [
-      "2026-11-27",
-      1800000
-     ]
-    ],
-    "fecha": "2026-11-28T03:00-05:00",
-    "alertas": [
-     "Ubicación no confirmada: el mapa usa un punto genérico (lo usan varias inmobiliarias). Pide la dirección exacta.",
-     "El anuncio no menciona portería, vigilancia ni unidad cerrada.",
-     "Hay una cárcel a 1157 m (Carcel de Máxima Seguridad de Itagüí (EPC La Paz))."
-    ]
-   }
-  },
-  "m2-21136-M7236473": {
-   "huella": "m2-21136-M7236473|1000000",
-   "exp": {
-    "ids": [
-     "m2-21136-M7236473"
-    ],
-    "precio": 1000000,
-    "hab": 2,
-    "banos": 1,
-    "area": 38,
-    "estrato": 2,
-    "municipio": "La Estrella",
-    "barrio_portal": "Inmaculada Ii",
-    "v": 6,
-    "barrio": "Inmaculada Ii",
-    "sector": {
-     "nombre": "La Inmaculada",
-     "via": null,
-     "referencias": [],
-     "quebradas": [],
-     "celda": null
-    },
-    "sector_en_texto": "La Inmaculada",
-    "texto_dice_otro_barrio": null,
-    "pin_en_otro_barrio": null,
-    "conjunto": null,
-    "conjunto_origen": null,
-    "disponible": true,
-    "publicado": null,
-    "modificado": null,
-    "en_pagina_desde": "2026-11-26",
-    "video": true,
-    "videos": [
-     "https://youtu.be/UgOLEaujrZw"
-    ],
-    "tour": null,
-    "versiones": [
-     {
-      "fuente": "Metrocuadrado",
-      "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-la-estrella-inmaculada-ii-2-habitaciones-1-banos/21136-M7236473",
-      "disponible": true,
-      "publicado": null,
-      "modificado": null,
-      "anunciante": "Inmobiliaria",
-      "tel": null
-     }
-    ],
-    "rasgos": {
-     "porteria": false,
-     "vigilancia": false,
-     "unidad_cerrada": false,
-     "en_casa": false,
-     "ascensor": false,
-     "piscina": false,
-     "parqueadero": false,
-     "loma": false,
-     "dice_venta": false
-    },
-    "desc": "Acerca de este inmueble Apartamento en Arriendo – Sector La Inmaculada, Vía a La Tablaza, La Estrella Piso 3 Empalme Apartamento de 38 m², ubicado en el sector La Inmaculada, vía a La Tablaza, en La Estrella. Se encuentra en un tercer piso interno, en una zona residencial tranquila y con fácil acceso a comercio, transporte público y servicios esenciales. Cuenta con sala comedor, cocina integral que funciona con pipeta de gas, 2 habitaciones con clóset, 1 baño y zona de ropas, ofreciendo espacios cómodos y funcionales, ideales para disfrutar en familia.Una excelente opción para quienes buscan comodidad, tranquilidad y buena ubicación. Nota Disponible para empalme. Se permite máximo una mascot",
-    "codigos": [
-     "21136",
-     "8052"
-    ],
-    "alias": [
-     [
-      "m2-21136-M7236473",
-      "lw-estrella-8052"
-     ]
-    ],
-    "ubicacion": {
-     "tipo": "punto genérico (lo usan varias inmobiliarias)",
-     "lat": 6.1337595,
-     "lon": -75.637764
-    },
-    "metro": {
-     "estacion": "La Estrella",
-     "m_linea_recta": 2463
-    },
-    "recorridos": null,
-    "cerca": {
-     "supermercados": [
-      {
-       "nombre": "D1",
-       "m": 404
-      }
-     ],
-     "centros_comerciales": [],
-     "salud": [],
-     "colegios": [
-      {
-       "nombre": "La Inmaculada",
-       "m": 270
-      },
-      {
-       "nombre": "Colegio Canadiense",
-       "m": 522
-      },
-      {
-       "nombre": "Colegio Gimn Cantabria",
-       "m": 735
-      }
-     ],
-     "parques": [
-      {
-       "nombre": "Coliseo",
-       "m": 568
-      }
-     ],
-     "paraderos": 0,
-     "carcel": null,
-     "nombres_cercanos": [],
-     "quebradas": []
-    },
-    "barrio_ficha": null,
-    "hist": [
-     [
-      "2026-11-26",
-      1000000
-     ]
-    ],
-    "fecha": "2026-11-28T03:00-05:00",
-    "alertas": [
-     "Ubicación no confirmada: el mapa usa un punto genérico (lo usan varias inmobiliarias). Pide la dirección exacta.",
-     "El anuncio no menciona portería, vigilancia ni unidad cerrada."
-    ]
-   }
-  },
-  "rt-p591d09": {
-   "huella": "rt-p591d09|sfm-survivienda-4713|1920000",
-   "exp": {
-    "ids": [
-     "sfm-survivienda-4713",
-     "rt-p591d09"
-    ],
-    "precio": 1920000,
-    "hab": 3,
-    "banos": 1,
-    "area": 70,
-    "estrato": 3,
-    "municipio": "Itagüí",
-    "barrio_portal": "Santa María la Nueva",
-    "v": 6,
-    "barrio": "Santa María",
-    "sector": {
-     "nombre": null,
-     "via": null,
-     "referencias": [],
-     "quebradas": [],
-     "celda": null
-    },
-    "sector_en_texto": null,
-    "texto_dice_otro_barrio": null,
-    "pin_en_otro_barrio": null,
-    "conjunto": null,
-    "conjunto_origen": null,
-    "disponible": true,
-    "publicado": null,
-    "modificado": null,
-    "en_pagina_desde": "2026-11-14",
-    "video": null,
-    "videos": [],
-    "tour": null,
-    "versiones": [
-     {
-      "fuente": "Survivienda",
-      "url": "https://www.survivienda.com/inmueble/4713",
-      "disponible": true,
-      "publicado": null,
-      "modificado": null,
-      "anunciante": "Survivienda",
-      "tel": "6044489240"
-     }
-    ],
-    "rasgos": {
-     "porteria": false,
-     "vigilancia": false,
-     "unidad_cerrada": false,
-     "en_casa": false,
-     "ascensor": false,
-     "piscina": false,
-     "parqueadero": false,
-     "loma": false,
-     "dice_venta": false
-    },
-    "desc": "",
-    "codigos": [],
-    "alias": [],
-    "ubicacion": {
-     "tipo": "sin",
-     "lat": null,
-     "lon": null
-    },
-    "metro": null,
-    "recorridos": null,
-    "cerca": null,
-    "barrio_ficha": {
-     "nombre": "Santa María",
-     "seguridad": "media",
-     "recomendacion": "con precaución",
-     "terreno": "plano",
-     "razon": "Bien ubicado y económico, pero en 2026 hubo homicidios ligados a bandas y hay riesgo documentado de inundación cerca de la quebrada. Conviene evitar los edificios a orillas de la Doña María.",
-     "negativos": [
-      "En 2026 hubo homicidios en el barrio: un venezolano asesinado el 13 de junio y otro hombre baleado dentro de una vivienda. El Colombiano relaciona los hechos en Santa María y El Rosario con la disputa de El Ajizal",
-      "En mayo de 2025 la quebrada Doña María se desbordó en Santa María 2 (carrera 48 entre la calle 72 y la carrera 49) y dañó vehículos",
-      "Mucha actividad comercial y de bodegas, con tráfico y ruido"
-     ],
-     "positivos": [
-      "Sector comercial con el Centro de la Moda y la Central Mayorista cerca, y transporte frecuente",
-      "Precios más contenidos que en Ditaires o Suramérica",
-      "Telemedellín lo menciona entre los barrios destacados por su desarrollo y servicios (esa lista se hizo con IA)"
-     ]
-    },
-    "hist": [
-     [
-      "2026-11-24",
-      1920000
-     ]
-    ],
-    "fecha": "2026-11-28T03:00-05:00",
-    "alertas": [
-     "El anuncio no menciona portería, vigilancia ni unidad cerrada."
-    ]
-   }
-  },
-  "m2-21136-M7131770": {
-   "huella": "m2-21136-M7131770|2000000",
-   "exp": {
-    "ids": [
-     "m2-21136-M7131770"
-    ],
-    "precio": 2000000,
-    "hab": 3,
-    "banos": 2,
-    "area": 78,
-    "estrato": 3,
-    "municipio": "Medellín",
-    "barrio_portal": "San Antonio de Prado",
-    "v": 6,
-    "barrio": "San Antonio de Prado",
-    "sector": {
-     "nombre": null,
-     "via": "Calle 42A Sur",
-     "referencias": [
-      "Institución Educativa Manuel J Betancur (130 m)",
-      "Merque Paisa (137 m)",
-      "supermercado maxioferta prado 1 (179 m)"
-     ],
-     "quebradas": [
-      "Quebrada La Manguala (171 m)"
-     ],
-     "celda": "6.184,-75.656"
-    },
-    "sector_en_texto": null,
-    "texto_dice_otro_barrio": null,
-    "pin_en_otro_barrio": null,
-    "conjunto": null,
-    "conjunto_origen": null,
-    "disponible": true,
-    "publicado": null,
-    "modificado": null,
-    "en_pagina_desde": "2026-11-23",
-    "video": false,
-    "videos": [],
-    "tour": null,
-    "versiones": [
-     {
-      "fuente": "Metrocuadrado",
-      "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-medellin-san-antonio-de-prado-3-habitaciones-2-banos/21136-M7131770",
-      "disponible": true,
-      "publicado": null,
-      "modificado": null,
-      "anunciante": "Inmobiliaria",
-      "tel": "6044480577"
-     }
-    ],
-    "rasgos": {
-     "porteria": false,
-     "vigilancia": false,
-     "unidad_cerrada": false,
-     "en_casa": false,
-     "ascensor": true,
-     "piscina": false,
-     "parqueadero": true,
-     "loma": false,
-     "dice_venta": false
-    },
-    "desc": "Acerca de este inmueble Apartamento en Arriendo – San Antonio de Prado, Sector La Gruta Piso 3 Apartamento de aproximadamente 78 m², ubicado en el sector La Gruta de San Antonio de Prado, al frente del parqueadero y Vivero El Sevillano, en un sector tranquilo y de fácil acceso. La propiedad cuenta con sala comedor, cocina integral con red de gas, 3 alcobas, 3 closets, 2 baños cabinados y zona de ropas, ofreciendo espacios cómodos y bien distribuidos para toda la familia.El inmueble no cuenta con parqueadero y el edificio no cuenta con ascensor. CODIGO 9682 Ver mas INMOBILIARIA LA ESTRELLA Antigüedad: Entre 0 y 5 años Barrio común: San Antonio De Prado Código: 21136-M7131770 Reportar anuncio ",
-    "codigos": [
-     "21136",
-     "9682"
-    ],
-    "alias": [
-     [
-      "m2-21136-M7131770",
-      "lw-estrella-9682"
-     ]
-    ],
-    "ubicacion": {
-     "tipo": "de la ficha",
-     "lat": 6.184068,
-     "lon": -75.65485,
-     "osm": {
-      "barrio": null,
-      "via": "Calle 42A Sur",
-      "municipio": "Medellín"
-     }
-    },
-    "metro": {
-     "estacion": "La Estrella",
-     "m_linea_recta": 4695
-    },
-    "recorridos": [
-     {
-      "lugar": "Metro La Estrella",
-      "linea_recta_km": 4.7,
-      "carro_km": 7.5,
-      "carro_min": 15
-     },
-     {
-      "lugar": "Metro Sabaneta",
-      "linea_recta_km": 5.2,
-      "carro_km": 8.4,
-      "carro_min": 17
-     },
-     {
-      "lugar": "Parque principal de San Antonio de Prado",
-      "linea_recta_km": 0.2,
-      "pie_km": 0.3,
-      "pie_min": 4,
-      "carro_km": 0.4,
-      "carro_min": 1
-     },
-     {
-      "lugar": "Centro Comercial Venecia",
-      "linea_recta_km": 3.0,
-      "pie_km": 4.0,
-      "pie_min": 53,
-      "carro_km": 4.4,
-      "carro_min": 9
-     },
-     {
-      "lugar": "Hospital La Estrella",
-      "linea_recta_km": 3.4,
-      "carro_km": 5.1,
-      "carro_min": 11
-     },
-     {
-      "lugar": "Centro de Medellín (Parque Berrío)",
-      "linea_recta_km": 12.1,
-      "carro_km": 18.5,
-      "carro_min": 28
-     },
-     {
-      "lugar": "El Poblado (estación Poblado)",
-      "linea_recta_km": 9.0,
-      "carro_km": 13.9,
-      "carro_min": 22
-     }
-    ],
-    "cerca": {
-     "supermercados": [
-      {
-       "nombre": "Merque Paisa",
-       "m": 137
-      },
-      {
-       "nombre": "supermercado maxioferta prado 1",
-       "m": 179
-      },
-      {
-       "nombre": "maxioferta prado 1",
-       "m": 181
-      },
-      {
-       "nombre": "supermercadoo maxioferta prado 3",
-       "m": 260
-      },
-      {
-       "nombre": "supermercado maxioferta prado 3",
-       "m": 261
-      }
-     ],
-     "centros_comerciales": [],
-     "salud": [],
-     "colegios": [
-      {
-       "nombre": "Institución Educativa Manuel J Betancur",
-       "m": 130
-      },
-      {
-       "nombre": "Institución Educativa San Antonio de Prado",
-       "m": 183
-      },
-      {
-       "nombre": "Institución Educativa Manuel J. Betancur",
-       "m": 289
-      },
-      {
-       "nombre": "Colegio Empresarial",
-       "m": 497
-      }
-     ],
-     "parques": [
-      {
-       "nombre": "Parque Principal San Antonio de Prado",
-       "m": 206
-      },
-      {
-       "nombre": "Parque El Paraíso",
-       "m": 738
-      }
-     ],
-     "paraderos": 3,
-     "carcel": null,
-     "nombres_cercanos": [],
-     "quebradas": [
-      {
-       "nombre": "Quebrada La Manguala",
-       "m": 171
-      }
-     ]
-    },
-    "barrio_ficha": {
-     "nombre": "San Antonio de Prado",
-     "seguridad": "media",
-     "recomendacion": "con precaución",
-     "terreno": "lomas fuertes",
-     "razon": "Es económico y sin violencia recurrente, pero el acceso es su gran problema: en enero de 2026 hubo trayectos de más de 3 horas por el cierre de una vía.",
-     "negativos": [
-      "Lejos del centro y con trancones en la vía de acceso",
-      "Crecimiento urbano acelerado y construcción ilegal",
-      "Homicidios sicariales puntuales"
-     ],
-     "positivos": [
-      "Arriendos bajos y unidades nuevas",
-      "Ambiente de pueblo",
-      "Pocos homicidios en general (el primero de 2025 fue a finales de febrero)"
-     ]
-    },
-    "hist": [
-     [
-      "2026-11-23",
-      2000000
-     ]
-    ],
-    "fecha": "2026-11-28T03:00-05:00",
-    "alertas": [
-     "El anuncio no menciona portería, vigilancia ni unidad cerrada.",
-     "El Metro La Estrella queda a 7.5 km por vía: no es caminable."
-    ]
-   }
-  },
-  "lw-estrella-9681": {
-   "huella": "lw-estrella-9681|m2-21136-M7131503|1700000",
-   "exp": {
-    "ids": [
-     "lw-estrella-9681",
-     "m2-21136-M7131503"
-    ],
-    "precio": 1700000,
-    "hab": 2,
-    "banos": 2,
-    "area": 68,
-    "estrato": 3,
-    "municipio": "Medellín",
-    "barrio_portal": "San Antonio de Prado",
-    "v": 6,
-    "barrio": "San Antonio de Prado",
-    "sector": {
-     "nombre": "La Gruta",
-     "via": "Calle 42A Sur",
-     "referencias": [
-      "Institución Educativa Manuel J Betancur (130 m)",
-      "Merque Paisa (137 m)",
-      "supermercado maxioferta prado 1 (179 m)"
-     ],
-     "quebradas": [
-      "Quebrada La Manguala (171 m)"
-     ],
-     "celda": "6.184,-75.656"
-    },
-    "sector_en_texto": "La Gruta",
-    "texto_dice_otro_barrio": null,
-    "pin_en_otro_barrio": null,
-    "conjunto": null,
-    "conjunto_origen": null,
-    "disponible": true,
-    "publicado": null,
-    "modificado": null,
-    "en_pagina_desde": "2026-11-16",
-    "video": true,
-    "videos": [
-     "https://youtu.be/PUzFlqV3v8w"
-    ],
-    "tour": null,
-    "versiones": [
-     {
-      "fuente": "Inmobiliaria La Estrella",
-      "url": "https://www.inmobiliarialaestrella.com/detalle-propiedad/apartamento-enarriendo-en-san-antonio-de-prado-9681",
-      "disponible": true,
-      "publicado": null,
-      "modificado": null,
-      "anunciante": "Inmobiliaria La Estrella",
-      "tel": "6042500646"
-     },
-     {
-      "fuente": "Metrocuadrado",
-      "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-medellin-san-antonio-de-prado-2-habitaciones-2-banos/21136-M7131503",
-      "disponible": true,
-      "publicado": null,
-      "modificado": null,
-      "anunciante": "Inmobiliaria",
-      "tel": "6044480577"
-     }
-    ],
-    "rasgos": {
-     "porteria": false,
-     "vigilancia": false,
-     "unidad_cerrada": false,
-     "en_casa": false,
-     "ascensor": true,
-     "piscina": false,
-     "parqueadero": true,
-     "loma": false,
-     "dice_venta": false
-    },
-    "desc": "Acerca de este inmueble Apartamento en Arriendo – Sector La Gruta, San Antonio de Prado Piso 2 Apartamento de aproximadamente 68 m², ubicado en San Antonio de Prado,Sector la gruta al frente del parqueadero y Vivero El Sevillano, en un sector tranquilo y de fácil acceso. La propiedad cuenta con sala comedor, cocina integral con red de gas, 2 alcobas, 2 closets, 1 baño cabinado y zona de ropas.El inmueble no cuenta con parqueadero y el edificio no cuenta con ascensor. CODIGO 9681 Ver mas INMOBILIARIA LA ESTRELLA Antigüedad: Entre 0 y 5 años Barrio común: San Antonio De Prado Código: 21136-M7131503 Reportar anuncio Cerrar ",
-    "codigos": [
-     "21136",
-     "9681"
-    ],
-    "alias": [],
-    "ubicacion": {
-     "tipo": "de la ficha",
-     "lat": 6.1840682,
-     "lon": -75.6548482,
-     "osm": {
-      "barrio": null,
-      "via": "Calle 42A Sur",
-      "municipio": "Medellín"
-     }
-    },
-    "metro": {
-     "estacion": "La Estrella",
-     "m_linea_recta": 4695
-    },
-    "recorridos": [
-     {
-      "lugar": "Metro La Estrella",
-      "linea_recta_km": 4.7,
-      "carro_km": 7.5,
-      "carro_min": 15
-     },
-     {
-      "lugar": "Metro Sabaneta",
-      "linea_recta_km": 5.2,
-      "carro_km": 8.4,
-      "carro_min": 17
-     },
-     {
-      "lugar": "Parque principal de San Antonio de Prado",
-      "linea_recta_km": 0.2,
-      "pie_km": 0.3,
-      "pie_min": 4,
-      "carro_km": 0.4,
-      "carro_min": 1
-     },
-     {
-      "lugar": "Centro Comercial Venecia",
-      "linea_recta_km": 3.0,
-      "pie_km": 4.0,
-      "pie_min": 53,
-      "carro_km": 4.4,
-      "carro_min": 9
-     },
-     {
-      "lugar": "Hospital La Estrella",
-      "linea_recta_km": 3.4,
-      "carro_km": 5.1,
-      "carro_min": 11
-     },
-     {
-      "lugar": "Centro de Medellín (Parque Berrío)",
-      "linea_recta_km": 12.1,
-      "carro_km": 18.5,
-      "carro_min": 28
-     },
-     {
-      "lugar": "El Poblado (estación Poblado)",
-      "linea_recta_km": 9.0,
-      "carro_km": 13.9,
-      "carro_min": 22
-     }
-    ],
-    "cerca": {
-     "supermercados": [
-      {
-       "nombre": "Merque Paisa",
-       "m": 137
-      },
-      {
-       "nombre": "supermercado maxioferta prado 1",
-       "m": 179
-      },
-      {
-       "nombre": "maxioferta prado 1",
-       "m": 181
-      },
-      {
-       "nombre": "supermercadoo maxioferta prado 3",
-       "m": 260
-      },
-      {
-       "nombre": "supermercado maxioferta prado 3",
-       "m": 262
-      }
-     ],
-     "centros_comerciales": [],
-     "salud": [],
-     "colegios": [
-      {
-       "nombre": "Institución Educativa Manuel J Betancur",
-       "m": 130
-      },
-      {
-       "nombre": "Institución Educativa San Antonio de Prado",
-       "m": 183
-      },
-      {
-       "nombre": "Institución Educativa Manuel J. Betancur",
-       "m": 290
-      },
-      {
-       "nombre": "Colegio Empresarial",
-       "m": 497
-      }
-     ],
-     "parques": [
-      {
-       "nombre": "Parque Principal San Antonio de Prado",
-       "m": 206
-      },
-      {
-       "nombre": "Parque El Paraíso",
-       "m": 738
-      }
-     ],
-     "paraderos": 3,
-     "carcel": null,
-     "nombres_cercanos": [],
-     "quebradas": [
-      {
-       "nombre": "Quebrada La Manguala",
-       "m": 171
-      }
-     ]
-    },
-    "barrio_ficha": {
-     "nombre": "San Antonio de Prado",
-     "seguridad": "media",
-     "recomendacion": "con precaución",
-     "terreno": "lomas fuertes",
-     "razon": "Es económico y sin violencia recurrente, pero el acceso es su gran problema: en enero de 2026 hubo trayectos de más de 3 horas por el cierre de una vía.",
-     "negativos": [
-      "Lejos del centro y con trancones en la vía de acceso",
-      "Crecimiento urbano acelerado y construcción ilegal",
-      "Homicidios sicariales puntuales"
-     ],
-     "positivos": [
-      "Arriendos bajos y unidades nuevas",
-      "Ambiente de pueblo",
-      "Pocos homicidios en general (el primero de 2025 fue a finales de febrero)"
-     ]
-    },
-    "hist": [
-     [
-      "2026-11-16",
-      1700000
-     ]
-    ],
-    "fecha": "2026-11-28T03:00-05:00",
-    "alertas": [
-     "El anuncio no menciona portería, vigilancia ni unidad cerrada.",
-     "El Metro La Estrella queda a 7.5 km por vía: no es caminable."
-    ]
-   },
-   "opinion": {
-    "id": "lw-estrella-9681",
-    "veredicto": "no recomendable",
-    "puntaje": 4,
-    "frase": "Sin portería ni vigilancia, sector con escasez de agua y lejos del metro.",
-    "resumen": "El apartamento no menciona portería ni vigilancia, lo cual es una prioridad. El sector de La Gruta ha tenido problemas de escasez de agua y está lejos del metro. El barrio San Antonio de Prado tiene problemas de acceso y trancones.",
-    "a_favor": [
-     "Cerca a supermercados y colegios",
-     "Sector tranquilo y de fácil acceso (según descripción)",
-     "Ascensor y parqueadero (según rasgos)"
-    ],
-    "en_contra": [
-     "No tiene portería ni vigilancia",
-     "Escasez de agua en el sector (Quebrada La Manguala)",
-     "Lejos del metro y con trancones en el barrio"
-    ],
-    "preguntar": [
-     "¿El edificio cuenta con algún sistema de seguridad o control de acceso?",
-     "¿Cómo se ha gestionado la escasez de agua en el edificio?",
-     "¿El parqueadero es propio o comunal?"
-    ],
-    "transporte": "El sector está conectado con rutas de bus que ofrecen acceso a estaciones del Metro de Medellín y al centro, pero la estación La Estrella está a 1 hora 3 minutos en bus.",
-    "fecha": "2026-11-28T03:04-05:00"
-   }
-  },
   "eu-1805844": {
    "huella": "eu-1805844|1700000",
    "exp": {
@@ -631687,6 +631444,1382 @@
     ],
     "transporte": "El sector está bien conectado con el transporte público, con varias rutas de bus que pasan por la Calle 87 Sur y sus cercanías, ofreciendo acceso directo a la estación del Metro La Estrella (6 minutos a pie a la parada de bus).",
     "fecha": "2026-11-28T03:04-05:00"
+   }
+  },
+  "dm-903194": {
+   "huella": "dm-903194|1800000",
+   "exp": {
+    "ids": [
+     "dm-903194"
+    ],
+    "precio": 1800000,
+    "hab": 2,
+    "banos": 1,
+    "area": 55,
+    "estrato": null,
+    "municipio": "Envigado",
+    "barrio_portal": "La Sebastian",
+    "v": 6,
+    "barrio": "La Sebastiana",
+    "sector": {
+     "nombre": "Sebastiana",
+     "via": "Diagonal 30",
+     "referencias": [
+      "Institución Educativa Dario de Bedout (211 m)",
+      "Supermercado La Paz (243 m)",
+      "I.E. Marie Poussepin (262 m)"
+     ],
+     "quebradas": [
+      "Quebrada La Ayurá (220 m)",
+      "Quebrada La Sebastiana (271 m)"
+     ],
+     "celda": "6.168,-75.580"
+    },
+    "sector_en_texto": null,
+    "texto_dice_otro_barrio": null,
+    "pin_en_otro_barrio": null,
+    "conjunto": null,
+    "conjunto_origen": null,
+    "disponible": true,
+    "publicado": "2026-11-27",
+    "modificado": "2026-11-28",
+    "en_pagina_desde": "2026-11-28",
+    "video": null,
+    "videos": [],
+    "tour": null,
+    "versiones": [
+     {
+      "fuente": "Doomos",
+      "url": "https://www.doomos.com.co/propiedad/se-alquila-apartame-barrio-la-sebastian-1",
+      "disponible": true,
+      "publicado": "2026-11-27",
+      "modificado": "2026-11-28",
+      "anunciante": null,
+      "tel": null
+     }
+    ],
+    "rasgos": {
+     "porteria": false,
+     "vigilancia": true,
+     "unidad_cerrada": false,
+     "en_casa": false,
+     "ascensor": false,
+     "piscina": false,
+     "parqueadero": false,
+     "loma": false,
+     "dice_venta": false
+    },
+    "desc": "Descripción Descubre este acogedor apartamento para alquiler en la hermosa localidad de Envigado, Antioquia. Con un área total de 55 m², este inmueble ofrece un ambiente perfecto para disfrutar de la comodidad y la tranquilidad que buscas. Con 2 amplias alcobas y 1 baño, este espacio es ideal para parejas o pequeñas familias que desean establecerse en una de las zonas más exclusivas del área metropolitana de Medellín.El apartamento cuenta con excelentes características internas como agua, armarios empotrados, un encantador balcón con vista panorámica, y un baño auxiliar que complementa perfectamente la distribución del hogar. La cocina integral es funcional y se suma a la comodidad del día a",
+    "codigos": [],
+    "alias": [],
+    "ubicacion": {
+     "tipo": "de la ficha",
+     "lat": 6.1697355,
+     "lon": -75.5786099,
+     "osm": {
+      "barrio": "Sebastiana",
+      "via": "Diagonal 30",
+      "municipio": "Envigado"
+     }
+    },
+    "metro": {
+     "estacion": "Ayurá",
+     "m_linea_recta": 2003
+    },
+    "recorridos": [
+     {
+      "lugar": "Metro Ayurá",
+      "linea_recta_km": 2.0,
+      "pie_km": 2.4,
+      "pie_min": 33,
+      "carro_km": 3.9,
+      "carro_min": 6
+     },
+     {
+      "lugar": "Metro Envigado",
+      "linea_recta_km": 2.0,
+      "pie_km": 2.4,
+      "pie_min": 32,
+      "carro_km": 3.5,
+      "carro_min": 7
+     },
+     {
+      "lugar": "Parque principal de Envigado",
+      "linea_recta_km": 0.9,
+      "pie_km": 1.2,
+      "pie_min": 17,
+      "carro_km": 1.4,
+      "carro_min": 2
+     },
+     {
+      "lugar": "City Plaza",
+      "linea_recta_km": 1.0,
+      "pie_km": 1.3,
+      "pie_min": 17,
+      "carro_km": 1.8,
+      "carro_min": 3
+     },
+     {
+      "lugar": "Clínica Santa Gertrudis",
+      "linea_recta_km": 0.3,
+      "pie_km": 0.5,
+      "pie_min": 6,
+      "carro_km": 0.6,
+      "carro_min": 2
+     },
+     {
+      "lugar": "Centro de Medellín (Parque Berrío)",
+      "linea_recta_km": 9.0,
+      "carro_km": 9.9,
+      "carro_min": 14
+     },
+     {
+      "lugar": "El Poblado (estación Poblado)",
+      "linea_recta_km": 4.7,
+      "carro_km": 5.4,
+      "carro_min": 8
+     }
+    ],
+    "cerca": {
+     "supermercados": [
+      {
+       "nombre": "Supermercado La Paz",
+       "m": 243
+      },
+      {
+       "nombre": "Distribuidora Santa Barbara",
+       "m": 376
+      },
+      {
+       "nombre": "D1 Los Naranjos",
+       "m": 489
+      },
+      {
+       "nombre": "El baratillo",
+       "m": 779
+      },
+      {
+       "nombre": "La Vaquita - Envigado",
+       "m": 795
+      }
+     ],
+     "centros_comerciales": [
+      {
+       "nombre": "City Plaza",
+       "m": 900
+      },
+      {
+       "nombre": "La Casona",
+       "m": 1081
+      },
+      {
+       "nombre": "Terracina Plaza",
+       "m": 1097
+      },
+      {
+       "nombre": "Mall Villa Grande",
+       "m": 1392
+      }
+     ],
+     "salud": [
+      {
+       "nombre": "Hospital Manuel Uribe Angel",
+       "m": 362
+      },
+      {
+       "nombre": "Clínica Santa Gertrudis",
+       "m": 377
+      },
+      {
+       "nombre": "Clínica las Americas del Sur",
+       "m": 1119
+      }
+     ],
+     "colegios": [
+      {
+       "nombre": "Institución Educativa Dario de Bedout",
+       "m": 211
+      },
+      {
+       "nombre": "I.E. Marie Poussepin",
+       "m": 262
+      },
+      {
+       "nombre": "Colegio Internacional de Medellin",
+       "m": 283
+      },
+      {
+       "nombre": "Institución Educativa San Vicente de Paul",
+       "m": 312
+      },
+      {
+       "nombre": "Centro Educativo Cent de Estimulación y Preesc Despertar",
+       "m": 394
+      }
+     ],
+     "parques": [
+      {
+       "nombre": "La Piedra de La Ayua",
+       "m": 428
+      },
+      {
+       "nombre": "Parque amaneceres",
+       "m": 523
+      }
+     ],
+     "paraderos": 2,
+     "carcel": null,
+     "nombres_cercanos": [],
+     "quebradas": [
+      {
+       "nombre": "Quebrada La Ayurá",
+       "m": 220
+      },
+      {
+       "nombre": "Quebrada La Sebastiana",
+       "m": 271
+      }
+     ]
+    },
+    "barrio_ficha": {
+     "nombre": "La Sebastiana",
+     "seguridad": "sin datos",
+     "recomendacion": "con precaución",
+     "terreno": "ondulado",
+     "razon": "Poca información y cercanía a la zona con microtráfico documentado.",
+     "negativos": [
+      "Vecina de Las Flores, Alto de Misael y Las Orquídeas, donde hubo operativos contra el grupo de microtráfico 'Trianón'",
+      "Antecedente de doble homicidio en 2016 (antiguo)"
+     ],
+     "positivos": [
+      "Zona 3 con programas deportivos municipales"
+     ]
+    },
+    "hist": [
+     [
+      "2026-11-28",
+      1800000
+     ]
+    ],
+    "fecha": "2026-11-28T05:30-05:00",
+    "alertas": [
+     "Al Metro Envigado son 32 min a pie (2.4 km): toca bus o carro."
+    ]
+   }
+  },
+  "dm-902828": {
+   "huella": "dm-902828|1500000",
+   "exp": {
+    "ids": [
+     "dm-902828"
+    ],
+    "precio": 1500000,
+    "hab": 2,
+    "banos": 1,
+    "area": 70,
+    "estrato": null,
+    "municipio": "Itagüí",
+    "barrio_portal": "La Colina",
+    "v": 6,
+    "barrio": "Santa María",
+    "sector": {
+     "nombre": null,
+     "via": "Carrera 54",
+     "referencias": [
+      "CIS Comfama Itagüí (123 m)",
+      "Colegio Comfama (136 m)",
+      "Escuela Matilde Arango (158 m)"
+     ],
+     "quebradas": [
+      "Quebrada Doña María (69 m)"
+     ],
+     "celda": "6.176,-75.608"
+    },
+    "sector_en_texto": null,
+    "texto_dice_otro_barrio": null,
+    "pin_en_otro_barrio": null,
+    "conjunto": null,
+    "conjunto_origen": null,
+    "disponible": true,
+    "publicado": "2026-11-26",
+    "modificado": "2026-11-28",
+    "en_pagina_desde": "2026-11-28",
+    "video": null,
+    "videos": [],
+    "tour": null,
+    "versiones": [
+     {
+      "fuente": "Doomos",
+      "url": "https://www.doomos.com.co/propiedad/apartamento-en-arriendo-sector-la-colina-3",
+      "disponible": true,
+      "publicado": "2026-11-26",
+      "modificado": "2026-11-28",
+      "anunciante": null,
+      "tel": null
+     }
+    ],
+    "rasgos": {
+     "porteria": false,
+     "vigilancia": false,
+     "unidad_cerrada": false,
+     "en_casa": true,
+     "ascensor": false,
+     "piscina": false,
+     "parqueadero": false,
+     "loma": false,
+     "dice_venta": false
+    },
+    "desc": "Descripción ¡SE ARRIENDA APARTAMENTO EN SEGUNDO PISO!Disfruta de un espacio cómodo, amplio y acogedor, con un área de 70 m², distribuidos en: 2 alcobas. 1 clóset. Sala comedor. Cocina integral. 1 baño cabinado. Zona de ropas. Red de gas. Piso en cerámica. Balcón. Terraza.Un inmueble con espacios funcionales y agradables, ideal para disfrutar de la comodidad de tu hogar.¡Contáctanos y agenda tu visita! Leer más Detalles de la propiedad Operación Arriendo Tipo de inmueble Apartamento Área total 70 m² Habitaciones 2 Baños 1 Año de construcción 2020 Precio por m² $ 21.429 Zona La Colina ID de propiedad # 902828 Ubicación La Colina Itagüí, Departamento de Antioquia Coordenadas: 6.176226 , -75.607",
+    "codigos": [],
+    "alias": [],
+    "ubicacion": {
+     "tipo": "exacta",
+     "lat": 6.1762255,
+     "lon": -75.6072418,
+     "osm": {
+      "barrio": "Santa María",
+      "via": "Carrera 54",
+      "municipio": "Itagüí"
+     }
+    },
+    "metro": {
+     "estacion": "Envigado",
+     "m_linea_recta": 1139
+    },
+    "recorridos": [
+     {
+      "lugar": "Metro Envigado",
+      "linea_recta_km": 1.1,
+      "pie_km": 1.5,
+      "pie_min": 19,
+      "carro_km": 2.5,
+      "carro_min": 5
+     },
+     {
+      "lugar": "Metro Itagüí",
+      "linea_recta_km": 1.5,
+      "pie_km": 2.0,
+      "pie_min": 27,
+      "carro_km": 2.0,
+      "carro_min": 4
+     },
+     {
+      "lugar": "Parque principal de Itagüí",
+      "linea_recta_km": 0.5,
+      "pie_km": 0.7,
+      "pie_min": 10,
+      "carro_km": 0.8,
+      "carro_min": 2
+     },
+     {
+      "lugar": "Centro Comercial Itagüí",
+      "linea_recta_km": 0.4,
+      "pie_km": 0.6,
+      "pie_min": 7,
+      "carro_km": 0.6,
+      "carro_min": 2
+     },
+     {
+      "lugar": "HOSPITAL",
+      "linea_recta_km": 0.9,
+      "pie_km": 1.1,
+      "pie_min": 15,
+      "carro_km": 1.1,
+      "carro_min": 2
+     },
+     {
+      "lugar": "Centro de Medellín (Parque Berrío)",
+      "linea_recta_km": 9.3,
+      "carro_km": 11.3,
+      "carro_min": 14
+     },
+     {
+      "lugar": "El Poblado (estación Poblado)",
+      "linea_recta_km": 5.1,
+      "carro_km": 6.7,
+      "carro_min": 8
+     }
+    ],
+    "cerca": {
+     "supermercados": [
+      {
+       "nombre": "Supermercado",
+       "m": 598
+      }
+     ],
+     "centros_comerciales": [
+      {
+       "nombre": "Centro Comercial Itagüí",
+       "m": 408
+      },
+      {
+       "nombre": "Mall Itagüí",
+       "m": 484
+      },
+      {
+       "nombre": "AGAVAL",
+       "m": 539
+      },
+      {
+       "nombre": "Algamar",
+       "m": 707
+      },
+      {
+       "nombre": "Quimicos antioquia",
+       "m": 1206
+      }
+     ],
+     "salud": [
+      {
+       "nombre": "CIS Comfama Itagüí",
+       "m": 123
+      },
+      {
+       "nombre": "Salud total",
+       "m": 766
+      },
+      {
+       "nombre": "HOSPITAL",
+       "m": 862
+      },
+      {
+       "nombre": "Clínica Antioquia",
+       "m": 940
+      }
+     ],
+     "colegios": [
+      {
+       "nombre": "Colegio Comfama",
+       "m": 136
+      },
+      {
+       "nombre": "Escuela Matilde Arango",
+       "m": 158
+      },
+      {
+       "nombre": "Academia Politecnica Interactiva",
+       "m": 294
+      },
+      {
+       "nombre": "Institución Cristo Rey",
+       "m": 320
+      },
+      {
+       "nombre": "Escuela Urbano El Tablazo",
+       "m": 357
+      }
+     ],
+     "parques": [
+      {
+       "nombre": "Parque Principal Itagüí",
+       "m": 490
+      },
+      {
+       "nombre": "Parque del Artista",
+       "m": 592
+      },
+      {
+       "nombre": "Parque Obrero",
+       "m": 681
+      }
+     ],
+     "paraderos": 0,
+     "carcel": null,
+     "nombres_cercanos": [],
+     "quebradas": [
+      {
+       "nombre": "Quebrada Doña María",
+       "m": 69
+      }
+     ]
+    },
+    "barrio_ficha": {
+     "nombre": "Santa María",
+     "seguridad": "media",
+     "recomendacion": "con precaución",
+     "terreno": "plano",
+     "razon": "Bien ubicado y económico, pero en 2026 hubo homicidios ligados a bandas y hay riesgo documentado de inundación cerca de la quebrada. Conviene evitar los edificios a orillas de la Doña María.",
+     "negativos": [
+      "En 2026 hubo homicidios en el barrio: un venezolano asesinado el 13 de junio y otro hombre baleado dentro de una vivienda. El Colombiano relaciona los hechos en Santa María y El Rosario con la disputa de El Ajizal",
+      "En mayo de 2025 la quebrada Doña María se desbordó en Santa María 2 (carrera 48 entre la calle 72 y la carrera 49) y dañó vehículos",
+      "Mucha actividad comercial y de bodegas, con tráfico y ruido"
+     ],
+     "positivos": [
+      "Sector comercial con el Centro de la Moda y la Central Mayorista cerca, y transporte frecuente",
+      "Precios más contenidos que en Ditaires o Suramérica",
+      "Telemedellín lo menciona entre los barrios destacados por su desarrollo y servicios (esa lista se hizo con IA)"
+     ]
+    },
+    "hist": [
+     [
+      "2026-11-28",
+      1500000
+     ]
+    ],
+    "fecha": "2026-11-28T05:30-05:00",
+    "alertas": [
+     "Es un apartamento en una casa (no en conjunto).",
+     "El anuncio no menciona portería, vigilancia ni unidad cerrada.",
+     "La Quebrada Doña María pasa a 69 m: pregunta si el edificio ha tenido problemas con crecientes."
+    ]
+   }
+  },
+  "m2-21136-M7261826": {
+   "huella": "m2-21136-M7261826|1800000",
+   "exp": {
+    "ids": [
+     "m2-21136-M7261826"
+    ],
+    "precio": 1800000,
+    "hab": 3,
+    "banos": 2,
+    "area": 65,
+    "estrato": 2,
+    "municipio": "Medellín",
+    "barrio_portal": "San Antonio de Prado",
+    "v": 6,
+    "barrio": "San Antonio de Prado",
+    "sector": {
+     "nombre": null,
+     "via": null,
+     "referencias": [],
+     "quebradas": [],
+     "celda": null
+    },
+    "sector_en_texto": null,
+    "texto_dice_otro_barrio": null,
+    "pin_en_otro_barrio": null,
+    "conjunto": "Entreprados",
+    "conjunto_origen": "anuncio",
+    "disponible": true,
+    "publicado": null,
+    "modificado": null,
+    "en_pagina_desde": "2026-11-27",
+    "video": true,
+    "videos": [
+     "https://youtu.be/EBgHBzmbJUg"
+    ],
+    "tour": null,
+    "versiones": [
+     {
+      "fuente": "Metrocuadrado",
+      "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-medellin-san-antonio-de-prado-3-habitaciones-2-banos-1-garajes/21136-M7261826",
+      "disponible": true,
+      "publicado": null,
+      "modificado": null,
+      "anunciante": "Inmobiliaria",
+      "tel": null
+     }
+    ],
+    "rasgos": {
+     "porteria": false,
+     "vigilancia": false,
+     "unidad_cerrada": false,
+     "en_casa": false,
+     "ascensor": false,
+     "piscina": false,
+     "parqueadero": true,
+     "loma": false,
+     "dice_venta": false
+    },
+    "desc": "Acerca de este inmueble Apartamento en Arriendo – Urbanización Entreprados, San Antonio de Prado Piso 3 Apartamento de aproximadamente 65 m², ubicado en la Urbanización Entreprados de San Antonio de Prado, en un sector residencial con fácil acceso a comercio, transporte público y servicios esenciales. Ideal para quienes buscan comodidad y espacios funcionales para disfrutar en familia.El inmueble cuenta con sala-comedor, cocina semintegral, 3 habitaciones, 2 clósets, 2 baños, balcón, zona de ropas y parqueadero privado. Nota No se paga servicio de agua. CODIGO 9769 Ver mas INMOBILIARIA LA ESTRELLA Antigüedad: Entre 0 y 5 años Barrio común: San Antonio De Prado Código: 21136-M7261826 Reportar",
+    "codigos": [
+     "21136",
+     "9769"
+    ],
+    "alias": [
+     [
+      "m2-21136-M7261826",
+      "lw-estrella-9769"
+     ]
+    ],
+    "ubicacion": {
+     "tipo": "punto genérico (lo usan varias inmobiliarias)",
+     "lat": 6.1784954,
+     "lon": -75.6503
+    },
+    "metro": {
+     "estacion": "La Estrella",
+     "m_linea_recta": 3898
+    },
+    "recorridos": null,
+    "cerca": {
+     "supermercados": [],
+     "centros_comerciales": [],
+     "salud": [
+      {
+       "nombre": "Centro de Salud del Limonar",
+       "m": 686
+      }
+     ],
+     "colegios": [
+      {
+       "nombre": "Escuela Gustavo Rodas Isaza",
+       "m": 385
+      },
+      {
+       "nombre": "Colegio Empresarial",
+       "m": 579
+      },
+      {
+       "nombre": "Fe y Alegría Limonar - Ventanitas",
+       "m": 716
+      },
+      {
+       "nombre": "Institución Educativa Ramón Giraldo Ceballos",
+       "m": 739
+      },
+      {
+       "nombre": "Jardín Infantil Capullos de Seda",
+       "m": 751
+      }
+     ],
+     "parques": [
+      {
+       "nombre": "Parque El Paraíso",
+       "m": 431
+      }
+     ],
+     "paraderos": 0,
+     "carcel": {
+      "nombre": "Carcel de Máxima Seguridad de Itagüí (EPC La Paz)",
+      "m": 1128
+     },
+     "nombres_cercanos": [
+      "Urbanización Reservas del Prado Etapa II"
+     ],
+     "quebradas": [
+      {
+       "nombre": "Quebrada La Manguala",
+       "m": 275
+      }
+     ]
+    },
+    "barrio_ficha": {
+     "nombre": "San Antonio de Prado",
+     "seguridad": "media",
+     "recomendacion": "con precaución",
+     "terreno": "lomas fuertes",
+     "razon": "Es económico y sin violencia recurrente, pero el acceso es su gran problema: en enero de 2026 hubo trayectos de más de 3 horas por el cierre de una vía.",
+     "negativos": [
+      "Lejos del centro y con trancones en la vía de acceso",
+      "Crecimiento urbano acelerado y construcción ilegal",
+      "Homicidios sicariales puntuales"
+     ],
+     "positivos": [
+      "Arriendos bajos y unidades nuevas",
+      "Ambiente de pueblo",
+      "Pocos homicidios en general (el primero de 2025 fue a finales de febrero)"
+     ]
+    },
+    "hist": [
+     [
+      "2026-11-27",
+      1800000
+     ]
+    ],
+    "fecha": "2026-11-28T05:30-05:00",
+    "alertas": [
+     "Ubicación no confirmada: el mapa usa un punto genérico (lo usan varias inmobiliarias). Pide la dirección exacta.",
+     "El anuncio no menciona portería, vigilancia ni unidad cerrada.",
+     "Hay una cárcel a 1128 m (Carcel de Máxima Seguridad de Itagüí (EPC La Paz)).",
+     "El metro más cercano (La Estrella) está a 3.9 km en línea recta."
+    ]
+   }
+  },
+  "m2-21136-M7224184": {
+   "huella": "m2-21136-M7224184|1650000",
+   "exp": {
+    "ids": [
+     "m2-21136-M7224184"
+    ],
+    "precio": 1650000,
+    "hab": 2,
+    "banos": 2,
+    "area": 52,
+    "estrato": 3,
+    "municipio": "La Estrella",
+    "barrio_portal": null,
+    "v": 6,
+    "barrio": null,
+    "sector": {
+     "nombre": null,
+     "via": null,
+     "referencias": [],
+     "quebradas": [],
+     "celda": null
+    },
+    "sector_en_texto": null,
+    "texto_dice_otro_barrio": null,
+    "pin_en_otro_barrio": null,
+    "conjunto": "Venecia",
+    "conjunto_origen": "anuncio",
+    "disponible": true,
+    "publicado": null,
+    "modificado": null,
+    "en_pagina_desde": "2026-11-26",
+    "video": false,
+    "videos": [],
+    "tour": null,
+    "versiones": [
+     {
+      "fuente": "Metrocuadrado",
+      "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-la-estrella-la-estrella-2-habitaciones-2-banos/21136-M7224184",
+      "disponible": true,
+      "publicado": null,
+      "modificado": null,
+      "anunciante": "Inmobiliaria",
+      "tel": null
+     }
+    ],
+    "rasgos": {
+     "porteria": false,
+     "vigilancia": false,
+     "unidad_cerrada": false,
+     "en_casa": false,
+     "ascensor": true,
+     "piscina": false,
+     "parqueadero": true,
+     "loma": false,
+     "dice_venta": false
+    },
+    "desc": "Acerca de este inmueble Apartamento Interno en Arriendo – Edificio Venecia, La Estrella Piso 5 Apartamento interno de aproximadamente 52 m², ubicado en el Edificio Venecia, en La Estrella, en un sector residencial tranquilo y con fácil acceso a comercio, transporte público y servicios esenciales. Cuenta con sala comedor, cocina integral con red de gas, 2 alcobas,2 closet, 1 baño cabinado,1 baño social, zona de ropas, ofreciendo espacios cómodos y bien distribuidos, ideales para disfrutar en familia. El edificio cuenta con ascensor, brindando mayor comodidad y facilidad de acceso al apartamento. Nota El apartamento no cuenta con parqueadero. Apartamento con opción a venta. CODIGO 9738 Ver mas",
+    "codigos": [
+     "21136",
+     "9738"
+    ],
+    "alias": [
+     [
+      "m2-21136-M7224184",
+      "lw-estrella-9738"
+     ]
+    ],
+    "ubicacion": {
+     "tipo": "punto genérico (lo usan varias inmobiliarias)",
+     "lat": 6.1597342,
+     "lon": -75.64331
+    },
+    "metro": {
+     "estacion": "La Estrella",
+     "m_linea_recta": 2030
+    },
+    "recorridos": null,
+    "cerca": {
+     "supermercados": [
+      {
+       "nombre": "Tienda Ara",
+       "m": 204
+      },
+      {
+       "nombre": "Tienda D1",
+       "m": 209
+      },
+      {
+       "nombre": "Supermercado Maxioferta Estrella Parque",
+       "m": 310
+      },
+      {
+       "nombre": "Abarrotes La 80",
+       "m": 473
+      },
+      {
+       "nombre": "D1",
+       "m": 768
+      }
+     ],
+     "centros_comerciales": [
+      {
+       "nombre": "Centro Comercial Venecia",
+       "m": 10
+      },
+      {
+       "nombre": "Mall Bavaria",
+       "m": 693
+      }
+     ],
+     "salud": [
+      {
+       "nombre": "IPS Comfama Sura",
+       "m": 326
+      },
+      {
+       "nombre": "Cis La Estrella Edificio Fuente Clara",
+       "m": 330
+      },
+      {
+       "nombre": "CIS Comfama La Estrella",
+       "m": 432
+      },
+      {
+       "nombre": "Hospital La Estrella",
+       "m": 492
+      }
+     ],
+     "colegios": [
+      {
+       "nombre": "Escuela Rafael Pombo",
+       "m": 120
+      },
+      {
+       "nombre": "Centro Educativo Trotamundo",
+       "m": 136
+      },
+      {
+       "nombre": "Centro Educativo Manantial",
+       "m": 164
+      },
+      {
+       "nombre": "Centro Educativo Siderense",
+       "m": 330
+      },
+      {
+       "nombre": "Manuela Beltran",
+       "m": 390
+      }
+     ],
+     "parques": [
+      {
+       "nombre": "Parque La Estrella",
+       "m": 236
+      },
+      {
+       "nombre": "Parque Villa Mira",
+       "m": 425
+      },
+      {
+       "nombre": "Quebrada La Ospina",
+       "m": 430
+      },
+      {
+       "nombre": "Parque El Romeral",
+       "m": 508
+      }
+     ],
+     "paraderos": 1,
+     "carcel": {
+      "nombre": "Carcel de Máxima Seguridad de Itagüí (EPC La Paz)",
+      "m": 1164
+     },
+     "nombres_cercanos": [],
+     "quebradas": [
+      {
+       "nombre": "Quebrada La Llorona",
+       "m": 217
+      }
+     ]
+    },
+    "barrio_ficha": null,
+    "hist": [
+     [
+      "2026-11-26",
+      1650000
+     ]
+    ],
+    "fecha": "2026-11-28T05:30-05:00",
+    "alertas": [
+     "Ubicación no confirmada: el mapa usa un punto genérico (lo usan varias inmobiliarias). Pide la dirección exacta.",
+     "El anuncio no menciona portería, vigilancia ni unidad cerrada.",
+     "Hay una cárcel a 1164 m (Carcel de Máxima Seguridad de Itagüí (EPC La Paz))."
+    ]
+   },
+   "opinion": {
+    "id": "m2-21136-M7224184",
+    "veredicto": "no recomendable",
+    "puntaje": 3,
+    "frase": "Ubicación no confirmada y sin portería; cerca a cárcel.",
+    "resumen": "La ubicación no está confirmada, el anuncio no menciona portería y está cerca de una cárcel, lo que genera incertidumbre sobre la seguridad.",
+    "a_favor": [
+     "Apartamento cómodo y con ascensor.",
+     "Cercanía a supermercados y centros comerciales (si la ubicación es correcta)."
+    ],
+    "en_contra": [
+     "Ubicación no confirmada (punto genérico).",
+     "No cuenta con portería ni vigilancia.",
+     "Cercanía a la Cárcel de Máxima Seguridad de Itagüí (1.1 km)."
+    ],
+    "preguntar": [
+     "¿Cuál es la dirección exacta del apartamento?",
+     "¿El edificio cuenta con portería o algún sistema de seguridad?",
+     "¿Hay alguna ruta de bus directa al Metro La Estrella?"
+    ],
+    "transporte": "No se puede evaluar el transporte con precisión sin la ubicación exacta. El Metro La Estrella está a 2.5 km a pie, requiriendo bus o carro.",
+    "fecha": "2026-11-28T05:32-05:00"
+   }
+  },
+  "lw-estrella-9761": {
+   "huella": "lw-estrella-9761|1700000",
+   "exp": {
+    "ids": [
+     "lw-estrella-9761"
+    ],
+    "precio": 1700000,
+    "hab": 2,
+    "banos": 2,
+    "area": 56,
+    "estrato": 3,
+    "municipio": "Itagüí",
+    "barrio_portal": null,
+    "v": 6,
+    "barrio": null,
+    "sector": {
+     "nombre": "plano y de alta valorización",
+     "via": "Calle 100d",
+     "referencias": [
+      "Centro Educativo Mundo Ideal (351 m)"
+     ],
+     "quebradas": [
+      "Río Medellín (98 m)",
+      "Quebrada La Montañita (107 m)",
+      "Quebrada La Polvosa (293 m)"
+     ],
+     "celda": "6.116,-75.632"
+    },
+    "sector_en_texto": "plano y de alta valorización",
+    "texto_dice_otro_barrio": null,
+    "pin_en_otro_barrio": null,
+    "conjunto": null,
+    "conjunto_origen": null,
+    "disponible": true,
+    "publicado": "2026-11-24",
+    "modificado": null,
+    "en_pagina_desde": "2026-11-20",
+    "video": true,
+    "videos": [
+     "https://youtu.be/Ki42WWuwZws",
+     "https://youtu.be/d4sbj7ghjho",
+     "https://youtu.be/9R_ANx147pU",
+     "https://youtu.be/Lnddjm1Tjws",
+     "https://youtu.be/i0jJj7vXOOk",
+     "https://youtu.be/sxxaeMhG5do",
+     "https://youtu.be/ur3FqTyY6rk",
+     "https://youtu.be/fn37yYKMwII",
+     "https://youtu.be/V41M-sa9mKI"
+    ],
+    "tour": null,
+    "versiones": [
+     {
+      "fuente": "Inmobiliaria La Estrella",
+      "url": "https://www.inmobiliarialaestrella.com/detalle-propiedad/apartamento-enarriendo-en-itagui-9761",
+      "disponible": true,
+      "publicado": "2026-11-24",
+      "modificado": null,
+      "anunciante": "Inmobiliaria La Estrella",
+      "tel": "6042500646"
+     }
+    ],
+    "rasgos": {
+     "porteria": true,
+     "vigilancia": false,
+     "unidad_cerrada": true,
+     "en_casa": false,
+     "ascensor": false,
+     "piscina": false,
+     "parqueadero": true,
+     "loma": true,
+     "dice_venta": true
+    },
+    "desc": "Apartamento en venta en Itagüí, ubicado en un sector plano y de alta valorización, con excelente conectividad hacia la Avenida Regional y Avenida Guayabal. Su estratégica ubicación permite fácil acceso a centros de salud, centros comerciales, supermercados, bancos y una amplia oferta de servicios que brindan comodidad y calidad de vida. Cuenta con un área de 67.90 m, distribuidos de manera funcional y moderna. Dispone de 2 habitaciones, 2 baños completos, estudio con posibilidad de adecuarse como tercera habitación, sala comedor con excelente iluminación natural, cocina abierta integrada al área social y zona de ropas independiente. Además, su vista definida ofrece mayor privacidad y un ambi",
+    "codigos": [],
+    "alias": [],
+    "ubicacion": {
+     "tipo": "de la ficha",
+     "lat": 6.117456799999999,
+     "lon": -75.6322718,
+     "osm": {
+      "barrio": null,
+      "via": "Calle 100d",
+      "municipio": "La Tablaza"
+     }
+    },
+    "metro": {
+     "estacion": "La Estrella",
+     "m_linea_recta": 3982
+    },
+    "recorridos": [
+     {
+      "lugar": "Metro La Estrella",
+      "linea_recta_km": 4.0,
+      "carro_km": 6.1,
+      "carro_min": 8
+     },
+     {
+      "lugar": "Metro Sabaneta",
+      "linea_recta_km": 4.8,
+      "carro_km": 7.4,
+      "carro_min": 10
+     },
+     {
+      "lugar": "Parque principal de La Estrella",
+      "linea_recta_km": 4.6,
+      "carro_km": 6.1,
+      "carro_min": 11
+     },
+     {
+      "lugar": "Mall Antares",
+      "linea_recta_km": 2.8,
+      "pie_km": 4.0,
+      "pie_min": 53,
+      "carro_km": 4.1,
+      "carro_min": 8
+     },
+     {
+      "lugar": "Hospital Venancio Díaz Díaz",
+      "linea_recta_km": 3.6,
+      "carro_km": 7.4,
+      "carro_min": 11
+     },
+     {
+      "lugar": "Centro de Medellín (Parque Berrío)",
+      "linea_recta_km": 16.4,
+      "carro_km": 19.8,
+      "carro_min": 23
+     },
+     {
+      "lugar": "El Poblado (estación Poblado)",
+      "linea_recta_km": 12.1,
+      "carro_km": 15.2,
+      "carro_min": 17
+     }
+    ],
+    "cerca": {
+     "supermercados": [
+      {
+       "nombre": "Justo y Bueno",
+       "m": 551
+      },
+      {
+       "nombre": "Merkespress",
+       "m": 590
+      }
+     ],
+     "centros_comerciales": [],
+     "salud": [],
+     "colegios": [
+      {
+       "nombre": "Centro Educativo Mundo Ideal",
+       "m": 351
+      },
+      {
+       "nombre": "Colegio Colombo Frances",
+       "m": 432
+      },
+      {
+       "nombre": "Tulio Ospina",
+       "m": 508
+      },
+      {
+       "nombre": "Institucion Educativa José Antonio Galán",
+       "m": 603
+      }
+     ],
+     "parques": [],
+     "paraderos": 0,
+     "carcel": null,
+     "nombres_cercanos": [],
+     "quebradas": [
+      {
+       "nombre": "Río Medellín",
+       "m": 98
+      },
+      {
+       "nombre": "Quebrada La Montañita",
+       "m": 107
+      },
+      {
+       "nombre": "Quebrada La Polvosa",
+       "m": 293
+      }
+     ]
+    },
+    "barrio_ficha": null,
+    "hist": [
+     [
+      "2026-11-20",
+      1700000
+     ]
+    ],
+    "fecha": "2026-11-28T05:30-05:00",
+    "alertas": [
+     "La descripción menciona «venta»: confirma que sea arriendo.",
+     "La Río Medellín pasa a 98 m: pregunta si el edificio ha tenido problemas con crecientes.",
+     "El Metro La Estrella queda a 6.1 km por vía: no es caminable."
+    ]
+   },
+   "opinion": {
+    "id": "lw-estrella-9761",
+    "veredicto": "con reservas",
+    "puntaje": 6,
+    "frase": "Unidad cerrada con portería, pero el anuncio es de venta.",
+    "resumen": "El apartamento está en una unidad cerrada con portería, cumpliendo una prioridad clave, pero el anuncio es de venta y no de arriendo.",
+    "a_favor": [
+     "Unidad cerrada con portería, cumpliendo prioridad de seguridad.",
+     "Sector plano y de alta valorización con buena conectividad.",
+     "Cercanía a colegios y transporte público."
+    ],
+    "en_contra": [
+     "El anuncio es de venta, no de arriendo.",
+     "Cercanía a ríos y quebradas con riesgo de inundaciones.",
+     "El Metro La Estrella no es caminable (6.1 km)."
+    ],
+    "preguntar": [
+     "¿El apartamento está disponible para arriendo o solo para venta?",
+     "¿El edificio ha tenido problemas con crecientes de los ríos cercanos?",
+     "¿Hay rutas de bus directas y frecuentes al Metro La Estrella?"
+    ],
+    "transporte": "Bien conectado con rutas de bus a la Estación Alpujarra del Metro (12-15 min) y al Centro de Medellín (12-14 min).",
+    "fecha": "2026-11-28T05:32-05:00"
+   }
+  },
+  "m2-21136-M7131503": {
+   "huella": "m2-21136-M7131503|1700000",
+   "exp": {
+    "ids": [
+     "m2-21136-M7131503"
+    ],
+    "precio": 1700000,
+    "hab": 2,
+    "banos": 2,
+    "area": 68,
+    "estrato": 3,
+    "municipio": "Medellín",
+    "barrio_portal": "San Antonio de Prado",
+    "v": 6,
+    "barrio": "San Antonio de Prado",
+    "sector": {
+     "nombre": "La Gruta",
+     "via": "Calle 42A Sur",
+     "referencias": [
+      "Institución Educativa Manuel J Betancur (130 m)",
+      "Merque Paisa (137 m)",
+      "supermercado maxioferta prado 1 (179 m)"
+     ],
+     "quebradas": [
+      "Quebrada La Manguala (171 m)"
+     ],
+     "celda": "6.184,-75.656"
+    },
+    "sector_en_texto": "La Gruta",
+    "texto_dice_otro_barrio": null,
+    "pin_en_otro_barrio": null,
+    "conjunto": null,
+    "conjunto_origen": null,
+    "disponible": true,
+    "publicado": null,
+    "modificado": null,
+    "en_pagina_desde": "2026-11-16",
+    "video": false,
+    "videos": [],
+    "tour": null,
+    "versiones": [
+     {
+      "fuente": "Metrocuadrado",
+      "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-medellin-san-antonio-de-prado-2-habitaciones-2-banos/21136-M7131503",
+      "disponible": true,
+      "publicado": null,
+      "modificado": null,
+      "anunciante": "Inmobiliaria",
+      "tel": "6044480577"
+     }
+    ],
+    "rasgos": {
+     "porteria": false,
+     "vigilancia": false,
+     "unidad_cerrada": false,
+     "en_casa": false,
+     "ascensor": true,
+     "piscina": false,
+     "parqueadero": true,
+     "loma": false,
+     "dice_venta": false
+    },
+    "desc": "Acerca de este inmueble Apartamento en Arriendo – Sector La Gruta, San Antonio de Prado Piso 2 Apartamento de aproximadamente 68 m², ubicado en San Antonio de Prado,Sector la gruta al frente del parqueadero y Vivero El Sevillano, en un sector tranquilo y de fácil acceso. La propiedad cuenta con sala comedor, cocina integral con red de gas, 2 alcobas, 2 closets, 1 baño cabinado y zona de ropas.El inmueble no cuenta con parqueadero y el edificio no cuenta con ascensor. CODIGO 9681 Ver mas INMOBILIARIA LA ESTRELLA Antigüedad: Entre 0 y 5 años Barrio común: San Antonio De Prado Código: 21136-M7131503 Reportar anuncio Cerrar ",
+    "codigos": [
+     "21136",
+     "9681"
+    ],
+    "alias": [
+     [
+      "m2-21136-M7131503",
+      "lw-estrella-9681"
+     ]
+    ],
+    "ubicacion": {
+     "tipo": "de la ficha",
+     "lat": 6.184068,
+     "lon": -75.65485,
+     "osm": {
+      "barrio": null,
+      "via": "Calle 42A Sur",
+      "municipio": "Medellín"
+     }
+    },
+    "metro": {
+     "estacion": "La Estrella",
+     "m_linea_recta": 4695
+    },
+    "recorridos": [
+     {
+      "lugar": "Metro La Estrella",
+      "linea_recta_km": 4.7,
+      "carro_km": 7.5,
+      "carro_min": 15
+     },
+     {
+      "lugar": "Metro Sabaneta",
+      "linea_recta_km": 5.2,
+      "carro_km": 8.4,
+      "carro_min": 17
+     },
+     {
+      "lugar": "Parque principal de San Antonio de Prado",
+      "linea_recta_km": 0.2,
+      "pie_km": 0.3,
+      "pie_min": 4,
+      "carro_km": 0.4,
+      "carro_min": 1
+     },
+     {
+      "lugar": "Centro Comercial Venecia",
+      "linea_recta_km": 3.0,
+      "pie_km": 4.0,
+      "pie_min": 53,
+      "carro_km": 4.4,
+      "carro_min": 9
+     },
+     {
+      "lugar": "Hospital La Estrella",
+      "linea_recta_km": 3.4,
+      "carro_km": 5.1,
+      "carro_min": 11
+     },
+     {
+      "lugar": "Centro de Medellín (Parque Berrío)",
+      "linea_recta_km": 12.1,
+      "carro_km": 18.5,
+      "carro_min": 28
+     },
+     {
+      "lugar": "El Poblado (estación Poblado)",
+      "linea_recta_km": 9.0,
+      "carro_km": 13.9,
+      "carro_min": 22
+     }
+    ],
+    "cerca": {
+     "supermercados": [
+      {
+       "nombre": "Merque Paisa",
+       "m": 137
+      },
+      {
+       "nombre": "supermercado maxioferta prado 1",
+       "m": 179
+      },
+      {
+       "nombre": "maxioferta prado 1",
+       "m": 181
+      },
+      {
+       "nombre": "supermercadoo maxioferta prado 3",
+       "m": 260
+      },
+      {
+       "nombre": "supermercado maxioferta prado 3",
+       "m": 261
+      }
+     ],
+     "centros_comerciales": [],
+     "salud": [],
+     "colegios": [
+      {
+       "nombre": "Institución Educativa Manuel J Betancur",
+       "m": 130
+      },
+      {
+       "nombre": "Institución Educativa San Antonio de Prado",
+       "m": 183
+      },
+      {
+       "nombre": "Institución Educativa Manuel J. Betancur",
+       "m": 289
+      },
+      {
+       "nombre": "Colegio Empresarial",
+       "m": 497
+      }
+     ],
+     "parques": [
+      {
+       "nombre": "Parque Principal San Antonio de Prado",
+       "m": 206
+      },
+      {
+       "nombre": "Parque El Paraíso",
+       "m": 738
+      }
+     ],
+     "paraderos": 3,
+     "carcel": null,
+     "nombres_cercanos": [],
+     "quebradas": [
+      {
+       "nombre": "Quebrada La Manguala",
+       "m": 171
+      }
+     ]
+    },
+    "barrio_ficha": {
+     "nombre": "San Antonio de Prado",
+     "seguridad": "media",
+     "recomendacion": "con precaución",
+     "terreno": "lomas fuertes",
+     "razon": "Es económico y sin violencia recurrente, pero el acceso es su gran problema: en enero de 2026 hubo trayectos de más de 3 horas por el cierre de una vía.",
+     "negativos": [
+      "Lejos del centro y con trancones en la vía de acceso",
+      "Crecimiento urbano acelerado y construcción ilegal",
+      "Homicidios sicariales puntuales"
+     ],
+     "positivos": [
+      "Arriendos bajos y unidades nuevas",
+      "Ambiente de pueblo",
+      "Pocos homicidios en general (el primero de 2025 fue a finales de febrero)"
+     ]
+    },
+    "hist": [
+     [
+      "2026-11-16",
+      1700000
+     ]
+    ],
+    "fecha": "2026-11-28T05:30-05:00",
+    "alertas": [
+     "El anuncio no menciona portería, vigilancia ni unidad cerrada.",
+     "El Metro La Estrella queda a 7.5 km por vía: no es caminable."
+    ]
+   },
+   "opinion": {
+    "id": "m2-21136-M7131503",
+    "veredicto": "con reservas",
+    "puntaje": 5,
+    "frase": "Sector tranquilo, pero sin portería y con riesgo de agua.",
+    "resumen": "El apartamento está en un sector tranquilo con comercio cercano, pero carece de portería y el barrio tiene problemas de acceso y racionamiento de agua.",
+    "a_favor": [
+     "Sector La Gruta es tranquilo y de fácil acceso.",
+     "Cercanía a supermercados y colegios.",
+     "Transporte público con rutas frecuentes."
+    ],
+    "en_contra": [
+     "No cuenta con portería ni vigilancia.",
+     "Racionamiento de agua en el sector por Quebrada La Manguala.",
+     "Barrio San Antonio de Prado lejos del centro y con trancones."
+    ],
+    "preguntar": [
+     "¿El edificio cuenta con algún sistema de seguridad?",
+     "¿Ha habido problemas recientes de racionamiento de agua en el edificio?",
+     "¿Cuál es el tiempo real de viaje al Metro en hora pico?"
+    ],
+    "transporte": "El sector tiene rutas de bus frecuentes a estaciones del Metro como Aguacatala (10 min) y Exposiciones (28-32 min), y al Centro de Medellín (45 min).",
+    "fecha": "2026-11-28T05:32-05:00"
    }
   }
  },
@@ -637097,6 +638230,85 @@
     }
    ],
    "fecha": "2026-11-28T03:03-05:00"
+  },
+  "Sabaneta|san joaquin": {
+   "encontrado": true,
+   "seguridad": "sin datos",
+   "resumen": "San Joaquín en Sabaneta es un sector que ha estado en el foco de noticias por el avance de un proyecto de vivienda de interés social que lleva años de retraso. No se encontraron noticias específicas sobre seguridad (hurtos, homicidios, extorsión, microtráfico) directamente en el barrio San Joaquín para los años 2025 y 2026.",
+   "hechos": [
+    {
+     "fecha": "2026-03-23",
+     "que": "227 familias siguen esperando la entrega de sus apartamentos en el proyecto de vivienda de interés social Santa Ana - San Joaquín, que lleva casi 12 años de retraso. La torre 2 se entregaría en diciembre de 2026 y la torre 1 en el primer semestre de 2027.",
+     "medio": "El Colombiano"
+    },
+    {
+     "fecha": "2025-10-22",
+     "que": "Se reporta el avance en la construcción del proyecto de vivienda Santa Ana y San Joaquín, con trabajos en morteros, reparación de escalas, enchapes, acabados de punto fijo, instalación de ascensor, zona de tanques para red contra incendios y cuarto de bombas. También se finalizó el cuarto de basuras y la subestación eléctrica, y se trabaja en ventanería y restauración de fachadas.",
+     "medio": "YouTube - ¡Santa Ana y San Joaquín renacen para Sabaneta!"
+    }
+   ],
+   "contexto_municipio": [
+    "En mayo de 2026, el alcalde de Sabaneta, Alder Cruz, afirmó que todos los delitos están a la baja en el municipio, destacando tres años sin casos de sicariato y una disminución del 67% en extorsión y 47% en hurto a comercio.",
+    "En enero de 2026, un deslizamiento de tierra en el sector San José de Sabaneta afectó la vía principal hacia los complejos residenciales Aires del Campo y Aires del Bosque, sin reportar heridos ni fallecimientos, pero generando interrupción del tránsito y acumulación de lodo.",
+    "En mayo de 2025, Sabaneta sufrió una grave emergencia por lluvias, con múltiples movimientos en masa y una creciente súbita en la quebrada La Doctora, siendo el sector de San Isidro el punto crítico con 5 personas fallecidas y 2 desaparecidas."
+   ],
+   "problemas": [
+    "Retraso de casi 12 años en la entrega de apartamentos del proyecto de vivienda de interés social Santa Ana - San Joaquín (2026)."
+   ],
+   "positivos": [
+    "Avance en la construcción del proyecto de vivienda Santa Ana y San Joaquín, con trabajos en diversas áreas y la finalización de la subestación eléctrica y cuarto de basuras (2025)."
+   ],
+   "_fuentes": [
+    {
+     "titulo": "elcolombiano.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFEdGnrM60aiNCnwILB86QshBrnKw1zKjaWo3YIV2YwBz6tGv1Rbs4lvuB9Nq0PomjmYaFQv-w0y4iC4WobuyQ3Om0DjHGnrgiMMXXeyawsVIQXbK7QgT8_0nuDlDdUk63AHHmkRgfK0ezNKdUGDjI6rskGvBrVUTWoqpQrQtb6v5S-i6pTl7WSyelGbbEgwYHbl2GmVcoM4kXfBeKR7_QEzwGyUnz1KQ5xSpc="
+    },
+    {
+     "titulo": "youtube.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzlhZwi0uvBTrwAn8yZvcH6Z_I3kleif87OghAjDaPF36RL-hDR-BoN4UZvWnBbDU8JA5hzQfKSsL4s2K8LZquezpp2CVyN_PLIbBX1oLOMPbEEC8Ys4hq-Mua27gSQk7J-444IN8="
+    },
+    {
+     "titulo": "youtube.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFeVZq-IllDQMpi18gO8A57B7s_h1CFruvoavkas5vJo6gX_FmIsxiyOvs3dpE80FdqfP8LxXLf5yemqwgW9J8h1hYfCYToC4TMz0nP5-nBqbRXBVNotGxTsNDoSIUS6suIThwvlfs="
+    },
+    {
+     "titulo": "youtube.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFT8Be6_vwT0p-BCCtWx013-jDpC1tL-11ykzG2u7663YuXg8YUFJ2QpTRHtdgdQvrRDjCoLy6hecZ2K7nQ6ly_kHXfxEXgzXyPSJZYJ1rUszmrQ9CzSoueJ_QGF14GD513HsuzFi8="
+    },
+    {
+     "titulo": "infobae.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmziWEzqCPhoUYCFYUOdSxLPxTkmsjT-wI_FP_t2qBvCGZqCmbIzKC12XbEROBPEgOCvg_AYpCXLBzwv6s4EkaqA7D7YT6rqiBn_Z78_8uwMWuFHV0U3oISSkM66HnZLQy_SAYCKUQdPECKe5cDbTXeHP5VCXb8pgXKKYQ0eFKPO_826XC7kArILryq4tFQRjxR3YiVDg8Of-gxpCuEi6k7nklUKv12QUW6SRIG04rrX-b5yqK5wPyp79RBCkjoWvubJYhcQhC1dmJsxVvF855BUmbRokO83c8i5GiAomT"
+    },
+    {
+     "titulo": "youtube.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHwvDnmxzqSBPqcI3wE4ht20-D69z--EbZwwSsw3AD5aRSm1ZK5smFlKpQ_X5rv-clr3fO5Xm-Ee_uebCLPeVQSqp6wj_5bAWdz4-4u8rpOWuad4n-TIJIILGU6kfhl67ujVfLsrzQ="
+    },
+    {
+     "titulo": "noscogiolanoche.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfjJp0A-1QZ81xbOxlVn4wqLSTY9sGl4QSzdnOKhYPpnflr354axA-sf7S93cG6NveR86aywYY8WG5ofPAUd2JBiYdHTX29WWq8EBizSmuB0dP7lnzHTHCOuR9RXPdlSO7s8kjzgpn83O2_zazbke_NvrjivZ6pepsKj69RUD_dIcjiUIOB2Zy2RHgWM_tShCAVURP2-d8vWkOHb12zyXJ_uQgcxg3qe-kzZqEmx3wP38toOLZ0cv9RLuEtj6FvN14Bn6MFQYwWQAyHw=="
+    },
+    {
+     "titulo": "elcolombiano.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHlFj76cRZelRsKivL_RIFhWarRf5iTReIv68D6oBgZmfbq1go11sd3SfdPC69c2fj05hOS3ZJSTsSqND1XyzitojqNhAKv3GL19iEcisVNzTfg5D646EZXDG6ASsbYaNuVHXNzYnHIR6Y1sRbXXS1ZnnBzr2LaxzE__nyYNgYSpm4qiugzgeV4DU4gPz4_7Y9RoXJVNYo6NX-4P2hDJgWSp0HDDzptNE="
+    },
+    {
+     "titulo": "sabaneta.gov.co",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFzt4PfAjGmwVaMV1YS3c3E3PD0CwMsXR9eT49J7Zu5PdQQSBAFaEqEN7epLfAoPCacl1G8JAKEBqGEwCZHR8azm2fV-oSwHy8Pyl9gfjwSnyqf75dz4I8GjZ47PzOwUAhq4XJgbsOB_BS9th88_5TAL0MmnRJL0FhGIzo-9gySe2tneC-BfBeepsfFmliQ3_fQlxPcqUuzfJjHQk1Jv2eP51FO1MYhFKQ00i3QhABhHIqLAoADHA=="
+    },
+    {
+     "titulo": "semana.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfx6Tjch2VbEH2h0Cnk9VB2DsgeJDnfCF_ePyQxv83slTJ53p5zJ16xtifAJUr-WaPWiHhjm69daIH21g9LrYLmAy2Isx88ahxYGOypFmT3_2xMjGZtnD9rXil6bXY-cR_tkmXuOlFTvKN8hchxwg7McKH24g1LvToswF-r5vJHYaEGtjRaqKm56z8XVuv43-VoDdD8ZY9LVGZ6zRGMvtc19thom1QmxDYgXwCIi4rOb9hx_QnqRL6vOnoCM4AbHb-WFIxeNM="
+    },
+    {
+     "titulo": "elcolombiano.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHC0S62ywYPi8jBtjYrljY3sMsYV8hqDpDUlV3rf8VVZwpnaba4VKRRqfdBaSeHqjJzTzSdNlXU5l_mX8mDSglhn-YW7vc9wSbHmvB6sa9ld0HpIQqTdKGnLg5dMDerdJcxiG8SfDaJ7W0iZnZegA4ShIwFR8Q1gVkCIsTmYsNvIx0O5xYlQ63qttd5oWl-x2bjvGyZdldhfQ-c5rUq71E57BvX9Rtszyzut9Wp5rxZ3A=="
+    },
+    {
+     "titulo": "youtube.com",
+     "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFD-iHQ5smRMOeeILSrGFelCq4fBmPUIO6_oPccJqI1ZGJJf9wCRGMJKrTguzmiqS3Z3l7AolTKqTrHAnCH4JAAlhD3gTM0jOxWh7R3rLWD5nG9TpseY7PkRSo9j3yvTrijuAu8C5g="
+    }
+   ],
+   "fecha": "2026-11-28T05:31-05:00"
   }
  },
  "conjuntos": {
@@ -640965,7 +642177,7 @@
  },
  "uso_ia": {
   "fecha": "2026-11-28",
-  "n": 7
+  "n": 9
  },
  "sectores": {
   "Medellín|celda|6.216,-75.604": {
