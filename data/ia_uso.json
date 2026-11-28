@@ -1,20 +1,20 @@
 {
  "agotadas": [],
  "fecha": "2026-11-27",
- "groq": 1,
+ "groq": 2,
  "invalidas": [
   "o0w4"
  ],
  "uso": {
-  "gemini-2.5-flash|6TF0": 14,
+  "gemini-2.5-flash|6TF0": 19,
   "gemini-2.5-flash|9iaw": 19,
-  "gemini-2.5-flash|NAkE": 11,
-  "gemini-2.5-flash|R7Cc": 9,
-  "gemini-2.5-flash|yfLA": 10,
-  "gemini-3.1-flash-lite|6TF0": 2,
-  "gemini-3.1-flash-lite|9iaw": 3,
-  "gemini-3.1-flash-lite|NAkE": 2,
-  "gemini-3.1-flash-lite|R7Cc": 2,
-  "gemini-3.1-flash-lite|yfLA": 2
+  "gemini-2.5-flash|NAkE": 16,
+  "gemini-2.5-flash|R7Cc": 13,
+  "gemini-2.5-flash|yfLA": 14,
+  "gemini-3.1-flash-lite|6TF0": 3,
+  "gemini-3.1-flash-lite|9iaw": 5,
+  "gemini-3.1-flash-lite|NAkE": 3,
+  "gemini-3.1-flash-lite|R7Cc": 3,
+  "gemini-3.1-flash-lite|yfLA": 3
  }
 }
